@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Large / regenerable pipeline data
+galen-density-map/data/raw_xml/
+galen-density-map/data/extracted_text/
+galen-density-map/data/reference_corpus/
+galen-density-map/data/lemmatized/
+galen-density-map/data/lsj/
+galen-density-map/data/*.log
+# Keep auditable stoplists under version control
+!galen-density-map/data/stoplists/
+!galen-density-map/data/stoplists/**
+galen-density-map/outputs/
+!galen-density-map/outputs/.gitkeep
+
+# Scratch
+_zip_preview/
+*.zip
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Duplicate/draft stoplist leftovers (authoritative names: authors.txt, units_numerals.txt)
+galen-density-map/data/stoplists/author_*.txt
+

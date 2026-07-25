@@ -1,0 +1,104 @@
+tlg_number,edition_suffix,urn,title,languages,wordcount,kuhn_volume_approx,category,scaife_url
+tlg001,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1,Adhortatio ad artes addiscendas,grc,5041,I,protreptic,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1:1
+tlg001,1st1K-grc2,urn:cts:greekLit:tlg0057.tlg001.1st1K-grc2,Protrepticus,"grc,lat",5092,I,protreptic,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc2:1
+tlg002,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1,De optima doctrina,"grc,lat",1830,I,methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1:1
+tlg003,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1,Quod optimus medicus sit quoque philosophus,"grc,lat",1388,I,methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1:1
+tlg004,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1,De sectis ad eos qui introducuntur,"grc,eng,lat",6225,I,methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1:1
+tlg006,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1,De constitutione artis medicae ad Patrophilum,"grc,lat,eng",11963,I,methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1:1
+tlg007,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg007.1st1K-grc1,Ars Medica,"grc,lat,eng",16153,I,methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg007.1st1K-grc1:1
+tlg008,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1,De elementis ex Hippocrate,"grc,eng,lat",13405,I,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1:1
+tlg009,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1,De temperamentis,"grc,eng,lat",27694,I,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1:1
+tlg009,1st1K-grc2,urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2,De temperamentis,"grc,eng,lat",27714,I,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2:1
+tlg010,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg010.1st1K-grc1,De naturalibus facultatibus,"grc,eng,grc",31893,II,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg010.1st1K-grc1:1
+tlg011,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg011.1st1K-grc1,De anatomicis administrationibus,"grc,eng,lat",78402,II,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg011.1st1K-grc1:1
+tlg012,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg012.1st1K-grc1,De ossibus ad tirones,"grc,eng,lat",6930,II,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg012.1st1K-grc1:1
+tlg013,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg013.1st1K-grc1,De venarum arteriarumque dissectione,"grc,eng,lat",7539,II,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg013.1st1K-grc1:1
+tlg014,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg014.1st1K-grc1,De nervorum dissectione,"grc,eng,lat",3606,II,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg014.1st1K-grc1:1
+tlg015,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg015.1st1K-grc1,De instrumento odoratus,"grc,eng,lat",4198,II,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg015.1st1K-grc1:1
+tlg016,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg016.1st1K-grc1,De uteri dissectione,"grc,eng,lat",3261,II,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg016.1st1K-grc1:1
+tlg017,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg017.1st1K-grc1,De usu partium corporis humani I-XI,"grc,eng,lat",194301,III-IV,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg017.1st1K-grc1:1
+tlg018,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg018.1st1K-grc1,De motu musculorum,"grc,eng,lat",14720,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg018.1st1K-grc1:1
+tlg019,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1,De victu attenuante,"grc,eng,lat",6488,TBD,dietetics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1:1
+tlg019,opp-grc1,urn:cts:greekLit:tlg0057.tlg019.opp-grc1,De Victu Attenuante,"grc,lat,eng",8800,TBD,dietetics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg019.opp-grc1:1
+tlg020,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg020.1st1K-grc1,De utilitate respirationis,"grc,eng,lat",6050,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg020.1st1K-grc1:1
+tlg021,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg021.1st1K-grc1,De semine,"grc,lat,eng",20793,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg021.1st1K-grc1:1
+tlg022,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg022.1st1K-grc1,De foetuum formatione,grc,7712,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg022.1st1K-grc1:1
+tlg023,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg023.1st1K-grc1,An in arteriis sanguis contineatur,"grc,eng,lat",4713,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg023.1st1K-grc1:1
+tlg024,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg024.1st1K-grc1,De optima corporis nostri constitutione,"grc,eng,lat",1766,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg024.1st1K-grc1:1
+tlg025,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg025.1st1K-grc1,De bono habitu,"grc,eng,lat",821,IV,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg025.1st1K-grc1:1
+tlg027,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg027.1st1K-grc1,Quod animi mores corporis temperamenta sequantur,"grc,eng,lat",8377,IV,psychology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg027.1st1K-grc1:1
+tlg028,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg028.1st1K-grc1,De propriorum animi cuiuslibet affectuum dignotione et curatione,"grc,eng,lat",8194,V,psychology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg028.1st1K-grc1:1
+tlg029,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg029.1st1K-grc1,De animi cuiuslibet peccatorum dignotione et curatione,"grc,eng,lat",6320,V,psychology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg029.1st1K-grc1:1
+tlg030,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg030.1st1K-grc1,De atra bile,"grc,lat",6257,V,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg030.1st1K-grc1:1
+tlg031,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg031.1st1K-grc1,De usu pulsuum,"grc,lat",4468,V,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg031.1st1K-grc1:1
+tlg032,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg032.1st1K-grc1,De placitis Hippocratis et Platonis,"grc,lat",94755,V,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg032.1st1K-grc1:1
+tlg033,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg033.1st1K-grc1,Thrasybulus sive utrum medicinae sit an gymnasticae hygieine,grc,13916,V,methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg033.1st1K-grc1:1
+tlg034,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg034.1st1K-grc1,De parvae pilae exercitio,"grc,lat",1700,V,hygiene,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg034.1st1K-grc1:1
+tlg034,1st1K-grc2,urn:cts:greekLit:tlg0057.tlg034.1st1K-grc2,De parvae pilae exercitio,"grc,lat",1712,V,hygiene,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg034.1st1K-grc2:1
+tlg035,1st1K-grc2,urn:cts:greekLit:tlg0057.tlg035.1st1K-grc2,De venereis,"grc,lat",396,TBD,hygiene,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg035.1st1K-grc2:1
+tlg035,1st1K-grc3,urn:cts:greekLit:tlg0057.tlg035.1st1K-grc3,De venereis (ap. Oribasium),"grc,lat",849,TBD,hygiene,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg035.1st1K-grc3:1
+tlg036,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg036.1st1K-grc1,De sanitate tuenda,"lat,grc",66881,VI,hygiene,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg036.1st1K-grc1:1
+tlg037,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg037.1st1K-grc1,Περὶ τῶν ἐν ταῖς τροφαῖς δυνάμεων (De alimentorum facultatibus),grc,44450,VI,dietetics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg037.1st1K-grc1:1
+tlg038,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg038.1st1K-grc1,De rebus boni malique suci,"lat,grc",10187,VI,dietetics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg038.1st1K-grc1:1
+tlg039,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg039.1st1K-grc1,De ptisana,"grc,lat",2212,VI,dietetics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg039.1st1K-grc1:1
+tlg040,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg040.1st1K-grc1,De dignotione ex insomniis,"grc,lat",503,VI,semiotics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg040.1st1K-grc1:1
+tlg041,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg041.1st1K-grc1,De morborum differentiis,grc,6645,VI,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg041.1st1K-grc1:1
+tlg042,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg042.1st1K-grc1,De causis morborum,grc,6085,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg042.1st1K-grc1:1
+tlg043,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg043.1st1K-grc1,De symptomatum differentiis,grc,6621,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg043.1st1K-grc1:1
+tlg044,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg044.1st1K-grc1,De symptomatum causis,grc,29418,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg044.1st1K-grc1:1
+tlg045,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg045.1st1K-grc1,De differentiis febrium,grc,20902,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg045.1st1K-grc1:1
+tlg046,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg046.1st1K-grc1,De morborum temporibus,grc,5294,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg046.1st1K-grc1:1
+tlg047,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1,De totius morbi temporibus,grc,3538,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1:1
+tlg048,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg048.1st1K-grc1,De typis,grc,1581,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg048.1st1K-grc1:1
+tlg049,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg049.1st1K-grc1,Adversus eos qui de typis scripserunt vel de circuitibus,grc,5606,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg049.1st1K-grc1:1
+tlg050,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1,De plenitudine,grc,11076,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1:1
+tlg051,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg051.1st1K-grc1,"De tremore, palpitatione, convulsione et rigore",grc,9114,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg051.1st1K-grc1:1
+tlg052,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1,De comate secundum Hippocratem,grc,3251,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1:1
+tlg053,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg053.1st1K-grc1,De marcore,grc,5803,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg053.1st1K-grc1:1
+tlg054,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg054.1st1K-grc1,De tumoribus praeter naturam,grc,4221,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg054.1st1K-grc1:1
+tlg055,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg055.1st1K-grc1,De inaequali intemperie,grc,3158,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg055.1st1K-grc1:1
+tlg056,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1,De difficultate respirationis,grc,31842,VII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1:1
+tlg057,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg057.1st1K-grc1,De locis affectis,grc,69856,VIII,pathology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg057.1st1K-grc1:1
+tlg058,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg058.1st1K-grc1,De pulsibus ad tirones,grc,5977,VIII,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg058.1st1K-grc1:1
+tlg059,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg059.1st1K-grc1,De differentiis pulsuum,grc,42806,VIII,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg059.1st1K-grc1:1
+tlg060,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg060.1st1K-grc1,De dignoscendis pulsibus,grc,31232,VIII,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg060.1st1K-grc1:1
+tlg061,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg061.1st1K-grc1,De causis pulsuum,grc,32090,IX,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg061.1st1K-grc1:1
+tlg062,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg062.1st1K-grc1,De praesagitione ex pulsibus,grc,36318,IX,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg062.1st1K-grc1:1
+tlg063,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg063.1st1K-grc1,Synopsis librorum suorum de pulsibus,grc,15724,IX,pulse,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg063.1st1K-grc1:1
+tlg064,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg064.1st1K-grc1,De crisibus,grc,33858,IX,semiotics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg064.1st1K-grc1:1
+tlg065,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg065.1st1K-grc1,De diebus decretoriis,grc,27265,IX,semiotics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg065.1st1K-grc1:1
+tlg066,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg066.1st1K-grc1,De methodo medendi,grc,157549,X,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg066.1st1K-grc1:1
+tlg067,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg067.1st1K-grc1,Ad Glauconem de methodo medendi,grc,22890,XI,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg067.1st1K-grc1:1
+tlg068,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg068.1st1K-grc1,De venae sectione adversus Erasistratum,grc,5971,XI,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg068.1st1K-grc1:1
+tlg069,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg069.1st1K-grc1,De venae sectione adversus Erasistrateos Romae degentes,grc,9042,XI,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg069.1st1K-grc1:1
+tlg070,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg070.1st1K-grc1,De curandi ratione per venae sectionem,grc,10057,XI,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg070.1st1K-grc1:1
+tlg071,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1,"De hirudinibus, revulsione, cucurbitula, incisione et scarificatione",grc,704,XI,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1:1
+tlg072,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1,De purgantium medicamentorum facultate,grc,2973,XI,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1:1
+tlg073,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1,Quos quibus catharticis medicamentis et quando purgare oporteat,grc,1996,XI,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1:1
+tlg073,1st1K-grc2,urn:cts:greekLit:tlg0057.tlg073.1st1K-grc2,Quos quibus catharticis medicamentis et quando purgare oporteat (ap. Oribasium),"grc,lat,deu",2723,XI,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc2:1
+tlg074,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg074.1st1K-grc1,Pro puero epileptico consilium,grc,3219,XI,therapeutics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg074.1st1K-grc1:1
+tlg075,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1,De simplicium medicamentorum temperamentis ac facultatibus I-VI,grc,66926,XI-XII,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1:1
+tlg076,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg076.1st1K-grc1,De compositione medicamentorum secundum locos I-VI,grc,142969,XII-XIII,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg076.1st1K-grc1:1
+tlg077,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1,De compositione medicamentorum per genera,grc,104110,XIII,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1:1
+tlg078,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg078.1st1K-grc1,De antidotis,grc,27902,XIV,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg078.1st1K-grc1:1
+tlg079,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg079.1st1K-grc1,De theriaca ad Pisonem,grc,13019,XIV,pharmacology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg079.1st1K-grc1:1
+tlg081,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1,Institutio logica,grc,8557,not in Kuhn,logic,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1:1
+tlg082,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg082.1st1K-grc1,De sophismatis seu captionibus penes dictionem,grc,2530,XIV,logic,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg082.1st1K-grc1:1
+tlg083,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg083.1st1K-grc1,De praenotione ad Epigenem,grc,11019,XIV,semiotics,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg083.1st1K-grc1:1
+tlg084,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg084.1st1K-grc1,De substantia facultatum naturalium fragmentum,grc,1370,TBD,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg084.1st1K-grc1:1
+tlg085,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1,In Hippocratis De natura hominis,grc,24377,XV,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1:1
+tlg086,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1,In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius,grc,6837,XV,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1:1
+tlg087,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1,In Hippocratis De victu acutorum,grc,67032,XV,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1:1
+tlg089,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg089.1st1K-grc1,In Hippocratis Epidemiarum I,grc,156385,XVII A,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg089.1st1K-grc1:1
+tlg092,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg092.1st1K-grc1,In Hippocratis Aphorismos,grc,96004,XVII B-XVIII A,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg092.1st1K-grc1:1
+tlg093,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1,Adversus Lycum,grc,7436,XVIII A,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1:1
+tlg094,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg094.1st1K-grc1,Adversus ea quae Juliano in Hippocratis Aphorismos enuntiata sunt,grc,7591,XVIII A,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg094.1st1K-grc1:1
+tlg095,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg095.1st1K-grc1,In Hippocratis De articulis,grc,51618,XVIII A,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg095.1st1K-grc1:1
+tlg096,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1,De Humero iis Modis Prolapso quos Hippocrates non Vidit,grc,9831,XVIII A,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1:1
+tlg099,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg099.1st1K-grc1,In Hippocratis Prognosticum,grc,42854,XVIII B,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg099.1st1K-grc1:1
+tlg100,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg100.1st1K-grc1,In Hippocratis De fracturis,grc,41682,XVIII B,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg100.1st1K-grc1:1
+tlg101,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg101.1st1K-grc1,In Hippocratis De officina medici,grc,41054,XVIII B,commentary,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg101.1st1K-grc1:1
+tlg102,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg102.1st1K-grc1,De musculorum dissectione ad tirones,grc,14742,TBD,anatomy,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg102.1st1K-grc1:1
+tlg103,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1,De consuetudinibus,grc,4007,not in Kuhn (CMG),methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1:1
+tlg107,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg107.1st1K-grc1,De experientia medica,"grc,deu",1001,"not in Kuhn (CMG, transl. from Arabic)",methodology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg107.1st1K-grc1:1
+tlg114,1st1K-grc1,urn:cts:greekLit:tlg0057.tlg114.1st1K-grc1,De causis respirationis,grc,675,TBD,physiology,https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg114.1st1K-grc1:1

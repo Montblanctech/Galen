@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: If you use this dataset or pipeline, please cite it.
+title: "Galen Corpus Terminology Density Map"
+type: dataset
+version: "1.0.0"
+date-released: "2026-07-25"
+authors:
+  - family-names: Pepperman
+    given-names: William
+license: CC-BY-4.0
+repository-code: "https://github.com/Montblanctech/Galen"
+abstract: >
+  A digital-availability census of the Galenic Greek corpus in First1KGreek
+  (103 editions / 97 works), and the pipeline extending it into a terminology
+  density map that flags lemmas statistically overused in the medical subcorpus
+  relative to a non-Galen reference corpus and thinly glossed in LSJ. Data
+  products are CC-BY-4.0; the accompanying pipeline code is MIT.
+keywords:
+  - Galen
+  - Ancient Greek
+  - terminology
+  - digital humanities
+  - corpus linguistics

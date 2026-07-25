@@ -1,0 +1,30 @@
+Data License — Creative Commons Attribution 4.0 International (CC-BY-4.0)
+SPDX-License-Identifier: CC-BY-4.0
+
+The DATA PRODUCTS in this repository — including the Phase 1 census
+(`phase1/galen_ogl_census.csv`, `phase1/galen_ogl_census.json`) and any published
+Phase 2 output datasets — are licensed under the Creative Commons Attribution 4.0
+International License.
+
+You are free to share and adapt these data for any purpose, including commercially,
+provided you give appropriate credit, link to the license, and indicate if changes were
+made.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+Attribution:
+  William Pepperman, "Galen Corpus Terminology Density Map" — Phase 1 census.
+  https://github.com/Montblanctech/Galen  (add the Zenodo DOI on release)
+
+NOTE: the SOURCE Greek texts inventoried by this census remain the property of the
+Open Greek and Latin Project (First1KGreek) under their own license (CC-BY-SA); this
+CC-BY-4.0 grant covers the census/derived data compiled here, not the underlying texts.
+
+NOTE (code): the pipeline CODE in this repository is licensed separately under MIT — see
+`LICENSE`.
+
+--------------------------------------------------------------------------------
+For GitHub's automatic license detection and a fully self-contained release, paste the
+complete CC-BY-4.0 legal code (from the legalcode URL above) beneath this line before
+tagging v1.0. The declaration above is legally sufficient; the full text is a convenience.
