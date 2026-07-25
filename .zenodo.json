@@ -1,0 +1,12 @@
+{
+  "upload_type": "dataset",
+  "title": "Galen Digital-Coverage Census (First1KGreek)",
+  "creators": [
+    {
+      "name": "Pepperman, William"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "description": "A structured, machine-readable digital-availability census of the Galenic Greek corpus as digitized in the Open Greek and Latin Project's First1KGreek repository: 103 editions across 97 distinct works (~2.4M words of Greek), with CTS URNs, word counts, working subject categories, and Scaife reader links. Scope is digital availability of Greek text only; translation status, authenticity, and non-Greek witnesses are out of scope."
+}

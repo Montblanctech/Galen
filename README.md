@@ -1,6 +1,6 @@
 # Galen Corpus Infrastructure — Phase 1: Digital-Coverage Census
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21561964.svg)](https://doi.org/10.5281/zenodo.21561964)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21561962.svg)](https://doi.org/10.5281/zenodo.21561962)
 
 A structured, machine-readable census of the Galenic Greek corpus as digitized in the Open Greek
 and Latin Project's **First1KGreek** repository: **103 editions across 97 distinct works** (~2.4M
@@ -33,7 +33,8 @@ punch list (in development).
 
 ## Citing
 
-Archived release: [doi:10.5281/zenodo.21561964](https://doi.org/10.5281/zenodo.21561964).
+Cite the concept DOI (always resolves to the latest version):
+[doi:10.5281/zenodo.21561962](https://doi.org/10.5281/zenodo.21561962).
 See also [`CITATION.cff`](CITATION.cff) — GitHub shows a "Cite this repository" button.
 
 ## License
