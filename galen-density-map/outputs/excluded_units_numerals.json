@@ -1,0 +1,155 @@
+{
+  "count": 25,
+  "terms": [
+    {
+      "lemma": "δραχ",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "26616.8054",
+      "galen_raw": "5563"
+    },
+    {
+      "lemma": "στ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "3745.5642",
+      "galen_raw": "810"
+    },
+    {
+      "lemma": "δ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "3611.5501",
+      "galen_raw": "1714"
+    },
+    {
+      "lemma": "ιστ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "1463.9971",
+      "galen_raw": "308"
+    },
+    {
+      "lemma": "οὐγγίη",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "1115.3051",
+      "galen_raw": "271"
+    },
+    {
+      "lemma": "ιβ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "826.3996",
+      "galen_raw": "477"
+    },
+    {
+      "lemma": "ρ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "468.4042",
+      "galen_raw": "168"
+    },
+    {
+      "lemma": "κδ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "465.2648",
+      "galen_raw": "216"
+    },
+    {
+      "lemma": "κε΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "244.6473",
+      "galen_raw": "132"
+    },
+    {
+      "lemma": "κ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "205.3586",
+      "galen_raw": "203"
+    },
+    {
+      "lemma": "λστ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "174.9917",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "π΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "160.8493",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "οὐγγία",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "131.2286",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "λβ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "77.1483",
+      "galen_raw": "55"
+    },
+    {
+      "lemma": "ρξ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "76.8109",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "λ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "62.8212",
+      "galen_raw": "93"
+    },
+    {
+      "lemma": "ζ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "57.1259",
+      "galen_raw": "175"
+    },
+    {
+      "lemma": "ιε΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "55.1068",
+      "galen_raw": "94"
+    },
+    {
+      "lemma": "ιδ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "54.2033",
+      "galen_raw": "106"
+    },
+    {
+      "lemma": "ρμδ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "39.8076",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "θ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "34.1952",
+      "galen_raw": "113"
+    },
+    {
+      "lemma": "ρν΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "32.7967",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "οβ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "32.0169",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ρκ΄",
+      "reason": "numeral_pattern",
+      "log_likelihood": "29.5448",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ξ΄",
+      "reason": "units_numerals_stoplist",
+      "log_likelihood": "16.2526",
+      "galen_raw": "28"
+    }
+  ]
+}

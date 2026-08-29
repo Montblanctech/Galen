@@ -1,0 +1,8 @@
+{
+  "n_requested": 5000,
+  "n_emitted": 5000,
+  "seed": 20260827,
+  "population_tokens_with_lemma": 1746283,
+  "source": "galen-density-map/data/lemmatized/galen",
+  "method": "algorithm-R reservoir sample, uniform over tokens with lemma+surface"
+}

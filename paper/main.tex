@@ -1,0 +1,417 @@
+% Galen Phase 2 preprint — ACL-style LaTeX (arXiv-ready)
+% Engine: XeLaTeX (Unicode + polytonic Greek via Times New Roman)
+% Build: see README.md
+\documentclass[11pt]{article}
+
+% preprint = non-anonymous, with page numbers (arXiv-friendly)
+\usepackage[preprint]{acl}
+
+\usepackage{fontspec}
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{enumitem}
+
+% Main font: Windows Times New Roman covers polytonic Greek (Unicode).
+% Greek is entered as Unicode; no separate babel language switch required.
+\setmainfont{Times New Roman}
+\setmonofont{Consolas}[Scale=0.9]
+
+\title{Which Words Block the Machine Translation of Galen?\\
+A Reproducible Terminology Density Map}
+
+\author{William Pepperman \\
+  Independent researcher · Montblanc Technologies \\
+  \texttt{william.pepperman@gmail.com}}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+The obstacle to machine-translating the large untranslated Galenic corpus has recently been
+\textit{measured}: a 2026 MQM study reports that passage-level terminology rarity predicts MT quality on
+Galen's previously untranslated pharmacological work at $r = -.97$ --- the failure mode is vocabulary, not syntax. What that measurement does not
+supply is a queryable answer to \textit{which} Galenic vocabulary is the blocker. We build that resource.
+Over the digitized Galenic corpus (First1KGreek), we run a reproducible, config-driven pipeline ---
+extraction, odyCy lemmatization, log-likelihood keyness against a 19.68M-token non-Galen Greek
+reference, and LSJ cross-reference --- and introduce a \textbf{four-way classification} that separates
+genuinely rare vocabulary from domain-specific and polysemous vocabulary, a distinction
+whole-corpus frequency conflates. The classification isolates, \textit{a priori} from frequency alone,
+a set of common-but-technical terms (οὐσία, δύναμις, ποιότης) that rarity-based difficulty predictors
+cannot see by construction --- a candidate failure mode orthogonal to the rarity the MT literature
+has measured. We release a prioritized punch list of ${\sim}$1,400 candidate terms, the full pipeline (MIT),
+and all data (CC-BY-4.0), each stage independently re-runnable over a different subcorpus. We claim
+an instrument, not a translation, and not lexicon adjudication.
+\end{abstract}
+
+\section{Introduction}
+\label{sec:intro}
+
+A large fraction of the Galenic corpus --- the single biggest body of surviving ancient Greek prose ---
+has never been translated into any modern language. The constraint is throughput, not willingness:
+the specialist labor required to translate technical Greek medicine does not scale, and machine
+translation has until recently been assumed unusable on it.
+
+That assumption has now been quantified. A 2026 study applying MQM error annotation to
+machine-translated Galen reports that passage-level \textbf{terminology rarity} predicts MT quality at
+$r = -.97$ on the previously untranslated pharmacological work~\citep{galen-mt-mqm-2026}.
+The practical consequence is a reframing: the task is not ``improve the model's grammar'' but ``identify the
+vocabulary.'' If a small, well-chosen set of terms accounts for most of the degradation, then
+supplying those terms as constrained vocabulary is a tractable intervention where full translation
+is not.
+
+No published resource says which terms those are. This paper builds the instrument panel: a
+reproducible map of Galen's terminological density that tells an MT researcher, or a lexicographer,
+\textit{where} the hard vocabulary concentrates and \textit{what kind} of hard each term is. We are explicit about
+what this is not --- it is not a translation, and it is not an adjudication of what any term means.
+Where a term's sense is contested, we surface the term and leave the field blank for a domain
+expert to fill.
+
+\paragraph{Contributions.}
+\begin{enumerate}[leftmargin=*,itemsep=2pt]
+\item A reproducible, config-driven pipeline over digitized Galen, from TEI extraction through a
+  thin-gloss punch list, with the model and thresholds pinned.
+\item A \textbf{four-way classification} of candidate-hard vocabulary along two frequency axes --- rarity in
+  the medical subcorpus $\times$ rarity in the \textit{disjoint non-medical Galen} --- that distinguishes
+  genuinely rare terms from domain-specific and polysemous ones.
+\item A prioritized punch list of 1,433 candidate terms with attested example contexts, released as
+  the scaffold for a future community-compiled Phase 3.
+\item A demonstration that the frequency contrast partitions candidate-hard vocabulary, without
+  semantic annotation, into two mechanistically distinct classes --- rarity-driven difficulty
+  (which existing predictors capture) and common-but-sense-loaded vocabulary (which they cannot).
+\end{enumerate}
+
+\section{Background \& Related Work}
+\label{sec:background}
+
+\paragraph{Text source.}
+We draw on the Open Greek and Latin / First1KGreek digitization of Galen~\citep{first1kgreek},
+keyed by CTS URN. The Phase~1 census (\S\ref{sec:data}) fixes the work list and word counts and
+is released separately~\citep{pepperman-2026-galen-census}
+(DOI \url{https://doi.org/10.5281/zenodo.21561962}).
+
+\paragraph{Greek NLP.}
+We lemmatize with \textbf{odyCy}~\citep{kostkan-etal-2023-odycy}, the Aarhus Ancient-Greek
+spaCy pipeline trained on Perseus and PROIEL treebanks, using the transformer model
+\texttt{grc\_odycy\_joint\_trf}. odyCy is, to our knowledge, the strongest openly available lemmatizer for
+ancient Greek; we cite it prominently because its accuracy is the pivot on which every downstream
+frequency rests, and because its authors are the natural first readers of this work.
+
+\paragraph{Keyness.}
+We use log-likelihood (G$^2$) keyness in the standard corpus-linguistics form~\citep{dunning-1993-accurate,rayson-garside-2000-comparing},
+comparing a target corpus against a reference corpus term by term.
+
+\paragraph{Prior lexical work.}
+The standard curated lexicon of Galenic medical vocabulary is Durling's \textit{A Dictionary of
+Medical Terms in Galen}~\citep{durling-1993}. It is complementary to, not in competition with, this
+work: Durling adjudicates what terms mean; we deliberately do not. Our map is \textit{a priori}
+candidate generation from frequency structure --- it surfaces which vocabulary to examine and leaves
+the sense to the lexicographer or the domain expert.
+
+\paragraph{Relation to the motivating measurement.}
+\citet{galen-mt-mqm-2026} is what makes this resource worth building, and it also fixes its scope.
+Applying MQM error annotation to machine-translated Galen, they establish that passage-level
+\textbf{terminology rarity} --- lemmas absent from, or infrequent in, a general literary Greek
+reference --- predicts translation quality at $r = -.97$, with critical errors concentrated in rare
+pharmacological terminology; conversely, they report that \textit{common} technical terms (e.g.\
+δύναμις, κρᾶσις) are rendered without systematic difficulty. Their analysis is passage-level ---
+twenty passages from two works --- and they explicitly invite extension to the wider corpus for the
+statistical power a small sample cannot supply. We take up that extension and change the unit of
+analysis from the passage to the term: rather than correlating a passage's rare-term ratio with its
+score, we map, per lemma across the digitized corpus, \textit{where} the rare vocabulary concentrates
+and --- via the medical-vs-non-medical contrast --- \textit{what kind} of difficulty each candidate
+poses. Two consequences follow. First, the contrast isolates a class their rarity predictor cannot
+reach by construction: common, sense-loaded vocabulary (\S\ref{sec:results}). Second, because both
+their rare-term ratio and our counts rest on automatic lemmatization whose accuracy on Galenic
+medical Greek has never been reported --- they lemmatize with Stanza, we with
+odyCy~\citep{kostkan-etal-2023-odycy} --- we measure that accuracy directly (\S\ref{sec:accuracy})
+rather than assume it. The \textbf{medical-vs-non-medical comparison within a single author} is, to
+our knowledge, unpublished, and it is what makes the domain/polysemy distinction in
+\S\ref{sec:results} possible.
+
+\section{Data}
+\label{sec:data}
+
+\paragraph{Census.}
+The Phase~1 census~\citep{pepperman-2026-galen-census}
+(\url{https://doi.org/10.5281/zenodo.21561962}) is the ground-truth work list:
+which editions exist, their URNs, category tags, and grc word counts. We treat it as authoritative
+for \textit{which} works to process and do not re-derive it.
+
+\paragraph{Subcorpora.}
+We partition Galen into a \textbf{medical subcorpus} --- works tagged pharmacology,
+therapeutics, pathology, pulse, semiotics, dietetics, anatomy, physiology --- and a \textbf{disjoint
+non-medical subcorpus} (logic, protreptic, commentary, methodology, psychology, hygiene).
+Pseudo-Galenic attributions are excluded via an explicit config flag, not a buried default, so the
+choice stays auditable. Inclusion criteria are stated so a reviewer can contest any single
+assignment.
+
+\paragraph{Sizes.}
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Corpus} & \textbf{Tokens} & \textbf{Works} \\
+\midrule
+Galen, medical & 1{,}746{,}283 & 71 \\
+Galen, non-medical (disjoint) & 724{,}353 & 32 \\
+Galen, whole & 2{,}470{,}636 & 103 \\
+Non-Galen First1K reference & 19{,}680{,}000 ($\approx$) & --- \\
+\bottomrule
+\end{tabular}
+\caption{Corpus sizes used in this study.}
+\label{tab:sizes}
+\end{table}
+
+The same lemmatizer model is applied to every side. This is not a detail: keyness compares lemma
+inventories across corpora, so a mixed-model comparison would score model differences as if they
+were vocabulary differences.
+
+\section{Method}
+\label{sec:method}
+
+The pipeline is a linear sequence of independently re-runnable stages; each reads one input and
+writes one output, so any stage can be re-run without repeating the ones before it.
+
+\begin{enumerate}[leftmargin=*,itemsep=3pt]
+\item \textbf{Fetch} --- download the grc TEI editions named by the census; log 404s rather than failing.
+\item \textbf{Extract} --- parse TEI, keep \texttt{xml:lang="grc"} edition text only, exclude apparatus (\texttt{<app>}/
+  \texttt{<rdg>}) and restored/conjectural material. Normalize to Unicode NFC; map lunate sigma
+  (ϲ/Ϲ $\rightarrow$ σ/ς, word-final ς); strip all-caps running headers; handle crasis/elision explicitly.
+  A census-wordcount guardrail flags any work extracting below 70\% of its recorded count.
+\item \textbf{Lemmatize} --- odyCy \texttt{grc\_odycy\_joint\_trf} (spaCy 3.7.5, spacy-transformers 1.3.5, model
+  0.7.0, all pinned), chunked on sentence boundaries to avoid mid-sentence context loss.
+  Per-token \texttt{(surface, lemma, pos, morph)} is retained.
+\item \textbf{Frequency} --- aggregate to lemma $\rightarrow$ raw count and per-10{,}000-token normalized count, for each
+  corpus separately.
+\item \textbf{Keyness} --- log-likelihood G$^2$ for every medical-subcorpus lemma against the reference, with a
+  minimum-domain-frequency floor so a lemma appearing twice cannot produce a spurious top score.
+\item \textbf{LSJ cross-reference} --- look up each candidate in the machine-readable LSJ~\citep{lsj-perseus}. The
+  Perseus LSJ index is keyed in Beta Code; we build a Unicode-NFC index once at load time (Beta
+  Code $\rightarrow$ Unicode is the less ambiguous direction and yields a human-inspectable index) and record
+  whether an entry exists and its \texttt{<sense>} count.
+\item \textbf{Punch list} --- filter to thin-gloss candidates, attach example URNs and one attested context
+  per term.
+\end{enumerate}
+
+\paragraph{The four-way classification.}
+The core analytic step crosses two axes: rarity in the \textbf{medical
+subcorpus} $\times$ rarity in the \textbf{disjoint non-medical Galen}. We use the disjoint non-medical corpus,
+not whole-Galen, deliberately: the medical works are 71\% of the whole, so medical-frequency and
+whole-frequency are collinear and the contrast collapses (a pure domain term like ἀμμωνιακός, absent
+outside medicine, barely moves against the whole because the whole is mostly medicine). Against the
+disjoint non-medical corpus the contrast is real: ἀμμωνιακός reads medical 1.40 / non-medical 0.00
+per-10k. The rarity threshold is a config value; we report sensitivity to it (\S\ref{sec:results}). POS is restricted
+to NOUN/ADJ/VERB.
+
+\section{Lemmatizer Accuracy}
+\label{sec:accuracy}
+
+Every frequency in this paper inherits the lemmatizer's error rate, so we report it directly rather
+than citing odyCy's published treebank scores --- Galen's pharmacological vocabulary is out-of-domain
+relative to odyCy's training data, so those published numbers are an upper bound, not our number.
+
+In the absence (to date) of a Greek-reading annotator, we bound the accuracy with three machine
+measurements of different epistemic character --- a rule-based floor, a cross-system agreement
+ceiling, and a gold-standard point estimate on the rare stratum --- rather than leaving it
+unmeasured. All three are report-only: no output of the frozen pipeline is corrected in response.
+
+\paragraph{Floor: morphological admissibility.}
+For every token we ask whether odyCy's lemma appears among the readings that
+Morpheus~\citep{crane-1991-morpheus} --- a rule-based analyzer sharing no training data with odyCy ---
+admits for that surface form. On the medical subcorpus, \textbf{89.51\%} of analyzable tokens carry
+an admissible lemma (4.41\% of tokens receive no Morpheus analysis and are excluded from the
+denominator; they are reported, not silently pooled). Every inadmissible lemma is a near-certain
+error, so this is a floor on correctness; it is a slightly permissive floor, because Morpheus itself
+lists some variant stems as lemmas (it admits ἥπατος, a documented odyCy error for ἧπαρ, alongside
+the correct reading).
+
+\paragraph{Agreement: independent implementations, shared training data.}
+Against Stanza's two Ancient Greek models~\citep{qi-etal-2020-stanza} on a 5{,}000-token random
+sample, odyCy agrees with \texttt{grc\_perseus} pairwise on \textbf{82.89\%} of aligned tokens, and
+with the two Stanza models on \textbf{94.17\%} of the tokens where those two agree with each other
+--- a subset that conditioning selects for easiness. Both figures are optimistic bounds rather than
+accuracy: all three systems train on overlapping Universal Dependencies treebanks, so their errors
+are correlated, and 15.82\% of the sample was lost to tokenization misalignment. We report agreement
+for what it is and use its disagreement set to target future human review where it is most
+informative.
+
+\paragraph{Rare-stratum gold standard: LSJ's own Galen citations.}
+LSJ~\citep{lsj-perseus} cites Galen by K\"uhn volume and page, and each citation is a
+lexicographer's judgment binding an attested form at a locus to a headword. We mapped these
+citations onto the corpus through the editions' K\"uhn page breaks and accepted a token only when
+exactly one surface form in the cited page window is morphologically derivable from the headword per
+Morpheus (quoted dictionary text serves as context only, never as the scoring target, since LSJ
+abbreviates headwords inside entries; the full location funnel, 7{,}706 citations $\rightarrow$
+1{,}850 scored, ships with the data). On these \textbf{1{,}850} expert-attested loci, odyCy
+reproduces the lexicographer's headword for \textbf{62.32\%} of tokens ignoring accentuation (Wilson
+95\% CI 60.09--64.50), \textbf{53.95\%} under strict accent matching. LSJ-cited vocabulary is by
+nature the rare, lexicographically interesting stratum, so this is a stratum accuracy, not an
+overall one --- and read against the 89.51\% frequency-weighted floor, the two numbers measure, on
+expert-annotated data and independently of any MT system, the same rarity-driven degradation that
+\citet{galen-mt-mqm-2026} infer from translation error rates. The 697 mismatches decompose into:
+identity passthrough of an inflected form (411), garbled non-word lemmas (135), substitution of a
+wrong real lemma (136), and variant-headword conventions arguably not errors at all (15; scoring
+these as correct moves the rate only to 63.14\%).
+
+A human spot-check on the frozen random 60-token sample (seed 20260725) remains planned under the
+salted-control protocol shipped with the data, concentrated by the machine disagreement sets above;
+the machine bounds make every count below interpretable in the meantime, and we treat the
+rare-stratum figure as the headline caveat on the punch list (\S\ref{sec:punch}), whose candidates
+are drawn disproportionately from exactly that stratum.
+
+\paragraph{Passthrough baseline (computed).}
+As an independent check that Galen's vocabulary does not
+degrade the lemmatizer relative to ordinary Greek, we measure content-word passthrough (the rate at
+which a NOUN/VERB/ADJ/ADV token is emitted with \texttt{lemma == surface}, a proxy for the lemmatizer
+falling back to the identity). On Galen this is \textbf{26.85\%}; on the 11.86M-token non-Galen reference
+it is \textbf{26.41\%} ($\Delta$ $-0.44$ points). Passthrough is therefore odyCy's baseline behavior on Greek, not
+Galen-specific degradation --- which pre-empts the natural objection that out-of-domain medical
+vocabulary must be breaking the lemmatizer. It is not.
+
+Residual, systematic error classes are carried transparently into the limitations (\S\ref{sec:limitations}) rather than
+silently corrected, because correcting them is a lexical judgment we have chosen not to make.
+
+\section{Results: The Four-Way Classification}
+\label{sec:results}
+
+Of 12{,}538 classified lemmas, at the threshold of 1.0 per-10k:
+
+\begin{table}[t]
+\centering
+\begin{tabular}{lrl}
+\toprule
+\textbf{Quadrant} & \textbf{Count} & \textbf{Reading} \\
+\midrule
+\texttt{genuinely\_hard} (rare in both) & 11{,}709 & rare everywhere --- the candidate universe \\
+\texttt{polysemy\_risk} (common in both) & 496 & common words carrying loaded technical senses \\
+\texttt{false\_alarm} / domain (medical-only) & 190 & rare corpus-wide, at home in medicine \\
+\texttt{mostly\_irrelevant} (non-medical-only) & 143 & not the medical vocabulary we are after \\
+\bottomrule
+\end{tabular}
+\caption{Four-way classification at threshold 1.0 per-10k ($N=12{,}538$ lemmas).}
+\label{tab:fourway}
+\end{table}
+
+The off-diagonal quadrants are where the analysis earns its keep, and they survive threshold
+perturbation (at 0.5 / 1.5 per-10k the polysemy quadrant holds 853 / 348 members; the domain
+quadrant 359 / 118 --- the structure is stable, not a threshold artifact).
+
+\paragraph{The polysemy quadrant is what the contrast is for.}
+Its members --- δύναμις, οὐσία, ποιότης, φύσις, σῶμα, λόγος, πάθος, εἶδος, ὕλη --- are high-frequency
+on both sides: common words that also carry Galen-technical senses. They are, by construction,
+invisible to any rarity signal. A term this frequent scores as \textit{easy} under corpus-frequency
+rarity --- which is exactly the predictor the MT study operationalizes~\citep{galen-mt-mqm-2026}, and
+exactly what our own keyness punch list (\S\ref{sec:punch}) ranks. A single frequency axis cannot
+surface these words; the medical-vs-non-medical contrast can, because it keys on a word being
+\textit{at home in both} of Galen's registers rather than on raw scarcity. This is where the second
+axis earns its keep --- not in re-finding the rare terms a rarity metric already flags, but in
+isolating the population a rarity metric is blind to.
+
+We are deliberate about this quadrant's status --- its name is \texttt{polysemy\_risk}, not a verdict.
+That ordinary words systematically acquire specialized, register-bound senses in ancient technical
+medicine is well established, if in the sister Latin tradition~\citep[ch.~3]{langslow-2000}; such
+terms are, by their nature, the ones a reader can render in a plausible everyday sense while missing
+the technical one. This is a claim about the \textit{structure of technical vocabulary}, not a finding
+of the MT measurement we build on --- that measurement in fact reports the opposite for its own error
+data, finding failure concentrated in \textit{rare} terminology while common technical terms translate
+cleanly~\citep{galen-mt-mqm-2026}. Our claim is therefore not that these terms are hard for MT ---
+they may not be --- but that a cheap, annotation-free frequency contrast \textbf{partitions
+candidate-hard vocabulary into two mechanistically distinct classes}: rarity-driven difficulty, which
+the existing predictor already captures, and sense-loading, which it cannot see. Which class actually
+degrades machine translation, and by how much, is the open question \S\ref{sec:conclusion} proposes
+to test.
+
+\paragraph{The domain quadrant is the control.}
+Its members --- σφυγμός, δραχμή, λίτρα, ῥίζα, ὄξος, κηρός,
+σμύρνα, χαλβάνη, ὀπίον, ῥητίνη, ἀμμωνιακός --- are materia medica and units: rare against general
+Greek, but ordinary within medicine. Whole-corpus keyness would flag these as ``hard''; the four-way
+correctly files them as domain vocabulary a glossary resolves, a different and easier problem than
+the polysemy set. The worked case is ἀμμωνιακός at medical 1.40 / non-medical 0.00.
+
+The practical payoff is that the classification tells an MT researcher \textit{which kind} of hard a term
+is, and the two kinds want different fixes --- a term glossary for the domain quadrant,
+sense-disambiguation for the polysemy quadrant.
+
+\section{The Punch List}
+\label{sec:punch}
+
+The human-facing deliverable is a punch list of \textbf{1{,}433} candidate terms passing the thin-gloss LSJ
+filter, split by \texttt{lsj\_tier} into \textbf{absent} (734, no LSJ entry) and \textbf{thin} (699, $\le$1 sense line) ---
+reported separately because they are different-quality signals: LSJ is comprehensive, so a genuine
+rare medical term usually has a thin entry, whereas the absent bucket also collects lemmatizer
+artifacts and accent mismatches. Each record carries the lemma, both frequencies, keyness, LSJ sense
+count, the top example work URNs, and one attested example sentence, with the identification field
+left empty --- the scaffold a Phase~3 fills.
+
+As a cross-validation check, \textbf{97.1\%} of punch-list terms (1{,}391 / 1{,}433) fall in the
+\texttt{genuinely\_hard} quadrant of the independent four-way classification, confirming the punch list is not
+contaminated by domain vocabulary.
+
+\section{Limitations}
+\label{sec:limitations}
+
+We state these plainly; under-claiming is the credibility of a resource paper.
+
+\begin{itemize}[leftmargin=*,itemsep=3pt]
+\item \textbf{Lemmatizer error is reported, not patched.} Three systematic classes remain and are handed to
+  the reviewer rather than silently corrected: \textbf{fragmentation} (one headword split across variant
+  lemmas, e.g.\ φλεβά/φλείβ $\rightarrow$ φλέψ, which distorts ranking by splitting a term's frequency);
+  \textbf{consistently-wrong lemmas of irregular nouns} (νεύρος for νεῦρον), which the automated QC gates
+  cannot catch by construction; and one such case surfaced only by manual audit (δεικέω $\rightarrow$ δείκνυμι).
+  Neural-lemmatizer hallucinations --- non-words with no LSJ entry and no near-neighbor surface form
+  anywhere in the corpus --- are auto-dropped (86, e.g.\ γαήτσρ); this is a ``not a Greek word''
+  judgment, not a lexical one. The rare-stratum gold standard (\S\ref{sec:accuracy}) quantifies
+  these classes at scale: of 697 mismatches on LSJ-cited loci, 411 are identity passthrough, 135
+  garbled non-words, 136 wrong-lemma substitutions, and 15 variant-headword conventions.
+\item \textbf{Census caveats are inherited:} the volume approximation is unverified, and category tags are
+  author-assigned and contestable.
+\item \textbf{One partial source} is documented rather than hidden: tlg035 (grc) is a 406-token Oribasius
+  excerpt, not an extraction failure.
+\item \textbf{Thin LSJ gloss $\neq$ medically undefined.} The thin-gloss filter is an approximate heuristic for
+  ``under-described,'' not a claim that a term lacks a definition; we state it as such.
+\end{itemize}
+
+\section{Availability \& Reproducibility}
+\label{sec:availability}
+
+Census:~\citep{pepperman-2026-galen-census}, DOI
+\url{https://doi.org/10.5281/zenodo.21561962}. Code: MIT. Data: CC-BY-4.0.
+Underlying Greek texts:~\citep{first1kgreek}. The lemmatizer model and all library versions are pinned;
+every stage is config-driven and re-runnable over a different subcorpus list, so the classification
+can be reproduced, audited, or retargeted.
+
+\section{Conclusion \& Future Work}
+\label{sec:conclusion}
+
+We have built a measured map of where Galen's translation-blocking vocabulary concentrates, and
+shown that a cheap frequency signal partitions that vocabulary by the \textit{kind} of difficulty it
+poses, isolating a common, sense-loaded class that rarity-based predictors miss by construction.
+
+\paragraph{Phase 3}
+compiles, for the punch-list terms, \textit{attributed} identifications already published in the
+scholarly record (e.g.\ André on plant names, Beck's Dioscorides concordance, Berendes, LSJ) ---
+gathering and citing, never adjudicating.
+
+\paragraph{The demonstration that would close the loop:}
+define ${\sim}$10 polysemy-quadrant terms, supply them as
+constrained vocabulary to an MT system, re-translate a passage, and measure the MQM quality delta
+against the $r = -.97$ predictor. That turns the punch list from a spreadsheet into evidence that
+naming the vocabulary moves the number.
+
+\paragraph{A second use: adjudicating word-sense claims with corpus evidence.}
+The same structure that separates rarity-driven from sense-loaded difficulty also answers a question
+that recurs outside MT --- whether a given Galenic term actually carries the special sense a reader
+wants to assign it. Because every count is URN-keyed and partitioned by subcorpus, the map reports,
+for any lemma, how often it occurs and where: ordinary across Galen's registers, or concentrated and
+technical. That is precisely the evidence a philologist marshals by hand against the over-reading of
+individual words --- a common term pressed to mean something esoteric --- supplied here at corpus
+scale with a fixed, auditable provenance. We note this as a \textit{use}, not a result: the instrument
+stays neutral about what any term means, but it makes the frequency-and-distribution facts that
+constrain such claims cheap to retrieve.
+
+\bibliography{references}
+
+\end{document}

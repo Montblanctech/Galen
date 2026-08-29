@@ -1,0 +1,358 @@
+{
+  "n": 50,
+  "matched": 50,
+  "rate_pct": 100.0,
+  "misses": [],
+  "details": [
+    {
+      "lemma": "ὁ",
+      "raw_count": 250655,
+      "lookup_key": "o",
+      "matched": true,
+      "lsj_sense_count": 61
+    },
+    {
+      "lemma": "καί",
+      "raw_count": 93403,
+      "lookup_key": "kai",
+      "matched": true,
+      "lsj_sense_count": 30
+    },
+    {
+      "lemma": "δέ",
+      "raw_count": 49799,
+      "lookup_key": "de",
+      "matched": true,
+      "lsj_sense_count": 18
+    },
+    {
+      "lemma": "αὐτός",
+      "raw_count": 30141,
+      "lookup_key": "autos",
+      "matched": true,
+      "lsj_sense_count": 34
+    },
+    {
+      "lemma": "εἰμί",
+      "raw_count": 28156,
+      "lookup_key": "eimi",
+      "matched": true,
+      "lsj_sense_count": 41
+    },
+    {
+      "lemma": "μέν",
+      "raw_count": 26644,
+      "lookup_key": "men",
+      "matched": true,
+      "lsj_sense_count": 37
+    },
+    {
+      "lemma": "οὗτος",
+      "raw_count": 21822,
+      "lookup_key": "outos",
+      "matched": true,
+      "lsj_sense_count": 52
+    },
+    {
+      "lemma": "τε",
+      "raw_count": 21352,
+      "lookup_key": "te",
+      "matched": true,
+      "lsj_sense_count": 46
+    },
+    {
+      "lemma": "κατά",
+      "raw_count": 21062,
+      "lookup_key": "kata",
+      "matched": true,
+      "lsj_sense_count": 43
+    },
+    {
+      "lemma": "ἐν",
+      "raw_count": 19487,
+      "lookup_key": "en",
+      "matched": true,
+      "lsj_sense_count": 47
+    },
+    {
+      "lemma": "γάρ",
+      "raw_count": 16344,
+      "lookup_key": "gar",
+      "matched": true,
+      "lsj_sense_count": 27
+    },
+    {
+      "lemma": "ἤ",
+      "raw_count": 15111,
+      "lookup_key": "h",
+      "matched": true,
+      "lsj_sense_count": 61
+    },
+    {
+      "lemma": "οὐ",
+      "raw_count": 14101,
+      "lookup_key": "ou",
+      "matched": true,
+      "lsj_sense_count": 35
+    },
+    {
+      "lemma": "τις",
+      "raw_count": 13565,
+      "lookup_key": "tis",
+      "matched": true,
+      "lsj_sense_count": 70
+    },
+    {
+      "lemma": "διά",
+      "raw_count": 11283,
+      "lookup_key": "dia",
+      "matched": true,
+      "lsj_sense_count": 38
+    },
+    {
+      "lemma": "ὡς",
+      "raw_count": 11005,
+      "lookup_key": "ws",
+      "matched": true,
+      "lsj_sense_count": 74
+    },
+    {
+      "lemma": "ἐπί",
+      "raw_count": 10995,
+      "lookup_key": "epi",
+      "matched": true,
+      "lsj_sense_count": 93
+    },
+    {
+      "lemma": "εἰς",
+      "raw_count": 10635,
+      "lookup_key": "eis",
+      "matched": true,
+      "lsj_sense_count": 22
+    },
+    {
+      "lemma": "ἀλλά",
+      "raw_count": 10589,
+      "lookup_key": "alla",
+      "matched": true,
+      "lsj_sense_count": 24
+    },
+    {
+      "lemma": "ὅς",
+      "raw_count": 10011,
+      "lookup_key": "os",
+      "matched": true,
+      "lsj_sense_count": 57
+    },
+    {
+      "lemma": "ἐκ",
+      "raw_count": 9467,
+      "lookup_key": "ek",
+      "matched": true,
+      "lsj_sense_count": 29
+    },
+    {
+      "lemma": "γίγνομαι",
+      "raw_count": 9447,
+      "lookup_key": "gignomai",
+      "matched": true,
+      "lsj_sense_count": 15
+    },
+    {
+      "lemma": "εἰ",
+      "raw_count": 8366,
+      "lookup_key": "ei",
+      "matched": true,
+      "lsj_sense_count": 52
+    },
+    {
+      "lemma": "πρός",
+      "raw_count": 8271,
+      "lookup_key": "pros",
+      "matched": true,
+      "lsj_sense_count": 52
+    },
+    {
+      "lemma": "ἄλλος",
+      "raw_count": 8116,
+      "lookup_key": "allos",
+      "matched": true,
+      "lsj_sense_count": 13
+    },
+    {
+      "lemma": "οὖν",
+      "raw_count": 8072,
+      "lookup_key": "oun",
+      "matched": true,
+      "lsj_sense_count": 6
+    },
+    {
+      "lemma": "ἔχω",
+      "raw_count": 8030,
+      "lookup_key": "exw",
+      "matched": true,
+      "lsj_sense_count": 62
+    },
+    {
+      "lemma": "περί",
+      "raw_count": 7676,
+      "lookup_key": "peri",
+      "matched": true,
+      "lsj_sense_count": 41
+    },
+    {
+      "lemma": "ἄν",
+      "raw_count": 6444,
+      "lookup_key": "an",
+      "matched": true,
+      "lsj_sense_count": 53
+    },
+    {
+      "lemma": "πᾶς",
+      "raw_count": 6333,
+      "lookup_key": "pas",
+      "matched": true,
+      "lsj_sense_count": 29
+    },
+    {
+      "lemma": "ἐγώ",
+      "raw_count": 6187,
+      "lookup_key": "egw",
+      "matched": true,
+      "lsj_sense_count": 4
+    },
+    {
+      "lemma": "πολύς",
+      "raw_count": 5928,
+      "lookup_key": "polus",
+      "matched": true,
+      "lsj_sense_count": 41
+    },
+    {
+      "lemma": "οὕτω(ς)",
+      "raw_count": 5922,
+      "lookup_key": "outws",
+      "matched": true,
+      "lsj_sense_count": 15
+    },
+    {
+      "lemma": "ἅπας",
+      "raw_count": 5782,
+      "lookup_key": "apas",
+      "matched": true,
+      "lsj_sense_count": 5
+    },
+    {
+      "lemma": "γε",
+      "raw_count": 5746,
+      "lookup_key": "ge",
+      "matched": true,
+      "lsj_sense_count": 15
+    },
+    {
+      "lemma": "τοιοῦτος",
+      "raw_count": 5510,
+      "lookup_key": "toioutos",
+      "matched": true,
+      "lsj_sense_count": 7
+    },
+    {
+      "lemma": "μόνος",
+      "raw_count": 5280,
+      "lookup_key": "monos",
+      "matched": true,
+      "lsj_sense_count": 14
+    },
+    {
+      "lemma": "σῶμα",
+      "raw_count": 4849,
+      "lookup_key": "swma",
+      "matched": true,
+      "lsj_sense_count": 13
+    },
+    {
+      "lemma": "φύσις",
+      "raw_count": 4814,
+      "lookup_key": "fusis",
+      "matched": true,
+      "lsj_sense_count": 22
+    },
+    {
+      "lemma": "μή",
+      "raw_count": 4710,
+      "lookup_key": "mh",
+      "matched": true,
+      "lsj_sense_count": 39
+    },
+    {
+      "lemma": "δύναμις",
+      "raw_count": 4646,
+      "lookup_key": "dunamis",
+      "matched": true,
+      "lsj_sense_count": 26
+    },
+    {
+      "lemma": "λέγω",
+      "raw_count": 4603,
+      "lookup_key": "legw",
+      "matched": true,
+      "lsj_sense_count": 23
+    },
+    {
+      "lemma": "ὅσος",
+      "raw_count": 4396,
+      "lookup_key": "osos",
+      "matched": true,
+      "lsj_sense_count": 30
+    },
+    {
+      "lemma": "λόγος",
+      "raw_count": 4367,
+      "lookup_key": "logos",
+      "matched": true,
+      "lsj_sense_count": 64
+    },
+    {
+      "lemma": "ἕτερος",
+      "raw_count": 4075,
+      "lookup_key": "eteros",
+      "matched": true,
+      "lsj_sense_count": 22
+    },
+    {
+      "lemma": "πρῶτος",
+      "raw_count": 3980,
+      "lookup_key": "prwtos",
+      "matched": true,
+      "lsj_sense_count": 35
+    },
+    {
+      "lemma": "μέγας",
+      "raw_count": 3948,
+      "lookup_key": "megas",
+      "matched": true,
+      "lsj_sense_count": 19
+    },
+    {
+      "lemma": "μετά",
+      "raw_count": 3900,
+      "lookup_key": "meta",
+      "matched": true,
+      "lsj_sense_count": 38
+    },
+    {
+      "lemma": "ὑπό",
+      "raw_count": 3891,
+      "lookup_key": "upo",
+      "matched": true,
+      "lsj_sense_count": 40
+    },
+    {
+      "lemma": "ὅτι",
+      "raw_count": 3721,
+      "lookup_key": "oti",
+      "matched": true,
+      "lsj_sense_count": 15
+    }
+  ]
+}

@@ -1,0 +1,1018 @@
+{
+  "count": 86,
+  "max_edit_distance": 2,
+  "terms": [
+    {
+      "lemma": "γαήτσρ",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "γαστρός",
+        "γαστρὸς"
+      ],
+      "log_likelihood": "1345.0346",
+      "galen_raw": "547",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "φλείβ",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "φλέβας",
+        "φλεβός",
+        "φλεβὸς",
+        "φλεβῶν"
+      ],
+      "log_likelihood": "931.0262",
+      "galen_raw": "309",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "τερμινθῖνα",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "τερμινθίνης"
+      ],
+      "log_likelihood": "295.7874",
+      "galen_raw": "61",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "μαλακώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μαλακώτατα",
+        "μαλακώτατον",
+        "μαλακώτατος",
+        "μαλακώτατός",
+        "μαλακώτερα"
+      ],
+      "log_likelihood": "161.0296",
+      "galen_raw": "72",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "συίθεσνς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "συνθέσεως",
+        "συνθέσεώς"
+      ],
+      "log_likelihood": "137.0026",
+      "galen_raw": "125",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἄπυρον",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀπύρου"
+      ],
+      "log_likelihood": "131.2381",
+      "galen_raw": "31",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "στές",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "στέατα",
+        "στέατος"
+      ],
+      "log_likelihood": "117.007",
+      "galen_raw": "37",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "πρωϊαίς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "πρωϊαίτερον",
+        "πρωϊαίτερος"
+      ],
+      "log_likelihood": "111.1295",
+      "galen_raw": "29",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "δύναμώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "δυνάμεώς"
+      ],
+      "log_likelihood": "99.4488",
+      "galen_raw": "38",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἑκαός",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἑκατέρου"
+      ],
+      "log_likelihood": "88.083",
+      "galen_raw": "130",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μεσοπλεύριοι",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μεσοπλευρίους",
+        "μεσοπλευρίων"
+      ],
+      "log_likelihood": "85.2384",
+      "galen_raw": "17",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ξηραντικώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ξηραντικώτατον",
+        "ξηραντικώτατος",
+        "ξηραντικώτερα",
+        "ξηραντικώτερον"
+      ],
+      "log_likelihood": "65.1823",
+      "galen_raw": "13",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "σάβινος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "σαβίνου",
+        "σαβίνῳ"
+      ],
+      "log_likelihood": "65.1823",
+      "galen_raw": "13",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἄῤῥος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἄῤῥεσι",
+        "ἄῤῥεσιν"
+      ],
+      "log_likelihood": "64.1603",
+      "galen_raw": "16",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "θότερας",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "θατέρῳ"
+      ],
+      "log_likelihood": "63.6792",
+      "galen_raw": "72",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἀκυρώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀκυρώτατα",
+        "ἀκυρώτατον",
+        "ἀκυρώτερα",
+        "ἀκυρώτερον"
+      ],
+      "log_likelihood": "60.1683",
+      "galen_raw": "12",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "βαλαυίτσος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "βαλαυστίου"
+      ],
+      "log_likelihood": "60.1683",
+      "galen_raw": "12",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἀσφαλέσς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀσφαλέστερον"
+      ],
+      "log_likelihood": "59.5157",
+      "galen_raw": "40",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ταύρειον",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ταυρείου"
+      ],
+      "log_likelihood": "58.1474",
+      "galen_raw": "13",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "κηρωτεύς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "κηρωτῇ"
+      ],
+      "log_likelihood": "54.5166",
+      "galen_raw": "27",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "βαλανεῖα",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "βαλανείοις",
+        "βαλανείων"
+      ],
+      "log_likelihood": "51.6642",
+      "galen_raw": "25",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "καταάτσσις",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "καταστάσεις",
+        "καταστάσεων"
+      ],
+      "log_likelihood": "51.1549",
+      "galen_raw": "19",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἕλκε",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἕλκεσιν"
+      ],
+      "log_likelihood": "50.25",
+      "galen_raw": "13",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "χολωδέσς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "χολωδέστερα",
+        "χολωδέστεροι",
+        "χολωδέστερον",
+        "χολωδέστερος"
+      ],
+      "log_likelihood": "48.4402",
+      "galen_raw": "11",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "λεπτομερέσς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "λεπτομερέστατον",
+        "λεπτομερέστερα",
+        "λεπτομερέστερον",
+        "λεπτομερέστερόν"
+      ],
+      "log_likelihood": "45.0929",
+      "galen_raw": "21",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ὀνῦχος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ὀνύχων"
+      ],
+      "log_likelihood": "40.9551",
+      "galen_raw": "24",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "μετακαόπιρν",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μετακαρπίου"
+      ],
+      "log_likelihood": "40.155",
+      "galen_raw": "15",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "σκληρέτορος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "σκληροτέρους",
+        "σκληροτέρων"
+      ],
+      "log_likelihood": "39.6669",
+      "galen_raw": "10",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μαλακέτωρος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μαλακωτέρων"
+      ],
+      "log_likelihood": "39.6669",
+      "galen_raw": "10",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "διίθεσας",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "διαθέσεως",
+        "διαθέσεώς"
+      ],
+      "log_likelihood": "39.4382",
+      "galen_raw": "22",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἀρτηρίη",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀρτηρίαις"
+      ],
+      "log_likelihood": "38.7946",
+      "galen_raw": "9",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "πυρέτης",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "πυρετῶν"
+      ],
+      "log_likelihood": "38.7946",
+      "galen_raw": "9",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "σήπτω",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "σήψει",
+        "σήψειν"
+      ],
+      "log_likelihood": "37.3978",
+      "galen_raw": "16",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "εὐτονώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "εὐτονώτερα",
+        "εὐτονώτεροι",
+        "εὐτονώτερον"
+      ],
+      "log_likelihood": "36.1297",
+      "galen_raw": "11",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ξηραντικώτατος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ξηραντικώτεραι",
+        "ξηραντικώτερός"
+      ],
+      "log_likelihood": "35.0982",
+      "galen_raw": "7",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἐναντειός",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐναντιωτάτας"
+      ],
+      "log_likelihood": "35.0352",
+      "galen_raw": "9",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἐναντιώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐναντιώτατον"
+      ],
+      "log_likelihood": "33.7608",
+      "galen_raw": "14",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "φλήβ",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "φλέβας",
+        "φλέβες",
+        "φλεβός",
+        "φλεβὸς"
+      ],
+      "log_likelihood": "31.8951",
+      "galen_raw": "10",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ὑψηέρτλοος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ὑψηλοτέραν",
+        "ὑψηλοτέρας"
+      ],
+      "log_likelihood": "31.8951",
+      "galen_raw": "10",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μόνιορ",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μορίου"
+      ],
+      "log_likelihood": "30.6507",
+      "galen_raw": "11",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "περιός",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "περιόδων"
+      ],
+      "log_likelihood": "30.5893",
+      "galen_raw": "26",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἐπιληψίη",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐπιληψίαις"
+      ],
+      "log_likelihood": "30.0841",
+      "galen_raw": "6",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἐγκέφαλον",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐγκεφάλων",
+        "ἐγκεφάλῳ"
+      ],
+      "log_likelihood": "29.7581",
+      "galen_raw": "9",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "φλεγματικώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "φλεγματικώτερα",
+        "φλεγματικώτερον"
+      ],
+      "log_likelihood": "29.2399",
+      "galen_raw": "7",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "πλευρίτ",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "πλευρίτισιν"
+      ],
+      "log_likelihood": "29.2399",
+      "galen_raw": "7",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἀθροώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀθροώτερον"
+      ],
+      "log_likelihood": "27.7902",
+      "galen_raw": "11",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "διηίησγς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "διηγήσει"
+      ],
+      "log_likelihood": "26.6124",
+      "galen_raw": "23",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ποῤῥώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ποῤῥώτατα",
+        "ποῤῥώτερα",
+        "ποῤῥώτερον"
+      ],
+      "log_likelihood": "26.5263",
+      "galen_raw": "11",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "καταμών",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "καταμόνας"
+      ],
+      "log_likelihood": "25.9562",
+      "galen_raw": "9",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "τάς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "τάσιν"
+      ],
+      "log_likelihood": "24.7136",
+      "galen_raw": "26",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἐπιῤῥυέις",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐπιῤῥυέντα",
+        "ἐπιῤῥυέντος"
+      ],
+      "log_likelihood": "24.5126",
+      "galen_raw": "6",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ὑδατωδέσς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ὑδατωδέστατος",
+        "ὑδατωδέστερα",
+        "ὑδατωδέστεροι"
+      ],
+      "log_likelihood": "24.5126",
+      "galen_raw": "6",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μενδόσιης",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μενδησίῳ"
+      ],
+      "log_likelihood": "24.5126",
+      "galen_raw": "6",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "κακοήθος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "κακοήθεσιν"
+      ],
+      "log_likelihood": "24.3865",
+      "galen_raw": "9",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "θάς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "θάτερα",
+        "θάτερον",
+        "θάτερος"
+      ],
+      "log_likelihood": "23.9334",
+      "galen_raw": "124",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "χρησιμώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "χρησιμώτατον",
+        "χρησιμώτατος",
+        "χρησιμώτεροι",
+        "χρησιμώτερον"
+      ],
+      "log_likelihood": "23.5195",
+      "galen_raw": "13",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἀτονώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀτονώτατος",
+        "ἀτονώτερον"
+      ],
+      "log_likelihood": "22.9785",
+      "galen_raw": "9",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "παντάπας",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "παντάπασίν"
+      ],
+      "log_likelihood": "22.9462",
+      "galen_raw": "10",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ὀνόμας",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ὀνόμασιν"
+      ],
+      "log_likelihood": "22.2792",
+      "galen_raw": "11",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἀποπληξίη",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀποπληξίαις"
+      ],
+      "log_likelihood": "21.4269",
+      "galen_raw": "6",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "λειοόαττς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "λειοτάτην"
+      ],
+      "log_likelihood": "21.4269",
+      "galen_raw": "6",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "γλύκεος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "γλυκέων"
+      ],
+      "log_likelihood": "21.3578",
+      "galen_raw": "7",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἐναργέσς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐναργέστερα",
+        "ἐναργέστερον"
+      ],
+      "log_likelihood": "20.2546",
+      "galen_raw": "14",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "σπανιώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "σπανιώτατοι",
+        "σπανιώτατον",
+        "σπανιώτατος",
+        "σπανιώτερα",
+        "σπανιώτερον"
+      ],
+      "log_likelihood": "20.0549",
+      "galen_raw": "17",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἱδρών",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἱδρῶσι",
+        "ἱδρῶσιν"
+      ],
+      "log_likelihood": "19.9555",
+      "galen_raw": "13",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἐπιπλείων",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἐπιπλέον"
+      ],
+      "log_likelihood": "19.8334",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ψυχρέτορος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ψυχροτέρων"
+      ],
+      "log_likelihood": "19.8334",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ταπειέρτνοος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ταπεινοτέρας"
+      ],
+      "log_likelihood": "19.8334",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἀτροφώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀτροφώτερα",
+        "ἀτροφώτεροι",
+        "ἀτροφώτερον"
+      ],
+      "log_likelihood": "19.8334",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "βραδύτερος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "βραδυτέρους"
+      ],
+      "log_likelihood": "19.8334",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ἀήγλμα",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀλγήμασι",
+        "ἀλγήματι",
+        "ἀλγήματος"
+      ],
+      "log_likelihood": "19.5409",
+      "galen_raw": "15",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "διεξός",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "διεξόδων"
+      ],
+      "log_likelihood": "19.137",
+      "galen_raw": "6",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "σμῖλα",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "σμίλης"
+      ],
+      "log_likelihood": "17.3041",
+      "galen_raw": "6",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἀκριβύς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἀκριβέσιν"
+      ],
+      "log_likelihood": "17.3041",
+      "galen_raw": "6",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "καταπίωστς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "καταπτώσει"
+      ],
+      "log_likelihood": "17.3041",
+      "galen_raw": "6",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ὀψιαίς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ὀψιαίτερον"
+      ],
+      "log_likelihood": "17.0821",
+      "galen_raw": "8",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μεθόδοος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μεθόδῳ"
+      ],
+      "log_likelihood": "17.0344",
+      "galen_raw": "5",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ἰσχυρέτορος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ἰσχυροτέρων"
+      ],
+      "log_likelihood": "17.0344",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μελαγχολικώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μελαγχολικώτερα",
+        "μελαγχολικώτεροι",
+        "μελαγχολικώτερον"
+      ],
+      "log_likelihood": "17.0344",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "ὑγρέτορος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ὑγροτέρων"
+      ],
+      "log_likelihood": "17.0344",
+      "galen_raw": "5",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "λεκίθοος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "λεκίθῳ"
+      ],
+      "log_likelihood": "17.0344",
+      "galen_raw": "5",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "μικρέτορος",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μικροτέρων"
+      ],
+      "log_likelihood": "16.8804",
+      "galen_raw": "7",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "δύναμών",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "δυνάμεών"
+      ],
+      "log_likelihood": "16.6148",
+      "galen_raw": "12",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "ποίτης",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "ποιητέων"
+      ],
+      "log_likelihood": "15.7762",
+      "galen_raw": "6",
+      "pos": "NOUN"
+    },
+    {
+      "lemma": "εὐρότερυς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "εὐρυτέρας",
+        "εὐρυτέρων"
+      ],
+      "log_likelihood": "15.7309",
+      "galen_raw": "7",
+      "pos": "ADJ"
+    },
+    {
+      "lemma": "μετριώς",
+      "reason": "hallucination_no_lsj_no_surface_neighbor",
+      "max_edit_distance": 2,
+      "own_surface_examples": [
+        "μετριώτερα",
+        "μετριώτεροι",
+        "μετριώτερον"
+      ],
+      "log_likelihood": "15.1668",
+      "galen_raw": "17",
+      "pos": "ADJ"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "m1_admissible_pct_of_analyzable": 89.73,
+  "m1_admissible_pct_medical": 89.51,
+  "m1_no_analysis_pct_of_all": 4.41,
+  "m1_floor_paper_ready": true,
+  "m1_g1a_passed": true,
+  "m1_g1c_flag": false,
+  "m2_odycy_vs_stanza_consensus_pct_5k": 94.17,
+  "m2_odycy_perseus_pct_5k": 82.89,
+  "m2_alignment_loss_pct_5k": 15.82,
+  "m2_honesty": "Stanza grc_perseus and grc_proiel train on the same UD treebanks (Perseus, PROIEL) that odyCy trains on, so errors are correlated and agreement overstates accuracy. Report as an upper-ish bound, never as accuracy.",
+  "m2_flag_alignment_loss": true,
+  "m2_g2a_passed": true,
+  "m3_n_scored": 1850,
+  "m3_rate_pct": 62.32,
+  "m3_rate_blind_pct": 62.32,
+  "m3_rate_strict_pct": 53.95,
+  "m3_wilson95_lo_pct": 60.09,
+  "m3_wilson95_hi_pct": 64.5,
+  "m3_wilson95_strict_lo_pct": 51.67,
+  "m3_wilson95_strict_hi_pct": 56.21,
+  "m3_rate_blind_treating_variant_as_ok_pct": 63.14,
+  "m3_rate_blind_excluding_variant_pct": 62.83,
+  "m3_mismatch_class_counts": {
+    "passthrough": 411,
+    "garble": 135,
+    "variant_headword": 15,
+    "other_substitution": 136
+  },
+  "m3_parked": false,
+  "m3_stratum": "LSJ-cited tokens (rare / lexicographically interesting); not overall accuracy",
+  "morpheus": {
+    "base_url": "https://morph.perseids.org",
+    "source": "perseids_hosted",
+    "engine": "morpheusgrc",
+    "creator": "org.perseus:tools:morpheus.v1",
+    "docker_image": "perseidsproject/morpheus-perseids-api:v2.1.5",
+    "cache_path": "galen-density-map/data/qc/h3m/cache/morpheus_by_surface.jsonl",
+    "cached_surfaces": 123865,
+    "cached_ok": 123865,
+    "cached_failed": 0,
+    "cached_no_analysis": 7643,
+    "workers": 10
+  },
+  "stanza_version": "1.14.0",
+  "accent_policy": {
+    "primary": "H4b lemma_to_lookup_key (accent-blind Beta Code)",
+    "strict_diagnostic": "NFC + casefold + lunate/final sigma, accents kept"
+  },
+  "seeds": {
+    "random60": 20260725,
+    "random5000": 20260827
+  }
+}

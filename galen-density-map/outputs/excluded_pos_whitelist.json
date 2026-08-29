@@ -1,0 +1,7009 @@
+{
+  "count": 1529,
+  "whitelist": [
+    "ADJ",
+    "NOUN"
+  ],
+  "terms": [
+    {
+      "lemma": "γος",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "3681.0492",
+      "galen_raw": "976"
+    },
+    {
+      "lemma": "ἀκριβῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "3478.9577",
+      "galen_raw": "1662"
+    },
+    {
+      "lemma": "οὔτ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "2092.3059",
+      "galen_raw": "936"
+    },
+    {
+      "lemma": "ἐνίοτε",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "2062.2435",
+      "galen_raw": "955"
+    },
+    {
+      "lemma": "δραχς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "1945.5233",
+      "galen_raw": "421"
+    },
+    {
+      "lemma": "οὐδ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "1871.8914",
+      "galen_raw": "1774"
+    },
+    {
+      "lemma": "μήτ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "1502.1589",
+      "galen_raw": "529"
+    },
+    {
+      "lemma": "κεκαυμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "1126.1188",
+      "galen_raw": "270"
+    },
+    {
+      "lemma": "ὥστ",
+      "pos": "SCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "1087.0233",
+      "galen_raw": "554"
+    },
+    {
+      "lemma": "μάλισθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "1082.651",
+      "galen_raw": "260"
+    },
+    {
+      "lemma": "μηδ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "981.6932",
+      "galen_raw": "662"
+    },
+    {
+      "lemma": "ἀναλάμβανε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "980.5023",
+      "galen_raw": "240"
+    },
+    {
+      "lemma": "εἶτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "917.2651",
+      "galen_raw": "420"
+    },
+    {
+      "lemma": "εἴτ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "846.9226",
+      "galen_raw": "295"
+    },
+    {
+      "lemma": "οὔθτε",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "780.1611",
+      "galen_raw": "322"
+    },
+    {
+      "lemma": "ἰσχυρῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "763.7729",
+      "galen_raw": "328"
+    },
+    {
+      "lemma": "σφοδρῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "738.1059",
+      "galen_raw": "302"
+    },
+    {
+      "lemma": "ἐναργῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "690.2041",
+      "galen_raw": "325"
+    },
+    {
+      "lemma": "ἕψε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "667.0556",
+      "galen_raw": "172"
+    },
+    {
+      "lemma": "ξες",
+      "pos": "X",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "639.3278",
+      "galen_raw": "154"
+    },
+    {
+      "lemma": "σκεύαζε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "606.6255",
+      "galen_raw": "128"
+    },
+    {
+      "lemma": "ἐσχάτως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "606.2106",
+      "galen_raw": "174"
+    },
+    {
+      "lemma": "αὐτάρκως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "582.3422",
+      "galen_raw": "177"
+    },
+    {
+      "lemma": "πυρέττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "543.3727",
+      "galen_raw": "175"
+    },
+    {
+      "lemma": "φλεβοτομέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "470.3815",
+      "galen_raw": "123"
+    },
+    {
+      "lemma": "ἀτρέμας",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "461.9402",
+      "galen_raw": "136"
+    },
+    {
+      "lemma": "ἐνδείκνυται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "460.9288",
+      "galen_raw": "235"
+    },
+    {
+      "lemma": "μήθ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "441.3374",
+      "galen_raw": "163"
+    },
+    {
+      "lemma": "ἐπιτετευγμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "436.2199",
+      "galen_raw": "87"
+    },
+    {
+      "lemma": "μίσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "414.8908",
+      "galen_raw": "207"
+    },
+    {
+      "lemma": "συμμέτρως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "411.2166",
+      "galen_raw": "169"
+    },
+    {
+      "lemma": "ῥύπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "407.9775",
+      "galen_raw": "108"
+    },
+    {
+      "lemma": "μιγνύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "403.4746",
+      "galen_raw": "112"
+    },
+    {
+      "lemma": "οὔπως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "402.3547",
+      "galen_raw": "642"
+    },
+    {
+      "lemma": "νυνί",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "400.664",
+      "galen_raw": "346"
+    },
+    {
+      "lemma": "πεπλυμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "400.5332",
+      "galen_raw": "85"
+    },
+    {
+      "lemma": "μάλιστ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "383.5205",
+      "galen_raw": "128"
+    },
+    {
+      "lemma": "προσέτι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "363.1647",
+      "galen_raw": "196"
+    },
+    {
+      "lemma": "γοῦν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "359.1324",
+      "galen_raw": "1124"
+    },
+    {
+      "lemma": "κατασχίζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "358.2834",
+      "galen_raw": "88"
+    },
+    {
+      "lemma": "κεκαυμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "352.5939",
+      "galen_raw": "86"
+    },
+    {
+      "lemma": "κενέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "349.1363",
+      "galen_raw": "95"
+    },
+    {
+      "lemma": "λέλεκται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "323.3015",
+      "galen_raw": "160"
+    },
+    {
+      "lemma": "ἐναργός",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "319.7715",
+      "galen_raw": "165"
+    },
+    {
+      "lemma": "ἀδήκτως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "315.8834",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "πάμπολυ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "312.4542",
+      "galen_raw": "97"
+    },
+    {
+      "lemma": "ἐπιδέδεικται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "301.8632",
+      "galen_raw": "91"
+    },
+    {
+      "lemma": "ὑπαλλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "300.9719",
+      "galen_raw": "75"
+    },
+    {
+      "lemma": "ὥσθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "296.3515",
+      "galen_raw": "141"
+    },
+    {
+      "lemma": "δρᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "293.8562",
+      "galen_raw": "94"
+    },
+    {
+      "lemma": "ἕπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "293.0649",
+      "galen_raw": "120"
+    },
+    {
+      "lemma": "θεάσῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "291.637",
+      "galen_raw": "73"
+    },
+    {
+      "lemma": "ἀῤῥωστέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "282.1356",
+      "galen_raw": "77"
+    },
+    {
+      "lemma": "πολλαχόθι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "277.4172",
+      "galen_raw": "66"
+    },
+    {
+      "lemma": "πεπονθότων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "260.5429",
+      "galen_raw": "97"
+    },
+    {
+      "lemma": "ἀνάπλαττε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "258.7827",
+      "galen_raw": "55"
+    },
+    {
+      "lemma": "ἐμνημόνευσα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "256.2355",
+      "galen_raw": "70"
+    },
+    {
+      "lemma": "ἔθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "250.1364",
+      "galen_raw": "71"
+    },
+    {
+      "lemma": "λέλεκμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "247.6902",
+      "galen_raw": "116"
+    },
+    {
+      "lemma": "κεκαυμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "241.4864",
+      "galen_raw": "60"
+    },
+    {
+      "lemma": "δραχν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "239.4764",
+      "galen_raw": "58"
+    },
+    {
+      "lemma": "ἀνάπλασσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "231.0305",
+      "galen_raw": "57"
+    },
+    {
+      "lemma": "ἀποδέδεικται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "226.8022",
+      "galen_raw": "126"
+    },
+    {
+      "lemma": "ἄκρως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "225.3803",
+      "galen_raw": "158"
+    },
+    {
+      "lemma": "ἔτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "224.2049",
+      "galen_raw": "101"
+    },
+    {
+      "lemma": "ψυχόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "223.258",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "ἔνσταζε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "216.8864",
+      "galen_raw": "68"
+    },
+    {
+      "lemma": "διαπλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "210.4527",
+      "galen_raw": "71"
+    },
+    {
+      "lemma": "πόλυ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "205.5749",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "κατάχριε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "205.3978",
+      "galen_raw": "90"
+    },
+    {
+      "lemma": "ἀμέτρως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "202.6958",
+      "galen_raw": "77"
+    },
+    {
+      "lemma": "κατάπλασσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "192.0764",
+      "galen_raw": "84"
+    },
+    {
+      "lemma": "σήζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "190.8701",
+      "galen_raw": "64"
+    },
+    {
+      "lemma": "ᾧδ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "190.5328",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "τρίψας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "185.6496",
+      "galen_raw": "135"
+    },
+    {
+      "lemma": "μήθτε",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "185.4804",
+      "galen_raw": "60"
+    },
+    {
+      "lemma": "ἀναμνήζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "185.3853",
+      "galen_raw": "54"
+    },
+    {
+      "lemma": "οἶδ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "185.3646",
+      "galen_raw": "122"
+    },
+    {
+      "lemma": "ἐπιγραφόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "184.0887",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "ἐνταυθοῖ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "182.4324",
+      "galen_raw": "94"
+    },
+    {
+      "lemma": "στυφόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "180.1892",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "τήσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "179.1077",
+      "galen_raw": "58"
+    },
+    {
+      "lemma": "μαλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "177.8504",
+      "galen_raw": "66"
+    },
+    {
+      "lemma": "ὀνομαζομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "177.3278",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐῤῥωμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "176.4403",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "πεφωγμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "176.4403",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "κεχρονισμένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "175.4908",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "ἐκφυόμενος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "165.4627",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ἐπουλόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "164.7957",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "τάχ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "160.806",
+      "galen_raw": "71"
+    },
+    {
+      "lemma": "αἱμοῤῥαγέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "158.7644",
+      "galen_raw": "61"
+    },
+    {
+      "lemma": "μεγάλως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "155.9146",
+      "galen_raw": "132"
+    },
+    {
+      "lemma": "διαπαντός",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "155.2078",
+      "galen_raw": "79"
+    },
+    {
+      "lemma": "πεφθῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "155.0104",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "σκιῤῥόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "150.4706",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "διασπείρω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "150.1082",
+      "galen_raw": "86"
+    },
+    {
+      "lemma": "δείγνυμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "148.3338",
+      "galen_raw": "197"
+    },
+    {
+      "lemma": "ποθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "147.7825",
+      "galen_raw": "52"
+    },
+    {
+      "lemma": "πολυειδῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "146.9281",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "ταχέως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "146.6596",
+      "galen_raw": "308"
+    },
+    {
+      "lemma": "ἐσθιομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "146.4203",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "φυλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "146.1795",
+      "galen_raw": "234"
+    },
+    {
+      "lemma": "ἀλύπως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "145.0082",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "ἐνταῦθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "144.519",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "τήλεως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "143.9397",
+      "galen_raw": "53"
+    },
+    {
+      "lemma": "καλούμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "143.1427",
+      "galen_raw": "106"
+    },
+    {
+      "lemma": "πεπονθότα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "141.0698",
+      "galen_raw": "59"
+    },
+    {
+      "lemma": "καμπτόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "140.7949",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "πυρεττόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "140.4833",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "διαβιβγρώσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "140.3926",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "βεβλάφθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "140.2153",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "δυσπνοέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "140.2153",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "εἰρημέναις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "139.4291",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "θαυμαστῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "137.4724",
+      "galen_raw": "66"
+    },
+    {
+      "lemma": "ἐργάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "137.33",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "ἰασάμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "135.7981",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "μεταβῶ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "135.7157",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "περικειμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "135.5334",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "λεπτυνούσῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "135.3786",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "πεπονθότι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "134.5141",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐθιάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "132.9959",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ἐργάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "132.8306",
+      "galen_raw": "53"
+    },
+    {
+      "lemma": "γιίγνομαγ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "131.9632",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "οὐδαμόθι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "131.863",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "σκιῤῥέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "130.3646",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "μίγνυμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "130.3646",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἀπόθου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "130.2797",
+      "galen_raw": "53"
+    },
+    {
+      "lemma": "μέντοι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "129.9937",
+      "galen_raw": "1138"
+    },
+    {
+      "lemma": "μηδόλως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "129.1507",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐδείκνυμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "129.0626",
+      "galen_raw": "55"
+    },
+    {
+      "lemma": "οὐθ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "128.4487",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "οὐκέτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "128.4088",
+      "galen_raw": "114"
+    },
+    {
+      "lemma": "βουληθείης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "125.5897",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "παραγράπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "125.0128",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἐνδείγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "124.5425",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "διαβρέχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "124.1297",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "ἀποφῄνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "122.2939",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἐμφυόμενος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "121.9805",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ὀνομαζομένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "121.7109",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "στυφέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "121.1633",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "μηκέτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "120.6892",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "ἀναμνῆζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "119.4873",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "οὔθ",
+      "pos": "CCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "117.5197",
+      "galen_raw": "68"
+    },
+    {
+      "lemma": "ὅτ",
+      "pos": "SCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "117.1354",
+      "galen_raw": "106"
+    },
+    {
+      "lemma": "γεγυμνάσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "117.007",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "ἑλίττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "116.9595",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ποδηγέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "116.6366",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐμψύχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "116.0438",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἄλλοτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "115.8975",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "ἡλκωμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "115.3225",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ῥυπτόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "115.3225",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ῤῥέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "115.311",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "κινῶ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "114.8039",
+      "galen_raw": "70"
+    },
+    {
+      "lemma": "θαῤῥάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "114.3569",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ἐκθλίπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "114.2458",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "φυράζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "114.1627",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "δηλονόι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "112.791",
+      "galen_raw": "403"
+    },
+    {
+      "lemma": "προσηκόντως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "112.4667",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "ἰάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "110.4716",
+      "galen_raw": "55"
+    },
+    {
+      "lemma": "διαῤῥύπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "110.3085",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ὑπογεγραμμέναις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "110.3085",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ἀναλάμβανεμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "109.8152",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ἀναπτύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "108.5555",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "λέαινε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "108.1334",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "διαφράττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "107.1787",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ὑπερκειμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "107.0801",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "τένω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "106.5748",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ἐκκενέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "106.5748",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "μίσγε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "106.5571",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "λεπτυνέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "106.5548",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "δεικέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "105.2143",
+      "galen_raw": "320"
+    },
+    {
+      "lemma": "βήττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "104.2501",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "κεκραμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "103.8246",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "ὀλιγάκις",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "103.4037",
+      "galen_raw": "71"
+    },
+    {
+      "lemma": "παρακμάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "102.8742",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "προγεγραμμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "102.3003",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ἀξιολόγως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "102.2066",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "εἰρημένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "101.9217",
+      "galen_raw": "88"
+    },
+    {
+      "lemma": "ἐκκενῶζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "101.7241",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἑκάστοτε",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "101.6514",
+      "galen_raw": "84"
+    },
+    {
+      "lemma": "μηδέπω",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "101.4725",
+      "galen_raw": "125"
+    },
+    {
+      "lemma": "ἐγκαταβαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "100.2804",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "προγεγραμμένῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "99.1671",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ὡμολόγηται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "98.2426",
+      "galen_raw": "64"
+    },
+    {
+      "lemma": "διακλύζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "98.0701",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "ἐκφυόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "97.3286",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐπιμίγνυμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "96.0825",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "μόγις",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "95.6238",
+      "galen_raw": "75"
+    },
+    {
+      "lemma": "νστ΄",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "95.2664",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "σῆθε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "95.2664",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "παράπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "94.0578",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "πυρέσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "92.575",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "ἐκφράττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "92.4098",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἔμιξα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "92.4098",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἐῤῥέθη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "91.9917",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "καταπλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "91.7988",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ὀνομαζομένη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "91.6654",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "ἔφαμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "91.6331",
+      "galen_raw": "111"
+    },
+    {
+      "lemma": "θλᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "90.2524",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "διαστελλομένη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "90.2524",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "λεπτυνόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "90.2524",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ὁρᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "89.9633",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "εἰσαγομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "89.5931",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "γιδιαγνώσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "89.5095",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "ἐπίχριε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "89.5095",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "μυριάκις",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "89.4467",
+      "galen_raw": "57"
+    },
+    {
+      "lemma": "κος",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "88.7992",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "γεννᾶμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "88.5095",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "φιλοπόνως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "88.0442",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "διαφυλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "87.9439",
+      "galen_raw": "50"
+    },
+    {
+      "lemma": "ἀποδείρω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "87.7197",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ὑπεζωκότος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "87.4959",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "μηδαμόθι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "87.2166",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "διοίκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "87.2166",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἀποτελεῖται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "85.7777",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἐξηγέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "85.6912",
+      "galen_raw": "50"
+    },
+    {
+      "lemma": "καταφυόμενος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "85.2384",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ταθεῖεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "85.2384",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀποτίθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "84.2695",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "ψύσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "84.1631",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "γευομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "83.9165",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἀναγκαζόμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "83.673",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "λεχνθάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "83.3956",
+      "galen_raw": "48"
+    },
+    {
+      "lemma": "ἐδείκνυτο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "83.1653",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "προγεγραμμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "82.9788",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἡλκωμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "82.9788",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "διασκέπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "82.6976",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "διάχριε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "82.6976",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ὀδυνάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "82.2994",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "δύναιτ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "81.9656",
+      "galen_raw": "45"
+    },
+    {
+      "lemma": "ἐλέγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "80.4482",
+      "galen_raw": "131"
+    },
+    {
+      "lemma": "γεγυμνασμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "80.2244",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἀθρόως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "80.0389",
+      "galen_raw": "80"
+    },
+    {
+      "lemma": "ἀργῶς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "79.579",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ξεμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "79.3337",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "καθότι",
+      "pos": "SCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "79.0832",
+      "galen_raw": "108"
+    },
+    {
+      "lemma": "γιγνόμενος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "78.683",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "γεγραμμέναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "78.5911",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἡνίκ",
+      "pos": "SCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "78.5574",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "μίγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "78.3777",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "εἰρημένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "78.2439",
+      "galen_raw": "59"
+    },
+    {
+      "lemma": "ἐθεάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "78.0978",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "παραλέλειπται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "77.731",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "μά-μνάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "77.6843",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἐξηγησάμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "77.5892",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "μίγνυψυ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "77.0387",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἐργαζομένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "76.1106",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ὁπωσοῦν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "75.9153",
+      "galen_raw": "120"
+    },
+    {
+      "lemma": "ἐκπέφυκεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "διαστελλομένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ιστ΄ς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐσκεύασα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "βλάπω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "75.0946",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ἐμνημονεύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "74.7957",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἀπειργάσατο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "74.756",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "πυρέγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "74.6929",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ὁσημέραι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "74.0765",
+      "galen_raw": "59"
+    },
+    {
+      "lemma": "ἐδήλωσα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "73.6532",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "προὐθέμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "73.2101",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "πρωτοπαθέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "73.2101",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "καμνόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.9242",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἀνασπᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.7916",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀποκεχώρηκε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.788",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "πολυειδός",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.788",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "προγεγραμμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.788",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "προπαρασκευάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.7821",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "σφοδρὰν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.538",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἐργαζομένη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.4927",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἀπευθυσμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.4927",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ὀδυνάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "72.4139",
+      "galen_raw": "48"
+    },
+    {
+      "lemma": "παραλελεῖφθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "71.7024",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "διαπυΐσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "70.5677",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "μιπειράκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "70.4412",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "συγκατασχίζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "70.1963",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "συνενδείκνυμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "70.1963",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "σκευάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "70.0705",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἕφω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "70.0705",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἐπικτάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.7327",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "καταθραύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.7327",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "πεπίστευται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.6339",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "γεγράφασιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.6217",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "μεμίχθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.6217",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "καόυ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.4053",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "δεόντως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.3303",
+      "galen_raw": "99"
+    },
+    {
+      "lemma": "ἑνόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.2866",
+      "galen_raw": "73"
+    },
+    {
+      "lemma": "ἐμφυόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.0065",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἐμφυομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.0065",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "μιγνύντα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.0065",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "βεβλαμμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "68.0065",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "διαιτέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.9363",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "προὐνοέομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐμφυόμενοι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "συνεκθερμαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἀναπτομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "φλεγμάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐκπέφυκε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "67.0177",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "γεγραμμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "66.891",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἀναμνησθῶμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "66.1672",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐμφύσα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "66.1672",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "σκευαζόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.9816",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐμφράττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.5933",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ἀρχομένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.5004",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "σπανίως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.4479",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "γενέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.2278",
+      "galen_raw": "64"
+    },
+    {
+      "lemma": "ἐκφυόμενοι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ὑποχεομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "σκιῤῥέομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "δορκαδίζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἔμπασσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "παντοίως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "65.0859",
+      "galen_raw": "51"
+    },
+    {
+      "lemma": "ἔσθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "64.9888",
+      "galen_raw": "77"
+    },
+    {
+      "lemma": "ἐκκρινομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "64.2806",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "δακνόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "64.2806",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "συστραίφω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "64.1603",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἐργαζόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "64.1293",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ὁπότ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "64.0255",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἐδείχθησαν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.8936",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἐπικτάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.8114",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "νοήσαις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.7901",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "προειρημένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.5816",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "ἐπουλέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.2353",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἀμυδρής",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.0443",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "διαστελλάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.0185",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "διαλειπόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.0185",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἐξεράζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "63.0185",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀφικνενῖομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "62.8486",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "ἐπαλείφω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "62.1157",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ἐπειράθημεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "61.8268",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "λελεγμένα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "61.8268",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἐπίβαλε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "61.8268",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "σαρκέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "61.7951",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "διττῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "61.6498",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "ἐπιθείνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.8885",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "οὔττε",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.2871",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἐπεδίγνυμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.2871",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "πεπονθόσι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.2871",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἀνακογχυλίζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "σκευασθείσῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀνιεμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "δεήω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "60.086",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἐμπλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "59.8563",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀντιθερμαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "59.5162",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ξήραινε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "59.5162",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "πλύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "59.5003",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "εἴωθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "59.4977",
+      "galen_raw": "87"
+    },
+    {
+      "lemma": "ἁπτῖμαο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "59.0905",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἁπτομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.9433",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "παραγράπω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.4798",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ὑπήρξατο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.4798",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "φαινομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.4353",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "διαστελλομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.1474",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "κυουμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.1474",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "γιγνόμεναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.1196",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "παρέλιπον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.0966",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "ποῤῥωτέρων",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "58.0219",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "συμφύομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.9876",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἐδημιούργησε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.9316",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "κέκαυμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.8256",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "μεμνημένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.4542",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀλλοιέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.4226",
+      "galen_raw": "92"
+    },
+    {
+      "lemma": "λειέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.4111",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "κεκαθαρμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.4002",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "τέτακται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.3531",
+      "galen_raw": "79"
+    },
+    {
+      "lemma": "ἑψόη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.2268",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "ἐπανέλθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "57.1212",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ἐπικράτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.8802",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "μεμνήμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.8688",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἐξωτέρω",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.8083",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "βουληθίημι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.6798",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "διαγνώω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "θερμῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "κατάπασσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "αὐτάρκος",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.9571",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "μήθτι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.9263",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ὀνομαζομένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.5804",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ἐπειγέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.4628",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "λέλεκταί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.2553",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "μῖζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.2553",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀδιορίστως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.2372",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "ἐπιπλεκομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κολλᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "καταφύεσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "συναρθροῦμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐνεστώσῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "μαλαττόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "διαστελλομένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "δυσλύτως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἀφικνουμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "54.8625",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "μικέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "54.8625",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἐμβαλεῖς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "54.8625",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἐπιδείγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "54.5647",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "γεγραμμένη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "54.2922",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ἀρνξάναμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.8793",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ὀνίναμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.7422",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "μιγνύναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.7422",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "μιόχ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.6269",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "πυοῤῥοέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.6269",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ὁότ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.5672",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "καθήκοντες",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.5672",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "διαστελλόμεναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.2874",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ταύτῃ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.2552",
+      "galen_raw": "229"
+    },
+    {
+      "lemma": "προὐθέμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.2271",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "μαθήσῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "53.0527",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ἐξικνέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "52.6599",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "λειφίθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "52.6599",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "κεφαλαλγέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "52.1219",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "διαρθρέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.8818",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "φανεῖταί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.8071",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἐδημιούργησεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.6362",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "τότ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.554",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "κεκρᾶσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.3447",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀπόθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.3447",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "καλουμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.2925",
+      "galen_raw": "45"
+    },
+    {
+      "lemma": "ἐπίπασσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.1033",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐγνῶσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.0321",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "μεμνημένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "51.0321",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "λεχθήσεται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.9289",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "πεπονθόσιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.2979",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "προγεγραμμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.25",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἀπεπτάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.25",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἡλκωμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.25",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "σήθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.25",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "τηνικαῦθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "καταφυόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐσκληρυσμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀποῤῥάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀνάκοπτε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐξαίφνης",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "50.0872",
+      "galen_raw": "96"
+    },
+    {
+      "lemma": "σηπομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "49.7244",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐποιησάμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "49.5956",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "θεασαμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "49.1459",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἐναφύομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "49.0251",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "προὔκειτο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.8899",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ἑψόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.8606",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "περιεχόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.6893",
+      "galen_raw": "90"
+    },
+    {
+      "lemma": "γεγραμμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.5442",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "διαγινώσκεται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "προσεπεμβάλλω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἁρμοττόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κατάῤῥουν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "προσέγραπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κστ΄",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐμψύχει",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "πλυθείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κάταντες",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.2297",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "δύο",
+      "pos": "NUM",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "48.0338",
+      "galen_raw": "2157"
+    },
+    {
+      "lemma": "παθόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.9429",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "δείκνυμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.8418",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "τελευτᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.4826",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "γάρτοι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.4826",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "παραλλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.4676",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "ὀδυνᾶμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.3286",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "μεμνημένους",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.3286",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἐθεράπευσα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.3123",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐπιπάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.2784",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "σειομένους",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.2784",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἐνδεικνάυ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.1926",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἔγωγ",
+      "pos": "PRON",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "47.0615",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐμφύεσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "46.7821",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "βεβρωμένους",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "46.7821",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "τέμω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "46.0417",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ηὐξῆσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.9974",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "μετείληφε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.9569",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἐπιπλέον",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.6664",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "προγεγραμμέναις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.6664",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "δήπουθεν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.4598",
+      "galen_raw": "54"
+    },
+    {
+      "lemma": "πεφθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐκφυομένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀνάτεμνε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ὑπεζωκότα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐμψύχειν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "πολλαχόθιν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐδηδοκέναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ποθείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ξηραινέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "λεανθεῖσιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "45.1262",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "θερμήνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.9858",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐργαζόμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.9858",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐῤῥῶσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.9858",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐκτετάσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.9348",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ῥωννύναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.7622",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "τεάχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.7265",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "ἐξαλλάττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.7138",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "συμφύνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.6531",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἕψνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.6531",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "γεννᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.6276",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐμεῖμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.332",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κενούμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.332",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "πέπτειν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.332",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κατειργασμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.332",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "συνουλόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.332",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "μιγνύσθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.332",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "μῖσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.0957",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "σηπόμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.0221",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "λυποῦς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "44.0031",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "προσπιπτόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.881",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ἐξευρίημι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "τηνικαῦτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐκτάθλω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "πυρέξαντας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "σπασμωδός",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἰασάμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "τρῖβε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.6083",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐδίγνυμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.5624",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "πλησιαζόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.5528",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "σπανιάκις",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.4067",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "βλάψω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.2603",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "διοίγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.2603",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "προγεγραμμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.2603",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἔμιξε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "43.2603",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἠμέληται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.8538",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "γυμναζομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.8538",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "διαβρόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.8538",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "γραψάντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.7528",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "πρόειρημαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.7052",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "λεχθήσεσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.5037",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἔκθλιβε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.5037",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "οὐδέπω",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.4748",
+      "galen_raw": "123"
+    },
+    {
+      "lemma": "ἱδρόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.4585",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "θλάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.2418",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀναμνησθῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "42.1968",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "κερανένμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.6551",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "περίχριε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.6551",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "μιγένμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.544",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ἀποσμήχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.3348",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ῥιγόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.2916",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐπύρεξεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.1162",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "παροξυνομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.1162",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "συστραφῇ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "41.1162",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "τεμνόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.9953",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἑκκαίδεκα",
+      "pos": "NUM",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.9551",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "σχιόσ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.9377",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "οὐκέθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.5838",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "συνελόντι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.547",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "πυρέξω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.4748",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "κεκαυμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1804",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ψυχθεῖσιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "διαστελλομένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀποδέρομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "συμπροέρχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ὑπεζωκὼς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "θαυμάζοιμ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ὑπίζωμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐμπαφρείγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "πεφθείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "σκευαζομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "συνενδείκνυται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἑψημένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀναβιβγρώσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐκφραττόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "σκιῤῥούμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "σκευαζομένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "προλειόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "προξυρέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἄνιε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐναφεψημένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "λεανθεῖσι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "40.1122",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐνδεικνύμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.989",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἐμάθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.9111",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "σφοδρᾶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.8076",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἐνδεῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6851",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἐθελήσαις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6669",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀνεβαλόμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6669",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀνατέμω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6669",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ψυχθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6669",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "προηγησάμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6669",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "θερμαινέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.6669",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "διαιτάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.5774",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "παρεσκευάσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.5622",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "λελεγμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.4327",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "μέμικται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.2944",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "διασπάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "39.0236",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "σφαλέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.946",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "προϊόντι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.9424",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ὑπαλλάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "καθηκάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐκπεφυκὼς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐκφύεσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀπελῖπον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "καταφερομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "περαννθάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἑψημένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀνεβαλλόμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "σκληρυνομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀναξύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "λειῶ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.7946",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "φύλαττε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.6739",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "διαφοράω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.6325",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐκπυΐσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.6325",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "παραίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.6325",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐγεγόνεισαν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.5838",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "κεκαυμένα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.5838",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "θρέπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.577",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "γιὀνομώσκα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "εἰρησομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐκταθαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κατάντους",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "προσενέγκναομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "εὑρημένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "μίγγνυμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.437",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἄφιχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.2741",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐπεχείρησα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.2741",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "γίγνοιτ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "38.2741",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "παρεσκευασμένα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "37.423",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐξευρέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "37.3978",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ὠνόμασα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.9456",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐκκενώζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.9456",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "κατεράζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.9456",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "θυμέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6844",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "ἐξηγαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀφικνούμενος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "συνδόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "προγεγραμμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "διαφορεῖσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἔγχριε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "μάλασσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "σώζη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "περικαθάρω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.6051",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "φανοῦνται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.5521",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "κακοπραγέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.5521",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "σκέπω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3819",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἀντισπᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3505",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀνατμέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3505",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐνδεικνύμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3505",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐργασαμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3505",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐλπίω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3505",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "διαλυίθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3505",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "λεάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.3473",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "παρακειμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.269",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "γεγυμνασμένος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.1723",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἐναποτίθω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.1297",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "βαρυνάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "36.1297",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ξηρείνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.7644",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ἐπιτιτίθημι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.7545",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "διαχρίω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.6529",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐπιπάσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.1623",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἐξευράω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "προσεπισκέπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐπιῤῥυαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "βουληθῇς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐμφυόμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "γυμνώσῃς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "γνωρίσεις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐκπεφυκώς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "λελεγμένῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "κατασχιζόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "σφυζούσας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀντιτέτακται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "συστελλομένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "γενηθῶσιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐνδείχομαί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "συνεκκενόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐνιεμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐπιπεμπομένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "δυσαπολύτως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀληλεσμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "προσαγράφω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "διασεσαγμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "λιωπάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "πυρεξάντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐσβεσμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀφεψημένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0982",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐῤῥάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "γεγυμνωμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐμφγύομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "τἀντὸς",
+      "pos": "PRON",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "συῴζν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "προσενεγκάμενος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "μίκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "κάτοξυ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0352",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ὑποτρέφω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "35.0141",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "σκευασθὲν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.6082",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐπιτεταμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.6082",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀπολιμπάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.5917",
+      "galen_raw": "58"
+    },
+    {
+      "lemma": "ἐπισπάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.4798",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "δυναμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.2657",
+      "galen_raw": "55"
+    },
+    {
+      "lemma": "πειραθῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.1293",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "καταχρίω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.1007",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "θαῤῥῶ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.1001",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κρίτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.1001",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "γενήσονται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0973",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "ἀπωθεῖσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0689",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "περικειμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0689",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐστηριγμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0689",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐγνώκειν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0689",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "καυθὲν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0689",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀρτίσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0689",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "συνατίθημι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0457",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἀποκεχώρηκεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀνατεμνομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "κατακέκρυπμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐκφυομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐδηδεσμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "προσιγράφω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "σκευαζόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀναμίγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "γνωρίσαις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "μεμειῶσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐψῦχθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "34.0033",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀναλάβω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "33.9487",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "προηγησαμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "33.9487",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "βλαβαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "33.9487",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "παραλιμπάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "33.6738",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "κινουμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "33.6726",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἔπειθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "33.0392",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "προειρημένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.9988",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "ἐπισκεψόμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.8848",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἔπειτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.6699",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "κατεσκευάσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.607",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "πεφθῇ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.6056",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "θεραπευόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.6056",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐνίω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.579",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "δείξειν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.5187",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "πλησίον",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.4424",
+      "galen_raw": "287"
+    },
+    {
+      "lemma": "ἐποχέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.3368",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "δοίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.2877",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "οὐκέθτε",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.2877",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐκπεφύκασιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.2877",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "μῖγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.2877",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "παραγιγνόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1403",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἑρμηνεῦζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1403",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐνέφυσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1403",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "διαφορόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1403",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "κεχρονάζομιι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1403",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "λειοτρίβει",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1403",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "δείσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.1336",
+      "galen_raw": "104"
+    },
+    {
+      "lemma": "μιγνύμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "32.0744",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "ὁμαλῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.9907",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "ἐργάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.9902",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "δίγατεινομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.8951",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "διατέμω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.8951",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀποφήνομαί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.8951",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐκδαπανέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.8951",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "παρολείπω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.8784",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐπατίθημι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.8439",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "τακῇ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.5524",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "καυσέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.5524",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "πειρέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.5342",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "πισυγχωράσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.4617",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀναμέμικται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.3493",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "πρόσβαλε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "31.3333",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "δηλονός",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.8736",
+      "galen_raw": "64"
+    },
+    {
+      "lemma": "ὑποδέχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.6533",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "ἕψων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.6507",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἀνωμάλως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.6023",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "συνίσταται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.5893",
+      "galen_raw": "66"
+    },
+    {
+      "lemma": "ἄρχομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.5005",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "ἐπιπεπλεγμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀφικνούμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "διαπλαττέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "κατεψυγμένους",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ταθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "γεγυμνωμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "γιγνωσκόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐπιτεχνάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "λελειωμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἔνιε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4442",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἀφίχομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.4028",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀποφήνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.3348",
+      "galen_raw": "50"
+    },
+    {
+      "lemma": "οὔθτι",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.3329",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "προσῆκα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.2364",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "ἀνατεμμάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1976",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀναμίγνυται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1976",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐσφάλθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1976",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "εὑρημένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1976",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀσαφῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1976",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "διήνεγκε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1701",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "γιγνομένους",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1701",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἠναγκάσθημεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1701",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "χαλᾷν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.1701",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "κερασθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐπισκεψαμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀῤῥώστως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "συγκαταψύχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "σύῤῥουν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "θρεψόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "περιστελλάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐδηδεσμένα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "καταποθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀποφύει",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀφώρμηται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐμπεφύκασιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἅψαιο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "κατακεκρυμμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ὑπεζωκότι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐκφυομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀποφυομένας",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ξεπορίδομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐργασαμένῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀποφύειν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐμβεβλημένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἑψηθῶσιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "κενούμεναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἐπιπεμπέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀνεβαλλόμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "διοικάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "κενούζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "περαίνοιτ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "λυπηθεῖσιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "διωρισμένῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "τῆλιν",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ὑποχεομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀναβηττόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "παρεφρόνησε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "συνδέρμομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "καταπινομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "διηγκωνισμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "προεκρήγνυμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "κενωτέον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "λελειῶσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "σκιῤῥεύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ὑποδέρω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "μίξωμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "μάλαττω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "μστ΄",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀνελοῦ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "ἀφοψάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0841",
+      "galen_raw": "6"
+    },
+    {
+      "lemma": "συγκειμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "30.0304",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ἀναβεβλέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.9905",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ξύζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.9905",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐκκενώω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.9905",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἰωμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "κενουμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "προσειληφὸς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἔζευκται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀποβλαστάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "τρωθείσης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἤθροισται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "παροχετεύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.7581",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "πεφυκίσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.6294",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "οὐδέποτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.5673",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἐπικρατοίη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "σφηνωθὲν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "γυμνάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐξηγήζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἠσκῆμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐκφυομένη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "εἴπωμέν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀνέλθωμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "πλημμελόη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "βεβλαμμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ὀνινάναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "σκευασθέν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "παραλελυμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἰδιοπαθέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐκλελύσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἡλκωμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "κίγχρονισμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "συλλεάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.2399",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "προσείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.1592",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐξηγόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.1592",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ὀκτώ",
+      "pos": "NUM",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "29.0557",
+      "galen_raw": "152"
+    },
+    {
+      "lemma": "ἀποδέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.6228",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἰκτεριάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.4401",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "θλίπτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.4401",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "λειποθυμέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.4401",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "διόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.4401",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "προηγάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.4401",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "αὐξηθείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.2958",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐξοχετεύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.2958",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀποφλεγματίζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.2958",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ὑπογεγραμμένα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.2958",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "δαψιλῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "28.1111",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ὁδοιπορέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.955",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "νικόη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7902",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐτόλμησα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7902",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "προσαγορευομένη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7616",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ξηράνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7507",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "σκευαζόμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "προσφερομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "φαμεμί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "πνιγαίνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "εἰρέομαί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "κτετόα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἅπανθτε",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "γεγυμνασμένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἠθροισμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐπύρεξε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "γεγραμμένῃ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐτεκμηράμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "βεβλαμμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ὑπερσαρκόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "συστράφλω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "κεκαθαρμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7314",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "γεγυμνασμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7273",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀφικνουμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7273",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἐξικνεῖται",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7273",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "βλαπτόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7273",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "περίπλασσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7273",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἀντιδότων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.7273",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "μιχθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.6307",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "τετάσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.3219",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἀποτελοῦμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.3034",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "εἴθισμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.3034",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "δεηθῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.1327",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἀποδεδειγμένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.0433",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἁπτομένῳ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.0193",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "συνδιαφθείρω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "27.0193",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "τεκμήρομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.77",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "μηδέποτ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.6593",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "τύχοιεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.6124",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "τεταμένον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.5822",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "δοτέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.5561",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "μιἀναμνῄσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.5263",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κεκομμένης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.5263",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "γο",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.2725",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "γεννᾶσθαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.1659",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "προσαγόμενον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.0781",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "προσμίσσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.0781",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "διαμένω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "26.0277",
+      "galen_raw": "120"
+    },
+    {
+      "lemma": "κυούμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9562",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "γυμνάω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9562",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "λείποιτ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9562",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "θρομβόω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9562",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "ἑφθῆς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9562",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "πεττομένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9562",
+      "galen_raw": "9"
+    },
+    {
+      "lemma": "πεφθέντα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀφικώμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐπιβεβλημένων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐκφνυάνομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "διαχωρούμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀποτελεσθείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐπιτέγγω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἀθροιζόμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐκκενωθῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "βαβλείμω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐναντιολογέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "κατασχάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "γεννωμένην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐτεκμηράμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐκλυάνω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "κριθῆναί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἰατέον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "μιγνύς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "πλίυω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "ἐπενόησα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.9035",
+      "galen_raw": "7"
+    },
+    {
+      "lemma": "διαπλάζω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.8856",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "συνιστάμενα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.8649",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "τετύχηκεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.7076",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἔστ",
+      "pos": "SCONJ",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.6961",
+      "galen_raw": "54"
+    },
+    {
+      "lemma": "ἐπισχετίθημι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "πεκτάομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐπεδείκνυμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "κατεαγότος",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἑάψλω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐνδεικτικῶς",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ἐπεισπνέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "δριμέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.516",
+      "galen_raw": "8"
+    },
+    {
+      "lemma": "ὁμοιοῦμι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.4645",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "λεχθήσω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.4645",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἰτέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.3838",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "τετρωμένου",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.3838",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "αἰσθέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.3838",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἅπανθ",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.3536",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "διηρθρωμένως",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.3536",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "διιφέρω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.2121",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἑλκούσης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.1835",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐγράψαμεν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.1835",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ῥάιος",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.1213",
+      "galen_raw": "81"
+    },
+    {
+      "lemma": "ἐξήγημαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐπανορθοῦμαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἀποκεχωρηκυῖα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "πεπτόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἀναμνηστέον",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "δροσοειδός",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἑλχθέντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐπιβεβλημένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "καταφυόμενοι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "φανοῦνταί",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐπιτεταμένους",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "εἰρησομένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "κατασχιζομέναις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "κατασχιζῖμαο",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐμπεφυκὼς",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "συναφύομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "συνέφυσε",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐξιμηγήσκομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἀπώλετ",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐμφύσεις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "συνδιαγιγνώσκω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ταθείη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐπιτέγγομαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἀναμνησθείης",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "συναποφύω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐναντιώτω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ζεσάντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ὑπηρξάμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ὑπεροπτόη",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἀποῤῥῖψαι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἰασόμεθα",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "διαφθειρομένοισιν",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ὀσμωμένοις",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "παχυνόντων",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "προδιαβρέχω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἀρωματιζέω",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "πεφθῶσι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "ἐγχύλος",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "διαφορηθῆναι",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "προὐχειρισάμην",
+      "pos": "VERB",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    },
+    {
+      "lemma": "παρατυπωτικός",
+      "pos": "ADV",
+      "reason": "pos_not_in_whitelist",
+      "log_likelihood": "25.0701",
+      "galen_raw": "5"
+    }
+  ]
+}

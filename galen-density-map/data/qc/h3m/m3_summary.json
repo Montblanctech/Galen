@@ -1,0 +1,65 @@
+{
+  "funnel": {
+    "citations_found": 7706,
+    "mappable": 4746,
+    "located": 2673,
+    "unambiguous": 1850,
+    "scored": 1850,
+    "dropped_unmapped": 2960,
+    "dropped_not_located": 1181,
+    "dropped_ambiguous": 892,
+    "invalid_location_rejected": 823,
+    "regex_fallback": 139,
+    "with_quoted_form": 2901
+  },
+  "n_scored": 1850,
+  "n_match_blind": 1153,
+  "n_match_strict": 998,
+  "rate_pct": 62.32,
+  "rate_blind_pct": 62.32,
+  "wilson95_lo_pct": 60.09,
+  "wilson95_hi_pct": 64.5,
+  "rate_strict_pct": 53.95,
+  "wilson95_strict_lo_pct": 51.67,
+  "wilson95_strict_hi_pct": 56.21,
+  "n_mismatch": 697,
+  "mismatch_class_counts": {
+    "passthrough": 411,
+    "garble": 135,
+    "variant_headword": 15,
+    "other_substitution": 136
+  },
+  "rate_blind_treating_variant_as_ok_pct": 63.14,
+  "wilson95_variant_as_ok_lo_pct": 60.91,
+  "wilson95_variant_as_ok_hi_pct": 65.3,
+  "rate_blind_excluding_variant_pct": 62.83,
+  "wilson95_excluding_variant_lo_pct": 60.6,
+  "wilson95_excluding_variant_hi_pct": 65.02,
+  "stratum": "LSJ-cited tokens (rare / lexicographically interesting); not overall accuracy",
+  "parked": false,
+  "park_reason": "",
+  "bias_caveat": "LSJ-cited tokens skew toward lexicographically interesting (often rarer) vocabulary — report as rare-stratum accuracy, not overall accuracy. Location is Morpheus-validated (headword ∈ analyzer readings of the page surface); quoted LSJ text is context only, never the target token.",
+  "cache_hygiene": {
+    "corrupt_lines": 62,
+    "refetched": 0,
+    "morpheus": {
+      "base_url": "https://morph.perseids.org",
+      "source": "perseids_hosted",
+      "engine": "morpheusgrc",
+      "creator": "org.perseus:tools:morpheus.v1",
+      "docker_image": "perseidsproject/morpheus-perseids-api:v2.1.5",
+      "cache_path": "galen-density-map/data/qc/h3m/cache/morpheus_by_surface.jsonl",
+      "cached_surfaces": 174380,
+      "cached_ok": 174380,
+      "cached_failed": 0,
+      "cached_no_analysis": 10637,
+      "workers": 8
+    }
+  },
+  "g3a": {
+    "n": 10,
+    "form_in_excerpt": 10
+  },
+  "g3b": "full funnel reported; no silent drops",
+  "do_not_publish_old_rate": "59.79% from the quoted-collocate/circular locator is invalid"
+}

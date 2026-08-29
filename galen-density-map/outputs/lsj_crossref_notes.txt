@@ -1,0 +1,11 @@
+LSJ thin-gloss heuristic notes
+================================
+Perseus LSJ XML headwords are Beta Code. Lookup keys strip diacritics,
+digits, sigma variants (s/s1/s2/s3), and the leading * capital marker.
+
+Thin sense_count is an approximate prioritization aid, not a lexicon gap claim.
+
+Candidates: 6584
+Matched overall: 3098/6584 (47.05%)
+Top-50 common lemmas: 50/50 (100.0%)
+Sense count <= threshold: 4441

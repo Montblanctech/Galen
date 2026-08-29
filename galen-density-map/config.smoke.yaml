@@ -1,0 +1,36 @@
+# Smoke-test config: small Galen set behavior + capped reference corpus
+census_file: "../phase1/galen_ogl_census.json"
+category_scope:
+  - pharmacology
+  - therapeutics
+include_pseudo_galen: false
+reference_corpus:
+  mode: "first1k_minus_galen"
+  custom_list: []
+  max_works: 20
+lemmatizer: "cltk"
+keyness_method: "log_likelihood"
+keyness_min_log_likelihood: 15.13
+min_domain_frequency: 3
+lsj_source: "perseus_lsj_xml"
+lsj_base_url: "https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj"
+lsj_parts: 27
+punch_list_thin_gloss_threshold: 1
+punch_list_exclude_regex:
+  - ".*[΄ʹ′'].*"
+  - "^.{1,2}$"
+  - "^[A-Za-z]+$"
+fetch:
+  rate_limit_seconds: 0.5
+  timeout_seconds: 60
+  max_retries: 3
+extract:
+  include_supplied: false
+  include_gap_placeholders: false
+paths:
+  raw_xml: "data/raw_xml"
+  extracted_text: "data/extracted_text"
+  reference_corpus: "data/reference_corpus"
+  lemmatized: "data/lemmatized"
+  lsj_cache: "data/lsj"
+  outputs: "outputs"

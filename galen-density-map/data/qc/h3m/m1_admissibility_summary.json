@@ -1,0 +1,1040 @@
+{
+  "morpheus": {
+    "base_url": "https://morph.perseids.org",
+    "source": "perseids_hosted",
+    "engine": "morpheusgrc",
+    "creator": "org.perseus:tools:morpheus.v1",
+    "docker_image": "perseidsproject/morpheus-perseids-api:v2.1.5",
+    "cache_path": "galen-density-map/data/qc/h3m/cache/morpheus_by_surface.jsonl",
+    "cached_surfaces": 123865,
+    "cached_ok": 123865,
+    "cached_failed": 0,
+    "cached_no_analysis": 7643,
+    "workers": 10
+  },
+  "accent_policy": {
+    "primary": "H4b lemma_to_lookup_key (accent-blind Beta Code)",
+    "strict_diagnostic": "NFC + casefold + lunate/final sigma, accents kept"
+  },
+  "g1a": {
+    "n": 50,
+    "admissible": 50,
+    "passed": true,
+    "details": [
+      {
+        "lemma": "ὁ",
+        "surface": "τῶν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ὁ"
+        ]
+      },
+      {
+        "lemma": "καί",
+        "surface": "καὶ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "καί"
+        ]
+      },
+      {
+        "lemma": "δέ",
+        "surface": "δὲ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "δέ"
+        ]
+      },
+      {
+        "lemma": "αὐτός",
+        "surface": "αὐτῶν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "αὐτός"
+        ]
+      },
+      {
+        "lemma": "εἰμί",
+        "surface": "ἐστι",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "εἰμί"
+        ]
+      },
+      {
+        "lemma": "μέν",
+        "surface": "μὲν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "μέν"
+        ]
+      },
+      {
+        "lemma": "οὗτος",
+        "surface": "τοῦτο",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "οὗτος"
+        ]
+      },
+      {
+        "lemma": "τε",
+        "surface": "τε",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "τε"
+        ]
+      },
+      {
+        "lemma": "κατά",
+        "surface": "κατὰ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "κατά"
+        ]
+      },
+      {
+        "lemma": "ἐν",
+        "surface": "ἐν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "ἐν",
+          "εἰς"
+        ]
+      },
+      {
+        "lemma": "γάρ",
+        "surface": "γὰρ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "γάρ"
+        ]
+      },
+      {
+        "lemma": "ἤ",
+        "surface": "ἢ",
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "ἤ1",
+          "ἤ2"
+        ]
+      },
+      {
+        "lemma": "οὐ",
+        "surface": "οὐ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "οὐ"
+        ]
+      },
+      {
+        "lemma": "τις",
+        "surface": "τι",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "τις"
+        ]
+      },
+      {
+        "lemma": "διά",
+        "surface": "διὰ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "διά"
+        ]
+      },
+      {
+        "lemma": "ὡς",
+        "surface": "ὡς",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ὡς"
+        ]
+      },
+      {
+        "lemma": "ἐπί",
+        "surface": "ἐπὶ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἐπί"
+        ]
+      },
+      {
+        "lemma": "εἰς",
+        "surface": "εἰς",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "εἰς"
+        ]
+      },
+      {
+        "lemma": "ἀλλά",
+        "surface": "ἀλλὰ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἀλλά"
+        ]
+      },
+      {
+        "lemma": "ὅς",
+        "surface": "ὧν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ὅς"
+        ]
+      },
+      {
+        "lemma": "ἐκ",
+        "surface": "ἐκ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἐκ"
+        ]
+      },
+      {
+        "lemma": "γίγνομαι",
+        "surface": "γίνεται",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "γίγνομαι"
+        ]
+      },
+      {
+        "lemma": "εἰ",
+        "surface": "εἰ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "εἰ"
+        ]
+      },
+      {
+        "lemma": "πρός",
+        "surface": "πρὸς",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "πρός"
+        ]
+      },
+      {
+        "lemma": "ἄλλος",
+        "surface": "ἄλλων",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἄλλος"
+        ]
+      },
+      {
+        "lemma": "οὖν",
+        "surface": "οὖν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "οὖν"
+        ]
+      },
+      {
+        "lemma": "ἔχω",
+        "surface": "ἔχει",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 4,
+        "analyses_sample": [
+          "ἔχις",
+          "ἔχω",
+          "χάω",
+          "χέω"
+        ]
+      },
+      {
+        "lemma": "περί",
+        "surface": "περὶ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "περί"
+        ]
+      },
+      {
+        "lemma": "ἄν",
+        "surface": "ἂν",
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 4,
+        "analyses_sample": [
+          "ἄν1",
+          "ἄν2",
+          "ἀνά",
+          "ἐάν"
+        ]
+      },
+      {
+        "lemma": "πᾶς",
+        "surface": "πάντα",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "πᾶς"
+        ]
+      },
+      {
+        "lemma": "ἐγώ",
+        "surface": "ἡμῖν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἐγώ"
+        ]
+      },
+      {
+        "lemma": "πολύς",
+        "surface": "πολὺ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "πολύς"
+        ]
+      },
+      {
+        "lemma": "οὕτω(ς)",
+        "surface": "οὕτως",
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "οὕτως"
+        ]
+      },
+      {
+        "lemma": "ἅπας",
+        "surface": "ἁπάντων",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἅπας"
+        ]
+      },
+      {
+        "lemma": "γε",
+        "surface": "γε",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "γε"
+        ]
+      },
+      {
+        "lemma": "τοιοῦτος",
+        "surface": "τοιαῦτα",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "τοιοῦτος"
+        ]
+      },
+      {
+        "lemma": "μόνος",
+        "surface": "μόνον",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "μόνος"
+        ]
+      },
+      {
+        "lemma": "σῶμα",
+        "surface": "σῶμα",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "σῶμα"
+        ]
+      },
+      {
+        "lemma": "φύσις",
+        "surface": "φύσιν",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 3,
+        "analyses_sample": [
+          "φύς",
+          "φύσις",
+          "φύω"
+        ]
+      },
+      {
+        "lemma": "μή",
+        "surface": "μὴ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "μή"
+        ]
+      },
+      {
+        "lemma": "δύναμις",
+        "surface": "δυνάμεως",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "δύναμις"
+        ]
+      },
+      {
+        "lemma": "λέγω",
+        "surface": "λέγειν",
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 3,
+        "analyses_sample": [
+          "λέγω1",
+          "λέγω2",
+          "λέγω3"
+        ]
+      },
+      {
+        "lemma": "ὅσος",
+        "surface": "ὅσα",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ὅσος"
+        ]
+      },
+      {
+        "lemma": "λόγος",
+        "surface": "λόγον",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "λόγος"
+        ]
+      },
+      {
+        "lemma": "ἕτερος",
+        "surface": "ἕτερον",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἕτερος"
+        ]
+      },
+      {
+        "lemma": "πρῶτος",
+        "surface": "πρῶτον",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "πρότερος",
+          "πρῶτος"
+        ]
+      },
+      {
+        "lemma": "μέγας",
+        "surface": "μέγα",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "μέγας"
+        ]
+      },
+      {
+        "lemma": "μετά",
+        "surface": "μετὰ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "μετά"
+        ]
+      },
+      {
+        "lemma": "ὑπό",
+        "surface": "ὑπὸ",
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ὑπό"
+        ]
+      },
+      {
+        "lemma": "ὅτι",
+        "surface": "ὅτι",
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 3,
+        "analyses_sample": [
+          "ὅστις",
+          "ὅτι1",
+          "ὅτι2"
+        ]
+      }
+    ]
+  },
+  "g1b": {
+    "n": 13,
+    "mismatches": [
+      "C04"
+    ],
+    "details": [
+      {
+        "control_id": "C01",
+        "control_type": "wrong_plant",
+        "strength": "unambiguous",
+        "surface": "γαστρὸς",
+        "lemma_produced": "γαήτσρ",
+        "expected_verdicts": [
+          "inadmissible",
+          "no_analysis"
+        ],
+        "verdict": "inadmissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "γαστήρ"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C02",
+        "control_type": "wrong_plant",
+        "strength": "unambiguous",
+        "surface": "δέδεικται",
+        "lemma_produced": "δεικέω",
+        "expected_verdicts": [
+          "inadmissible"
+        ],
+        "verdict": "inadmissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "δείκνυμι"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C03",
+        "control_type": "wrong_plant",
+        "strength": "unambiguous",
+        "surface": "φλεβῶν",
+        "lemma_produced": "φλεβά",
+        "expected_verdicts": [
+          "inadmissible"
+        ],
+        "verdict": "inadmissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "φλέψ",
+          "φλεβάζω"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C04",
+        "control_type": "wrong_plant",
+        "strength": "unambiguous",
+        "surface": "ἥπατος",
+        "lemma_produced": "ἥπατος",
+        "expected_verdicts": [
+          "inadmissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "ἥπατος",
+          "ἧπαρ"
+        ],
+        "matches_expected": false
+      },
+      {
+        "control_id": "C05",
+        "control_type": "wrong_plant",
+        "strength": "unambiguous",
+        "surface": "ἀρτηριῶν",
+        "lemma_produced": "ἀρτηριόν",
+        "expected_verdicts": [
+          "inadmissible"
+        ],
+        "verdict": "inadmissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ἀρτηρία"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C06",
+        "control_type": "wrong_plant",
+        "strength": "unambiguous",
+        "surface": "κινήσεως",
+        "lemma_produced": "κινήσεως",
+        "expected_verdicts": [
+          "inadmissible"
+        ],
+        "verdict": "inadmissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "κίνησις"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C07",
+        "control_type": "wrong_plant",
+        "strength": "accent",
+        "surface": "νεύρου",
+        "lemma_produced": "νεύρον",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "νεῦρον",
+          "νευρόω"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C08",
+        "control_type": "wrong_plant",
+        "strength": "accent",
+        "surface": "φαρμάκων",
+        "lemma_produced": "φαρμάκον",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": false,
+        "n_analyses": 3,
+        "analyses_sample": [
+          "φάρμακον",
+          "φάρμακος",
+          "φαρμακάω"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C09",
+        "control_type": "right_anchor",
+        "strength": "unambiguous",
+        "surface": "θερμὸν",
+        "lemma_produced": "θερμός",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "θερμός"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C10",
+        "control_type": "right_anchor",
+        "strength": "unambiguous",
+        "surface": "ψυχρᾶς",
+        "lemma_produced": "ψυχρός",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ψυχρός"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C11",
+        "control_type": "right_anchor",
+        "strength": "unambiguous",
+        "surface": "καρδίας",
+        "lemma_produced": "καρδία",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 2,
+        "analyses_sample": [
+          "καρδία",
+          "καρδιάω"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C12",
+        "control_type": "right_anchor",
+        "strength": "unambiguous",
+        "surface": "ὀστοῦν",
+        "lemma_produced": "ὀστέον",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "ὀστέον"
+        ],
+        "matches_expected": true
+      },
+      {
+        "control_id": "C13",
+        "control_type": "right_anchor",
+        "strength": "unambiguous",
+        "surface": "νόσον",
+        "lemma_produced": "νόσος",
+        "expected_verdicts": [
+          "admissible"
+        ],
+        "verdict": "admissible",
+        "accent_strict_admissible": true,
+        "n_analyses": 1,
+        "analyses_sample": [
+          "νόσος"
+        ],
+        "matches_expected": true
+      }
+    ]
+  },
+  "g1c": {
+    "no_analysis_frac": 4.41,
+    "threshold_pct": 15.0,
+    "flag_g1c_coverage": false,
+    "floor_paper_ready": true
+  },
+  "n_unique_surfaces": 123865,
+  "n_pairs": 145753,
+  "subcorpus_tokens": {
+    "medical": 1746283,
+    "nonmedical": 724353
+  },
+  "token_weighted": {
+    "admissible": 2119152,
+    "inadmissible": 242483,
+    "no_analysis": 109001,
+    "total": 2470636,
+    "analyzable": 2361635,
+    "admissible_pct_of_analyzable": 89.73,
+    "inadmissible_pct_of_analyzable": 10.27,
+    "no_analysis_pct_of_all": 4.41,
+    "admissible_wilson95_lo_pct": 89.69,
+    "admissible_wilson95_hi_pct": 89.77
+  },
+  "type_level": {
+    "admissible": 72573,
+    "inadmissible": 64620,
+    "no_analysis": 8560,
+    "total": 145753,
+    "analyzable": 137193,
+    "admissible_pct_of_analyzable": 52.9,
+    "inadmissible_pct_of_analyzable": 47.1,
+    "no_analysis_pct_of_all": 5.87,
+    "admissible_wilson95_lo_pct": 52.63,
+    "admissible_wilson95_hi_pct": 53.16
+  },
+  "by_subcorpus": {
+    "medical": {
+      "admissible": 1487476,
+      "inadmissible": 174279,
+      "no_analysis": 84528,
+      "total": 1746283,
+      "analyzable": 1661755,
+      "admissible_pct_of_analyzable": 89.51,
+      "inadmissible_pct_of_analyzable": 10.49,
+      "no_analysis_pct_of_all": 4.84,
+      "admissible_wilson95_lo_pct": 89.47,
+      "admissible_wilson95_hi_pct": 89.56
+    },
+    "nonmedical": {
+      "admissible": 631676,
+      "inadmissible": 68204,
+      "no_analysis": 24473,
+      "total": 724353,
+      "analyzable": 699880,
+      "admissible_pct_of_analyzable": 90.25,
+      "inadmissible_pct_of_analyzable": 9.75,
+      "no_analysis_pct_of_all": 3.38,
+      "admissible_wilson95_lo_pct": 90.19,
+      "admissible_wilson95_hi_pct": 90.32
+    }
+  },
+  "by_pos": {
+    "NOUN": {
+      "admissible": 357549,
+      "inadmissible": 80087,
+      "no_analysis": 17220,
+      "total": 454856,
+      "analyzable": 437636,
+      "admissible_pct_of_analyzable": 81.7,
+      "inadmissible_pct_of_analyzable": 18.3,
+      "no_analysis_pct_of_all": 3.79,
+      "admissible_wilson95_lo_pct": 81.59,
+      "admissible_wilson95_hi_pct": 81.81
+    },
+    "ADV": {
+      "admissible": 335736,
+      "inadmissible": 13576,
+      "no_analysis": 34456,
+      "total": 383768,
+      "analyzable": 349312,
+      "admissible_pct_of_analyzable": 96.11,
+      "inadmissible_pct_of_analyzable": 3.89,
+      "no_analysis_pct_of_all": 8.98,
+      "admissible_wilson95_lo_pct": 96.05,
+      "admissible_wilson95_hi_pct": 96.18
+    },
+    "DET": {
+      "admissible": 358331,
+      "inadmissible": 146,
+      "no_analysis": 61,
+      "total": 358538,
+      "analyzable": 358477,
+      "admissible_pct_of_analyzable": 99.96,
+      "inadmissible_pct_of_analyzable": 0.04,
+      "no_analysis_pct_of_all": 0.02,
+      "admissible_wilson95_lo_pct": 99.95,
+      "admissible_wilson95_hi_pct": 99.97
+    },
+    "VERB": {
+      "admissible": 250473,
+      "inadmissible": 103834,
+      "no_analysis": 3667,
+      "total": 357974,
+      "analyzable": 354307,
+      "admissible_pct_of_analyzable": 70.69,
+      "inadmissible_pct_of_analyzable": 29.31,
+      "no_analysis_pct_of_all": 1.02,
+      "admissible_wilson95_lo_pct": 70.54,
+      "admissible_wilson95_hi_pct": 70.84
+    },
+    "ADJ": {
+      "admissible": 267632,
+      "inadmissible": 42017,
+      "no_analysis": 19838,
+      "total": 329487,
+      "analyzable": 309649,
+      "admissible_pct_of_analyzable": 86.43,
+      "inadmissible_pct_of_analyzable": 13.57,
+      "no_analysis_pct_of_all": 6.02,
+      "admissible_wilson95_lo_pct": 86.31,
+      "admissible_wilson95_hi_pct": 86.55
+    },
+    "ADP": {
+      "admissible": 157179,
+      "inadmissible": 305,
+      "no_analysis": 20238,
+      "total": 177722,
+      "analyzable": 157484,
+      "admissible_pct_of_analyzable": 99.81,
+      "inadmissible_pct_of_analyzable": 0.19,
+      "no_analysis_pct_of_all": 11.39,
+      "admissible_wilson95_lo_pct": 99.78,
+      "admissible_wilson95_hi_pct": 99.83
+    },
+    "CCONJ": {
+      "admissible": 161342,
+      "inadmissible": 95,
+      "no_analysis": 11488,
+      "total": 172925,
+      "analyzable": 161437,
+      "admissible_pct_of_analyzable": 99.94,
+      "inadmissible_pct_of_analyzable": 0.06,
+      "no_analysis_pct_of_all": 6.64,
+      "admissible_wilson95_lo_pct": 99.93,
+      "admissible_wilson95_hi_pct": 99.95
+    },
+    "PRON": {
+      "admissible": 134873,
+      "inadmissible": 1426,
+      "no_analysis": 400,
+      "total": 136699,
+      "analyzable": 136299,
+      "admissible_pct_of_analyzable": 98.95,
+      "inadmissible_pct_of_analyzable": 1.05,
+      "no_analysis_pct_of_all": 0.29,
+      "admissible_wilson95_lo_pct": 98.9,
+      "admissible_wilson95_hi_pct": 99.01
+    },
+    "SCONJ": {
+      "admissible": 49592,
+      "inadmissible": 598,
+      "no_analysis": 1084,
+      "total": 51274,
+      "analyzable": 50190,
+      "admissible_pct_of_analyzable": 98.81,
+      "inadmissible_pct_of_analyzable": 1.19,
+      "no_analysis_pct_of_all": 2.11,
+      "admissible_wilson95_lo_pct": 98.71,
+      "admissible_wilson95_hi_pct": 98.9
+    },
+    "AUX": {
+      "admissible": 41385,
+      "inadmissible": 355,
+      "no_analysis": 25,
+      "total": 41765,
+      "analyzable": 41740,
+      "admissible_pct_of_analyzable": 99.15,
+      "inadmissible_pct_of_analyzable": 0.85,
+      "no_analysis_pct_of_all": 0.06,
+      "admissible_wilson95_lo_pct": 99.06,
+      "admissible_wilson95_hi_pct": 99.23
+    },
+    "NUM": {
+      "admissible": 4819,
+      "inadmissible": 24,
+      "no_analysis": 105,
+      "total": 4948,
+      "analyzable": 4843,
+      "admissible_pct_of_analyzable": 99.5,
+      "inadmissible_pct_of_analyzable": 0.5,
+      "no_analysis_pct_of_all": 2.12,
+      "admissible_wilson95_lo_pct": 99.26,
+      "admissible_wilson95_hi_pct": 99.67
+    },
+    "X": {
+      "admissible": 11,
+      "inadmissible": 12,
+      "no_analysis": 235,
+      "total": 258,
+      "analyzable": 23,
+      "admissible_pct_of_analyzable": 47.83,
+      "inadmissible_pct_of_analyzable": 52.17,
+      "no_analysis_pct_of_all": 91.09,
+      "admissible_wilson95_lo_pct": 29.24,
+      "admissible_wilson95_hi_pct": 67.04
+    },
+    "INTJ": {
+      "admissible": 198,
+      "inadmissible": 0,
+      "no_analysis": 0,
+      "total": 198,
+      "analyzable": 198,
+      "admissible_pct_of_analyzable": 100.0,
+      "inadmissible_pct_of_analyzable": 0.0,
+      "no_analysis_pct_of_all": 0.0,
+      "admissible_wilson95_lo_pct": 98.1,
+      "admissible_wilson95_hi_pct": 100.0
+    },
+    "PART": {
+      "admissible": 29,
+      "inadmissible": 0,
+      "no_analysis": 151,
+      "total": 180,
+      "analyzable": 29,
+      "admissible_pct_of_analyzable": 100.0,
+      "inadmissible_pct_of_analyzable": 0.0,
+      "no_analysis_pct_of_all": 83.89,
+      "admissible_wilson95_lo_pct": 88.3,
+      "admissible_wilson95_hi_pct": 100.0
+    },
+    "PUNCT": {
+      "admissible": 3,
+      "inadmissible": 5,
+      "no_analysis": 26,
+      "total": 34,
+      "analyzable": 8,
+      "admissible_pct_of_analyzable": 37.5,
+      "inadmissible_pct_of_analyzable": 62.5,
+      "no_analysis_pct_of_all": 76.47,
+      "admissible_wilson95_lo_pct": 13.68,
+      "admissible_wilson95_hi_pct": 69.43
+    },
+    "PROPN": {
+      "admissible": 0,
+      "inadmissible": 3,
+      "no_analysis": 7,
+      "total": 10,
+      "analyzable": 3,
+      "admissible_pct_of_analyzable": 0.0,
+      "inadmissible_pct_of_analyzable": 100.0,
+      "no_analysis_pct_of_all": 70.0,
+      "admissible_wilson95_lo_pct": 0.0,
+      "admissible_wilson95_hi_pct": 56.15
+    }
+  },
+  "accent_strict_admissible_tokens": 1993197,
+  "accent_strict_admissible_pct_of_analyzable": 84.4,
+  "accent_strict_admissible_types": 62126,
+  "flag_g1c_coverage": false,
+  "floor_paper_ready": true,
+  "token_total": 2470636,
+  "type_total": 145753
+}

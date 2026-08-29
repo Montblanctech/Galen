@@ -1,0 +1,11 @@
+# suspect_high_freq_lemmas.csv — handoff
+
+This file is the gate-6 heuristic worklist (oblique-as-lemma, fragmentation, unattested
+citation form). It is **not** the H3-M review queue.
+
+For human or architect review after 2026-08-27, use:
+
+- `h3m/m1_inadmissible.csv` — Morpheus-inadmissible (surface, lemma) pairs, frequency-ranked
+- `h3m/m2_disagreements.csv` — odyCy × Stanza disagreements
+
+Do not auto-correct the frozen pipeline from any of these lists.

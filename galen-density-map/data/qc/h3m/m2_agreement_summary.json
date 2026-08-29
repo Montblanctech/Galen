@@ -1,0 +1,244 @@
+{
+  "stanza_version": "1.14.0",
+  "packages": [
+    "perseus",
+    "proiel"
+  ],
+  "processors": "tokenize,pos,lemma",
+  "seeds": {
+    "random60": 20260725,
+    "random5000": 20260827
+  },
+  "n_works": 70,
+  "work_alignment_loss_mean": 0.0819,
+  "flag_work_alignment_loss": true,
+  "random60": {
+    "sample": "random60",
+    "n_rows": 60,
+    "n_aligned": 50,
+    "alignment_drop": 10,
+    "alignment_loss_pct": 16.67,
+    "flag_alignment_loss": true,
+    "pairwise": {
+      "odycy_perseus": {
+        "agree": 40,
+        "n": 50,
+        "pct": 80.0,
+        "wilson95_lo_pct": 66.96,
+        "wilson95_hi_pct": 88.76
+      },
+      "odycy_proiel": {
+        "agree": 43,
+        "n": 50,
+        "pct": 86.0,
+        "wilson95_lo_pct": 73.81,
+        "wilson95_hi_pct": 93.05
+      },
+      "perseus_proiel": {
+        "agree": 42,
+        "n": 50,
+        "pct": 84.0,
+        "wilson95_lo_pct": 71.49,
+        "wilson95_hi_pct": 91.66
+      }
+    },
+    "three_way_consensus_pct": 78.0,
+    "odycy_vs_stanza_consensus": {
+      "agree": 39,
+      "n_unanimous_stanza": 42,
+      "pct": 92.86
+    },
+    "honesty_clause": "Stanza grc_perseus and grc_proiel train on the same UD treebanks (Perseus, PROIEL) that odyCy trains on, so errors are correlated and agreement overstates accuracy. Report as an upper-ish bound, never as accuracy."
+  },
+  "random5000": {
+    "sample": "random5000",
+    "n_rows": 5000,
+    "n_aligned": 4209,
+    "alignment_drop": 791,
+    "alignment_loss_pct": 15.82,
+    "flag_alignment_loss": true,
+    "pairwise": {
+      "odycy_perseus": {
+        "agree": 3489,
+        "n": 4209,
+        "pct": 82.89,
+        "wilson95_lo_pct": 81.73,
+        "wilson95_hi_pct": 84.0
+      },
+      "odycy_proiel": {
+        "agree": 3525,
+        "n": 4209,
+        "pct": 83.75,
+        "wilson95_lo_pct": 82.6,
+        "wilson95_hi_pct": 84.83
+      },
+      "perseus_proiel": {
+        "agree": 3481,
+        "n": 4209,
+        "pct": 82.7,
+        "wilson95_lo_pct": 81.53,
+        "wilson95_hi_pct": 83.82
+      }
+    },
+    "three_way_consensus_pct": 77.88,
+    "odycy_vs_stanza_consensus": {
+      "agree": 3278,
+      "n_unanimous_stanza": 3481,
+      "pct": 94.17
+    },
+    "honesty_clause": "Stanza grc_perseus and grc_proiel train on the same UD treebanks (Perseus, PROIEL) that odyCy trains on, so errors are correlated and agreement overstates accuracy. Report as an upper-ish bound, never as accuracy."
+  },
+  "g2a": {
+    "n": 20,
+    "encoding_artifacts": 0,
+    "threshold": 2,
+    "passed": true,
+    "note": "If >2/20 are encoding artifacts, fix normalization and rerun."
+  },
+  "g2b_controls": [
+    {
+      "control_id": "C01",
+      "control_type": "wrong_plant",
+      "strength": "unambiguous",
+      "surface": "γαστρὸς",
+      "lemma_odycy": "γαήτσρ",
+      "lemma_perseus": "γαστήρ",
+      "lemma_proiel": "γαστήρ",
+      "status": "contested",
+      "aligned": true
+    },
+    {
+      "control_id": "C02",
+      "control_type": "wrong_plant",
+      "strength": "unambiguous",
+      "surface": "δέδεικται",
+      "lemma_odycy": "δεικέω",
+      "lemma_perseus": "δείδω",
+      "lemma_proiel": "δέχομαι",
+      "status": "contested",
+      "aligned": true
+    },
+    {
+      "control_id": "C03",
+      "control_type": "wrong_plant",
+      "strength": "unambiguous",
+      "surface": "φλεβῶν",
+      "lemma_odycy": "φλεβά",
+      "lemma_perseus": "φλεβή",
+      "lemma_proiel": "φλεβός",
+      "status": "contested",
+      "aligned": true
+    },
+    {
+      "control_id": "C04",
+      "control_type": "wrong_plant",
+      "strength": "unambiguous",
+      "surface": "ἥπατος",
+      "lemma_odycy": "ἥπατος",
+      "lemma_perseus": "ἥπατος",
+      "lemma_proiel": "ἥπατος",
+      "status": "unanimous",
+      "aligned": true
+    },
+    {
+      "control_id": "C05",
+      "control_type": "wrong_plant",
+      "strength": "unambiguous",
+      "surface": "ἀρτηριῶν",
+      "lemma_odycy": "ἀρτηριόν",
+      "lemma_perseus": "ἀρτηριός",
+      "lemma_proiel": null,
+      "status": "unaligned",
+      "aligned": false
+    },
+    {
+      "control_id": "C06",
+      "control_type": "wrong_plant",
+      "strength": "unambiguous",
+      "surface": "κινήσεως",
+      "lemma_odycy": "κινήσεως",
+      "lemma_perseus": "κινήσιος",
+      "lemma_proiel": null,
+      "status": "unaligned",
+      "aligned": false
+    },
+    {
+      "control_id": "C07",
+      "control_type": "wrong_plant",
+      "strength": "accent",
+      "surface": "νεύρου",
+      "lemma_odycy": "νεύρον",
+      "lemma_perseus": "νεῦρος",
+      "lemma_proiel": null,
+      "status": "unaligned",
+      "aligned": false
+    },
+    {
+      "control_id": "C08",
+      "control_type": "wrong_plant",
+      "strength": "accent",
+      "surface": "φαρμάκων",
+      "lemma_odycy": "φαρμάκον",
+      "lemma_perseus": "φάρμακος",
+      "lemma_proiel": null,
+      "status": "unaligned",
+      "aligned": false
+    },
+    {
+      "control_id": "C09",
+      "control_type": "right_anchor",
+      "strength": "unambiguous",
+      "surface": "θερμὸν",
+      "lemma_odycy": "θερμός",
+      "lemma_perseus": "θερμός",
+      "lemma_proiel": "θερμός",
+      "status": "unanimous",
+      "aligned": true
+    },
+    {
+      "control_id": "C10",
+      "control_type": "right_anchor",
+      "strength": "unambiguous",
+      "surface": "ψυχρᾶς",
+      "lemma_odycy": "ψυχρός",
+      "lemma_perseus": "ψυχρός",
+      "lemma_proiel": null,
+      "status": "unaligned",
+      "aligned": false
+    },
+    {
+      "control_id": "C11",
+      "control_type": "right_anchor",
+      "strength": "unambiguous",
+      "surface": "καρδίας",
+      "lemma_odycy": "καρδία",
+      "lemma_perseus": "καρδία",
+      "lemma_proiel": "καρδία",
+      "status": "unanimous",
+      "aligned": true
+    },
+    {
+      "control_id": "C12",
+      "control_type": "right_anchor",
+      "strength": "unambiguous",
+      "surface": "ὀστοῦν",
+      "lemma_odycy": "ὀστέον",
+      "lemma_perseus": "ὀστόω",
+      "lemma_proiel": null,
+      "status": "unaligned",
+      "aligned": false
+    },
+    {
+      "control_id": "C13",
+      "control_type": "right_anchor",
+      "strength": "unambiguous",
+      "surface": "νόσον",
+      "lemma_odycy": "νόσος",
+      "lemma_perseus": "νόσος",
+      "lemma_proiel": "νόσος",
+      "status": "unanimous",
+      "aligned": true
+    }
+  ],
+  "honesty_clause": "Stanza grc_perseus and grc_proiel train on the same UD treebanks (Perseus, PROIEL) that odyCy trains on, so errors are correlated and agreement overstates accuracy. Report as an upper-ish bound, never as accuracy."
+}

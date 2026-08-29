@@ -1,0 +1,7 @@
+# Elision/crasis remnants and known lemmatizer debris (not real lemmata).
+# Logged at punch-list time.
+οὐδ
+οὔτ
+μήτ
+δηλονόι
+δηλονότι

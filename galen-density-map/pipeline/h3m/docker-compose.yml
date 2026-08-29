@@ -1,0 +1,8 @@
+# Local Morpheus for H3-M M1. Not a pipeline dependency.
+#   docker compose -f pipeline/h3m/docker-compose.yml up -d
+# Then: set MORPHEUS_URL=http://127.0.0.1:1500
+services:
+  morph:
+    image: perseidsproject/morpheus-perseids-api:v2.1.5
+    ports:
+      - "1500:1500"

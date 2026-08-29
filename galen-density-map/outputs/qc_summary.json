@@ -1,0 +1,508 @@
+{
+  "model": {
+    "spacy_version": "3.7.5",
+    "model_name": "odycy_joint_trf",
+    "model_version": "0.7.0",
+    "model_lang": "grc",
+    "pipe_names": [
+      "transformer",
+      "tagger",
+      "morphologizer",
+      "parser",
+      "trainable_lemmatizer",
+      "frequency_lemmatizer"
+    ],
+    "lemmatizer_enabled": true,
+    "frequency_lemmatizer_disabled": false
+  },
+  "backend": "spacy:grc_odycy_joint_trf",
+  "content_passthrough": {
+    "nvaa_tokens": 1116430,
+    "nvaa_passthrough_tokens": 312995,
+    "nvaa_passthrough_pct": 28.04,
+    "nva_tokens": 816105,
+    "nva_passthrough_tokens": 182937,
+    "nva_passthrough_pct": 22.42,
+    "health_tokens": 917859,
+    "health_passthrough_tokens": 246465,
+    "health_passthrough_pct": 26.85,
+    "content_tokens": 917859,
+    "passthrough_tokens": 246465,
+    "passthrough_pct": 26.85
+  },
+  "never_real_lemma": {
+    "punch_n": 1433,
+    "never_real_n": 0,
+    "never_real_pct": 0.0,
+    "examples": []
+  },
+  "extract_coverage": {
+    "works_checked": 71,
+    "flagged_n": 0,
+    "flagged_below_70pct": []
+  },
+  "extract_coverage_whole_galen": {
+    "works_checked": 103,
+    "flagged_n": 1,
+    "flagged_below_70pct": [
+      {
+        "urn": "urn:cts:greekLit:tlg0057.tlg035.1st1K-grc3",
+        "title": "De venereis (ap. Oribasium)",
+        "category": "hygiene",
+        "census_wordcount": 849,
+        "extracted_tokens": 406,
+        "ratio": 0.478
+      }
+    ]
+  },
+  "lsj": {
+    "overall_matched": 3098,
+    "overall_n": 6584,
+    "overall_pct": 47.05,
+    "top50_common_matched": 50,
+    "top50_common_n": 50,
+    "top50_common_pct": 100.0,
+    "top50_misses": []
+  },
+  "punch_top40": [
+    {
+      "rank": 1,
+      "lemma": "θερμασία",
+      "pos": "NOUN",
+      "galen_raw_count": "721",
+      "log_likelihood": "2478.5418",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 2,
+      "lemma": "δυσκρασία",
+      "pos": "NOUN",
+      "galen_raw_count": "497",
+      "log_likelihood": "2214.058",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 3,
+      "lemma": "ἔνιοι",
+      "pos": "ADJ",
+      "galen_raw_count": "1380",
+      "log_likelihood": "1779.4371",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 4,
+      "lemma": "ἀνατομικός",
+      "pos": "ADJ",
+      "galen_raw_count": "289",
+      "log_likelihood": "1399.2468",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 5,
+      "lemma": "χαλβάνη",
+      "pos": "NOUN",
+      "galen_raw_count": "345",
+      "log_likelihood": "1307.6003",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 6,
+      "lemma": "ὀπίον",
+      "pos": "NOUN",
+      "galen_raw_count": "264",
+      "log_likelihood": "1220.9967",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 7,
+      "lemma": "φάρμακος",
+      "pos": "NOUN",
+      "galen_raw_count": "332",
+      "log_likelihood": "1142.423",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 8,
+      "lemma": "ἀμμωνιακός",
+      "pos": "NOUN",
+      "galen_raw_count": "244",
+      "log_likelihood": "1134.6194",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 9,
+      "lemma": "φλεβοτομία",
+      "pos": "NOUN",
+      "galen_raw_count": "284",
+      "log_likelihood": "1071.7235",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 10,
+      "lemma": "εὔδηλος",
+      "pos": "ADJ",
+      "galen_raw_count": "295",
+      "log_likelihood": "884.72",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 11,
+      "lemma": "ῥητίνη",
+      "pos": "NOUN",
+      "galen_raw_count": "281",
+      "log_likelihood": "838.4547",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 12,
+      "lemma": "νεφρός",
+      "pos": "NOUN",
+      "galen_raw_count": "314",
+      "log_likelihood": "726.618",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 13,
+      "lemma": "βραχίων",
+      "pos": "NOUN",
+      "galen_raw_count": "372",
+      "log_likelihood": "678.5442",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 14,
+      "lemma": "αἱμοῤῥαγία",
+      "pos": "NOUN",
+      "galen_raw_count": "170",
+      "log_likelihood": "588.6853",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 15,
+      "lemma": "ψιμύθιον",
+      "pos": "NOUN",
+      "galen_raw_count": "166",
+      "log_likelihood": "557.272",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 16,
+      "lemma": "ξηραντικός",
+      "pos": "ADJ",
+      "galen_raw_count": "146",
+      "log_likelihood": "542.3108",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 17,
+      "lemma": "καστορίον",
+      "pos": "NOUN",
+      "galen_raw_count": "139",
+      "log_likelihood": "534.376",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 18,
+      "lemma": "εἰσπνοή",
+      "pos": "NOUN",
+      "galen_raw_count": "169",
+      "log_likelihood": "532.0263",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 19,
+      "lemma": "ἑλκτικός",
+      "pos": "ADJ",
+      "galen_raw_count": "117",
+      "log_likelihood": "491.6001",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 20,
+      "lemma": "βραδύτης",
+      "pos": "NOUN",
+      "galen_raw_count": "111",
+      "log_likelihood": "484.5153",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 21,
+      "lemma": "νίτρον",
+      "pos": "NOUN",
+      "galen_raw_count": "242",
+      "log_likelihood": "473.8056",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 22,
+      "lemma": "καδμεία",
+      "pos": "NOUN",
+      "galen_raw_count": "117",
+      "log_likelihood": "458.7295",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 23,
+      "lemma": "ἀναπνευστικός",
+      "pos": "ADJ",
+      "galen_raw_count": "123",
+      "log_likelihood": "455.5682",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 24,
+      "lemma": "οὖρον",
+      "pos": "NOUN",
+      "galen_raw_count": "284",
+      "log_likelihood": "439.1707",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 25,
+      "lemma": "σφοδρότης",
+      "pos": "NOUN",
+      "galen_raw_count": "189",
+      "log_likelihood": "428.0146",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 26,
+      "lemma": "ἐπιπλέος",
+      "pos": "ADJ",
+      "galen_raw_count": "108",
+      "log_likelihood": "423.697",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 27,
+      "lemma": "ἀραιότης",
+      "pos": "NOUN",
+      "galen_raw_count": "116",
+      "log_likelihood": "421.3351",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 28,
+      "lemma": "ἐπουλωτικός",
+      "pos": "ADJ",
+      "galen_raw_count": "80",
+      "log_likelihood": "390.5153",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 29,
+      "lemma": "μαλακτικός",
+      "pos": "ADJ",
+      "galen_raw_count": "123",
+      "log_likelihood": "373.9673",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 30,
+      "lemma": "ἔμφραξις",
+      "pos": "NOUN",
+      "galen_raw_count": "91",
+      "log_likelihood": "368.7108",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 31,
+      "lemma": "δῆξις",
+      "pos": "NOUN",
+      "galen_raw_count": "99",
+      "log_likelihood": "367.1633",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 32,
+      "lemma": "στυπτικός",
+      "pos": "ADJ",
+      "galen_raw_count": "151",
+      "log_likelihood": "362.9213",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 33,
+      "lemma": "παρακμή",
+      "pos": "NOUN",
+      "galen_raw_count": "98",
+      "log_likelihood": "354.375",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 34,
+      "lemma": "κυπρίνος",
+      "pos": "NOUN",
+      "galen_raw_count": "81",
+      "log_likelihood": "340.6517",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 35,
+      "lemma": "κασσία",
+      "pos": "NOUN",
+      "galen_raw_count": "87",
+      "log_likelihood": "333.3886",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 36,
+      "lemma": "θρέψις",
+      "pos": "NOUN",
+      "galen_raw_count": "87",
+      "log_likelihood": "324.4001",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 37,
+      "lemma": "ποιότης",
+      "pos": "NOUN",
+      "galen_raw_count": "681",
+      "log_likelihood": "318.8567",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 38,
+      "lemma": "μαρασμός",
+      "pos": "NOUN",
+      "galen_raw_count": "73",
+      "log_likelihood": "310.8093",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 39,
+      "lemma": "σαρκωτικός",
+      "pos": "ADJ",
+      "galen_raw_count": "65",
+      "log_likelihood": "308.2657",
+      "lsj_sense_count": "1"
+    },
+    {
+      "rank": 40,
+      "lemma": "τέτταρες",
+      "pos": "ADJ",
+      "galen_raw_count": "156",
+      "log_likelihood": "302.2025",
+      "lsj_sense_count": "1"
+    }
+  ],
+  "suspect_high_freq_lemmas": {
+    "path": "galen-density-map/data/qc/suspect_high_freq_lemmas.csv",
+    "n_suspects": 50,
+    "tokens_scanned": 1746283,
+    "tokens_with_morph": 1176335,
+    "morph_coverage_pct": 67.36,
+    "flag_counts": {
+      "unattested_citation_form": 30,
+      "fragmentation_near_duplicate": 50,
+      "oblique_or_plural_as_lemma": 20
+    },
+    "head": [
+      {
+        "lemma": "φαρμάκον",
+        "galen_raw_count": 2101,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "μῦς",
+        "galen_raw_count": 1914,
+        "flags": "oblique_or_plural_as_lemma;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "μορίον",
+        "galen_raw_count": 1390,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "ζῷον",
+        "galen_raw_count": 1317,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "δραχμή",
+        "galen_raw_count": 1155,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "κηρός",
+        "galen_raw_count": 835,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "ὀργάνον",
+        "galen_raw_count": 785,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "κινήσεως",
+        "galen_raw_count": 753,
+        "flags": "oblique_or_plural_as_lemma;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "γαήτσρ",
+        "galen_raw_count": 547,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "νεύρον",
+        "galen_raw_count": 544,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "ἀρτηριόν",
+        "galen_raw_count": 543,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "μερῶν",
+        "galen_raw_count": 540,
+        "flags": "oblique_or_plural_as_lemma;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "ἀνήρ",
+        "galen_raw_count": 516,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "νεύρος",
+        "galen_raw_count": 473,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      },
+      {
+        "lemma": "φλεβά",
+        "galen_raw_count": 454,
+        "flags": "unattested_citation_form;fragmentation_near_duplicate"
+      }
+    ],
+    "gate_report_emitted": true,
+    "gate_morph_present": true
+  },
+  "acceptance": {
+    "passthrough_below_28": true,
+    "never_real_single_digits": true,
+    "top50_lsj_near_100": true,
+    "no_extract_flags": true,
+    "suspect_lemma_report_emitted": true,
+    "suspect_lemma_morph_present": true
+  },
+  "reference_passthrough": {
+    "nvaa_tokens": 11857204,
+    "nvaa_passthrough_tokens": 3200490,
+    "nvaa_passthrough_pct": 26.99,
+    "nva_tokens": 9007650,
+    "nva_passthrough_tokens": 2033625,
+    "nva_passthrough_pct": 22.58,
+    "health_tokens": 10018528,
+    "health_passthrough_tokens": 2646102,
+    "health_passthrough_pct": 26.41,
+    "content_tokens": 10018528,
+    "passthrough_tokens": 2646102,
+    "passthrough_pct": 26.41,
+    "corpus": "reference",
+    "source_dir": "galen-density-map/data/lemmatized/reference",
+    "method": "identical to 08_qc.content_passthrough (NOUN/VERB/ADJ/ADV; health=NVA+open ADV excl. particles)",
+    "galen_health_passthrough_pct": 26.85,
+    "delta_vs_galen_health_pts": -0.44,
+    "verdict": "odyCy Greek baseline, not Galen-specific"
+  }
+}

@@ -12,12 +12,32 @@ galen-density-map/data/extracted_text/
 galen-density-map/data/reference_corpus/
 galen-density-map/data/lemmatized/
 galen-density-map/data/lsj/
+galen-density-map/data/qc/h3m/cache/
 galen-density-map/data/*.log
 # Keep auditable stoplists under version control
 !galen-density-map/data/stoplists/
 !galen-density-map/data/stoplists/**
-galen-density-map/outputs/
+# Outputs ignored by default; v2.0 deliverables whitelisted explicitly (auditable).
+# lemma_frequency_reference.json (60MB, regenerable) ships via Zenodo, not git.
+galen-density-map/outputs/*
 !galen-density-map/outputs/.gitkeep
+!galen-density-map/outputs/qc_summary.json
+!galen-density-map/outputs/punch_list.csv
+!galen-density-map/outputs/four_way_classification.csv
+!galen-density-map/outputs/four_way_summary.json
+!galen-density-map/outputs/keyness_scores.csv
+!galen-density-map/outputs/keyness_with_lsj.csv
+!galen-density-map/outputs/lemma_frequency_galen.json
+!galen-density-map/outputs/lemma_frequency_galen_nonmedical.json
+!galen-density-map/outputs/lemma_frequency_galen_whole.json
+!galen-density-map/outputs/excluded_authors.json
+!galen-density-map/outputs/excluded_elision_debris.json
+!galen-density-map/outputs/excluded_hallucinations.json
+!galen-density-map/outputs/excluded_never_real_lemma.json
+!galen-density-map/outputs/excluded_pos_whitelist.json
+!galen-density-map/outputs/excluded_units_numerals.json
+!galen-density-map/outputs/lsj_top50_common_check.json
+!galen-density-map/outputs/lsj_crossref_notes.txt
 
 # Scratch
 _zip_preview/

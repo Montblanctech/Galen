@@ -1,0 +1,82 @@
+census_file: "../phase1/galen_ogl_census.json"
+category_scope:
+  - pharmacology
+  - therapeutics
+  - pathology
+  - pulse
+  - semiotics
+  - dietetics
+  - anatomy
+  - physiology
+# NOT in default scope: logic, protreptic, commentary, methodology, psychology, hygiene
+include_pseudo_galen: false
+reference_corpus:
+  mode: "first1k_minus_galen"   # options: first1k_minus_galen | custom_list
+  custom_list: []
+  # Cap for faster smoke tests; null = fetch all non-Galen First1KGreek editions
+  max_works: null
+# Lemmatizer: odyCy spaCy transformer (NOT CLTK, NOT the small _sm model)
+lemmatizer: "odycy"
+odycy_model: "grc_odycy_joint_trf"
+# Keep frequency+neural (odyCy default). Neural-only raises passthrough on common vocab.
+odycy_prefer_neural_lemma: false
+lemmatize_max_chars: 4000
+keyness_method: "log_likelihood"
+keyness_min_log_likelihood: 15.13   # p<0.0001
+min_domain_frequency: 5
+# Four-way classification (plan §9): rare vs common on MEDICAL vs DISJOINT
+# NON-MEDICAL Galen (not whole-Galen — medical is ~71% of whole → collinear).
+# A lemma is "rare" on an axis when its per-10k rate on that corpus is < threshold.
+four_way_rarity_per10k_threshold: 1.0
+four_way_rarity_threshold_step: 0.5   # sensitivity: re-classify at threshold ± step
+four_way_pos_whitelist:
+  - NOUN
+  - ADJ
+  - VERB
+# Hallucination auto-drop (stage 07): sense_count==0 AND no *assigned* surface
+# (surfaces lemmatized to that lemma) within edit distance. Dist<=2 vs the global
+# surface inventory would falsely keep γαήτσρ via unrelated γαστήρ.
+hallucination_max_edit_distance: 2
+# Reviewer accuracy sample (uniform random from medical lemmatized JSONL)
+accuracy_sample_n: 60
+accuracy_sample_seed: 20260725
+lsj_source: "perseus_lsj_xml"
+lsj_base_url: "https://raw.githubusercontent.com/PerseusDL/lexica/master/CTS_XML_TEI/perseus/pdllex/grc/lsj"
+lsj_parts: 27
+punch_list_thin_gloss_threshold: 1
+# Substantive terminology only (substances, plants, minerals, body parts, conditions).
+# KEEP ADJ — quality terms like δριμύς "acrid" are wanted. ADV/PRON/VERB style noise out.
+punch_list_pos_whitelist:
+  - NOUN
+  - ADJ
+# Auditable stoplists live in data/stoplists/ (authors.txt, units_numerals.txt).
+# Do NOT use fuzzy short-token regex filters here — they can delete real rare terms.
+# Residual high-freq mis-lemmatization report (judgment-free heuristics; do NOT auto-correct).
+suspect_lemmas:
+  top_n: 50
+  min_raw_count: 20
+  oblique_surface_eq_lemma_min_frac: 0.50
+  fragmentation_jaccard_min: 0.35
+  fragmentation_min_shared_contexts: 8
+  fragmentation_edit_sim_min: 0.60
+  unattested_surface_max_frac: 0.005
+  unattested_min_raw_count: 50
+  unattested_partner_min_surface_frac: 0.01
+  max_raw_count: 8000  # exclude closed-class giants from the worklist
+fetch:
+  rate_limit_seconds: 1.0
+  timeout_seconds: 60
+  max_retries: 3
+extract:
+  include_supplied: false
+  include_gap_placeholders: false
+paths:
+  raw_xml: "data/raw_xml"
+  extracted_text: "data/extracted_text"
+  reference_corpus: "data/reference_corpus"
+  lemmatized: "data/lemmatized"
+  # Non-medical Galen JSONL (whole-Galen = galen/ + galen_nonmedical/)
+  lemmatized_galen_nonmedical: "data/lemmatized/galen_nonmedical"
+  lsj_cache: "data/lsj"
+  outputs: "outputs"
+  qc: "data/qc"

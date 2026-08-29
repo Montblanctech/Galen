@@ -1,0 +1,5 @@
+lemma_a,lemma_b,intended_headword,punch_rank_a,punch_rank_b,galen_raw_count_a,galen_raw_count_b,log_likelihood_a,log_likelihood_b,lsj_sense_count_a,lsj_sense_count_b,note
+ἀρτηριόν,ἀρτηριός,ἀρτηρία,700,719,543,114,2422.5195,498.9976,0,0,P3-4 same-headword variant split; flag merge for H3 reviewer. Do NOT auto-merge.
+φλεβά,φλείβ,φλέψ,704,,454,,1384.1454,,0,,P3-4 same-headword variant split; flag merge for H3 reviewer. Do NOT auto-merge.
+ἥπατος,ἥπα,ἧπαρ,703,717,400,187,1393.8984,540.4219,0,0,P3-4 same-headword variant split; flag merge for H3 reviewer. Do NOT auto-merge.
+νοσημάτον,νοσήματον,νόσημα,710,714,217,202,683.1226,590.4287,0,0,P3-4 same-headword variant split; flag merge for H3 reviewer. Do NOT auto-merge.

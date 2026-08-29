@@ -1,0 +1,442 @@
+{
+  "axis_b": "nonmedical_galen_disjoint",
+  "medical_tokens": 1746283,
+  "nonmedical_tokens": 724353,
+  "wholegalen_tokens": 2470636,
+  "pos_whitelist": [
+    "ADJ",
+    "NOUN",
+    "VERB"
+  ],
+  "min_domain_frequency": 5,
+  "rarity_per10k_threshold": 1.0,
+  "rarity_threshold_step": 0.5,
+  "classified_n": 12538,
+  "quadrant_counts": {
+    "genuinely_hard": 11709,
+    "false_alarm_domain_vocab": 190,
+    "mostly_irrelevant": 143,
+    "polysemy_risk": 496
+  },
+  "quadrant_examples": {
+    "genuinely_hard": [
+      {
+        "lemma": "διαθέσεων",
+        "pos": "NOUN",
+        "medical_per10k": 0.9964,
+        "nonmedical_per10k": 0.8835,
+        "medical_raw": 174,
+        "nonmedical_raw": 64
+      },
+      {
+        "lemma": "δυσπνοία",
+        "pos": "NOUN",
+        "medical_per10k": 0.9907,
+        "nonmedical_per10k": 0.5522,
+        "medical_raw": 173,
+        "nonmedical_raw": 40
+      },
+      {
+        "lemma": "στρυφνός",
+        "pos": "ADJ",
+        "medical_per10k": 0.9907,
+        "nonmedical_per10k": 0.1933,
+        "medical_raw": 173,
+        "nonmedical_raw": 14
+      },
+      {
+        "lemma": "ἀποτελέω",
+        "pos": "VERB",
+        "medical_per10k": 0.9849,
+        "nonmedical_per10k": 0.7455,
+        "medical_raw": 172,
+        "nonmedical_raw": 54
+      },
+      {
+        "lemma": "ἕψε",
+        "pos": "VERB",
+        "medical_per10k": 0.9849,
+        "nonmedical_per10k": 0.0,
+        "medical_raw": 172,
+        "nonmedical_raw": 0
+      },
+      {
+        "lemma": "μοῖρα",
+        "pos": "NOUN",
+        "medical_per10k": 0.9792,
+        "nonmedical_per10k": 0.2485,
+        "medical_raw": 171,
+        "nonmedical_raw": 18
+      },
+      {
+        "lemma": "ἐκλύω",
+        "pos": "VERB",
+        "medical_per10k": 0.9735,
+        "nonmedical_per10k": 0.8421,
+        "medical_raw": 170,
+        "nonmedical_raw": 61
+      },
+      {
+        "lemma": "ἐμφύω",
+        "pos": "VERB",
+        "medical_per10k": 0.9735,
+        "nonmedical_per10k": 0.0966,
+        "medical_raw": 170,
+        "nonmedical_raw": 7
+      },
+      {
+        "lemma": "δριμής",
+        "pos": "ADJ",
+        "medical_per10k": 0.9678,
+        "nonmedical_per10k": 0.7317,
+        "medical_raw": 169,
+        "nonmedical_raw": 53
+      },
+      {
+        "lemma": "εἰσπνοή",
+        "pos": "NOUN",
+        "medical_per10k": 0.9678,
+        "nonmedical_per10k": 0.5246,
+        "medical_raw": 169,
+        "nonmedical_raw": 38
+      }
+    ],
+    "false_alarm_domain_vocab": [
+      {
+        "lemma": "δραχ",
+        "pos": "NOUN",
+        "medical_per10k": 31.8562,
+        "nonmedical_per10k": 0.0,
+        "medical_raw": 5563,
+        "nonmedical_raw": 0
+      },
+      {
+        "lemma": "α΄",
+        "pos": "ADJ",
+        "medical_per10k": 12.2088,
+        "nonmedical_per10k": 0.1933,
+        "medical_raw": 2132,
+        "nonmedical_raw": 14
+      },
+      {
+        "lemma": "σφυγμός",
+        "pos": "NOUN",
+        "medical_per10k": 11.1838,
+        "nonmedical_per10k": 0.8697,
+        "medical_raw": 1953,
+        "nonmedical_raw": 63
+      },
+      {
+        "lemma": "β΄",
+        "pos": "ADJ",
+        "medical_per10k": 10.3191,
+        "nonmedical_per10k": 0.3037,
+        "medical_raw": 1802,
+        "nonmedical_raw": 22
+      },
+      {
+        "lemma": "δ΄",
+        "pos": "ADJ",
+        "medical_per10k": 9.8151,
+        "nonmedical_per10k": 0.5384,
+        "medical_raw": 1714,
+        "nonmedical_raw": 39
+      },
+      {
+        "lemma": "δραχμή",
+        "pos": "NOUN",
+        "medical_per10k": 6.614,
+        "nonmedical_per10k": 0.0966,
+        "medical_raw": 1155,
+        "nonmedical_raw": 7
+      },
+      {
+        "lemma": "λίτρα",
+        "pos": "NOUN",
+        "medical_per10k": 6.4022,
+        "nonmedical_per10k": 0.0966,
+        "medical_raw": 1118,
+        "nonmedical_raw": 7
+      },
+      {
+        "lemma": "γ΄",
+        "pos": "ADJ",
+        "medical_per10k": 5.8353,
+        "nonmedical_per10k": 0.428,
+        "medical_raw": 1019,
+        "nonmedical_raw": 31
+      },
+      {
+        "lemma": "η΄",
+        "pos": "ADJ",
+        "medical_per10k": 5.7837,
+        "nonmedical_per10k": 0.2071,
+        "medical_raw": 1010,
+        "nonmedical_raw": 15
+      },
+      {
+        "lemma": "ῥίζα",
+        "pos": "NOUN",
+        "medical_per10k": 4.9018,
+        "nonmedical_per10k": 0.5246,
+        "medical_raw": 856,
+        "nonmedical_raw": 38
+      }
+    ],
+    "mostly_irrelevant": [
+      {
+        "lemma": "ἀμελέω",
+        "pos": "VERB",
+        "medical_per10k": 0.9964,
+        "nonmedical_per10k": 1.132,
+        "medical_raw": 174,
+        "nonmedical_raw": 82
+      },
+      {
+        "lemma": "βίος",
+        "pos": "NOUN",
+        "medical_per10k": 0.9907,
+        "nonmedical_per10k": 2.0984,
+        "medical_raw": 173,
+        "nonmedical_raw": 152
+      },
+      {
+        "lemma": "ἄξιος",
+        "pos": "ADJ",
+        "medical_per10k": 0.9907,
+        "nonmedical_per10k": 1.8361,
+        "medical_raw": 173,
+        "nonmedical_raw": 133
+      },
+      {
+        "lemma": "ἐξηγέομαι",
+        "pos": "VERB",
+        "medical_per10k": 0.9849,
+        "nonmedical_per10k": 1.6981,
+        "medical_raw": 172,
+        "nonmedical_raw": 123
+      },
+      {
+        "lemma": "ἔθω",
+        "pos": "VERB",
+        "medical_per10k": 0.9849,
+        "nonmedical_per10k": 2.7749,
+        "medical_raw": 172,
+        "nonmedical_raw": 201
+      },
+      {
+        "lemma": "χρῄζω",
+        "pos": "VERB",
+        "medical_per10k": 0.9792,
+        "nonmedical_per10k": 1.132,
+        "medical_raw": 171,
+        "nonmedical_raw": 82
+      },
+      {
+        "lemma": "ἵστημι",
+        "pos": "VERB",
+        "medical_per10k": 0.9792,
+        "nonmedical_per10k": 1.132,
+        "medical_raw": 171,
+        "nonmedical_raw": 82
+      },
+      {
+        "lemma": "αἱμοῤῥαγία",
+        "pos": "NOUN",
+        "medical_per10k": 0.9735,
+        "nonmedical_per10k": 1.8361,
+        "medical_raw": 170,
+        "nonmedical_raw": 133
+      },
+      {
+        "lemma": "θάνατος",
+        "pos": "NOUN",
+        "medical_per10k": 0.9678,
+        "nonmedical_per10k": 2.3745,
+        "medical_raw": 169,
+        "nonmedical_raw": 172
+      },
+      {
+        "lemma": "κατέχω",
+        "pos": "VERB",
+        "medical_per10k": 0.962,
+        "nonmedical_per10k": 1.0216,
+        "medical_raw": 168,
+        "nonmedical_raw": 74
+      }
+    ],
+    "polysemy_risk": [
+      {
+        "lemma": "γίγνομαι",
+        "pos": "VERB",
+        "medical_per10k": 54.0978,
+        "nonmedical_per10k": 79.5054,
+        "medical_raw": 9447,
+        "nonmedical_raw": 5759
+      },
+      {
+        "lemma": "ἄλλος",
+        "pos": "ADJ",
+        "medical_per10k": 46.4759,
+        "nonmedical_per10k": 42.1756,
+        "medical_raw": 8116,
+        "nonmedical_raw": 3055
+      },
+      {
+        "lemma": "ἔχω",
+        "pos": "VERB",
+        "medical_per10k": 45.9834,
+        "nonmedical_per10k": 50.5279,
+        "medical_raw": 8030,
+        "nonmedical_raw": 3660
+      },
+      {
+        "lemma": "πᾶς",
+        "pos": "ADJ",
+        "medical_per10k": 36.2656,
+        "nonmedical_per10k": 36.75,
+        "medical_raw": 6333,
+        "nonmedical_raw": 2662
+      },
+      {
+        "lemma": "πολύς",
+        "pos": "ADJ",
+        "medical_per10k": 33.9464,
+        "nonmedical_per10k": 43.5423,
+        "medical_raw": 5928,
+        "nonmedical_raw": 3154
+      },
+      {
+        "lemma": "ἅπας",
+        "pos": "ADJ",
+        "medical_per10k": 33.1103,
+        "nonmedical_per10k": 25.2915,
+        "medical_raw": 5782,
+        "nonmedical_raw": 1832
+      },
+      {
+        "lemma": "τοιοῦτος",
+        "pos": "ADJ",
+        "medical_per10k": 31.5527,
+        "nonmedical_per10k": 38.9037,
+        "medical_raw": 5510,
+        "nonmedical_raw": 2818
+      },
+      {
+        "lemma": "μόνος",
+        "pos": "ADJ",
+        "medical_per10k": 30.2356,
+        "nonmedical_per10k": 27.9422,
+        "medical_raw": 5280,
+        "nonmedical_raw": 2024
+      },
+      {
+        "lemma": "σῶμα",
+        "pos": "NOUN",
+        "medical_per10k": 27.7675,
+        "nonmedical_per10k": 37.1918,
+        "medical_raw": 4849,
+        "nonmedical_raw": 2694
+      },
+      {
+        "lemma": "φύσις",
+        "pos": "NOUN",
+        "medical_per10k": 27.5671,
+        "nonmedical_per10k": 29.1571,
+        "medical_raw": 4814,
+        "nonmedical_raw": 2112
+      }
+    ]
+  },
+  "sensitivity": {
+    "threshold_minus_step": {
+      "threshold": 0.5,
+      "n": 12538,
+      "counts": {
+        "genuinely_hard": 11027,
+        "false_alarm_domain_vocab": 359,
+        "mostly_irrelevant": 299,
+        "polysemy_risk": 853
+      }
+    },
+    "threshold": {
+      "threshold": 1.0,
+      "n": 12538,
+      "counts": {
+        "genuinely_hard": 11709,
+        "false_alarm_domain_vocab": 190,
+        "mostly_irrelevant": 143,
+        "polysemy_risk": 496
+      }
+    },
+    "threshold_plus_step": {
+      "threshold": 1.5,
+      "n": 12538,
+      "counts": {
+        "genuinely_hard": 11965,
+        "false_alarm_domain_vocab": 118,
+        "mostly_irrelevant": 107,
+        "polysemy_risk": 348
+      }
+    },
+    "genuinely_hard_membership_shift": {
+      "at_minus_step_only_n": 0,
+      "lost_at_minus_step_n": 682,
+      "at_plus_step_only_n": 256,
+      "lost_at_plus_step_n": 0,
+      "stable_across_pm_step_n": 11027
+    }
+  },
+  "punch_list_overlap": {
+    "genuinely_hard_n": 11709,
+    "punch_list_n": 1433,
+    "overlap_n": 1391,
+    "overlap_frac_of_hard": 0.1188,
+    "overlap_frac_of_punch": 0.9707,
+    "in_hard_not_punch_n": 10318,
+    "in_punch_not_hard_n": 42,
+    "overlap_examples": [
+      "αἰθαλωδός",
+      "αἰθαλώδης",
+      "αἰθερώδης",
+      "αἰσθητὸς",
+      "αἱμάτωσις",
+      "αἱματίτης",
+      "αἱμοπτυϊκός",
+      "αὐγοειδής",
+      "αὐστηρὰ",
+      "αὐτοφυός",
+      "βάτον",
+      "βέλτιος",
+      "βήχ",
+      "βαλαυστίας",
+      "βαλαυστίον",
+      "βαλαύστιον",
+      "βαλαύστιος",
+      "βατίνον",
+      "βδελλίον",
+      "βδελλίος",
+      "βελόνα",
+      "βλίτος",
+      "βοηθήμας",
+      "βοηθήματον",
+      "βοηθημάτον",
+      "βοτάνα",
+      "βοτανά",
+      "βουβώνος",
+      "βουβῶνες",
+      "βουνιάς",
+      "βράθυς",
+      "βράχος",
+      "βραδής",
+      "βραδεῖος",
+      "βραδυπεψία",
+      "βραδυπόρος",
+      "βραδυτῆς",
+      "βραδύπορος",
+      "βραδύτης",
+      "βραχυλογία"
+    ]
+  },
+  "limitation_note": "Classification inherits lemmatizer noise (fragmented/oblique lemmas such as διαθέσεων for διάθεσις, νεύρος for νεῦρον). Report for the Greek-literate reviewer; do not auto-patch (plan §3)."
+}

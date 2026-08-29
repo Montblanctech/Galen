@@ -1,0 +1,3005 @@
+{
+  "count": 1357,
+  "terms": [
+    {
+      "lemma": "τοῦτ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "1936.7373",
+      "galen_raw": "1166"
+    },
+    {
+      "lemma": "ὀστῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "1422.3776",
+      "galen_raw": "445"
+    },
+    {
+      "lemma": "πεπέρεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "1420.7998",
+      "galen_raw": "367"
+    },
+    {
+      "lemma": "διαθέσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "1228.3528",
+      "galen_raw": "377"
+    },
+    {
+      "lemma": "ταῦτ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "1121.0241",
+      "galen_raw": "532"
+    },
+    {
+      "lemma": "δέρματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "1001.1661",
+      "galen_raw": "327"
+    },
+    {
+      "lemma": "πνεύμονος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "911.0824",
+      "galen_raw": "258"
+    },
+    {
+      "lemma": "μυὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "892.0119",
+      "galen_raw": "198"
+    },
+    {
+      "lemma": "κόμμεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "826.8119",
+      "galen_raw": "201"
+    },
+    {
+      "lemma": "ἐδεσμάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "749.2035",
+      "galen_raw": "211"
+    },
+    {
+      "lemma": "λιθαργύρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "720.6871",
+      "galen_raw": "155"
+    },
+    {
+      "lemma": "χαλκίτεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "717.2395",
+      "galen_raw": "160"
+    },
+    {
+      "lemma": "ἴρεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "643.9726",
+      "galen_raw": "162"
+    },
+    {
+      "lemma": "συμπτωμάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "638.2583",
+      "galen_raw": "216"
+    },
+    {
+      "lemma": "πήχεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "609.9426",
+      "galen_raw": "186"
+    },
+    {
+      "lemma": "πνεύμονα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "595.4258",
+      "galen_raw": "187"
+    },
+    {
+      "lemma": "διαθέσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "587.2517",
+      "galen_raw": "174"
+    },
+    {
+      "lemma": "κύστεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "568.3242",
+      "galen_raw": "181"
+    },
+    {
+      "lemma": "πυρετῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "555.4811",
+      "galen_raw": "164"
+    },
+    {
+      "lemma": "ἀποφύσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "545.3213",
+      "galen_raw": "130"
+    },
+    {
+      "lemma": "φλέβας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "541.9911",
+      "galen_raw": "168"
+    },
+    {
+      "lemma": "στύψεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "534.7593",
+      "galen_raw": "137"
+    },
+    {
+      "lemma": "κενώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "518.2199",
+      "galen_raw": "132"
+    },
+    {
+      "lemma": "τοῦθ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "516.6417",
+      "galen_raw": "250"
+    },
+    {
+      "lemma": "φλεβὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "504.1317",
+      "galen_raw": "150"
+    },
+    {
+      "lemma": "νωτιαίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "501.9552",
+      "galen_raw": "104"
+    },
+    {
+      "lemma": "φλέβες",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "494.8834",
+      "galen_raw": "238"
+    },
+    {
+      "lemma": "βοηθημάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "489.8521",
+      "galen_raw": "157"
+    },
+    {
+      "lemma": "ὄξει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "430.9427",
+      "galen_raw": "227"
+    },
+    {
+      "lemma": "πέψεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "425.557",
+      "galen_raw": "163"
+    },
+    {
+      "lemma": "ἐπιδημιῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "421.6209",
+      "galen_raw": "97"
+    },
+    {
+      "lemma": "μερῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "411.7562",
+      "galen_raw": "540"
+    },
+    {
+      "lemma": "νοσημάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "407.6772",
+      "galen_raw": "140"
+    },
+    {
+      "lemma": "διαθέσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "392.0209",
+      "galen_raw": "99"
+    },
+    {
+      "lemma": "ἁλῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "354.4448",
+      "galen_raw": "127"
+    },
+    {
+      "lemma": "κράσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "350.1087",
+      "galen_raw": "92"
+    },
+    {
+      "lemma": "ἐγκεφάλου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "344.4666",
+      "galen_raw": "108"
+    },
+    {
+      "lemma": "ὑοσκυάμου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "343.6637",
+      "galen_raw": "95"
+    },
+    {
+      "lemma": "σφυγμῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "342.9606",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "λάρυγγος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "324.8481",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "ἐμφύτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "324.766",
+      "galen_raw": "119"
+    },
+    {
+      "lemma": "σφυγμοὺς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "310.8694",
+      "galen_raw": "62"
+    },
+    {
+      "lemma": "πάνθ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "310.5012",
+      "galen_raw": "149"
+    },
+    {
+      "lemma": "σπληνὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "302.0265",
+      "galen_raw": "90"
+    },
+    {
+      "lemma": "ὑπομνημάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "298.7201",
+      "galen_raw": "117"
+    },
+    {
+      "lemma": "ἱπποκράτει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "291.13",
+      "galen_raw": "79"
+    },
+    {
+      "lemma": "ἀμμωνιακοῦ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "290.6414",
+      "galen_raw": "66"
+    },
+    {
+      "lemma": "ψύξεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "288.8797",
+      "galen_raw": "99"
+    },
+    {
+      "lemma": "δακτύλοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "285.8315",
+      "galen_raw": "117"
+    },
+    {
+      "lemma": "τραγακάνθης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "280.0519",
+      "galen_raw": "69"
+    },
+    {
+      "lemma": "στομάχου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "277.3804",
+      "galen_raw": "128"
+    },
+    {
+      "lemma": "κρισίμων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "276.8062",
+      "galen_raw": "65"
+    },
+    {
+      "lemma": "μυσὶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "271.2922",
+      "galen_raw": "61"
+    },
+    {
+      "lemma": "πεπονθὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "270.0871",
+      "galen_raw": "101"
+    },
+    {
+      "lemma": "γαστρὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "257.1225",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "ταχέων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "255.0503",
+      "galen_raw": "79"
+    },
+    {
+      "lemma": "στομάχῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "249.1709",
+      "galen_raw": "73"
+    },
+    {
+      "lemma": "ἐλαφείου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "246.1663",
+      "galen_raw": "61"
+    },
+    {
+      "lemma": "περιτοναίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "232.5274",
+      "galen_raw": "53"
+    },
+    {
+      "lemma": "φλεψὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "230.0348",
+      "galen_raw": "56"
+    },
+    {
+      "lemma": "ἀφρονίτρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "227.6953",
+      "galen_raw": "52"
+    },
+    {
+      "lemma": "ἀνίσου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "227.0667",
+      "galen_raw": "86"
+    },
+    {
+      "lemma": "μυῒ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "226.1077",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "ἐκφύσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "225.3263",
+      "galen_raw": "68"
+    },
+    {
+      "lemma": "τεττάρων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "224.6813",
+      "galen_raw": "123"
+    },
+    {
+      "lemma": "κακοήθη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "223.7237",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "πάντ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "222.9342",
+      "galen_raw": "137"
+    },
+    {
+      "lemma": "διαπλάσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "221.6598",
+      "galen_raw": "55"
+    },
+    {
+      "lemma": "διαρθρώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "220.8171",
+      "galen_raw": "57"
+    },
+    {
+      "lemma": "κινήσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "215.8786",
+      "galen_raw": "753"
+    },
+    {
+      "lemma": "διφρυγοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "213.2198",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "σπονδύλους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "212.4498",
+      "galen_raw": "59"
+    },
+    {
+      "lemma": "μεθόδου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "211.9393",
+      "galen_raw": "101"
+    },
+    {
+      "lemma": "ἀποφύσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "211.1961",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "προπόλεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "211.1961",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "μοσχείου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "211.1961",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐμφράξεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "209.4294",
+      "galen_raw": "45"
+    },
+    {
+      "lemma": "ὑδατώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "208.3069",
+      "galen_raw": "63"
+    },
+    {
+      "lemma": "ὀστῷ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "206.5205",
+      "galen_raw": "51"
+    },
+    {
+      "lemma": "ἐγκεφάλῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "205.865",
+      "galen_raw": "69"
+    },
+    {
+      "lemma": "μαλαβάθρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "205.6022",
+      "galen_raw": "53"
+    },
+    {
+      "lemma": "διττὴν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "205.2672",
+      "galen_raw": "82"
+    },
+    {
+      "lemma": "οὔροις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "204.6792",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "ὁτιοῦν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "203.0517",
+      "galen_raw": "241"
+    },
+    {
+      "lemma": "λείοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "202.3739",
+      "galen_raw": "65"
+    },
+    {
+      "lemma": "ἰρίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "198.3343",
+      "galen_raw": "50"
+    },
+    {
+      "lemma": "αὐστηρῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "195.5469",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "θέσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "193.8893",
+      "galen_raw": "130"
+    },
+    {
+      "lemma": "μυσὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "191.3284",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "δακνώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "190.5328",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "θερμοτέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "190.2801",
+      "galen_raw": "54"
+    },
+    {
+      "lemma": "θώρακός",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "189.0554",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "νεύρων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "189.0492",
+      "galen_raw": "48"
+    },
+    {
+      "lemma": "ἀπύρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "188.7678",
+      "galen_raw": "50"
+    },
+    {
+      "lemma": "χυμοὺς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "186.7012",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "ὀμβρίῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "186.7012",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "πετροσελίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "185.7832",
+      "galen_raw": "48"
+    },
+    {
+      "lemma": "διαγνώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "184.4173",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "ταῦθ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "181.9204",
+      "galen_raw": "123"
+    },
+    {
+      "lemma": "γένυος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "181.1858",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "ἐμπλάστρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "180.5048",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "προσφάτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "172.3625",
+      "galen_raw": "51"
+    },
+    {
+      "lemma": "στίμμεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "170.0816",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "συμπτώματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "169.4045",
+      "galen_raw": "66"
+    },
+    {
+      "lemma": "διαθέσεσι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "168.0365",
+      "galen_raw": "53"
+    },
+    {
+      "lemma": "σμικρὰν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "167.4433",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "δήξεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "167.4433",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἀσάρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "166.8856",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "πιτυΐνης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "166.5218",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "σεσέλεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "163.3209",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "κακοήθων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "163.3209",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "ἑψήσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "162.061",
+      "galen_raw": "56"
+    },
+    {
+      "lemma": "αἱματίτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "159.8622",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "κινήσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "157.4203",
+      "galen_raw": "222"
+    },
+    {
+      "lemma": "φλεβὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "156.2685",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐπιμέτρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "155.7071",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "σχιστῆς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "155.7071",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "ἐγχειρήσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "155.3686",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "τουτὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "153.2093",
+      "galen_raw": "133"
+    },
+    {
+      "lemma": "γλυκεῖ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "153.0979",
+      "galen_raw": "95"
+    },
+    {
+      "lemma": "ἐκφύσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "153.0132",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "νωτιαῖον",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "151.8471",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "περιττώματα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "151.5702",
+      "galen_raw": "58"
+    },
+    {
+      "lemma": "ὀξέων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "150.8923",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "ζιγγιβέρεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "150.7499",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "πυρέθρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "150.3779",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "μεθόδῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "150.1555",
+      "galen_raw": "84"
+    },
+    {
+      "lemma": "πλαγίων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "149.7939",
+      "galen_raw": "72"
+    },
+    {
+      "lemma": "ὑγροτέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "147.6585",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "κινήσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "147.6329",
+      "galen_raw": "343"
+    },
+    {
+      "lemma": "λεπίδα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "147.4376",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "ἅπαντι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "146.9095",
+      "galen_raw": "67"
+    },
+    {
+      "lemma": "κίκεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "146.7049",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ὑμένα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "142.7746",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "τραχήλου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "141.8201",
+      "galen_raw": "83"
+    },
+    {
+      "lemma": "ἀποφύσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "141.7554",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "πτισάνης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "139.3462",
+      "galen_raw": "68"
+    },
+    {
+      "lemma": "δαύκου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "136.9991",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "σκελῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "135.8115",
+      "galen_raw": "75"
+    },
+    {
+      "lemma": "ἀῤῥώστου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "135.7981",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ἐγκαρσίων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "135.3786",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "ῥοιῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "133.0067",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "κρυσταλλοειδοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "132.9959",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "ἐνδείξεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "132.1128",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "ἀμυδροὺς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "130.8248",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ἶνας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "129.555",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "δριμυτάτῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "128.3207",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἀλγημάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "127.4533",
+      "galen_raw": "44"
+    },
+    {
+      "lemma": "ἐκκρίσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "127.2155",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "μελίκρατον",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "127.2155",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "χολώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "126.9204",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "παρακμῆς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "126.0369",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἄμμεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "126.0369",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "φυσώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "126.0045",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "συμμέτρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "125.8054",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "μελιλώτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "125.5897",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "κικίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "125.3506",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "δυσεπουλώτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "125.3506",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "τραχήλῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "124.6381",
+      "galen_raw": "67"
+    },
+    {
+      "lemma": "ὀστοῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "124.1297",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "χειλῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "124.0453",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "ἀνωμάλους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "121.8325",
+      "galen_raw": "43"
+    },
+    {
+      "lemma": "πιθήκων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "121.2642",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "παθήματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "119.962",
+      "galen_raw": "40"
+    },
+    {
+      "lemma": "ἐφημέροις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "119.0006",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "βοηθήματι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "118.8234",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "προγνώσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "117.2548",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "φλεγμονώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "115.3225",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "κερατοειδοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "112.6674",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "τρημάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "112.6559",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "ὄρχεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "112.4267",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "ἄλγημα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "112.2023",
+      "galen_raw": "64"
+    },
+    {
+      "lemma": "τριταίων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "111.5843",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "διαρθρώσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "111.4319",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "προγνωστικῷ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "111.4319",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἀναδόσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "111.1295",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ἀνωμάλου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "110.4333",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "ἀτμώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "110.3085",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ὑμενώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "110.3085",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "τραχειῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "110.3085",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "γλευκίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "110.3085",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "λαγόνος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "108.4432",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "ἶνες",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "107.6863",
+      "galen_raw": "39"
+    },
+    {
+      "lemma": "ὁμοιομερῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "107.6289",
+      "galen_raw": "88"
+    },
+    {
+      "lemma": "κρισίμους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "107.4843",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἐκφύσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "107.1787",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "χρήσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "107.1175",
+      "galen_raw": "52"
+    },
+    {
+      "lemma": "ἀμφημερινοῦ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "106.7927",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "δακνῶδες",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "106.7927",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "κισσήρεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "106.5748",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "διορισμῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "106.5571",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "συνδέσμους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "106.4542",
+      "galen_raw": "34"
+    },
+    {
+      "lemma": "χαλκάνθου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "105.5127",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "δριμυτάτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "105.3338",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ἀρτηριώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "105.2945",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "χηνείου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "104.1342",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἡντιναοῦν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "103.8221",
+      "galen_raw": "45"
+    },
+    {
+      "lemma": "διορισμοῦ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "103.5055",
+      "galen_raw": "48"
+    },
+    {
+      "lemma": "ἡδυχρόου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "102.7618",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἐγχειρήσεσι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "102.2517",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "σπονδύλοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "102.0098",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "μελικράτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "101.8391",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "τἀκτὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "101.7241",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ξηροτέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "100.8687",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "εὑρέσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "100.6236",
+      "galen_raw": "68"
+    },
+    {
+      "lemma": "φλεβώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "100.2804",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἐκφυσήσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "100.2804",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "θρέψεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "99.1109",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "ἄμεινόν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "98.4713",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "τετάρτη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "98.1422",
+      "galen_raw": "81"
+    },
+    {
+      "lemma": "χρόαν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.882",
+      "galen_raw": "58"
+    },
+    {
+      "lemma": "τύλους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.8717",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ξέστην",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.7582",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "περιτοναίῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.3286",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐπισχέσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.3286",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἀμολύντου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.3286",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἀφορισμοῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.2361",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἐκκρίσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.2361",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἐνδείξεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.2361",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "στομώματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "97.2361",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "σκληροτέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "96.4209",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "συστάσει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "96.2155",
+      "galen_raw": "47"
+    },
+    {
+      "lemma": "εὐπορίστων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "95.8625",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἐπικρατοῦσαν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "95.6449",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "φλεγματώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "95.2664",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "σφυγμοὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "95.2664",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "σῶρυ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "95.2664",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐμπλάστρων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "95.2664",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "διαθέσει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "94.6302",
+      "galen_raw": "74"
+    },
+    {
+      "lemma": "ἐμέτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "94.6246",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "στύρακος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "94.5246",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "παθῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "94.5008",
+      "galen_raw": "197"
+    },
+    {
+      "lemma": "ἀτμοὺς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "93.5641",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "κλειδὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "93.2682",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "ῥητινῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "92.4098",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "κατάντεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "92.0444",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "οἴνων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "91.4934",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "μῦν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "91.3327",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ὀῤῥώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "90.2524",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ὑμενώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "89.8964",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "γνωρισμάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "89.5245",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "εὐκράτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "89.3062",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "πάνακος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "89.2744",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "σώρεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "88.6639",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "κωδυῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "88.409",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ὠμοπλατῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "87.7197",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐμφύσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "87.4959",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἀποβλαστήματα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "87.4959",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "μηκωνείου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "87.4959",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "σιδίων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "87.3251",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "μεταπτώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "87.2019",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἐπικτήτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "85.6327",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "γεύσει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "85.2951",
+      "galen_raw": "64"
+    },
+    {
+      "lemma": "λαμβδοειδοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "85.2384",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "συνθεσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "85.2384",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "οὐγγιῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "85.1722",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "φλέγματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "84.0358",
+      "galen_raw": "61"
+    },
+    {
+      "lemma": "δαψιλοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.9912",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ὑμέσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.9912",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἐμφράξεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.9912",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "πληθώρας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.9912",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "κοσκίνῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.9165",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "τροχίσκους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.9165",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "χρυσίππῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.6166",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "προγνώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "83.4675",
+      "galen_raw": "46"
+    },
+    {
+      "lemma": "βαλαυστίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "82.9788",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "κερκίδα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "82.9271",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἥπατός",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "82.3979",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "πιθήκοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "82.2323",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "εὐκράτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "80.688",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἀδήκτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "80.2244",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "δρυΐνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "80.2244",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἀβροτόνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "80.2019",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἀψινθίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "79.3579",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "καταστάσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "77.7106",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἁπαλοσάρκων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "77.6843",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀρχιγένους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "77.6843",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "θλάσπεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "77.6843",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "πήχεώς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "77.5892",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "μυροβαλάνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "77.5892",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἀμυδρῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "76.874",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "διορισμοὺς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "76.8109",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ὠμοπλάτην",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "76.1106",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ξέστου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "76.1106",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἐκκρίσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.5425",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "βῆχα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.494",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "ἀπονευρώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "κροταφιτῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἀῤῥώστοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἀνδρομάχῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "κωλικὴ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "75.2103",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "κατάπλασμα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.9734",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "ῥήσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.9427",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "διάλειμμα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.756",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ἐνδείξεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.5746",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ἐμψύξεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.5746",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "δυνάμεώς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.387",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "βοηθήματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "74.0938",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "κώλου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "73.8912",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "γλυκυῤῥίζης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "73.5377",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "πόρους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "73.3245",
+      "galen_raw": "49"
+    },
+    {
+      "lemma": "ἀπαθῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "73.2251",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἰνῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "72.7916",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "κοιλοτήτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "72.7916",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ὀποβαλσάμου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "72.7916",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ὑμένων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "72.7009",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "σπληνὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "72.3593",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἀνωμάλων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "72.3593",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἀπυρέτοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "71.7024",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "ἄνθους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "71.5532",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "γνωρίσματα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "70.5677",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "διαρθρώσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "70.1963",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "θυρεοειδοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "70.1963",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀρχιγένει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "70.1963",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ξεστ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "70.1963",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "χρονίων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "70.1731",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "διττὴ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "69.9766",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "συνθέσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "69.0554",
+      "galen_raw": "38"
+    },
+    {
+      "lemma": "κωνείου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.9354",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "σφυγμῷ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.8402",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "περιτταῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.7327",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "πολίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.7327",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ποιοτήτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.3952",
+      "galen_raw": "89"
+    },
+    {
+      "lemma": "ὑμέσι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.0094",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "προσφάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.0094",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "λεπτομερεστέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "68.0065",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ξιφοειδοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "κωλικῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "67.8991",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "νευρώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "67.8973",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ὠῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.9537",
+      "galen_raw": "31"
+    },
+    {
+      "lemma": "ἅπαντ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.9251",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ὑγροτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.891",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "ἐξηγήσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.8714",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "βηχὸς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.4319",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ποιότητας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.3465",
+      "galen_raw": "115"
+    },
+    {
+      "lemma": "θερμότητός",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "66.3394",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "τάσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.3809",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "αἱματώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐπιφύσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "φυσώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "σηπεδονώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐγκαύσει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "νευροτρώτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἔνεμα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "65.1823",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐπιφύσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "64.1603",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "φοινικοβαλάνων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "64.1603",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ὑγρότητός",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "64.0733",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "λάρυγγι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "64.0733",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "βραδυτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.912",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "θώρακος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.7901",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἰσχυροτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.5617",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἀντιδότους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.2353",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "μελικράτῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.2056",
+      "galen_raw": "42"
+    },
+    {
+      "lemma": "ἀλγήματα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.0652",
+      "galen_raw": "51"
+    },
+    {
+      "lemma": "ἐδέσμασι",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.0185",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "μυσίν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.0185",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ὠκυτέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "63.0185",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ὑδατώδη",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "62.956",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "αἰδοίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "62.6361",
+      "galen_raw": "48"
+    },
+    {
+      "lemma": "οὐγγίας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "62.5064",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἀμέτροις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "62.2713",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "συμφύτου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "61.6156",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "ψυχροτέρα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "61.5238",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "ἅπαντά",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "61.5012",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἀδένων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.8885",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "παραπλησίαν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.7536",
+      "galen_raw": "33"
+    },
+    {
+      "lemma": "διαλειμμάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.3951",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ὑδέροις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἐρασιστρατείων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀναθρέψεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ὠμιαίας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἡροφίλῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "κακοχύμων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "δακνώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "φλεγμονῶδες",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀμφημερινοῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "κύφεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "χαλκάνθης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "ἀνδρομάχου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "πολυχρήστων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "νευροτρώτους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "60.1683",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "σκληροτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.8563",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ῥαγοειδοῦς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.6042",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "θέσεώς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.5003",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "λοξῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.5003",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ὄρχιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.5003",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "γλίσχρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.5003",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ῥᾷστον",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "59.3224",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "κλειδῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.9433",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ὀξυμέλιτος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.9433",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ἀκόρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.4798",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "δαφνίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.4798",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀρνογλώσσου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.4137",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "μηνόδοτος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.1474",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "φυσῶδες",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.1474",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "γλυκειῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.1474",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "φαλερίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.1474",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "μαλάχης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.1196",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "ἑλκώσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.1196",
+      "galen_raw": "26"
+    },
+    {
+      "lemma": "θερμότερόν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "58.0219",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "διττὰς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "57.7518",
+      "galen_raw": "35"
+    },
+    {
+      "lemma": "μασχάλης",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "57.7075",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "πυρίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "57.7075",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "διφρυγὲς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "57.4111",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "κηροῦ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "57.1212",
+      "galen_raw": "30"
+    },
+    {
+      "lemma": "φάρυγγα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.9088",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "σπλῆνα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.6798",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "αἰσθήσεώς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.4153",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "πρώταις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.3451",
+      "galen_raw": "41"
+    },
+    {
+      "lemma": "ἐπικτήτῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ἀγυμνάστους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "ξανθὴ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "θώρακά",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "56.3337",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "θανασίμων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.928",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "διττῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.5232",
+      "galen_raw": "24"
+    },
+    {
+      "lemma": "ἀσθενεστέρας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.4642",
+      "galen_raw": "23"
+    },
+    {
+      "lemma": "παχύτερόν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.4628",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "σκεπάσματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.2553",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "σιμοῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐπισχέσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "διαθέσεών",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ψιμυθίου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.1542",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐπιδέσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "55.0277",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "γλήχωνος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "54.5209",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "καταπλασμάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "54.5209",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "ῥήσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "54.2922",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "ἅπασί",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "54.2474",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "συστάσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.7422",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "γάρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.7422",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "μαλαβαθρίνου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.7422",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "καταπότια",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.7422",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ποσὸν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.702",
+      "galen_raw": "140"
+    },
+    {
+      "lemma": "ἐγχειρήσεων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.5672",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "παμπόλλῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.2874",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "μικροτέρους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.2874",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "πτυσμάτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.2874",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "λιθαργύρῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "53.2271",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "οὔρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "52.4619",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "ἀνωμάλοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "52.1219",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "ἰρίνῳ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "52.1219",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "καταστάσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.9123",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ἐφημέρων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.9123",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "σαρξὶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.8818",
+      "galen_raw": "21"
+    },
+    {
+      "lemma": "κόλπους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.8587",
+      "galen_raw": "22"
+    },
+    {
+      "lemma": "κενώσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.8071",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀμμωνιακὸν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.8071",
+      "galen_raw": "14"
+    },
+    {
+      "lemma": "ἀμέτρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.6642",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "κινήσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.5755",
+      "galen_raw": "36"
+    },
+    {
+      "lemma": "πόροις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.5616",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "ἐφημέρους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.1549",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "κοχλιῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.1033",
+      "galen_raw": "15"
+    },
+    {
+      "lemma": "διτταῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.0321",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "σαρκώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "51.0321",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "ἀλλοιώσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.2507",
+      "galen_raw": "37"
+    },
+    {
+      "lemma": "ἀκρεμόνων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.25",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "κυπέρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.25",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ῥαχιτῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐκκρίσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀλκίμοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀῤῥωστοτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "τίφας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "διαχωρήσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἐμφράξει",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "τοπους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "κροκομάγματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "περιωδυνίας",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "μάγματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "50.1402",
+      "galen_raw": "10"
+    },
+    {
+      "lemma": "ἀερώδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.5884",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "ἐγκαύσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.5884",
+      "galen_raw": "17"
+    },
+    {
+      "lemma": "διαχωρήματα",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.3044",
+      "galen_raw": "29"
+    },
+    {
+      "lemma": "λιχανοῦ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.2792",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "σμικρὰς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.0839",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "προσθίων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.0839",
+      "galen_raw": "16"
+    },
+    {
+      "lemma": "πιμελῆς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.0251",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "σύμπαντά",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "49.0251",
+      "galen_raw": "12"
+    },
+    {
+      "lemma": "βῆχες",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.903",
+      "galen_raw": "25"
+    },
+    {
+      "lemma": "μυὶ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ὑμενώδεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "διαγνώσεις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "πνίξεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ὠκυτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἐμφράξεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "δυναμεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "στύψεώς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "κενώσεσιν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "λυσσοδήκτοις",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "λάργου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.4402",
+      "galen_raw": "11"
+    },
+    {
+      "lemma": "ἡμίσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.2297",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "νᾶπυ",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "48.2297",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "περιττώματος",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.7987",
+      "galen_raw": "45"
+    },
+    {
+      "lemma": "περιόδους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.6616",
+      "galen_raw": "51"
+    },
+    {
+      "lemma": "ψυχροτέραν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.3286",
+      "galen_raw": "18"
+    },
+    {
+      "lemma": "ῥαφῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.3123",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐμπειρικοῖς",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.3123",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "μέλιτός",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.3123",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "κυκλίσκους",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.3123",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "ἐμπειρικῶν",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.3123",
+      "galen_raw": "13"
+    },
+    {
+      "lemma": "μύρτων",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.0615",
+      "galen_raw": "19"
+    },
+    {
+      "lemma": "ἐλλεβόρου",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "47.0544",
+      "galen_raw": "28"
+    },
+    {
+      "lemma": "ἐκτάσεως",
+      "reason": "never_lemmatizes_inflected_form",
+      "log_likelihood": "46.9238",
+      "galen_raw": "23"
+    }
+  ]
+}

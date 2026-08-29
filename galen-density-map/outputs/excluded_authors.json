@@ -1,0 +1,71 @@
+{
+  "count": 11,
+  "terms": [
+    {
+      "lemma": "ἱπποκράτης",
+      "reason": "author_stoplist",
+      "log_likelihood": "3720.3014",
+      "galen_raw": "980"
+    },
+    {
+      "lemma": "ἐρασίστρατος",
+      "reason": "author_stoplist",
+      "log_likelihood": "1831.6363",
+      "galen_raw": "399"
+    },
+    {
+      "lemma": "ἀρχιγένης",
+      "reason": "author_stoplist",
+      "log_likelihood": "1382.9198",
+      "galen_raw": "293"
+    },
+    {
+      "lemma": "ἀνδρόμαχος",
+      "reason": "author_stoplist",
+      "log_likelihood": "853.8898",
+      "galen_raw": "188"
+    },
+    {
+      "lemma": "χρύσιππος",
+      "reason": "author_stoplist",
+      "log_likelihood": "618.0221",
+      "galen_raw": "226"
+    },
+    {
+      "lemma": "ἡρόφιλος",
+      "reason": "author_stoplist",
+      "log_likelihood": "379.0524",
+      "galen_raw": "99"
+    },
+    {
+      "lemma": "πραξαγόρας",
+      "reason": "author_stoplist",
+      "log_likelihood": "128.3207",
+      "galen_raw": "32"
+    },
+    {
+      "lemma": "διοσκορίδης",
+      "reason": "author_stoplist",
+      "log_likelihood": "108.4913",
+      "galen_raw": "27"
+    },
+    {
+      "lemma": "διοσκουρίδης",
+      "reason": "author_stoplist",
+      "log_likelihood": "87.2166",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "θεμίσων",
+      "reason": "author_stoplist",
+      "log_likelihood": "55.0277",
+      "galen_raw": "20"
+    },
+    {
+      "lemma": "μενεκράτης",
+      "reason": "author_stoplist",
+      "log_likelihood": "27.3219",
+      "galen_raw": "15"
+    }
+  ]
+}
