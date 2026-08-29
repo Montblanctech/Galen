@@ -14,7 +14,7 @@ dated on release and each gets a Zenodo DOI.
   candidate terms with attested contexts), `four_way_classification.csv` (12,538 lemmas along
   medical × disjoint-non-medical axes), keyness scores, per-corpus lemma frequencies, audited
   exclusion logs, and `qc_summary.json`. The 60MB regenerable reference lemma-frequency JSON
-  ships with the Zenodo record rather than git.
+  is attached to the v2.0 GitHub release (gzipped) rather than tracked in git.
 - **Machine-bounded lemmatizer accuracy** (`galen-density-map/data/qc/h3m/` + pipeline
   `h3m/`): Morpheus admissibility floor (89.51% of analyzable medical tokens), Stanza
   cross-system agreement (82.89% pairwise / 94.17% vs-consensus), and a 1,850-item gold

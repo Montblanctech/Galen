@@ -51,8 +51,8 @@ Model (`grc_odycy_joint_trf` 0.7.0), spaCy, and all dependencies are pinned
 ([`galen-density-map/requirements.txt`](galen-density-map/requirements.txt)); every stage is
 config-driven ([`config.yaml`](galen-density-map/config.yaml)) and independently re-runnable.
 Large regenerable intermediates (raw TEI, lemmatized JSONL, the 60MB reference lemma-frequency
-JSON) are not in git; the reference frequencies ship with the Zenodo record, and everything else
-regenerates from the pipeline.
+JSON) are not in git; the reference frequencies are attached to the [v2.0 GitHub release](https://github.com/Montblanctech/Galen/releases/tag/v2.0)
+(`lemma_frequency_reference.json.gz`), and everything else regenerates from the pipeline.
 
 ## Scope
 
