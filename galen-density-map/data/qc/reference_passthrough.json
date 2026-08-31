@@ -12,7 +12,7 @@
   "passthrough_tokens": 2646102,
   "passthrough_pct": 26.41,
   "corpus": "reference",
-  "source_dir": "C:\\Users\\W\\Desktop\\Galen\\galen-density-map\\data\\lemmatized\\reference",
+  "source_dir": "galen-density-map/data/lemmatized/reference",
   "method": "identical to 08_qc.content_passthrough (NOUN/VERB/ADJ/ADV; health=NVA+open ADV excl. particles)",
   "galen_health_passthrough_pct": 26.85,
   "delta_vs_galen_health_pts": -0.44,
