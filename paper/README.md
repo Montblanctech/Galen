@@ -37,7 +37,7 @@ latexmk -xelatex -interaction=nonstopmode main.tex
 ```
 
 Output: `main.pdf` (verified XeLaTeX builds: 5 pages on 2026-07-25; §5 machine-bounded accuracy
-added 2026-08-27).
+added 2026-08-27; acknowledgments added 2026-09-13, now 7 pages).
 
 ## TODOs
 
