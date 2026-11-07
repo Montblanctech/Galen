@@ -1,0 +1,81 @@
+row_id,kind,expected,headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface,validation,quoted_form,lsj_part,entry_key,status,shown_headword
+V001,plant,no,ἐναντίος,enantios,tlg0016,tlg001,perseus-grc1,6:32,6:32:1,115097,ἐναντία,morpheus,ἐναντία,grc.lsj.perseus-eng5.xml,e)nanti/os,located,ἐξάπτω
+V002,random,,πτολίεθρον,ptolieqron,tlg0020,tlg003,perseus-grc1,81,81,547,πτολίεθρον,morpheus,πόλις,grc.lsj.perseus-eng17.xml,ptoli/eqron,located,πτολίεθρον
+V003,random,,σός,sos,tlg0011,tlg005,perseus-grc1,251,251,1245,σὸν,morpheus,τὸ ς,grc.lsj.perseus-eng21.xml,so/s,located,σός
+V004,random,,οὐράνιος,ouranios,tlg0019,tlg009,perseus-grc1,781,781b,4981,οὐράνιόν,morpheus,ὀμφὰν οὐ,grc.lsj.perseus-eng16.xml,ou)ra/nios,located,οὐράνιος
+V005,random,,τις,tis,tlg0011,tlg006,perseus-grc1,442,442,2740,τις,morpheus,θερσίτης τις ἦν,grc.lsj.perseus-eng22.xml,tis,located,τις
+V006,random,,σημεῖον,shmeion,tlg0031,tlg004,perseus-grc1,4:48,4:48,2728,σημεῖα,morpheus,,grc.lsj.perseus-eng21.xml,shmei=on,located,σημεῖον
+V007,random,,ἀπολεπιδόομαι,apolepidoomai,tlg0627,tlg009,perseus-grc1,33,33,9196,ἀπολεπιδοῦσθαι,morpheus,,grc.lsj.perseus-eng1.xml,a)polepido/omai,located,ἀπολεπιδόομαι
+V008,random,,ῥόμβος,rombos,tlg0627,tlg008,perseus-grc1,7,7,613,ῥόμβος,morpheus,,grc.lsj.perseus-eng20.xml,r(o/mbos,located,ῥόμβος
+V009,plant,no,ὅστις,ostis,tlg0003,tlg001,perseus-grc1,1:23,1:23:5,3482,ὅτου,morpheus,ὅτου,grc.lsj.perseus-eng16.xml,o(/stis,located,ὅλος
+V010,plant,no,οὕτως,outws,tlg0031,tlg001,perseus-grc1,9:33,9:33,4773,οὕτως,morpheus,οὕτως,grc.lsj.perseus-eng16.xml,ou(/tws,located,οἴομαι
+V011,random,,περιτίθημι,peritiqhmi,tlg0059,tlg005,perseus-grc1,393e,393e,3187,περιτιθέντες,morpheus,φωνήεσί τε καὶ ἀφώνοις π. γράμματα,grc.lsj.perseus-eng17.xml,periti/qhmi,located,περιτίθημι
+V012,random,,εὐγενής,eugenhs,tlg0006,tlg001,perseus-grc1,201,201,1212,εὐγενῶς,morpheus,κατθανοῦμεν,grc.lsj.perseus-eng5.xml,eu)genh/s,located,εὐγενής
+V013,anchor,yes,ὅπως,opws,tlg0019,tlg003,perseus-grc1,677,677b,4685,ὅπως,morpheus,ὅπως,grc.lsj.perseus-eng16.xml,o(/pws1,located,ὅπως
+V014,random,,τρόμος,tromos,tlg0012,tlg001,perseus-grc1,3:34,3:34,10785,τρόμος,morpheus,ὑπό τε τ. ἔλλαβε γυῖα,grc.lsj.perseus-eng22.xml,tro/mos1,located,τρόμος
+V015,random,,ποδηγέω,podhgew,tlg0059,tlg034,perseus-grc1,899a,899a,83272,ποδηγεῖ,morpheus,,grc.lsj.perseus-eng17.xml,podhge/w,located,ποδηγέω
+V016,random,,ἄβλητος,ablhtos,tlg0012,tlg001,perseus-grc1,4:540,4:540,17588,ἀνούτατος,quoted,"ἀνούτατος,",grc.lsj.perseus-eng1.xml,a)/blhtos,located,ἄβλητος
+V017,random,,τανύω,tanuw,tlg0012,tlg001,perseus-grc1,17:391,17:390,77620,τανύειν,morpheus,,grc.lsj.perseus-eng22.xml,tanu/w,located,τανύω
+V018,anchor,yes,ἐπεί,epei,tlg0085,tlg005,perseus-grc1,822,822,3873,ἐπείπερ,morpheus,ἐπείπερ,grc.lsj.perseus-eng5.xml,e)pei/1,located,ἐπεί
+V019,random,,χάρις,xaris,tlg0006,tlg015,perseus-grc1,762,762,4492,χάριν,morpheus,σοῦ τε τήν τ' ἐμὴν χ.,grc.lsj.perseus-eng25.xml,xa/ris,located,χάρις
+V020,random,,μεστός,mestos,tlg0010,tlg020,perseus-grc1,45,45,2427,μεστός,morpheus,πολλῆς ἀνοίας μ.,grc.lsj.perseus-eng13.xml,mesto/s,located,μεστός
+V021,random,,ἐδώδιμος,edwdimos,tlg0003,tlg001,perseus-grc1,7:39,7:39:2,121719,ἐδώδιμα,morpheus,ἐδώδιμα,grc.lsj.perseus-eng5.xml,e)dw/dimos,located,ἐδώδιμος
+V022,random,,ἀνήρ,anhr,tlg0005,tlg001,perseus-grc1,15:131,15:131,10406,ἄνδρα,morpheus,"πόσις,",grc.lsj.perseus-eng1.xml,a)nh/r,located,ἀνήρ
+V023,plant,no,φάσκω,faskw,tlg0059,tlg034,perseus-grc1,901a,901a,83935,ἔφασκεν,morpheus,ἔφασκεν,grc.lsj.perseus-eng24.xml,fa/skw,located,φέρω
+V024,random,,φλυαρέω,fluarew,tlg0010,tlg020,perseus-grc1,75,75,4112,φλυαροῦντες,morpheus,ταῦτα φ.,grc.lsj.perseus-eng24.xml,fluare/w,located,φλυαρέω
+V025,random,,πρόσημαι,proshmai,tlg0085,tlg002,perseus-grc1,881,3:881,4652,προσήμεναι,quoted,νᾶσοι . . τᾷδε γᾷ προσήμεναι,grc.lsj.perseus-eng17.xml,pro/shmai,located,πρόσημαι
+V026,random,,ῥῆμα,rhma,tlg0059,tlg034,perseus-grc1,840c,840c,65247,ῥήμασιν,morpheus,λέγοντες ἐν μύθοις τε καὶ ἐν ῥήμασιν,grc.lsj.perseus-eng20.xml,r(h=ma,located,ῥῆμα
+V027,random,,οὐράνιος,ouranios,tlg0019,tlg009,perseus-grc1,1135,1135,7397,οὐράνιόν,morpheus,ἡμάρτηκεν οὐράνιόν γ' ὅσον,grc.lsj.perseus-eng16.xml,ou)ra/nios,located,οὐράνιος
+V028,random,,πολεμέω,polemew,tlg0543,tlg001,perseus-grc1,1:15:10,1:15:10,3990,ἐπολέμουν,morpheus,τὰς Συρακούσας,grc.lsj.perseus-eng17.xml,poleme/w,located,πολεμέω
+V029,plant,no,ἠλίθιος,hliqios,tlg0019,tlg003,perseus-grc1,872,872,5980,ἠλίθιον,morpheus,ἠλίθιον,grc.lsj.perseus-eng8.xml,h)li/qios,located,ἠνεμόεις
+V030,random,,γιγνώσκω,gignwskw,tlg0012,tlg001,perseus-grc1,23:610,23:610,103850,γνώωσι,quoted,γνώωσι,grc.lsj.perseus-eng3.xml,gignw/skw,located,γιγνώσκω
+V031,random,,ἀποθνήσκω,apoqnhskw,tlg0019,tlg001,perseus-grc1,15,15,90,ἀπέθανον,morpheus,βρόμῳ κεραυνοῦ,grc.lsj.perseus-eng1.xml,a)poqnh/skw,located,ἀποθνήσκω
+V032,random,,βροτοσκόπος,brotoskopos,tlg0085,tlg007,perseus-grc1,499,1:499,2736,βροτοσκόπων,morpheus,ερινύες,grc.lsj.perseus-eng2.xml,brotosko/pos,located,βροτοσκόπος
+V033,random,,βέλτερος,belteros,tlg0012,tlg001,perseus-grc1,15:511,15:511,67095,βέλτερον,quoted,βέλτερόν [ἐστι,grc.lsj.perseus-eng2.xml,be/lteros,located,βέλτερος
+V034,random,,σίδηρος,sidhros,tlg0012,tlg002,perseus-grc1,24:168,24:168,84416,σίδηρον,morpheus,,grc.lsj.perseus-eng21.xml,si/dhros,located,σίδηρος
+V035,random,,χρεία,xreia,tlg0011,tlg004,perseus-grc1,1174,1174,7528,χρείας,morpheus,ὡς πρὸς τί χρείας;,grc.lsj.perseus-eng25.xml,xrei/a,located,χρεία
+V036,anchor,yes,ἠλαίνω,hlainw,tlg0005,tlg001,perseus-grc1,7:23,7:23,5141,ἠλαίνοντι,morpheus,ἠλαίνοντι,grc.lsj.perseus-eng8.xml,h)lai/nw,located,ἠλαίνω
+V037,random,,τέκμαρ,tekmar,tlg0012,tlg001,perseus-grc1,13:20,13:20,53957,τέκμωρ,quoted,ἵκετο τέκμωρ,grc.lsj.perseus-eng22.xml,te/kmar,located,τέκμαρ
+V038,random,,χρησμός,xrhsmos,tlg0085,tlg003,perseus-grc1,662,662,3729,χρησμοὺς,morpheus,χ. ἀσήμους δυσκρίτως τ' εἰρημένους,grc.lsj.perseus-eng25.xml,xrhsmo/s,located,χρησμός
+V039,random,,ὑβρίζω,ubrizw,tlg0085,tlg003,perseus-grc1,82,82,614,ὕβριζε,morpheus,ἐνταῦθα νῦν ὕβριζε,grc.lsj.perseus-eng23.xml,u(bri/zw,located,ὑβρίζω
+V040,random,,παράφημι,parafhmi,tlg0033,tlg002,perseus-grc1,9:43,9:43,5909,παρφάμεν,quoted,"παρφάμεν ὅρκον, λόγον",grc.lsj.perseus-eng17.xml,para/fhmi,located,παράφημι
+V041,random,,ἔχθρα,exqra,tlg0031,tlg006,perseus-grc1,8:7,8:7,3199,ἔχθρα,morpheus,εἴς θεόν,grc.lsj.perseus-eng5.xml,e)/xqra,located,ἔχθρα
+V042,plant,no,ἱδρόω,idrow,tlg0012,tlg001,perseus-grc1,11:598,11:598,48729,ἱδρῶσαι,morpheus,ἱδρῶσαι,grc.lsj.perseus-eng10.xml,i(dro/w,located,ἱστορέω
+V043,anchor,yes,παραλλάσσω,parallassw,tlg0059,tlg006,perseus-grc1,193c,193c,17333,παραλλάξας,morpheus,παραλλάξας,grc.lsj.perseus-eng17.xml,paralla/ssw,located,παραλλάσσω
+V044,random,,κάτω,katw,tlg0011,tlg007,perseus-grc1,1563,1:1563,9683,κάτω,morpheus,,grc.lsj.perseus-eng11.xml,ka/tw,located,κάτω
+V045,random,,τις,tis,tlg0011,tlg006,perseus-grc1,100,100,643,τί,morpheus,τί οὖν,grc.lsj.perseus-eng22.xml,tis,located,τις
+V046,random,,ἐπεγείρω,epegeirw,tlg0059,tlg030,perseus-grc1,450b,450b,37275,ἐπεγείρετε,quoted,ὅσον ἑσμὸν λόγων ἐπεγείρετε,grc.lsj.perseus-eng5.xml,e)pegei/rw,located,ἐπεγείρω
+V047,anchor,yes,γιγνώσκω,gignwskw,tlg0012,tlg001,perseus-grc1,13:72,13:72,54302,ἔγνων,morpheus,ἔγνων,grc.lsj.perseus-eng3.xml,gignw/skw,located,γιγνώσκω
+V048,plant,no,ναός,naos,tlg0085,tlg002,perseus-grc1,810,810,4324,νεώς,morpheus,νεώς,grc.lsj.perseus-eng14.xml,nao/s1,located,νομάς
+V049,random,,παράφημι,parafhmi,tlg0033,tlg003,perseus-grc1,5:32,5:32,1858,παρφαμένα,quoted,πολλά μιν παρφαμένα,grc.lsj.perseus-eng17.xml,para/fhmi,located,παράφημι
+V050,random,,ἀλλοιόω,alloiow,tlg0032,tlg014,perseus-grc1,9:4,9:4,5572,ἀλλοιοῦνται,morpheus,τῇ ὄψει,grc.lsj.perseus-eng1.xml,a)lloio/w,located,ἀλλοιόω
+V051,random,,μάχομαι,maxomai,tlg0012,tlg001,perseus-grc1,13:700,13:700,58753,ἐμάχοντο,morpheus,μετὰ Βοιωτῶν μ.,grc.lsj.perseus-eng13.xml,ma/xomai,located,μάχομαι
+V052,random,,λόγος,logos,tlg0011,tlg007,perseus-grc1,651,651,4089,λόγῳ,morpheus,,grc.lsj.perseus-eng12.xml,lo/gos,located,λόγος
+V053,random,,ἀγωγή,agwgh,tlg0627,tlg006,perseus-grc1,1:1,1:1,50,ἀγωγῆς,morpheus,ἀ. ἐπί τι,grc.lsj.perseus-eng1.xml,a)gwgh/,located,ἀγωγή
+V054,random,,σεύω,seuw,tlg0012,tlg001,perseus-grc1,11:293,11:293,46552,σεύῃ,quoted,ὅτε πού τις θηρητὴρ κύνας . . σεύῃ ἐπ' ἀγροτέρῳ συΐ,grc.lsj.perseus-eng21.xml,seu/w,located,σεύω
+V055,random,,ἀγκών,agkwn,tlg0012,tlg001,perseus-grc1,10:80,10:80,40887,ἀγκῶνος,morpheus,ὀρθωθεὶς δ' ε'π' ἀγκῶνος,grc.lsj.perseus-eng1.xml,a)gkw/n,located,ἀγκών
+V056,anchor,yes,ῥίζα,riza,tlg0012,tlg001,perseus-grc1,11:846,11:846,50490,ῥίζαν,morpheus,ῥίζαν,grc.lsj.perseus-eng20.xml,r(i/za,located,ῥίζα
+V057,random,,ὅς,os,tlg0085,tlg004,perseus-grc1,553,2:553,2881,ὃν,morpheus,τῶν στηλῶν . . αἱ πλεῦνες,grc.lsj.perseus-eng16.xml,o(/s1,located,ὅς
+V058,random,,τρέπω,trepw,tlg0012,tlg001,perseus-grc1,12:273,12:273,52387,τετράφθω,quoted,τετράφθω,grc.lsj.perseus-eng22.xml,tre/pw,located,τρέπω
+V059,anchor,yes,ἀγνοέω,agnoew,tlg0027,tlg004,perseus-grc1,5,5,305,ἀγνοήσαντες,morpheus,ἀγνοήσαντες,grc.lsj.perseus-eng1.xml,a)gnoe/w,located,ἀγνοέω
+V060,random,,ἔθνος,eqnos,tlg0016,tlg001,perseus-grc1,1:101,1:101:1,13792,ἔθνος,morpheus,ἔθνος,grc.lsj.perseus-eng5.xml,e)/qnos,located,ἔθνος
+V061,random,,πανδάκρυτος,pandakrutos,tlg0011,tlg001,perseus-grc1,50,50,303,ὀδύρματα,quoted,ὀδύρματα,grc.lsj.perseus-eng17.xml,panda/krutos,located,πανδάκρυτος
+V062,random,,διασιωπάω,diasiwpaw,tlg0033,tlg001,perseus-grc1,13:91,13:91,5613,διασωπάσομαί,quoted,διασωπάσομαί οἱ μόρον,grc.lsj.perseus-eng4.xml,diasiwpa/w,located,διασιωπάω
+V063,random,,ἐλπίζω,elpizw,tlg0028,tlg002,perseus-grc1,3:6,3:6,1612,ἤλπισε,morpheus,,grc.lsj.perseus-eng5.xml,e)lpi/zw,located,ἐλπίζω
+V064,anchor,yes,οἴομαι,oiomai,tlg0012,tlg002,perseus-grc1,10:193,10:193,34202,οἴομαι,morpheus,οἴομαι,grc.lsj.perseus-eng16.xml,oi)/omai,located,οἴομαι
+V065,random,,πολύς,polus,tlg0011,tlg001,perseus-grc1,228,228,1276,πολλῷ,morpheus,χρόνῳ πολλῷ,grc.lsj.perseus-eng17.xml,polu/s,located,πολύς
+V066,plant,no,ἀρκέω,arkew,tlg0012,tlg001,perseus-grc1,13:440,13:440,56888,ἤρκει,morpheus,ἤρκει,grc.lsj.perseus-eng1.xml,a)rke/w,located,ἀναιρέω
+V067,random,,κρείσσων,kreisswn,tlg0012,tlg002,perseus-grc1,21:345,21:345,76381,κρείσσων,morpheus,οὔ τις ἐμεῖο κρείσσων . . δόμεναι,grc.lsj.perseus-eng11.xml,krei/sswn,located,κρείσσων
+V068,random,,στέγω,stegw,tlg0011,tlg006,perseus-grc1,136,1:136,918,στέγειν,morpheus,τί χρὴ στέγειν ἢ τί λέγειν,grc.lsj.perseus-eng21.xml,ste/gw,located,στέγω
+V069,random,,τλάω,tlaw,tlg0011,tlg006,perseus-grc1,1201,1201,7400,ἔτλασαν,quoted,ἔτλα—σαν,grc.lsj.perseus-eng22.xml,tla/w,located,τλάω
+V070,random,,σφίγξις,sfigcis,tlg0627,tlg009,perseus-grc1,26,26,6940,σφίγξις,morpheus,,grc.lsj.perseus-eng21.xml,sfi/gcis,located,σφίγξις
+V071,random,,ἐκκαίω,ekkaiw,tlg0019,tlg005,perseus-grc1,1133,1:1133,7174,ἐκκέας,quoted,ἐκκέας τῶν ξύλων ἅττ' ἂν ᾖ δανότατα,grc.lsj.perseus-eng5.xml,e)kkai/w,located,ἐκκαίω
+V072,random,,φέρω,ferw,tlg0016,tlg001,perseus-grc1,9:120,9:120:4,184728,ἔφερε,morpheus,ταύτῃ <ὁ> νόος ἔφερε,grc.lsj.perseus-eng24.xml,fe/rw,located,φέρω
+V073,random,,ἄγω,agw,tlg0016,tlg001,perseus-grc1,1:59,1:59:2,6849,ἄγεσθαι,morpheus,γυναῖκα ἄ. ἐς τὰ οἰκία,grc.lsj.perseus-eng1.xml,a)/gw,located,ἄγω
+V074,anchor,yes,ὁράω,oraw,tlg0012,tlg002,perseus-grc1,21:94,21:94,74560,ὄπωπα,morpheus,ὄπωπα,grc.lsj.perseus-eng16.xml,o(ra/w,located,ὁράω
+V075,plant,no,πόνος,ponos,tlg0012,tlg001,perseus-grc1,6:77,6:77,24586,πόνος,morpheus,πόνος,grc.lsj.perseus-eng17.xml,po/nos,located,πυρόω
+V076,random,,οὐ,ou,tlg0006,tlg017,perseus-grc1,1287,1287,7315,οὐ,morpheus,ἐν οὐ καιπῷ,grc.lsj.perseus-eng16.xml,ou)1,located,οὐ
+V077,anchor,yes,ἀγρός,agros,tlg0012,tlg002,perseus-grc1,11:188,11:188,38283,ἀγρῷ,morpheus,ἀγρῷ,grc.lsj.perseus-eng1.xml,a)gro/s,located,ἀγρός
+V078,random,,αὔω,auw,tlg0011,tlg004,perseus-grc1,1260,1260,8035,ἀύσας,quoted,δεινὸν δ' ἀΰσας,grc.lsj.perseus-eng1.xml,au)/w2,located,αὔω
+V079,plant,no,ὀστέον,osteon,tlg0006,tlg011,perseus-grc1,1177,1177,6529,ὀστέων,morpheus,ὀστέων,grc.lsj.perseus-eng16.xml,o)ste/on,located,ὀχετός
+V080,random,,εἰ,ei,tlg0032,tlg006,perseus-grc1,2:3:11,2:3:11,11619,εἴ,morpheus,εἴ πως,grc.lsj.perseus-eng5.xml,ei)1,located,εἰ

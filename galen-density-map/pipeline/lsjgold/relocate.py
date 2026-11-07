@@ -381,9 +381,9 @@ def main() -> None:
                         if any(blind(x) == hk for x in an):
                             cands.append((k, surf, idx, "morpheus"))
                             continue
-                    elif an is None and qk and sk == qk:
-                        cands.append((k, surf, idx, "quoted"))
-                    elif an == [] and qk and sk == qk:
+                    elif an is None and qk and sk == qk and sk[:2] == hk[:2]:
+                        cands.append((k, surf, idx, "quoted"))   # (v0.3.1) the quoted form must share the headword's first letters:
+                    elif an == [] and qk and sk == qk and sk[:2] == hk[:2]:   # LSJ quotes neighbouring words too (ἀνούτατος under ἄβλητος)
                         cands.append((k, surf, idx, "quoted"))
             # a quoted multi-word form: accept the single quoted token that shares the headword prefix
             if not cands and qk:
@@ -422,7 +422,7 @@ def main() -> None:
     summary = {"date": time.strftime("%Y-%m-%d"), "citations_into_held_works": len(cites), "located": len(gold),
                "located_per_author": dict(per_author.most_common()), "status_counts": {k: v for k, v in stats.items() if ":" not in k},
                "online_lookups": n_online, "elapsed_s": round(time.time() - t0, 1),
-               "rule": "window = cited unit ±1 sibling; validation morpheus (headword in analyses, accent-blind) else quoted-form equality when Morpheus has no analysis; exactly one validated surface -> gold"}
+               "rule": "window = cited unit ±1 sibling; validation morpheus (headword in analyses, accent-blind) else quoted-form equality (sharing the headword's first two letters, accent-blind) when Morpheus has no analysis; exactly one validated surface -> gold"}
     (OUT / "relocation_stats.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False), encoding="utf-8")
     print(json.dumps(summary, indent=2, ensure_ascii=False))
 

@@ -22,34 +22,37 @@ QC = GDM / "data" / "qc" / "lsjgold"
 OUT = QC / "validation"
 SEED = 20261107
 N_RANDOM, N_ANCHOR, N_PLANT, WIDTH = 60, 10, 10, 8
+JSONL: dict = {}   # edition stem -> token JSONL, filled from relocate.held_works()
 
 
 def context(stem: str, idx: int, cache: dict) -> str:
     if stem not in cache:
-        for lem_dir in (GDM / "data" / "lemmatized" / "reference", GDM / "data" / "lemmatized" / "galen"):
-            p = lem_dir / f"{stem}.jsonl"
-            if p.exists():
-                cache[stem] = [json.loads(l)["surface"] for l in p.open(encoding="utf-8")]
-                break
+        p = JSONL.get(stem)
+        if p is None or not p.exists():
+            raise SystemExit(f"no token stream for {stem}: the sheet would show an empty context")
+        cache[stem] = [json.loads(l)["surface"] for l in p.open(encoding="utf-8")]
     toks = cache.get(stem, [])
     lo, hi = max(0, idx - WIDTH), min(len(toks), idx + WIDTH + 1)
     return " ".join(f"[{toks[j]}]" if j == idx else toks[j] for j in range(lo, hi))
 
 
 def main() -> None:
+    global OUT
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("--key-out", required=True, type=Path)
     ap.add_argument("--seed", type=int, default=SEED)
+    ap.add_argument("--out", type=Path, default=OUT, help="sheet folder (a second sheet over an enlarged gold set gets its own folder)")
     a = ap.parse_args()
+    OUT = a.out
     rng = random.Random(a.seed)
     OUT.mkdir(parents=True, exist_ok=True)
     gold = list(csv.DictReader((QC / "lsj_gold_v0.csv").open(encoding="utf-8")))
-    held = {}
-    for xml_dir in (GDM / "data" / "reference_corpus" / "raw_xml", GDM / "data" / "raw_xml"):
-        for x in xml_dir.glob("urn_cts_greekLit_tlg*.xml"):
-            parts = x.stem.split("_")[3].split(".")
-            held.setdefault((parts[0], parts[1]), x.stem)
+    # the same (author, work) -> edition choice as relocate.py, so the context comes from the stream the token_index indexes
+    from relocate import held_works
+    hw = held_works()
+    held = {k: v[0].stem for k, v in hw.items()}
+    JSONL.update({v[0].stem: v[1] for v in hw.values()})
     cache: dict = {}
     sample = rng.sample(gold, N_RANDOM)
     exact = [g for g in gold if g["validation"] == "morpheus" and g["quoted_form"] and g["quoted_form"].strip() == g["surface"].strip() and g not in sample]
@@ -88,11 +91,12 @@ def main() -> None:
             wk.writerow({"row_id": f"V{n:03d}", **key[i], "shown_headword": key[i].get("shown_headword", key[i]["headword"])})
     (OUT / "reader_instructions.txt").write_text(
         "LSJ-GOLD VALIDATION SHEET\n\nEach row shows a dictionary headword and a Greek token in brackets inside its context (First1KGreek text, "
-        "tokenised stream without punctuation). Answer is_instance = yes if the bracketed token is a form of that headword (any inflection, "
+        "tokenised stream without punctuation; First1KGreek or Perseus editions). Answer is_instance = yes if the bracketed token is a form of that headword (any inflection, "
         "any accent variant), no if it is a form of some other word, unsure if the context does not let you decide. If no, give the headword "
         "the token really belongs to. Use only the sheet and your knowledge of Greek: no lemmatizer, no dictionary file, no web, no other file. "
         f"Answer every row. Rows {len(rows)}: random loci plus salted controls at unmarked positions.\n", encoding="utf-8")
-    meta = {"date": "2026-11-07", "seed": a.seed, "n_rows": len(rows), "n_random": N_RANDOM, "n_anchors": N_ANCHOR, "n_plants": N_PLANT,
+    import datetime
+    meta = {"date": datetime.date.today().isoformat(), "seed": a.seed, "gold_rows": len(gold), "n_rows": len(rows), "n_random": N_RANDOM, "n_anchors": N_ANCHOR, "n_plants": N_PLANT,
             "gate": {"anchors_min_yes": 9, "plants_min_no": 8}, "key": "PRIVATE until scored"}
     (OUT / "sheet_meta.json").write_text(json.dumps(meta, indent=2), encoding="utf-8")
     print(json.dumps(meta, indent=2))

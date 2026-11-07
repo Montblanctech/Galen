@@ -23,6 +23,24 @@ LABELS = {"odycy": "odyCy 0.7.0 (grc_odycy_joint_trf)", "dilemma": "Dilemma 1.3.
           "stanza_perseus": "Stanza 1.14 grc-perseus", "stanza_proiel": "Stanza 1.14 grc-proiel", "stoicheia": "Stoicheia tagger-parser (2026)"}
 
 
+def validation_sentence() -> str:
+    """One sentence per blind validation sheet, from its summary file: readers, gate, random-locus precision, agreement."""
+    out = []
+    for folder, label in (("validation", "the v0 loci (6,116)"), ("validation_v03", "the v0.3 loci (96,462)")):
+        p = QC / folder / "validation_summary.json"
+        if not p.exists():
+            continue
+        v = json.load(p.open(encoding="utf-8"))
+        parts = []
+        for name, r in v["readers"].items():
+            pr = r["relocation_precision_excl_unsure"]
+            parts.append(f"{name.split('_', 1)[-1]} {pr['k']}/{pr['n']} ({pr['pct']}%, controls {r['gate']['anchors_yes']} anchors, {r['gate']['plants_no']} plants)")
+        kappa = v.get("between_readers", {}).get("kappa")
+        ktxt = f"; agreement κ {kappa}" if isinstance(kappa, (int, float)) and kappa == kappa else "; agreement κ undefined (no variation: both readers said yes to every random locus)"
+        out.append(f"Relocation checked blind on {label} by two model readers on a salted sheet: " + "; ".join(parts) + ktxt + ".")
+    return " ".join(out)
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     scores = json.load((QC / "lsj_gold_scores.json").open(encoding="utf-8"))
@@ -63,7 +81,8 @@ def main() -> None:
     sc = stats.get("status_counts", {})
     h.append(f"<h2>How the loci were made</h2><p class=small>{html.escape(stats.get('rule',''))}. Of {stats.get('citations_into_held_works','?')} LSJ citations into works held here: located {sc.get('located')}, ambiguous {sc.get('ambiguous')}, not located {sc.get('not_located')} (mostly Morpheus coverage, being filled), locator not in our edition {sc.get('locator_not_in_edition')}. Match = the system's lemma equals the LSJ headword after accent/case normalisation; strict = exact; article-neutral maps the article's forms to ὁ before comparing.</p>")
     h.append("<h2>Coverage</h2><p class=small>Which works LSJ cites, which are held here, and what a missing edition would add: <a href=coverage.html>the coverage map</a> (<a href=coverage.json>JSON</a>).</p>")
-    h.append("<h2>Honesty</h2><p class=small>LSJ cites what a 1940 lexicographer found worth citing: this is the rare, dictionary-worthy stratum, not overall accuracy. The Perseus LSJ XML is incomplete. Only works held in First1K editions are covered. odyCy's lemmas are a frozen 2026-07 run; Dilemma is context-free on the surface; convention differences count against a system in the strict and blind columns and are partly undone in the article-neutral one. No human has validated the relocation yet; the blind salted sheet is in the repository.</p>")
+    h.append("<h2>Where the systems fail</h2><p class=small>Every miss grouped by mechanical pattern (same stem, surface returned, dialect ending …) and the most-missed headwords per system, as a list a maintainer can act on: <a href=failures.html>the failure catalogue</a> (<code>data/qc/lsjgold/failures/</code>).</p>")
+    h.append("<h2>Honesty</h2><p class=small>LSJ cites what a 1940 lexicographer found worth citing: this is the rare, dictionary-worthy stratum, not overall accuracy. The Perseus LSJ XML is incomplete. Only works held in First1KGreek or Perseus editions are covered. odyCy's lemmas are a frozen 2026-07 run on First1K and a token-by-token run on the Perseus works; Dilemma is context-free on the surface; convention differences count against a system in the strict and blind columns and are partly undone in the article-neutral one. " + validation_sentence() + " No human reader has judged a sheet yet; the sheets and keys are in the repository.</p>")
     h.append("<h2>Submit a system</h2><p class=small>Write <code>&lt;stem&gt;.jsonl</code> token caches for the covered editions with your lemmas (<code>{i, surface, lemma}</code> per token) and open a pull request adding them under <code>submissions/&lt;system&gt;/</code>; CI scores them with <code>greek-lemma-audit lsjgold</code> (<code>pip install greek-lemma-audit</code>) and the row is added at the next version. Details: <code>submissions/README.md</code>. Data CC BY 4.0, code MIT. Cite: Pepperman, W. (2026), LSJ-Gold, Galen Density Project, DOI pending.</p>")
     h.append("</body></html>")
     (DOCS / "index.html").write_text("\n".join(h), encoding="utf-8")

@@ -13,7 +13,7 @@ size_categories:
   - 10K<n<100K
 ---
 
-# LSJ-Gold 0.1 (96462 loci)
+# LSJ-Gold 0.1 (93926 loci)
 
 **LSJ-Gold** is a benchmark for Ancient Greek lemmatizers on the *dictionary-cited stratum*: every row is a token in a First1KGreek edition that the Liddell–Scott–Jones lexicon (Perseus XML) cites for a headword, relocated to its exact token index with the method and validation route recorded (`morpheus`: the surface's Morpheus analyses contain the headword; `quoted`: the surface equals LSJ's quoted form). Score any lemmatizer by comparing its lemma at that token with the LSJ headword (accent-blind, strict, and article-convention-neutral figures are all printed by the reference scorer).
 

@@ -25,8 +25,9 @@ def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     scores = json.load((QC / "lsj_gold_scores.json").open(encoding="utf-8"))
     stats = json.load((QC / "relocation_stats.json").open(encoding="utf-8"))
-    val = json.load((QC / "validation" / "validation_summary.json").open(encoding="utf-8"))
-    meta = json.load((QC / "validation" / "sheet_meta.json").open(encoding="utf-8"))
+    vdir = QC / ("validation_v03" if (QC / "validation_v03" / "validation_summary.json").exists() else "validation")
+    val = json.load((vdir / "validation_summary.json").open(encoding="utf-8"))
+    meta = json.load((vdir / "sheet_meta.json").open(encoding="utf-8"))
     conv = json.load((GDM / "outputs" / "t1" / "convention_summary.json").open(encoding="utf-8"))
     manifest = json.load((GDM / "data" / "perseus_corpus" / "manifest.json").open(encoding="utf-8"))
     counts = json.load((GDM / "data" / "perseus_corpus" / "token_counts.json").open(encoding="utf-8"))
@@ -57,9 +58,10 @@ def main() -> None:
     downloaded = [w for w in manifest.get("works", manifest if isinstance(manifest, list) else []) if (w.get("downloaded") if isinstance(w, dict) else True)] if isinstance(manifest, (dict, list)) else []
     n_perseus = len(downloaded) or sum(1 for _ in counts) if isinstance(counts, dict) else len(downloaded)
     n_tokens_m = round(sum(v if isinstance(v, int) else v.get("tokens", 0) for v in counts.values()) / 1e6, 1) if isinstance(counts, dict) else 0
-    r1 = next(iter(val["readers"].values()))
-    val_random_pct = r1["random"]["yes"]["pct"]
-    plants_caught = min(int(r["gate"]["plants_no"].split("/")[0]) for r in val["readers"].values())
+    readers = list(val["readers"].values())
+    val_random_pct = round(min(r["relocation_precision_excl_unsure"]["pct"] for r in readers), 1)   # the stricter reader
+    plants_caught = min(int(r["gate"]["plants_no"].split("/")[0]) for r in readers)
+    anchors_caught = min(int(r["gate"]["anchors_yes"].split("/")[0]) for r in readers)
     morph = sysd["dilemma"]["by_validation"]["morpheus"]["n"] if "dilemma" in sysd else 0
     quoted = sysd["dilemma"]["by_validation"].get("quoted", {"n": 0})["n"] if "dilemma" in sysd else 0
     stanza_sentence = ""
@@ -78,9 +80,9 @@ def main() -> None:
     tex += m("odycyBlind", pct("odycy")) + m("odycyCI", ci("odycy")) + m("odycyN", f"{sysd['odycy']['scored']:,}")
     tex += m("neuralRangeText", neural_range) + m("stanzaSentence", stanza_sentence)
     tex += m("dilemmaHippo", by_author("dilemma", "tlg0627") or "--") + m("odycyHippo", by_author("odycy", "tlg0627") or "--")
-    tex += m("dilemmaNonnus", by_author("dilemma", "tlg2045") or "--")
+    tex += m("dilemmaNonnus", by_author("dilemma", "tlg2045") or "--") + m("dilemmaOppian", by_author("dilemma", "tlg0023") or "--") + m("dilemmaApollonius", by_author("dilemma", "tlg0001") or "--")
     tex += m("conventionShare", conv["share_by_class_pct"]["article"])
-    tex += m("valRandom", val["n_random"]) + m("valControls", meta["n_anchors"] + meta["n_plants"]) + m("valRandomPct", val_random_pct) + m("valControlsCaught", plants_caught + meta["n_anchors"])
+    tex += m("valRandom", val["n_random"]) + m("valControls", meta["n_anchors"] + meta["n_plants"]) + m("valRandomPct", val_random_pct) + m("valControlsCaught", plants_caught + anchors_caught) + m("valKappa", val.get("between_readers", {}).get("kappa", "--"))
     tex += m("valMorpheusPct", round(100 * morph / max(1, morph + quoted), 1)) + m("valQuotedPct", round(100 * quoted / max(1, morph + quoted), 1))
     OUT.mkdir(exist_ok=True)
     (OUT / "numbers.tex").write_text(tex, encoding="utf-8")

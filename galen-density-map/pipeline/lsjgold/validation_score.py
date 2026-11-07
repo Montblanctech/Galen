@@ -43,12 +43,15 @@ def kappa(a, b):
 
 
 def main() -> None:
+    global OUT
     sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser()
     ap.add_argument("--key", required=True, type=Path)
     ap.add_argument("--reader", action="append", required=True)
     ap.add_argument("--answers", action="append", required=True)
+    ap.add_argument("--out", type=Path, default=OUT, help="the sheet folder scored (default: validation)")
     a = ap.parse_args()
+    OUT = a.out
     key = {r["row_id"]: r for r in csv.DictReader(a.key.open(encoding="utf-8"))}
     meta = json.load((OUT / "sheet_meta.json").open(encoding="utf-8"))
     readers = {}

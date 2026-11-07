@@ -1,391 +1,391 @@
 {
   "benchmark": "LSJ-Gold",
-  "version": "v0 (96462 loci, 2026-11-07)",
+  "version": "v0 (93926 loci, 2026-11-07)",
   "date": "2026-11-07",
-  "n_loci": 96462,
+  "n_loci": 93926,
   "loci_per_author": {
-    "tlg0012": 20329,
-    "tlg0016": 7627,
-    "tlg0003": 5155,
-    "tlg0543": 2209,
-    "tlg0059": 7590,
-    "tlg0099": 652,
-    "tlg0032": 5934,
-    "tlg0008": 23,
-    "tlg0001": 770,
-    "tlg0005": 935,
-    "tlg0085": 7776,
-    "tlg0033": 2440,
-    "tlg0011": 6694,
-    "tlg2045": 242,
+    "tlg0012": 19543,
+    "tlg0016": 7444,
+    "tlg0003": 5112,
+    "tlg0543": 2168,
+    "tlg0059": 7563,
+    "tlg0099": 624,
+    "tlg0032": 5877,
+    "tlg0008": 18,
+    "tlg0001": 659,
+    "tlg0005": 854,
+    "tlg0085": 7689,
+    "tlg0033": 2311,
+    "tlg0011": 6584,
+    "tlg2045": 149,
     "tlg0526": 4,
-    "tlg0019": 5974,
-    "tlg0020": 1448,
-    "tlg0014": 3530,
-    "tlg0006": 7284,
-    "tlg0023": 202,
+    "tlg0019": 5820,
+    "tlg0020": 1368,
+    "tlg0014": 3507,
+    "tlg0006": 7040,
+    "tlg0023": 164,
     "tlg0627": 2654,
     "tlg0004": 3,
-    "tlg0525": 237,
+    "tlg0525": 224,
     "tlg0086": 4,
-    "tlg0024": 133,
-    "tlg2046": 161,
-    "tlg0551": 79,
-    "tlg0026": 533,
-    "tlg0653": 149,
-    "tlg0031": 1218,
-    "tlg0719": 321,
-    "tlg0027": 451,
-    "tlg0058": 106,
-    "tlg0013": 451,
-    "tlg0010": 1216,
+    "tlg0024": 113,
+    "tlg2046": 133,
+    "tlg0551": 77,
+    "tlg0026": 530,
+    "tlg0653": 138,
+    "tlg0031": 1190,
+    "tlg0719": 311,
+    "tlg0027": 446,
+    "tlg0058": 100,
+    "tlg0013": 406,
+    "tlg0010": 1201,
     "tlg0284": 1,
-    "tlg0028": 631,
-    "tlg0648": 54,
-    "tlg0034": 117,
-    "tlg0647": 34,
-    "tlg0532": 38,
+    "tlg0028": 624,
+    "tlg0648": 51,
+    "tlg0034": 112,
+    "tlg0647": 28,
+    "tlg0532": 37,
     "tlg0561": 21,
-    "tlg0540": 737,
+    "tlg0540": 726,
     "tlg0533": 10,
     "tlg1799": 9,
-    "tlg0548": 19,
-    "tlg0554": 18,
+    "tlg0548": 20,
+    "tlg0554": 17,
     "tlg0655": 18,
-    "tlg4081": 12,
-    "tlg0017": 134,
+    "tlg4081": 11,
+    "tlg0017": 138,
     "tlg0030": 6,
     "tlg0557": 16,
     "tlg0057": 41,
     "tlg0062": 12
   },
   "relocation": {
-    "located": 96462,
-    "located_morpheus": 67898,
-    "not_located": 113636,
-    "located_quoted": 28564,
+    "located": 93926,
+    "located_morpheus": 68674,
+    "not_located": 117045,
+    "located_quoted": 25252,
     "locator_not_in_edition": 26176,
-    "ambiguous": 12816
+    "ambiguous": 11943
   },
-  "rule": "window = cited unit ±1 sibling; validation morpheus (headword in analyses, accent-blind) else quoted-form equality when Morpheus has no analysis; exactly one validated surface -> gold",
+  "rule": "window = cited unit ±1 sibling; validation morpheus (headword in analyses, accent-blind) else quoted-form equality (sharing the headword's first two letters, accent-blind) when Morpheus has no analysis; exactly one validated surface -> gold",
   "rows": [
     {
       "system": "dilemma",
       "label": "Dilemma 1.3.15 (Open Greek, lsj convention)",
-      "scored": 96281,
-      "missing": 181,
-      "blind_pct": 87.84,
+      "scored": 93750,
+      "missing": 176,
+      "blind_pct": 90.12,
       "blind_ci": [
-        87.63,
-        88.05
+        89.93,
+        90.31
       ],
-      "strict_pct": 84.88,
-      "article_neutral_pct": 87.89,
+      "strict_pct": 87.07,
+      "article_neutral_pct": 90.17,
       "by_author": {
         "tlg0012": {
-          "k": 17419,
-          "n": 20292,
-          "pct": 85.84,
+          "k": 17175,
+          "n": 19506,
+          "pct": 88.05,
           "wilson95": [
-            85.36,
-            86.31
+            87.59,
+            88.5
           ]
         },
         "tlg0085": {
-          "k": 7002,
-          "n": 7755,
-          "pct": 90.29,
+          "k": 7068,
+          "n": 7668,
+          "pct": 92.18,
           "wilson95": [
-            89.61,
-            90.93
-          ]
-        },
-        "tlg0016": {
-          "k": 6679,
-          "n": 7625,
-          "pct": 87.59,
-          "wilson95": [
-            86.83,
-            88.31
+            91.55,
+            92.76
           ]
         },
         "tlg0059": {
-          "k": 6829,
-          "n": 7590,
-          "pct": 89.97,
+          "k": 6858,
+          "n": 7563,
+          "pct": 90.68,
           "wilson95": [
-            89.28,
-            90.63
+            90.0,
+            91.31
+          ]
+        },
+        "tlg0016": {
+          "k": 6661,
+          "n": 7442,
+          "pct": 89.51,
+          "wilson95": [
+            88.79,
+            90.18
           ]
         },
         "tlg0006": {
-          "k": 6370,
-          "n": 7247,
-          "pct": 87.9,
+          "k": 6410,
+          "n": 7005,
+          "pct": 91.51,
           "wilson95": [
-            87.13,
-            88.63
+            90.83,
+            92.14
           ]
         },
         "tlg0011": {
-          "k": 5958,
-          "n": 6666,
-          "pct": 89.38,
+          "k": 5962,
+          "n": 6556,
+          "pct": 90.94,
           "wilson95": [
-            88.62,
-            90.1
-          ]
-        },
-        "tlg0019": {
-          "k": 5282,
-          "n": 5956,
-          "pct": 88.68,
-          "wilson95": [
-            87.85,
-            89.46
+            90.22,
+            91.61
           ]
         },
         "tlg0032": {
-          "k": 5346,
-          "n": 5934,
-          "pct": 90.09,
+          "k": 5369,
+          "n": 5877,
+          "pct": 91.36,
           "wilson95": [
-            89.3,
-            90.83
+            90.61,
+            92.05
+          ]
+        },
+        "tlg0019": {
+          "k": 5255,
+          "n": 5803,
+          "pct": 90.56,
+          "wilson95": [
+            89.78,
+            91.28
           ]
         },
         "tlg0003": {
-          "k": 4620,
-          "n": 5154,
-          "pct": 89.64,
+          "k": 4638,
+          "n": 5111,
+          "pct": 90.75,
           "wilson95": [
-            88.78,
-            90.44
+            89.92,
+            91.51
           ]
         },
         "tlg0014": {
-          "k": 3187,
-          "n": 3530,
-          "pct": 90.28,
+          "k": 3196,
+          "n": 3507,
+          "pct": 91.13,
           "wilson95": [
-            89.26,
-            91.22
+            90.15,
+            92.03
           ]
         },
         "tlg0627": {
-          "k": 2495,
+          "k": 2508,
           "n": 2643,
-          "pct": 94.4,
+          "pct": 94.89,
           "wilson95": [
-            93.46,
-            95.21
+            93.99,
+            95.67
           ]
         },
         "tlg0033": {
-          "k": 2070,
-          "n": 2435,
-          "pct": 85.01,
+          "k": 2074,
+          "n": 2307,
+          "pct": 89.9,
           "wilson95": [
-            83.54,
-            86.37
+            88.6,
+            91.06
           ]
         },
         "tlg0543": {
-          "k": 1992,
-          "n": 2209,
-          "pct": 90.18,
+          "k": 1997,
+          "n": 2168,
+          "pct": 92.11,
           "wilson95": [
-            88.86,
-            91.35
+            90.9,
+            93.17
           ]
         },
         "tlg0020": {
-          "k": 1217,
-          "n": 1447,
-          "pct": 84.11,
+          "k": 1204,
+          "n": 1367,
+          "pct": 88.08,
           "wilson95": [
-            82.13,
-            85.9
-          ]
-        },
-        "tlg0031": {
-          "k": 1098,
-          "n": 1218,
-          "pct": 90.15,
-          "wilson95": [
-            88.35,
-            91.7
+            86.25,
+            89.69
           ]
         },
         "tlg0010": {
           "k": 1085,
-          "n": 1216,
-          "pct": 89.23,
+          "n": 1201,
+          "pct": 90.34,
           "wilson95": [
-            87.36,
-            90.85
+            88.54,
+            91.89
+          ]
+        },
+        "tlg0031": {
+          "k": 1098,
+          "n": 1190,
+          "pct": 92.27,
+          "wilson95": [
+            90.61,
+            93.65
           ]
         },
         "tlg0005": {
-          "k": 717,
-          "n": 934,
-          "pct": 76.77,
+          "k": 714,
+          "n": 853,
+          "pct": 83.7,
           "wilson95": [
-            73.95,
-            79.36
-          ]
-        },
-        "tlg0001": {
-          "k": 529,
-          "n": 768,
-          "pct": 68.88,
-          "wilson95": [
-            65.52,
-            72.05
+            81.08,
+            86.03
           ]
         },
         "tlg0540": {
-          "k": 666,
-          "n": 737,
-          "pct": 90.37,
+          "k": 664,
+          "n": 726,
+          "pct": 91.46,
           "wilson95": [
-            88.02,
-            92.29
+            89.2,
+            93.28
           ]
         },
-        "tlg0099": {
-          "k": 519,
-          "n": 651,
-          "pct": 79.72,
+        "tlg0001": {
+          "k": 526,
+          "n": 658,
+          "pct": 79.94,
           "wilson95": [
-            76.46,
-            82.63
-          ]
-        },
-        "tlg0028": {
-          "k": 568,
-          "n": 631,
-          "pct": 90.02,
-          "wilson95": [
-            87.43,
-            92.12
-          ]
-        },
-        "tlg0026": {
-          "k": 478,
-          "n": 533,
-          "pct": 89.68,
-          "wilson95": [
-            86.81,
-            91.99
-          ]
-        },
-        "tlg0027": {
-          "k": 413,
-          "n": 451,
-          "pct": 91.57,
-          "wilson95": [
-            88.65,
-            93.8
-          ]
-        },
-        "tlg0013": {
-          "k": 357,
-          "n": 450,
-          "pct": 79.33,
-          "wilson95": [
-            75.35,
+            76.71,
             82.82
           ]
         },
-        "tlg0719": {
-          "k": 281,
-          "n": 321,
-          "pct": 87.54,
+        "tlg0099": {
+          "k": 520,
+          "n": 623,
+          "pct": 83.47,
           "wilson95": [
-            83.48,
-            90.71
+            80.35,
+            86.18
+          ]
+        },
+        "tlg0028": {
+          "k": 569,
+          "n": 624,
+          "pct": 91.19,
+          "wilson95": [
+            88.7,
+            93.17
+          ]
+        },
+        "tlg0026": {
+          "k": 481,
+          "n": 530,
+          "pct": 90.75,
+          "wilson95": [
+            87.99,
+            92.94
+          ]
+        },
+        "tlg0027": {
+          "k": 412,
+          "n": 446,
+          "pct": 92.38,
+          "wilson95": [
+            89.54,
+            94.49
+          ]
+        },
+        "tlg0013": {
+          "k": 351,
+          "n": 405,
+          "pct": 86.67,
+          "wilson95": [
+            83.01,
+            89.64
+          ]
+        },
+        "tlg0719": {
+          "k": 284,
+          "n": 311,
+          "pct": 91.32,
+          "wilson95": [
+            87.66,
+            93.96
+          ]
+        },
+        "tlg0525": {
+          "k": 185,
+          "n": 224,
+          "pct": 82.59,
+          "wilson95": [
+            77.09,
+            86.99
+          ]
+        },
+        "tlg0023": {
+          "k": 127,
+          "n": 164,
+          "pct": 77.44,
+          "wilson95": [
+            70.46,
+            83.17
           ]
         },
         "tlg2045": {
           "k": 113,
-          "n": 231,
-          "pct": 48.92,
+          "n": 138,
+          "pct": 81.88,
           "wilson95": [
-            42.54,
-            55.33
-          ]
-        },
-        "tlg0525": {
-          "k": 184,
-          "n": 237,
-          "pct": 77.64,
-          "wilson95": [
-            71.92,
-            82.48
-          ]
-        },
-        "tlg0023": {
-          "k": 126,
-          "n": 202,
-          "pct": 62.38,
-          "wilson95": [
-            55.52,
-            68.77
-          ]
-        },
-        "tlg2046": {
-          "k": 108,
-          "n": 159,
-          "pct": 67.92,
-          "wilson95": [
-            60.32,
-            74.68
+            74.62,
+            87.42
           ]
         },
         "tlg0653": {
           "k": 118,
-          "n": 148,
-          "pct": 79.73,
+          "n": 137,
+          "pct": 86.13,
           "wilson95": [
-            72.54,
-            85.42
+            79.35,
+            90.94
           ]
         },
         "tlg0017": {
-          "k": 123,
-          "n": 134,
-          "pct": 91.79,
+          "k": 128,
+          "n": 138,
+          "pct": 92.75,
           "wilson95": [
-            85.9,
-            95.35
+            87.17,
+            96.02
+          ]
+        },
+        "tlg2046": {
+          "k": 103,
+          "n": 131,
+          "pct": 78.63,
+          "wilson95": [
+            70.84,
+            84.78
           ]
         },
         "tlg0024": {
-          "k": 87,
-          "n": 133,
-          "pct": 65.41,
+          "k": 88,
+          "n": 113,
+          "pct": 77.88,
           "wilson95": [
-            57.0,
-            72.96
+            69.38,
+            84.54
           ]
         },
         "tlg0034": {
           "k": 106,
-          "n": 117,
-          "pct": 90.6,
+          "n": 112,
+          "pct": 94.64,
           "wilson95": [
-            83.95,
-            94.67
+            88.8,
+            97.52
           ]
         },
         "tlg0058": {
           "k": 84,
-          "n": 106,
-          "pct": 79.25,
+          "n": 100,
+          "pct": 84.0,
           "wilson95": [
-            70.57,
-            85.88
+            75.58,
+            89.9
           ]
         },
         "tlg0551": null,
@@ -393,14 +393,14 @@
         "tlg0057": null,
         "tlg0532": null,
         "tlg0647": null,
-        "tlg0008": null,
         "tlg0561": null,
         "tlg0548": null,
-        "tlg0554": null,
+        "tlg0008": null,
         "tlg0655": null,
+        "tlg0554": null,
         "tlg0557": null,
-        "tlg4081": null,
         "tlg0062": null,
+        "tlg4081": null,
         "tlg0533": null,
         "tlg1799": null,
         "tlg0030": null,
@@ -411,37 +411,37 @@
       },
       "by_lsj_tier": {
         "rich": {
-          "k": 76388,
-          "n": 85947,
-          "pct": 88.88,
+          "k": 76308,
+          "n": 84177,
+          "pct": 90.65,
           "wilson95": [
-            88.67,
-            89.09
+            90.45,
+            90.85
           ]
         },
         "thin": {
-          "k": 8130,
-          "n": 10209,
-          "pct": 79.64,
+          "k": 8120,
+          "n": 9467,
+          "pct": 85.77,
           "wilson95": [
-            78.84,
-            80.41
+            85.05,
+            86.46
           ]
         },
         "absent": {
           "k": 58,
-          "n": 125,
-          "pct": 46.4,
+          "n": 106,
+          "pct": 54.72,
           "wilson95": [
-            37.9,
-            55.12
+            45.24,
+            63.86
           ]
         }
       },
       "by_validation": {
         "morpheus": {
-          "k": 63121,
-          "n": 67879,
+          "k": 63842,
+          "n": 68654,
           "pct": 92.99,
           "wilson95": [
             92.8,
@@ -449,12 +449,12 @@
           ]
         },
         "quoted": {
-          "k": 21455,
-          "n": 28402,
-          "pct": 75.54,
+          "k": 20644,
+          "n": 25096,
+          "pct": 82.26,
           "wilson95": [
-            75.04,
-            76.04
+            81.78,
+            82.73
           ]
         }
       }
@@ -463,7 +463,7 @@
       "system": "stoicheia",
       "label": "Stoicheia tagger-parser (2026)",
       "scored": 41,
-      "missing": 96421,
+      "missing": 93885,
       "blind_pct": 78.05,
       "blind_ci": [
         63.29,
@@ -474,35 +474,35 @@
       "by_author": {
         "tlg0012": null,
         "tlg0085": null,
-        "tlg0016": null,
         "tlg0059": null,
+        "tlg0016": null,
         "tlg0006": null,
         "tlg0011": null,
-        "tlg0019": null,
         "tlg0032": null,
+        "tlg0019": null,
         "tlg0003": null,
         "tlg0014": null,
         "tlg0627": null,
         "tlg0033": null,
         "tlg0543": null,
         "tlg0020": null,
-        "tlg0031": null,
         "tlg0010": null,
+        "tlg0031": null,
         "tlg0005": null,
-        "tlg0001": null,
         "tlg0540": null,
+        "tlg0001": null,
         "tlg0099": null,
         "tlg0028": null,
         "tlg0026": null,
         "tlg0027": null,
         "tlg0013": null,
         "tlg0719": null,
-        "tlg2045": null,
         "tlg0525": null,
         "tlg0023": null,
-        "tlg2046": null,
+        "tlg2045": null,
         "tlg0653": null,
         "tlg0017": null,
+        "tlg2046": null,
         "tlg0024": null,
         "tlg0034": null,
         "tlg0058": null,
@@ -511,14 +511,14 @@
         "tlg0057": null,
         "tlg0532": null,
         "tlg0647": null,
-        "tlg0008": null,
         "tlg0561": null,
         "tlg0548": null,
-        "tlg0554": null,
+        "tlg0008": null,
         "tlg0655": null,
+        "tlg0554": null,
         "tlg0557": null,
-        "tlg4081": null,
         "tlg0062": null,
+        "tlg4081": null,
         "tlg0533": null,
         "tlg1799": null,
         "tlg0030": null,
@@ -569,279 +569,65 @@
       }
     },
     {
-      "system": "odycy",
-      "label": "odyCy 0.7.0 (grc_odycy_joint_trf)",
-      "scored": 62400,
-      "missing": 34062,
-      "blind_pct": 74.82,
-      "blind_ci": [
-        74.48,
-        75.16
-      ],
-      "strict_pct": 70.47,
-      "article_neutral_pct": 74.83,
-      "by_author": {
-        "tlg0012": {
-          "k": 15545,
-          "n": 20329,
-          "pct": 76.47,
-          "wilson95": [
-            75.88,
-            77.05
-          ]
-        },
-        "tlg0085": {
-          "k": 3053,
-          "n": 4202,
-          "pct": 72.66,
-          "wilson95": [
-            71.29,
-            73.98
-          ]
-        },
-        "tlg0016": {
-          "k": 6273,
-          "n": 7627,
-          "pct": 82.25,
-          "wilson95": [
-            81.37,
-            83.09
-          ]
-        },
-        "tlg0059": {
-          "k": 3119,
-          "n": 4313,
-          "pct": 72.32,
-          "wilson95": [
-            70.96,
-            73.63
-          ]
-        },
-        "tlg0006": null,
-        "tlg0011": {
-          "k": 5526,
-          "n": 6694,
-          "pct": 82.55,
-          "wilson95": [
-            81.62,
-            83.44
-          ]
-        },
-        "tlg0019": {
-          "k": 2218,
-          "n": 3342,
-          "pct": 66.37,
-          "wilson95": [
-            64.75,
-            67.95
-          ]
-        },
-        "tlg0032": {
-          "k": 3412,
-          "n": 4619,
-          "pct": 73.87,
-          "wilson95": [
-            72.58,
-            75.12
-          ]
-        },
-        "tlg0003": {
-          "k": 3881,
-          "n": 5155,
-          "pct": 75.29,
-          "wilson95": [
-            74.09,
-            76.44
-          ]
-        },
-        "tlg0014": null,
-        "tlg0627": {
-          "k": 1637,
-          "n": 2654,
-          "pct": 61.68,
-          "wilson95": [
-            59.82,
-            63.51
-          ]
-        },
-        "tlg0033": {
-          "k": 1166,
-          "n": 1717,
-          "pct": 67.91,
-          "wilson95": [
-            65.66,
-            70.08
-          ]
-        },
-        "tlg0543": null,
-        "tlg0020": null,
-        "tlg0031": null,
-        "tlg0010": null,
-        "tlg0005": {
-          "k": 487,
-          "n": 912,
-          "pct": 53.4,
-          "wilson95": [
-            50.15,
-            56.62
-          ]
-        },
-        "tlg0001": {
-          "k": 336,
-          "n": 770,
-          "pct": 43.64,
-          "wilson95": [
-            40.17,
-            47.16
-          ]
-        },
-        "tlg0540": null,
-        "tlg0099": null,
-        "tlg0028": null,
-        "tlg0026": null,
-        "tlg0027": null,
-        "tlg0013": null,
-        "tlg0719": null,
-        "tlg2045": null,
-        "tlg0525": null,
-        "tlg0023": null,
-        "tlg2046": null,
-        "tlg0653": null,
-        "tlg0017": null,
-        "tlg0024": null,
-        "tlg0034": null,
-        "tlg0058": null,
-        "tlg0551": null,
-        "tlg0648": null,
-        "tlg0057": null,
-        "tlg0532": null,
-        "tlg0647": null,
-        "tlg0008": null,
-        "tlg0561": null,
-        "tlg0548": null,
-        "tlg0554": null,
-        "tlg0655": null,
-        "tlg0557": null,
-        "tlg4081": null,
-        "tlg0062": null,
-        "tlg0533": null,
-        "tlg1799": null,
-        "tlg0030": null,
-        "tlg0526": null,
-        "tlg0086": null,
-        "tlg0004": null,
-        "tlg0284": null
-      },
-      "by_lsj_tier": {
-        "rich": {
-          "k": 42534,
-          "n": 55405,
-          "pct": 76.77,
-          "wilson95": [
-            76.42,
-            77.12
-          ]
-        },
-        "thin": {
-          "k": 4124,
-          "n": 6924,
-          "pct": 59.56,
-          "wilson95": [
-            58.4,
-            60.71
-          ]
-        },
-        "absent": {
-          "k": 32,
-          "n": 71,
-          "pct": 45.07,
-          "wilson95": [
-            34.05,
-            56.6
-          ]
-        }
-      },
-      "by_validation": {
-        "morpheus": {
-          "k": 36379,
-          "n": 43001,
-          "pct": 84.6,
-          "wilson95": [
-            84.26,
-            84.94
-          ]
-        },
-        "quoted": {
-          "k": 10311,
-          "n": 19399,
-          "pct": 53.15,
-          "wilson95": [
-            52.45,
-            53.85
-          ]
-        }
-      }
-    },
-    {
       "system": "stanza_perseus",
       "label": "Stanza 1.14 grc-perseus",
-      "scored": 2737,
-      "missing": 93725,
-      "blind_pct": 73.88,
+      "scored": 2663,
+      "missing": 91263,
+      "blind_pct": 76.61,
       "blind_ci": [
-        72.2,
-        75.49
+        74.96,
+        78.17
       ],
-      "strict_pct": 69.6,
-      "article_neutral_pct": 73.88,
+      "strict_pct": 72.14,
+      "article_neutral_pct": 76.61,
       "by_author": {
         "tlg0012": null,
         "tlg0085": {
-          "k": 1453,
-          "n": 1824,
-          "pct": 79.66,
+          "k": 1468,
+          "n": 1826,
+          "pct": 80.39,
           "wilson95": [
-            77.75,
-            81.44
+            78.51,
+            82.15
           ]
         },
-        "tlg0016": null,
         "tlg0059": null,
+        "tlg0016": null,
         "tlg0006": null,
         "tlg0011": null,
-        "tlg0019": null,
         "tlg0032": null,
+        "tlg0019": null,
         "tlg0003": null,
         "tlg0014": null,
         "tlg0627": null,
         "tlg0033": null,
         "tlg0543": null,
         "tlg0020": null,
-        "tlg0031": null,
         "tlg0010": null,
+        "tlg0031": null,
         "tlg0005": {
-          "k": 569,
-          "n": 912,
-          "pct": 62.39,
+          "k": 572,
+          "n": 836,
+          "pct": 68.42,
           "wilson95": [
-            59.2,
-            65.48
+            65.19,
+            71.48
           ]
         },
-        "tlg0001": null,
         "tlg0540": null,
+        "tlg0001": null,
         "tlg0099": null,
         "tlg0028": null,
         "tlg0026": null,
         "tlg0027": null,
         "tlg0013": null,
         "tlg0719": null,
-        "tlg2045": null,
         "tlg0525": null,
         "tlg0023": null,
-        "tlg2046": null,
+        "tlg2045": null,
         "tlg0653": null,
         "tlg0017": null,
+        "tlg2046": null,
         "tlg0024": null,
         "tlg0034": null,
         "tlg0058": null,
@@ -850,14 +636,14 @@
         "tlg0057": null,
         "tlg0532": null,
         "tlg0647": null,
-        "tlg0008": null,
         "tlg0561": null,
         "tlg0548": null,
-        "tlg0554": null,
+        "tlg0008": null,
         "tlg0655": null,
+        "tlg0554": null,
         "tlg0557": null,
-        "tlg4081": null,
         "tlg0062": null,
+        "tlg4081": null,
         "tlg0533": null,
         "tlg1799": null,
         "tlg0030": null,
@@ -868,50 +654,280 @@
       },
       "by_lsj_tier": {
         "rich": {
-          "k": 1754,
-          "n": 2276,
-          "pct": 77.07,
+          "k": 1766,
+          "n": 2220,
+          "pct": 79.55,
           "wilson95": [
-            75.29,
-            78.75
+            77.82,
+            81.18
           ]
         },
         "thin": {
-          "k": 267,
-          "n": 457,
-          "pct": 58.42,
+          "k": 273,
+          "n": 440,
+          "pct": 62.05,
           "wilson95": [
-            53.85,
-            62.85
+            57.43,
+            66.46
           ]
         },
         "absent": {
           "k": 1,
-          "n": 4,
-          "pct": 25.0,
+          "n": 3,
+          "pct": 33.33,
           "wilson95": [
-            4.56,
-            69.94
+            6.15,
+            79.23
           ]
         }
       },
       "by_validation": {
         "morpheus": {
-          "k": 1762,
-          "n": 2142,
-          "pct": 82.26,
+          "k": 1793,
+          "n": 2176,
+          "pct": 82.4,
           "wilson95": [
-            80.58,
-            83.82
+            80.74,
+            83.94
           ]
         },
         "quoted": {
-          "k": 260,
-          "n": 595,
-          "pct": 43.7,
+          "k": 247,
+          "n": 487,
+          "pct": 50.72,
           "wilson95": [
-            39.76,
-            47.71
+            46.29,
+            55.14
+          ]
+        }
+      }
+    },
+    {
+      "system": "odycy",
+      "label": "odyCy 0.7.0 (grc_odycy_joint_trf)",
+      "scored": 63679,
+      "missing": 30247,
+      "blind_pct": 76.6,
+      "blind_ci": [
+        76.27,
+        76.92
+      ],
+      "strict_pct": 72.09,
+      "article_neutral_pct": 76.61,
+      "by_author": {
+        "tlg0012": {
+          "k": 15420,
+          "n": 19543,
+          "pct": 78.9,
+          "wilson95": [
+            78.33,
+            79.47
+          ]
+        },
+        "tlg0085": {
+          "k": 3107,
+          "n": 4215,
+          "pct": 73.71,
+          "wilson95": [
+            72.36,
+            75.02
+          ]
+        },
+        "tlg0059": {
+          "k": 3143,
+          "n": 4299,
+          "pct": 73.11,
+          "wilson95": [
+            71.76,
+            74.41
+          ]
+        },
+        "tlg0016": {
+          "k": 6275,
+          "n": 7444,
+          "pct": 84.3,
+          "wilson95": [
+            83.45,
+            85.1
+          ]
+        },
+        "tlg0006": null,
+        "tlg0011": {
+          "k": 5550,
+          "n": 6584,
+          "pct": 84.3,
+          "wilson95": [
+            83.4,
+            85.15
+          ]
+        },
+        "tlg0032": {
+          "k": 3442,
+          "n": 4584,
+          "pct": 75.09,
+          "wilson95": [
+            73.81,
+            76.32
+          ]
+        },
+        "tlg0019": {
+          "k": 2236,
+          "n": 3264,
+          "pct": 68.5,
+          "wilson95": [
+            66.89,
+            70.08
+          ]
+        },
+        "tlg0003": {
+          "k": 3914,
+          "n": 5112,
+          "pct": 76.56,
+          "wilson95": [
+            75.38,
+            77.71
+          ]
+        },
+        "tlg0014": null,
+        "tlg0627": {
+          "k": 1650,
+          "n": 2654,
+          "pct": 62.17,
+          "wilson95": [
+            60.31,
+            64.0
+          ]
+        },
+        "tlg0033": {
+          "k": 1177,
+          "n": 1630,
+          "pct": 72.21,
+          "wilson95": [
+            69.98,
+            74.33
+          ]
+        },
+        "tlg0543": {
+          "k": 1598,
+          "n": 2168,
+          "pct": 73.71,
+          "wilson95": [
+            71.81,
+            75.52
+          ]
+        },
+        "tlg0020": null,
+        "tlg0010": null,
+        "tlg0031": null,
+        "tlg0005": {
+          "k": 496,
+          "n": 836,
+          "pct": 59.33,
+          "wilson95": [
+            55.96,
+            62.61
+          ]
+        },
+        "tlg0540": null,
+        "tlg0001": {
+          "k": 339,
+          "n": 659,
+          "pct": 51.44,
+          "wilson95": [
+            47.63,
+            55.24
+          ]
+        },
+        "tlg0099": {
+          "k": 390,
+          "n": 624,
+          "pct": 62.5,
+          "wilson95": [
+            58.64,
+            66.21
+          ]
+        },
+        "tlg0028": null,
+        "tlg0026": null,
+        "tlg0027": null,
+        "tlg0013": null,
+        "tlg0719": null,
+        "tlg0525": null,
+        "tlg0023": null,
+        "tlg2045": null,
+        "tlg0653": null,
+        "tlg0017": null,
+        "tlg2046": null,
+        "tlg0024": null,
+        "tlg0034": null,
+        "tlg0058": null,
+        "tlg0551": null,
+        "tlg0648": null,
+        "tlg0057": null,
+        "tlg0532": null,
+        "tlg0647": null,
+        "tlg0561": null,
+        "tlg0548": null,
+        "tlg0008": null,
+        "tlg0655": null,
+        "tlg0554": null,
+        "tlg0557": null,
+        "tlg0062": null,
+        "tlg4081": null,
+        "tlg0533": null,
+        "tlg1799": null,
+        "tlg0030": null,
+        "tlg0526": null,
+        "tlg0086": null,
+        "tlg0004": null,
+        "tlg0284": null
+      },
+      "by_lsj_tier": {
+        "rich": {
+          "k": 44458,
+          "n": 56735,
+          "pct": 78.36,
+          "wilson95": [
+            78.02,
+            78.7
+          ]
+        },
+        "thin": {
+          "k": 4280,
+          "n": 6871,
+          "pct": 62.29,
+          "wilson95": [
+            61.14,
+            63.43
+          ]
+        },
+        "absent": {
+          "k": 38,
+          "n": 73,
+          "pct": 52.05,
+          "wilson95": [
+            40.78,
+            63.12
+          ]
+        }
+      },
+      "by_validation": {
+        "morpheus": {
+          "k": 38634,
+          "n": 45826,
+          "pct": 84.31,
+          "wilson95": [
+            83.97,
+            84.64
+          ]
+        },
+        "quoted": {
+          "k": 10142,
+          "n": 17853,
+          "pct": 56.81,
+          "wilson95": [
+            56.08,
+            57.53
           ]
         }
       }
@@ -919,55 +935,55 @@
     {
       "system": "stanza_proiel",
       "label": "Stanza 1.14 grc-proiel",
-      "scored": 913,
-      "missing": 95549,
-      "blind_pct": 52.9,
+      "scored": 837,
+      "missing": 93089,
+      "blind_pct": 58.06,
       "blind_ci": [
-        49.66,
-        56.12
+        54.69,
+        61.36
       ],
-      "strict_pct": 49.4,
-      "article_neutral_pct": 52.9,
+      "strict_pct": 54.24,
+      "article_neutral_pct": 58.06,
       "by_author": {
         "tlg0012": null,
         "tlg0085": null,
-        "tlg0016": null,
         "tlg0059": null,
+        "tlg0016": null,
         "tlg0006": null,
         "tlg0011": null,
-        "tlg0019": null,
         "tlg0032": null,
+        "tlg0019": null,
         "tlg0003": null,
         "tlg0014": null,
         "tlg0627": null,
         "tlg0033": null,
         "tlg0543": null,
         "tlg0020": null,
-        "tlg0031": null,
         "tlg0010": null,
+        "tlg0031": null,
         "tlg0005": {
-          "k": 482,
-          "n": 912,
-          "pct": 52.85,
+          "k": 485,
+          "n": 836,
+          "pct": 58.01,
           "wilson95": [
-            49.61,
-            56.07
+            54.64,
+            61.32
           ]
         },
-        "tlg0001": null,
         "tlg0540": null,
+        "tlg0001": null,
         "tlg0099": null,
         "tlg0028": null,
         "tlg0026": null,
         "tlg0027": null,
         "tlg0013": null,
         "tlg0719": null,
-        "tlg2045": null,
         "tlg0525": null,
         "tlg0023": null,
-        "tlg2046": null,
+        "tlg2045": null,
         "tlg0653": null,
         "tlg0017": null,
+        "tlg2046": null,
         "tlg0024": null,
         "tlg0034": null,
         "tlg0058": null,
@@ -976,14 +992,14 @@
         "tlg0057": null,
         "tlg0532": null,
         "tlg0647": null,
-        "tlg0008": null,
         "tlg0561": null,
         "tlg0548": null,
-        "tlg0554": null,
+        "tlg0008": null,
         "tlg0655": null,
+        "tlg0554": null,
         "tlg0557": null,
-        "tlg4081": null,
         "tlg0062": null,
+        "tlg4081": null,
         "tlg0533": null,
         "tlg1799": null,
         "tlg0030": null,
@@ -994,50 +1010,50 @@
       },
       "by_lsj_tier": {
         "rich": {
-          "k": 445,
-          "n": 764,
-          "pct": 58.25,
+          "k": 447,
+          "n": 709,
+          "pct": 63.05,
           "wilson95": [
-            54.72,
-            61.69
+            59.43,
+            66.52
           ]
         },
         "thin": {
-          "k": 38,
-          "n": 147,
-          "pct": 25.85,
+          "k": 39,
+          "n": 127,
+          "pct": 30.71,
           "wilson95": [
-            19.45,
-            33.48
+            23.35,
+            39.2
           ]
         },
         "absent": {
           "k": 0,
-          "n": 2,
+          "n": 1,
           "pct": 0.0,
           "wilson95": [
             0.0,
-            65.76
+            79.35
           ]
         }
       },
       "by_validation": {
         "morpheus": {
-          "k": 343,
-          "n": 437,
-          "pct": 78.49,
+          "k": 352,
+          "n": 448,
+          "pct": 78.57,
           "wilson95": [
-            74.4,
-            82.09
+            74.54,
+            82.12
           ]
         },
         "quoted": {
-          "k": 140,
-          "n": 476,
-          "pct": 29.41,
+          "k": 134,
+          "n": 389,
+          "pct": 34.45,
           "wilson95": [
-            25.5,
-            33.66
+            29.9,
+            39.3
           ]
         }
       }
@@ -1046,35 +1062,35 @@
   "author_names": {
     "tlg0012": "Homer",
     "tlg0085": "Aeschylus",
-    "tlg0016": "Herodotus",
     "tlg0059": "Plato",
+    "tlg0016": "Herodotus",
     "tlg0006": "Euripides",
     "tlg0011": "Sophocles",
-    "tlg0019": "Aristophanes",
     "tlg0032": "Xenophon",
+    "tlg0019": "Aristophanes",
     "tlg0003": "Thucydides",
     "tlg0014": "Demosthenes",
     "tlg0627": "Hippocrates",
     "tlg0033": "Pindar",
     "tlg0543": "Polybius",
     "tlg0020": "Hesiod",
-    "tlg0031": "New Testament",
     "tlg0010": "Isocrates",
+    "tlg0031": "New Testament",
     "tlg0005": "Theocritus",
-    "tlg0001": "Apollonius Rhodius",
     "tlg0540": "Lysias",
+    "tlg0001": "Apollonius Rhodius",
     "tlg0099": "Strabo",
     "tlg0028": "Antiphon",
     "tlg0026": "Aeschines",
     "tlg0027": "Andocides",
     "tlg0013": "Homeric Hymns",
     "tlg0719": "tlg0719",
-    "tlg2045": "Nonnus",
     "tlg0525": "Pausanias",
     "tlg0023": "Oppian",
-    "tlg2046": "Quintus Smyrnaeus",
+    "tlg2045": "Nonnus",
     "tlg0653": "tlg0653",
     "tlg0017": "Isaeus",
+    "tlg2046": "Quintus Smyrnaeus",
     "tlg0024": "Oppian of Apamea",
     "tlg0034": "tlg0034",
     "tlg0058": "tlg0058",
@@ -1083,14 +1099,14 @@
     "tlg0057": "Galen",
     "tlg0532": "Achilles Tatius",
     "tlg0647": "tlg0647",
-    "tlg0008": "Athenaeus",
     "tlg0561": "Longus",
     "tlg0548": "Apollodorus",
-    "tlg0554": "Chariton",
+    "tlg0008": "Athenaeus",
     "tlg0655": "tlg0655",
+    "tlg0554": "Chariton",
     "tlg0557": "Epictetus",
-    "tlg4081": "tlg4081",
     "tlg0062": "Lucian",
+    "tlg4081": "tlg4081",
     "tlg0533": "Callimachus",
     "tlg1799": "Euclid",
     "tlg0030": "Hyperides",

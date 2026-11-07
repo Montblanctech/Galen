@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-07",
+  "seed": 20261108,
+  "gold_rows": 96462,
+  "n_rows": 80,
+  "n_random": 60,
+  "n_anchors": 10,
+  "n_plants": 10,
+  "gate": {
+    "anchors_min_yes": 9,
+    "plants_min_no": 8
+  },
+  "key": "PRIVATE until scored"
+}
