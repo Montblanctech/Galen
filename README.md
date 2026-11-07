@@ -28,8 +28,8 @@ lemmatizer accuracy on the words the dictionary itself cites: **93,926 relocated
 authors**, CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
 [audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
 Dilemma (lexicon-first) matches the lexicographer's headword 90.1% of the time; Stanza-Perseus 79.6% and
-Stanza-PROIEL 72.0% on 90,452 loci; odyCy 76.5% on the 63,828 loci its caches cover so far. On headwords LSJ cites
-only once: 83.8% against 53–55%. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
+odyCy 75.7% and Stanza-PROIEL 72.0%, all on the same 90,452 loci. On headwords LSJ cites only once: 83.8%
+against 51–53%. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
 
 ## Contents
 
@@ -65,7 +65,7 @@ treebanks); on **1,850** gold loci mined from LSJ's own Galen citations, odyCy m
 lexicographer's headword **62.3%** accent-blind — a rare-stratum accuracy that independently
 confirms the rarity→failure pattern. Error is **reported, never patched**. v3.0 adds a fourth bound, **M5**, two blind model readers on the salted
 human protocol (83.3% / 81.7%, κ 0.94), and widens the gold to **LSJ-Gold** across 54 authors, where
-the lexicon-first Dilemma reaches 90.1%, Stanza-Perseus 79.6%, odyCy 76.5% (62.2% on Hippocrates), Stanza-PROIEL 72.0%; 71% of their disagreement
+the lexicon-first Dilemma reaches 90.1%, Stanza-Perseus 79.6%, odyCy 75.7% (62.2% on Hippocrates), Stanza-PROIEL 72.0%; 71% of their disagreement
 with each other is the article convention (`outputs/t1/`).
 
 ## Reproducibility
