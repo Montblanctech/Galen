@@ -14,6 +14,7 @@ Alignment check: cache surface == source surface for every i (asserted per work;
 not written). Output is written atomically (.tmp then rename); works whose output exists are skipped.
 
 Usage: python -X utf8 pipeline/lsjgold/perseus_caches.py --systems odycy [--only tlg0033] [--out DIR]
+stoicheia: run under .venv-sto with STOICHEIA_DIR set; checkpoints <stem>.partial.jsonl every 2,000 tokens.
 Stanza needs STANZA_RESOURCES_DIR pointing at the 1.14.0 resources (models are never downloaded).
 """
 from __future__ import annotations
@@ -32,12 +33,12 @@ REPO = GDM.parent
 sys.path.insert(0, str(REPO / "audit-kit"))
 from greek_lemma_audit.align import align_surfaces  # noqa: E402
 from greek_lemma_audit.corpus import Token, Work, WorkRef, author_of  # noqa: E402
-from greek_lemma_audit.systems.odycy import OdycySystem  # noqa: E402
-from greek_lemma_audit.systems.stanza import PROCESSORS, StanzaSystem  # noqa: E402
+# odycy / stanza / stoicheia adapters are imported lazily: they live in different venvs (stoicheia needs transformers 5).
 
 LEM = GDM / "data" / "perseus_corpus" / "lemmatized"
 DEFAULT_OUT = Path("C:/Users/W/AppData/Local/Temp/claude/3d58b1488e5f774d/c8b67b7e-4794-4ccf-9e64-fada4fc17b0d/scratchpad/perseus_caches/cache")
-SYSTEMS = ("odycy", "stanza_perseus", "stanza_proiel")
+SYSTEMS = ("odycy", "stanza_perseus", "stanza_proiel")  # + "stoicheia" (explicit only; .venv-sto)
+STO_CHUNK = 2000  # tokens per stoicheia call = checkpoint size (multiple of the adapter's 40-word sentences)
 STANZA_SENT = 100  # words per pretokenized pseudo-sentence (source tokens carry no punctuation)
 STANZA_BATCH = 50  # pseudo-sentences per nlp() call
 
@@ -62,6 +63,8 @@ def read_source(path: Path, strict_i: bool = True) -> list[Token]:
 
 class OdycyRunner:
     def __init__(self) -> None:
+        from greek_lemma_audit.systems.odycy import OdycySystem
+
         self.sys = OdycySystem()
 
     def run(self, stem: str, src: list[Token]) -> list[tuple[str, str]]:
@@ -75,6 +78,9 @@ class OdycyRunner:
 
 class StanzaRunner:
     def __init__(self, package: str) -> None:
+        from greek_lemma_audit.systems.stanza import PROCESSORS, StanzaSystem
+
+        self._processors = PROCESSORS
         self.sys = StanzaSystem(package)
         av = self.sys.availability()
         if not av.ok or not av.version.get("model_downloaded"):
@@ -82,7 +88,7 @@ class StanzaRunner:
         import stanza
 
         # Same pipeline as StanzaSystem._load (no download), plus pretokenized input.
-        self.sys._nlp = stanza.Pipeline(lang="grc", package=package, processors=PROCESSORS, verbose=False,
+        self.sys._nlp = stanza.Pipeline(lang="grc", package=package, processors=self._processors, verbose=False,
                                         download_method=None, tokenize_pretokenized=True)
 
     def run(self, stem: str, src: list[Token]) -> list[tuple[str, str]]:
@@ -102,6 +108,53 @@ class StanzaRunner:
         print(f"  {stem}: stanza realigned by form ({len(got)} vs {len(words)}; {stats})", flush=True)
         lem = {ia: got[ib][1] for ia, ib in pairs}
         return [(w, lem.get(i, "")) for i, w in enumerate(words)]
+
+
+class StoicheiaRunner:
+    """Stoicheia tagger-parser via the audit-kit adapter, fed STO_CHUNK-token chunks; each finished chunk is appended
+    to <out>/stoicheia/<stem>.partial.jsonl so a native crash (ACCESS_VIOLATION) resumes instead of restarting."""
+
+    def __init__(self, odir: Path) -> None:
+        from greek_lemma_audit.systems.stoicheia import StoicheiaSystem
+
+        self.sys = StoicheiaSystem()  # words_per_sentence=40, STOICHEIA_DIR from env
+        av = self.sys.availability()
+        if not av.ok:
+            raise RuntimeError(f"stoicheia unavailable: {av.detail}")
+        self.sys._load()
+        self.odir = odir
+
+    def run(self, stem: str, src: list[Token]) -> list[tuple[str, str]]:
+        partial = self.odir / f"{stem}.partial.jsonl"
+        res: list[tuple[str, str]] = []
+        if partial.exists():
+            for line in partial.read_text(encoding="utf-8").splitlines():
+                try:
+                    r = json.loads(line)
+                except ValueError:
+                    break  # torn last line from a crash
+                res.append((r["surface"], r.get("lemma") or ""))
+            res = res[: len(res) // STO_CHUNK * STO_CHUNK]
+            if len(res) > len(src) or any(nfc(a[0]) != nfc(b.surface) for a, b in zip(res, src)):
+                res = []
+            with partial.open("w", encoding="utf-8", newline="\n") as fh:  # rewrite exactly the validated prefix
+                for t, (s_, l_) in zip(src, res):
+                    fh.write(json.dumps({"i": t.i, "surface": s_, "lemma": l_}, ensure_ascii=False) + "\n")
+            if res:
+                print(f"  {stem}: resumed from checkpoint at {len(res)}/{len(src)}", flush=True)
+        for b in range(len(res), len(src), STO_CHUNK):
+            chunk = [Token(i=k, surface=t.surface, lemma="", pos="") for k, t in enumerate(src[b : b + STO_CHUNK])]
+            work = Work(ref=WorkRef(stem=stem, path=LEM / f"{stem}.jsonl", kind="jsonl", subcorpus="perseus",
+                                    author=author_of(stem)), tokens=chunk, text=None)
+            out = self.sys.run(work)
+            if out is None:
+                raise RuntimeError(f"stoicheia skipped: {self.sys.last_skip_reason}")
+            new = [(t.surface, t.lemma) for t in out]
+            with partial.open("a", encoding="utf-8", newline="\n") as fh:
+                for t, (s_, l_) in zip(src[b : b + STO_CHUNK], new):
+                    fh.write(json.dumps({"i": t.i, "surface": s_, "lemma": l_}, ensure_ascii=False) + "\n")
+            res.extend(new)
+        return res
 
 
 def first1k_files() -> list[Path]:
@@ -125,7 +178,9 @@ def first1k_files() -> list[Path]:
     return out
 
 
-def make_runner(name: str):
+def make_runner(name: str, odir: Path | None = None):
+    if name == "stoicheia":
+        return StoicheiaRunner(odir)
     if name == "odycy":
         return OdycyRunner()
     if name.startswith("stanza_"):
@@ -161,7 +216,7 @@ def main() -> int:
         if not todo:
             continue
         t0 = time.time()
-        runner = make_runner(name)
+        runner = make_runner(name, odir)
         print(f"[{name}] model loaded in {time.time() - t0:.1f}s", flush=True)
         for f in todo:
             src = read_source(f, strict_i=not args.first1k)
@@ -184,6 +239,7 @@ def main() -> int:
                 for t, (_s, lemma) in zip(src, res):
                     fh.write(json.dumps({"i": t.i, "surface": t.surface, "lemma": lemma}, ensure_ascii=False) + "\n")
             os.replace(tmp, odir / f"{f.stem}.jsonl")
+            (odir / f"{f.stem}.partial.jsonl").unlink(missing_ok=True)
             n_lem = sum(1 for r in res if r[1])
             print(f"  {f.stem}: tokens {len(src)} mismatches 0 lemmatized {n_lem} {dt:.1f}s "
                   f"({len(src) / max(dt, 1e-9):.0f} tok/s)", flush=True)

@@ -72,8 +72,8 @@
     {
       "system": "dilemma",
       "label": "Dilemma 1.3.15 (Open Greek, lsj convention)",
-      "scored": 93750,
-      "missing": 176,
+      "scored": 93748,
+      "missing": 178,
       "blind_pct": 90.12,
       "blind_ci": [
         89.93,
@@ -83,8 +83,8 @@
       "article_neutral_pct": 90.17,
       "by_author": {
         "tlg0012": {
-          "k": 17175,
-          "n": 19506,
+          "k": 17174,
+          "n": 19505,
           "pct": 88.05,
           "wilson95": [
             87.59,
@@ -120,11 +120,11 @@
         },
         "tlg0006": {
           "k": 6410,
-          "n": 7005,
-          "pct": 91.51,
+          "n": 7004,
+          "pct": 91.52,
           "wilson95": [
-            90.83,
-            92.14
+            90.84,
+            92.15
           ]
         },
         "tlg0011": {
@@ -411,8 +411,8 @@
       },
       "by_lsj_tier": {
         "rich": {
-          "k": 76308,
-          "n": 84177,
+          "k": 76307,
+          "n": 84175,
           "pct": 90.65,
           "wilson95": [
             90.45,
@@ -449,11 +449,11 @@
           ]
         },
         "quoted": {
-          "k": 20644,
-          "n": 25096,
+          "k": 20643,
+          "n": 25094,
           "pct": 82.26,
           "wilson95": [
-            81.78,
+            81.79,
             82.73
           ]
         }
@@ -478,12 +478,183 @@
           ]
         },
         "6+": {
-          "k": 74994,
-          "n": 82678,
+          "k": 74993,
+          "n": 82676,
           "pct": 90.71,
           "wilson95": [
             90.51,
             90.9
+          ]
+        }
+      }
+    },
+    {
+      "system": "stoicheia",
+      "label": "Stoicheia tagger-parser (2026)",
+      "scored": 7233,
+      "missing": 86693,
+      "blind_pct": 87.64,
+      "blind_ci": [
+        86.86,
+        88.38
+      ],
+      "strict_pct": 82.03,
+      "article_neutral_pct": 87.64,
+      "by_author": {
+        "tlg0012": null,
+        "tlg0085": {
+          "k": 3924,
+          "n": 4215,
+          "pct": 93.1,
+          "wilson95": [
+            92.29,
+            93.82
+          ]
+        },
+        "tlg0059": null,
+        "tlg0016": null,
+        "tlg0006": null,
+        "tlg0011": {
+          "k": 303,
+          "n": 321,
+          "pct": 94.39,
+          "wilson95": [
+            91.31,
+            96.42
+          ]
+        },
+        "tlg0032": null,
+        "tlg0019": null,
+        "tlg0003": null,
+        "tlg0014": null,
+        "tlg0627": {
+          "k": 2078,
+          "n": 2654,
+          "pct": 78.3,
+          "wilson95": [
+            76.69,
+            79.82
+          ]
+        },
+        "tlg0033": null,
+        "tlg0543": null,
+        "tlg0020": null,
+        "tlg0010": null,
+        "tlg0031": null,
+        "tlg0005": null,
+        "tlg0540": null,
+        "tlg0001": null,
+        "tlg0099": null,
+        "tlg0028": null,
+        "tlg0026": null,
+        "tlg0027": null,
+        "tlg0013": null,
+        "tlg0719": null,
+        "tlg0525": null,
+        "tlg0023": null,
+        "tlg2045": null,
+        "tlg0653": null,
+        "tlg0017": null,
+        "tlg2046": null,
+        "tlg0024": null,
+        "tlg0034": null,
+        "tlg0058": null,
+        "tlg0551": null,
+        "tlg0648": null,
+        "tlg0057": null,
+        "tlg0532": null,
+        "tlg0647": null,
+        "tlg0561": null,
+        "tlg0548": null,
+        "tlg0008": null,
+        "tlg0655": null,
+        "tlg0554": null,
+        "tlg0557": null,
+        "tlg0062": null,
+        "tlg4081": null,
+        "tlg0533": null,
+        "tlg1799": null,
+        "tlg0030": null,
+        "tlg0526": null,
+        "tlg0086": null,
+        "tlg0004": null,
+        "tlg0284": null
+      },
+      "by_lsj_tier": {
+        "rich": {
+          "k": 4953,
+          "n": 5529,
+          "pct": 89.58,
+          "wilson95": [
+            88.75,
+            90.36
+          ]
+        },
+        "thin": {
+          "k": 1366,
+          "n": 1673,
+          "pct": 81.65,
+          "wilson95": [
+            79.72,
+            83.43
+          ]
+        },
+        "absent": {
+          "k": 20,
+          "n": 31,
+          "pct": 64.52,
+          "wilson95": [
+            46.95,
+            78.88
+          ]
+        }
+      },
+      "by_validation": {
+        "morpheus": {
+          "k": 6114,
+          "n": 6884,
+          "pct": 88.81,
+          "wilson95": [
+            88.05,
+            89.54
+          ]
+        },
+        "quoted": {
+          "k": 225,
+          "n": 349,
+          "pct": 64.47,
+          "wilson95": [
+            59.32,
+            69.31
+          ]
+        }
+      },
+      "by_lsj_citations": {
+        "1": {
+          "k": 624,
+          "n": 800,
+          "pct": 78.0,
+          "wilson95": [
+            75.0,
+            80.73
+          ]
+        },
+        "2-5": {
+          "k": 1245,
+          "n": 1523,
+          "pct": 81.75,
+          "wilson95": [
+            79.73,
+            83.61
+          ]
+        },
+        "6+": {
+          "k": 4470,
+          "n": 4910,
+          "pct": 91.04,
+          "wilson95": [
+            90.21,
+            91.81
           ]
         }
       }
@@ -903,144 +1074,6 @@
           "wilson95": [
             82.22,
             82.75
-          ]
-        }
-      }
-    },
-    {
-      "system": "stoicheia",
-      "label": "Stoicheia tagger-parser (2026)",
-      "scored": 41,
-      "missing": 93885,
-      "blind_pct": 78.05,
-      "blind_ci": [
-        63.29,
-        88.0
-      ],
-      "strict_pct": 70.73,
-      "article_neutral_pct": 78.05,
-      "by_author": {
-        "tlg0012": null,
-        "tlg0085": null,
-        "tlg0059": null,
-        "tlg0016": null,
-        "tlg0006": null,
-        "tlg0011": null,
-        "tlg0032": null,
-        "tlg0019": null,
-        "tlg0003": null,
-        "tlg0014": null,
-        "tlg0627": null,
-        "tlg0033": null,
-        "tlg0543": null,
-        "tlg0020": null,
-        "tlg0010": null,
-        "tlg0031": null,
-        "tlg0005": null,
-        "tlg0540": null,
-        "tlg0001": null,
-        "tlg0099": null,
-        "tlg0028": null,
-        "tlg0026": null,
-        "tlg0027": null,
-        "tlg0013": null,
-        "tlg0719": null,
-        "tlg0525": null,
-        "tlg0023": null,
-        "tlg2045": null,
-        "tlg0653": null,
-        "tlg0017": null,
-        "tlg2046": null,
-        "tlg0024": null,
-        "tlg0034": null,
-        "tlg0058": null,
-        "tlg0551": null,
-        "tlg0648": null,
-        "tlg0057": null,
-        "tlg0532": null,
-        "tlg0647": null,
-        "tlg0561": null,
-        "tlg0548": null,
-        "tlg0008": null,
-        "tlg0655": null,
-        "tlg0554": null,
-        "tlg0557": null,
-        "tlg0062": null,
-        "tlg4081": null,
-        "tlg0533": null,
-        "tlg1799": null,
-        "tlg0030": null,
-        "tlg0526": null,
-        "tlg0086": null,
-        "tlg0004": null,
-        "tlg0284": null
-      },
-      "by_lsj_tier": {
-        "rich": {
-          "k": 13,
-          "n": 17,
-          "pct": 76.47,
-          "wilson95": [
-            52.74,
-            90.45
-          ]
-        },
-        "thin": {
-          "k": 19,
-          "n": 24,
-          "pct": 79.17,
-          "wilson95": [
-            59.53,
-            90.76
-          ]
-        }
-      },
-      "by_validation": {
-        "morpheus": {
-          "k": 32,
-          "n": 40,
-          "pct": 80.0,
-          "wilson95": [
-            65.24,
-            89.5
-          ]
-        },
-        "quoted": {
-          "k": 0,
-          "n": 1,
-          "pct": 0.0,
-          "wilson95": [
-            0.0,
-            79.35
-          ]
-        }
-      },
-      "by_lsj_citations": {
-        "1": {
-          "k": 18,
-          "n": 20,
-          "pct": 90.0,
-          "wilson95": [
-            69.9,
-            97.21
-          ]
-        },
-        "2-5": {
-          "k": 10,
-          "n": 14,
-          "pct": 71.43,
-          "wilson95": [
-            45.35,
-            88.28
-          ]
-        },
-        "6+": {
-          "k": 4,
-          "n": 7,
-          "pct": 57.14,
-          "wilson95": [
-            25.05,
-            84.18
           ]
         }
       }
