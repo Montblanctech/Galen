@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use greek-lemma-audit or the LSJ-Gold loci, please cite this software and the Galen Density Project preprint."
+title: "greek-lemma-audit: a Lemmatizer Audit Kit for Ancient Greek (M1 Morpheus floor, M2 cross-system agreement, M3 LSJ-citation gold, M5 blind salted reader sheets)"
+type: software
+version: 0.3.0
+date-released: 2026-11-07
+license: MIT
+repository-code: "https://github.com/Montblanctech/Galen"
+authors:
+  - family-names: Pepperman
+    given-names: William
+    affiliation: "Montblanc Tech LLC (independent researcher)"
+keywords:
+  - Ancient Greek
+  - lemmatization
+  - evaluation
+  - Morpheus
+  - LSJ
+  - Galen
+references:
+  - type: article
+    title: "A density map of under-described vocabulary in the Galenic corpus"
+    authors:
+      - family-names: Pepperman
+        given-names: William
+    year: 2026
+    doi: 10.5281/zenodo.22162810
+  - type: dataset
+    title: "Galen Density Project: census and density map (Phase 1 and 2 data)"
+    authors:
+      - family-names: Pepperman
+        given-names: William
+    year: 2026
+    doi: 10.5281/zenodo.21561962

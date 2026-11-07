@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "spec": "mt2026_constrained_terminology_spec.md",
+  "terms": [
+    "δύσκρατος",
+    "δυσκρασία",
+    "ῥευματικός",
+    "ψωρώδης",
+    "δακνῶδής",
+    "ἐγκηρίς",
+    "ῥητίνη",
+    "μαλακτικός",
+    "ψιμύθιον",
+    "χαλβάνη"
+  ],
+  "excluded_by_rule": {
+    "ἔνιοι": "function word",
+    "βελτίων": "comparative",
+    "ποιότης": "non-medical abstraction"
+  },
+  "n_passages": 16,
+  "n_targets": 176,
+  "n_term_targets": 26,
+  "n_other_targets": 150,
+  "judge_seed": 20261106,
+  "conditions": {
+    "C0": "11/05 instructions, no glossary, fresh session",
+    "C1": "same + terminology.csv, use preferred rendering where the term occurs"
+  },
+  "translators": [
+    "fable-5-1",
+    "opus-5-5"
+  ],
+  "judges": [
+    "sonnet-5-5",
+    "opus-5-5"
+  ]
+}

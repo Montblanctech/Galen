@@ -1,0 +1,67 @@
+tlg,name,genre,tokens,gold_odycy_pct,gold_odycy_k,gold_odycy_n,gold_odycy_wilson95,floor_odycy_strict_pct,floor_odycy_neutral_pct,cache_gap_odycy_pct,floor_odycy_n_est,gold_dilemma_pct,gold_dilemma_k,gold_dilemma_n,gold_dilemma_wilson95,floor_dilemma_strict_pct,floor_dilemma_neutral_pct,cache_gap_dilemma_pct,floor_dilemma_n_est,m2_agree_strict_pct,m2_agree_neutral_pct,dilemma_convention_gap_pts,recommendation,basis,flag
+tlg0001,Apollonius Rhodius,n/a,,,,,,,,,,68.88,529,768,65.52-72.05,,,,,,,,insufficient data,,
+tlg0003,Thucydides,n/a,,,,,,,,,,89.64,4620,5154,88.78-90.44,,,,,,,,insufficient data,,
+tlg0005,Theocritus,n/a,,,,,,,,,,76.84,700,911,73.99-79.46,,,,,,,,insufficient data,,
+tlg0008,Athenaeus,n/a,,,,,,,,,,,,,,,,,,,,,insufficient data,,
+tlg0011,Sophocles,n/a,,86.38,279,323,82.21-89.69,,,,,89.47,5474,6118,88.68-90.22,,,,,,,,either,LSJ-Gold,
+tlg0012,Homer,n/a,,,,,,,,,,85.84,17420,20293,85.36-86.32,,,,,,,,insufficient data,,
+tlg0016,Herodotus,n/a,,,,,,,,,,86.63,1406,1623,84.89-88.2,,,,,,,,insufficient data,,
+tlg0018,Philo Judaeus,n/a,417856,,,,,94.61,94.61,15.47,343310,,,,,82.28,96.13,15.33,344272,72.09,84.34,13.85,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0019,Aristophanes,n/a,,,,,,,,,,88.55,2953,3335,87.42-89.58,,,,,,,,insufficient data,,
+tlg0032,Xenophon,n/a,,,,,,,,,,90.3,2680,2968,89.18-91.31,,,,,,,,insufficient data,,
+tlg0033,Pindar,n/a,,,,,,,,,,85.06,1457,1713,83.29-86.67,,,,,,,,insufficient data,,
+tlg0057,Galen,n/a,,,,,,,,,,,,,,,,,,,,,insufficient data,,
+tlg0059,Plato,n/a,,,,,,,,,,90.17,2018,2238,88.87-91.34,,,,,,,,insufficient data,,
+tlg0082,Apollonius Dyscolus,n/a,123948,,,,,94.2,94.2,15.36,100956,,,,,78.73,96.3,14.79,101675,66.59,82.21,17.57,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0085,Aeschylus,n/a,,72.61,2858,3936,71.2-73.98,,,,,90.51,6249,6904,89.8-91.18,,,,,,,,Dilemma,LSJ-Gold,
+tlg0086,Aristotle,n/a,827270,,,,,94.75,94.75,6.6,749838,,,,,80.46,95.66,6.22,753229,70.52,85.73,15.2,Dilemma,M1 floor (article-neutral),
+tlg0087,Aelius Herodianus Et Pseudo-Herodianus,n/a,408657,,,,,95.05,95.05,27.59,276906,,,,,78.78,97.03,25.63,284589,66.47,80.26,18.25,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0093,Theophrastus,n/a,207881,,,,,94.41,94.41,9.64,185284,,,,,80.37,95.62,9.06,186552,70.2,85.02,15.25,Dilemma,M1 floor (article-neutral),
+tlg0363,Claudius Ptolemaeus,n/a,213421,,,,,94.32,94.32,17.6,161560,,,,,73.06,96.75,16.45,164313,63.56,82.97,23.69,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0526,Josephus,n/a,,,,,,,,,,,,,,,,,,,,,insufficient data,,
+tlg0527,Septuaginta,n/a,358282,,,,,96.9,96.9,23.54,273083,,,,,79.79,94.18,22.4,277167,70.05,82.58,14.39,odyCy,M1 floor (article-neutral),cache_gap
+tlg0530,Pseudo-Galenus,n/a,91323,,,,,89.71,89.71,7.6,80848,,,,,84.3,97.05,6.64,81944,68.09,80.47,12.75,Dilemma,M1 floor (article-neutral),
+tlg0543,Polybius,n/a,,,,,,,,,,90.18,1992,2209,88.86-91.35,,,,,,,,insufficient data,,
+tlg0544,Sextus Empiricus,n/a,203975,,,,,94.13,94.13,9.48,180436,,,,,82.04,95.65,8.64,182272,71.28,84.36,13.61,Dilemma,M1 floor (article-neutral),
+tlg0552,Archimedes,n/a,106864,,,,,92.71,92.71,18.87,81142,,,,,74.79,95.15,18.81,81195,60.17,77.6,20.36,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0555,Clemens Alexandrinus,n/a,102282,,,,,95.59,95.59,17.39,83135,,,,,79.96,95.89,17.22,83309,70.25,84.45,15.93,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0559,Heron,n/a,109635,,,,,93.83,93.83,17.95,84167,,,,,75.92,96.77,16.94,85482,64.22,81.92,20.85,Dilemma,M1 floor (article-neutral),cache_gap
+tlg0627,Hippocrates,n/a,364618,61.68,1637,2654,59.82-63.51,91.81,91.81,9.27,323416,94.4,2495,2643,93.46-95.21,84.86,96.26,9.22,323671,69.83,81.03,11.4,Dilemma,LSJ-Gold,
+tlg0656,Dioscorides Pedanius,n/a,125701,,,,,87.72,87.72,11.73,109046,,,,,88.23,96.93,10.96,110014,68.92,77.26,8.7,Dilemma,M1 floor (article-neutral),
+tlg0732,Alexander,n/a,1047937,,,,,94.68,94.68,5.0,969866,,,,,81.22,96.1,4.59,974372,70.96,86.43,14.88,Dilemma,M1 floor (article-neutral),
+tlg1271,Clemens Romanus Et Clementina,n/a,133855,,,,,95.61,95.61,15.85,111863,,,,,82.4,94.7,15.35,112545,73.59,85.17,12.3,odyCy,M1 floor (article-neutral),cache_gap
+tlg1764,Vettius Valens,n/a,103523,,,,,94.85,94.85,22.24,76576,,,,,81.87,96.33,21.42,78108,71.0,82.83,14.46,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2000,Plotinus,n/a,214062,,,,,95.8,95.8,6.7,198714,,,,,84.1,95.67,6.62,198885,75.37,87.48,11.57,either,M1 floor (article-neutral),
+tlg2001,Themistius,n/a,252521,,,,,93.93,93.93,5.5,231511,,,,,81.25,95.49,4.92,233026,70.75,85.33,14.24,Dilemma,M1 floor (article-neutral),
+tlg2018,Eusebius,n/a,812306,,,,,95.28,95.28,17.76,648626,,,,,80.55,95.52,16.67,657968,70.22,83.37,14.97,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2021,Epiphanius,n/a,232494,,,,,96.0,96.0,19.31,184298,,,,,80.91,96.43,17.43,188646,70.75,84.77,15.52,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2023,Iamblichus,n/a,144035,,,,,94.68,94.68,11.1,125512,,,,,80.75,95.9,10.73,126088,71.12,85.3,15.15,Dilemma,M1 floor (article-neutral),
+tlg2034,porphyrius-tyrius,n/a,161228,,,,,95.12,95.12,16.52,129402,,,,,80.87,95.77,15.05,131804,69.36,82.54,14.9,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2035,athanasius-of-alexandria,n/a,108696,,,,,97.04,97.04,16.87,89587,,,,,82.19,95.91,15.82,90729,75.54,88.28,13.72,odyCy,M1 floor (article-neutral),cache_gap
+tlg2042,Origenes,n/a,929540,,,,,95.85,95.85,16.98,757110,,,,,79.34,95.39,15.96,766592,70.03,84.84,16.05,odyCy,M1 floor (article-neutral),cache_gap
+tlg2045,Nonnus,n/a,,,,,,,,,,48.92,113,231,42.54-55.33,,,,,,,,insufficient data,,
+tlg2048,Salaminius Hermias Sozomenus,n/a,112981,,,,,95.55,95.55,20.37,89379,,,,,80.95,96.67,19.81,90012,70.09,83.73,15.72,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2057,Socrates Scholasticus,n/a,101850,,,,,95.83,95.83,21.02,79810,,,,,79.99,96.71,20.2,80635,70.13,84.86,16.72,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2115,Hippolytus,n/a,139296,,,,,95.36,95.36,15.72,115156,,,,,81.45,96.68,14.99,116173,70.95,84.62,15.23,Dilemma,M1 floor (article-neutral),cache_gap
+tlg2200,Libanius,n/a,411342,,,,,95.15,95.15,14.9,334586,,,,,80.15,94.33,13.85,339316,69.1,81.74,14.18,odyCy,M1 floor (article-neutral),
+tlg2371,Chronicon Paschale,n/a,119877,,,,,96.01,96.01,26.16,82080,,,,,79.12,96.06,23.89,85736,68.53,82.25,16.94,either,M1 floor (article-neutral),cache_gap
+tlg2703,Anna Comnena,n/a,291646,,,,,94.8,94.8,21.3,224305,,,,,78.41,96.46,19.55,229409,66.3,81.4,18.05,Dilemma,M1 floor (article-neutral),cache_gap
+tlg3135,Joannes Zonaras,n/a,371103,,,,,95.64,95.64,22.07,281741,,,,,79.67,96.68,21.12,285304,68.67,83.21,17.01,Dilemma,M1 floor (article-neutral),cache_gap
+tlg4013,Simplicius,n/a,990350,,,,,94.26,94.26,6.41,907656,,,,,80.77,96.06,5.79,913796,69.97,85.54,15.29,Dilemma,M1 floor (article-neutral),
+tlg4015,Joannes Philoponus,n/a,1156035,,,,,94.3,94.3,5.98,1061703,,,,,80.72,95.83,5.37,1068870,69.88,85.42,15.11,Dilemma,M1 floor (article-neutral),
+tlg4016,Ammonius,n/a,237151,,,,,93.92,93.92,7.84,213270,,,,,80.21,95.9,7.17,214883,69.52,85.23,15.69,Dilemma,M1 floor (article-neutral),
+tlg4018,Asclepius,n/a,175522,,,,,94.59,94.59,5.57,163060,,,,,81.51,95.95,5.09,163902,72.12,86.68,14.44,Dilemma,M1 floor (article-neutral),
+tlg4019,Olympiodorus,n/a,169797,,,,,94.26,94.26,7.49,154261,,,,,80.68,95.66,6.98,155144,70.89,85.79,14.98,Dilemma,M1 floor (article-neutral),
+tlg4020,Elias,n/a,90311,,,,,94.75,94.75,7.48,82355,,,,,81.02,95.57,6.78,83005,71.2,85.9,14.55,Dilemma,M1 floor (article-neutral),
+tlg4026,Anonymi In Aristotelis Artem Rhetoricam,n/a,96770,,,,,95.92,95.92,11.78,83745,,,,,81.05,95.75,11.05,84471,72.22,86.23,14.7,either,M1 floor (article-neutral),
+tlg4031,Eustratius,n/a,243823,,,,,95.23,95.23,8.41,217539,,,,,81.3,96.05,7.79,219172,71.92,86.39,14.75,Dilemma,M1 floor (article-neutral),
+tlg4033,Anonymi In Aristotelis Ethica Nicomachea,n/a,97773,,,,,95.5,95.5,8.12,88172,,,,,81.85,95.88,7.42,88885,73.51,87.31,14.03,Dilemma,M1 floor (article-neutral),
+tlg4034,Michael,n/a,143136,,,,,94.4,94.4,5.84,131957,,,,,80.13,96.02,5.43,132573,70.31,86.57,15.89,Dilemma,M1 floor (article-neutral),
+tlg4036,Proclus,n/a,165015,,,,,94.73,94.74,12.86,140626,,,,,78.24,96.13,11.25,143266,67.59,84.03,17.89,Dilemma,M1 floor (article-neutral),
+tlg4089,Theodoretus,n/a,181029,,,,,94.79,94.8,20.71,141891,,,,,77.94,96.19,19.8,143574,67.57,83.29,18.25,Dilemma,M1 floor (article-neutral),cache_gap
+tlg4090,Cyrillus,n/a,303484,,,,,95.9,95.9,22.5,230435,,,,,79.46,95.68,21.12,234684,69.71,83.01,16.22,odyCy,M1 floor (article-neutral),cache_gap
+tlg4102,Catenae (Novum Testamentum),n/a,1145370,,,,,96.34,96.34,16.58,935996,,,,,80.02,95.42,15.98,943098,72.9,86.77,15.4,odyCy,M1 floor (article-neutral),cache_gap
+tlg5023,Scholia In Euripidem,n/a,404563,,,,,96.08,96.08,20.31,316328,,,,,79.13,96.05,19.61,319281,70.12,84.55,16.92,either,M1 floor (article-neutral),cache_gap
+tlg5026,Scholia In Homerum,n/a,876440,,,,,95.99,95.99,22.62,666708,,,,,80.78,96.61,21.34,678014,69.76,83.01,15.83,Dilemma,M1 floor (article-neutral),cache_gap
+tlg5034,Scholia In Pindarum,n/a,101352,,,,,96.31,96.31,21.12,77544,,,,,79.24,96.99,20.69,78061,68.54,83.72,17.75,Dilemma,M1 floor (article-neutral),cache_gap
+tlg9010,Suda,n/a,473113,,,,,95.08,95.09,25.73,343764,,,,,81.09,96.44,24.49,349678,69.14,81.48,15.35,Dilemma,M1 floor (article-neutral),cache_gap

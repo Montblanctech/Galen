@@ -256,11 +256,32 @@ identity passthrough of an inflected form (411), garbled non-word lemmas (135), 
 wrong real lemma (136), and variant-headword conventions arguably not errors at all (15; scoring
 these as correct moves the rate only to 63.14\%).
 
-A human spot-check on the frozen random 60-token sample (seed 20260725) remains planned under the
-salted-control protocol shipped with the data, concentrated by the machine disagreement sets above;
-the machine bounds make every count below interpretable in the meantime, and we treat the
-rare-stratum figure as the headline caveat on the punch list (\S\ref{sec:punch}), whose candidates
-are drawn disproportionately from exactly that stratum.
+\paragraph{Machine-adjudicated estimate: the human protocol, piloted by two models.}
+The salted-control protocol written for human readers (a frozen random 60-token sample, seed
+20260725, shuffled with 13 known-answer control rows whose identity the reader is not told) was run
+blind by two frontier language models in separate sessions
+(\texttt{claude-fable-5-1} and \texttt{claude-opus-5-5}, 2026-11-05), each seeing only the
+reviewer sheet. Both passed the control gate in full --- the planted non-word, all six documented
+wrong lemmas and all five correct anchors caught, 13/13 each, including the two accent-only
+controls --- which is the audit the protocol provides on the readers themselves. On the 60 random
+tokens the readers marked \textbf{83.33\%} and \textbf{81.67\%} of lemmas correct (Wilson 95\% CI
+71.97--90.69 and 70.08--89.44), with raw agreement 98.33\% and Cohen's $\kappa = 0.942$; of the ten
+tokens both marked wrong, nine had already been flagged by the cross-system disagreement set above,
+and nine of the ten corrections proposed by the two readers coincide (six are identity
+passthrough of an inflected form, consistent with the rare-stratum taxonomy). We report this as a
+\emph{machine-adjudicated estimate}, labelled as such and never pooled with the analyzer floor or the
+lexicographer gold: a model's reading is a claim by a named model under a published prompt, not a
+philologist's. It sits where the three machine bounds predicted --- between the frequency-weighted
+floor and the rare-stratum gold --- and it makes the eventual human two-reader check, which remains
+planned under the same protocol, cheaper and better targeted. The same reader then adjudicated,
+system-blind, all 942 tokens on which the Stanza models disagreed with odyCy: it sided with odyCy
+on 42.7\% overall (Wilson 95\% 39.6--45.9), but on the 479 disagreements that are not elision or
+tokenization artifacts on only \textbf{14.0\%} (67/479; 11.2--17.4) --- so the cross-system
+disagreement set is a strong error detector, and it is where a human reader should start. The
+reviewer sheets, all answer files, the private keys and the scoring script ship with the data.
+
+We treat the rare-stratum figure as the headline caveat on the punch list (\S\ref{sec:punch}),
+whose candidates are drawn disproportionately from exactly that stratum.
 
 \paragraph{Passthrough baseline (computed).}
 As an independent check that Galen's vocabulary does not
@@ -366,6 +387,10 @@ We state these plainly; under-claiming is the credibility of a resource paper.
   judgment, not a lexical one. The rare-stratum gold standard (\S\ref{sec:accuracy}) quantifies
   these classes at scale: of 697 mismatches on LSJ-cited loci, 411 are identity passthrough, 135
   garbled non-words, 136 wrong-lemma substitutions, and 15 variant-headword conventions.
+\item \textbf{The machine-adjudicated accuracy estimate is not a human check.} Two language
+  models passed the salted-control gate and agreed closely, but they share training lineage and
+  are not Greek philologists; their estimate (\S\ref{sec:accuracy}) is reported under its own
+  label and the human two-reader protocol stays planned.
 \item \textbf{Census caveats are inherited:} the volume approximation is unverified, and category tags are
   author-assigned and contestable.
 \item \textbf{One partial source} is documented rather than hidden: tlg035 (grc) is a 406-token Oribasius
@@ -390,10 +415,56 @@ We have built a measured map of where Galen's translation-blocking vocabulary co
 shown that a cheap frequency signal partitions that vocabulary by the \textit{kind} of difficulty it
 poses, isolating a common, sense-loaded class that rarity-based predictors miss by construction.
 
+\paragraph{A 2026 stability probe: a negative result, reported.}
+Because the map's diagnostic claim is about translation, we pre-registered and ran a cheap test of
+it against 2026 models (\texttt{mt2026\_consistency\_probe\_spec.md}, with the data). Two frontier
+models (\texttt{claude-fable-5-1}, \texttt{claude-opus-5-5}) translated the same 40 passages
+blind --- 20 each from \textit{De temperamentis} and \textit{De compositione medicamentorum per
+genera}, stratified by punch-list density --- and reported the rendering they used for 153
+punch-list tokens and 153 matched control tokens (NOUN/ADJ in the same passages, not on the list,
+LSJ sense count $\ge 3$). We measure \emph{stability}, not correctness: how often the two renderings
+differ after an identical normalization. They differed on \textbf{10.5\%} of punch-list targets
+and \textbf{9.8\%} of controls (difference 0.65 points, 95\% CI $-6.1$ to $+7.4$, $p = 0.85$);
+restricted to the \texttt{thin} tier, 8.6\% against 9.8\%. Passage-level disagreement did not
+track punch-list density (Spearman $\rho = 0.12$, 95\% CI $-0.24$ to $0.45$, $n = 36$). Two
+qualifications: the two models share a developer and their agreement is therefore optimistic, and
+the \texttt{absent} tier of the punch list is visibly contaminated by lemmatizer artifacts of
+ordinary words (κρᾶσι for κρᾶσις, μυύς for μῦς), which the readers of \S\ref{sec:accuracy} would
+have caught. A follow-up pass measured the contamination: an independent lexicon-first lemmatizer
+(Open Greek's Dilemma, November 2026) re-lemmatizes 625 of the 734 \texttt{absent}-tier lemmas to
+LSJ headwords, 489 of them already key lemmas of the map; two blind model readers, each catching all
+59 salted controls, call \textbf{83.4\%} and \textbf{83.8\%} of the tier artifacts of another
+headword ($\kappa = 0.88$); the 108 both call real headwords are Galen's pharmacological authorities
+(38 names) and medical vocabulary with no entry in the Perseus LSJ (70: κακοχυμία, λειποθυμία,
+περιπνευμονικός, καρωτίς, κνίκος \ldots). The \texttt{thin} tier is 88\% headword-stable under the
+second lemmatizer. The v3.0 release carries these as attributed columns and re-labels the tiers; the
+list itself is not patched. What the probe does show is where 2026 renderings \emph{do} wobble: on sense-loaded
+ordinary words (πλῆθος, καιρός, τροφή, πολύς) and on units and preparations with competing
+scholarly conventions (\textit{cotylae}/\textit{kotylai}, \textit{sextarii}/\textit{xestai},
+\textit{dyscrasia}/\textit{bad-mixture}), not on the rare technical lexicon, which both models
+rendered identically (litharge, cerate, colophony, omphacitis). On this evidence the punch list
+remains a map of what the lexicon under-describes; it is not, for current models, a map of where
+rendering is unstable. A second pre-registered probe tested the obvious alternative, the polysemy
+quadrant of \S\ref{sec:results} (159 targets) against the medical-only quadrant (151), with three model
+families and two independent runs each: polysemous words were \emph{not} rendered less stably
+(within-model disagreement 8.8--11.9\% against 7.9--14.6\%; every difference pointed the other way, none
+significant). What polysemy produces is context-dependent rendering of the same lemma across passages,
+which is correct behaviour, not noise; what the medical-only lexicon produces is translator
+\emph{uncertainty} (self-flagged in 2.7--11.3\% of its targets against 0--6.3\%, in all six runs) and,
+on the ten punch-list terms we constrained in a third run, the highest within-model instability in their
+passages (15--27\% against 6--11\%). That third run also showed that a glossary built mechanically from
+LSJ's first glosses is obeyed at 100\% and judged worse by blind readers in three of four decided pairs:
+the terminology a translator needs is a list of equivalents chosen by someone who knows the
+pharmacopoeia, not a dictionary's definitions, and \citet{galen-mt-mqm-2026}'s rarity effect is, on this
+evidence, an effect of the technical lexicon after all.
+
 \paragraph{Phase 3}
 compiles, for the punch-list terms, \textit{attributed} identifications already published in the
 scholarly record (e.g.\ André on plant names, Beck's Dioscorides concordance, Berendes, LSJ) ---
-gathering and citing, never adjudicating.
+gathering and citing, never adjudicating. A v0 of this list --- the full attested concordance,
+K\"uhn loci, the LSJ entry text, the term's footprint across Hippocrates, Dioscorides, Oribasius,
+Aetius, Paul and Aretaeus in the same-model reference corpus, and the machine QC flags --- ships
+with this version; glosses and the printed reference works are the v1 that needs a human.
 
 \paragraph{The demonstration that would close the loop:}
 define ${\sim}$10 polysemy-quadrant terms, supply them as

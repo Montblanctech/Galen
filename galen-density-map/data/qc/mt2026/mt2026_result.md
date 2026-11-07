@@ -1,0 +1,3 @@
+# MT-2026 result (numbers only; architect writes the prose)
+
+Two frontier models (fable-5-1, opus-5-5) translated the same 40 passages blind. On punch-list targets the two renderings disagreed in 10.46% of cases (n=153, Wilson 95% (6.54, 16.31)) against 9.8% on matched control targets (n=153, (6.03, 15.55)): a difference of 0.65 points (95% CI [-6.11, 7.41], two-proportion z = 0.189, p = 0.84973). At passage level, punch-list density and disagreement rate correlate at Spearman ρ = 0.117 (95% CI [-0.239, 0.446], n=36). Disagreement is not error, and the two models share a lineage, so agreement is optimistic; the headline is the difference between classes, not either rate.

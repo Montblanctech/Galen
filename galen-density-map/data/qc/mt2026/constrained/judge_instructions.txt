@@ -1,0 +1,4 @@
+JUDGE INSTRUCTIONS (blind paired comparison)
+
+Each pair has a Greek passage from Galen (tokenised stream, no punctuation) and two English translations A and B of it. Decide which translation renders Galen's technical content (humoral, anatomical, pharmacological terms, quantities, procedures) more precisely and faithfully to the Greek. Style and fluency do not count unless they change the sense. Answer per pair: preference in {A, B, tie}; confidence in {high, medium, low}; a short note naming any term you think either translation renders wrongly (write the Greek word and the English used). Use only the pair file and your own knowledge of Greek: no lemmatizer, no web, no other files. Answer every pair.
+Output: UTF-8 CSV with header pair_id,preference,confidence,note; 32 rows.

@@ -1,0 +1,182 @@
+{
+  "date": "2026-11-07",
+  "disagreement_tokens": 2190047,
+  "distinct_pairs": 102869,
+  "pairs_listed_min_count": 20,
+  "pairs_listed": 3128,
+  "tokens_by_class": {
+    "article": 1555337,
+    "other": 253373,
+    "stem_shared": 129219,
+    "accent_only": 98447,
+    "pronoun_form": 76992,
+    "gender_form": 34812,
+    "comparative": 24399,
+    "adverb_vs_adj": 14890,
+    "sigma_tau": 2578
+  },
+  "share_by_class_pct": {
+    "article": 71.02,
+    "other": 11.57,
+    "stem_shared": 5.9,
+    "accent_only": 4.5,
+    "pronoun_form": 3.52,
+    "gender_form": 1.59,
+    "comparative": 1.11,
+    "adverb_vs_adj": 0.68,
+    "sigma_tau": 0.12
+  },
+  "top_pairs": [
+    {
+      "odycy": "ὁ",
+      "dilemma": "τό",
+      "tokens": 411609,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τοῦ",
+      "tokens": 243573,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τῶν",
+      "tokens": 165910,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τήν",
+      "tokens": 136693,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τῆς",
+      "tokens": 110876,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τά",
+      "tokens": 85568,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τόν",
+      "tokens": 75411,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "ἡ",
+      "tokens": 70495,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τῷ",
+      "tokens": 62653,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τοῖς",
+      "tokens": 38530,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "οἱ",
+      "tokens": 34044,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τούς",
+      "tokens": 32412,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τῇ",
+      "tokens": 30554,
+      "class": "article"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "τάς",
+      "tokens": 25213,
+      "class": "article"
+    },
+    {
+      "odycy": "αὐτός",
+      "dilemma": "αὐτοῦ",
+      "tokens": 21338,
+      "class": "pronoun_form"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "αἱ",
+      "tokens": 12282,
+      "class": "article"
+    },
+    {
+      "odycy": "οὕτω(ς)",
+      "dilemma": "οὕτως",
+      "tokens": 10269,
+      "class": "other"
+    },
+    {
+      "odycy": "ἐγώ",
+      "dilemma": "ἡμεῖς",
+      "tokens": 10266,
+      "class": "pronoun_form"
+    },
+    {
+      "odycy": "ὁ",
+      "dilemma": "ταῖς",
+      "tokens": 9485,
+      "class": "article"
+    },
+    {
+      "odycy": "τις",
+      "dilemma": "τί",
+      "tokens": 9377,
+      "class": "pronoun_form"
+    },
+    {
+      "odycy": "τίς",
+      "dilemma": "τί",
+      "tokens": 6885,
+      "class": "pronoun_form"
+    },
+    {
+      "odycy": "ἆρα",
+      "dilemma": "ἄρα",
+      "tokens": 5960,
+      "class": "accent_only"
+    },
+    {
+      "odycy": "σύ",
+      "dilemma": "σῦς",
+      "tokens": 5820,
+      "class": "pronoun_form"
+    },
+    {
+      "odycy": "οὕτω(ς)",
+      "dilemma": "οὗτος",
+      "tokens": 5790,
+      "class": "other"
+    },
+    {
+      "odycy": "ἐγώ",
+      "dilemma": "μου",
+      "tokens": 5651,
+      "class": "pronoun_form"
+    }
+  ],
+  "note": "classes are regex heuristics over the two lemma strings; they name a convention difference, not who is right; 'other' is the review queue"
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-07",
+  "citations_into_held_works": 168946,
+  "located": 57278,
+  "located_per_author": {
+    "tlg0012": 20330,
+    "tlg0085": 6923,
+    "tlg0011": 6142,
+    "tlg0003": 5155,
+    "tlg0019": 3346,
+    "tlg0032": 2968,
+    "tlg0627": 2654,
+    "tlg0059": 2238,
+    "tlg0543": 2209,
+    "tlg0033": 1717,
+    "tlg0016": 1623,
+    "tlg0005": 912,
+    "tlg0001": 770,
+    "tlg2045": 242,
+    "tlg0057": 41,
+    "tlg0008": 6,
+    "tlg0526": 2
+  },
+  "status_counts": {
+    "located": 57278,
+    "located_morpheus": 38950,
+    "not_located": 85841,
+    "located_quoted": 18328,
+    "locator_not_in_edition": 18195,
+    "ambiguous": 7632
+  },
+  "online_lookups": 0,
+  "elapsed_s": 864.6,
+  "rule": "window = cited unit ±1 sibling; validation morpheus (headword in analyses, accent-blind) else quoted-form equality when Morpheus has no analysis; exactly one validated surface -> gold"
+}

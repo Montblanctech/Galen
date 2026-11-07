@@ -1,0 +1,63 @@
+# LSJ-Gold v0 — lemmatizer accuracy on the dictionary-cited stratum (2026-11-06, night build)
+
+Spec: `../../../../lsj_gold_benchmark_spec.md`. Scripts: `pipeline/lsjgold/relocate.py` (citations → token loci), `pipeline/lsjgold/score.py` (systems → table). Report only.
+
+## What is here
+| file | what |
+|---|---|
+| `lsj_gold_v0.csv` | **6,116 loci**: LSJ headword, accent-blind key, author, work, cited (Perseus) edition, CTS locator, the unit found in our First1K edition, the token index into the project's odyCy JSONL for that edition, the surface, the validation route (`morpheus` 5,505 / `quoted` 611), LSJ's quoted form, the LSJ part and entry key |
+| `unlocated.csv` | the 7,983 citations into held works that did not become loci, with status: `not_located` 5,558 (mostly surfaces the Morpheus cache does not cover yet; the online fill is running), `ambiguous` 828 (two or more validated surfaces in the window), `locator_not_in_edition` 1,597 (LSJ cites a numbering our edition does not carry: Aristotle *Ath. Pol.*, the NT, Hippocrates by page) |
+| `relocation_stats.json` | counts and the rule |
+| `lsj_gold_scores.json`, `lsj_gold_table.md`, `lsj_gold_scored.csv` | the table and every locus with each system's lemma |
+| `morpheus_lsjgold.jsonl` | Morpheus analyses fetched for this benchmark (online fill, Perseids), separate from the project's Galen cache |
+
+## The table (v0)
+| system | loci | match blind | strict | article-neutral | Hippocrates (2,275) | Aeschylus (3,477) | Sophocles (323) |
+|---|---|---|---|---|---|---|---|
+| odyCy 0.7.0 (frozen project run) | 6,116 | **69.7** [68.5–70.8] | 63.5 | 69.7 | **61.3** | 73.7 | 86.4 |
+| Dilemma 1.3.15 (lsj convention) | 6,088 | **92.1** [91.4–92.7] | 88.9 | 92.1 | **93.4** | 91.5 | 89.2 |
+
+By LSJ sense tier (odyCy): rich 72.6 (n 4,822), thin 58.7 (n 1,273). By validation route (odyCy): morpheus 72.8, quoted 41.7 (the quoted route selects the forms Morpheus could not analyse, which are the hard ones).
+
+Reading: the Galen result (odyCy 61.5 / Dilemma 95.2 on 1,324 Kühn-relocated loci) **replicates on Hippocrates** with loci relocated by a different route (CTS locators, 2,275 loci: 61.3 / 93.4). On tragedy the gap narrows (Aeschylus 73.7 / 91.5, Sophocles 86.4 / 89.2): the neural system's failure is the medical lexicon, not rare words as such; the lexicon-first system is flat at 89–93 across genres.
+
+## Validation of the relocation (blind, salted; `validation/`)
+60 random loci + 10 anchors (surface = LSJ's quoted form) + 10 plants (same locus shown with a wrong headword of the same first letter), seed 20261107, two blind model readers (fable-5-1, opus-5-5), nothing from any system shown. Both readers: 10/10 plants rejected, 10/10 anchors accepted, and **60/60 random loci confirmed as instances of the headword** (relocation precision 100%, Wilson 95% 94.0–100). Zero disagreements between readers. Key and answers published after scoring. A human reader on the same sheet is the next step; the sheet is ready.
+
+## Method in one paragraph
+Citations carry `n="urn:cts:greekLit:tlgA.tlgW.<edition>:<locator>"`. For every (author, work) this project holds as a First1K TEI edition plus odyCy JSONL, the TEI is indexed by CTS unit (`<l n>` lines for drama, nested `div[@type=textpart][@n]` paths "1:2:2" for prose; repeated line numbers in lyric restarts get an unreachable suffix), the unit's own words (editorial notes, apparatus and sigla removed; glued punctuation stripped) are aligned to the JSONL token stream (exact, then accent-blind, then a three-token-confirmed resync), and in the cited unit ±1 sibling every surface is validated against the headword: Morpheus analyses contain it (accent-blind), or, when Morpheus has no analysis, the surface equals LSJ's quoted form. Exactly one validated surface → a locus; several → ambiguous; none → not located.
+
+## Known limits of v0 (fix list)
+- Aeschylus aligns at 80–97% (the TEI wraps lyric lines in strophe divs whose text must not be read twice; fixed); the *Septem* (tlg004) still loses a fifth of its tokens to apparatus interleaving.
+- Aristotle *Ath. Pol.* and the New Testament: LSJ's numbering is not the edition's (`locator_not_in_edition`).
+- The Morpheus cache is Galen's; the online fill (0.4 s per surface, Perseids) is the bottleneck for Aeschylus and Sophocles; v0.1 reruns the relocation when it has finished.
+- Only works held in First1K editions; Plato, Homer, Herodotus (Perseus editions) would need their texts added.
+- No human has validated a locus; the kit's blind salted sheet is the next step.
+- odyCy lemmas are the frozen 2026-07 run; Dilemma is context-free on the surface. Convention differences are counted against both in the strict and blind columns.
+
+## Perseus editions (v0.2 preview) — 2026-11-07
+Added the 40 most-cited Perseus editions (`pipeline/lsjgold/perseus_tokens.py`; manifest `data/perseus_corpus/manifest.json`, licence CC BY-SA 4.0 from PerseusDL/canonical-greekLit; raw XML and token JSONL are gitignored and regenerable). **39 downloaded, 1 failed** (Diodorus tlg0060.tlg001: 404 at perseus-grc1/2/3). The edition listed in the works file (perseus-grc1) was a 404 for almost every work; perseus-grc2 was used (grc3 for Athenaeus). **2,605,501 tokens** (Iliad 111,881; Odyssey 87,170; Herodotus 184,944; Thucydides 150,123; Polybius 311,262; Strabo 285,252; Xenophon 6 works; Plato Republic-range tlg030/034 88,225/104,853; Aristophanes 5 plays; Pindar, Theocritus, Apollonius Rhodius, Athenaeus, Nonnus, Aristotle tlg010/035, Sophocles, Aeschylus). Tokens come from the unmodified 02_extract/greek_normalize functions plus TOKEN_RE, with edge punctuation stripped (the project's JSONL comes from spaCy, which splits it off) and no lemmas (odyCy was not run; the odyCy row therefore scores only First1K-held works). For works held in both First1K and Perseus (Aeschylus x5, Sophocles tlg003) the First1K edition keeps priority.
+
+Code changes (all small): `relocate.py` held_works() gains the Perseus pair after the First1K/Galen pairs, and `passage_index` parses with `remove_comments=True, remove_pis=True` (a Perseus `<l>` contained an XML comment node and crashed the indexer); `score.py` adds the Perseus raw_xml dir to `held` and writes the CSV header as the union of row keys (Perseus rows have no odyCy strict field and crashed the writer).
+
+**Numbers.** Loci 6,116 -> **31,046** (citations into held works 14,099 -> 168,946). Caution: the v0 run was restricted to four authors; the new run is unrestricted over all 905 held works and the Morpheus cache has grown since, so part of the rise (e.g. Aeschylus 3,477 -> 6,923, Hippocrates 2,275 -> 2,470) is not Perseus. Loci in Perseus-only works: 21,289. Whole run: located 31,046, ambiguous 5,500, not_located 58,020, locator_not_in_edition 74,380 (no online Morpheus lookups; cache only).
+
+| author (Perseus-only works) | located | ambiguous | not_located | locator_not_in_edition |
+|---|---|---|---|---|
+| Thucydides | 5,146 | 1,285 | 5,036 | 789 |
+| Sophocles (7 works added) | 5,818 | 299 | 6,282 | 1,752 |
+| Aristophanes | 3,343 | 193 | 4,945 | 210 |
+| Xenophon (4 works) | 2,965 | 1,108 | 6,824 | 259 |
+| Polybius | 2,203 | 219 | 4,657 | 232 |
+| Herodotus | 1,620 | 1,255 | 15,582 | 1,784 |
+| Homer | 171 | 16 | 2,116 | 36,983 |
+| Athenaeus | 6 | 4 | 631 | 2,630 |
+| Plato | 2 | 8 | 18 | 9,435 |
+| Strabo | 0 | 95 | 3,679 | 101 |
+
+**What did not work (reported, not patched).** The indexer keys `<l n>` by bare line number and textparts by their own path, so it cannot reach Homer's book:line citations, Plato's Stephanus pages, Pindar/Theocritus/Apollonius/Nonnus (book/ode:line), Aristotle tlg010/035, Athenaeus, tlg0526 or Sophocles tlg008: 15 of the 39 works are marked `supported: false` in the manifest. Homer's 171 loci are bare-line coincidences validated by headword only (the window can be in another book), so treat them as unplaced; Plato and Homer, the main goal, are therefore NOT yet in the benchmark. Fix for v0.3: key lines as `book:line` and Stephanus `<milestone unit="section">`. Euripides was not in the top 40 and is not downloaded. Herodotus and Strabo lose most citations to `not_located` (Morpheus cache has few of their surfaces; an online fill would help).
+
+**Dilemma per author (blind %, n)**: Aeschylus 90.51 (6,904); Sophocles 89.47 (6,117); Thucydides 89.64 (5,145); Aristophanes 88.51 (3,332); Xenophon 90.29 (2,965); Hippocrates 93.98 (2,459); Polybius 90.10 (2,203); Herodotus 86.60 (1,620); Homer 87.13 (171, unreliable placement). Overall Dilemma 89.94 [89.60-90.27] over 30,980 loci (strict 87.09, article-neutral 89.99); odyCy 69.25 over 6,770 First1K-held loci (Perseus works have no odyCy lemmas). Dilemma is flat at 87-94 across Attic prose, comedy, tragedy, history and medicine. Leaderboard/table headers show raw TLG ids for the new authors (tlg0003 Thucydides, tlg0019 Aristophanes, tlg0032 Xenophon, tlg0543 Polybius, tlg0016 Herodotus, tlg0012 Homer). The regenerated v0 files overwrite the 6,116-locus outputs (kept in git history).
+
+## v0.2 preview, second pass (2026-11-07 ~02:00): Homer and Stephanus indexing fixed
+Lines inside a textpart path are keyed with the path (Homer "1:5"); Stephanus `<milestone unit="section" n="327a"/>` sections are units; a block that contains units no longer has its text read twice. Result: **57,278 loci over 17 authors** (Homer 20,330, Aeschylus 6,923, Sophocles 6,142, Thucydides 5,155, Aristophanes 3,346, Xenophon 2,968, Hippocrates 2,654, Plato 2,238, Polybius 2,209, Pindar 1,717, Herodotus 1,623, Theocritus 911, Apollonius Rhodius 768, Nonnus 231 …). Dilemma blind match **87.7% [87.5–88.0]** overall; highest on Hippocrates (94.4), 89–90 on Attic prose and drama, lowest on the late/epic poets (Theocritus 76.8, Apollonius 68.9, Nonnus 48.9: dialect and epic vocabulary). odyCy is scored only where the project has its lemmas (6,954 First1K loci: 69.0). Known alignment gaps to fix next: Plato *Laws* (4%) and Herodotus (18%) — their page/section wrappers still interleave text; Homer 95.7%, *Republic* 97.6%, Hippocrates 99.9%, Aeschylus 97%.

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-06",
+  "spec": "mt2026_polysemy_probe_spec.md",
+  "seed": 20261106,
+  "n_passages": 40,
+  "n_targets": 310,
+  "per_class": {
+    "polysemy_risk": 159,
+    "genuinely_hard": 151
+  },
+  "distinct_lemmas_per_class": {
+    "polysemy_risk": 85,
+    "genuinely_hard": 141
+  },
+  "translators": [
+    "fable-5-1",
+    "opus-5-5",
+    "sonnet-5-5"
+  ],
+  "runs_per_translator": 2,
+  "key": "PRIVATE until scored"
+}

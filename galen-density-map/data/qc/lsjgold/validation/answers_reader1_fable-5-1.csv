@@ -1,0 +1,81 @@
+row_id,is_instance(yes/no/unsure),right_headword_if_no,note
+V001,yes,,nom/acc sg neut
+V002,yes,,dat pl
+V003,no,στέφω,fut 1sg of στέφω; not σέλας
+V004,yes,,enclitic νυν; accent variant of νῦν
+V005,no,ἀΐσσω,impf 1sg ᾖσσον of ᾄσσω/ἀΐσσω (darted)
+V006,yes,,fem nom sg
+V007,yes,,pres mid ptc gen sg
+V008,yes,,acc sg
+V009,yes,,neut pl
+V010,yes,,contracted acc pl masc
+V011,yes,,pres ptc gen pl
+V012,no,προστίθημι,pres imper 2sg; not πάγκλαυστος
+V013,yes,,dat sg fem
+V014,yes,,nom/acc pl
+V015,yes,,grave accent variant
+V016,yes,,acc sg (spine)
+V017,yes,,gen sg fem
+V018,yes,,nom pl fem
+V019,yes,,pres mid inf
+V020,yes,,gen sg
+V021,yes,,pres imper 2sg
+V022,yes,,acc pl
+V023,yes,,acc pl
+V024,no,παρηγορέω,impf 3pl; not παράκοπος
+V025,yes,,nom pl
+V026,yes,,aor pass subj 3sg
+V027,yes,,nom pl
+V028,yes,,pres mid 2sg (ἐντρέπῃ)
+V029,yes,,pres 2sg
+V030,yes,,pres 1sg contracted
+V031,yes,,pres inf
+V032,no,φόβος,dat sg of φόβος; not φθείρω
+V033,yes,,headword breathing miscoded; same lemma ἰχνεύω
+V034,yes,,adverb identical
+V035,no,τλήμων,voc sg of τλήμων; not ταλαίπωρος
+V036,yes,,Ionic gen sg
+V037,yes,,pres/aor subj 1sg contracted
+V038,yes,,gen sg
+V039,yes,,nom sg
+V040,yes,,aor inf
+V041,yes,,nom pl fem
+V042,yes,,nom/acc pl neut
+V043,yes,,aor pass 1sg with eta augment
+V044,yes,,acc sg fem
+V045,yes,,fem nom sg
+V046,yes,,acc sg fem
+V047,yes,,adverb identical
+V048,yes,,pres pass 3sg
+V049,yes,,neut pl
+V050,yes,,adverb -ως of ἄσμενος (LSJ under adj)
+V051,no,τις,enclitic τῳ = τινί (indefinite)
+V052,yes,,pf 1sg
+V053,yes,,pres 3sg
+V054,yes,,nom pl
+V055,yes,,acc pl
+V056,no,ἐθέλω,aor subj 3sg of θέλω/ἐθέλω
+V057,yes,,neut pl / fem
+V058,yes,,pres mid ptc fem
+V059,yes,,Ionic acc sg
+V060,yes,,comparative neut
+V061,yes,,acc pl fem
+V062,yes,,nom pl with ῤῥ spelling
+V063,yes,,dat sg
+V064,yes,,comparative neut
+V065,yes,,pres mid/pass 3sg
+V066,no,βρέτας,gen pl of βρέτας; not βροντή
+V067,yes,,pres 3sg
+V068,yes,,nom/acc pl
+V069,yes,,neut sg
+V070,yes,,aor pass subj 3sg
+V071,yes,,pres imper 3sg
+V072,yes,,pf 2sg εἴρηκας of ἐρῶ/εἴρω paradigm
+V073,yes,,pres inf
+V074,no,χράομαι,pres mid ptc of χράομαι (use); not χρίω
+V075,yes,,pres imper 3sg
+V076,yes,,nom pl
+V077,yes,,nom pl
+V078,yes,,nom sg (double accent is enclitic εἰμι)
+V079,yes,,caret is LSJ length mark; adverb identical
+V080,yes,,aor imper 2pl elided (δείξατε)

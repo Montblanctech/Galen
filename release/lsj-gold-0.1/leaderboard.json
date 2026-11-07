@@ -1,0 +1,336 @@
+{
+  "benchmark": "LSJ-Gold",
+  "version": "v0 (57278 loci, 2026-11-06)",
+  "date": "2026-11-06",
+  "n_loci": 57278,
+  "loci_per_author": {
+    "tlg0012": 20330,
+    "tlg0016": 1623,
+    "tlg0003": 5155,
+    "tlg0543": 2209,
+    "tlg0059": 2238,
+    "tlg0032": 2968,
+    "tlg0008": 6,
+    "tlg0001": 770,
+    "tlg0005": 912,
+    "tlg0085": 6923,
+    "tlg0033": 1717,
+    "tlg0011": 6142,
+    "tlg2045": 242,
+    "tlg0526": 2,
+    "tlg0019": 3346,
+    "tlg0627": 2654,
+    "tlg0057": 41
+  },
+  "relocation": {
+    "located": 57278,
+    "located_morpheus": 38950,
+    "not_located": 85841,
+    "located_quoted": 18328,
+    "locator_not_in_edition": 18195,
+    "ambiguous": 7632
+  },
+  "rule": "window = cited unit ±1 sibling; validation morpheus (headword in analyses, accent-blind) else quoted-form equality when Morpheus has no analysis; exactly one validated surface -> gold",
+  "rows": [
+    {
+      "system": "dilemma",
+      "label": "Dilemma 1.3.15 (Open Greek, lsj convention)",
+      "scored": 57157,
+      "missing": 121,
+      "blind_pct": 87.74,
+      "blind_ci": [
+        87.47,
+        88.0
+      ],
+      "strict_pct": 84.67,
+      "article_neutral_pct": 87.81,
+      "by_author": {
+        "tlg0012": {
+          "k": 17420,
+          "n": 20293,
+          "pct": 85.84,
+          "wilson95": [
+            85.36,
+            86.32
+          ]
+        },
+        "tlg0085": {
+          "k": 6249,
+          "n": 6904,
+          "pct": 90.51,
+          "wilson95": [
+            89.8,
+            91.18
+          ]
+        },
+        "tlg0011": {
+          "k": 5474,
+          "n": 6118,
+          "pct": 89.47,
+          "wilson95": [
+            88.68,
+            90.22
+          ]
+        },
+        "tlg0003": {
+          "k": 4620,
+          "n": 5154,
+          "pct": 89.64,
+          "wilson95": [
+            88.78,
+            90.44
+          ]
+        },
+        "tlg0019": {
+          "k": 2953,
+          "n": 3335,
+          "pct": 88.55,
+          "wilson95": [
+            87.42,
+            89.58
+          ]
+        },
+        "tlg0032": {
+          "k": 2680,
+          "n": 2968,
+          "pct": 90.3,
+          "wilson95": [
+            89.18,
+            91.31
+          ]
+        },
+        "tlg0627": {
+          "k": 2495,
+          "n": 2643,
+          "pct": 94.4,
+          "wilson95": [
+            93.46,
+            95.21
+          ]
+        },
+        "tlg0059": {
+          "k": 2018,
+          "n": 2238,
+          "pct": 90.17,
+          "wilson95": [
+            88.87,
+            91.34
+          ]
+        },
+        "tlg0543": {
+          "k": 1992,
+          "n": 2209,
+          "pct": 90.18,
+          "wilson95": [
+            88.86,
+            91.35
+          ]
+        },
+        "tlg0033": {
+          "k": 1457,
+          "n": 1713,
+          "pct": 85.06,
+          "wilson95": [
+            83.29,
+            86.67
+          ]
+        },
+        "tlg0016": {
+          "k": 1406,
+          "n": 1623,
+          "pct": 86.63,
+          "wilson95": [
+            84.89,
+            88.2
+          ]
+        },
+        "tlg0005": {
+          "k": 700,
+          "n": 911,
+          "pct": 76.84,
+          "wilson95": [
+            73.99,
+            79.46
+          ]
+        },
+        "tlg0001": {
+          "k": 529,
+          "n": 768,
+          "pct": 68.88,
+          "wilson95": [
+            65.52,
+            72.05
+          ]
+        },
+        "tlg2045": {
+          "k": 113,
+          "n": 231,
+          "pct": 48.92,
+          "wilson95": [
+            42.54,
+            55.33
+          ]
+        },
+        "tlg0057": null,
+        "tlg0008": null,
+        "tlg0526": null
+      },
+      "by_lsj_tier": {
+        "rich": {
+          "k": 44683,
+          "n": 50411,
+          "pct": 88.64,
+          "wilson95": [
+            88.36,
+            88.91
+          ]
+        },
+        "thin": {
+          "k": 5426,
+          "n": 6676,
+          "pct": 81.28,
+          "wilson95": [
+            80.32,
+            82.19
+          ]
+        },
+        "absent": {
+          "k": 39,
+          "n": 70,
+          "pct": 55.71,
+          "wilson95": [
+            44.08,
+            66.75
+          ]
+        }
+      },
+      "by_validation": {
+        "morpheus": {
+          "k": 36143,
+          "n": 38931,
+          "pct": 92.84,
+          "wilson95": [
+            92.58,
+            93.09
+          ]
+        },
+        "quoted": {
+          "k": 14005,
+          "n": 18226,
+          "pct": 76.84,
+          "wilson95": [
+            76.22,
+            77.45
+          ]
+        }
+      }
+    },
+    {
+      "system": "odycy",
+      "label": "odyCy 0.7.0 (grc_odycy_joint_trf)",
+      "scored": 6954,
+      "missing": 50324,
+      "blind_pct": 69.03,
+      "blind_ci": [
+        67.93,
+        70.1
+      ],
+      "strict_pct": 62.73,
+      "article_neutral_pct": 69.03,
+      "by_author": {
+        "tlg0012": null,
+        "tlg0085": {
+          "k": 2858,
+          "n": 3936,
+          "pct": 72.61,
+          "wilson95": [
+            71.2,
+            73.98
+          ]
+        },
+        "tlg0011": {
+          "k": 279,
+          "n": 323,
+          "pct": 86.38,
+          "wilson95": [
+            82.21,
+            89.69
+          ]
+        },
+        "tlg0003": null,
+        "tlg0019": null,
+        "tlg0032": null,
+        "tlg0627": {
+          "k": 1637,
+          "n": 2654,
+          "pct": 61.68,
+          "wilson95": [
+            59.82,
+            63.51
+          ]
+        },
+        "tlg0059": null,
+        "tlg0543": null,
+        "tlg0033": null,
+        "tlg0016": null,
+        "tlg0005": null,
+        "tlg0001": null,
+        "tlg2045": null,
+        "tlg0057": null,
+        "tlg0008": null,
+        "tlg0526": null
+      },
+      "by_lsj_tier": {
+        "rich": {
+          "k": 3811,
+          "n": 5302,
+          "pct": 71.88,
+          "wilson95": [
+            70.65,
+            73.07
+          ]
+        },
+        "thin": {
+          "k": 971,
+          "n": 1624,
+          "pct": 59.79,
+          "wilson95": [
+            57.39,
+            62.15
+          ]
+        },
+        "absent": {
+          "k": 18,
+          "n": 28,
+          "pct": 64.29,
+          "wilson95": [
+            45.83,
+            79.29
+          ]
+        }
+      },
+      "by_validation": {
+        "morpheus": {
+          "k": 4630,
+          "n": 6538,
+          "pct": 70.82,
+          "wilson95": [
+            69.7,
+            71.91
+          ]
+        },
+        "quoted": {
+          "k": 170,
+          "n": 416,
+          "pct": 40.87,
+          "wilson95": [
+            36.25,
+            45.65
+          ]
+        }
+      }
+    }
+  ],
+  "citation": "Pepperman, W. (2026). LSJ-Gold: lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek. Galen Density Project. DOI: pending",
+  "how_to_submit": "produce <stem>.jsonl token files for the covered First1K editions with your lemmas, run pipeline/lsjgold/score.py --system-cache <dir>, then pipeline/lsjgold/leaderboard.py; open a pull request with the three output files"
+}

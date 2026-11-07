@@ -1,0 +1,311 @@
+passage_id,target_no,surface,lemma,pos,class,fable-5-1_A,fable-5-1_B,opus-5-5_A,opus-5-5_B,sonnet-5-5_A,sonnet-5-5_B
+cmpg-004080,100,δέρματι,δέρμα,NOUN,polysemy_risk,skin,skin,skin,skin,skin,skin
+cmpg-004080,112,ἐπιγονατίδος,ἐπιγονατίς,NOUN,genuinely_hard,kneecap,knee-cap,kneecap,kneecap,kneecap,kneecap
+cmpg-004080,13,διαθέσεις,διαθέσεις,NOUN,polysemy_risk,conditions,conditions,conditions,conditions,dispositions,conditions
+cmpg-004080,33,δραστικωτέραν,δραστικός,ADJ,genuinely_hard,more efficacious,more active,more active,more active,more active,more active
+cmpg-004080,39,ἄριστον,ἄριστος,ADJ,polysemy_risk,best,best,best,best,best,best
+cmpg-004080,46,μεῖζον,μέγας,ADJ,polysemy_risk,greater,greater,greater,greater,greater,greater
+cmpg-004080,54,βουβῶνος,βουβών,NOUN,genuinely_hard,groin,groin,groin,groin,groin,groin
+cmpg-004080,55,ἀπέπτου,ἀπέπτου,ADJ,genuinely_hard,unconcocted,unconcocted,unconcocted,unconcocted,unconcocted,unconcocted
+cmpg-008880,102,Ἥρας,ἥρα,NOUN,genuinely_hard,Heras,Heras,Heras,Heras,Heras,Heras
+cmpg-008880,14,λευκὴ,λευκός,ADJ,polysemy_risk,white,white,white,white,white,white
+cmpg-008880,34,ἐλαίῳ,ἔλαιον,NOUN,polysemy_risk,oil,oil,oil,oil,oil,oil
+cmpg-008880,36,χρήσιμος,χρήσιμος,ADJ,polysemy_risk,useful,useful,useful,useful,useful,useful
+cmpg-008880,46,πυρίκαυτα,πυρίκαυτος,ADJ,genuinely_hard,burns,burns,burns from fire,burns,burns by fire,fire-burns
+cmpg-008880,66,δυσπέπτων,δυσπέπτων,ADJ,genuinely_hard,hard-to-concoct,hard-to-concoct,hard-to-concoct,slow-to-concoct,hard-to-concoct,hard-to-concoct
+cmpg-008880,83,γυναικῶν,γυνή,NOUN,polysemy_risk,women,women,women,women,women,women
+cmpg-008880,88,ἁπαλοσάρκων,ἁπαλοσάρκων,ADJ,genuinely_hard,soft-fleshed,soft-fleshed,soft-fleshed,soft-fleshed,soft-fleshed,soft-fleshed
+cmpg-011040,112,οὐσίας,οὐσία,NOUN,polysemy_risk,substance,substance,substance,substance,substance,substance
+cmpg-011040,23,ἡμίσειαν,ἡμίσειαν,ADJ,genuinely_hard,half,half,half,half,a half,half
+cmpg-011040,29,πάσας,πᾶς,ADJ,polysemy_risk,in all,total,in all,altogether,in all,all
+cmpg-011040,35,πολὺ,πολύς,ADJ,polysemy_risk,for the most part,generally,mostly,mostly,mostly,mostly
+cmpg-011040,37,κέρασι,κέρας,NOUN,genuinely_hard,horns,horns,horns,horns,horns,horns
+cmpg-011040,4,ἴσον,ἴσος,ADJ,polysemy_risk,equal,equal,equal,equal,equal,equal
+cmpg-011040,89,λυσσοδήκτους,λυσσοδήκτους,ADJ,genuinely_hard,those bitten by mad dogs,those bitten by mad dogs,those bitten by rabid dogs,those bitten by a rabid dog,those bitten by rabid animals,those bitten by rabid animals
+cmpg-011040,90,ἐπιτήδειόν,ἐπιτήδειός,ADJ,genuinely_hard,suitable,suitable,suitable,suitable,suitable,suitable
+cmpg-012840,103,παρακολλᾷ,παρακολλᾷ,NOUN,genuinely_hard,glues together,glues together,glues together,agglutinates,glues together,glues together
+cmpg-012840,106,ἀποστήματα,ἀποστήματα,NOUN,genuinely_hard,abscesses,abscesses,abscesses,abscesses,abscesses,abscesses
+cmpg-012840,113,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-012840,13,φαῦλον,φαῦλος,ADJ,genuinely_hard,bad,bad,bad,bad,bad,bad
+cmpg-012840,24,λόγῳ,λόγος,NOUN,polysemy_risk,respect,sense,sense,sense,account,reasoning
+cmpg-012840,53,λευκοῦ,λευκός,NOUN,polysemy_risk,white,white,white,white,white,white
+cmpg-012840,70,ὄνομα,ὄνομα,NOUN,polysemy_risk,name,name,name,name,name,name
+cmpg-012840,98,ἐπινυκτίδας,ἐπινυκτίδη,NOUN,genuinely_hard,epinyctides,epinyctides,epinyctides,epinyctides,epinyctides,night-eruptions
+cmpg-013680,114,ὑγρὸν,ὑγρός,ADJ,polysemy_risk,fluid,fluid,fluid,fluid,fluid,fluid
+cmpg-013680,21,ἐλαίου,ἔλαιον,NOUN,polysemy_risk,oil,oil,oil,oil,oil,oil
+cmpg-013680,26,ἑψήσεως,ἑψήσεως,NOUN,genuinely_hard,boiling,boiling,boiling,boiling,boiling,boiling
+cmpg-013680,33,πυρὸς,πῦρ,NOUN,polysemy_risk,fire,fire,fire,fire,fire,fire
+cmpg-013680,55,ὕδατός,ὕδατός,NOUN,genuinely_hard,water,water,water,water,water,water
+cmpg-013680,68,συνθέσει,συνθέσει,NOUN,genuinely_hard,composition,composition,composition,composition,composition,compounding
+cmpg-013680,86,σκληρὰ,σκληρός,ADJ,polysemy_risk,hard,hard,hard,hard,hard,hard
+cmpg-013680,96,θαλάττης,θάλασσα,NOUN,genuinely_hard,sea-water,sea-water,sea water,sea water,sea water,sea-water
+cmpg-013800,0,ἕκαστον,ἕκαστος,ADJ,polysemy_risk,each,each,each,each,each,each
+cmpg-013800,112,ἑκατέρου,ἑκαός,ADJ,genuinely_hard,each,each,each,each,each,each
+cmpg-013800,15,ὑγρὸν,ὑγρός,ADJ,polysemy_risk,fluid,fluid,fluid,fluid,fluid,fluid
+cmpg-013800,17,ἕλκεσι,ἕλκος,NOUN,polysemy_risk,ulcers,ulcers,ulcers,ulcers,ulcers,ulcers
+cmpg-013800,49,φίλοις,φίλος,ADJ,genuinely_hard,friends,friends,friends,friends,friends,friends
+cmpg-013800,53,φαρμάκων,φαρμάκον,NOUN,polysemy_risk,drugs,drugs,drugs,drugs,drugs,drugs
+cmpg-013800,62,ἐπαγγελίαν,ἐπαγγελία,NOUN,genuinely_hard,promise,promise,promise,promise,promise,promise
+cmpg-013800,77,συστάσεως,συστάσεως,NOUN,genuinely_hard,consistency,consistency,consistency,consistency,consistence,consistency
+cmpg-032520,104,σκοποὺς,σκοπός,NOUN,polysemy_risk,aims,aims,aims,aims,aims,aims
+cmpg-032520,107,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-032520,22,δρακοντίου,δρακοντίου,NOUN,genuinely_hard,dragon-arum,dracontium,dragon arum,dragon arum,dracontium,dracontium
+cmpg-032520,37,ἴσιδι,ἴσις,NOUN,genuinely_hard,Isis,Isis,Isis,Isis,Isis,Isis
+cmpg-032520,49,Ἀθηνᾷ,ἀθήνη,NOUN,genuinely_hard,Athena,Athena,Athena,Athena,Athena,Athena
+cmpg-032520,60,ἑτέρου,ἕτερος,ADJ,polysemy_risk,another,another,another case,another patient,another,another
+cmpg-032520,71,μέρη,μέρος,NOUN,polysemy_risk,parts,parts,parts,parts,parts,parts
+cmpg-032520,73,τραύματος,τραύμα,NOUN,genuinely_hard,wound,wound,wound,wound,wound,wound
+cmpg-034200,16,ἑκατέρου,ἑκατέρου,ADJ,genuinely_hard,each,each,each,each,each,each
+cmpg-034200,17,μέρος,μέρος,NOUN,polysemy_risk,part,portion,part,part,part,portion
+cmpg-034200,38,λίπους,λίπους,NOUN,genuinely_hard,oily matter,fat,fat,fat,fat,fat
+cmpg-034200,45,παντάπασιν,παντάπασι,ADJ,polysemy_risk,altogether,altogether,wholly,entirely,altogether,altogether
+cmpg-034200,59,σύστασιν,σύστασις,NOUN,polysemy_risk,consistency,consistency,consistency,consistency,consistence,consistency
+cmpg-034200,74,ξηρότητα,ξηρότης,NOUN,polysemy_risk,dryness,dryness,dryness,dryness,dryness,dryness
+cmpg-034200,96,ῥητινῶν,ῥητινῶν,NOUN,genuinely_hard,resins,resins,resins,resins,resins,resins
+cmpg-036360,106,πέρας,πέρας,NOUN,polysemy_risk,end,end,end,end,end,end
+cmpg-036360,11,μυῶν,μῦς,NOUN,polysemy_risk,muscles,muscles,muscles,muscles,muscles,muscles
+cmpg-036360,31,τένοντας,τένω,NOUN,genuinely_hard,tendons,tendons,tendons,tendons,tendons,tendons
+cmpg-036360,39,παχύτεροί,παχύτατος,ADJ,genuinely_hard,thicker,thicker,thicker,thicker,thicker,thicker
+cmpg-036360,42,ὑμένων,ὑμένων,NOUN,genuinely_hard,membranes,membranes,membranes,membranes,membranes,membranes
+cmpg-036360,45,σκληρότεροι,σκληρός,ADJ,polysemy_risk,harder,harder,harder,harder,harder,harder
+cmpg-036360,67,ἀπονευρώσεις,ἀπονευρώσεις,NOUN,genuinely_hard,aponeuroses,aponeuroses,aponeuroses,aponeuroses,aponeuroses,aponeuroses
+cmpg-036360,97,ἀρχῆς,ἀρχή,NOUN,polysemy_risk,origin,origin,origin,origin,origin,origin
+cmpg-054720,106,μεθόδοις,μεθόδοις,NOUN,genuinely_hard,methods,methods,methods,methods,methods,methods
+cmpg-054720,21,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-054720,27,ἐπαγγελίας,ἐπαγγελία,NOUN,genuinely_hard,promise,promise,promise,claim,promise,promise
+cmpg-054720,32,χαλκίτιδος,χαλκίτις,NOUN,genuinely_hard,chalcitis,chalcitis,chalcitis,chalcitis,chalcitis,chalcitis
+cmpg-054720,34,κε΄,κε΄,ADJ,genuinely_hard,25,25,25,25,25,25
+cmpg-054720,43,οἶνον,οἶνος,NOUN,polysemy_risk,wine,wine,wine,wine,wine,wine
+cmpg-054720,7,μόνου,μόνος,ADJ,polysemy_risk,only,alone,alone,only,alone,only
+cmpg-054720,73,ξηρῶν,ξηρός,ADJ,polysemy_risk,dry ingredients,dry ingredients,dry ingredients,dry ingredients,dry ingredients,dry ingredients
+cmpg-058080,102,λάρικος,λάρικος,ADJ,genuinely_hard,larch,larch,larch,larch,larch,larch
+cmpg-058080,110,ξηρῶν,ξηρός,ADJ,polysemy_risk,dry ones,dry ones,dry,dry ingredients,dry,dry ones
+cmpg-058080,15,τετριμμένα,τετριμμένος,ADJ,genuinely_hard,ground,triturated,ground,ground,triturated,triturated
+cmpg-058080,39,πυξίδα,πυξίς,NOUN,genuinely_hard,box,box,box,box,box,box
+cmpg-058080,46,γένους,γένος,NOUN,polysemy_risk,kind,kind,kind,kind,kind,class
+cmpg-058080,48,δυσθεραπεύτων,δυσθεραπεύτων,ADJ,genuinely_hard,hard-to-treat,hard-to-treat,hard-to-treat,hard-to-cure,hard-to-treat,hard-to-treat
+cmpg-058080,73,σαρκὸς,σάρξ,NOUN,polysemy_risk,flesh,flesh,flesh,flesh,flesh,flesh
+cmpg-058080,90,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-059760,100,κε΄,κε΄,ADJ,genuinely_hard,25,25,25,25,25,25
+cmpg-059760,106,μίαν,εἷς,ADJ,polysemy_risk,one,one,one,one,one,one
+cmpg-059760,20,τηκτὰ,τηκτός,ADJ,genuinely_hard,meltable ingredients,meltables,meltable ones,meltables,melted ones,melted ones
+cmpg-059760,49,ἴσον,ἴσος,ADJ,polysemy_risk,equal,equal,equal,equal,equal amount,equal amount
+cmpg-059760,72,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-059760,83,στομώματος,στομώματος,NOUN,genuinely_hard,steel,stomoma,stomoma,steel-scale,stomoma,stomoma
+cmpg-059760,9,ξηρὰ,ξηρός,ADJ,polysemy_risk,dry ingredients,dry ingredients,dry ones,dry ingredients,dry ones,dry ones
+cmpg-059760,91,ἑκατέρου,ἑκαός,ADJ,genuinely_hard,each,each,of each,each,of each,each
+cmpg-069120,104,μοσχείου,μοσχείου,NOUN,genuinely_hard,calf,calf's,calf,calf's,calf,calf
+cmpg-069120,112,κοινοῦ,κοινός,ADJ,polysemy_risk,common,common,common,common,common,common
+cmpg-069120,115,οἴνου,οἶνος,NOUN,polysemy_risk,wine,wine,wine,wine,wine,wine
+cmpg-069120,20,ἴρεως,ἴρεως,NOUN,genuinely_hard,iris,iris,iris,iris,iris,iris
+cmpg-069120,37,στρογγύλης,στρογγύλος,ADJ,genuinely_hard,round [alum],round,round,round,round,round alum
+cmpg-069120,47,σιδίων,σιδίος,NOUN,genuinely_hard,rinds,rinds,rinds,rinds,rind of pomegranate,pomegranate rind
+cmpg-069120,6,κύστιν,κύστις,NOUN,polysemy_risk,bladder,bladder,bladder,bladder,bladder,bladder
+cmpg-070080,10,διφρυγοῦς,διφρυγοῦς,NOUN,genuinely_hard,diphryges,diphryges,diphryges,diphryges,diphryges,diphryges
+cmpg-070080,109,διφρυγὲς,διφρυγὲς,NOUN,genuinely_hard,diphryges,diphryges,diphryges,diphryges,diphryges,diphryges
+cmpg-070080,115,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-070080,27,ἴσας,ἴσος,ADJ,polysemy_risk,equal,an equal amount,equal,equal,equal amounts,same amounts
+cmpg-070080,51,Κυπρίου,κυπρῖος,ADJ,genuinely_hard,Cyprian,Cyprian,Cyprian,Cyprian,Cyprian,Cyprian
+cmpg-070080,73,ἐλαίου,ἔλαιον,NOUN,polysemy_risk,oil,oil,oil,oil,oil,oil
+cmpg-070080,82,κούφῳ,κούφος,ADJ,genuinely_hard,light,light,light,light,light,light
+cmpg-070080,84,μαλακῷ,μαλακός,ADJ,polysemy_risk,gentle,soft,gentle,gentle,gentle,gentle
+cmpg-072720,0,ἴρεως,ἴρεως,NOUN,genuinely_hard,iris,iris,iris,iris,iris,iris
+cmpg-072720,109,σάρκας,σάρξ,NOUN,polysemy_risk,flesh,flesh,flesh,flesh,flesh,flesh
+cmpg-072720,115,χρυσοκόλλης,χρυσοκόλλης,NOUN,genuinely_hard,chrysocolla,chrysocolla,chrysocolla,chrysocolla,chrysocolla,chrysocolla
+cmpg-072720,14,ἕν,εἷς,ADJ,polysemy_risk,one,one,one,one,one,one
+cmpg-072720,34,ἡμέρας,ἡμέρα,NOUN,polysemy_risk,day,days,day,day,days,days
+cmpg-072720,5,λιθαργύρου,λιθαργύρου,NOUN,genuinely_hard,litharge,litharge,litharge,litharge,litharge,litharge
+cmpg-072720,7,μέρη,μέρος,NOUN,polysemy_risk,parts,parts,parts,parts,parts,parts
+cmpg-072720,82,οὔρου,οὔρου,NOUN,genuinely_hard,urine,urine,urine,urine,urine,urine
+cmpg-081360,107,ἀποκρουστικαὶ,ἀποκρουστικός,ADJ,genuinely_hard,repellent,repellent,repellent,repellent,repellent,repellent
+cmpg-081360,11,αὐχμηρὸν,αὐχμηρός,ADJ,genuinely_hard,parched,parched,parched,parched,parched,parched
+cmpg-081360,111,πεπτικαί,πεπτικός,ADJ,genuinely_hard,concoctive,concoctive,concoctive,concoctive,concoctive,concoctive
+cmpg-081360,44,ἀμμωνιακοῦ,ἀμμωνιακοῦ,NOUN,genuinely_hard,ammoniac,ammoniac,ammoniac,ammoniac,ammoniac,ammoniac
+cmpg-081360,80,νεωτέρας,νέος,ADJ,polysemy_risk,further,newer,new,newer,newer,newer
+cmpg-081360,81,διδασκαλίας,διδασκαλία,NOUN,polysemy_risk,teaching,instruction,instruction,teaching,teaching,teaching
+cmpg-081360,92,θερμότητι,θερμότης,NOUN,polysemy_risk,heat,heat,heat,heat,heat,heat
+cmpg-081360,99,δεύτεραι,δεύτερος,ADJ,polysemy_risk,second,second,second,second,second,second
+cmpg-084240,14,χύτραν,χύτρα,NOUN,genuinely_hard,pot,pot,pot,pot,pot,pot
+cmpg-084240,29,φάρμακον,φάρμακον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-084240,4,βραχύ,βραχύς,ADJ,polysemy_risk,a little,a little,a little,a little,a little,a little
+cmpg-084240,48,Ἄλλην,ἄλλος,ADJ,polysemy_risk,Another,another,Another,Another,another,Another
+cmpg-084240,62,ἐπουλοῖ,ἐπουλόω,ADJ,genuinely_hard,cicatrises,cicatrises,cicatrizes,cicatrizes,heals,cicatrizes
+cmpg-084240,71,χρόνια,χρόνιος,ADJ,genuinely_hard,chronic,chronic,chronic,chronic,chronic,chronic
+cmpg-084240,82,κακοῦ,κακός,ADJ,polysemy_risk,harmful,harmful,bad,bad,bad,evil
+cmpg-084240,92,τύλους,τύλους,NOUN,genuinely_hard,calluses,calluses,calluses,calluses,callosities,callosities
+cmpg-087720,0,χοιράδας,χοιράς,NOUN,genuinely_hard,scrofulous swellings,scrofulous swellings,scrofulous swellings,scrofulous swellings,scrofulous swellings,scrofulous swellings
+cmpg-087720,11,διαθέσεις,διαθέσεις,NOUN,polysemy_risk,conditions,conditions,conditions,conditions,conditions,conditions
+cmpg-087720,26,εὐφυὴς,εὐφυής,ADJ,genuinely_hard,gifted,well-gifted,gifted,gifted,gifted,gifted
+cmpg-087720,37,μίαν,εἷς,ADJ,polysemy_risk,one,one,one,one,one,one
+cmpg-087720,48,οὐγγίαν,οὐγγία,NOUN,genuinely_hard,ounce,ounce,ounce,ounce,ounce,oz
+cmpg-087720,55,Ἴσον,ἴσος,ADJ,polysemy_risk,equal,equal,equal,equal,an equal amount,equal
+cmpg-087720,61,Ποντικοῦ,ποντικός,ADJ,genuinely_hard,Pontic,Pontic,Pontic,Pontic,Pontic,Pontic
+cmpg-087720,79,Ἔλαιον,ἔλαιον,NOUN,polysemy_risk,oil,oil,oil,oil,oil,oil
+cmpg-089880,104,σταθμῷ,σταθμός,NOUN,genuinely_hard,weight,weight,weight,weight,weight,weight
+cmpg-089880,111,πρώτης,πρῶτος,ADJ,polysemy_risk,first,first,first,first,first,first
+cmpg-089880,112,τάξεώς,τάξεώς,NOUN,genuinely_hard,rank,rank,order,rank,order,order
+cmpg-089880,116,πάρυγρος,πάρυγρος,NOUN,genuinely_hard,moist [plaster],moist,parygros,parygros,parygron,parygros
+cmpg-089880,20,τάξιν,τάξις,NOUN,polysemy_risk,rank,rank,order,rank,order,order
+cmpg-089880,33,ἕτερα,ἕτερος,ADJ,polysemy_risk,others,others,others,others,others,others
+cmpg-089880,7,συνθέτων,συνθέτων,ADJ,genuinely_hard,compound,compound,compound,compound,compound,compound
+cmpg-089880,99,λευκὸς,λευκός,ADJ,polysemy_risk,white,white,white,white,white,white
+cmpg-095280,2,φαρμάκου,φαρμάκον,NOUN,polysemy_risk,drug,drug,drug,drug,drug,drug
+cmpg-095280,22,ἑκόντων,ἑκών,ADJ,genuinely_hard,willingly,willingly,willingly,willingly,willing,wilfully
+cmpg-095280,31,μέσης,μέσος,ADJ,polysemy_risk,middle,middle,middle,middle,middle,middle
+cmpg-095280,49,μιᾶς,εἷς,ADJ,polysemy_risk,one,one,one,one,one,one
+cmpg-095280,50,γραμμῆς,γραμμή,NOUN,genuinely_hard,stroke,stroke,line,line,line,line
+cmpg-095280,66,τρόπον,τρόπος,NOUN,polysemy_risk,manner,way,way,way,way,manner
+cmpg-095280,75,συνθέσει,συνθέσει,NOUN,genuinely_hard,combination,combination,composition,combination,combination,compounding
+cmpg-095280,97,Μενεκράτης,μενεκράτης,NOUN,genuinely_hard,Menecrates,Menecrates,Menecrates,Menecrates,Menecrates,Menecrates
+temp-000240,2,ὑγρᾶς,ὑγρός,ADJ,polysemy_risk,moist,moist,moist,moist,moist,moist
+temp-000240,51,ξηράν,ξηρός,ADJ,polysemy_risk,dry,dry,dry,dry,dry,dry
+temp-000240,56,ὑγρότητα,ὑγρότης,NOUN,polysemy_risk,moisture,moisture,moisture,moisture,moisture,moisture
+temp-000240,80,σῶμα,σῶμα,NOUN,polysemy_risk,body,body,body,body,body,body
+temp-000240,86,ἀκατέργαστον,ἀκατέργαστος,ADJ,genuinely_hard,unworked,unworked-up,unelaborated,unelaborated,unelaborated,unworked-up
+temp-003960,5,Θεόφραστος,θεόφραστος,NOUN,genuinely_hard,Theophrastus,Theophrastus,Theophrastus,Theophrastus,Theophrastus,Theophrastus
+temp-003960,54,λόγον,λόγος,NOUN,polysemy_risk,statement,account,account,account,account,account
+temp-003960,64,μακρῷ,μακρός,ADJ,polysemy_risk,far,by a wide margin,far,far,by far,by far
+temp-003960,8,τι,τὶς,ADJ,polysemy_risk,what,what,what,what,what,what
+temp-003960,87,ὑγρὰ,ὑγρός,ADJ,polysemy_risk,moist,moist,moist,moist,moist,moist
+temp-003960,93,ὑγρᾷ,ὑγρᾷ,ADJ,genuinely_hard,moist,moist,moist,moist,moist,moist
+temp-004320,10,ξηρὸς,ξηρὸς,ADJ,genuinely_hard,dry,dry,dry,dry,dry,dry
+temp-004320,112,ξηρὸς,ξηρός,ADJ,polysemy_risk,dry,dry,dry,dry,dry,dry
+temp-004320,12,θερμὸς,θερμός,ADJ,polysemy_risk,hot,hot,hot,hot,hot,hot
+temp-004320,34,ἄνθρωπον,ἄνθρωπος,NOUN,polysemy_risk,man,man,human,man,man,man
+temp-004320,36,ψυχρὸς,ψυχρός,ADJ,polysemy_risk,cold,cold,cold,cold,cold,cold
+temp-004320,94,μύρμηκα,μύρμηξ,NOUN,genuinely_hard,ant,ant,ant,ant,ant,ant
+temp-004320,96,μέλιτταν,μέλισσα,NOUN,genuinely_hard,bee,bee,bee,bee,bee,bee
+temp-004320,97,ὑγρὸς,ὑγρὸς,ADJ,genuinely_hard,moist,moist,moist,moist,moist,moist
+temp-005760,102,τοιοῦτο,τοιοῦτος,ADJ,polysemy_risk,of such a kind,of this kind,such a thing,of this kind,such a thing,of this sort
+temp-005760,11,ζῶον,ζῶον,ADJ,polysemy_risk,animal,animal,animal,animal,animal,animal
+temp-005760,20,συκῆς,συκῆ,NOUN,genuinely_hard,fig-tree,fig tree,fig tree,fig tree,fig tree,fig tree
+temp-005760,29,σῦκα,σῦκον,NOUN,genuinely_hard,figs,figs,figs,figs,figs,figs
+temp-005760,36,ἀμπέλου,ἄμπελος,NOUN,genuinely_hard,vine,vine,vine,vine,vine,vine
+temp-005760,58,θυμοειδῆ,θυμοειδής,ADJ,genuinely_hard,spirited,spirited,spirited,spirited,spirited,spirited
+temp-005760,75,ἀρίστην,ἄριστος,ADJ,polysemy_risk,best,best,best,best,best,best
+temp-005760,82,γένει,γένος,NOUN,polysemy_risk,genus,genus,genus,genus,genus,kind
+temp-006000,104,θερμῆς,θερμός,ADJ,polysemy_risk,hot,hot,hot,hot,hot,hot
+temp-006000,11,ἁπάντων,ἅπας,ADJ,polysemy_risk,all,all,all,all,all,all
+temp-006000,111,ῥᾷστον,ῥᾷστον,ADJ,genuinely_hard,very easy,very easy,very easy,very easy,easiest,very easy
+temp-006000,115,ξηροτέρων,ξηροτέρων,ADJ,genuinely_hard,drier,drier,drier,drier,drier,drier
+temp-006000,17,ἀπόκρισιν,ἀπόκρισις,NOUN,genuinely_hard,answer,answer,reply,answer,answer,answer
+temp-006000,53,στοιχείων,στοιχεῖον,NOUN,polysemy_risk,elements,elements,elements,elements,elements,elements
+temp-006000,7,κράσεως,κρᾶσις,NOUN,polysemy_risk,mixture,mixture,mixture,mixture,mixture,mixture
+temp-006000,86,κρᾶσίς,κρᾶσίς,NOUN,genuinely_hard,mixture,mixture,mixture,mixture,mixture,mixture
+temp-006960,11,ἀψύχων,ἀψύχων,ADJ,genuinely_hard,inanimate things,inanimate things,inanimate things,inanimate things,inanimate things,inanimate things
+temp-006960,16,σιδήρου,σίδηρος,NOUN,genuinely_hard,iron,iron,iron,iron,iron,iron
+temp-006960,33,θερμὸν,θερμός,ADJ,polysemy_risk,hot,hot,hot,hot,hot,hot
+temp-006960,36,ψυχρὸν,ψυχρός,ADJ,polysemy_risk,cold,cold,cold,cold,cold,cold
+temp-006960,59,ξηρὸν,ξηρός,ADJ,polysemy_risk,dry,dry,dry,dry,dry,dry
+temp-006960,61,ὑγρὸν,ὑγρός,ADJ,polysemy_risk,moist,moist,moist,moist,moist,moist
+temp-006960,7,φυτῶν,φυτῶν,NOUN,genuinely_hard,plants,plants,plants,plants,plants,plants
+temp-006960,85,ἑκατέραν,ἕκατερος,ADJ,genuinely_hard,each,each of the two,each,each,each,each
+temp-009120,1,ἀντίθεσιν,ἀντίθεσις,NOUN,genuinely_hard,antithesis,antithesis,antithesis,antithesis,antithesis,opposition
+temp-009120,112,δέρματός,δέρματός,NOUN,genuinely_hard,skin,skin,skin,skin,skin,skin
+temp-009120,41,ἀρτηρίας,ἀρτηρία,NOUN,polysemy_risk,artery,artery,artery,artery,artery,artery
+temp-009120,44,φλεβὸς,φλεβὸς,NOUN,genuinely_hard,vein,vein,vein,vein,vein,vein
+temp-009120,53,γειτνιάσει,γειτνιάσει,NOUN,genuinely_hard,proximity,proximity,proximity,proximity,neighbourhood,proximity
+temp-009120,7,ψυχροῦ,ψυχρός,ADJ,polysemy_risk,cold,cold,cold,cold,cold,cold
+temp-009120,75,φύσει,φύσις,NOUN,polysemy_risk,nature,by nature,by nature,by nature,nature,nature
+temp-009120,9,νεῦρον,νεῦρον,NOUN,polysemy_risk,sinew,nerve,nerve,nerve,nerve,nerve
+temp-010080,106,ζῶον,ζῶον,NOUN,polysemy_risk,animal,animal,animal,animal,animal,animal
+temp-010080,113,θερμότατον,θερμός,ADJ,polysemy_risk,hottest,most hot,hottest,hottest,hottest,hottest
+temp-010080,25,χρόαν,χρόαν,NOUN,genuinely_hard,colour,complexion,colour,colour,complexion,colour
+temp-010080,31,παῖς,παῖς,NOUN,polysemy_risk,child,child,child,child,boy,boy
+temp-010080,47,ἡλικίας,ἡλικία,NOUN,polysemy_risk,ages,ages,ages,ages,ages,ages
+temp-010080,5,εὔχρους,εὔχρους,ADJ,genuinely_hard,of good colour,of good colour,of good colour,of good colour,of good colour,of good colour
+temp-010080,68,γνωρισμάτων,γνωρίσμα,NOUN,genuinely_hard,signs,signs,signs,signs,signs,signs
+temp-010080,91,εὕρεσιν,εὕρεσις,NOUN,genuinely_hard,discovery,discovery,discovery,discovery,discovery,discovery
+temp-010320,1,κῶλα,κῶλον,NOUN,polysemy_risk,limbs,limbs,limbs,limbs,limbs,limbs
+temp-010320,105,σύμπαντας,σύμπας,ADJ,polysemy_risk,all,all,all,all,all,all
+temp-010320,4,τροφοὶ,τροφός,NOUN,genuinely_hard,nurses,nurses,nurses,nurses,nurses,nurses
+temp-010320,44,τυρῷ,τυρός,NOUN,genuinely_hard,cheese,cheese,cheese,cheese,cheese,cheese
+temp-010320,49,ἡδέα,ἡδής,ADJ,genuinely_hard,pleasant,pleasant,pleasant,pleasant,pleasant,pleasant
+temp-010320,58,σώματα,σῶμα,NOUN,polysemy_risk,bodies,bodies,bodies,bodies,bodies,bodies
+temp-010320,6,βρεφῶν,βρεφῶν,NOUN,genuinely_hard,infants,infants,infants,infants,infants,infants
+temp-010320,73,ὑγρότερα,ὑγρός,ADJ,polysemy_risk,moister,moister,moister,moister,moister,moister
+temp-010560,10,φλέγμα,φλέγμα,NOUN,polysemy_risk,phlegm,phlegm,phlegm,phlegm,phlegm,phlegm
+temp-010560,116,ἀῤῥωστίας,ἀῤῥωστία,NOUN,polysemy_risk,weakness,weakness,weakness,weakness,weakness,weakness
+temp-010560,15,πνεύμονα,πνεύμων,NOUN,polysemy_risk,lung,lung,lung,lung,lung,lung
+temp-010560,19,χυμοῦ,χυμοῦ,NOUN,genuinely_hard,humour,humour,humour,humour,humour,humour
+temp-010560,2,σιέλου,σιέλου,NOUN,genuinely_hard,saliva,saliva,saliva,saliva,saliva,saliva
+temp-010560,76,φλεγματώδη,φλεγματώδη,ADJ,genuinely_hard,phlegmatic,phlegmatic,phlegmatic,phlegmatic,phlegmatic,phlegmatic
+temp-010560,77,τινὰ,τὶς,ADJ,polysemy_risk,some,some,some,a certain,some,certain
+temp-010560,81,μυξώδη,μυξώδης,ADJ,genuinely_hard,mucous,mucous,mucous,mucous,mucous,mucous
+temp-011400,18,δευτέρων,δευτέρων,ADJ,genuinely_hard,secondary,secondary things,posterior,posterior,secondary things,later things
+temp-011400,20,πρότερα,πρότερος,ADJ,polysemy_risk,prior,the prior,prior,prior,prior,earlier
+temp-011400,30,αὔξησις,αὔξησις,NOUN,genuinely_hard,growth,growth,growth,growth,growth,growth
+temp-011400,40,λόγον,λόγος,NOUN,polysemy_risk,discourse,argument,account,account,discourse,account
+temp-011400,5,ἐπιχειρημάτων,ἐπιχειρημάτων,NOUN,genuinely_hard,arguments,arguments,arguments,arguments,arguments,arguments
+temp-011400,66,γνώριμον,γνώριμος,ADJ,genuinely_hard,known,knowable,known,known,known,known
+temp-011400,90,κρᾶσιν,κρᾶσις,NOUN,polysemy_risk,mixture,mixture,mixture,mixture,mixture,mixture
+temp-011400,92,τι,τὶς,ADJ,polysemy_risk,whatever,whatever,whatever,whatever,whatever,whatever
+temp-011640,108,πρόχειρος,πρόχειρος,ADJ,genuinely_hard,ready to hand,ready to hand,ready to hand,ready to hand,ready to hand,ready to hand
+temp-011640,111,πᾶσι,πᾶς,ADJ,polysemy_risk,all,all,all,all,all,all
+temp-011640,113,γνώριμος,γνώριμος,ADJ,genuinely_hard,familiar,familiar,known,known,known,familiar
+temp-011640,52,ψιλῆς,ψιλός,ADJ,genuinely_hard,bare,bare,bare,bare,bare,bare
+temp-011640,7,πίστεις,πίστις,NOUN,genuinely_hard,proofs,proofs,proofs,proofs,proofs,proofs
+temp-011640,76,ἐνέργειαν,ἐνέργεια,NOUN,polysemy_risk,actuality,actuality,actuality,actuality,actuality,actuality
+temp-011640,92,ξηροῦ,ξηρός,ADJ,polysemy_risk,dry,dry,dry,dry,dry,dry
+temp-011640,94,ὑγροῦ,ὑγρός,ADJ,polysemy_risk,moist,moist,moist,moist,moist,moist
+temp-012000,102,μακρὰ,μακρός,ADJ,polysemy_risk,long,long,long,long,long,long
+temp-012000,105,ἐπιχειρημάτων,ἐπιχειρημάτων,NOUN,genuinely_hard,arguments,arguments,arguments,arguments,arguments,arguments
+temp-012000,2,στοιχεῖα,στοιχεῖον,NOUN,polysemy_risk,elements,elements,elements,elements,elements,elements
+temp-012000,65,ἁφῇ,ἁφίημι,NOUN,genuinely_hard,touch,touch,touch,touch,touch,touch
+temp-012000,70,ἐνέργειαν,ἐνέργεια,NOUN,polysemy_risk,actuality,actuality,actuality,actuality,actuality,actuality
+temp-012000,99,πάντα,πᾶς,ADJ,polysemy_risk,everything,everything,everything,everything,everything,everything
+temp-012480,112,θερμότητες,θερμότης,NOUN,polysemy_risk,heats,heats,heats,heats,heats,heats
+temp-012480,116,διαπνοῇ,διαπνοή,NOUN,genuinely_hard,transpiration,transpiration,transpiration,transpiration,transpiration,perspiration
+temp-012480,20,ἐνέργειαν,ἐνέργεια,NOUN,polysemy_risk,actuality,actuality,actuality,actuality,actuality,actuality
+temp-012480,33,ἄλλα,ἄλλος,ADJ,polysemy_risk,other,other,other,other,other,other
+temp-012480,57,σωμάτων,σῶμα,NOUN,polysemy_risk,bodies,bodies,bodies,bodies,bodies,bodies
+temp-012480,63,βρεφῶν,βρεφῶν,NOUN,genuinely_hard,infants,infants,infants,infants,infants,infants
+temp-012480,66,μειρακίων,μειράκιον,NOUN,genuinely_hard,youths,youths,adolescents,youths,youths,youths
+temp-012480,93,ἀλλοιώσεις,ἀλλοιώσεις,NOUN,genuinely_hard,alterations,alterations,alterations,alterations,alterations,alterations
+temp-013560,108,θερμοτέρα,θερμοτέρα,ADJ,genuinely_hard,hotter,hotter,hotter,hotter,hotter,hotter
+temp-013560,16,ἐγκέφαλος,ἐγκέφαλος,NOUN,polysemy_risk,brain,brain,brain,brain,brain,brain
+temp-013560,35,μαλακώτερα,μαλακώς,ADJ,genuinely_hard,softer,softer,softer,softer,softer,softer
+temp-013560,42,μόνον,μόνος,ADJ,polysemy_risk,only,only,only,only,only,only
+temp-013560,48,ἄναιμον,ἄναιμος,ADJ,genuinely_hard,bloodless,bloodless,bloodless,bloodless,bloodless,bloodless
+temp-013560,51,ψυχρότερον,ψυχρός,ADJ,polysemy_risk,colder,colder,colder,colder,colder,colder
+temp-013560,61,φύσις,φύσις,NOUN,polysemy_risk,nature,nature,nature,nature,nature,nature
+temp-013560,86,ἐναίμου,ἐναίμου,ADJ,genuinely_hard,blood-containing,blood-filled,sanguineous,sanguineous,blooded,bloody
+temp-018840,16,ὑγρότερον,ὑγρός,ADJ,polysemy_risk,moister,moister,moister,moister,moister,moister
+temp-018840,25,προφάσεσιν,προφάσεσιν,NOUN,genuinely_hard,occasions,occasions,occasions,occasions,occasions,occasions
+temp-018840,29,διαθέσεις,διαθέσεις,NOUN,polysemy_risk,conditions,conditions,conditions,conditions,conditions,dispositions
+temp-018840,44,γένεσις,γένεσις,NOUN,polysemy_risk,growth,growth,growth,generation,production,growth
+temp-018840,45,εὐκρασίας,εὐκρασία,NOUN,genuinely_hard,good mixture,good mixture,good mixture,good mixture,eucrasia,good mixture
+temp-018840,52,τρόπον,τρόπος,NOUN,polysemy_risk,manner,way,way,way,manner,manner
+temp-018840,7,σιέλου,σιέλου,NOUN,genuinely_hard,saliva,saliva,saliva,saliva,saliva,saliva
+temp-018840,75,σιμοὺς,σιμός,ADJ,genuinely_hard,snub-nosed,snub-nosed,snub-nosed,snub-nosed,snub-nosed,snub-nosed
+temp-020280,11,ξηροτέραν,ξηροτέραν,ADJ,genuinely_hard,drier,drier,drier,drier,drier,drier
+temp-020280,116,δυνάμεως,δύναμις,NOUN,polysemy_risk,power,capacity,power,power,power,power
+temp-020280,14,οἰκείαν,οἰκεῖος,ADJ,polysemy_risk,proper,proper,proper,proper,proper,own
+temp-020280,27,ὁμοιομερῶν,ὁμοιομερῶν,ADJ,genuinely_hard,homoeomerous,homoeomerous,homoeomerous,homoeomerous,homoeomerous,homoeomerous
+temp-020280,50,ὅσα,ὅσος,ADJ,polysemy_risk,all things that,all things which,that,that,whatever,all things that
+temp-020280,55,κρᾶσίν,κρᾶσίς,NOUN,genuinely_hard,mixture,mixture,mixture,mixture,mixture,mixture
+temp-020280,96,ἀποδείξεως,ἀπόδειξις,NOUN,polysemy_risk,demonstration,demonstration,demonstration,demonstration,demonstration,demonstration
+temp-025320,10,συμβεβηκὸς,συμβεβηκὸς,NOUN,genuinely_hard,accident,incidentally,accident,accident,accident,accident
+temp-025320,106,χρηστὸν,χρηστός,ADJ,polysemy_risk,good,good,good,good,good,good
+temp-025320,117,γενέσει,γένεσις,NOUN,polysemy_risk,generation,generation,generation,generation,generation,generation
+temp-025320,33,θερμοτέρους,θερμοτέρων,ADJ,genuinely_hard,hotter,hotter,hotter,hotter,hotter,hotter
+temp-025320,58,χυμοὺς,χυμοὺς,NOUN,genuinely_hard,humours,humours,humours,humours,humours,humours
+temp-025320,65,χολὴν,χολή,NOUN,polysemy_risk,bile,bile,bile,bile,bile,bile
+temp-025320,88,φύσει,φύσις,NOUN,polysemy_risk,nature,by nature,by nature,by nature,nature,nature
+temp-025320,91,ἀνδράχνη,ἀνδράχνη,NOUN,genuinely_hard,purslane,purslane,purslane,purslane,purslane,purslane
+temp-026640,107,εὐσάρκων,εὐσάρκων,ADJ,genuinely_hard,well-fleshed,of good flesh,well-fleshed,well-fleshed,fleshy,well-fleshed
+temp-026640,110,θέρει,θέρος,NOUN,polysemy_risk,summer,summer,summer,summer,summer,summer
+temp-026640,111,μέσῳ,μέσος,ADJ,polysemy_risk,mid-,middle,middle,middle,mid,mid
+temp-026640,3,ἁπλῆ,ἁπλῆ,ADJ,genuinely_hard,simple,simple,simple,simple,simple,simple
+temp-026640,60,ἐπανάκλησιν,ἐπανάκλησις,NOUN,genuinely_hard,recall,recall,recall,recall,recall,recall
+temp-026640,76,προσβολῆς,προσβολή,NOUN,genuinely_hard,contact,impact,impact,impact,contact,impact
+temp-026640,87,δέρμα,δέρμα,NOUN,polysemy_risk,skin,skin,skin,skin,skin,skin
+temp-026640,97,πάντων,πᾶς,ADJ,polysemy_risk,all,all,all,all,all,all
+temp-027360,1,εὐφορίας,εὐφορία,NOUN,genuinely_hard,well-being,ease,ease of bearing,tolerability,tolerability,facility
+temp-027360,103,ἐπικράτησιν,ἐπικράτησις,NOUN,genuinely_hard,predominance,predominance,predominance,predominance,predominance,predominance
+temp-027360,116,ὁμογενὲς,ὁμογενής,ADJ,genuinely_hard,of the same genus,of the same kind,of the same kind,of the same kind,of the same kind,of the same kind
+temp-027360,45,ἁπάντων,ἅπας,ADJ,polysemy_risk,all,all,all,all,all,all
+temp-027360,52,γυμνασίαν,γυμνασία,NOUN,genuinely_hard,exercise,exercise,exercise,exercise,exercise,exercise
+temp-027360,8,ψυχρόν,ψυχρός,ADJ,polysemy_risk,cold,cold,cold,cold,cold,cold
+temp-027360,81,τελευτήν,τελευτή,NOUN,polysemy_risk,conclusion,end,conclusion,end,end,end
+temp-027360,98,στοιχεῖον,στοιχεῖον,NOUN,polysemy_risk,element,element,element,element,element,element

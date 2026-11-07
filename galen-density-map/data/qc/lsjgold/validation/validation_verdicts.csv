@@ -1,0 +1,81 @@
+row_id,kind,expected,headword_gold,headword_shown,surface,author,work,token_index,validation,reader1_fable-5-1_answer,reader1_fable-5-1_headword_if_no,reader1_fable-5-1_note,reader2_opus-5-5_answer,reader2_opus-5-5_headword_if_no,reader2_opus-5-5_note
+V001,random,,σκῆπτρον,σκῆπτρον,σκῆπτρον,tlg0085,tlg003,1061,morpheus,yes,,nom/acc sg neut,yes,,acc sg
+V002,random,,πυκνός,πυκνός,πυκνοῖς,tlg0085,tlg003,3820,morpheus,yes,,dat pl,yes,,dat pl
+V003,plant,no,στέφω,σέλας,στέψω,tlg0011,tlg003,580,morpheus,no,στέφω,fut 1sg of στέφω; not σέλας,no,στέφω,fut 1sg of στέφω
+V004,random,,νῦν,νῦν,νυν,tlg0085,tlg004,1250,morpheus,yes,,enclitic νυν; accent variant of νῦν,yes,,enclitic νυν
+V005,plant,no,ἀΐσσω,ἀσπιδηφόρος,ᾖσσον,tlg0085,tlg003,3804,morpheus,no,ἀΐσσω,impf 1sg ᾖσσον of ᾄσσω/ἀΐσσω (darted),no,ἀίσσω,impf 3pl of ἀίσσω/ᾄσσω
+V006,random,,θεῖος,θεῖος,θεία,tlg0011,tlg003,1095,morpheus,yes,,fem nom sg,yes,,fem nom sg
+V007,random,,ἐξηγέομαι,ἐξηγέομαι,ἐξηγουμένου,tlg0085,tlg003,1296,morpheus,yes,,pres mid ptc gen sg,yes,,pres mid ptcp gen
+V008,random,,θερμότης,θερμότης,θερμότητα,tlg0627,tlg001,3238,morpheus,yes,,acc sg,yes,,acc sg
+V009,random,,κινητικός,κινητικός,κινητικὰ,tlg0627,tlg012,4244,morpheus,yes,,neut pl,yes,,neut pl
+V010,random,,ἔννοος,ἔννοος,ἔννους,tlg0085,tlg003,2548,quoted,yes,,contracted acc pl masc,yes,,contracted ἔννους
+V011,random,,πυρέσσω,πυρέσσω,πυρεσσόντων,tlg0627,tlg012,1176,morpheus,yes,,pres ptc gen pl,yes,,pres ptcp gen pl
+V012,plant,no,προστίθημι,πάγκλαυστος,προστίθει,tlg0085,tlg003,620,morpheus,no,προστίθημι,pres imper 2sg; not πάγκλαυστος,no,προστίθημι,pres imper 2sg
+V013,random,,ταλαίπωρος,ταλαίπωρος,ταλαιπώρῳ,tlg0085,tlg003,3488,morpheus,yes,,dat sg fem,yes,,dat sg fem
+V014,random,,διακίνημα,διακίνημα,διακινήματα,tlg0627,tlg009,9644,morpheus,yes,,nom/acc pl,yes,,nom/acc pl
+V015,random,,χρή,χρή,χρὴ,tlg0085,tlg003,6137,morpheus,yes,,grave accent variant,yes,,
+V016,random,,ἄκανθα,ἄκανθα,ἄκανθαν,tlg0627,tlg010,4023,morpheus,yes,,acc sg (spine),yes,,acc sg
+V017,random,,ὀρθόβουλος,ὀρθόβουλος,ὀρθοβούλου,tlg0085,tlg003,213,morpheus,yes,,gen sg fem,yes,,gen sg
+V018,anchor,yes,σεμνός,σεμνός,σεμναί,tlg0085,tlg007,5516,morpheus,yes,,nom pl fem,yes,,fem nom/voc pl
+V019,anchor,yes,δακρύω,δακρύω,δακρύεσθαι,tlg0085,tlg004,4220,morpheus,yes,,pres mid inf,yes,,pres mid inf
+V020,random,,νύξ,νύξ,νυκτὸς,tlg0011,tlg003,124,morpheus,yes,,gen sg,yes,,gen sg
+V021,anchor,yes,ἡσυχάζω,ἡσυχάζω,ἡσύχαζε,tlg0085,tlg003,1942,morpheus,yes,,pres imper 2sg,yes,,pres imper 2sg
+V022,random,,κατασκαφή,κατασκαφή,κατασκαφὰς,tlg0085,tlg004,5198,morpheus,yes,,acc pl,yes,,acc pl
+V023,random,,ἐμμανής,ἐμμανής,ἐμμανεῖς,tlg0085,tlg007,4687,quoted,yes,,acc pl,yes,,acc pl
+V024,plant,no,παρηγορέω,παράκοπος,παρηγόρουν,tlg0085,tlg003,3637,morpheus,no,παρηγορέω,impf 3pl; not παράκοπος,no,παρηγορέω,impf 3pl
+V025,random,,κεφαλαλγία,κεφαλαλγία,κεφαλαλγίαι,tlg0627,tlg012,1965,morpheus,yes,,nom pl,yes,,nom pl
+V026,random,,χαλάω,χαλάω,χαλασθῇ,tlg0085,tlg003,5711,morpheus,yes,,aor pass subj 3sg,yes,,aor pass subj 3sg
+V027,random,,κατοικίδιος,κατοικίδιος,κατοικίδιοι,tlg0627,tlg010,20021,morpheus,yes,,nom pl,yes,,nom pl
+V028,random,,ἐντρέπω,ἐντρέπω,ἐντρέπει,tlg0011,tlg003,563,morpheus,yes,,pres mid 2sg (ἐντρέπῃ),yes,,pres mid 2sg
+V029,random,,γιγνώσκω,γιγνώσκω,γιγνώσκεις,tlg0085,tlg003,2226,morpheus,yes,,pres 2sg,yes,,pres 2sg
+V030,random,,ζηλόω,ζηλόω,ζηλῶ,tlg0085,tlg003,1958,morpheus,yes,,pres 1sg contracted,yes,,pres 1sg
+V031,random,,παραπάσσω,παραπάσσω,παραπάσσειν,tlg0627,tlg028,2677,morpheus,yes,,pres inf,yes,,pres inf
+V032,plant,no,φόβος,φθείρω,φόβῳ,tlg0085,tlg004,1241,morpheus,no,φόβος,dat sg of φόβος; not φθείρω,no,φόβος,dat sg noun
+V033,random,,ʼιχνεύω,ʼιχνεύω,ἰχνεύω,tlg0011,tlg003,122,morpheus,yes,,headword breathing miscoded; same lemma ἰχνεύω,yes,,headword has stray apostrophe; pres 1sg
+V034,random,,πρόσωθεν,πρόσωθεν,πρόσωθεν,tlg0085,tlg007,1726,morpheus,yes,,adverb identical,yes,,adverb
+V035,plant,no,τλήμων,ταλαίπωρος,τλῆμον,tlg0085,tlg003,3419,morpheus,no,τλήμων,voc sg of τλήμων; not ταλαίπωρος,no,τλήμων,voc sg
+V036,random,,ἐνέδρα,ἐνέδρα,ἐνέδρης,tlg0627,tlg009,7017,morpheus,yes,,Ionic gen sg,yes,,Ionic gen sg
+V037,random,,δράω,δράω,δρῶ,tlg0085,tlg004,5321,quoted,yes,,pres/aor subj 1sg contracted,yes,,delib subj 1sg
+V038,random,,ἀγχόνη,ἀγχόνη,ἀγχόνης,tlg0085,tlg007,4110,morpheus,yes,,gen sg,yes,,gen sg
+V039,random,,ἕξις,ἕξις,ἕξις,tlg0627,tlg046,921,morpheus,yes,,nom sg,yes,,nom sg
+V040,random,,σαρκόω,σαρκόω,σαρκῶσαι,tlg0627,tlg008,1414,morpheus,yes,,aor inf,yes,,aor inf
+V041,random,,φιλότιμος,φιλότιμος,φιλότιμοι,tlg0085,tlg007,5483,morpheus,yes,,nom pl fem,yes,,nom/voc pl
+V042,anchor,yes,βρέτας,βρέτας,βρέτη,tlg0085,tlg004,595,morpheus,yes,,nom/acc pl neut,yes,,acc pl
+V043,anchor,yes,δύναμαι,δύναμαι,ἠδυνήθην,tlg0085,tlg003,1248,morpheus,yes,,aor pass 1sg with eta augment,yes,,aor pass-form 1sg
+V044,random,,ἑῷος,ἑῷος,ἑῴαν,tlg0085,tlg003,252,morpheus,yes,,acc sg fem,yes,,fem acc sg
+V045,random,,ἑπτακαιδέκατος,ἑπτακαιδέκατος,ἑπτακαιδεκάτη,tlg0627,tlg012,1103,morpheus,yes,,fem nom sg,yes,,fem nom sg
+V046,random,,δυσάλωτος,δυσάλωτος,δυσάλωτον,tlg0085,tlg003,1037,morpheus,yes,,acc sg fem,yes,,fem acc sg
+V047,random,,πλεονάκις,πλεονάκις,πλεονάκις,tlg0627,tlg012,4035,morpheus,yes,,adverb identical,yes,,adverb
+V048,random,,νομίζω,νομίζω,νομίζεται,tlg0085,tlg007,258,morpheus,yes,,pres pass 3sg,yes,,pres pass 3sg
+V049,random,,οὗτος,οὗτος,ταῦτα,tlg0085,tlg003,5715,morpheus,yes,,neut pl,yes,,neut pl
+V050,anchor,yes,ἄσμενος,ἄσμενος,ἀσμένως,tlg0085,tlg003,4093,morpheus,yes,,adverb -ως of ἄσμενος (LSJ under adj),yes,,adverb from ἄσμενος
+V051,plant,no,τις,τόσος,τῳ,tlg0085,tlg004,5212,morpheus,no,τις,enclitic τῳ = τινί (indefinite),no,τις,indefinite dat sg τῳ
+V052,anchor,yes,δείδω,δείδω,δέδια,tlg0085,tlg003,1111,morpheus,yes,,pf 1sg,yes,,perf 1sg
+V053,random,,ἐκλάμπω,ἐκλάμπω,ἐκλάμπει,tlg0627,tlg001,3527,morpheus,yes,,pres 3sg,yes,,pres 3sg
+V054,anchor,yes,σπλήν,σπλήν,σπλῆνες,tlg0627,tlg012,2274,morpheus,yes,,nom pl,yes,,nom pl
+V055,random,,ποίμνη,ποίμνη,ποίμνας,tlg0085,tlg003,3678,morpheus,yes,,acc pl,yes,,acc pl
+V056,plant,no,ἐθέλω,ἐμβάλλω,θελήσῃ,tlg0085,tlg003,5927,morpheus,no,ἐθέλω,aor subj 3sg of θέλω/ἐθέλω,no,ἐθέλω,aor subj 3sg of (ἐ)θέλω
+V057,random,,σφαλερός,σφαλερός,σφαλερὰ,tlg0085,tlg007,2014,morpheus,yes,,neut pl / fem,yes,,neut pl / fem
+V058,random,,πλανάω,πλανάω,πλανωμένη,tlg0085,tlg003,1663,morpheus,yes,,pres mid ptc fem,yes,,pres mid ptcp fem
+V059,random,,ἀμαθία,ἀμαθία,ἀμαθίην,tlg0627,tlg010,17463,morpheus,yes,,Ionic acc sg,yes,,Ionic acc sg
+V060,anchor,yes,σόλοικος,σόλοικος,σολοικότερον,tlg0627,tlg009,4548,morpheus,yes,,comparative neut,yes,,comparative neut
+V061,anchor,yes,νέος,νέος,νέας,tlg0085,tlg004,1657,morpheus,yes,,acc pl fem,yes,,fem acc pl
+V062,random,,ὠτόρρυτος,ὠτόρρυτος,ὠτόῤῥυτοι,tlg0627,tlg006,26123,morpheus,yes,,nom pl with ῤῥ spelling,yes,,nom pl
+V063,random,,μεταλλαγή,μεταλλαγή,μεταλλαγῇ,tlg0627,tlg010,14752,morpheus,yes,,dat sg,yes,,dat sg
+V064,random,,ἀνδραγαθικός,ἀνδραγαθικός,ἀνδραγαθικώτερον,tlg0627,tlg010,20003,morpheus,yes,,comparative neut,yes,,comparative neut
+V065,random,,γειτονεύω,γειτονεύω,γειτονεύεται,tlg0627,tlg009,5246,morpheus,yes,,pres mid/pass 3sg,yes,,pres mid 3sg
+V066,plant,no,βρέτας,βροντή,βρετέων,tlg0085,tlg004,601,morpheus,no,βρέτας,gen pl of βρέτας; not βροντή,no,βρέτας,gen pl
+V067,random,,καχλάζω,καχλάζω,καχλάζει,tlg0085,tlg004,3964,morpheus,yes,,pres 3sg,yes,,pres 3sg
+V068,random,,βάθος,βάθος,βάθη,tlg0085,tlg003,5937,morpheus,yes,,nom/acc pl,yes,,acc pl
+V069,random,,παρηγορικός,παρηγορικός,παρηγορικόν,tlg0627,tlg012,4134,morpheus,yes,,neut sg,yes,,neut sg
+V070,random,,ἀναπίνω,ἀναπίνω,ἀναποθῇ,tlg0627,tlg010,12034,morpheus,yes,,aor pass subj 3sg,yes,,aor pass subj 3sg
+V071,random,,καταναγκάζω,καταναγκάζω,καταναγκαζέτω,tlg0627,tlg009,2430,morpheus,yes,,pres imper 3sg,yes,,pres imper 3sg
+V072,random,,ἐρῶ,ἐρῶ,εἴρηκας,tlg0085,tlg003,4691,morpheus,yes,,pf 2sg εἴρηκας of ἐρῶ/εἴρω paradigm,yes,,perf 2sg of εἴρω/ἐρῶ
+V073,random,,περιάγω,περιάγω,περιάγειν,tlg0627,tlg010,4893,morpheus,yes,,pres inf,yes,,pres inf
+V074,plant,no,χράω,χρίω,χρώμενος,tlg0085,tlg007,3559,morpheus,no,χράομαι,pres mid ptc of χράομαι (use); not χρίω,no,χράομαι,pres ptcp
+V075,random,,νικάω,νικάω,νικάτω,tlg0085,tlg007,591,morpheus,yes,,pres imper 3sg,yes,,pres imper 3sg
+V076,random,,εἰλεός,εἰλεός,εἰλεοὶ,tlg0627,tlg012,2292,morpheus,yes,,nom pl,yes,,nom pl
+V077,random,,πλάνη,πλάνη,πλάναι,tlg0085,tlg003,3274,morpheus,yes,,nom pl,yes,,nom pl
+V078,random,,εὔελπις,εὔελπις,εὔελπίς,tlg0085,tlg003,2904,morpheus,yes,,nom sg (double accent is enclitic εἰμι),yes,,nom sg with enclitic accent
+V079,random,,κάρτα^,κάρτα^,κάρτα,tlg0085,tlg007,4063,morpheus,yes,,caret is LSJ length mark; adverb identical,yes,,adverb
+V080,random,,δείκνυμι,δείκνυμι,δείξαθ᾽,tlg0085,tlg004,886,morpheus,yes,,aor imper 2pl elided (δείξατε),yes,,aor mid imper 2pl elided
