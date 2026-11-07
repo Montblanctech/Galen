@@ -60,4 +60,43 @@ Code changes (all small): `relocate.py` held_works() gains the Perseus pair afte
 **Dilemma per author (blind %, n)**: Aeschylus 90.51 (6,904); Sophocles 89.47 (6,117); Thucydides 89.64 (5,145); Aristophanes 88.51 (3,332); Xenophon 90.29 (2,965); Hippocrates 93.98 (2,459); Polybius 90.10 (2,203); Herodotus 86.60 (1,620); Homer 87.13 (171, unreliable placement). Overall Dilemma 89.94 [89.60-90.27] over 30,980 loci (strict 87.09, article-neutral 89.99); odyCy 69.25 over 6,770 First1K-held loci (Perseus works have no odyCy lemmas). Dilemma is flat at 87-94 across Attic prose, comedy, tragedy, history and medicine. Leaderboard/table headers show raw TLG ids for the new authors (tlg0003 Thucydides, tlg0019 Aristophanes, tlg0032 Xenophon, tlg0543 Polybius, tlg0016 Herodotus, tlg0012 Homer). The regenerated v0 files overwrite the 6,116-locus outputs (kept in git history).
 
 ## v0.2 preview, second pass (2026-11-07 ~02:00): Homer and Stephanus indexing fixed
-Lines inside a textpart path are keyed with the path (Homer "1:5"); Stephanus `<milestone unit="section" n="327a"/>` sections are units; a block that contains units no longer has its text read twice. Result: **57,278 loci over 17 authors** (Homer 20,330, Aeschylus 6,923, Sophocles 6,142, Thucydides 5,155, Aristophanes 3,346, Xenophon 2,968, Hippocrates 2,654, Plato 2,238, Polybius 2,209, Pindar 1,717, Herodotus 1,623, Theocritus 911, Apollonius Rhodius 768, Nonnus 231 …). Dilemma blind match **87.7% [87.5–88.0]** overall; highest on Hippocrates (94.4), 89–90 on Attic prose and drama, lowest on the late/epic poets (Theocritus 76.8, Apollonius 68.9, Nonnus 48.9: dialect and epic vocabulary). odyCy is scored only where the project has its lemmas (6,954 First1K loci: 69.0). Known alignment gaps to fix next: Plato *Laws* (4%) and Herodotus (18%) — their page/section wrappers still interleave text; Homer 95.7%, *Republic* 97.6%, Hippocrates 99.9%, Aeschylus 97%.
+Lines inside a textpart path are keyed with the path (Homer "1:5"); Stephanus `<milestone unit="section" n="327a"/>` sections are units; a block that contains units no longer has its text read twice. Result: **96,462 loci over 54 authors** (Homer 20,330, Aeschylus 6,923, Sophocles 6,142, Thucydides 5,155, Aristophanes 3,346, Xenophon 2,968, Hippocrates 2,654, Plato 2,238, Polybius 2,209, Pindar 1,717, Herodotus 1,623, Theocritus 911, Apollonius Rhodius 768, Nonnus 231 …). Dilemma blind match **87.8% [87.6–88.0]** overall; highest on Hippocrates (94.4), 89–90 on Attic prose and drama, lowest on the late/epic poets (Theocritus 76.8, Apollonius 68.9, Nonnus 48.9: dialect and epic vocabulary). odyCy is scored only where the project has its lemmas (62,400 First1K loci: 74.8). Known alignment gaps to fix next: Plato *Laws* (4%) and Herodotus (18%) — their page/section wrappers still interleave text; Homer 95.7%, *Republic* 97.6%, Hippocrates 99.9%, Aeschylus 97%.
+
+## v0.3 (2026-11-07, day): the aligner fixed, 257 editions, 96,462 loci over 54 authors
+
+**What changed.** (1) `relocate.py` rebuilt: a one-pass, document-order passage index (text belongs to the last section marker seen, across speech, paragraph and page wrappers; Stephanus sections; lines keyed book:line) and a confirmed-jump aligner (a forward jump must be confirmed by the next token). Plato *Laws* 4% → 98% of tokens aligned, Herodotus 18% → 99.6%, Strabo 4% → 97%, Euripides 56% → 99%, Xenophon 62% → 98%; no work got worse (`align_check.py`). (2) Round 2 of the Perseus fetch (`perseus_tokens_more.py`): every LSJ-cited work with 50 or more citations and no held edition was tried at perseus-grc1/2/3 and First1K; 217 found, one missing (Xenophon tlg0032.tlg015), 2.45M new tokens; the holdings are now 257 editions. (3) The scorer checks the cached surface against the gold surface at the index and counts a mismatch as missing (`misaligned_surface`): the kit-made Stanza caches for First1K works were off the project's token stream and are replaced by caches built on it (`perseus_caches.py --first1k`).
+
+**Numbers.** 249,090 LSJ citations into held works; located **96,462** (Morpheus 67,898, quoted form 28,564); ambiguous 12,816; not located 113,636; locator not in edition 26,176. Authors with 100 or more loci: 34.
+
+**Dilemma** 87.84 [87.63–88.05] on 96,281 loci (strict 84.88, article-neutral 87.89). **odyCy** 74.82 [74.48–75.16] on 62,400 loci (First1K lemmas from the project's frozen run; Perseus works lemmatised token-by-token by `perseus_caches.py`, caches still being filled). Stanza and Stoicheia rows carry only the works whose aligned caches exist so far and are provisional.
+
+| author | loci | Dilemma | odyCy |
+|---|---|---|---|
+| Homer | 20,329 | 85.84 | 76.47 |
+| Aeschylus | 7,776 | 90.29 | 72.66 |
+| Herodotus | 7,627 | 87.59 | 82.25 |
+| Plato | 7,590 | 89.97 | 72.32 |
+| Euripides | 7,284 | 87.9 | — |
+| Sophocles | 6,694 | 89.38 | 82.55 |
+| Aristophanes | 5,974 | 88.68 | 66.37 |
+| Xenophon | 5,934 | 90.09 | 73.87 |
+| Thucydides | 5,155 | 89.64 | 75.29 |
+| Demosthenes | 3,530 | 90.28 | — |
+| Hippocrates | 2,654 | 94.4 | 61.68 |
+| Pindar | 2,440 | 85.01 | 67.91 |
+| Polybius | 2,209 | 90.18 | — |
+| Hesiod | 1,448 | 84.11 | — |
+| New Testament | 1,218 | 90.15 | — |
+| Isocrates | 1,216 | 89.23 | — |
+| Theocritus | 935 | 76.77 | 53.4 |
+| Apollonius Rhodius | 770 | 68.88 | 43.64 |
+| Lysias | 737 | 90.37 | — |
+| Strabo | 652 | 79.72 | — |
+| Antiphon | 631 | 90.02 | — |
+| Aeschines | 533 | 89.68 | — |
+| Andocides | 451 | 91.57 | — |
+| Homeric Hymns | 451 | 79.33 | — |
+
+**Coverage** (`coverage.py`, `docs/lsj-gold/coverage.html`): of 254,849 LSJ citations with a CTS URN, 249,090 now point into a held edition; what remains is mostly works with under 50 citations.
+
+**Still open (reported, not patched).** The not-located count (113,636) is mostly Morpheus coverage (the cache was built for Galen; `--online` fills it at about 0.5 s a surface) and citations by a locator scheme the edition does not carry. Stanza and Stoicheia rows over the whole benchmark wait for their cache loops. Validation (60/60, 20/20 controls) was done on the v0 loci; a new blind sheet over the enlarged set is the next check.

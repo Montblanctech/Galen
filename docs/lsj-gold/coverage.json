@@ -1,0 +1,3840 @@
+{
+ "date": "2026-11-07",
+ "lsj_citations_with_cts_urn": 254849,
+ "cited_works": 375,
+ "held_works": 276,
+ "citations_into_held_works": 249090,
+ "citations_located": 96462,
+ "missing_by_author": [
+  {
+   "author": "tlg0060",
+   "author_name": "Diodorus",
+   "citations": 3742,
+   "works": 1
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "citations": 435,
+   "works": 16
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "citations": 433,
+   "works": 13
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "citations": 307,
+   "works": 16
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "citations": 232,
+   "works": 27
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "citations": 140,
+   "works": 6
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "citations": 125,
+   "works": 8
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "citations": 110,
+   "works": 1
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "citations": 105,
+   "works": 3
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "citations": 74,
+   "works": 4
+  },
+  {
+   "author": "tlg0062",
+   "author_name": "Lucian",
+   "citations": 48,
+   "works": 2
+  },
+  {
+   "author": "tlg0535",
+   "author_name": "Callistratus",
+   "citations": 7,
+   "works": 1
+  },
+  {
+   "author": "tlg0556",
+   "author_name": "Asclepiodotus",
+   "citations": 1,
+   "works": 1
+  }
+ ],
+ "works": [
+  {
+   "author": "tlg0012",
+   "author_name": "Homer",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 24251,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 12597
+  },
+  {
+   "author": "tlg0016",
+   "author_name": "Herodotus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 20241,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 7627
+  },
+  {
+   "author": "tlg0012",
+   "author_name": "Homer",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 15035,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 7732
+  },
+  {
+   "author": "tlg0003",
+   "author_name": "Thucydides",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 12256,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 5155
+  },
+  {
+   "author": "tlg0543",
+   "author_name": "Polybius",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 7311,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 2209
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg030",
+   "work_name": "",
+   "citations": 4874,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 2328
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg034",
+   "work_name": "",
+   "citations": 4589,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1985
+  },
+  {
+   "author": "tlg0099",
+   "author_name": "Strabo",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 3875,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 652
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 3867,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1541
+  },
+  {
+   "author": "tlg0060",
+   "author_name": "Diodorus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 3742,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0008",
+   "author_name": "Athenaeus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 3271,
+   "held": true,
+   "edition": "perseus-grc3",
+   "located": 23
+  },
+  {
+   "author": "tlg0001",
+   "author_name": "Apollonius Rhodius",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 3079,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 770
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 3063,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1344
+  },
+  {
+   "author": "tlg0005",
+   "author_name": "Theocritus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 3047,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 912
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg005",
+   "work_name": "Ἀγαμέμνων",
+   "citations": 2937,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1461
+  },
+  {
+   "author": "tlg0033",
+   "author_name": "Pindar",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 2499,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 974
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg003",
+   "work_name": "Προμηθεὺς Δεσμώτης",
+   "citations": 2450,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 1824
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 2416,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 922
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 2374,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1174
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg035",
+   "work_name": "",
+   "citations": 2338,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 2256,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1218
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg003",
+   "work_name": "Ajax",
+   "citations": 2122,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 323
+  },
+  {
+   "author": "tlg0033",
+   "author_name": "Pindar",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 2101,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 743
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 2052,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1028
+  },
+  {
+   "author": "tlg2045",
+   "author_name": "Nonnus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 2037,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 242
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 1970,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1092
+  },
+  {
+   "author": "tlg0526",
+   "author_name": "Josephus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1885,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 2
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 1884,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 986
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 1855,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 801
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 1818,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 1810,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 812
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 1808,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0011",
+   "author_name": "Sophocles",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1797,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 873
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg004",
+   "work_name": "Ἑπτὰ ἐπὶ Θήβας",
+   "citations": 1795,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 1258
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg002",
+   "work_name": "Πέρσαι",
+   "citations": 1769,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 816
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 1754,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 670
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 1740,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 692
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 1726,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 573
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg006",
+   "work_name": "Χοηφóρoι",
+   "citations": 1646,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 708
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1616,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 606
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 1604,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 630
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg007",
+   "work_name": "Εὐμενίδες",
+   "citations": 1597,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 1120
+  },
+  {
+   "author": "tlg0020",
+   "author_name": "Hesiod",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 1538,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 692
+  },
+  {
+   "author": "tlg0033",
+   "author_name": "Pindar",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 1517,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 633
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 1404,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 562
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 1401,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 655
+  },
+  {
+   "author": "tlg0085",
+   "author_name": "Aeschylus",
+   "work": "tlg001",
+   "work_name": "Ἱκέτιδες",
+   "citations": 1401,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 589
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg018",
+   "work_name": "",
+   "citations": 1397,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 729
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg038",
+   "work_name": "",
+   "citations": 1390,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 1343,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 643
+  },
+  {
+   "author": "tlg0020",
+   "author_name": "Hesiod",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1314,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 488
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 1312,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 542
+  },
+  {
+   "author": "tlg0023",
+   "author_name": "Oppian",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1280,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 202
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg016",
+   "work_name": "",
+   "citations": 1264,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 501
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg006",
+   "work_name": "Epidemiarum",
+   "citations": 1250,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 564
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 1189,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 414
+  },
+  {
+   "author": "tlg0004",
+   "author_name": "Diogenes Laertius",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1168,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 3
+  },
+  {
+   "author": "tlg0525",
+   "author_name": "Pausanias",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1139,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 237
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 1121,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 450
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 1112,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 478
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 1109,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 525
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg010",
+   "work_name": "De articulis",
+   "citations": 1105,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 649
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 1059,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 347
+  },
+  {
+   "author": "tlg0526",
+   "author_name": "Josephus",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 1050,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 1048,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 285
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 1042,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 420
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 1018,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 407
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 985,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 342
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 958,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 424
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 952,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 394
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg025",
+   "work_name": "",
+   "citations": 938,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 2
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg021",
+   "work_name": "",
+   "citations": 910,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 461
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 906,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 384
+  },
+  {
+   "author": "tlg0024",
+   "author_name": "Oppian of Apamea",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 900,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 133
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 887,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 359
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg018",
+   "work_name": "",
+   "citations": 856,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 335
+  },
+  {
+   "author": "tlg0019",
+   "author_name": "Aristophanes",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 843,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 337
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 838,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 435
+  },
+  {
+   "author": "tlg2046",
+   "author_name": "Quintus Smyrnaeus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 830,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 161
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 827,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 359
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 804,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 317
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 791,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 344
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 789,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 291
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 783,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 299
+  },
+  {
+   "author": "tlg0033",
+   "author_name": "Pindar",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 769,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 90
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 732,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 326
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 724,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 296
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 704,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 262
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 688,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 8
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg019",
+   "work_name": "",
+   "citations": 679,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 271
+  },
+  {
+   "author": "tlg0026",
+   "author_name": "Aeschines [Sp.]",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 677,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 259
+  },
+  {
+   "author": "tlg0653",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 672,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 149
+  },
+  {
+   "author": "tlg0020",
+   "author_name": "Hesiod",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 663,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 268
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg012",
+   "work_name": "Aphorismi",
+   "citations": 645,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 488
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 628,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 286
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 626,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 238
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 602,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 214
+  },
+  {
+   "author": "tlg0719",
+   "author_name": "",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 574,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 140
+  },
+  {
+   "author": "tlg0027",
+   "author_name": "Andocides",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 552,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 245
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg003",
+   "work_name": "Res Publica Atheniensium",
+   "citations": 546,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 2
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 541,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 202
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg019",
+   "work_name": "",
+   "citations": 535,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 201
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 527,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 192
+  },
+  {
+   "author": "tlg0006",
+   "author_name": "Euripides",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 514,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 256
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 511,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 189
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 506,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 167
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg009",
+   "work_name": "De fracturis",
+   "citations": 496,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 291
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg004",
+   "work_name": "De diaeta in morbis acutis",
+   "citations": 494,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 9
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg034",
+   "work_name": "Ars Poetica",
+   "citations": 491,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0026",
+   "author_name": "Aeschines [Sp.]",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 476,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 155
+  },
+  {
+   "author": "tlg0058",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 420,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 106
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 413,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 156
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 410,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 211
+  },
+  {
+   "author": "tlg0719",
+   "author_name": "",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 403,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 87
+  },
+  {
+   "author": "tlg0026",
+   "author_name": "Aeschines [Sp.]",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 387,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 119
+  },
+  {
+   "author": "tlg0284",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 371,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1
+  },
+  {
+   "author": "tlg0028",
+   "author_name": "Antiphon",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 355,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 178
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg001",
+   "work_name": "De prisca medicina",
+   "citations": 346,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 187
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 332,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 132
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg021",
+   "work_name": "",
+   "citations": 314,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 146
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 309,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 116
+  },
+  {
+   "author": "tlg0648",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 302,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 54
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg024",
+   "work_name": "",
+   "citations": 296,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 111
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg002",
+   "work_name": "Mark Chapter 1",
+   "citations": 289,
+   "held": true,
+   "edition": "INTF-grc1",
+   "located": 0
+  },
+  {
+   "author": "tlg0719",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 282,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 68
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 281,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 122
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 276,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 91
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg036",
+   "work_name": "",
+   "citations": 274,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 104
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 273,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 83
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg023",
+   "work_name": "",
+   "citations": 270,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 116
+  },
+  {
+   "author": "tlg0028",
+   "author_name": "Antiphon",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 263,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 139
+  },
+  {
+   "author": "tlg0034",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 252,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 117
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg020",
+   "work_name": "",
+   "citations": 248,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 125
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg019",
+   "work_name": "",
+   "citations": 226,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 112
+  },
+  {
+   "author": "tlg0719",
+   "author_name": "",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 226,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 26
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg003",
+   "work_name": "Prognosticon",
+   "citations": 225,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 155
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 224,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 112
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg020",
+   "work_name": "",
+   "citations": 224,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 97
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 219,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 94
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg025",
+   "work_name": "",
+   "citations": 209,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 85
+  },
+  {
+   "author": "tlg0027",
+   "author_name": "Andocides",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 207,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 100
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 205,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 97
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 199,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 64
+  },
+  {
+   "author": "tlg0647",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 199,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 34
+  },
+  {
+   "author": "tlg0532",
+   "author_name": "Achilles Tatius",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 197,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 38
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 196,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 68
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 193,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 70
+  },
+  {
+   "author": "tlg0028",
+   "author_name": "Antiphon",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 191,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 95
+  },
+  {
+   "author": "tlg0561",
+   "author_name": "Longus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 188,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 21
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 185,
+   "held": true,
+   "edition": "perseus-grc1",
+   "located": 82
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 185,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 95
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 179,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 78
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 175,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 70
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg028",
+   "work_name": "",
+   "citations": 174,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 77
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 169,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 66
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg059",
+   "work_name": "",
+   "citations": 169,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 55
+  },
+  {
+   "author": "tlg0028",
+   "author_name": "Antiphon",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 167,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 88
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg027",
+   "work_name": "",
+   "citations": 167,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 84
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 166,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 76
+  },
+  {
+   "author": "tlg0533",
+   "author_name": "Callimachus",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 166,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 10
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 164,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 73
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 164,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 63
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg019",
+   "work_name": "",
+   "citations": 161,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 56
+  },
+  {
+   "author": "tlg0028",
+   "author_name": "Antiphon",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 160,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 76
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 156,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 76
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 155,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg007",
+   "work_name": "De capitis vulneribus",
+   "citations": 153,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 61
+  },
+  {
+   "author": "tlg1799",
+   "author_name": "Euclid",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 152,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 9
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 151,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 92
+  },
+  {
+   "author": "tlg0548",
+   "author_name": "Apollodorus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 150,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 19
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg016",
+   "work_name": "",
+   "citations": 148,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 64
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 147,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 25
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 147,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 67
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 145,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 47
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg022",
+   "work_name": "",
+   "citations": 142,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 52
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 141,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 24
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 139,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 74
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 138,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 62
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg008",
+   "work_name": "De officina medici",
+   "citations": 137,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 85
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 133,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 77
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 132,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 65
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 132,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 60
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg027",
+   "work_name": "",
+   "citations": 131,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 38
+  },
+  {
+   "author": "tlg0526",
+   "author_name": "Josephus",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 131,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 1
+  },
+  {
+   "author": "tlg0028",
+   "author_name": "Antiphon",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 127,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 55
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 127,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0554",
+   "author_name": "Chariton",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 123,
+   "held": true,
+   "edition": "perseus-grc1",
+   "located": 18
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg054",
+   "work_name": "",
+   "citations": 122,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 55
+  },
+  {
+   "author": "tlg0655",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 120,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 18
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 117,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 54
+  },
+  {
+   "author": "tlg0027",
+   "author_name": "Andocides",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 117,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 50
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg035",
+   "work_name": "",
+   "citations": 112,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 44
+  },
+  {
+   "author": "tlg0027",
+   "author_name": "Andocides",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 111,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 56
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 110,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 110,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg019",
+   "work_name": "",
+   "citations": 108,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 46
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg018",
+   "work_name": "",
+   "citations": 107,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 56
+  },
+  {
+   "author": "tlg0032",
+   "author_name": "Xenophon",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 107,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 34
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg045",
+   "work_name": "",
+   "citations": 107,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 41
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 104,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 31
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg034",
+   "work_name": "",
+   "citations": 103,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 32
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg021",
+   "work_name": "",
+   "citations": 101,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 25
+  },
+  {
+   "author": "tlg4081",
+   "author_name": "",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 101,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 12
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 99,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 38
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg028",
+   "work_name": "De ulceribus",
+   "citations": 97,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 33
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg043",
+   "work_name": "",
+   "citations": 95,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 28
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 94,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 51
+  },
+  {
+   "author": "tlg0059",
+   "author_name": "Plato",
+   "work": "tlg035",
+   "work_name": "",
+   "citations": 94,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 42
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 93,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 28
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 92,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 9
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg047",
+   "work_name": "",
+   "citations": 91,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 30
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 90,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 4
+  },
+  {
+   "author": "tlg0005",
+   "author_name": "Theocritus",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 89,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 23
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg051",
+   "work_name": "Praeceptiones",
+   "citations": 88,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 42
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg057",
+   "work_name": "",
+   "citations": 88,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 87,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 39
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg050",
+   "work_name": "",
+   "citations": 87,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 32
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 85,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 27
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg063",
+   "work_name": "",
+   "citations": 84,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 44
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 82,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 41
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg029",
+   "work_name": "",
+   "citations": 82,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 32
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg027",
+   "work_name": "De morbo sacro",
+   "citations": 80,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 35
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 80,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 36
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg036",
+   "work_name": "",
+   "citations": 80,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 28
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg022",
+   "work_name": "",
+   "citations": 79,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 27
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg037",
+   "work_name": "",
+   "citations": 79,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 79,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 18
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 79,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 36
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg061",
+   "work_name": "",
+   "citations": 77,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 77,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 28
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 76,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 38
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg020",
+   "work_name": "",
+   "citations": 76,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 24
+  },
+  {
+   "author": "tlg0557",
+   "author_name": "Epictetus",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 75,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 16
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg044",
+   "work_name": "",
+   "citations": 75,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 27
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 75,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 20
+  },
+  {
+   "author": "tlg0057",
+   "author_name": "Galen",
+   "work": "tlg010",
+   "work_name": "De naturalibus facultatibus",
+   "citations": 74,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 41
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg056",
+   "work_name": "",
+   "citations": 73,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 32
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 73,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 27
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg033",
+   "work_name": "",
+   "citations": 72,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg032",
+   "work_name": "",
+   "citations": 70,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 25
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg030",
+   "work_name": "",
+   "citations": 70,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 30
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg040",
+   "work_name": "",
+   "citations": 69,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 28
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 67,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 22
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg049",
+   "work_name": "",
+   "citations": 67,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 20
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 66,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg024",
+   "work_name": "",
+   "citations": 66,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 24
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 66,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 32
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg039",
+   "work_name": "",
+   "citations": 66,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 24
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 65,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 20
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg062",
+   "work_name": "",
+   "citations": 65,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 33
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg020",
+   "work_name": "",
+   "citations": 64,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 21
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 63,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg028",
+   "work_name": "",
+   "citations": 63,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 26
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 61,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 13
+  },
+  {
+   "author": "tlg0086",
+   "author_name": "Aristotle",
+   "work": "tlg045",
+   "work_name": "",
+   "citations": 61,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg060",
+   "work_name": "",
+   "citations": 61,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 29
+  },
+  {
+   "author": "tlg0062",
+   "author_name": "Lucian",
+   "work": "tlg052",
+   "work_name": "",
+   "citations": 59,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 12
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 59,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 19
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg016",
+   "work_name": "",
+   "citations": 58,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 22
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 57,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 11
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg016",
+   "work_name": "",
+   "citations": 57,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 28
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 57,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 21
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg053",
+   "work_name": "",
+   "citations": 57,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 17
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg021",
+   "work_name": "",
+   "citations": 56,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 27
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg032",
+   "work_name": "",
+   "citations": 56,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 13
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg058",
+   "work_name": "",
+   "citations": 55,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 31
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg042",
+   "work_name": "",
+   "citations": 55,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 23
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg048",
+   "work_name": "",
+   "citations": 54,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 20
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg031",
+   "work_name": "",
+   "citations": 54,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 31
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg022",
+   "work_name": "",
+   "citations": 52,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 30
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 52,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 22
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 52,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 21
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 50,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 2
+  },
+  {
+   "author": "tlg0526",
+   "author_name": "Josephus",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 50,
+   "held": true,
+   "edition": "perseus-grc2",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg025",
+   "work_name": "",
+   "citations": 49,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 49,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg055",
+   "work_name": "",
+   "citations": 48,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 48,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 48,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg046",
+   "work_name": "De alimento",
+   "citations": 48,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 26
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 47,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 47,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 47,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg030",
+   "work_name": "",
+   "citations": 46,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 46,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 44,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 43,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg026",
+   "work_name": "",
+   "citations": 41,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 41,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg041",
+   "work_name": "",
+   "citations": 39,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg030",
+   "work_name": "De fistulis",
+   "citations": 38,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 18
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg019",
+   "work_name": "",
+   "citations": 37,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg023",
+   "work_name": "",
+   "citations": 37,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg026",
+   "work_name": "",
+   "citations": 36,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 36,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 36,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 35,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg018",
+   "work_name": "",
+   "citations": 35,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 33,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 33,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 32,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 32,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0062",
+   "author_name": "Lucian",
+   "work": "tlg051",
+   "work_name": "",
+   "citations": 31,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg028",
+   "work_name": "",
+   "citations": 31,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg038",
+   "work_name": "",
+   "citations": 30,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0017",
+   "author_name": "Isaeus",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 29,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg027",
+   "work_name": "",
+   "citations": 28,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 28,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg046",
+   "work_name": "",
+   "citations": 27,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg008",
+   "work_name": "",
+   "citations": 27,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg051",
+   "work_name": "",
+   "citations": 26,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg007",
+   "work_name": "",
+   "citations": 26,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 24,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg052",
+   "work_name": "",
+   "citations": 23,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg033",
+   "work_name": "",
+   "citations": 22,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg023",
+   "work_name": "",
+   "citations": 22,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 22,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg016",
+   "work_name": "",
+   "citations": 21,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg029",
+   "work_name": "De haemorrhoidibus",
+   "citations": 21,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 10
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 20,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg029",
+   "work_name": "",
+   "citations": 19,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 18,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 18,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0062",
+   "author_name": "Lucian",
+   "work": "tlg050",
+   "work_name": "",
+   "citations": 17,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg029",
+   "work_name": "",
+   "citations": 15,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg031",
+   "work_name": "",
+   "citations": 14,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0014",
+   "author_name": "Demosthenes",
+   "work": "tlg031",
+   "work_name": "",
+   "citations": 14,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg030",
+   "work_name": "",
+   "citations": 14,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg027",
+   "work_name": "",
+   "citations": 14,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 13,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg032",
+   "work_name": "",
+   "citations": 13,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg027",
+   "work_name": "",
+   "citations": 13,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg023",
+   "work_name": "",
+   "citations": 13,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 13,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 11,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 11,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg024",
+   "work_name": "",
+   "citations": 10,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "work": "tlg004",
+   "work_name": "",
+   "citations": 9,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg033",
+   "work_name": "",
+   "citations": 8,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg026",
+   "work_name": "",
+   "citations": 8,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg025",
+   "work_name": "",
+   "citations": 8,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0535",
+   "author_name": "Callistratus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 7,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 7,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg034",
+   "work_name": "",
+   "citations": 7,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg022",
+   "work_name": "",
+   "citations": 7,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg026",
+   "work_name": "",
+   "citations": 7,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg010",
+   "work_name": "",
+   "citations": 7,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 6,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg028",
+   "work_name": "",
+   "citations": 6,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg018",
+   "work_name": "",
+   "citations": 6,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg022",
+   "work_name": "",
+   "citations": 5,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg018",
+   "work_name": "",
+   "citations": 5,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg009",
+   "work_name": "",
+   "citations": 5,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg003",
+   "work_name": "",
+   "citations": 5,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg023",
+   "work_name": "",
+   "citations": 5,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0031",
+   "author_name": "New Testament",
+   "work": "tlg024",
+   "work_name": "",
+   "citations": 5,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg029",
+   "work_name": "",
+   "citations": 4,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg014",
+   "work_name": "",
+   "citations": 4,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0540",
+   "author_name": "Lysias",
+   "work": "tlg005",
+   "work_name": "",
+   "citations": 4,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg020",
+   "work_name": "",
+   "citations": 4,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg002",
+   "work_name": "",
+   "citations": 4,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0551",
+   "author_name": "Appian",
+   "work": "tlg006",
+   "work_name": "",
+   "citations": 3,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0627",
+   "author_name": "Hippocrates",
+   "work": "tlg013",
+   "work_name": "Iusiurandum",
+   "citations": 3,
+   "held": true,
+   "edition": "1st1K-grc1",
+   "located": 1
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg017",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg012",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg015",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg016",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg024",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg028",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg011",
+   "work_name": "",
+   "citations": 2,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg021",
+   "work_name": "",
+   "citations": 1,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0030",
+   "author_name": "Hyperides",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0010",
+   "author_name": "Isocrates",
+   "work": "tlg030",
+   "work_name": "",
+   "citations": 1,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0013",
+   "author_name": "Homeric Hymns",
+   "work": "tlg013",
+   "work_name": "",
+   "citations": 1,
+   "held": false,
+   "edition": "",
+   "located": 0
+  },
+  {
+   "author": "tlg0556",
+   "author_name": "Asclepiodotus",
+   "work": "tlg001",
+   "work_name": "",
+   "citations": 1,
+   "held": false,
+   "edition": "",
+   "located": 0
+  }
+ ]
+}

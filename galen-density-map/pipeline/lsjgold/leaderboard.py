@@ -18,11 +18,7 @@ HERE = Path(__file__).resolve().parent
 GDM = HERE.parent.parent
 QC = GDM / "data" / "qc" / "lsjgold"
 DOCS = GDM.parent / "docs" / "lsj-gold"
-NAMES = {"tlg0085": "Aeschylus", "tlg0011": "Sophocles", "tlg0627": "Hippocrates", "tlg0086": "Aristotle", "tlg0057": "Galen", "tlg0031": "New Testament",
-         "tlg0012": "Homer", "tlg0016": "Herodotus", "tlg0003": "Thucydides", "tlg0059": "Plato", "tlg0006": "Euripides", "tlg0019": "Aristophanes",
-         "tlg0032": "Xenophon", "tlg0543": "Polybius", "tlg0099": "Strabo", "tlg0008": "Athenaeus", "tlg0001": "Apollonius Rhodius", "tlg0005": "Theocritus",
-         "tlg0033": "Pindar", "tlg0014": "Demosthenes", "tlg0020": "Hesiod", "tlg0023": "Oppian", "tlg2045": "Nonnus", "tlg0526": "Josephus", "tlg0525": "Pausanias",
-         "tlg0004": "Diogenes Laertius", "tlg0060": "Diodorus", "tlg0007": "Plutarch", "tlg0062": "Lucian", "tlg0010": "Isocrates", "tlg0028": "Antiphon"}
+from lsjgold_names import NAMES, author_name  # noqa: E402
 LABELS = {"odycy": "odyCy 0.7.0 (grc_odycy_joint_trf)", "dilemma": "Dilemma 1.3.15 (Open Greek, lsj convention)",
           "stanza_perseus": "Stanza 1.14 grc-perseus", "stanza_proiel": "Stanza 1.14 grc-proiel", "stoicheia": "Stoicheia tagger-parser (2026)"}
 
@@ -42,9 +38,9 @@ def main() -> None:
                      "by_author": {a: b["by_author"].get(a) for a in authors}, "by_lsj_tier": b["by_lsj_tier"], "by_validation": b["by_validation"]})
     DOCS.mkdir(parents=True, exist_ok=True)
     lb = {"benchmark": "LSJ-Gold", "version": version, "date": scores["date"], "n_loci": n_gold, "loci_per_author": scores["loci_per_author"],
-          "relocation": stats.get("status_counts"), "rule": stats.get("rule"), "rows": rows,
+          "relocation": stats.get("status_counts"), "rule": stats.get("rule"), "rows": rows, "author_names": {a: author_name(a) for a in authors},
           "citation": "Pepperman, W. (2026). LSJ-Gold: lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek. Galen Density Project. DOI: pending",
-          "how_to_submit": "produce <stem>.jsonl token files for the covered First1K editions with your lemmas, run pipeline/lsjgold/score.py --system-cache <dir>, then pipeline/lsjgold/leaderboard.py; open a pull request with the three output files"}
+          "how_to_submit": "open a pull request adding submissions/<system>/<stem>.jsonl token caches ({i, surface, lemma} per token of the covered editions); CI scores them with `greek-lemma-audit lsjgold` and the maintainers add the row at the next version (see submissions/README.md)"}
     (DOCS / "leaderboard.json").write_text(json.dumps(lb, indent=2, ensure_ascii=False), encoding="utf-8")
 
     def ci(r):
@@ -54,7 +50,7 @@ def main() -> None:
          "<title>LSJ-Gold leaderboard</title>",
          "<style>body{font:15px/1.45 Georgia,serif;max-width:980px;margin:2rem auto;padding:0 1rem;color:#222}table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border-bottom:1px solid #ccc;padding:.35rem .5rem;text-align:left;vertical-align:top}th{background:#f3f1ec}.ci{color:#777;font-size:.85em}.b{font-weight:bold}.small{color:#555;font-size:.9em}code{background:#f3f1ec;padding:0 .25em}</style></head><body>",
          f"<h1>LSJ-Gold leaderboard</h1><p class=small>Lemmatizer accuracy on the <em>dictionary-cited stratum</em> of Ancient Greek: tokens that Liddell–Scott–Jones cites for a headword, relocated into First1KGreek editions. Version <b>{html.escape(version)}</b>. Numbers never change inside a version; a new author or system is a new version.</p>",
-         "<table><tr><th>system</th><th>loci</th><th>match (accent-blind) %</th><th>strict %</th><th>article-neutral %</th>" + "".join(f"<th>{NAMES.get(a,a)}<br><span class=small>n {scores['loci_per_author'][a]}</span></th>" for a in authors) + "</tr>"]
+         "<table><tr><th>system</th><th>loci</th><th>match (accent-blind) %</th><th>strict %</th><th>article-neutral %</th>" + "".join(f"<th>{author_name(a)}<br><span class=small>n {scores['loci_per_author'][a]}</span></th>" for a in authors) + "</tr>"]
     for r in rows:
         h.append(f"<tr><td>{html.escape(r['label'])}</td><td>{r['scored']}</td><td class=b>{r['blind_pct']} <span class=ci>[{r['blind_ci'][0]}–{r['blind_ci'][1]}]</span></td><td>{r['strict_pct']}</td><td>{r['article_neutral_pct']}</td>"
                  + "".join(f"<td>{ci(r['by_author'].get(a))}</td>" for a in authors) + "</tr>")
@@ -66,11 +62,12 @@ def main() -> None:
     h.append("</table>")
     sc = stats.get("status_counts", {})
     h.append(f"<h2>How the loci were made</h2><p class=small>{html.escape(stats.get('rule',''))}. Of {stats.get('citations_into_held_works','?')} LSJ citations into works held here: located {sc.get('located')}, ambiguous {sc.get('ambiguous')}, not located {sc.get('not_located')} (mostly Morpheus coverage, being filled), locator not in our edition {sc.get('locator_not_in_edition')}. Match = the system's lemma equals the LSJ headword after accent/case normalisation; strict = exact; article-neutral maps the article's forms to ὁ before comparing.</p>")
+    h.append("<h2>Coverage</h2><p class=small>Which works LSJ cites, which are held here, and what a missing edition would add: <a href=coverage.html>the coverage map</a> (<a href=coverage.json>JSON</a>).</p>")
     h.append("<h2>Honesty</h2><p class=small>LSJ cites what a 1940 lexicographer found worth citing: this is the rare, dictionary-worthy stratum, not overall accuracy. The Perseus LSJ XML is incomplete. Only works held in First1K editions are covered. odyCy's lemmas are a frozen 2026-07 run; Dilemma is context-free on the surface; convention differences count against a system in the strict and blind columns and are partly undone in the article-neutral one. No human has validated the relocation yet; the blind salted sheet is in the repository.</p>")
-    h.append("<h2>Submit a system</h2><p class=small><code>pip install greek-lemma-audit</code>; write <code>&lt;stem&gt;.jsonl</code> token files for the covered editions with your lemmas; run <code>pipeline/lsjgold/score.py --system-cache &lt;dir&gt;</code> and <code>pipeline/lsjgold/leaderboard.py</code>; open a pull request. Data CC BY 4.0, code MIT. Cite: Pepperman, W. (2026), LSJ-Gold, Galen Density Project, DOI pending.</p>")
+    h.append("<h2>Submit a system</h2><p class=small>Write <code>&lt;stem&gt;.jsonl</code> token caches for the covered editions with your lemmas (<code>{i, surface, lemma}</code> per token) and open a pull request adding them under <code>submissions/&lt;system&gt;/</code>; CI scores them with <code>greek-lemma-audit lsjgold</code> (<code>pip install greek-lemma-audit</code>) and the row is added at the next version. Details: <code>submissions/README.md</code>. Data CC BY 4.0, code MIT. Cite: Pepperman, W. (2026), LSJ-Gold, Galen Density Project, DOI pending.</p>")
     h.append("</body></html>")
     (DOCS / "index.html").write_text("\n".join(h), encoding="utf-8")
-    md = [f"# LSJ-Gold leaderboard — {version}", "", "| system | loci | blind % [95% CI] | strict % | article-neutral % | " + " | ".join(NAMES.get(a, a) for a in authors) + " |",
+    md = [f"# LSJ-Gold leaderboard — {version}", "", "| system | loci | blind % [95% CI] | strict % | article-neutral % | " + " | ".join(author_name(a) for a in authors) + " |",
           "|---|---|---|---|---|" + "---|" * len(authors)]
     for r in rows:
         md.append(f"| {r['label']} | {r['scored']} | **{r['blind_pct']}** [{r['blind_ci'][0]}–{r['blind_ci'][1]}] | {r['strict_pct']} | {r['article_neutral_pct']} | "

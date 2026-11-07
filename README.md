@@ -24,11 +24,11 @@ a headword map and a blind reader pass (`outputs/phase3/punch_list_v3.csv`: thin
 thin_contested 84, artifact_suspect 602, real_no_perseus_lsj 108, real_contested 24); two
 pre-registered probes report negative results (an LSJ-first-gloss glossary makes translations
 worse; polysemy does not predict instability); and the project ships **LSJ-Gold**, a benchmark of
-lemmatizer accuracy on the words the dictionary itself cites: **57,278 relocated loci over 17
+lemmatizer accuracy on the words the dictionary itself cites: **96,462 relocated loci over 17
 authors**, CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
 [audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
-Dilemma (lexicon-first) matches the lexicographer's headword 87.7% of the time; odyCy 69.0% where
-it has lemmas. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
+Dilemma (lexicon-first) matches the lexicographer's headword 87.8% of the time; odyCy 74.8% on the
+62,400 loci its caches cover. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
 
 ## Contents
 
@@ -43,7 +43,7 @@ it has lemmas. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data
 | [`galen-density-map/outputs/`](galen-density-map/outputs/) | Keyness scores, per-corpus lemma frequencies, audited exclusion logs, QC summary |
 | [`galen-density-map/data/qc/`](galen-density-map/data/qc/) | QC artifacts, incl. `h3m/` machine-bounded lemmatizer-accuracy measurements + METHODS |
 | [`galen-density-map/outputs/phase3/`](galen-density-map/outputs/phase3/) | Phase 3 v0: attributed punch list, headword map, blind reader pass, `punch_list_v3.csv` |
-| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0.csv`, 57,278 loci), scores, validation sheets, README |
+| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0.csv`, 96,462 loci), scores, validation sheets, README |
 | [`release/lsj-gold-0.1/`](release/lsj-gold-0.1/) | The LSJ-Gold release folder (CSV, schema, scores, leaderboard JSON, CC BY 4.0, checksums) |
 | [`docs/lsj-gold/`](docs/lsj-gold/) | The leaderboard page and JSON (GitHub Pages) |
 | [`audit-kit/`](audit-kit/) | `greek-lemma-audit`: Morpheus floor, cross-system agreement, LSJ gold, blind sheets, `lsjgold` scoring (MIT, on PyPI) |
@@ -63,8 +63,8 @@ cross-system agreement with Stanza is 82.9% pairwise / 94.2% vs-consensus (optim
 treebanks); on **1,850** gold loci mined from LSJ's own Galen citations, odyCy matches the
 lexicographer's headword **62.3%** accent-blind — a rare-stratum accuracy that independently
 confirms the rarity→failure pattern. Error is **reported, never patched**. v3.0 adds a fourth bound, **M5**, two blind model readers on the salted
-human protocol (83.3% / 81.7%, κ 0.94), and widens the gold to **LSJ-Gold** across 17 authors, where
-the lexicon-first Dilemma reaches 87.7% and the neural systems 60–70%; 71% of their disagreement
+human protocol (83.3% / 81.7%, κ 0.94), and widens the gold to **LSJ-Gold** across 54 authors, where
+the lexicon-first Dilemma reaches 87.8% and odyCy 74.8% (61.7% on Hippocrates); 71% of their disagreement
 with each other is the article convention (`outputs/t1/`).
 
 ## Reproducibility

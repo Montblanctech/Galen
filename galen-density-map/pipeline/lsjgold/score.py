@@ -11,6 +11,7 @@ Outputs data/qc/lsjgold/lsj_gold_scores.json, lsj_gold_table.md, lsj_gold_scored
 from __future__ import annotations
 
 import argparse
+import datetime
 import csv
 import json
 import math
@@ -85,6 +86,8 @@ def main() -> None:
                         ody[(stem, i)] = nfc(json.loads(line).get("lemma", ""))
                 break
     systems: dict[str, dict[tuple[str, int], str]] = {"odycy": ody}
+    surf: dict[tuple[str, str, int], str] = {}   # (system, stem, index) -> cached surface, for the alignment check
+    misaligned: Counter = Counter()
     # cached systems
     for d in a.system_cache:
         for sysdir in Path(d).iterdir():
@@ -95,9 +98,13 @@ def main() -> None:
                 p = sysdir / f"{stem}.jsonl"
                 if p.exists():
                     for i, line in enumerate(p.open(encoding="utf-8")):
-                        if i in idxs:
-                            r = json.loads(line)
-                            m[(stem, int(r.get("i", i)))] = nfc(r.get("lemma", ""))
+                        r = json.loads(line)
+                        k = int(r.get("i", i))
+                        if k in idxs:
+                            # a cache made from another tokenisation (the kit's own) drifts off the project's token stream:
+                            # the surface at the index must match the gold surface, else the row is missing, never scored
+                            surf[(sysdir.name, stem, k)] = nfc(r.get("surface", ""))
+                            m[(stem, k)] = nfc(r.get("lemma", ""))
     # dilemma on surfaces
     if not a.no_dilemma:
         try:
@@ -134,6 +141,10 @@ def main() -> None:
         row = dict(g, lsj_tier=tier)
         for name, m in systems.items():
             lem = m.get(key)
+            cs = surf.get((name,) + key)
+            if lem is not None and cs is not None and cs and blind(cs) != blind(g["surface"]):
+                misaligned[name] += 1
+                lem = None
             row[f"{name}_lemma"] = lem if lem is not None else ""
             if lem is None or lem == "":
                 row[f"{name}_blind"] = ""
@@ -157,10 +168,10 @@ def main() -> None:
         scored.append(row)
 
     authors = sorted({g["author"] for g in gold})
-    res = {"date": "2026-11-06", "gold": str(a.gold.name), "n_loci": len(gold), "loci_per_author": dict(Counter(g["author"] for g in gold)),
+    res = {"date": datetime.date.today().isoformat(), "gold": str(a.gold.name), "n_loci": len(gold), "loci_per_author": dict(Counter(g["author"] for g in gold)),
            "systems": {}}
     for name, c in agg.items():
-        block = {"scored": c["n"], "missing": c["missing"], "match_blind": rate(c["blind"], c["n"]), "match_strict": rate(c["strict"], c["n"]),
+        block = {"scored": c["n"], "missing": c["missing"], "misaligned_surface": misaligned.get(name, 0), "match_blind": rate(c["blind"], c["n"]), "match_strict": rate(c["strict"], c["n"]),
                  "match_article_neutral": rate(c["conv"], c["n"]),
                  "by_author": {au: rate(c[f"author:{au}:blind"], c[f"author:{au}:n"]) for au in authors if c[f"author:{au}:n"] >= MIN_AUTHOR_ROW},
                  "by_lsj_tier": {t: rate(c[f"tier:{t}:blind"], c[f"tier:{t}:n"]) for t in ("rich", "thin", "absent") if c[f"tier:{t}:n"]},
@@ -172,7 +183,8 @@ def main() -> None:
         w = csv.DictWriter(fh, fieldnames=cols)
         w.writeheader()
         w.writerows(scored)
-    names = {"tlg0085": "Aeschylus", "tlg0011": "Sophocles", "tlg0627": "Hippocrates", "tlg0086": "Aristotle", "tlg0031": "Xenophon", "tlg0057": "Galen"}
+    from lsjgold_names import author_name
+    names = {au: author_name(au) for au in set(authors) | set(res["loci_per_author"])}
     md = [f"# LSJ-Gold v0 — lemmatizer accuracy on the dictionary-cited stratum ({res['date']})", "",
           f"{len(gold)} relocated loci ({', '.join(f'{names.get(k,k)} {v}' for k, v in res['loci_per_author'].items())}). Match = accent-blind headword equality; article-neutral maps ἡ/τό/τῶν… → ὁ. Wilson 95% in brackets.", "",
           "| system | loci | blind % | strict % | article-neutral % | " + " | ".join(names.get(au, au) for au in authors) + " |",

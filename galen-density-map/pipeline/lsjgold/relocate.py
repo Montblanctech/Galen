@@ -99,145 +99,97 @@ def held_works() -> dict[tuple[str, str], tuple[Path, Path]]:
 
 # ---------------------------------------------------------------- TEI passage index
 def passage_index(xml_path: Path) -> list[tuple[str, list[str]]]:
-    """Ordered [(locator, tokens)] for a TEI edition: lines (n) or textpart div paths joined by ':'."""
+    """Ordered [(locator, tokens)] for a TEI edition: lines (n), textpart div paths joined by ':', or Stephanus
+    section milestones (<milestone unit="section" n="327a"/>).
+
+    One pass in document order with a unit cursor, so every word is read once and in the order the token JSONL
+    has it. A textpart div without section milestones is its own unit (path "1:2:2"); inside a div that carries
+    section milestones anywhere below (Plato: book > page div > p > said > milestone), running text belongs to the
+    last milestone seen, across <p>/<said> wrappers and page-div boundaries. <l n> lines are units of their own
+    (Homer "1:5", drama bare "1172") except inside milestone text (quoted verse in Plato stays in its section).
+    A unit interrupted by a nested unit resumes under the same key; only distinct elements sharing a key get '@n'."""
     parser = etree.XMLParser(recover=True, huge_tree=True, remove_comments=True, remove_pis=True)
     tree = etree.parse(str(xml_path), parser)
     body = tree.xpath("//*[local-name()='body']")
     if not body:
         return []
-    out: list[tuple[str, list[str]]] = []
+    SKIP = ("note", "bibl", "ref", "head", "speaker", "label", "app", "rdg", "wit")
+    LSKIP = ("note", "bibl", "ref", "app", "rdg", "wit")  # inside a line: speaker/label/head words are kept
 
-    def has_units(el) -> bool:
-        """Does this element contain textpart divs or lines anywhere below? (then its text is theirs, not ours)"""
-        for d in el.iter():
-            if d is el:
-                continue
-            t = local(d.tag)
-            if (t == "div" and d.get("type") == "textpart" and d.get("n")) or (t == "l" and d.get("n"))                     or (t == "milestone" and d.get("unit") == "section" and d.get("n")):
-                return True
-        return False
+    def is_ms(e) -> bool:
+        return local(e.tag) == "milestone" and e.get("unit") == "section" and bool(e.get("n"))
 
-    def own_tokens(el) -> list[str]:
-        # text of this element excluding nested units (handled as their own units), notes and apparatus
-        parts = []
-        if el.text:
-            parts.append(el.text)
+    segs: list[tuple[str, int, str]] = []  # (key, unit uid, text) in document order
+    state = {"ms": None, "uid": 0}
+    lines: set[int] = set()
+
+    def new_uid() -> int:
+        state["uid"] += 1
+        return state["uid"]
+
+    def key_for(ctx, msmode):
+        if state["ms"] is not None and (msmode or ctx is None):
+            return state["ms"]
+        return ctx
+
+    def emit(unit, text):
+        if unit is not None and text:
+            segs.append((unit[0], unit[1], text))
+
+    def line_text(el) -> str:
+        parts = [el.text or ""]
+        for g in el:  # drop editorial notes/apparatus nested in the line, keep its words
+            if local(g.tag) not in LSKIP:
+                parts.append("".join(g.itertext()))
+            parts.append(g.tail or "")
+        return " ".join(parts)
+
+    def walk(el, path: list[str], ctx, msmode: bool):
+        emit(key_for(ctx, msmode), el.text)
         for ch in el:
             t = local(ch.tag)
-            if t in ("note", "bibl", "ref", "head", "speaker", "label", "app", "rdg", "wit"):
+            if t == "milestone":
+                if is_ms(ch):
+                    state["ms"] = (ch.get("n"), new_uid())
+            elif t in SKIP:
                 pass
-            elif (t == "div" and ch.get("type") == "textpart") or t == "l" or has_units(ch):
-                pass
-            else:
-                parts.append("".join(ch.itertext()))
-            if ch.tail:
-                parts.append(ch.tail)
-        return TOKEN_RE.findall(" ".join(parts))
-
-    def milestone_units(el, path: list[str]) -> bool:
-        """Stephanus-style sections: <milestone unit="section" n="327a"/> splitting the running text of an element.
-        Emits one unit per milestone (text up to the next milestone, nested elements' text included, notes dropped)."""
-        ms = [g for g in el if local(g.tag) == "milestone" and g.get("unit") == "section" and g.get("n")]
-        if not ms:
-            return False
-        cur = None
-        buf: list[str] = []
-        def flush():
-            if cur is not None:
-                toks = clean_tokens(TOKEN_RE.findall(" ".join(buf)))
-                if toks:
-                    out.append((cur, toks))
-        if el.text:
-            buf.append(el.text)
-        for g in el:
-            t = local(g.tag)
-            if t == "milestone" and g.get("unit") == "section" and g.get("n"):
-                flush()
-                cur, buf = g.get("n"), []
-            elif t in ("note", "bibl", "ref", "head", "speaker", "label", "app", "rdg", "wit", "milestone"):
-                pass
-            else:
-                sub = [t2 for t2 in g.iter() if local(t2.tag) == "milestone" and t2.get("unit") == "section"]
-                if sub:
-                    # a nested element that itself carries section milestones: recurse into it with the same cursor
-                    for part in _split_by_milestones(g):
-                        if part[0] is None:
-                            buf.append(part[1])
-                        else:
-                            flush()
-                            cur, buf = part[0], [part[1]]
-                else:
-                    buf.append("".join(g.itertext()))
-            if g.tail:
-                buf.append(g.tail)
-        flush()
-        return True
-
-    def _split_by_milestones(g):
-        """[(None, text)] then (n, text) chunks for an element with section milestones anywhere inside."""
-        parts: list[tuple[str | None, str]] = []
-        cur_text: list[str] = []
-        cur_key = None
-        def push():
-            parts.append((cur_key, " ".join(cur_text)))
-        if g.text:
-            cur_text.append(g.text)
-        for ch in g:
-            t = local(ch.tag)
-            if t == "milestone" and ch.get("unit") == "section" and ch.get("n"):
-                push()
-                cur_key, cur_text = ch.get("n"), []
-            elif t in ("note", "bibl", "ref", "head", "speaker", "label", "app", "rdg", "wit", "milestone"):
-                pass
-            else:
-                for k2, txt in _split_by_milestones(ch):
-                    if k2 is None:
-                        cur_text.append(txt)
-                    else:
-                        push()
-                        cur_key, cur_text = k2, [txt]
-            if ch.tail:
-                cur_text.append(ch.tail)
-        push()
-        return parts
-
-    def walk(el, path: list[str]):
-        if milestone_units(el, path):
-            return
-        for ch in el:
-            t = local(ch.tag)
-            if t == "div" and ch.get("type") == "textpart" and ch.get("n"):
+            elif t == "div" and ch.get("type") == "textpart" and ch.get("n"):
                 p = path + [ch.get("n")]
-                if not milestone_units(ch, p):
-                    own = own_tokens(ch)
-                    own = clean_tokens(own)
-                    if own:
-                        out.append((":".join(p), own))
-                    walk(ch, p)
-            elif t == "l" and ch.get("n"):
-                parts = [ch.text or ""]
-                for g in ch:  # drop editorial notes/apparatus nested in the line, keep its words
-                    if local(g.tag) not in ("note", "bibl", "ref", "app", "rdg", "wit"):
-                        parts.append("".join(g.itertext()))
-                    parts.append(g.tail or "")
+                walk(ch, p, (":".join(p), new_uid()), any(is_ms(d) for d in ch.iter()))
+            elif t == "l" and ch.get("n") and not (msmode and state["ms"] is not None):
                 key = ":".join(path + [ch.get("n")]) if path else ch.get("n")  # Homer "1:5"; drama keeps the bare line number
-                out.append((key, clean_tokens(TOKEN_RE.findall(" ".join(parts)))))
-            elif t in ("note",):
-                continue
+                u = new_uid()
+                lines.add(u)
+                emit((key, u), line_text(ch) or " ")
             else:
-                walk(ch, path)
+                walk(ch, path, ctx, msmode)
+            emit(key_for(ctx, msmode), ch.tail)
 
-    walk(body[0], [])
-    seen: dict[str, int] = {}
-    uniq: list[tuple[str, list[str]]] = []
-    for k, toks in out:
-        if k in seen:
-            seen[k] += 1
-            uniq.append((f"{k}@{seen[k]}", toks))  # unreachable by an LSJ locator, still aligned
+    walk(body[0], [], None, False)
+
+    # merge consecutive segments of one unit; a unit that resumes after a nested unit keeps its key
+    units: list[tuple[str, int, list[str]]] = []
+    for key, uid, text in segs:
+        if units and units[-1][1] == uid:
+            units[-1][2].append(text)
         else:
-            seen[k] = 0
-            uniq.append((k, toks))
-    return uniq
+            units.append((key, uid, [text]))
+    owner: dict[str, int] = {}
+    n_dup: Counter = Counter()
+    uid_key: dict[int, str] = {}
+    out: list[tuple[str, list[str]]] = []
+    for key, uid, texts in units:
+        toks = clean_tokens(TOKEN_RE.findall(" ".join(texts)))
+        if uid not in uid_key:
+            if key in owner:
+                n_dup[key] += 1
+                uid_key[uid] = f"{key}@{n_dup[key]}"  # unreachable by an LSJ locator, still aligned
+            else:
+                owner[key] = uid
+                uid_key[uid] = key
+        if toks or uid in lines:  # empty prose units (all words in nested units) are dropped; lines kept as before
+            out.append((uid_key[uid], toks))
+    return out
 
 
 def align_to_jsonl(passages: list[tuple[str, list[str]]], jsonl: Path) -> dict[str, list[tuple[str, int | None]]]:
@@ -253,9 +205,22 @@ def align_to_jsonl(passages: list[tuple[str, list[str]]], jsonl: Path) -> dict[s
         nxt = flat[n + 1][1] if n + 1 < len(flat) else None
         nxt2 = flat[n + 2][1] if n + 2 < len(flat) else None
         idx = None
+        bn = blind(nxt) if nxt is not None else None
+
+        def confirmed(k: int) -> bool:
+            # a forward jump must be backed by the next passage token right after it: otherwise a common word
+            # (δὲ, καὶ) or a blind near-match (crasis ταὐτὰ ~ ταῦτα) drags the pointer ahead and alignment runs away
+            if not bn:
+                return True
+            if any(k + e < len(toks) and bkeys[k + e] == bn for e in (1, 2, 3)):
+                return True
+            # on a short hop the next token may itself differ (elision ἀλλʼ ~ ἀλλά): accept the one after it
+            bn2 = blind(nxt2) if nxt2 is not None and k - j <= 2 else ""
+            return bool(bn2) and any(k + e < len(toks) and bkeys[k + e] == bn2 for e in (2, 3, 4))
+
         # 1. exact NFC match within a short lookahead (TEI apparatus tokens are skipped by leaving the pointer alone)
         for d in range(0, 40):
-            if j + d < len(toks) and toks[j + d] == pn:
+            if j + d < len(toks) and toks[j + d] == pn and (d == 0 or confirmed(j + d)):
                 idx = j + d
                 break
         # 2. accent/case-blind match within a shorter window
@@ -263,13 +228,13 @@ def align_to_jsonl(passages: list[tuple[str, list[str]]], jsonl: Path) -> dict[s
             pb = blind(pn)
             if pb:
                 for d in range(0, 8):
-                    if j + d < len(toks) and bkeys[j + d] == pb:
+                    if j + d < len(toks) and bkeys[j + d] == pb and (d == 0 or confirmed(j + d)):
                         idx = j + d
                         break
         # 3. long resync only when genuinely lost (8+ consecutive misses: front matter, a hypothesis, a gap), and only
         #    on a three-token confirmation so a pair of function words cannot drag the pointer away
         if idx is None and miss_streak >= 8 and nxt is not None and nxt2 is not None:
-            bn, bn2 = blind(nxt), blind(nxt2)
+            bn2 = blind(nxt2)
             for d in range(0, 3000):
                 k = j + d
                 if k + 2 < len(toks) and toks[k] == pn and bkeys[k + 1] == bn and bkeys[k + 2] == bn2:
@@ -390,7 +355,7 @@ def main() -> None:
     for (au, wk), rows in sorted(by_work.items(), key=lambda kv: -len(kv[1])):
         xml, jsonl = held[(au, wk)]
         passages = passage_index(xml)
-        keys = [k for k, _ in passages]
+        keys = list(dict.fromkeys(k for k, _ in passages))  # a unit resumed after a nested unit appears twice
         aligned = align_to_jsonl(passages, jsonl)
         n_tok = sum(len(v) for v in aligned.values())
         n_al = sum(1 for v in aligned.values() for _, i in v if i is not None)
