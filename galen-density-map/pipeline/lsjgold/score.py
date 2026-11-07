@@ -71,6 +71,12 @@ def main() -> None:
             parts = x.stem.split("_")[3].split(".")
             held.setdefault((parts[0], parts[1]), x.stem)
     lsj = json.load((GDM / "data" / "lsj" / "_lsj_index.json").open(encoding="utf-8"))
+    cites_path = OUT / "lsj_citation_counts.json"   # entry key -> LSJ citations with a CTS URN (lsj_citation_counts.py)
+    cites = json.load(cites_path.open(encoding="utf-8")) if cites_path.exists() else {}
+
+    def cites_tier(entry_key: str) -> str:
+        n = cites.get(entry_key, 0)
+        return "unknown" if not n else "1" if n == 1 else "2-5" if n <= 5 else "6+"
 
     # odyCy lemmas at indices
     need = defaultdict(set)
@@ -138,7 +144,8 @@ def main() -> None:
         hit = lsj.get(lemma_to_lookup_key(g["headword"]))
         senses = int(hit.get("lsj_sense_count") or 0) if hit else 0
         tier = "absent" if senses == 0 else ("thin" if senses == 1 else "rich")
-        row = dict(g, lsj_tier=tier)
+        ct = cites_tier(g.get("entry_key", ""))
+        row = dict(g, lsj_tier=tier, cites_tier=ct)
         for name, m in systems.items():
             lem = m.get(key)
             cs = surf.get((name,) + key)
@@ -165,6 +172,8 @@ def main() -> None:
             agg[name][f"tier:{tier}:blind"] += b
             agg[name][f"val:{g['validation']}:n"] += 1
             agg[name][f"val:{g['validation']}:blind"] += b
+            agg[name][f"cites:{ct}:n"] += 1
+            agg[name][f"cites:{ct}:blind"] += b
         scored.append(row)
 
     authors = sorted({g["author"] for g in gold})
@@ -175,7 +184,8 @@ def main() -> None:
                  "match_article_neutral": rate(c["conv"], c["n"]),
                  "by_author": {au: rate(c[f"author:{au}:blind"], c[f"author:{au}:n"]) for au in authors if c[f"author:{au}:n"] >= MIN_AUTHOR_ROW},
                  "by_lsj_tier": {t: rate(c[f"tier:{t}:blind"], c[f"tier:{t}:n"]) for t in ("rich", "thin", "absent") if c[f"tier:{t}:n"]},
-                 "by_validation": {v: rate(c[f"val:{v}:blind"], c[f"val:{v}:n"]) for v in ("morpheus", "quoted") if c[f"val:{v}:n"]}}
+                 "by_validation": {v: rate(c[f"val:{v}:blind"], c[f"val:{v}:n"]) for v in ("morpheus", "quoted") if c[f"val:{v}:n"]},
+                 "by_lsj_citations": {t: rate(c[f"cites:{t}:blind"], c[f"cites:{t}:n"]) for t in ("1", "2-5", "6+", "unknown") if c[f"cites:{t}:n"]}}
         res["systems"][name] = block
     (OUT / "lsj_gold_scores.json").write_text(json.dumps(res, indent=2, ensure_ascii=False), encoding="utf-8")
     cols = list(dict.fromkeys(k for r in scored for k in r))  # union: Perseus rows have no odyCy strict field

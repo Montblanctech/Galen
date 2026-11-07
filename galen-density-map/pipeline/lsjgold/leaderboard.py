@@ -53,7 +53,8 @@ def main() -> None:
         rows.append({"system": name, "label": LABELS.get(name, name), "scored": b["scored"], "missing": b["missing"],
                      "blind_pct": b["match_blind"]["pct"], "blind_ci": b["match_blind"]["wilson95"],
                      "strict_pct": b["match_strict"]["pct"], "article_neutral_pct": b["match_article_neutral"]["pct"],
-                     "by_author": {a: b["by_author"].get(a) for a in authors}, "by_lsj_tier": b["by_lsj_tier"], "by_validation": b["by_validation"]})
+                     "by_author": {a: b["by_author"].get(a) for a in authors}, "by_lsj_tier": b["by_lsj_tier"], "by_validation": b["by_validation"],
+                     "by_lsj_citations": b.get("by_lsj_citations", {})})
     DOCS.mkdir(parents=True, exist_ok=True)
     lb = {"benchmark": "LSJ-Gold", "version": version, "date": scores["date"], "n_loci": n_gold, "loci_per_author": scores["loci_per_author"],
           "relocation": stats.get("status_counts"), "rule": stats.get("rule"), "rows": rows, "author_names": {a: author_name(a) for a in authors},
@@ -78,6 +79,12 @@ def main() -> None:
         t, v = r["by_lsj_tier"], r["by_validation"]
         h.append(f"<tr><td>{html.escape(r['label'])}</td><td>{ci(t.get('rich'))}</td><td>{ci(t.get('thin'))}</td><td>{ci(v.get('morpheus'))}</td><td>{ci(v.get('quoted'))}</td></tr>")
     h.append("</table>")
+    if any(r["by_lsj_citations"] for r in rows):
+        h.append("<h2>By how often LSJ cites the headword</h2><p class=small>The hapax stratum: headwords the dictionary cites exactly once are the rarest words it bothered to record.</p><table><tr><th>system</th><th>cited once</th><th>cited 2–5 times</th><th>cited 6 or more</th></tr>")
+        for r in rows:
+            c = r["by_lsj_citations"]
+            h.append(f"<tr><td>{html.escape(r['label'])}</td><td>{ci(c.get('1'))} <span class=small>n {c.get('1', {}).get('n', '')}</span></td><td>{ci(c.get('2-5'))} <span class=small>n {c.get('2-5', {}).get('n', '')}</span></td><td>{ci(c.get('6+'))} <span class=small>n {c.get('6+', {}).get('n', '')}</span></td></tr>")
+        h.append("</table>")
     sc = stats.get("status_counts", {})
     h.append(f"<h2>How the loci were made</h2><p class=small>{html.escape(stats.get('rule',''))}. Of {stats.get('citations_into_held_works','?')} LSJ citations into works held here: located {sc.get('located')}, ambiguous {sc.get('ambiguous')}, not located {sc.get('not_located')} (mostly Morpheus coverage, being filled), locator not in our edition {sc.get('locator_not_in_edition')}. Match = the system's lemma equals the LSJ headword after accent/case normalisation; strict = exact; article-neutral maps the article's forms to ὁ before comparing.</p>")
     h.append("<h2>Coverage</h2><p class=small>Which works LSJ cites, which are held here, and what a missing edition would add: <a href=coverage.html>the coverage map</a> (<a href=coverage.json>JSON</a>).</p>")

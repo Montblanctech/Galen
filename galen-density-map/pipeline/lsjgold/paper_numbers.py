@@ -82,6 +82,12 @@ def main() -> None:
     tex += m("dilemmaHippo", by_author("dilemma", "tlg0627") or "--") + m("odycyHippo", by_author("odycy", "tlg0627") or "--")
     tex += m("dilemmaNonnus", by_author("dilemma", "tlg2045") or "--") + m("dilemmaOppian", by_author("dilemma", "tlg0023") or "--") + m("dilemmaApollonius", by_author("dilemma", "tlg0001") or "--")
     tex += m("conventionShare", conv["share_by_class_pct"]["article"])
+    def cites(sysname, tier):
+        r = sysd.get(sysname, {}).get("by_lsj_citations", {}).get(tier)
+        return r["pct"] if r else "--"
+    tex += m("dilemmaHapax", cites("dilemma", "1")) + m("odycyHapax", cites("odycy", "1")) + m("stanzaHapax", cites("stanza_perseus", "1"))
+    tex += m("dilemmaFreq", cites("dilemma", "6+")) + m("odycyFreq", cites("odycy", "6+")) + m("stanzaFreq", cites("stanza_perseus", "6+"))
+    tex += m("nHapaxLoci", f"{sysd['dilemma']['by_lsj_citations'].get('1', {}).get('n', 0):,}" if "dilemma" in sysd else "--")
     tex += m("valRandom", val["n_random"]) + m("valControls", meta["n_anchors"] + meta["n_plants"]) + m("valRandomPct", val_random_pct) + m("valControlsCaught", plants_caught + anchors_caught) + m("valKappa", val.get("between_readers", {}).get("kappa", "--"))
     tex += m("valMorpheusPct", round(100 * morph / max(1, morph + quoted), 1)) + m("valQuotedPct", round(100 * quoted / max(1, morph + quoted), 1))
     OUT.mkdir(exist_ok=True)
@@ -109,6 +115,15 @@ def main() -> None:
         t.append(f"{author_name(a)} & {scores['loci_per_author'][a]:,} & " + " & ".join(cells) + " \\\\")
     t += ["\\bottomrule", "\\end{tabular}", "\\caption{Accent-blind match by author (loci with at least 100 scored rows per system; -- otherwise).}", "\\end{table}"]
     (OUT / "table_authors.tex").write_text("\n".join(t) + "\n", encoding="utf-8")
+
+    # by how often LSJ cites the headword
+    t = ["\\begin{table}[t]\\centering\\small", "\\begin{tabular}{lrrr}", "\\toprule", "system & cited once & cited 2--5 times & cited 6 or more \\\\", "\\midrule"]
+    for name, b in rows:
+        c = b.get("by_lsj_citations", {})
+        cells = [f"{c[k]['pct']} ({c[k]['n']:,})" if k in c else "--" for k in ("1", "2-5", "6+")]
+        t.append(f"{tex_escape(LABELS.get(name, name))} & " + " & ".join(cells) + " \\\\")
+    t += ["\\bottomrule", "\\end{tabular}", "\\caption{Accent-blind match by how often LSJ cites the headword anywhere (its hapax stratum first); N in parentheses.}", "\\end{table}"]
+    (OUT / "table_cites.tex").write_text("\n".join(t) + "\n", encoding="utf-8")
     print(tex)
 
 
