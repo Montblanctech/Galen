@@ -28,9 +28,9 @@ lemmatizer accuracy on the words the dictionary itself cites: **93,926 relocated
 authors**, CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
 [audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
 Dilemma (lexicon-first) matches the lexicographer's headword 90.1% of the time; Stanza-Perseus 79.6% and
-odyCy 75.7% and Stanza-PROIEL 72.0%, all on the same 90,452 loci; Stoicheia, a 2026 diffusion tagger, 87.6% on the
-7,233 First1K loci scored so far (Aeschylus 93.1 and Sophocles 94.4, above Dilemma there; Hippocrates 78.3, far below it).
-On headwords LSJ cites only once: Dilemma 83.8%, Stoicheia 78.0%, the treebank-trained systems 51–53%. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
+odyCy 75.7% and Stanza-PROIEL 72.0%, all on the same 90,452 loci; Stoicheia, a 2026 diffusion tagger, 87.6% on 36,542 loci
+(Aeschylus 93.1 and Sophocles 94.4, above Dilemma there; Homer 88.4 and Plato 89.8, level with it; Herodotus 84.7 and
+Hippocrates 78.3, below it). On headwords LSJ cites only once: Dilemma 83.8%, Stoicheia 75.0%, the treebank-trained systems 51–53%. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
 
 ## Contents
 
