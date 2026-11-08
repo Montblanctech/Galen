@@ -34,7 +34,7 @@ A system is scored by comparing its lemma at `token_index` with `headword`: acce
 The four neural rows are on the same 90,452 loci. Per-author columns for every system are in `leaderboard.json`; the live page is https://montblanctech.github.io/Galen/lsj-gold/.
 
 ## Files
-- `lsj_gold.csv` — one row per locus: `headword`, `headword_key` (accent-blind Beta Code), `author`, `work` (TLG ids), `cited_edition`, `locator` (CTS passage), `unit`, `token_index` (0-based, into the project's token JSONL for that edition), `surface`, `validation` (`morpheus` or `quoted`), `quoted_form`, `lsj_part`, `entry_key`, `status`. Columns are described in `SCHEMA.md`.
+- `lsj_gold.csv` (on Hugging Face as `lsj_gold.csv.gz`; the checksum in `CHECKSUMS.sha256` is for the uncompressed file) — one row per locus: `headword`, `headword_key` (accent-blind Beta Code), `author`, `work` (TLG ids), `cited_edition`, `locator` (CTS passage), `unit`, `token_index` (0-based, into the project's token JSONL for that edition), `surface`, `validation` (`morpheus` or `quoted`), `quoted_form`, `lsj_part`, `entry_key`, `status`. Columns are described in `SCHEMA.md`.
 - `lsj_gold_scores.json` — the reference scores with strata (LSJ tier, validation route, citation frequency) and per-author figures.
 - `leaderboard.json` — the table as the leaderboard page renders it.
 - `SCHEMA.md`, `CITATION.cff`, `LICENSE`, `CHECKSUMS.sha256`.
