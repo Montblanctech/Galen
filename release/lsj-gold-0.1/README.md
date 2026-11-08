@@ -7,33 +7,51 @@ tags:
   - lemmatization
   - evaluation
   - lexicography
-  - galen
-pretty_name: LSJ-Gold and the Galen punch list
+  - benchmark
+task_categories:
+  - token-classification
+pretty_name: LSJ-Gold
 size_categories:
   - 10K<n<100K
 ---
 
-# LSJ-Gold 0.1 (rule v0.3.1, 93,926 loci over 54 authors) + the Galen Density Project punch list (v3)
+# LSJ-Gold 0.1: lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek
 
-**LSJ-Gold** is a benchmark for Ancient Greek lemmatizers on the *dictionary-cited stratum*: every row is a token in a First1KGreek or Perseus edition that the Liddell–Scott–Jones lexicon (Perseus XML) cites for a headword, relocated to its exact token index with the method and validation route recorded (`morpheus`: the surface's Morpheus analyses contain the headword; `quoted`: the surface equals LSJ's quoted form). Score any lemmatizer by comparing its lemma at that token with the LSJ headword (accent-blind, strict, and article-convention-neutral figures are all printed by the reference scorer).
+**LSJ-Gold** measures Ancient Greek lemmatizers on the words the dictionary itself cites. Every citation in the Perseus Liddell–Scott–Jones XML that points, by CTS URN, into a free Greek edition we hold (First1KGreek and 257 Perseus editions) is relocated to its exact token and validated by Morpheus (the surface's analyses contain the headword) or by the lexicon's own quoted form (the surface equals the form LSJ quotes beside the citation). Rule v0.3.1: **93,926 loci over 54 authors**, provenance on every row, relocation checked blind twice (60/60 on the first sheet; 57/60 and 56/60 with salted controls on the second).
 
-**The punch list (v3)** is the Galen Density Project's 1,433 Galenic key lemmas with LSJ sense tiers, Dilemma headword map, two blind readers' verdicts and the 108 real headwords missing from the Perseus LSJ.
+A system is scored by comparing its lemma at `token_index` with `headword`: accent-blind (the headline figure), strict, and article-convention-neutral figures are all printed by the reference scorer. Wilson 95% intervals in `lsj_gold_scores.json`.
+
+## Reference table (2026-11-08)
+
+| system | loci | headword match % | once-cited headwords % | cited 6+ times % |
+|---|---|---|---|---|
+| Dilemma 1.3.15 (Open Greek, lexicon-first) | 93,750 | **90.1** [89.9–90.3] | 83.8 | 90.7 |
+| Stoicheia tagger-parser (2026) | 90,452 | **87.7** [87.5–87.9] | 67.6 | 89.6 |
+| Stanza 1.14 grc-perseus | 90,452 | **79.6** [79.3–79.8] | 53.3 | 82.5 |
+| odyCy 0.7.0 (grc_odycy_joint_trf) | 90,452 | **75.7** [75.4–76.0] | 52.6 | 78.0 |
+| Stanza 1.14 grc-proiel | 90,452 | **72.0** [71.7–72.3] | 50.8 | 74.5 |
+
+The four neural rows are on the same 90,452 loci. Per-author columns for every system are in `leaderboard.json`; the live page is https://montblanctech.github.io/Galen/lsj-gold/.
 
 ## Files
-- `lsj_gold_v0.csv` — headword, headword_key (accent-blind Beta Code), author, work, cited_edition, locator, unit, token_index (into the First1K edition's odyCy token stream, `<stem>.jsonl` of the project), surface, validation, quoted_form, lsj_part, entry_key.
-- `lsj_gold_table.md` / `lsj_gold_scores.json` — the reference table (Dilemma 1.3.15 90.1% on 93,750 loci; Stoicheia 87.7%, Stanza 1.14 grc-perseus 79.6%, odyCy 0.7.0 75.7% and Stanza grc-proiel 72.0% on the same 90,452 loci; once-cited headwords: 83.8 / 67.6 / 53.3 / 52.6 / 50.8).
-- `validation/`, `validation_v03/` — the two blind salted sheets, answers, keys (published after scoring) and summaries; `failures/` — the failure catalogue by pattern and headword; `lsj_citation_counts.json` — how often LSJ cites each entry.
-- `punch_list_v3.csv`, `real_headwords_no_perseus_lsj.csv`, `absent_tier_headword_map.csv`, `reader_pass/` — the Galen deliverables with keys published after scoring.
+- `lsj_gold.csv` — one row per locus: `headword`, `headword_key` (accent-blind Beta Code), `author`, `work` (TLG ids), `cited_edition`, `locator` (CTS passage), `unit`, `token_index` (0-based, into the project's token JSONL for that edition), `surface`, `validation` (`morpheus` or `quoted`), `quoted_form`, `lsj_part`, `entry_key`, `status`. Columns are described in `SCHEMA.md`.
+- `lsj_gold_scores.json` — the reference scores with strata (LSJ tier, validation route, citation frequency) and per-author figures.
+- `leaderboard.json` — the table as the leaderboard page renders it.
+- `SCHEMA.md`, `CITATION.cff`, `LICENSE`, `CHECKSUMS.sha256`.
 
 ## How to score your lemmatizer
 ```
-pip install greek-lemma-audit
-# produce <stem>.jsonl token files for the covered works with your lemmas, then
-python pipeline/lsjgold/score.py --system-cache <dir-with-<system>/<stem>.jsonl>
+pip install "git+https://github.com/Montblanctech/Galen#subdirectory=audit-kit"
+greek-lemma-audit lsjgold --system-cache DIR
 ```
+`DIR` holds one `<system>/<stem>.jsonl` token file per covered edition, with your lemma on each token of the project's token stream (the stems and tokenisation are in the repository under `galen-density-map/pipeline/lsjgold/`). A pull request adding such caches under `submissions/<system>/` in the repository is scored by CI and gets its row.
 
-## Honesty
-LSJ cites what a lexicographer found interesting in 1940: this is the rare, dictionary-worthy stratum, not overall accuracy. The Perseus LSJ XML is incomplete. Loci exist only for works held in First1K editions (v0: Hippocrates, Sophocles, Aeschylus (3 plays), Galen). No human reader has validated the relocation yet; the blind salted sheet for that is in the repository.
+## What the numbers mean, and what they do not
+LSJ cites what a lexicographer found worth citing: this is the rare, dictionary-worthy stratum, not overall accuracy, and treebank test scores are not comparable with it. The Perseus LSJ XML is incomplete. Loci exist only for works held in a free edition; citations into works we do not hold, or by a locator scheme the edition does not carry, are counted but not located. Nothing here patches any system's output; every figure traces to a row.
 
-## Citation
-Pepperman, W. (2026). greek-lemma-audit and LSJ-Gold. Zenodo. DOI: [fill in]. Preprint: 10.5281/zenodo.22162810.
+## Source and citation
+Repository and method: https://github.com/Montblanctech/Galen (release v3.0, DOI 10.5281/zenodo.24046260; concept DOI 10.5281/zenodo.21561962). Failure catalogues by system, the medical-vocabulary gap package (Hippocrates and Galen loci the neural systems miss) and the two blind validation sheets are in the repository under `galen-density-map/data/qc/lsjgold/`.
+
+Pepperman, W. (2026). *LSJ-Gold 0.1: lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek* (dataset). Galen Density Project, release v3.0. https://doi.org/10.5281/zenodo.24046260
+
+Underlying texts: First1KGreek (CC BY-SA 4.0), Perseus Digital Library editions and LSJ XML (CC BY-SA 3.0), Morpheus analyses via Perseids. Data: CC BY 4.0.
