@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-08",
+  "n_random": 60,
+  "readers": {
+    "reader_sonnet": {
+      "gate": {
+        "anchors_yes": "10/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 60,
+          "n": 60,
+          "pct": 100.0,
+          "wilson95": [
+            93.98,
+            100.0
+          ]
+        },
+        "no": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        },
+        "unsure": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 60,
+        "n": 60,
+        "pct": 100.0,
+        "wilson95": [
+          93.98,
+          100.0
+        ]
+      }
+    },
+    "reader_opus": {
+      "gate": {
+        "anchors_yes": "10/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 60,
+          "n": 60,
+          "pct": 100.0,
+          "wilson95": [
+            93.98,
+            100.0
+          ]
+        },
+        "no": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        },
+        "unsure": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 60,
+        "n": 60,
+        "pct": 100.0,
+        "wilson95": [
+          93.98,
+          100.0
+        ]
+      }
+    }
+  },
+  "between_readers": {
+    "kappa": NaN,
+    "both_yes": 60,
+    "both_no": 0,
+    "disagree": 0
+  }
+}

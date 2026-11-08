@@ -1,0 +1,81 @@
+row_id,kind,expected,headword,headword_key,author,work,cited_edition,locator,edition_stem,unit,token_index,surface,validation,quoted_form,entry_key,entry_id,status,shown_headword
+L001,random,,Assius,assius,phi0978,phi001,,36:131,phi0978.phi001.perseus-lat2,36:132,390335,Assius,collatinus,"In Asso Troadis sarcophagus lapis fissili venā scinditur. Corpora defunctorum condita in eo absumi constat intra XL. dies exceptis dentibus,",Assius,n4084,located,Assius
+L002,random,,abortus,abortus,phi0978,phi001,,14:118,phi0978.phi001.perseus-lat2,14:117,158717,abortus,collatinus,,abortus,n170,located,abortus
+L003,random,,audio,audio,phi0474,phi002,perseus-lat1,Rosc::18,phi0474.phi002.perseus-lat2,17,1335,audio,collatinus,"nunc dicis aliquid, quod ad rem pertineat,",audio,n4453,located,audio
+L004,random,,de-verto,deuerto,phi1351,phi004,perseus-lat1,2:64,phi1351.phi004.perseus-lat2,2:64,19436,devertere,collatinus,"Interamnam,",deverto,n13601,located,de-verto
+L005,random,,tumultuosus,tumultuosus,phi0474,phi056,perseus-lat1,12:17:1,phi0474.phi056.perseus-lat2,12:17:1,85381,tumultuosiora,collatinus,"ex Syriā tumultuosiora nuntiata sunt,",tumultuosus,n49416,located,tumultuosus
+L006,random,,jaculor,iaculor,phi1002,phi001,,8:2:5,phi1002.phi001.perseus-lat2,8:2:5,101101,iaculari,collatinus,"qui jaculum emittit jaculari dicitur,",jaculor,n25181,located,jaculor
+L007,random,,prae-sto,praesto,phi0978,phi001,,28:186,phi0978.phi001.perseus-lat2,28:185,314477,praestat,collatinus,"praestantissime,",praesto2,n38012,located,prae-sto
+L008,anchor,yes,vastitas,uastitas,phi1254,phi001,perseus-lat1,9:13:4,phi1254.phi001.perseus-lat2,9:13:4,51164,vastitatis,collatinus,"1: hostis formidandae vastitatis,",vastitas,n50247,located,vastitas
+L009,random,,sollicito,sollicito,phi0978,phi001,,17:98,phi0978.phi001.perseus-lat2,17:98,186661,sollicitando,collatinus,,sollicito,n44657,located,sollicito
+L010,plant,no,jungo,iungo,phi0690,phi003,perseus-lat1,7:724,phi0690.phi003.perseus-lat2,7:724,34985,iungit,collatinus,"curru jungit Halaesus Equos,",jungo,n25350,located,juvencus
+L011,random,,laniatus,laniatus,phi0474,phi049,perseus-lat1,1:43:104,phi0474.phi049.perseus-lat2,1:104,10885,laniatus,collatinus,,laniatus,n25782,located,laniatus
+L012,random,,per-ago,perago,phi0959,phi001,perseus-lat1,2:2:2,phi0959.phi001.perseus-lat2,2:2:2,5187,perago,collatinus,"dum perago tecum pauca,",perago,n34619,located,per-ago
+L013,plant,no,Libitina,libitina,phi1294,phi002,perseus-lat1,10:97,phi1294.phi002.perseus-lat2,10:97:1,42199,Libitina,collatinus,"dum levis arsura struitur libitina papyro,",Libitina,n26498,located,lacertus
+L014,random,,bacatus,bacatus,phi0690,phi003,perseus-lat1,1:655,phi0690.phi003.perseus-lat2,1:655,4220,bacatum,collatinus,,bacatus,n4779,located,bacatus
+L015,plant,no,Arruntius,arruntius,phi0978,phi001,,29:7,phi0978.phi001.perseus-lat2,29:7,319803,Arruntios,collatinus,,Arruntius,n3767,located,Atarnea
+L016,random,,depravatio,deprauatio,phi0474,phi048,perseus-lat1,5:12:35,phi0474.phi048.perseus-lat2,5:35,40060,depravatione,collatinus,"distortio et depravatio quaedam (membrorum),",depravatio,n13228,located,depravatio
+L017,random,,con-sido,consido,phi1351,phi005,perseus-lat1,1:30,phi1351.phi005.perseus-lat2,1:30,4212,consederant,collatinus,,consido,n10504,located,con-sido
+L018,plant,no,tignum,tignum,phi0550,phi001,,6:241,phi0550.phi001.perseus-lat1,6:241,41832,tigna,collatinus,"with trabes,",tignum,n48337,located,tempestas
+L019,random,,rego,rego,phi0914,phi001,,21:31,phi0914.phi001.perseus-lat3,21:31:9,166568,recta,collatinus,"rectā regione iter instituere,",rego,n40913,located,rego
+L020,random,,hodie,hodie,phi0893,phi004,perseus-lat1,2:7:21,phi0893.phi004.perseus-lat2,2:7:21,12929,hodie,collatinus,"non dices hodie, quorsum, etc.,",hodie,n20829,located,hodie
+L021,random,,libum,libum,phi0959,phi007,,3:670,phi0959.phi007.perseus-lat2,3:670,14197,liba,collatinus,"rustica liba,",libum,n26527,located,libum
+L022,random,,calculosus,calculosus,phi0836,phi002,perseus-lat3,7:26,phi0836.phi002.perseus-lat4,7:26,86691,calculosis,collatinus,,calculosus,n6209,located,calculosus
+L023,random,,curo,curo,phi0631,phi001,perseus-lat2,9:3,phi0631.phi001.perseus-lat3,9:3,1266,curabant,collatinus,"duabus his artibus ... se remque publicam curabant,",curo,n12025,located,curo
+L024,random,,lutum,lutum,phi1017,phi015,perseus-lat1,88:18,phi1017.phi015.perseus-lat2,11_13:88:18,70569,luto,collatinus,,lutum2,n27301,located,lutum
+L025,random,,ex-specto,exspecto,phi0914,phi001,,26:18:5,phi0914.phi001.perseus-lat2,26:18:5,248073,expectaverant,collatinus,,exspecto,n17239,located,ex-specto
+L026,random,,canalis,canalis,phi0448,phi002,,2:10,phi0448.phi002.perseus-lat3,2:10,12265,canalibus,collatinus,,canalis,n6438,located,canalis
+L027,random,,contra,contra,phi0978,phi001,,4:6,phi0978.phi001.perseus-lat2,4:6,44515,contra,collatinus,"promuntorium quod contra procedit,",contra,n10857,located,contra
+L028,random,,libo,libo,phi1254,phi001,perseus-lat1,12:8:2,phi1254.phi001.perseus-lat2,12:8:2,66799,libaretur,collatinus,"cum solemni die Jovi libaretur,",libo1,n26502,located,libo
+L029,anchor,yes,frango,frango,phi1035,phi001,perseus-lat1,2:458,phi1035.phi001.perseus-lat2,2:459,8621,frangentem,collatinus,,frango,n18704,located,frango
+L030,anchor,yes,acclamatio,acclamatio,phi1002,phi001,,8:3:3,phi1002.phi001.perseus-lat2,8:3:3,102183,acclamatione,collatinus,,acclamatio,n373,located,acclamatio
+L031,random,,Quintilis,quintilis,phi0474,phi057,perseus-lat1,14:7:2,phi0474.phi057.perseus-lat2,14:7:2,103455,Quintili,collatinus,"mense Quintili,",Quintilis,n40214,located,Quintilis
+L032,random,,crudesco,crudesco,phi1351,phi004,perseus-lat1,3:10,phi1351.phi004.perseus-lat2,3:10,25347,crudescere,collatinus,"seditio,",crudesco,n11716,located,crudesco
+L033,random,,cieo,cieo,phi0690,phi002,perseus-lat1,4:64,phi0690.phi002.perseus-lat2,4:64,10926,cie,collatinus,,cieo,n7988,located,cieo
+L034,random,,in-fit,infit,phi0690,phi003,perseus-lat1,11:242,phi0690.phi003.perseus-lat2,11:242,52846,infit,collatinus,"ita farier,",infit,n23220,located,in-fit
+L035,random,,eventus,euentus,phi0474,phi037,perseus-lat1,Orat::1:26:120,phi0474.phi037.perseus-lat2,1:120,7635,eventus,collatinus,"orationis,",eventus,n16462,located,eventus
+L036,random,,levo,leuo,phi0914,phi001,,2:22,phi0914.phi001.perseus-lat2,2:22:3,24108,levatis,collatinus,"aliquem metu,",levo1,n26428,located,levo
+L037,random,,vulgus,uulgus,phi0893,phi002,,2:13:32,phi0893.phi001.perseus-lat2,2:13:32,5443,volgus,collatinus,"densum (umbrarum),",vulgus,n51419,located,vulgus
+L038,random,,re-perio,reperio,phi0119,phi016,perseus-lat1,4:4:9,phi0119.phi016.perseus-lat2,4:4:1046,8061,repperisti,collatinus,"occasionem,",reperio,n41176,located,re-perio
+L039,random,,finitor,finitor,phi1020,phi001,,8:91,phi1020.phi001.perseus-lat2,8:91,36084,finitor,collatinus,"o cunctis finitor maxime rerum (Pluto),",finitor,n18207,located,finitor
+L040,anchor,yes,lenis,lenis,phi0914,phi001,,6:24,phi0914.phi001.perseus-lat2,6:24:2,97695,lenis,collatinus,"clivus,",lenis1,n26222,located,lenis
+L041,random,,cervix,ceruix,phi0474,phi056,perseus-lat1,12:23:2,phi0474.phi056.perseus-lat2,12:23:2,86522,cervicibus,collatinus,"legiones in cervicibus nostris conlocare,",cervix,n7608,located,cervix
+L042,random,,ceterus,ceterus,phi0978,phi001,,22:133,phi0978.phi001.perseus-lat2,22:133,256940,cetera,collatinus,,ceterus,n7640,located,ceterus
+L043,random,,at,at,phi0474,phi013,perseus-lat1,1:22,phi0474.phi013.perseus-lat2,1:22,2283,at,collatinus,"quanta tempestas invidiae nobis, si minus in praesens, at in posteritatem impendeat,",at,n4220,located,at
+L044,random,,stultus,stultus,phi1294,phi002,perseus-lat1,2:86:10,phi1294.phi002.perseus-lat2,2:86:10,8276,stultus,collatinus,"labor,",stultus,n45662,located,stultus
+L045,anchor,yes,sanus,sanus,phi0474,phi053,perseus-lat2,2:31:67,phi0474.phi053.perseus-lat3,2:67,20070,sane,collatinus,"non sane mirabile hoc quidem,",sanus,n42553,located,sanus
+L046,random,,dubius,dubius,phi0914,phi001,,39:40,phi0914.phi001.perseus-lat2,39:40:10,441224,dubio,collatinus,,dubius,n14834,located,dubius
+L047,random,,tonsilis,tonsilis,phi1294,phi002,perseus-lat1,3:58:3,phi1294.phi002.perseus-lat2,3:58:3,10474,tonsilique,collatinus,"buxetum,",tonsilis,n48523,located,tonsilis
+L048,random,,curro,curro,phi0978,phi001,,18:326,phi0978.phi001.perseus-lat2,18:326,213480,curret,collatinus,"limes per agrum,",curro,n12030,located,curro
+L049,random,,pro-pexus,propexus,phi1020,phi001,,2:97,phi1020.phi001.perseus-lat2,2:97,5144,propexaque,collatinus,"propexa mento Canities,",propexus,n38893,located,pro-pexus
+L050,random,,facio,facio,phi0914,phi001,,43:15:5,phi0914.phi001.perseus-lat2,43:15:5,488565,fecerunt,collatinus,"opp. arbitrium alicui in aliqua re,",facio,n17516,located,facio
+L051,anchor,yes,aditus,aditus,phi0474,phi005,perseus-lat1,2:2:160,phi0474.phi005.perseus-lat2,2:2:160,36102,aditu,collatinus,,aditus2,n827,located,aditus
+L052,random,,admonitio,admonitio,phi0978,phi001,,25:88,phi0978.phi001.perseus-lat2,25:88,282599,admonitio,collatinus,"si qua admonitio doloris supersit,",admonitio,n914,located,admonitio
+L053,plant,no,se-moveo,semoueo,phi0550,phi001,,3:66,phi0550.phi001.perseus-lat1,3:66,15335,semota,collatinus,"egestatem ab dulci vitā,",semoveo,n43599,located,sto
+L054,anchor,yes,opto,opto,phi1002,phi001,,10:7:23,phi1002.phi001.perseus-lat2,10:7:23,142767,optabimus,collatinus,"impleri sinus optabamus,",opto,n32852,located,opto
+L055,random,,pax,pax,phi0893,phi004,perseus-lat1,2:2:110,phi0893.phi004.perseus-lat2,2:2:111,8270,pace,collatinus,"in pace,",pax1,n34250,located,pax
+L056,random,,lymphaticus,lymphaticus,phi1017,phi015,perseus-lat1,13:9,phi1017.phi015.perseus-lat2,2:13:9,6720,lymphatici,collatinus,"metus,",lymphaticus,n27378,located,lymphaticus
+L057,plant,no,praecipuus,praecipuus,phi0474,phi043,perseus-lat1,1:4:7,phi0474.phi043.perseus-lat2,1:7,792,praecipuam,collatinus,"non praecipuam, sed parem cum ceteris fortunae conditionem subire,",praecipuus,n37417,located,pes
+L058,plant,no,sano,sano,phi0914,phi001,,6:18,phi0914.phi001.perseus-lat2,6:18:2,95673,sanandis,collatinus,"domestica mala,",sano,n42546,located,sapor
+L059,anchor,yes,strangulo,strangulo,phi1276,phi001,perseus-lat1,10:12,phi1276.phi001.perseus-lat2,4:10:13,15200,strangulat,collatinus,"plures nimiā congesta pecunia curā Strangulat,",strangulo,n45511,located,strangulo
+L060,random,,glorior,glorior,phi0474,phi049,perseus-lat1,1:21:48,phi0474.phi049.perseus-lat2,1:48,4889,gloriari,collatinus,"non pudet philosophum in eo gloriari, quod, etc.,",glorior,n19683,located,glorior
+L061,random,,Casilinum,casilinum,phi0448,phi002,,3:21,phi0448.phi002.perseus-lat2,3:21:5,20136,Casilinum,collatinus,,Casilinum,n6930,located,Casilinum
+L062,random,,carina,carina,phi0448,phi002,,1:54,phi0448.phi002.perseus-lat2,1:54:2,6817,carinae,collatinus,,carina1,n6799,located,carina
+L063,random,,Liber,liber,phi0690,phi002,perseus-lat1,1:7,phi0690.phi002.perseus-lat2,1:7,38,Liber,collatinus,"Liber et alma Ceres,",Liber3,n26467,located,Liber
+L064,plant,no,sumo,sumo,phi1038,phi001,,5:4:4,phi1038.phi001.perseus-lat1,5:4:4,41132,sumpsit,collatinus,,sumo,n46587,located,socordia
+L065,anchor,yes,fodio,fodio,phi0959,phi007,,3:456,phi0959.phi007.perseus-lat2,3:456,12848,fodit,collatinus,"aquas (ungula),",fodio,n18483,located,fodio
+L066,random,,extra-ordinarius,extraordinarius,phi0474,phi056,perseus-lat1,8:8:1,phi0474.phi056.perseus-lat2,8:8:1,51368,extraordinarius,collatinus,"reus,",extraordinarius,n17392,located,extra-ordinarius
+L067,random,,di-rigo,dirigo,phi0914,phi001,,21:47:8,phi0914.phi001.perseus-lat3,21:47:8,170682,directa,collatinus,,dirigo,n14128,located,di-rigo
+L068,random,,per-domo,perdomo,phi0914,phi001,,28:12,phi0914.phi001.perseus-lat2,28:12:12,281281,perdomita,collatinus,"Hispaniam,",perdomo,n34813,located,per-domo
+L069,random,,situs,situs,phi0690,phi003,perseus-lat1,7:452,phi0690.phi003.perseus-lat2,7:452,33261,situ,collatinus,"situm inter oris et barba, etc.): en ego victa situ,",situs2,n44516,located,situs
+L070,random,,ex-aestuo,exaestuo,phi0690,phi002,perseus-lat1,3:240,phi0690.phi002.perseus-lat2,3:240,8395,exaestuat,collatinus,"unda ima verticibus,",exaestuo,n16545,located,ex-aestuo
+L071,plant,no,orno,orno,phi0474,phi048,perseus-lat1,2:34:112,phi0474.phi048.perseus-lat2,2:112,19041,ornatum,collatinus,"syn.: instructus, praeditus): sapiens plurimis artibus instructus et ornatus,",orno,n33028,located,orientalis
+L072,random,,levis,leuis,phi0959,phi006,perseus-lat1,13:792,phi0959.phi006.perseus-lat2,13:792,65372,levior,collatinus,"levior assiduo detritis aequore conchis,",levis2,n26418,located,levis
+L073,random,,ad-dico,addico,phi0448,phi002,,2:18,phi0448.phi002.perseus-lat2,2:18:5,13285,addicebat,collatinus,,addico,n724,located,ad-dico
+L074,random,,augurium,augurium,phi0474,phi053,perseus-lat2,1:17:32,phi0474.phi053.perseus-lat3,1:32,3567,augurio,collatinus,,augurium,n4490,located,augurium
+L075,anchor,yes,vadimonium,uadimonium,phi1276,phi001,perseus-lat1,3:298,phi1276.phi001.perseus-lat2,1:3:298,4138,vadimonia,collatinus,,vadimonium,n50076,located,vadimonium
+L076,random,,supero,supero,phi0448,phi002,,2:22,phi0448.phi002.perseus-lat2,2:22:1,13855,superati,collatinus,"Massilienses bis proelio navali superati,",supero,n46824,located,supero
+L077,random,,demoror,demoror,phi1351,phi005,perseus-lat1,12:68,phi1351.phi005.perseus-lat2,12:68,60122,demorari,collatinus,,demoror,n13053,located,demoror
+L078,random,,cum,cum,phi0914,phi001,,5:53:9,phi0914.phi001.perseus-lat2,5:53:9,89921,cum,collatinus,,cum2,n11873,located,cum
+L079,plant,no,ferox,ferox,phi0119,phi010,perseus-lat1,5:2:17,phi0119.phi010.perseus-lat2,5:2:767,5607,feroces,collatinus,"dote fretae, feroces,",ferox,n17971,located,formula
+L080,random,,simia,simia,phi0119,phi017,perseus-lat1,3:1:6,phi0119.phi017.perseus-lat2,3:1:598,4247,simia,collatinus,,simia,n44298,located,simia

@@ -1,0 +1,867 @@
+{
+ "phi0474.phi005.perseus-lat2": {
+  "units": 974,
+  "tokens": 100444,
+  "aliases": 0
+ },
+ "phi0474.phi037.perseus-lat2": {
+  "units": 862,
+  "tokens": 61856,
+  "aliases": 0
+ },
+ "phi0550.phi001.perseus-lat1": {
+  "units": 7382,
+  "tokens": 48740,
+  "aliases": 0
+ },
+ "phi0690.phi003.perseus-lat2": {
+  "units": 9845,
+  "tokens": 63370,
+  "aliases": 0
+ },
+ "phi0914.phi001.perseus-lat2": {
+  "units": 20424,
+  "tokens": 528610,
+  "aliases": 0
+ },
+ "phi0978.phi001.perseus-lat2": {
+  "units": 7001,
+  "tokens": 405531,
+  "aliases": 1019
+ },
+ "phi0119.phi001.perseus-lat2": {
+  "units": 1398,
+  "tokens": 9269,
+  "aliases": 0
+ },
+ "phi0119.phi002.perseus-lat2": {
+  "units": 1161,
+  "tokens": 7508,
+  "aliases": 0
+ },
+ "phi0119.phi003.perseus-lat2": {
+  "units": 1009,
+  "tokens": 6510,
+  "aliases": 0
+ },
+ "phi0119.phi004.perseus-lat2": {
+  "units": 1520,
+  "tokens": 9143,
+  "aliases": 0
+ },
+ "phi0119.phi005.perseus-lat2": {
+  "units": 1235,
+  "tokens": 8210,
+  "aliases": 0
+ },
+ "phi0119.phi006.perseus-lat2": {
+  "units": 1276,
+  "tokens": 7160,
+  "aliases": 0
+ },
+ "phi0119.phi007.perseus-lat2": {
+  "units": 821,
+  "tokens": 4890,
+  "aliases": 0
+ },
+ "phi0119.phi008.perseus-lat2": {
+  "units": 987,
+  "tokens": 5676,
+  "aliases": 0
+ },
+ "phi0119.phi009.perseus-lat2": {
+  "units": 1061,
+  "tokens": 5940,
+  "aliases": 0
+ },
+ "phi0119.phi010.perseus-lat2": {
+  "units": 1431,
+  "tokens": 8881,
+  "aliases": 0
+ },
+ "phi0119.phi011.perseus-lat2": {
+  "units": 1383,
+  "tokens": 7830,
+  "aliases": 0
+ },
+ "phi0119.phi012.perseus-lat2": {
+  "units": 1923,
+  "tokens": 11749,
+  "aliases": 0
+ },
+ "phi0119.phi013.perseus-lat2": {
+  "units": 1552,
+  "tokens": 8810,
+  "aliases": 0
+ },
+ "phi0119.phi014.perseus-lat2": {
+  "units": 1260,
+  "tokens": 7158,
+  "aliases": 0
+ },
+ "phi0119.phi015.perseus-lat2": {
+  "units": 1765,
+  "tokens": 10180,
+  "aliases": 0
+ },
+ "phi0119.phi016.perseus-lat2": {
+  "units": 1732,
+  "tokens": 10222,
+  "aliases": 0
+ },
+ "phi0119.phi017.perseus-lat2": {
+  "units": 1842,
+  "tokens": 11000,
+  "aliases": 0
+ },
+ "phi0119.phi018.perseus-lat2": {
+  "units": 946,
+  "tokens": 5792,
+  "aliases": 0
+ },
+ "phi0119.phi019.perseus-lat2": {
+  "units": 1459,
+  "tokens": 9269,
+  "aliases": 0
+ },
+ "phi0119.phi020.perseus-lat2": {
+  "units": 1175,
+  "tokens": 7749,
+  "aliases": 0
+ },
+ "phi0134.phi001.perseus-lat2": {
+  "units": 1481,
+  "tokens": 9082,
+  "aliases": 0
+ },
+ "phi0134.phi002.perseus-lat2": {
+  "units": 1557,
+  "tokens": 10229,
+  "aliases": 0
+ },
+ "phi0134.phi003.perseus-lat2": {
+  "units": 1600,
+  "tokens": 10061,
+  "aliases": 0
+ },
+ "phi0134.phi004.perseus-lat2": {
+  "units": 1574,
+  "tokens": 10019,
+  "aliases": 0
+ },
+ "phi0134.phi005.perseus-lat2": {
+  "units": 1079,
+  "tokens": 8644,
+  "aliases": 0
+ },
+ "phi0134.phi006.perseus-lat2": {
+  "units": 1434,
+  "tokens": 9256,
+  "aliases": 0
+ },
+ "phi0448.phi001.perseus-lat2": {
+  "units": 2150,
+  "tokens": 51300,
+  "aliases": 0
+ },
+ "phi0448.phi002.perseus-lat2": {
+  "units": 1186,
+  "tokens": 32296,
+  "aliases": 0
+ },
+ "phi0448.phi002.perseus-lat3": {
+  "units": 243,
+  "tokens": 32338,
+  "aliases": 0
+ },
+ "phi0472.phi001.perseus-lat2": {
+  "units": 2286,
+  "tokens": 12857,
+  "aliases": 0
+ },
+ "phi0474.phi001.perseus-lat2": {
+  "units": 99,
+  "tokens": 8645,
+  "aliases": 0
+ },
+ "phi0474.phi002.perseus-lat2": {
+  "units": 154,
+  "tokens": 13333,
+  "aliases": 0
+ },
+ "phi0474.phi003.perseus-lat2": {
+  "units": 56,
+  "tokens": 4762,
+  "aliases": 0
+ },
+ "phi0474.phi004.perseus-lat2": {
+  "units": 73,
+  "tokens": 5818,
+  "aliases": 0
+ },
+ "phi0474.phi006.perseus-lat2": {
+  "units": 56,
+  "tokens": 3465,
+  "aliases": 0
+ },
+ "phi0474.phi007.perseus-lat2": {
+  "units": 49,
+  "tokens": 4554,
+  "aliases": 0
+ },
+ "phi0474.phi008.perseus-lat2": {
+  "units": 104,
+  "tokens": 10391,
+  "aliases": 0
+ },
+ "phi0474.phi009.perseus-lat2": {
+  "units": 71,
+  "tokens": 6713,
+  "aliases": 0
+ },
+ "phi0474.phi010.perseus-lat2": {
+  "units": 202,
+  "tokens": 20932,
+  "aliases": 0
+ },
+ "phi0474.phi011.perseus-lat2": {
+  "units": 150,
+  "tokens": 13875,
+  "aliases": 0
+ },
+ "phi0474.phi012.perseus-lat2": {
+  "units": 39,
+  "tokens": 3632,
+  "aliases": 0
+ },
+ "phi0474.phi013.perseus-lat2": {
+  "units": 115,
+  "tokens": 12695,
+  "aliases": 0
+ },
+ "phi0474.phi014.perseus-lat2": {
+  "units": 90,
+  "tokens": 10640,
+  "aliases": 0
+ },
+ "phi0474.phi015.perseus-lat2": {
+  "units": 93,
+  "tokens": 9304,
+  "aliases": 0
+ },
+ "phi0474.phi016.perseus-lat2": {
+  "units": 32,
+  "tokens": 3117,
+  "aliases": 0
+ },
+ "phi0474.phi017.perseus-lat2": {
+  "units": 107,
+  "tokens": 10904,
+  "aliases": 0
+ },
+ "phi0474.phi018.perseus-lat2": {
+  "units": 25,
+  "tokens": 2643,
+  "aliases": 0
+ },
+ "phi0474.phi019.perseus-lat2": {
+  "units": 39,
+  "tokens": 4328,
+  "aliases": 0
+ },
+ "phi0474.phi020.perseus-lat2": {
+  "units": 147,
+  "tokens": 15144,
+  "aliases": 0
+ },
+ "phi0474.phi021.perseus-lat2": {
+  "units": 63,
+  "tokens": 7527,
+  "aliases": 0
+ },
+ "phi0474.phi022.perseus-lat2": {
+  "units": 147,
+  "tokens": 16788,
+  "aliases": 0
+ },
+ "phi0474.phi023.perseus-lat2": {
+  "units": 41,
+  "tokens": 4490,
+  "aliases": 0
+ },
+ "phi0474.phi024.perseus-lat2": {
+  "units": 80,
+  "tokens": 8547,
+  "aliases": 0
+ },
+ "phi0474.phi025.perseus-lat2": {
+  "units": 47,
+  "tokens": 5131,
+  "aliases": 0
+ },
+ "phi0474.phi026.perseus-lat2": {
+  "units": 65,
+  "tokens": 6799,
+  "aliases": 0
+ },
+ "phi0474.phi027.perseus-lat2": {
+  "units": 116,
+  "tokens": 10898,
+  "aliases": 0
+ },
+ "phi0474.phi028.perseus-lat2": {
+  "units": 104,
+  "tokens": 11639,
+  "aliases": 0
+ },
+ "phi0474.phi029.perseus-lat2": {
+  "units": 76,
+  "tokens": 3005,
+  "aliases": 0
+ },
+ "phi0474.phi030.perseus-lat2": {
+  "units": 48,
+  "tokens": 4074,
+  "aliases": 0
+ },
+ "phi0474.phi031.perseus-lat2": {
+  "units": 105,
+  "tokens": 10518,
+  "aliases": 0
+ },
+ "phi0474.phi032.perseus-lat2": {
+  "units": 34,
+  "tokens": 2767,
+  "aliases": 0
+ },
+ "phi0474.phi033.perseus-lat2": {
+  "units": 38,
+  "tokens": 3280,
+  "aliases": 0
+ },
+ "phi0474.phi034.perseus-lat2": {
+  "units": 43,
+  "tokens": 3904,
+  "aliases": 0
+ },
+ "phi0474.phi035.perseus-lat2": {
+  "units": 544,
+  "tokens": 52574,
+  "aliases": 0
+ },
+ "phi0474.phi036.perseus-lat2": {
+  "units": 287,
+  "tokens": 31894,
+  "aliases": 0
+ },
+ "phi0474.phi038.perseus-lat2": {
+  "units": 141,
+  "tokens": 9698,
+  "aliases": 0
+ },
+ "phi0474.phi039.perseus-lat2": {
+  "units": 334,
+  "tokens": 25082,
+  "aliases": 0
+ },
+ "phi0474.phi040.perseus-lat2": {
+  "units": 238,
+  "tokens": 18361,
+  "aliases": 0
+ },
+ "phi0474.phi041.perseus-lat2": {
+  "units": 23,
+  "tokens": 1570,
+  "aliases": 0
+ },
+ "phi0474.phi042.perseus-lat2": {
+  "units": 101,
+  "tokens": 6802,
+  "aliases": 0
+ },
+ "phi0474.phi043.perseus-lat2": {
+  "units": 257,
+  "tokens": 21891,
+  "aliases": 4
+ },
+ "phi0474.phi045.perseus-lat2": {
+  "units": 69,
+  "tokens": 4854,
+  "aliases": 0
+ },
+ "phi0474.phi047.perseus-lat2": {
+  "units": 52,
+  "tokens": 4301,
+  "aliases": 0
+ },
+ "phi0474.phi048.perseus-lat2": {
+  "units": 443,
+  "tokens": 47073,
+  "aliases": 0
+ },
+ "phi0474.phi049.perseus-lat2": {
+  "units": 475,
+  "tokens": 47092,
+  "aliases": 0
+ },
+ "phi0474.phi050.perseus-lat2": {
+  "units": 387,
+  "tokens": 36021,
+  "aliases": 0
+ },
+ "phi0474.phi051.perseus-lat2": {
+  "units": 85,
+  "tokens": 8251,
+  "aliases": 0
+ },
+ "phi0474.phi052.perseus-lat2": {
+  "units": 104,
+  "tokens": 9322,
+  "aliases": 0
+ },
+ "phi0474.phi053.perseus-lat3": {
+  "units": 284,
+  "tokens": 28185,
+  "aliases": 0
+ },
+ "phi0474.phi053.perseus-lat4": {
+  "units": 282,
+  "tokens": 27510,
+  "aliases": 0
+ },
+ "phi0474.phi054.perseus-lat2": {
+  "units": 54,
+  "tokens": 5515,
+  "aliases": 0
+ },
+ "phi0474.phi055.perseus-lat2": {
+  "units": 370,
+  "tokens": 33848,
+  "aliases": 0
+ },
+ "phi0474.phi056.perseus-lat2": {
+  "units": 1344,
+  "tokens": 115895,
+  "aliases": 0
+ },
+ "phi0474.phi057.perseus-lat2": {
+  "units": 1508,
+  "tokens": 122366,
+  "aliases": 0
+ },
+ "phi0474.phi058.perseus-lat2": {
+  "units": 198,
+  "tokens": 18350,
+  "aliases": 0
+ },
+ "phi0474.phi072.perseus-lat2": {
+  "units": 53,
+  "tokens": 4209,
+  "aliases": 0
+ },
+ "phi0478.phi003.perseus-lat2": {
+  "units": 0,
+  "tokens": 0,
+  "aliases": 0
+ },
+ "phi0620.phi001.perseus-lat3": {
+  "units": 3993,
+  "tokens": 25312,
+  "aliases": 0
+ },
+ "phi0631.phi001.perseus-lat3": {
+  "units": 443,
+  "tokens": 10669,
+  "aliases": 0
+ },
+ "phi0631.phi001.perseus-lat4": {
+  "units": 61,
+  "tokens": 10655,
+  "aliases": 0
+ },
+ "phi0631.phi002.perseus-lat3": {
+  "units": 755,
+  "tokens": 21229,
+  "aliases": 0
+ },
+ "phi0631.phi002.perseus-lat4": {
+  "units": 114,
+  "tokens": 21221,
+  "aliases": 0
+ },
+ "phi0631.phi003.perseus-lat2": {
+  "units": 6,
+  "tokens": 4068,
+  "aliases": 0
+ },
+ "phi0690.phi001.perseus-lat2": {
+  "units": 828,
+  "tokens": 5615,
+  "aliases": 0
+ },
+ "phi0690.phi002.perseus-lat2": {
+  "units": 2183,
+  "tokens": 14152,
+  "aliases": 0
+ },
+ "phi0836.phi002.perseus-lat4": {
+  "units": 211,
+  "tokens": 102497,
+  "aliases": 0
+ },
+ "phi0836.phi002.perseus-lat5": {
+  "units": 1679,
+  "tokens": 102161,
+  "aliases": 211
+ },
+ "phi0836.phi002.perseus-lat6": {
+  "units": 1688,
+  "tokens": 104622,
+  "aliases": 211
+ },
+ "phi0845.phi002.perseus-lat3": {
+  "units": 1406,
+  "tokens": 78936,
+  "aliases": 0
+ },
+ "phi0860.phi001.perseus-lat2": {
+  "units": 2621,
+  "tokens": 74174,
+  "aliases": 0
+ },
+ "phi0893.phi002.perseus-lat2": {
+  "units": 76,
+  "tokens": 309,
+  "aliases": 0
+ },
+ "phi0893.phi003.perseus-lat2": {
+  "units": 625,
+  "tokens": 3006,
+  "aliases": 0
+ },
+ "phi0893.phi004.perseus-lat2": {
+  "units": 2112,
+  "tokens": 14202,
+  "aliases": 0
+ },
+ "phi0914.phi001.perseus-lat3": {
+  "units": 12085,
+  "tokens": 312196,
+  "aliases": 0
+ },
+ "phi0914.phi001.perseus-lat4": {
+  "units": 12407,
+  "tokens": 319131,
+  "aliases": 0
+ },
+ "phi0914.phi001.perseus-lat5": {
+  "units": 8105,
+  "tokens": 192669,
+  "aliases": 0
+ },
+ "phi0917.phi001.perseus-lat2": {
+  "units": 8053,
+  "tokens": 52964,
+  "aliases": 0
+ },
+ "phi0959.phi001.perseus-lat2": {
+  "units": 2458,
+  "tokens": 15626,
+  "aliases": 0
+ },
+ "phi0959.phi002.perseus-lat2": {
+  "units": 3946,
+  "tokens": 25566,
+  "aliases": 0
+ },
+ "phi0959.phi003.perseus-lat2": {
+  "units": 100,
+  "tokens": 613,
+  "aliases": 0
+ },
+ "phi0959.phi004.perseus-lat2": {
+  "units": 2328,
+  "tokens": 14882,
+  "aliases": 0
+ },
+ "phi0959.phi005.perseus-lat2": {
+  "units": 812,
+  "tokens": 5243,
+  "aliases": 0
+ },
+ "phi0959.phi006.perseus-lat2": {
+  "units": 11927,
+  "tokens": 77642,
+  "aliases": 0
+ },
+ "phi0959.phi007.perseus-lat2": {
+  "units": 4959,
+  "tokens": 31186,
+  "aliases": 0
+ },
+ "phi0959.phi008.perseus-lat2": {
+  "units": 3530,
+  "tokens": 22794,
+  "aliases": 0
+ },
+ "phi0959.phi009.perseus-lat2": {
+  "units": 3192,
+  "tokens": 20747,
+  "aliases": 0
+ },
+ "phi0959.phi010.perseus-lat2": {
+  "units": 626,
+  "tokens": 3930,
+  "aliases": 0
+ },
+ "phi0969.phi001.perseus-lat2": {
+  "units": 664,
+  "tokens": 4527,
+  "aliases": 0
+ },
+ "phi0972.phi001.perseus-lat1": {
+  "units": 0,
+  "tokens": 0,
+  "aliases": 0
+ },
+ "phi0972.phi001.perseus-lat2": {
+  "units": 141,
+  "tokens": 30427,
+  "aliases": 0
+ },
+ "phi0975.phi001.perseus-lat2": {
+  "units": 1940,
+  "tokens": 10974,
+  "aliases": 0
+ },
+ "phi1002.phi001.perseus-lat2": {
+  "units": 3769,
+  "tokens": 171864,
+  "aliases": 5
+ },
+ "phi1014.phi001.perseus-lat1": {
+  "units": 673,
+  "tokens": 66042,
+  "aliases": 0
+ },
+ "phi1014.phi003.perseus-lat1": {
+  "units": 100,
+  "tokens": 10278,
+  "aliases": 0
+ },
+ "phi1017.phi001.perseus-lat2": {
+  "units": 1382,
+  "tokens": 7462,
+  "aliases": 0
+ },
+ "phi1017.phi002.perseus-lat2": {
+  "units": 1211,
+  "tokens": 6664,
+  "aliases": 0
+ },
+ "phi1017.phi003.perseus-lat2": {
+  "units": 669,
+  "tokens": 4051,
+  "aliases": 0
+ },
+ "phi1017.phi004.perseus-lat2": {
+  "units": 1062,
+  "tokens": 5524,
+  "aliases": 0
+ },
+ "phi1017.phi005.perseus-lat2": {
+  "units": 1288,
+  "tokens": 6980,
+  "aliases": 0
+ },
+ "phi1017.phi006.perseus-lat2": {
+  "units": 1090,
+  "tokens": 5766,
+  "aliases": 0
+ },
+ "phi1017.phi007.perseus-lat2": {
+  "units": 1055,
+  "tokens": 5433,
+  "aliases": 0
+ },
+ "phi1017.phi008.perseus-lat2": {
+  "units": 1160,
+  "tokens": 6146,
+  "aliases": 0
+ },
+ "phi1017.phi009.perseus-lat2": {
+  "units": 2020,
+  "tokens": 11096,
+  "aliases": 0
+ },
+ "phi1017.phi010.perseus-lat2": {
+  "units": 990,
+  "tokens": 5002,
+  "aliases": 0
+ },
+ "phi1017.phi011.perseus-lat2": {
+  "units": 13,
+  "tokens": 2926,
+  "aliases": 0
+ },
+ "phi1017.phi013.perseus-lat2": {
+  "units": 906,
+  "tokens": 45461,
+  "aliases": 0
+ },
+ "phi1017.phi014.perseus-lat2": {
+  "units": 152,
+  "tokens": 8350,
+  "aliases": 0
+ },
+ "phi1017.phi015.perseus-lat2": {
+  "units": 2141,
+  "tokens": 119126,
+  "aliases": 0
+ },
+ "phi1020.phi001.perseus-lat2": {
+  "units": 9731,
+  "tokens": 62503,
+  "aliases": 0
+ },
+ "phi1020.phi002.perseus-lat2": {
+  "units": 3902,
+  "tokens": 25046,
+  "aliases": 0
+ },
+ "phi1020.phi003.perseus-lat2": {
+  "units": 1125,
+  "tokens": 7204,
+  "aliases": 0
+ },
+ "phi1035.phi001.perseus-lat2": {
+  "units": 5586,
+  "tokens": 37171,
+  "aliases": 0
+ },
+ "phi1038.phi001.perseus-lat1": {
+  "units": 1024,
+  "tokens": 79774,
+  "aliases": 0
+ },
+ "phi1056.phi001.perseus-lat2": {
+  "units": 727,
+  "tokens": 57178,
+  "aliases": 0
+ },
+ "phi1242.phi001.perseus-lat1": {
+  "units": 979,
+  "tokens": 26340,
+  "aliases": 0
+ },
+ "phi1254.phi001.perseus-lat2": {
+  "units": 3946,
+  "tokens": 113501,
+  "aliases": 8
+ },
+ "phi1276.phi001.perseus-lat2": {
+  "units": 3854,
+  "tokens": 24887,
+  "aliases": 0
+ },
+ "phi1294.phi002.perseus-lat2": {
+  "units": 9462,
+  "tokens": 56284,
+  "aliases": 0
+ },
+ "phi1351.phi001.perseus-lat2": {
+  "units": 213,
+  "tokens": 6729,
+  "aliases": 0
+ },
+ "phi1351.phi002.perseus-lat2": {
+  "units": 187,
+  "tokens": 5513,
+  "aliases": 0
+ },
+ "phi1351.phi003.perseus-lat2": {
+  "units": 226,
+  "tokens": 9306,
+  "aliases": 0
+ },
+ "phi1351.phi004.perseus-lat2": {
+  "units": 389,
+  "tokens": 51393,
+  "aliases": 0
+ },
+ "phi1351.phi005.perseus-lat2": {
+  "units": 721,
+  "tokens": 88804,
+  "aliases": 0
+ },
+ "phi2003.phi001.perseus-lat1": {
+  "units": 0,
+  "tokens": 0,
+  "aliases": 0
+ },
+ "stoa0040.stoa011.perseus-lat1": {
+  "units": 0,
+  "tokens": 0,
+  "aliases": 0
+ },
+ "stoa0040.stoa011.perseus-lat2": {
+  "units": 0,
+  "tokens": 0,
+  "aliases": 0
+ },
+ "stoa0255.stoa004.perseus-lat2": {
+  "units": 104,
+  "tokens": 6182,
+  "aliases": 0
+ },
+ "stoa0255.stoa006.perseus-lat2": {
+  "units": 121,
+  "tokens": 6765,
+  "aliases": 0
+ },
+ "stoa0255.stoa007.perseus-lat2": {
+  "units": 137,
+  "tokens": 8422,
+  "aliases": 0
+ },
+ "stoa0255.stoa008.perseus-lat2": {
+  "units": 98,
+  "tokens": 5670,
+  "aliases": 0
+ },
+ "stoa0255.stoa009.perseus-lat2": {
+  "units": 83,
+  "tokens": 5285,
+  "aliases": 0
+ },
+ "stoa0255.stoa010.perseus-lat2": {
+  "units": 485,
+  "tokens": 22303,
+  "aliases": 0
+ },
+ "stoa0255.stoa011.perseus-lat2": {
+  "units": 35,
+  "tokens": 1961,
+  "aliases": 0
+ },
+ "stoa0255.stoa012.perseus-lat2": {
+  "units": 68,
+  "tokens": 4092,
+  "aliases": 0
+ },
+ "stoa0255.stoa013.perseus-lat2": {
+  "units": 139,
+  "tokens": 7555,
+  "aliases": 0
+ },
+ "stoa0255.stoa014.perseus-lat2": {
+  "units": 126,
+  "tokens": 7265,
+  "aliases": 0
+ },
+ "phi0893.phi001.perseus-lat2": {
+  "units": 3034,
+  "tokens": 13292,
+  "aliases": 0
+ }
+}
