@@ -1,0 +1,2424 @@
+{
+ "phi0978.phi001": {
+  "rank": 1,
+  "citations": 23381,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0978.phi001.perseus-lat2.xml": 13243638
+  },
+  "other_editions": {
+   "phi0978.phi001.perseus-eng1.xml": 8689047
+  },
+  "author": "Pliny, the Elder",
+  "title": "Naturalis Historia",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0914.phi001": {
+  "rank": 2,
+  "citations": 23100,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0914.phi001.perseus-lat2.xml": 7295656,
+   "phi0914.phi001.perseus-lat3.xml": 4684342,
+   "phi0914.phi001.perseus-lat4.xml": 5951469,
+   "phi0914.phi001.perseus-lat5.xml": 3012877
+  },
+  "other_editions": {
+   "phi0914.phi001.perseus-eng1.xml": 8906595,
+   "phi0914.phi001.perseus-eng2.xml": 8415270,
+   "phi0914.phi001.perseus-eng3.xml": 7961624
+  },
+  "author": "Titus Livius (Livy)",
+  "title": "Ab urbe condita",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1002.phi001": {
+  "rank": 3,
+  "citations": 11959,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1002.phi001.perseus-lat2.xml": 2683107
+  },
+  "other_editions": {
+   "phi1002.phi001.perseus-eng2.xml": 3568708
+  },
+  "author": "Quintilian",
+  "title": "Institutio Oratoria",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0959.phi006": {
+  "rank": 4,
+  "citations": 10176,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi006.perseus-lat2.xml": 931299
+  },
+  "other_editions": {
+   "phi0959.phi006.perseus-eng3.xml": 1142322,
+   "phi0959.phi006.perseus-eng4.xml": 1197340
+  },
+  "author": "Ovid",
+  "title": "Metamorphoses",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0690.phi003": {
+  "rank": 5,
+  "citations": 8526,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0690.phi003.perseus-lat2.xml": 694937
+  },
+  "other_editions": {
+   "phi0690.phi003.perseus-eng2.xml": 1043275
+  },
+  "author": "P. Vergilius Maro (Virgil)",
+  "title": "Aeneid",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0550.phi001": {
+  "rank": 6,
+  "citations": 6781,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0550.phi001.perseus-lat1.xml": 459795
+  },
+  "other_editions": {
+   "phi0550.phi001.perseus-eng1.xml": 662239
+  },
+  "author": "Lucretius",
+  "title": "De Rerum Natura",
+  "raw_probe": {
+   "perseus-lat1": 200,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0474.phi056": {
+  "rank": 7,
+  "citations": 5664,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi056.perseus-lat2.xml": 1124134
+  },
+  "other_editions": {
+   "phi0474.phi056.perseus-eng1.xml": 1866186
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "Letters to his Friends",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi057": {
+  "rank": 8,
+  "citations": 5366,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi057.perseus-lat2.xml": 1327999
+  },
+  "other_editions": {
+   "phi0474.phi057.perseus-eng1.xml": 1913790
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "Letters to Atticus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0845.phi001": {
+  "rank": 9,
+  "citations": 5260,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "Columella, Lucius Junius Moderatus",
+  "title": "",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0448.phi001": {
+  "rank": 10,
+  "citations": 5177,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0448.phi001.perseus-lat2.xml": 691991
+  },
+  "other_editions": {
+   "phi0448.phi001.perseus-eng2.xml": 658664
+  },
+  "author": "Julius Caesar",
+  "title": "Gallic War",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1351.phi005": {
+  "rank": 11,
+  "citations": 5107,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1351.phi005.perseus-lat2.xml": 778483
+  },
+  "other_editions": {
+   "phi1351.phi005.perseus-eng2.xml": 1225093
+  },
+  "author": "Tacitus, Cornelius",
+  "title": "Annales",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi005": {
+  "rank": 12,
+  "citations": 4655,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi005.perseus-lat2.xml": 1320692
+  },
+  "other_editions": {
+   "phi0474.phi005.perseus-eng2.xml": 1240879
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "In C. Verrem",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1254.phi001": {
+  "rank": 13,
+  "citations": 4389,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1254.phi001.perseus-lat2.xml": 1469718
+  },
+  "other_editions": {
+   "phi1254.phi001.perseus-eng1.xml": 1533850
+  },
+  "author": "Gellius, Aulus",
+  "title": "Noctes Atticae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi037": {
+  "rank": 14,
+  "citations": 4300,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi037.perseus-lat2.xml": 566539
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "On Oratory",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0893.phi002": {
+  "rank": 15,
+  "citations": 4039,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0893.phi002.perseus-lat2.xml": 7857
+  },
+  "other_editions": {},
+  "author": "Horace",
+  "title": "Carmen Saeculare",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1276.phi001": {
+  "rank": 16,
+  "citations": 3845,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1276.phi001.perseus-lat2.xml": 366144
+  },
+  "other_editions": {},
+  "author": "Juvenal",
+  "title": "Saturae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi049": {
+  "rank": 17,
+  "citations": 3597,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi049.perseus-lat2.xml": 760670
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "Tusculanae Disputationes",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1294.phi002": {
+  "rank": 18,
+  "citations": 3524,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1294.phi002.perseus-lat2.xml": 960064
+  },
+  "other_editions": {},
+  "author": "Martial",
+  "title": "Epigrammata",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0893.phi004": {
+  "rank": 19,
+  "citations": 3198,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0893.phi004.perseus-lat2.xml": 176460
+  },
+  "other_editions": {
+   "phi0893.phi004.perseus-eng2.xml": 313152
+  },
+  "author": "Horace",
+  "title": "Satires",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0690.phi002": {
+  "rank": 20,
+  "citations": 3036,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0690.phi002.perseus-lat2.xml": 176105
+  },
+  "other_editions": {
+   "phi0690.phi002.perseus-eng2.xml": 220665
+  },
+  "author": "P. Vergilius Maro (Virgil)",
+  "title": "Georgics",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi055": {
+  "rank": 21,
+  "citations": 3008,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi055.perseus-lat2.xml": 309457
+  },
+  "other_editions": {
+   "phi0474.phi055.perseus-eng1.xml": 409864
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Officiis",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi050": {
+  "rank": 22,
+  "citations": 2931,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi050.perseus-lat2.xml": 328419
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Natura Deorum",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0448.phi002": {
+  "rank": 23,
+  "citations": 2840,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0448.phi002.perseus-lat2.xml": 331853,
+   "phi0448.phi002.perseus-lat3.xml": 260700
+  },
+  "other_editions": {
+   "phi0448.phi002.perseus-eng2.xml": 338426,
+   "phi0448.phi002.perseus-eng3.xml": 369096
+  },
+  "author": "Julius Caesar",
+  "title": "Civil War",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1236.phi001": {
+  "rank": 24,
+  "citations": 2678,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "",
+  "title": "",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0474.phi035": {
+  "rank": 25,
+  "citations": 2661,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi035.perseus-lat2.xml": 705704
+  },
+  "other_editions": {
+   "phi0474.phi035.perseus-eng1.xml": 795594
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "Philippicae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0860.phi001": {
+  "rank": 26,
+  "citations": 2648,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0860.phi001.perseus-lat2.xml": 912268
+  },
+  "other_editions": {},
+  "author": "Curtius Rufus, Quintus",
+  "title": "Historiarum Alexandri Magni",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1351.phi004": {
+  "rank": 27,
+  "citations": 2626,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1351.phi004.perseus-lat2.xml": 453247
+  },
+  "other_editions": {
+   "phi1351.phi004.perseus-eng2.xml": 684701
+  },
+  "author": "Tacitus, Cornelius",
+  "title": "Historiae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi048": {
+  "rank": 28,
+  "citations": 2570,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi048.perseus-lat2.xml": 532712
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "de Finibus Bonorum et Malorum",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0959.phi007": {
+  "rank": 29,
+  "citations": 2488,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi007.perseus-lat2.xml": 383373
+  },
+  "other_editions": {},
+  "author": "Ovid",
+  "title": "Fasti",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0620.phi001": {
+  "rank": 30,
+  "citations": 2438,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0620.phi001.perseus-lat3.xml": 230572
+  },
+  "other_editions": {},
+  "author": "Propertius, Sextus",
+  "title": "Elegiae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0474.phi043": {
+  "rank": 31,
+  "citations": 2433,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi043.perseus-lat2.xml": 214263
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Republica",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0631.phi002": {
+  "rank": 32,
+  "citations": 2308,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0631.phi002.perseus-lat3.xml": 186280,
+   "phi0631.phi002.perseus-lat4.xml": 162606
+  },
+  "other_editions": {
+   "phi0631.phi002.perseus-eng2.xml": 382398
+  },
+  "author": "Sallust",
+  "title": "Bellum Iugurthinum",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0474.phi053": {
+  "rank": 33,
+  "citations": 2179,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi053.perseus-lat3.xml": 252509,
+   "phi0474.phi053.perseus-lat4.xml": 268227
+  },
+  "other_editions": {
+   "phi0474.phi053.perseus-eng1.xml": 349958
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Divinatione",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi1017.phi015": {
+  "rank": 34,
+  "citations": 2094,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi015.perseus-lat2.xml": 1274876
+  },
+  "other_editions": {},
+  "author": "Seneca, Lucius Annaeus",
+  "title": "Epistulae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0836.phi002": {
+  "rank": 35,
+  "citations": 2046,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0836.phi002.perseus-lat4.xml": 741623,
+   "phi0836.phi002.perseus-lat5.xml": 893899,
+   "phi0836.phi002.perseus-lat6.xml": 833266
+  },
+  "other_editions": {
+   "phi0836.phi002.perseus-eng2.xml": 882568
+  },
+  "author": "Celsus, Aulus Cornelius",
+  "title": "De Medicina",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi1056.phi001": {
+  "rank": 36,
+  "citations": 1991,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1056.phi001.perseus-lat2.xml": 552982
+  },
+  "other_editions": {
+   "phi1056.phi001.perseus-eng2.xml": 655484
+  },
+  "author": "Vitruvius Pollio",
+  "title": "On Architecture",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0917.phi001": {
+  "rank": 37,
+  "citations": 1985,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0917.phi001.perseus-lat2.xml": 648640
+  },
+  "other_editions": {
+   "phi0917.phi001.perseus-eng2.xml": 857263
+  },
+  "author": "Lucan",
+  "title": "Civil War",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi039": {
+  "rank": 38,
+  "citations": 1919,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi039.perseus-lat2.xml": 317575
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "Brutus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0684.phi001": {
+  "rank": 39,
+  "citations": 1832,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "",
+  "title": "",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi1020.phi001": {
+  "rank": 40,
+  "citations": 1748,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1020.phi001.perseus-lat2.xml": 887747
+  },
+  "other_editions": {},
+  "author": "Statius, P. Papinius (Publius Papinius)",
+  "title": "Thebais",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0472.phi001": {
+  "rank": 41,
+  "citations": 1684,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0472.phi001.perseus-lat2.xml": 290379
+  },
+  "other_editions": {
+   "phi0472.phi001.perseus-eng3.xml": 325780,
+   "phi0472.phi001.perseus-eng4.xml": 177434
+  },
+  "author": "Catullus, C. Valerius",
+  "title": "Carmina",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1348.phi012": {
+  "rank": 42,
+  "citations": 1679,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "Suetonius",
+  "title": "",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0631.phi001": {
+  "rank": 43,
+  "citations": 1536,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0631.phi001.perseus-lat3.xml": 99340,
+   "phi0631.phi001.perseus-lat4.xml": 85593
+  },
+  "other_editions": {
+   "phi0631.phi001.perseus-eng2.xml": 287332
+  },
+  "author": "Sallust",
+  "title": "Catilinae Coniuratio",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0119.phi019": {
+  "rank": 44,
+  "citations": 1511,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi019.perseus-lat2.xml": 212195
+  },
+  "other_editions": {
+   "phi0119.phi019.perseus-eng2.xml": 272094
+  },
+  "author": "Plautus, Titus Maccius",
+  "title": "Trinummus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1035.phi001": {
+  "rank": 45,
+  "citations": 1481,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1035.phi001.perseus-lat2.xml": 906886
+  },
+  "other_editions": {},
+  "author": "Valerius Flaccus, Gaius",
+  "title": "Argonautica",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0959.phi002": {
+  "rank": 46,
+  "citations": 1479,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi002.perseus-lat2.xml": 278042
+  },
+  "other_editions": {
+   "phi0959.phi002.perseus-eng2.xml": 265543
+  },
+  "author": "Ovid",
+  "title": "Epistulae",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0119.phi012": {
+  "rank": 47,
+  "citations": 1434,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi012.perseus-lat2.xml": 279797
+  },
+  "other_editions": {
+   "phi0119.phi012.perseus-eng2.xml": 360638
+  },
+  "author": "Plautus, Titus Maccius",
+  "title": "Miles Gloriosus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0134.phi003": {
+  "rank": 48,
+  "citations": 1432,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0134.phi003.perseus-lat2.xml": 240216
+  },
+  "other_editions": {
+   "phi0134.phi003.perseus-eng2.xml": 283607
+  },
+  "author": "Terence",
+  "title": "Eunuchus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1044.phi001": {
+  "rank": 49,
+  "citations": 1426,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "",
+  "title": "",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0474.phi040": {
+  "rank": 50,
+  "citations": 1388,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi040.perseus-lat2.xml": 243910
+  },
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "Orator",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0119.phi001": {
+  "rank": 51,
+  "citations": 1367,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi001.perseus-lat2.xml": 270378
+  },
+  "other_editions": {
+   "phi0119.phi001.perseus-eng2.xml": 266906
+  },
+  "author": "Plautus, Titus Maccius",
+  "title": "Amphitruo",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0060.phi001": {
+  "rank": 52,
+  "citations": 1357,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "",
+  "title": "",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0959.phi008": {
+  "rank": 53,
+  "citations": 1325,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi008.perseus-lat2.xml": 296799
+  },
+  "other_editions": {},
+  "author": "Ovid",
+  "title": "Tristia",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi052": {
+  "rank": 54,
+  "citations": 1322,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi052.perseus-lat2.xml": 95110
+  },
+  "other_editions": {
+   "phi0474.phi052.perseus-eng2.xml": 121491
+  },
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Amicitia",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi1038.phi001": {
+  "rank": 55,
+  "citations": 1319,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1038.phi001.perseus-lat1.xml": 684990
+  },
+  "other_editions": {},
+  "author": "Valerius Maximus",
+  "title": "Facta et Dicta Memorabilia",
+  "raw_probe": {
+   "perseus-lat1": 200,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0134.phi001": {
+  "rank": 56,
+  "citations": 1317,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0134.phi001.perseus-lat2.xml": 216689
+  },
+  "other_editions": {
+   "phi0134.phi001.perseus-eng2.xml": 258909
+  },
+  "author": "Terence",
+  "title": "Andria",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0119.phi016": {
+  "rank": 57,
+  "citations": 1312,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi016.perseus-lat2.xml": 249435
+  },
+  "other_editions": {
+   "phi0119.phi016.perseus-eng2.xml": 287552
+  },
+  "author": "Plautus, Titus Maccius",
+  "title": "Pseudolus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0474.phi044": {
+  "rank": 58,
+  "citations": 1287,
+  "in_repo_tree": true,
+  "latin_editions": {},
+  "other_editions": {},
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Legibus",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 404
+  }
+ },
+ "phi0119.phi017": {
+  "rank": 59,
+  "citations": 1239,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi017.perseus-lat2.xml": 266607
+  },
+  "other_editions": {
+   "phi0119.phi017.perseus-eng2.xml": 310089
+  },
+  "author": "Plautus, Titus Maccius",
+  "title": "Rudens",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0119.phi005": {
+  "rank": 60,
+  "citations": 1211,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi005.perseus-lat2.xml": 236690
+  },
+  "other_editions": {
+   "phi0119.phi005.perseus-eng2.xml": 224954
+  },
+  "author": "Plautus, Titus Maccius",
+  "title": "Captivi",
+  "raw_probe": {
+   "perseus-lat1": 404,
+   "perseus-lat2": 200
+  }
+ },
+ "phi0134.phi002": {
+  "rank": 61,
+  "citations": 1209,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0134.phi002.perseus-lat2.xml": 228464
+  },
+  "other_editions": {
+   "phi0134.phi002.perseus-eng2.xml": 270637
+  }
+ },
+ "phi0119.phi004": {
+  "rank": 62,
+  "citations": 1203,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi004.perseus-lat2.xml": 222717
+  },
+  "other_editions": {
+   "phi0119.phi004.perseus-eng2.xml": 289073
+  }
+ },
+ "phi0134.phi006": {
+  "rank": 63,
+  "citations": 1180,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0134.phi006.perseus-lat2.xml": 202512
+  },
+  "other_editions": {
+   "phi0134.phi006.perseus-eng2.xml": 214251
+  }
+ },
+ "phi0929.phi001": {
+  "rank": 64,
+  "citations": 1166,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0119.phi015": {
+  "rank": 65,
+  "citations": 1146,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi015.perseus-lat2.xml": 265244
+  },
+  "other_editions": {
+   "phi0119.phi015.perseus-eng2.xml": 312934
+  }
+ },
+ "phi1348.phi011": {
+  "rank": 66,
+  "citations": 1137,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi002": {
+  "rank": 67,
+  "citations": 1137,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi002.perseus-lat2.xml": 182110
+  },
+  "other_editions": {
+   "phi0474.phi002.perseus-eng2.xml": 156728
+  }
+ },
+ "phi0119.phi013": {
+  "rank": 68,
+  "citations": 1131,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi013.perseus-lat2.xml": 225102
+  },
+  "other_editions": {
+   "phi0119.phi013.perseus-eng2.xml": 250983
+  }
+ },
+ "phi0690.phi001": {
+  "rank": 69,
+  "citations": 1124,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0690.phi001.perseus-lat2.xml": 76737
+  },
+  "other_editions": {
+   "phi0690.phi001.perseus-eng2.xml": 92187
+  }
+ },
+ "phi0474.phi013": {
+  "rank": 70,
+  "citations": 1123,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi013.perseus-lat2.xml": 175663
+  },
+  "other_editions": {
+   "phi0474.phi013.perseus-eng2.xml": 160828
+  }
+ },
+ "phi0474.phi010": {
+  "rank": 71,
+  "citations": 1080,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi010.perseus-lat2.xml": 331846
+  },
+  "other_editions": {
+   "phi0474.phi010.perseus-eng2.xml": 252923
+  }
+ },
+ "phi0119.phi002": {
+  "rank": 72,
+  "citations": 1074,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi002.perseus-lat2.xml": 171367
+  },
+  "other_editions": {
+   "phi0119.phi002.perseus-eng2.xml": 213205
+  }
+ },
+ "phi1242.phi001": {
+  "rank": 73,
+  "citations": 1036,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1242.phi001.perseus-lat1.xml": 328484
+  },
+  "other_editions": {}
+ },
+ "phi0959.phi001": {
+  "rank": 74,
+  "citations": 1033,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi001.perseus-lat2.xml": 208077
+  },
+  "other_editions": {
+   "phi0959.phi001.perseus-eng2.xml": 188625
+  }
+ },
+ "phi0134.phi004": {
+  "rank": 75,
+  "citations": 1032,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0134.phi004.perseus-lat2.xml": 228705
+  },
+  "other_editions": {
+   "phi0134.phi004.perseus-eng2.xml": 264537
+  }
+ },
+ "phi0474.phi058": {
+  "rank": 76,
+  "citations": 1018,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi058.perseus-lat2.xml": 175801
+  },
+  "other_editions": {
+   "phi0474.phi058.perseus-eng1.xml": 511133
+  }
+ },
+ "phi1348.phi013": {
+  "rank": 77,
+  "citations": 1006,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0959.phi004": {
+  "rank": 78,
+  "citations": 992,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi004.perseus-lat2.xml": 192768
+  },
+  "other_editions": {
+   "phi0959.phi004.perseus-eng2.xml": 227283
+  }
+ },
+ "phi1348.phi016": {
+  "rank": 79,
+  "citations": 991,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi036": {
+  "rank": 80,
+  "citations": 982,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi036.perseus-lat2.xml": 274440
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi022": {
+  "rank": 81,
+  "citations": 958,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi022.perseus-lat2.xml": 226176
+  },
+  "other_editions": {
+   "phi0474.phi022.perseus-eng1.xml": 238139
+  }
+ },
+ "phi1348.phi014": {
+  "rank": 82,
+  "citations": 928,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0893.phi003": {
+  "rank": 83,
+  "citations": 915,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0893.phi003.perseus-lat2.xml": 43814
+  },
+  "other_editions": {}
+ },
+ "phi1020.phi002": {
+  "rank": 84,
+  "citations": 911,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1020.phi002.perseus-lat2.xml": 286363
+  },
+  "other_editions": {}
+ },
+ "phi0119.phi003": {
+  "rank": 85,
+  "citations": 907,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi003.perseus-lat2.xml": 144456
+  },
+  "other_editions": {
+   "phi0119.phi003.perseus-eng2.xml": 213778
+  }
+ },
+ "phi0959.phi009": {
+  "rank": 86,
+  "citations": 898,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi009.perseus-lat2.xml": 267083
+  },
+  "other_editions": {}
+ },
+ "phi0119.phi010": {
+  "rank": 87,
+  "citations": 869,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi010.perseus-lat2.xml": 210073
+  },
+  "other_editions": {
+   "phi0119.phi010.perseus-eng2.xml": 257676
+  }
+ },
+ "phi0474.phi027": {
+  "rank": 88,
+  "citations": 830,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi027.perseus-lat2.xml": 103543
+  },
+  "other_editions": {
+   "phi0474.phi027.perseus-eng1.xml": 158753
+  }
+ },
+ "phi0474.phi011": {
+  "rank": 89,
+  "citations": 814,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi011.perseus-lat2.xml": 135115
+  },
+  "other_editions": {
+   "phi0474.phi011.perseus-eng2.xml": 192968
+  }
+ },
+ "phi0119.phi008": {
+  "rank": 90,
+  "citations": 811,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi008.perseus-lat2.xml": 149510
+  },
+  "other_editions": {
+   "phi0119.phi008.perseus-eng2.xml": 190290
+  }
+ },
+ "phi0119.phi020": {
+  "rank": 91,
+  "citations": 807,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi020.perseus-lat2.xml": 182070
+  },
+  "other_editions": {
+   "phi0119.phi020.perseus-eng2.xml": 208187
+  }
+ },
+ "phi0119.phi006": {
+  "rank": 92,
+  "citations": 801,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi006.perseus-lat2.xml": 180889
+  },
+  "other_editions": {
+   "phi0119.phi006.perseus-eng2.xml": 216365
+  }
+ },
+ "phi0119.phi014": {
+  "rank": 93,
+  "citations": 797,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi014.perseus-lat2.xml": 187694
+  },
+  "other_editions": {
+   "phi0119.phi014.perseus-eng2.xml": 222575
+  }
+ },
+ "phi0119.phi009": {
+  "rank": 94,
+  "citations": 790,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi009.perseus-lat2.xml": 153826
+  },
+  "other_editions": {
+   "phi0119.phi009.perseus-eng2.xml": 189290
+  }
+ },
+ "phi0474.phi014": {
+  "rank": 95,
+  "citations": 786,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi014.perseus-lat2.xml": 156013
+  },
+  "other_editions": {
+   "phi0474.phi014.perseus-eng2.xml": 133349
+  }
+ },
+ "phi0134.phi005": {
+  "rank": 96,
+  "citations": 783,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0134.phi005.perseus-lat2.xml": 164350
+  },
+  "other_editions": {
+   "phi0134.phi005.perseus-eng2.xml": 169249
+  }
+ },
+ "phi0119.phi011": {
+  "rank": 97,
+  "citations": 771,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi011.perseus-lat2.xml": 202055
+  },
+  "other_editions": {
+   "phi0119.phi011.perseus-eng2.xml": 247261
+  }
+ },
+ "phi0474.phi031": {
+  "rank": 98,
+  "citations": 752,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi031.perseus-lat2.xml": 164130
+  },
+  "other_editions": {
+   "phi0474.phi031.perseus-eng1.xml": 149502
+  }
+ },
+ "phi0474.phi028": {
+  "rank": 99,
+  "citations": 720,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi028.perseus-lat2.xml": 174838
+  },
+  "other_editions": {
+   "phi0474.phi028.perseus-eng1.xml": 161987
+  }
+ },
+ "phi1348.phi015": {
+  "rank": 100,
+  "citations": 716,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi051": {
+  "rank": 101,
+  "citations": 713,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi051.perseus-lat2.xml": 88130
+  },
+  "other_editions": {
+   "phi0474.phi051.perseus-eng1.xml": 96132
+  }
+ },
+ "phi0119.phi018": {
+  "rank": 102,
+  "citations": 695,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi018.perseus-lat2.xml": 142437
+  },
+  "other_editions": {
+   "phi0119.phi018.perseus-eng2.xml": 184415
+  }
+ },
+ "phi0969.phi001": {
+  "rank": 103,
+  "citations": 693,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0969.phi001.perseus-lat2.xml": 59967
+  },
+  "other_editions": {}
+ },
+ "phi0975.phi001": {
+  "rank": 104,
+  "citations": 689,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0975.phi001.perseus-lat2.xml": 121116
+  },
+  "other_editions": {
+   "phi0975.phi001.perseus-eng1.xml": 123021
+  }
+ },
+ "phi1017.phi016": {
+  "rank": 105,
+  "citations": 661,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1017.phi013": {
+  "rank": 106,
+  "citations": 612,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi013.perseus-lat2.xml": 439093
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi024": {
+  "rank": 107,
+  "citations": 607,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi024.perseus-lat2.xml": 148447
+  },
+  "other_editions": {
+   "phi0474.phi024.perseus-eng1.xml": 123587
+  }
+ },
+ "phi0474.phi008": {
+  "rank": 108,
+  "citations": 567,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi008.perseus-lat2.xml": 94226
+  },
+  "other_editions": {
+   "phi0474.phi008.perseus-eng2.xml": 130040
+  }
+ },
+ "phi1351.phi002": {
+  "rank": 109,
+  "citations": 538,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1351.phi002.perseus-lat2.xml": 72808
+  },
+  "other_editions": {
+   "phi1351.phi002.perseus-eng2.xml": 65841
+  }
+ },
+ "phi1351.phi001": {
+  "rank": 110,
+  "citations": 534,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1351.phi001.perseus-lat2.xml": 87376
+  },
+  "other_editions": {
+   "phi1351.phi001.perseus-eng3.xml": 42707,
+   "phi1351.phi001.perseus-eng4.xml": 85063
+  }
+ },
+ "phi0119.phi007": {
+  "rank": 111,
+  "citations": 492,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0119.phi007.perseus-lat2.xml": 132716
+  },
+  "other_editions": {
+   "phi0119.phi007.perseus-eng2.xml": 105988
+  }
+ },
+ "phi0474.phi015": {
+  "rank": 112,
+  "citations": 473,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi015.perseus-lat2.xml": 146458
+  },
+  "other_editions": {
+   "phi0474.phi015.perseus-eng2.xml": 113884
+  }
+ },
+ "phi0474.phi009": {
+  "rank": 113,
+  "citations": 439,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi009.perseus-lat2.xml": 104008
+  },
+  "other_editions": {
+   "phi0474.phi009.perseus-eng2.xml": 90470
+  }
+ },
+ "phi1348.phi022": {
+  "rank": 114,
+  "citations": 402,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1348.phi020": {
+  "rank": 115,
+  "citations": 366,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi004": {
+  "rank": 116,
+  "citations": 363,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi004.perseus-lat2.xml": 76783
+  },
+  "other_editions": {
+   "phi0474.phi004.perseus-eng2.xml": 82130
+  }
+ },
+ "phi0474.phi026": {
+  "rank": 117,
+  "citations": 362,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi026.perseus-lat2.xml": 101356
+  },
+  "other_editions": {
+   "phi0474.phi026.perseus-eng1.xml": 111773
+  }
+ },
+ "phi0474.phi003": {
+  "rank": 118,
+  "citations": 343,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi003.perseus-lat2.xml": 51023
+  },
+  "other_editions": {
+   "phi0474.phi003.perseus-eng2.xml": 65208
+  }
+ },
+ "phi1014.phi001": {
+  "rank": 119,
+  "citations": 340,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1014.phi001.perseus-lat1.xml": 532933
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi025": {
+  "rank": 120,
+  "citations": 329,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1348.phi017": {
+  "rank": 121,
+  "citations": 328,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi020": {
+  "rank": 122,
+  "citations": 303,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi020.perseus-lat2.xml": 200911
+  },
+  "other_editions": {
+   "phi0474.phi020.perseus-eng1.xml": 215675
+  }
+ },
+ "phi0474.phi042": {
+  "rank": 123,
+  "citations": 293,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi042.perseus-lat2.xml": 77778
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi072": {
+  "rank": 124,
+  "citations": 278,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi072.perseus-lat2.xml": 42387
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi016": {
+  "rank": 125,
+  "citations": 274,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi016.perseus-lat2.xml": 52939
+  },
+  "other_editions": {
+   "phi0474.phi016.perseus-eng2.xml": 44987
+  }
+ },
+ "phi1348.phi019": {
+  "rank": 126,
+  "citations": 274,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi025": {
+  "rank": 127,
+  "citations": 259,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi025.perseus-lat2.xml": 62836
+  },
+  "other_editions": {
+   "phi0474.phi025.perseus-eng1.xml": 84947
+  }
+ },
+ "phi0474.phi047": {
+  "rank": 128,
+  "citations": 255,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi047.perseus-lat2.xml": 49795
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi034": {
+  "rank": 129,
+  "citations": 246,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi034.perseus-lat2.xml": 66070
+  },
+  "other_editions": {
+   "phi0474.phi034.perseus-eng1.xml": 59463
+  }
+ },
+ "phi0474.phi054": {
+  "rank": 130,
+  "citations": 241,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi054.perseus-lat2.xml": 54691
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi007": {
+  "rank": 131,
+  "citations": 240,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi007.perseus-lat2.xml": 70987
+  },
+  "other_editions": {
+   "phi0474.phi007.perseus-eng2.xml": 63284
+  }
+ },
+ "phi1348.phi004": {
+  "rank": 132,
+  "citations": 238,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "stoa0255.stoa010": {
+  "rank": 133,
+  "citations": 237,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa010.perseus-lat2.xml": 233411
+  },
+  "other_editions": {}
+ },
+ "phi2003.phi001": {
+  "rank": 134,
+  "citations": 234,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi2003.phi001.perseus-lat1.xml": 142687
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi030": {
+  "rank": 135,
+  "citations": 227,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi030.perseus-lat2.xml": 43535
+  },
+  "other_editions": {
+   "phi0474.phi030.perseus-eng1.xml": 62347
+  }
+ },
+ "phi0631.phi003": {
+  "rank": 136,
+  "citations": 221,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0631.phi003.perseus-lat2.xml": 38434
+  },
+  "other_editions": {}
+ },
+ "stoa0040.stoa011": {
+  "rank": 137,
+  "citations": 219,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0040.stoa011.perseus-lat1.xml": 347175,
+   "stoa0040.stoa011.perseus-lat2.xml": 348670
+  },
+  "other_editions": {
+   "stoa0040.stoa011.perseus-eng1.xml": 430852
+  }
+ },
+ "phi0959.phi010": {
+  "rank": 138,
+  "citations": 213,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi010.perseus-lat2.xml": 51453
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi007": {
+  "rank": 139,
+  "citations": 207,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi018": {
+  "rank": 140,
+  "citations": 205,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi001": {
+  "rank": 141,
+  "citations": 203,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1348.phi018": {
+  "rank": 142,
+  "citations": 188,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi023": {
+  "rank": 143,
+  "citations": 187,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi012": {
+  "rank": 144,
+  "citations": 186,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi012.perseus-lat2.xml": 38524
+  },
+  "other_editions": {
+   "phi0474.phi012.perseus-eng3.xml": 51515
+  }
+ },
+ "phi0474.phi023": {
+  "rank": 145,
+  "citations": 186,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi023.perseus-lat2.xml": 62524
+  },
+  "other_editions": {
+   "phi0474.phi023.perseus-eng1.xml": 70613
+  }
+ },
+ "phi1017.phi009": {
+  "rank": 146,
+  "citations": 183,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi009.perseus-lat2.xml": 173396
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi002": {
+  "rank": 147,
+  "citations": 180,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi038": {
+  "rank": 148,
+  "citations": 177,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi038.perseus-lat2.xml": 116733
+  },
+  "other_editions": {}
+ },
+ "stoa0255.stoa014": {
+  "rank": 149,
+  "citations": 175,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa014.perseus-lat2.xml": 66235
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi014": {
+  "rank": 150,
+  "citations": 165,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1017.phi005": {
+  "rank": 151,
+  "citations": 163,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi005.perseus-lat2.xml": 106342
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi021": {
+  "rank": 152,
+  "citations": 156,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi021.perseus-lat2.xml": 93001
+  },
+  "other_editions": {
+   "phi0474.phi021.perseus-eng1.xml": 109271
+  }
+ },
+ "phi0474.phi033": {
+  "rank": 153,
+  "citations": 156,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi033.perseus-lat2.xml": 56159
+  },
+  "other_editions": {
+   "phi0474.phi033.perseus-eng1.xml": 50728
+  }
+ },
+ "phi0588.phi015": {
+  "rank": 154,
+  "citations": 151,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1017.phi001": {
+  "rank": 155,
+  "citations": 151,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi001.perseus-lat2.xml": 115163
+  },
+  "other_editions": {}
+ },
+ "phi1348.phi021": {
+  "rank": 156,
+  "citations": 151,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "stoa0255.stoa013": {
+  "rank": 157,
+  "citations": 133,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa013.perseus-lat2.xml": 78763
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi060": {
+  "rank": 158,
+  "citations": 127,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi010": {
+  "rank": 159,
+  "citations": 123,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0845.phi002": {
+  "rank": 160,
+  "citations": 123,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0845.phi002.perseus-lat3.xml": 1166937
+  },
+  "other_editions": {
+   "phi0845.phi002.perseus-eng1.xml": 841821
+  }
+ },
+ "phi0588.phi017": {
+  "rank": 161,
+  "citations": 122,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1672.phi002": {
+  "rank": 162,
+  "citations": 120,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1017.phi014": {
+  "rank": 163,
+  "citations": 119,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi014.perseus-lat2.xml": 76411
+  },
+  "other_editions": {}
+ },
+ "phi1017.phi004": {
+  "rank": 164,
+  "citations": 108,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi004.perseus-lat2.xml": 88498
+  },
+  "other_editions": {}
+ },
+ "phi1017.phi008": {
+  "rank": 165,
+  "citations": 106,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi008.perseus-lat2.xml": 96531
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi004": {
+  "rank": 166,
+  "citations": 102,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi041": {
+  "rank": 167,
+  "citations": 100,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi041.perseus-lat2.xml": 23986
+  },
+  "other_editions": {}
+ },
+ "stoa0255.stoa004": {
+  "rank": 168,
+  "citations": 98,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa004.perseus-lat2.xml": 57670
+  },
+  "other_editions": {}
+ },
+ "phi1017.phi007": {
+  "rank": 169,
+  "citations": 94,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi007.perseus-lat2.xml": 87502
+  },
+  "other_editions": {}
+ },
+ "stoa0255.stoa006": {
+  "rank": 170,
+  "citations": 94,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa006.perseus-lat2.xml": 69528
+  },
+  "other_editions": {}
+ },
+ "stoa0255.stoa007": {
+  "rank": 171,
+  "citations": 94,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa007.perseus-lat2.xml": 87188
+  },
+  "other_editions": {}
+ },
+ "phi1017.phi002": {
+  "rank": 172,
+  "citations": 91,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi002.perseus-lat2.xml": 102388
+  },
+  "other_editions": {}
+ },
+ "phi1017.phi006": {
+  "rank": 173,
+  "citations": 89,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi006.perseus-lat2.xml": 92904
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi032": {
+  "rank": 174,
+  "citations": 86,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi032.perseus-lat2.xml": 46421
+  },
+  "other_editions": {
+   "phi0474.phi032.perseus-eng1.xml": 43388
+  }
+ },
+ "phi0478.phi003": {
+  "rank": 175,
+  "citations": 83,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0478.phi003.perseus-lat2.xml": 41681
+  },
+  "other_editions": {
+   "phi0478.phi003.perseus-eng1.xml": 86179
+  }
+ },
+ "phi0588.phi016": {
+  "rank": 176,
+  "citations": 77,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi020": {
+  "rank": 177,
+  "citations": 74,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "stoa0255.stoa009": {
+  "rank": 178,
+  "citations": 70,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa009.perseus-lat2.xml": 53390
+  },
+  "other_editions": {}
+ },
+ "phi0959.phi014": {
+  "rank": 179,
+  "citations": 69,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1014.phi003": {
+  "rank": 180,
+  "citations": 62,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1014.phi003.perseus-lat1.xml": 87113
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi008": {
+  "rank": 181,
+  "citations": 60,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "stoa0255.stoa012": {
+  "rank": 182,
+  "citations": 58,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa012.perseus-lat2.xml": 42623
+  },
+  "other_editions": {}
+ },
+ "phi1020.phi003": {
+  "rank": 183,
+  "citations": 54,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1020.phi003.perseus-lat2.xml": 102075
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi006": {
+  "rank": 184,
+  "citations": 54,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi009": {
+  "rank": 185,
+  "citations": 54,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0097.phi001": {
+  "rank": 186,
+  "citations": 52,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi019": {
+  "rank": 187,
+  "citations": 51,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi019.perseus-lat2.xml": 58330
+  },
+  "other_editions": {
+   "phi0474.phi019.perseus-eng2.xml": 68787
+  }
+ },
+ "phi0588.phi019": {
+  "rank": 188,
+  "citations": 50,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi005": {
+  "rank": 189,
+  "citations": 49,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "stoa0255.stoa008": {
+  "rank": 190,
+  "citations": 46,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa008.perseus-lat2.xml": 57822
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi012": {
+  "rank": 191,
+  "citations": 43,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi022": {
+  "rank": 192,
+  "citations": 42,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1518.phi001": {
+  "rank": 193,
+  "citations": 41,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi029": {
+  "rank": 194,
+  "citations": 41,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi029.perseus-lat2.xml": 49924
+  },
+  "other_editions": {
+   "phi0474.phi029.perseus-eng1.xml": 56305
+  }
+ },
+ "phi1017.phi003": {
+  "rank": 195,
+  "citations": 40,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi003.perseus-lat2.xml": 55527
+  },
+  "other_editions": {}
+ },
+ "phi0588.phi011": {
+  "rank": 196,
+  "citations": 38,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi001": {
+  "rank": 197,
+  "citations": 38,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi001.perseus-lat2.xml": 84105
+  },
+  "other_editions": {
+   "phi0474.phi001.perseus-eng2.xml": 112152
+  }
+ },
+ "phi1017.phi011": {
+  "rank": 198,
+  "citations": 38,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi011.perseus-lat2.xml": 35685
+  },
+  "other_editions": {
+   "phi1017.phi011.perseus-eng2.xml": 44288
+  }
+ },
+ "phi0588.phi024": {
+  "rank": 199,
+  "citations": 37,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0959.phi003": {
+  "rank": 200,
+  "citations": 36,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi003.perseus-lat2.xml": 11710
+  },
+  "other_editions": {
+   "phi0959.phi003.perseus-eng2.xml": 8846
+  }
+ },
+ "phi0588.phi003": {
+  "rank": 201,
+  "citations": 36,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi013": {
+  "rank": 202,
+  "citations": 34,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0588.phi021": {
+  "rank": 203,
+  "citations": 33,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1351.phi003": {
+  "rank": 204,
+  "citations": 32,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1351.phi003.perseus-lat2.xml": 109456
+  },
+  "other_editions": {
+   "phi1351.phi003.perseus-eng2.xml": 92842
+  }
+ },
+ "phi0972.phi001": {
+  "rank": 205,
+  "citations": 31,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0972.phi001.perseus-lat1.xml": 272583,
+   "phi0972.phi001.perseus-lat2.xml": 388678
+  },
+  "other_editions": {
+   "phi0972.phi001.perseus-eng1.xml": 357961
+  }
+ },
+ "phi0631.phi007": {
+  "rank": 206,
+  "citations": 29,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi006": {
+  "rank": 207,
+  "citations": 27,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi006.perseus-lat2.xml": 50894
+  },
+  "other_editions": {
+   "phi0474.phi006.perseus-eng2.xml": 53999
+  }
+ },
+ "stoa0255.stoa011": {
+  "rank": 208,
+  "citations": 21,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "stoa0255.stoa011.perseus-lat2.xml": 23490
+  },
+  "other_editions": {}
+ },
+ "phi0425.phi001": {
+  "rank": 209,
+  "citations": 18,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi018": {
+  "rank": 210,
+  "citations": 16,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi018.perseus-lat2.xml": 41639
+  },
+  "other_editions": {
+   "phi0474.phi018.perseus-eng2.xml": 38215
+  }
+ },
+ "phi0592.phi001": {
+  "rank": 211,
+  "citations": 12,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0146.phi001": {
+  "rank": 212,
+  "citations": 11,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi1017.phi010": {
+  "rank": 213,
+  "citations": 9,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi1017.phi010.perseus-lat2.xml": 93246
+  },
+  "other_editions": {}
+ },
+ "phi0474.phi017": {
+  "rank": 214,
+  "citations": 6,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi017.perseus-lat2.xml": 105584
+  },
+  "other_editions": {
+   "phi0474.phi017.perseus-eng2.xml": 138121
+  }
+ },
+ "phi1017.phi012": {
+  "rank": 215,
+  "citations": 4,
+  "in_repo_tree": false,
+  "latin_editions": {},
+  "other_editions": {}
+ },
+ "phi0474.phi045": {
+  "rank": 216,
+  "citations": 3,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0474.phi045.perseus-lat2.xml": 91763
+  },
+  "other_editions": {}
+ },
+ "phi0959.phi005": {
+  "rank": 217,
+  "citations": 1,
+  "in_repo_tree": true,
+  "latin_editions": {
+   "phi0959.phi005.perseus-lat2.xml": 66801
+  },
+  "other_editions": {
+   "phi0959.phi005.perseus-eng2.xml": 82792
+  }
+ }
+}

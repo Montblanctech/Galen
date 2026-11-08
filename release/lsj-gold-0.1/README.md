@@ -21,7 +21,7 @@ size_categories:
 
 ## Files
 - `lsj_gold_v0.csv` — headword, headword_key (accent-blind Beta Code), author, work, cited_edition, locator, unit, token_index (into the First1K edition's odyCy token stream, `<stem>.jsonl` of the project), surface, validation, quoted_form, lsj_part, entry_key.
-- `lsj_gold_table.md` / `lsj_gold_scores.json` — the reference table (Dilemma 1.3.15 90.1%, odyCy 0.7.0 76.6% on its covered loci, Stanza 1.14 rows as their caches complete; once-cited headwords: 83.8 / 54.6 / 53.1).
+- `lsj_gold_table.md` / `lsj_gold_scores.json` — the reference table (Dilemma 1.3.15 90.1% on 93,750 loci; Stoicheia 87.7%, Stanza 1.14 grc-perseus 79.6%, odyCy 0.7.0 75.7% and Stanza grc-proiel 72.0% on the same 90,452 loci; once-cited headwords: 83.8 / 67.6 / 53.3 / 52.6 / 50.8).
 - `validation/`, `validation_v03/` — the two blind salted sheets, answers, keys (published after scoring) and summaries; `failures/` — the failure catalogue by pattern and headword; `lsj_citation_counts.json` — how often LSJ cites each entry.
 - `punch_list_v3.csv`, `real_headwords_no_perseus_lsj.csv`, `absent_tier_headword_map.csv`, `reader_pass/` — the Galen deliverables with keys published after scoring.
 
