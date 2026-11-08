@@ -1,0 +1,307 @@
+class,fable-5-1,lemma,lsj_sense_count,lsj_tier,norm1,norm2,opus-5-5,passage_id,pos,surface,target_no,uncertain_fable-5-1,uncertain_opus-5-5,verdict
+punch,some,ἔνιοι,1,thin,,,some,temp-000240,ADJ,ἔνιοι,20,n,n,agree
+control,cold,ψυχρός,7,,cold,cold,cold,temp-000240,ADJ,ψυχρὰν,28,n,n,agree
+punch,ill-mixed,δύσκρατος,1,thin,ill mixed,badly mixed,badly mixed,temp-003960,ADJ,δύσκρατον,14,n,n,disagree
+control,animal,ζῶον,3,,animal,animal,animal,temp-003960,NOUN,ζῶον,36,n,n,agree
+punch,mixture,κρᾶσι,0,absent,mixture,mixture,mixture,temp-003960,NOUN,κρᾶσιν,41,n,n,agree
+punch,mixture,κρᾶσι,0,absent,mixture,mixture,mixture,temp-003960,NOUN,κρᾶσιν,69,n,n,agree
+control,mixture,κρᾶσις,5,,mixture,mixture,mixture,temp-003960,NOUN,κρᾶσις,91,n,n,agree
+control,mixture,κράσις,5,,mixture,mixture,mixture,temp-003960,NOUN,κράσει,96,n,n,agree
+punch,mixture,κρᾶσι,0,absent,mixture,mixture,mixture,temp-005760,NOUN,κρᾶσιν,83,n,n,agree
+control,capacity,δύναμις,26,,faculty,faculty,capacity,temp-005760,NOUN,δύναμιν,98,y,y,agree
+control,animals,ζῷον,3,,animal,animal,animals,temp-006000,NOUN,ζώων,12,n,n,agree
+punch,Dion,δίων,0,absent,dion,dion,Dion,temp-006000,NOUN,Δίωνος,76,n,n,agree
+punch,all,σύμπαντος,0,absent,all,all,all,temp-009120,ADJ,σύμπαντα,23,n,n,agree
+control,by nature,φύσις,22,,nature,nature,by nature,temp-009120,NOUN,φύσει,51,n,n,agree
+punch,warmth,θερμασία,1,thin,hot,hot,warmth,temp-009120,NOUN,θερμασίαν,74,n,n,agree
+control,a little,βραχύς,6,,little,little,a little,temp-009120,ADJ,βραχὺ,100,n,n,agree
+punch,limbs,κώλος,0,absent,limb,limb,limbs,temp-010080,NOUN,κώλων,3,n,n,agree
+control,difference,διαφορά,10,,difference,difference,difference,temp-010080,NOUN,διαφορᾶς,49,n,n,agree
+control,causes,αἰτία,8,,caus,caus,causes,temp-010080,NOUN,αἰτίας,71,n,n,agree
+punch,ages,ἡλικιή,0,absent,age,age,ages,temp-010080,NOUN,ἡλικιῶν,81,n,n,agree
+punch,moistest,ὑγρότατος,0,absent,moistest,moistest,moistest,temp-010080,ADJ,ὑγρότατόν,110,n,n,agree
+control,first,πρῶτος,35,,first,first,first,temp-010080,ADJ,πρώτη,117,n,n,agree
+control,so great,τοσοῦτος,3,,great so,great so,so great,temp-010320,ADJ,τοσαύτη,9,n,n,agree
+punch,flabby,πλαδαρή,0,absent,flabby,flabby,flabby,temp-010320,NOUN,πλαδαρὰν,33,n,n,agree
+punch,flesh of pigs,ὕειον,0,absent,flesh pig,pork,pork,temp-010320,NOUN,ὕεια,65,n,n,disagree
+control,drier,ξηρός,7,,drier,drier,drier,temp-010320,ADJ,ξηρότερα,78,n,n,agree
+punch,better,βελτίων,1,thin,better,better,better,temp-010320,ADJ,βελτίω,79,n,n,agree
+punch,sapless,ἄνικμος,1,thin,sapless,sapless,sapless,temp-010320,ADJ,ἄνικμα,96,y,n,agree
+control,hard,σκληρός,14,,hard,hard,hard,temp-010320,ADJ,σκληρὰν,112,n,n,agree
+control,flesh,σάρξ,7,,flesh,flesh,flesh,temp-010320,NOUN,σάρκα,114,n,n,agree
+control,a quantity,πλῆθος,10,,quantity,abundance,abundance,temp-010560,NOUN,πλῆθος,3,n,n,disagree
+control,drier,ξηρός,7,,drier,drier,drier,temp-010560,ADJ,ξηρότερα,62,n,n,agree
+punch,all,σύμπαντος,0,absent,all,all,all,temp-010560,ADJ,σύμπαντα,87,n,n,agree
+punch,signs,γνωρίσμας,0,absent,sign,sign,signs,temp-010560,NOUN,γνωρίσματα,88,n,n,agree
+punch,nutrition,θρέψις,1,thin,nutrition,nutrition,nutrition,temp-011400,NOUN,θρέψις,36,n,n,agree
+punch,activities,ἐνεργειή,0,absent,activity,function,functions,temp-011400,NOUN,ἐνεργειῶν,51,n,n,disagree
+punch,a very great deal of,παμπόλλος,0,absent,deal great very,deal great,a great deal of,temp-011400,ADJ,παμπόλλης,68,n,n,disagree
+control,dry,ξηρός,7,,dry,dry,dry,temp-011400,ADJ,ξηρὰν,85,n,n,agree
+control,hot,θερμός,8,,hot,hot,hot,temp-011400,ADJ,θερμὴν,87,n,n,agree
+control,cold,ψυχρός,7,,cold,cold,cold,temp-011400,ADJ,ψυχρὰν,89,n,n,agree
+control,reasonable,εὔλογος,8,,reasonable,reasonable,reasonable,temp-012480,ADJ,εὔλογον,1,n,n,agree
+control,cold,ψυχρός,7,,cold,cold,cold,temp-012480,ADJ,ψυχρὸν,15,n,n,agree
+control,body,σῶμα,13,,body,body,body,temp-012480,NOUN,σῶμα,16,n,n,agree
+control,judgement,κρίσις,12,,judgement,judgment,judgment,temp-012480,NOUN,κρίσιν,29,y,y,disagree
+punch,all,σύμπαντος,0,absent,all,all,all,temp-012480,ADJ,σύμπαντα,34,n,n,agree
+punch,signs,γνωρίσμας,0,absent,sign,sign,signs,temp-012480,NOUN,γνωρίσματα,35,n,n,agree
+control,age,ἡλικία,8,,age,age,age,temp-012480,NOUN,ἡλικίας,97,n,n,agree
+punch,hotter,θερμότερος,0,absent,hotter,hotter,hotter,temp-012480,ADJ,θερμότερος,104,n,n,agree
+punch,quality,ποιότης,1,thin,quality,quality,quality,temp-012480,NOUN,ποιότητι,106,n,n,agree
+punch,unequal,ἀνίσος,1,thin,unequal,unequal,unequal,temp-012480,ADJ,ἀνίσῳ,114,n,n,agree
+control,all,σύμπας,4,,all,all,all,temp-013560,ADJ,ξύμπαντες,6,n,n,agree
+punch,moister,ὑγρότατος,0,absent,moister,moister,moister,temp-013560,ADJ,ὑγρότερος,11,n,n,agree
+punch,hotter,θερμότατος,0,absent,hotter,hotter,hotter,temp-013560,ADJ,θερμότερος,15,n,n,agree
+punch,nerves,νεύρος,0,absent,nerve,nerve,nerves,temp-013560,NOUN,νεύρων,60,n,n,agree
+control,hard,σκληρός,14,,hard,hard,hard,temp-013560,ADJ,σκληρῶν,65,n,n,agree
+control,as much as,ὅσος,30,,as much,as much,by as much as,temp-013560,ADJ,ὅσον,80,n,n,agree
+punch,kidneys,νεφρός,1,thin,kidney,kidney,kidneys,temp-013560,NOUN,νεφρῶν,95,n,n,agree
+punch,liver,ἥπατος,0,absent,liver,liver,liver,temp-013560,NOUN,ἥπατος,99,n,n,agree
+control,flesh,σάρξ,7,,flesh,flesh,flesh,temp-013560,NOUN,σὰρξ,100,n,n,agree
+control,flesh,σάρξ,7,,flesh,flesh,flesh,temp-013560,NOUN,σὰρξ,119,n,n,agree
+punch,baldness,φαλάκρωσις,1,thin,baldness,baldness,baldness,temp-018840,NOUN,φαλάκρωσις,33,n,n,agree
+punch,some,ἔνιοι,1,thin,,,some,temp-018840,ADJ,ἔνιοι,72,n,n,agree
+control,eyes,ὀφθαλμός,8,,eye,eye,eyes,temp-018840,NOUN,ὀφθαλμοὺς,111,n,n,agree
+control,larger,μέγας,19,,larger,larger,larger,temp-018840,ADJ,μείζους,115,n,n,agree
+control,parts,μόριον,7,,part,part,parts,temp-020280,NOUN,μορίοις,22,n,n,agree
+punch,bad-mixture,δυσκρασία,1,thin,bad mixture,dyscrasia,dyscrasia,temp-020280,NOUN,δυσκρασία,24,n,n,disagree
+control,the other things,ἄλλος,13,,other thing,other,other,temp-025320,ADJ,ἄλλα,8,n,n,disagree
+punch,hotter,θερμότερος,0,absent,hotter,hotter,hotter,temp-025320,ADJ,θερμότερον,22,n,n,agree
+punch,quality,ποιότης,1,thin,quality,quality,quality,temp-025320,NOUN,ποιότητα,76,n,n,agree
+control,lettuce,θριδακίνη,4,,lettuce,lettuce,lettuce,temp-025320,NOUN,θριδακίνη,94,n,n,agree
+punch,quality,ποιότης,1,thin,quality,quality,quality,temp-025320,NOUN,ποιότητος,96,n,n,agree
+control,hot,θερμός,8,,hot,hot,hot,temp-025320,ADJ,θερμοῦ,115,n,n,agree
+control,water,ὕδωρ,8,,water,water,water,temp-026640,NOUN,ὕδατος,55,n,n,agree
+punch,warmth,θερμασία,1,thin,hot,hot,warmth,temp-026640,NOUN,θερμασίαν,94,n,n,agree
+punch,quality,ποιότης,1,thin,quality,quality,quality,temp-027360,NOUN,ποιότητα,96,n,n,agree
+control,another,ἕτερος,22,,another,another,another,temp-027360,ADJ,ἕτερον,110,n,n,agree
+punch,rose,ῥοδίνη,0,absent,rose,rose,rose,cmpg-004080,NOUN,ῥοδίνης,3,n,n,agree
+punch,cerate,κηρωτῆς,0,absent,cerate,cerate,cerate,cmpg-004080,NOUN,κηρωτῆς,4,n,n,agree
+control,many,πολύς,41,,many,many,many,cmpg-004080,ADJ,πολλὰ,16,n,n,agree
+control,some,τις,70,,,,some,cmpg-004080,ADJ,τινὰ,23,n,n,agree
+punch,phoenicine,φοινικίνα,0,absent,phoenicine,palm plaster,palm plaster,cmpg-004080,NOUN,φοινικίνῃ,29,y,n,disagree
+punch,rheumatic affections,ῥευματικός,1,thin,affection rheumatic,fluxion,fluxions,cmpg-004080,ADJ,ῥευματικὰ,37,n,y,disagree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-004080,NOUN,φάρμακον,40,n,n,agree
+control,thigh,μηρός,3,,thigh,thigh,thigh,cmpg-004080,NOUN,μηροῦ,51,n,n,agree
+control,leg,σκέλος,9,,leg,leg,leg,cmpg-004080,NOUN,σκέλος,67,n,n,agree
+punch,ichors,ἰχῶρα,0,absent,ichor,ichor,ichors,cmpg-004080,NOUN,ἰχῶρας,71,n,n,agree
+control,thigh,μηρός,3,,thigh,thigh,thigh,cmpg-004080,NOUN,μηρὸν,91,n,n,agree
+punch,fistulous,συριγγώδης,1,thin,fistulou,fistulou,fistulous,cmpg-004080,NOUN,συριγγώδης,93,n,n,agree
+control,vinegar,ὄξος,3,,vinegar,vinegar,vinegar,cmpg-008880,NOUN,ὄξος,1,n,n,agree
+control,occasion,καιρός,10,,occasion,stage,stage,cmpg-008880,NOUN,καιρῷ,7,n,y,disagree
+punch,pepper,πεπέρως,0,absent,pepper,pepper,pepper,cmpg-008880,NOUN,πεπέρεως,13,n,n,agree
+punch,scar,οὐλὴ,1,thin,scar,scar,scar,cmpg-008880,NOUN,οὐλὴν,22,n,n,agree
+punch,myrtle,μυρσίνον,0,absent,myrtle,myrtle,myrtle,cmpg-008880,ADJ,μυρσίνῳ,35,n,n,agree
+punch,drugs,φάρμακος,1,thin,drug,drug,drugs,cmpg-008880,NOUN,φαρμάκοις,47,n,n,agree
+control,need,χρεία,13,,need,need,need,cmpg-008880,NOUN,χρεία,59,n,n,agree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-008880,NOUN,φάρμακον,95,n,n,agree
+control,those that,ὅσος,30,,,,those that,cmpg-008880,ADJ,ὅσα,114,n,n,agree
+punch,somewhat hard,ὑπόσκληρος,1,thin,hard somewhat,hard somewhat,somewhat hard,cmpg-008880,ADJ,ὑπόσκληρα,116,n,n,agree
+control,a sixth,ἕκτος,7,,sixth,sixth,a sixth,cmpg-011040,ADJ,ἕκτον,25,n,n,agree
+punch,some,ἔνιοι,1,thin,,,some,cmpg-011040,ADJ,ἔνιοι,44,n,n,agree
+control,nourishment,τροφή,9,,nourishment,food,food,cmpg-012840,NOUN,τροφῆς,1,n,n,disagree
+punch,plaster,ἐμπλάστρος,1,thin,plaster,plaster,plaster,cmpg-012840,NOUN,ἐμπλάστρου,30,n,n,agree
+punch,better,βελτίων,1,thin,better,better,better,cmpg-012840,ADJ,βελτίονα,33,n,n,agree
+control,this,ὅδε,19,,,,this one,cmpg-012840,ADJ,τῇδε,43,n,n,agree
+control,first,πρῶτος,35,,first,first,first,cmpg-012840,ADJ,πρῶτον,64,n,n,agree
+control,old,παλαιός,12,,old,old,old,cmpg-012840,ADJ,παλαιὰ,94,n,n,agree
+control,carbuncles,ἄνθραξ,5,,carbuncle,carbuncle,carbuncles,cmpg-012840,NOUN,ἄνθρακας,97,n,n,agree
+punch,achores,ἀχῶρα,0,absent,achore,achore,achores,cmpg-012840,NOUN,ἀχῶρας,99,n,y,agree
+punch,scabby,ψωρώδης,1,thin,scabby,psoric,psoric,cmpg-012840,ADJ,ψωρώδεις,100,n,n,disagree
+control,conditions,διαθέσις,11,,condition,condition,conditions,cmpg-012840,NOUN,διαθέσεις,101,n,n,agree
+punch,condylomata,κονδυλώματον,0,absent,condylomata,condylomata,condylomata,cmpg-012840,NOUN,κονδυλώματα,107,n,n,agree
+punch,white lead,ψιμύθιον,1,thin,lead white,lead white,white lead,cmpg-012840,NOUN,ψιμυθίου,119,n,n,agree
+punch,white lead,ψιμυθίον,1,thin,lead white,lead white,white lead,cmpg-013680,NOUN,ψιμυθίου,15,n,n,agree
+control,much,πολύς,41,,much,much,much,cmpg-013680,ADJ,πολλῆς,88,n,n,agree
+control,more useful,χρησιμός,6,,more useful,more useful,more useful,cmpg-013680,ADJ,χρησιμώτερα,98,n,n,agree
+punch,biting,δακνῶδής,1,thin,biting,mordant,mordant,cmpg-013680,ADJ,δακνῶδές,107,n,n,disagree
+control,abundant,πολύς,41,,abundant,copiou,copious,cmpg-013800,ADJ,πολὺ,11,n,n,disagree
+punch,flowing into,ἐπιῤῥέος,0,absent,flowing into,flowing onto,flowing onto,cmpg-013800,ADJ,ἐπιῤῥέον,14,n,n,disagree
+control,each,ἕκαστος,8,,each,each,each,cmpg-013800,ADJ,ἑκάστῳ,24,n,n,agree
+control,drugs,φαρμάκον,11,,drug,drug,drugs,cmpg-013800,NOUN,φαρμάκων,39,n,n,agree
+control,test,πεῖρα,3,,test,trial,trial,cmpg-013800,NOUN,πεῖραν,59,n,n,disagree
+punch,litharge,λιθαργύρυ,0,absent,litharge,litharge,litharge,cmpg-013800,NOUN,λιθαργύρου,70,n,n,agree
+punch,white lead,ψιμύθιον,1,thin,lead white,lead white,white lead,cmpg-013800,NOUN,ψιμυθίου,73,n,n,agree
+punch,resin,ῥητίνα,0,absent,resin,resin,resin,cmpg-013800,NOUN,ῥητίνης,88,n,n,agree
+control,metallics,μεταλλικός,3,,metallic,metallic substance,metallic [ingredients],cmpg-013800,ADJ,μεταλλικὰ,99,n,n,disagree
+punch,litharge,λιθαργύρυ,0,absent,litharge,litharge,litharge,cmpg-013800,NOUN,λιθαργύρου,105,n,n,agree
+punch,white lead,ψιμύθιον,1,thin,lead white,lead white,white lead,cmpg-013800,NOUN,ψιμυθίου,108,n,n,agree
+control,oil,ἔλαιον,3,,oil,oil,oil,cmpg-013800,NOUN,ἐλαίου,116,n,n,agree
+control,inflammation,φλεγμονῆ,4,,inflammation,inflammation,inflammation,cmpg-032520,NOUN,φλεγμονῆς,3,n,n,agree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-032520,NOUN,φαρμάκῳ,23,n,n,agree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-032520,NOUN,φαρμάκῳ,35,n,n,agree
+punch,boiled-down must,σιραῖος,0,absent,boiled down must,boiled down must,boiled-down must,cmpg-032520,NOUN,σιραίου,65,y,n,agree
+punch,euphorbium,εὐφόρβιος,0,absent,euphorbium,euphorbium,euphorbium,cmpg-032520,NOUN,εὐφόρβιον,77,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-032520,NOUN,ῥητίνῃ,81,n,n,agree
+control,quantity,πλῆθος,10,,quantity,quantity,quantity,cmpg-032520,NOUN,πλῆθος,84,n,n,agree
+punch,euphorbium,εὐφορβίας,0,absent,euphorbium,euphorbium,euphorbium,cmpg-032520,NOUN,εὐφορβίου,95,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-034200,NOUN,ῥητίνῃ,2,n,n,agree
+punch,cerate,κηρωτῇς,0,absent,cerate,cerate,cerate,cmpg-034200,NOUN,κηρωτῇ,11,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-034200,NOUN,ῥητίνην,12,n,n,agree
+punch,quite clear,εὔδηλος,1,thin,clear quite,clear quite,quite clear,cmpg-034200,ADJ,εὔδηλον,18,n,n,agree
+control,much,πολύς,41,,much,much,much,cmpg-034200,ADJ,πολλοῦ,35,n,n,agree
+punch,resins,ῥητίνη,1,thin,resin,resin,resins,cmpg-034200,NOUN,ῥητίναι,40,n,n,agree
+control,dry,ξηρός,7,,dry,dry,dry,cmpg-034200,ADJ,ξηραὶ,44,n,n,agree
+control,some,τις,70,,,,some,cmpg-034200,ADJ,τινα,53,n,n,agree
+control,dry,ξηρός,7,,dry,dry,dry,cmpg-034200,ADJ,ξηρὰν,54,n,n,agree
+punch,plaster-like,ἐμπλαστρώδης,1,thin,like plaster,like plaster,plaster-like,cmpg-034200,NOUN,ἐμπλαστρώδη,58,n,n,agree
+control,waxes,κηρός,4,,wax,wax,waxes,cmpg-034200,NOUN,κηροῖς,64,n,n,agree
+control,moistness,ὑγρότης,5,,moistness,moistness,moistness,cmpg-034200,NOUN,ὑγρότητα,72,n,n,agree
+punch,resins,ῥητίνη,1,thin,resin,resin,resins,cmpg-034200,NOUN,ῥητίναις,76,n,n,agree
+punch,very great,παμπόλλος,0,absent,great very,great very,very great,cmpg-034200,ADJ,παμπόλλη,83,n,n,agree
+control,moist,ὑγρός,19,,wet,wet,moist,cmpg-034200,ADJ,ὑγράς,91,n,n,agree
+control,driest,ξηρός,7,,driest,driest,driest,cmpg-034200,ADJ,ξηροτάτη,92,n,n,agree
+punch,colophony,κολοφωνία,0,absent,colophony,colophonian,Colophonian,cmpg-034200,NOUN,κολοφωνίαν,104,n,n,disagree
+control,second,δεύτερος,10,,second,second,second,cmpg-034200,ADJ,δευτέρα,105,n,n,agree
+punch,muscles,μυύς,0,absent,muscle,muscle,muscles,cmpg-036360,NOUN,μυσὶ,23,n,n,agree
+punch,epigastrium,ἐπιγάστριον,0,absent,epigastrium,abdominal wall,abdominal wall,cmpg-036360,NOUN,ἐπιγάστριον,55,n,n,disagree
+punch,muscles,μυύς,0,absent,muscle,muscle,muscles,cmpg-036360,NOUN,μυσὶν,56,n,n,agree
+control,all,ἅπας,5,,all,all,all,cmpg-036360,ADJ,ἅπαντες,80,n,n,agree
+control,sufficient,ἱκανός,8,,sufficient,sufficient,sufficient,cmpg-036360,ADJ,ἱκανὸν,84,n,n,agree
+control,sympathy,συμπάθεια,5,,sympathy,sympathy,sympathy,cmpg-036360,NOUN,συμπάθεια,91,n,n,agree
+control,nerves,νεύρον,9,,nerve,nerve,nerves,cmpg-036360,NOUN,νεύρων,99,n,n,agree
+punch,muscles,μυύς,0,absent,muscle,muscle,muscles,cmpg-036360,NOUN,μυσὶ,117,n,n,agree
+punch,the Tarentine,ταραντίνης,0,absent,tarentine,tarantine,the Tarantine,cmpg-054720,NOUN,Ταραντίνου,24,n,n,disagree
+control,proportion,συμμετρία,4,,proportion,proportion,proportion,cmpg-054720,NOUN,συμμετρίαν,31,n,n,agree
+punch,cadmia,καδμεία,1,thin,cadmia,cadmia,cadmia,cmpg-054720,NOUN,καδμείας,35,n,n,agree
+control,separately,ἴδιος,19,,separately,separately,separately,cmpg-054720,ADJ,ἰδίαν,40,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-054720,NOUN,ῥητίνης,61,n,n,agree
+punch,terebinth,τερμινθίνα,0,absent,terebinth,terebinth,terebinth,cmpg-054720,NOUN,τερμινθίνης,62,n,n,agree
+control,8,η΄,61,,,,8,cmpg-054720,ADJ,η΄,67,y,y,agree
+punch,cerate,κηρωτή,1,thin,cerate,cerate,cerate,cmpg-054720,NOUN,κηρωτῇ,70,n,n,agree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-054720,NOUN,φάρμακον,79,n,n,agree
+control,none,οὐδείς,12,,none,none,none,cmpg-054720,ADJ,οὐδὲν,80,n,n,agree
+punch,cerate,κηρωτὴς,0,absent,cerate,cerate,cerate,cmpg-054720,NOUN,κηρωτὴν,89,n,n,agree
+control,each,ἕκαστος,8,,each,each,each,cmpg-054720,ADJ,ἑκάστου,94,n,n,agree
+control,vinegar,ὄξος,3,,vinegar,vinegar,vinegar,cmpg-058080,NOUN,ὄξους,14,n,n,agree
+punch,opopanax,ὀποπάναξ,1,thin,opopanax,opopanax,opopanax,cmpg-058080,NOUN,ὀποπάνακα,19,n,n,agree
+control,pan,λοπάς,6,,pan,pan,pan,cmpg-058080,NOUN,λοπάδι,26,n,n,agree
+punch,lumps of wax,ἐγκηρίς,1,thin,lump wax,lump,lumps,cmpg-058080,NOUN,ἐγκηρίδας,30,y,y,disagree
+control,scale,λεπίς,6,,scale,flake,flake,cmpg-058080,NOUN,λεπίδος,92,n,n,disagree
+punch,resin,ῥητίνα,0,absent,resin,resin,resin,cmpg-058080,NOUN,ῥητίνης,101,n,n,agree
+control,vinegar,ὄξος,3,,vinegar,vinegar,vinegar,cmpg-059760,NOUN,ὄξει,3,n,n,agree
+control,bitumen,ἄσφαλτος,3,,bitumen,bitumen,bitumen,cmpg-059760,NOUN,ἀσφάλτου,25,n,n,agree
+punch,resin,ῥητίνα,0,absent,resin,resin,resin,cmpg-059760,NOUN,ῥητίνης,27,n,n,agree
+punch,terebinth,τερμινθίνα,0,absent,terebinth,terebinth,terebinth,cmpg-059760,ADJ,τερμινθίνης,28,n,n,agree
+punch,Bruttian,βρυτίη,0,absent,bruttian,bruttian,Bruttian,cmpg-059760,NOUN,Βρυτίας,31,n,n,agree
+punch,white lead,ψιμύθιον,1,thin,lead white,lead white,white lead,cmpg-059760,NOUN,ψιμυθίου,40,n,n,agree
+punch,manna,μάννη,0,absent,manna,manna,manna,cmpg-059760,NOUN,μάννης,42,y,y,agree
+control,verdigris,ἰός,7,,verdigri,verdigri,verdigris,cmpg-059760,NOUN,ἰοῦ,44,n,n,agree
+control,scale,λεπίς,6,,scale,flake,flake,cmpg-059760,NOUN,λεπίδος,46,n,n,disagree
+punch,opopanax,ὀποπάναξ,1,thin,opopanax,opopanax,opopanax,cmpg-059760,NOUN,ὀποπάνακος,48,n,n,agree
+control,oil,ἔλαιον,3,,oil,oil,oil,cmpg-059760,NOUN,ἐλαίου,56,n,n,agree
+punch,ladanum,λαδάνος,0,absent,ladanum,ladanum,ladanum,cmpg-059760,NOUN,λαδάνου,57,n,n,agree
+control,cotylae,κοτύλη,9,,cotylae,kotylai,kotylai,cmpg-059760,NOUN,κοτύλας,66,n,n,disagree
+control,vinegar,ὄξος,3,,vinegar,vinegar,vinegar,cmpg-059760,NOUN,ὄξους,67,n,n,agree
+control,Another,ἄλλος,13,,another,another,another,cmpg-059760,ADJ,ἄλλη,78,n,n,agree
+control,scale,λεπίς,6,,scale,flake,flake,cmpg-059760,NOUN,λεπίδος,81,n,n,disagree
+control,drachma,δραχμή,3,,drachma,drachma,drachma,cmpg-059760,NOUN,δραχμὴν,105,n,n,agree
+punch,resin,ῥητίνα,0,absent,resin,resin,resin,cmpg-059760,NOUN,ῥητίνης,107,n,n,agree
+punch,terebinth,τερμινθίνα,0,absent,terebinth,terebinth,terebinth,cmpg-059760,NOUN,τερμινθίνης,108,n,n,agree
+punch,terebinth,τερμινθίνα,0,absent,terebinth,terebinth,terebinth,cmpg-059760,NOUN,τερμινθίνης,118,n,n,agree
+control,haemorrhoids,αἱμοῤῥοΐς,3,,haemorrhoid,haemorrhoid,haemorrhoids,cmpg-069120,NOUN,αἱμοῤῥοΐδας,0,n,n,agree
+punch,Illyrian,ἰλλυρικός,1,thin,illyrian,illyrian,Illyrian,cmpg-069120,ADJ,Ἰλλυρικῆς,21,n,n,agree
+punch,bdellium,βδελλίος,0,absent,bdellium,bdellium,bdellium,cmpg-069120,NOUN,βδελλίου,24,n,n,agree
+punch,chalcanthum,χαλκάνθος,0,absent,chalcanthum,chalcanthum,chalcanthum,cmpg-069120,NOUN,χαλκάνθου,30,n,n,agree
+punch,alum,στυπτηρίη,0,absent,alum,alum,alum,cmpg-069120,NOUN,στυπτηρίας,33,n,n,agree
+punch,split,σχιστῆ,0,absent,split,split,split,cmpg-069120,NOUN,σχιστῆς,34,n,n,agree
+punch,ammoniac,ἀμμωνιακός,1,thin,ammoniac,ammoniac,ammoniac,cmpg-069120,NOUN,ἀμμωνιακοῦ,40,n,n,agree
+punch,misy,μίσυς,0,absent,misy,misy,misy,cmpg-069120,NOUN,μίσυος,44,n,n,agree
+control,sweet,γλυκύς,9,,sweet,sweet,sweet,cmpg-069120,ADJ,γλυκείας,49,n,n,agree
+punch,aristolochia,ἀριστολοχίας,0,absent,aristolochia,aristolochia,aristolochia,cmpg-069120,NOUN,ἀριστολοχίας,52,n,n,agree
+punch,omphacitis,ὀμφακίτις,1,thin,omphaciti,omphaciti,omphacitis,cmpg-069120,NOUN,ὀμφακίτιδος,54,n,n,agree
+control,chalcitis,χαλκίτις,3,,chalciti,chalciti,chalcitis,cmpg-069120,NOUN,χαλκίτιδος,60,n,n,agree
+punch,ammoniac,ἀμμωνιακός,1,thin,ammoniac,ammoniac,ammoniac,cmpg-069120,NOUN,ἀμμωνιακοῦ,63,n,n,agree
+punch,mistletoe,ἰξόν,0,absent,mistletoe,mistletoe,mistletoe,cmpg-069120,NOUN,ἰξοῦ,67,n,y,agree
+control,8,η΄,61,,,,8,cmpg-069120,ADJ,η΄,70,n,n,agree
+punch,opopanax,ὀποπάνακς,0,absent,opopanax,opopanax,opopanax,cmpg-069120,NOUN,ὀποπάνακος,71,n,n,agree
+control,verdigris,ἰός,7,,verdigri,verdigri,verdigris,cmpg-069120,NOUN,ἰοῦ,74,n,n,agree
+control,8,η΄,61,,,,8,cmpg-069120,ADJ,η΄,80,n,n,agree
+control,flower,ἄνθος,7,,flower,flower,flower,cmpg-069120,NOUN,ἄνθους,82,n,n,agree
+punch,terebinth,τερμινθίνα,0,absent,terebinth,terebinth,terebinth,cmpg-069120,NOUN,τερμινθίνης,85,n,n,agree
+control,mina,μνᾶ,3,,mina,mina,mina,cmpg-069120,NOUN,μνᾶν,86,n,n,agree
+control,poppy,μήκων,8,,poppy,poppy,poppy,cmpg-069120,NOUN,μήκωνος,93,n,n,agree
+control,minae,μνᾶ,3,,mina,mina,minas,cmpg-069120,NOUN,μνᾶς,97,n,n,agree
+control,suet,στέαρ,3,,suet,suet,suet,cmpg-069120,NOUN,στέατος,103,n,n,agree
+control,cotylae,κοτύλη,9,,cotylae,kotylai,kotylai,cmpg-069120,NOUN,κοτύλας,113,n,n,disagree
+control,dry ingredients,ξηρός,7,,dry substance,dry substance,dry [ingredients],cmpg-069120,ADJ,ξηρά,118,n,n,agree
+control,copper,χαλκός,9,,copper,copper,copper,cmpg-070080,NOUN,χαλκοῦ,2,n,n,agree
+punch,Indian,ἰνδικῆ,0,absent,indian,indian,Indian,cmpg-070080,NOUN,Ἰνδικῆς,5,n,n,agree
+control,a half,ἥμισυς,6,,half,half,a half,cmpg-070080,ADJ,ἥμισυ,13,n,n,agree
+punch,galbanum,χαλβάνη,1,thin,galbanum,galbanum,galbanum,cmpg-070080,NOUN,χαλβάνης,20,n,n,agree
+punch,manna,μάννη,0,absent,manna,manna,manna,cmpg-070080,NOUN,Μάννης,23,y,n,agree
+punch,ammoniac,ἀμμωνιακός,1,thin,ammoniac,ammoniac,ammoniac,cmpg-070080,NOUN,Ἀμμωνιακοῦ,30,n,n,agree
+control,drachmas,δραχμή,3,,drachma,drachma,drachmas,cmpg-070080,NOUN,δραχμὰς,37,n,n,agree
+punch,aristolochia,ἀριστολοχία,0,absent,aristolochia,aristolochia,aristolochia,cmpg-070080,NOUN,Ἀριστολοχίας,41,n,n,agree
+control,long,μακρός,16,,long,long,long,cmpg-070080,ADJ,μακρᾶς,43,n,n,agree
+punch,gentian,γεντιανῆ,1,thin,gentian,gentian,gentian,cmpg-070080,NOUN,γεντιανῆς,55,n,n,agree
+punch,dittany,δικτάμνος,0,absent,dittany,dittany,dittany,cmpg-070080,NOUN,δικτάμνου,62,n,n,agree
+punch,herb,πόη,0,absent,herb,herb,herb,cmpg-070080,NOUN,πόας,63,n,n,agree
+control,ground fine,λεῖος,6,,fine ground,fine ground,ground fine,cmpg-070080,ADJ,Λείας,69,n,y,agree
+control,pan,λοπάς,6,,pan,pan,pan,cmpg-070080,NOUN,λοπάδα,76,n,n,agree
+control,honey,μέλι,3,,honey,honey,honey,cmpg-070080,NOUN,μέλιτος,89,n,n,agree
+control,drug,φαρμάκον,11,,drug,drug,drug,cmpg-070080,NOUN,φαρμάκου,105,n,n,agree
+control,molybdaena,μολυβδαίνα,5,,molybdaena,molybdaena,molybdaena,cmpg-072720,NOUN,μολυβδαίνης,4,y,y,agree
+control,quicklime,ἀσβέστος,3,,quicklime,quicklime,quicklime,cmpg-072720,NOUN,ἀσβέστου,22,n,n,agree
+control,water,ὕδωρ,8,,water,water,water,cmpg-072720,NOUN,ὕδωρ,36,n,n,agree
+punch,split,σχιστή,0,absent,split,split,split,cmpg-072720,NOUN,σχιστῆς,49,n,n,agree
+punch,misy,μίσυς,0,absent,misy,misy,misy,cmpg-072720,NOUN,μίσυος,51,n,n,agree
+punch,urine,οὖρον,1,thin,urine,urine,urine,cmpg-072720,NOUN,οὖρον,63,n,n,agree
+control,drug,φαρμάκον,11,,drug,drug,drug,cmpg-072720,NOUN,φαρμάκου,77,n,n,agree
+punch,sextarii,ξέστη,0,absent,sextarii,xestai,xestai,cmpg-072720,NOUN,ξέστας,87,n,n,disagree
+control,days,ἡμέρα,13,,day,day,days,cmpg-072720,NOUN,ἡμέρας,93,n,n,agree
+punch,sandarach,σανδαράχης,0,absent,sandarach,sandarach,sandarach,cmpg-072720,NOUN,σανδαράχης,114,n,n,agree
+control,the other,ἕτερος,22,,other,other,other,cmpg-081360,ADJ,ἕτερον,2,n,n,agree
+punch,ammoniac,ἀμμωνιακὸς,1,thin,ammoniac,ammoniac,ammoniac,cmpg-081360,NOUN,ἀμμωνιακὸν,7,n,n,agree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-081360,NOUN,φάρμακον,14,n,n,agree
+control,wax,κηρός,4,,wax,wax,wax,cmpg-081360,NOUN,κηρὸς,28,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-081360,NOUN,ῥητίνη,31,n,n,agree
+control,drug,φάρμακον,11,,drug,drug,drug,cmpg-081360,NOUN,φαρμάκῳ,41,n,n,agree
+punch,emollients,μαλακτικός,1,thin,emollient,emollient,emollients,cmpg-081360,ADJ,μαλακτικοῖς,49,n,n,agree
+control,Simple,ἁπλόος,15,,simple,simple,Simple,cmpg-081360,ADJ,ἁπλῶν,64,n,n,agree
+control,Powers,δύναμις,26,,faculty,faculty,Potency,cmpg-081360,NOUN,δυνάμεως,66,n,n,agree
+control,what sort,ὁποῖος,5,,sort,sort,what sort of,cmpg-081360,ADJ,ὁποίαν,68,n,n,agree
+punch,drugs,φάρμακος,1,thin,drug,drug,drugs,cmpg-081360,NOUN,φαρμάκοις,76,n,n,agree
+control,active,δραστικός,4,,active,active,active,cmpg-081360,ADJ,δραστικαὶ,87,n,n,agree
+punch,drugs,φάρμακος,1,thin,drug,drug,drugs,cmpg-081360,NOUN,φαρμάκοις,89,n,n,agree
+punch,emollient,μαλακτικός,1,thin,emollient,emollient,emollient,cmpg-081360,ADJ,μαλακτικαὶ,103,n,n,agree
+punch,attractive,ἑλκτικός,1,thin,attractive,attractive,attractive,cmpg-081360,ADJ,ἑλκτικαὶ,109,n,n,agree
+punch,septic,σηπτικός,1,thin,septic,septic,septic,cmpg-081360,ADJ,σηπτικαὶ,116,n,n,agree
+punch,galbanum,χαλβάνη,1,thin,galbanum,galbanum,galbanum,cmpg-084240,NOUN,χαλβάνην,19,n,n,agree
+control,by far,πολύς,41,,far,much,much,cmpg-084240,ADJ,πολὺ,26,n,n,disagree
+punch,callous,τυλώδης,1,thin,callou,callou,callous,cmpg-084240,ADJ,τυλώδη,69,n,n,agree
+control,mina,μνᾶ,3,,mina,mina,mina,cmpg-084240,NOUN,μνᾶς,116,n,n,agree
+punch,oedema,οἴδημα,1,thin,oedema,oedema,oedema,cmpg-087720,NOUN,οἴδημα,3,n,n,agree
+punch,liver,ἥπα,0,absent,liver,liver,liver,cmpg-087720,NOUN,ἥπατος,6,n,n,agree
+punch,spleen,σπληνός,0,absent,spleen,spleen,spleen,cmpg-087720,NOUN,σπληνός,8,n,n,agree
+control,wax,κηρός,4,,wax,wax,wax,cmpg-087720,NOUN,κηροῦ,36,n,n,agree
+punch,fried,φρυκτή,0,absent,fried,resin roasted,roasted [resin],cmpg-087720,NOUN,φρυκτῆς,40,y,n,disagree
+control,quicklime,ἀσβέστος,3,,quicklime,quicklime,quicklime,cmpg-087720,NOUN,Ἀσβέστου,45,n,n,agree
+punch,split,σχιστῆ,0,absent,split,split,split,cmpg-087720,NOUN,σχιστῆς,52,n,n,agree
+control,1,α΄,8,,,,1,cmpg-087720,ADJ,α΄,54,n,n,agree
+punch,fragrant,εὐώδης,1,thin,fragrant,fragrant,fragrant,cmpg-087720,ADJ,εὐῶδες,65,n,n,agree
+control,a sufficient time,ἱκανός,8,,sufficient time,sufficiently,sufficiently,cmpg-087720,ADJ,ἱκανὸν,69,n,n,disagree
+punch,mortar,θυεεία,0,absent,mortar,mortar,mortar,cmpg-087720,NOUN,θυείᾳ,71,n,n,agree
+control,larger,μέγας,19,,larger,larger,larger,cmpg-087720,ADJ,μείζονι,72,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-087720,NOUN,ῥητίνῃ,75,n,n,agree
+control,drug,φαρμάκον,11,,drug,drug,drug,cmpg-087720,NOUN,φαρμάκου,112,n,n,agree
+control,diseases,νόσος,4,,diseas,diseas,diseases,cmpg-087720,NOUN,νόσων,115,n,n,agree
+control,long,μακρός,16,,long,long,long,cmpg-087720,ADJ,μακρῶν,118,n,n,agree
+punch,emollients,μαλακτικός,1,thin,emollient,emollient,emollients,cmpg-089880,ADJ,μαλακτικῶν,8,n,n,agree
+control,weaker,ἀσθενής,6,,weaker,weaker,weaker,cmpg-089880,ADJ,ἀσθενέστερα,16,n,n,agree
+punch,some,ἔνιοι,1,thin,,,some,cmpg-089880,ADJ,ἔνια,21,n,n,agree
+control,slight,βραχύς,6,,slight,slight,slight,cmpg-089880,ADJ,βραχείας,48,n,n,agree
+control,soft,μαλακός,15,,soft,soft,soft,cmpg-089880,ADJ,μαλακὰ,52,n,n,agree
+control,affections,πάθος,13,,affection,affection,affections,cmpg-089880,NOUN,πάθη,66,n,n,agree
+control,second,δεύτερος,10,,second,second,second,cmpg-089880,ADJ,δευτέρας,69,n,n,agree
+punch,Emollient,μαλακτικός,1,thin,emollient,emollient,emollient,cmpg-089880,ADJ,Μαλακτικὰ,88,n,n,agree
+control,drugs,φάρμακον,11,,drug,drug,drugs,cmpg-089880,NOUN,φάρμακα,89,n,n,agree
+punch,resin,ῥητίνη,1,thin,resin,resin,resin,cmpg-089880,NOUN,ῥητίνη,94,n,n,agree
+punch,Colophonian,κολοφωνία,0,absent,colophonian,colophonian,Colophonian,cmpg-089880,NOUN,Κολοφωνία,96,n,n,agree
+punch,emollients,μαλακτικός,1,thin,emollient,emollient,emollient,cmpg-089880,ADJ,μαλακτικὰ,110,n,n,agree
+control,only,μόνος,14,,only,only,only,cmpg-095280,ADJ,μόνον,11,n,n,agree
+punch,some,ἐνίος,0,absent,,,some,cmpg-095280,ADJ,ἐνίων,23,n,n,agree
+control,round,στρογγύλος,8,,round,round,round,cmpg-095280,ADJ,στρογγύλης,33,n,n,agree
+punch,transverse,ἐγκαρσίη,0,absent,transverse,transverse,transverse,cmpg-095280,NOUN,ἐγκαρσίας,37,n,n,agree
+punch,transverse,ἐγκαρσίη,0,absent,transverse,transverse,transverse,cmpg-095280,NOUN,ἐγκαρσίας,45,n,n,agree
+control,names,προσηγορία,3,,name,name,names,cmpg-095280,NOUN,προσηγορίας,106,n,n,agree

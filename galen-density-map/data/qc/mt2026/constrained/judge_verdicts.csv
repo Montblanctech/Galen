@@ -1,0 +1,33 @@
+pair_id,passage_id,translator,A_is,B_is,sonnet-5-5_pref,sonnet-5-5_chosen,sonnet-5-5_confidence,sonnet-5-5_note,opus-5-5_pref,opus-5-5_chosen,opus-5-5_confidence,opus-5-5_note
+P030,cmpg-089880,opus-5-5,C0,C1,T,tie,low,ῥητίνη: B adds of the pine; otherwise equivalent,T,tie,medium,B ῥητίνη Κολοφωνία 'Colophonian resin of the pine' adds pine gloss; otherwise equivalent
+P026,cmpg-070080,opus-5-5,C0,C1,A,C0,medium,χαλβάνης: B resinous juice of all-heal wrong; A galbanum correct,A,C0,low,B χαλβάνη 'resinous juice of all-heal' wrong (galbanum); A μάννη λιβάνου 'manna and frankincense' splits one item
+P012,cmpg-084240,fable-5-1,C1,C0,B,C0,high,χαλβάνην: A resinous juice of all-heal wrong; B galbanum,B,C0,medium,A χαλβάνη 'resinous juice of all-heal' wrong; B κονδυλώδεις 'condyloid' loose
+P001,cmpg-004080,fable-5-1,C0,C1,B,C1,medium,ῥευματικά: A rheumatic anachronistic; φοινικίνῃ: A date plaster,B,C1,medium,A ῥευματικά 'rheumatic conditions' misleading; B 'conditions subject to a discharge or flux' correct
+P005,cmpg-032520,fable-5-1,C1,C0,T,tie,low,τροχίσκος: troche vs pastille; no real difference,A,C1,medium,B λείπεσθαι 'left over' wrong sense (lacking); A ῥητίνη 'resin of the pine' added gloss
+P009,cmpg-059760,fable-5-1,C1,C0,B,C0,medium,στομώματος: A leaves stomoma; B steel; ῥητίνη τερμινθίνη: A of the pine,B,C0,medium,A ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P029,cmpg-087720,opus-5-5,C0,C1,B,C1,medium,ἀρρενικοῦ: A arsenic; B orpiment better; στέλλουσα: A reducing,B,C1,medium,A ἀρρενικόν 'arsenic' less precise than orpiment; A μαλάγματα 'soft masses' loose
+P022,cmpg-034200,opus-5-5,C0,C1,T,tie,low,ῥητίνη: B adds of the pine; otherwise equal,A,C0,medium,B ῥητίνη 'resin of the pine' throughout over-specific for generic resin
+P016,temp-020280,fable-5-1,C1,C0,T,tie,low,δυσκρασία: dyscrasia vs bad temperament; equivalent,T,tie,high,no substantive term errors
+P031,temp-003960,opus-5-5,C1,C0,T,tie,low,δύσκρατον: both fine,T,tie,high,no substantive term errors
+P017,cmpg-004080,opus-5-5,C0,C1,T,tie,low,ῥευματικά: both fluxional; φοινικίνῃ: both palm plaster,B,C1,low,A κατὰ τὸ γενόμενον ἕλκος misattached to 'went on at the wound'
+P028,cmpg-084240,opus-5-5,C0,C1,A,C0,high,χαλβάνην: B resinous juice of all-heal wrong; A galbanum,A,C0,high,B χαλβάνη 'resinous juice of all-heal' wrong (galbanum)
+P004,cmpg-013800,fable-5-1,C0,C1,T,tie,low,λάρικος: B adds of the pine; ψιμυθίου: white lead vs ceruse,A,C0,medium,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P003,cmpg-013680,fable-5-1,C1,C0,T,tie,low,ψιμυθίου: white lead vs ceruse; ὀχθωδῶν: raised edges vs banks,T,tie,high,no substantive term errors
+P021,cmpg-032520,opus-5-5,C0,C1,A,C0,medium,B misparses ἐφαίνετο λείπεσθαί τι as lacking in the dracontium drug,A,C0,low,B ῥητίνη 'resin of the pine' added gloss; A σίραιον 'boiled must' slightly loose
+P018,cmpg-012840,opus-5-5,C0,C1,T,tie,low,ψωρώδεις: psoric vs scabby; ἐπινύκτιδας: both fine,T,tie,high,no substantive term errors
+P027,cmpg-081360,opus-5-5,C0,C1,T,tie,low,ἐναμίλλου: rival vs match; ῥητίνη: B of the pine,A,C0,low,B ῥητίνη 'resin of the pine' added gloss
+P020,cmpg-013800,opus-5-5,C0,C1,A,C0,medium,B misparses ἐπειράθην as testing them with put in; ῥητίνη: B of the pine,A,C0,medium,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P024,cmpg-058080,opus-5-5,C0,C1,T,tie,low,λεπίδος χαλκοῦ: scale vs flake; equivalent,A,C0,low,B ῥητίνη λάρικος 'larch resin of the pine' added gloss
+P002,cmpg-012840,fable-5-1,C1,C0,T,tie,low,ψιμυθίου: white lead vs ceruse,T,tie,medium,A ἐπιτετευγμένον 'well-tried' loose; B adds 'ulcers' unbracketed
+P011,cmpg-081360,fable-5-1,C1,C0,T,tie,low,αὐχμηρόν: A dry and harsh; B parched; διαφορητικαί: dispersive vs discutient,B,C0,low,A ῥητίνη 'resin of the pine' added gloss
+P008,cmpg-058080,fable-5-1,C1,C0,T,tie,low,ἰρίνῳ: B smeared inside adds; otherwise equal,B,C0,low,A ῥητίνη λάρικος 'larch resin of the pine' added gloss
+P015,temp-003960,fable-5-1,C0,C1,T,tie,low,δύσκρατον: both fine,T,tie,high,no substantive term errors
+P007,cmpg-054720,fable-5-1,C0,C1,T,tie,low,ἀπαράχυτον: both unadulterated; equivalent,A,C0,medium,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P014,cmpg-089880,fable-5-1,C1,C0,T,tie,low,πάρυγρος: A moist cerate; B transliterated,B,C0,low,A πάρυγρος 'the moist [cerate]' interpretive; A Κολοφωνία 'resin of the pine' gloss
+P013,cmpg-087720,fable-5-1,C1,C0,B,C0,low,φρυκτῆς: B fried vs A roasted; ἀρρενικοῦ: A arsenic; B orpiment,A,C1,low,B προσφάτῳ τῷ σπληνίῳ 'as a fresh compress' wrong (on a compress)
+P023,cmpg-054720,opus-5-5,C1,C0,T,tie,low,μαλθακωδῶν: both softening; equivalent,B,C0,medium,A ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong; A λογικῶς 'methodically' wrong
+P032,temp-020280,opus-5-5,C0,C1,T,tie,low,δυσκρασία: dyscrasia vs bad temperament,T,tie,high,no substantive term errors
+P025,cmpg-059760,opus-5-5,C0,C1,B,C1,medium,στομώματος: A stomoma; B steel; χαλκάνθου: B copper vitriol; μάννης: A manna,A,C0,low,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong; A μάννη 'manna' vs B frankincense powder
+P010,cmpg-070080,fable-5-1,C1,C0,B,C0,high,χαλβάνης: A resinous juice of all-heal wrong; B galbanum,B,C0,high,A χαλβάνη 'resinous juice of all-heal' wrong (galbanum)
+P019,cmpg-013680,opus-5-5,C1,C0,T,tie,low,ὀχθωδῶν: both callous; equivalent,T,tie,high,no substantive term errors
+P006,cmpg-034200,fable-5-1,C0,C1,T,tie,low,ῥητίνη: B adds of the pine; φρυκτήν: fried vs roasted,A,C0,medium,B ῥητίνη 'resin of the pine' throughout over-specific for generic resin

@@ -1,0 +1,639 @@
+{
+  "date": "2026-11-06",
+  "spec": "mt2026_constrained_terminology_spec.md",
+  "n_targets": 176,
+  "n_term_targets": 26,
+  "n_other_targets": 150,
+  "compliance_C1": {
+    "fable-5-1": {
+      "k": 26,
+      "n": 26,
+      "pct": 100.0,
+      "wilson95": [
+        87.13,
+        100.0
+      ],
+      "detail": [
+        {
+          "passage_id": "temp-003960",
+          "target_no": "14",
+          "lemma": "δύσκρατος",
+          "rendering": "of bad temperament",
+          "preferred": "bad mixture",
+          "compliant": true
+        },
+        {
+          "passage_id": "temp-020280",
+          "target_no": "24",
+          "lemma": "δυσκρασία",
+          "rendering": "bad temperament",
+          "preferred": "bad mixture",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-004080",
+          "target_no": "37",
+          "lemma": "ῥευματικός",
+          "rendering": "subject to a discharge or flux",
+          "preferred": "discharge flux subject",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-012840",
+          "target_no": "100",
+          "lemma": "ψωρώδης",
+          "rendering": "of the nature of the itch",
+          "preferred": "itch nature",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-012840",
+          "target_no": "119",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-013680",
+          "target_no": "107",
+          "lemma": "δακνῶδής",
+          "rendering": "biting",
+          "preferred": "biting",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-013800",
+          "target_no": "73",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-013800",
+          "target_no": "108",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-032520",
+          "target_no": "81",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "2",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "12",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "40",
+          "lemma": "ῥητίνη",
+          "rendering": "resins of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "76",
+          "lemma": "ῥητίνη",
+          "rendering": "resins of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-054720",
+          "target_no": "61",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-058080",
+          "target_no": "30",
+          "lemma": "ἐγκηρίς",
+          "rendering": "lumps of wax",
+          "preferred": "lump wax",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-059760",
+          "target_no": "40",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-070080",
+          "target_no": "20",
+          "lemma": "χαλβάνη",
+          "rendering": "the resinous juice of all-heal",
+          "preferred": "all heal juice resinou",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-081360",
+          "target_no": "31",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-081360",
+          "target_no": "49",
+          "lemma": "μαλακτικός",
+          "rendering": "emollient",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-081360",
+          "target_no": "103",
+          "lemma": "μαλακτικός",
+          "rendering": "emollient",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-084240",
+          "target_no": "19",
+          "lemma": "χαλβάνη",
+          "rendering": "the resinous juice of all-heal",
+          "preferred": "all heal juice resinou",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-087720",
+          "target_no": "75",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "8",
+          "lemma": "μαλακτικός",
+          "rendering": "emollient",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "88",
+          "lemma": "μαλακτικός",
+          "rendering": "Emollient",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "94",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "110",
+          "lemma": "μαλακτικός",
+          "rendering": "emollient",
+          "preferred": "emollient",
+          "compliant": true
+        }
+      ]
+    },
+    "opus-5-5": {
+      "k": 26,
+      "n": 26,
+      "pct": 100.0,
+      "wilson95": [
+        87.13,
+        100.0
+      ],
+      "detail": [
+        {
+          "passage_id": "temp-003960",
+          "target_no": "14",
+          "lemma": "δύσκρατος",
+          "rendering": "of bad temperament",
+          "preferred": "bad mixture",
+          "compliant": true
+        },
+        {
+          "passage_id": "temp-020280",
+          "target_no": "24",
+          "lemma": "δυσκρασία",
+          "rendering": "bad temperament",
+          "preferred": "bad mixture",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-004080",
+          "target_no": "37",
+          "lemma": "ῥευματικός",
+          "rendering": "conditions subject to a discharge or flux",
+          "preferred": "discharge flux subject",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-012840",
+          "target_no": "100",
+          "lemma": "ψωρώδης",
+          "rendering": "of the nature of the itch",
+          "preferred": "itch nature",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-012840",
+          "target_no": "119",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-013680",
+          "target_no": "107",
+          "lemma": "δακνῶδής",
+          "rendering": "biting",
+          "preferred": "biting",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-013800",
+          "target_no": "73",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-013800",
+          "target_no": "108",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-032520",
+          "target_no": "81",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "2",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "12",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "40",
+          "lemma": "ῥητίνη",
+          "rendering": "resins of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-034200",
+          "target_no": "76",
+          "lemma": "ῥητίνη",
+          "rendering": "resins of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-054720",
+          "target_no": "61",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-058080",
+          "target_no": "30",
+          "lemma": "ἐγκηρίς",
+          "rendering": "lumps of wax",
+          "preferred": "lump wax",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-059760",
+          "target_no": "40",
+          "lemma": "ψιμύθιον",
+          "rendering": "white lead",
+          "preferred": "lead white",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-070080",
+          "target_no": "20",
+          "lemma": "χαλβάνη",
+          "rendering": "the resinous juice of all-heal",
+          "preferred": "all heal juice resinou",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-081360",
+          "target_no": "31",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-081360",
+          "target_no": "49",
+          "lemma": "μαλακτικός",
+          "rendering": "emollients",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-081360",
+          "target_no": "103",
+          "lemma": "μαλακτικός",
+          "rendering": "emollient",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-084240",
+          "target_no": "19",
+          "lemma": "χαλβάνη",
+          "rendering": "the resinous juice of all-heal",
+          "preferred": "all heal juice resinou",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-087720",
+          "target_no": "75",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "8",
+          "lemma": "μαλακτικός",
+          "rendering": "emollients",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "88",
+          "lemma": "μαλακτικός",
+          "rendering": "Emollient",
+          "preferred": "emollient",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "94",
+          "lemma": "ῥητίνη",
+          "rendering": "resin of the pine",
+          "preferred": "pine resin",
+          "compliant": true
+        },
+        {
+          "passage_id": "cmpg-089880",
+          "target_no": "110",
+          "lemma": "μαλακτικός",
+          "rendering": "emollient",
+          "preferred": "emollient",
+          "compliant": true
+        }
+      ]
+    }
+  },
+  "cross_translator_disagreement": {
+    "C0": {
+      "term_targets": {
+        "k": 6,
+        "n": 26,
+        "pct": 23.08,
+        "wilson95": [
+          11.03,
+          42.05
+        ]
+      },
+      "other_targets": {
+        "k": 19,
+        "n": 150,
+        "pct": 12.67,
+        "wilson95": [
+          8.26,
+          18.94
+        ]
+      }
+    },
+    "C1": {
+      "term_targets": {
+        "k": 1,
+        "n": 26,
+        "pct": 3.85,
+        "wilson95": [
+          0.68,
+          18.89
+        ]
+      },
+      "other_targets": {
+        "k": 16,
+        "n": 150,
+        "pct": 10.67,
+        "wilson95": [
+          6.67,
+          16.62
+        ]
+      }
+    },
+    "1105": {
+      "term_targets": {
+        "k": 6,
+        "n": 26,
+        "pct": 23.08,
+        "wilson95": [
+          11.03,
+          42.05
+        ]
+      },
+      "other_targets": {
+        "k": 15,
+        "n": 150,
+        "pct": 10.0,
+        "wilson95": [
+          6.15,
+          15.84
+        ]
+      }
+    },
+    "other_targets_C0_vs_C1": {
+      "diff_pct_points": 2.0,
+      "z": 0.54,
+      "p_two_sided": 0.58951,
+      "ci95_diff_pct_points": [
+        -5.26,
+        9.26
+      ]
+    }
+  },
+  "run_to_run_C0_vs_1105": {
+    "fable-5-1": {
+      "other_targets": {
+        "k": 9,
+        "n": 150,
+        "pct": 6.0,
+        "wilson95": [
+          3.19,
+          11.01
+        ]
+      },
+      "term_targets": {
+        "k": 7,
+        "n": 26,
+        "pct": 26.92,
+        "wilson95": [
+          13.7,
+          46.08
+        ]
+      }
+    },
+    "opus-5-5": {
+      "other_targets": {
+        "k": 16,
+        "n": 150,
+        "pct": 10.67,
+        "wilson95": [
+          6.67,
+          16.62
+        ]
+      },
+      "term_targets": {
+        "k": 4,
+        "n": 26,
+        "pct": 15.38,
+        "wilson95": [
+          6.15,
+          33.53
+        ]
+      }
+    }
+  },
+  "judges": {
+    "sonnet-5-5": {
+      "answered": 32,
+      "ties": 21,
+      "C1_preferred_of_decided": {
+        "k": 3,
+        "n": 11,
+        "pct": 27.27,
+        "wilson95": [
+          9.75,
+          56.57
+        ]
+      },
+      "C1_preferred_of_all": {
+        "k": 3,
+        "n": 32,
+        "pct": 9.38,
+        "wilson95": [
+          3.24,
+          24.22
+        ]
+      },
+      "by_translator": {
+        "fable-5-1": {
+          "C0": 4,
+          "C1": 1,
+          "tie": 11
+        },
+        "opus-5-5": {
+          "tie": 10,
+          "C0": 4,
+          "C1": 2
+        }
+      }
+    },
+    "opus-5-5": {
+      "answered": 32,
+      "ties": 9,
+      "C1_preferred_of_decided": {
+        "k": 5,
+        "n": 23,
+        "pct": 21.74,
+        "wilson95": [
+          9.66,
+          41.9
+        ]
+      },
+      "C1_preferred_of_all": {
+        "k": 5,
+        "n": 32,
+        "pct": 15.62,
+        "wilson95": [
+          6.86,
+          31.75
+        ]
+      },
+      "by_translator": {
+        "fable-5-1": {
+          "C0": 9,
+          "C1": 3,
+          "tie": 4
+        },
+        "opus-5-5": {
+          "tie": 5,
+          "C0": 9,
+          "C1": 2
+        }
+      }
+    },
+    "between_judges_raw_agreement": {
+      "k": 18,
+      "n": 32,
+      "pct": 56.25,
+      "wilson95": [
+        39.33,
+        71.83
+      ]
+    }
+  }
+}

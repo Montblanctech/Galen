@@ -52,3 +52,10 @@ Thumbs.db
 # Duplicate/draft stoplist leftovers (authoritative names: authors.txt, units_numerals.txt)
 galen-density-map/data/stoplists/author_*.txt
 
+
+# build artefacts
+audit-kit/dist/
+audit-kit/*.egg-info/
+audit-kit/build/
+galen-density-map/data/qc/lsjgold/morpheus_lsjgold.jsonl
+galen-density-map/data/perseus_corpus/

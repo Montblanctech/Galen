@@ -1,0 +1,5 @@
+# §5 bounded-range draft (machine measurements)
+
+Architect pastes into `paper_draft.md`; this file does not edit the paper.
+
+Lemma admissibility against the rule-based Morpheus analyzer is **89.51%** of analyzable tokens (floor on correctness; medical subcorpus; 4.41% of tokens had no Morpheus analysis and are excluded); cross-system agreement is **94.17%** vs-consensus (odyCy vs unanimous Stanza perseus+proiel) and **82.89%** pairwise odyCy↔perseus; **15.82%** of the 5k sample dropped to alignment loss (optimistic bound: training treebanks overlap); on the rare/LSJ-cited stratum, against **1850** Morpheus-relocated citation loci, odyCy matches the lexicographers' headword in **62.32%** accent-blind (95% CI 60.09–64.5) and **53.95%** accent-strict (95% CI 51.67–56.21); mismatch taxonomy: passthrough 411, garble 135, variant-headword 15, other 136; blind rate treating variant-headword as non-error 63.14%; blind rate excluding variant-headword 62.83% — stratum accuracy, not overall accuracy. A two-reader human spot-check per the salted-control protocol remains planned; machine disagreements (M2) will concentrate it on the most informative tokens.

@@ -19,6 +19,19 @@ translators and machine-translation research. Two phases, released together as o
 
 The preprint describing Phase 2 is in [`paper/`](paper/) (`main.pdf`).
 
+**v3.0 (2026-11-07) — Phase 3 v0 and the LSJ-Gold benchmark.** The punch list is re-tiered from
+a headword map and a blind reader pass (`outputs/phase3/punch_list_v3.csv`: thin 615,
+thin_contested 84, artifact_suspect 602, real_no_perseus_lsj 108, real_contested 24); two
+pre-registered probes report negative results (an LSJ-first-gloss glossary makes translations
+worse; polysemy does not predict instability); and the project ships **LSJ-Gold**, a benchmark of
+lemmatizer accuracy on the words the dictionary itself cites: **93,926 relocated loci over 17
+authors**, CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
+[audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
+Dilemma (lexicon-first) matches the lexicographer's headword 90.1% of the time; Stanza-Perseus 79.6% and
+odyCy 75.7% and Stanza-PROIEL 72.0%, all on the same 90,452 loci; Stoicheia, a 2026 diffusion tagger, 87.6% on the
+7,233 First1K loci scored so far (Aeschylus 93.1 and Sophocles 94.4, above Dilemma there; Hippocrates 78.3, far below it).
+On headwords LSJ cites only once: Dilemma 83.8%, Stoicheia 78.0%, the treebank-trained systems 51–53%. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
+
 ## Contents
 
 | Path | What |
@@ -31,6 +44,14 @@ The preprint describing Phase 2 is in [`paper/`](paper/) (`main.pdf`).
 | [`galen-density-map/outputs/four_way_classification.csv`](galen-density-map/outputs/four_way_classification.csv) | Four-way classification of 12,538 lemmas |
 | [`galen-density-map/outputs/`](galen-density-map/outputs/) | Keyness scores, per-corpus lemma frequencies, audited exclusion logs, QC summary |
 | [`galen-density-map/data/qc/`](galen-density-map/data/qc/) | QC artifacts, incl. `h3m/` machine-bounded lemmatizer-accuracy measurements + METHODS |
+| [`galen-density-map/outputs/phase3/`](galen-density-map/outputs/phase3/) | Phase 3 v0: attributed punch list, headword map, blind reader pass, `punch_list_v3.csv` |
+| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0.csv`, 93,926 loci), scores, validation sheets, README |
+| [`release/lsj-gold-0.1/`](release/lsj-gold-0.1/) | The LSJ-Gold release folder (CSV, schema, scores, leaderboard JSON, CC BY 4.0, checksums) |
+| [`docs/lsj-gold/`](docs/lsj-gold/) | The leaderboard page and JSON (GitHub Pages) |
+| [`audit-kit/`](audit-kit/) | `greek-lemma-audit`: Morpheus floor, cross-system agreement, LSJ gold, blind sheets, `lsjgold` scoring (MIT, on PyPI) |
+| [`galen-density-map/outputs/t1/`](galen-density-map/outputs/t1/) | Fifty-author convention table and per-author lemmatizer recommendations |
+| [`docs/terms/`](docs/terms/) | Term Explorer pages (Galen and three further authors) |
+| [`galen-density-map/data/qc/mt2026/`](galen-density-map/data/qc/mt2026/) | MT-2026 probes: consistency, constrained terminology, polysemy (all pre-registered, all reported) |
 | [`paper/main.pdf`](paper/main.pdf) | The Phase 2 preprint (ACL-style, XeLaTeX) |
 | [`SOURCES.md`](SOURCES.md) | Per-field provenance |
 | [`CHANGELOG.md`](CHANGELOG.md) | Version history |
@@ -43,7 +64,10 @@ Every frequency inherits odyCy's error rate, so we bound it three ways (details:
 cross-system agreement with Stanza is 82.9% pairwise / 94.2% vs-consensus (optimistic, shared
 treebanks); on **1,850** gold loci mined from LSJ's own Galen citations, odyCy matches the
 lexicographer's headword **62.3%** accent-blind — a rare-stratum accuracy that independently
-confirms the rarity→failure pattern. Error is **reported, never patched**.
+confirms the rarity→failure pattern. Error is **reported, never patched**. v3.0 adds a fourth bound, **M5**, two blind model readers on the salted
+human protocol (83.3% / 81.7%, κ 0.94), and widens the gold to **LSJ-Gold** across 54 authors, where
+the lexicon-first Dilemma reaches 90.1%, Stanza-Perseus 79.6%, odyCy 75.7% (62.2% on Hippocrates), Stanza-PROIEL 72.0%; 71% of their disagreement
+with each other is the article convention (`outputs/t1/`).
 
 ## Reproducibility
 

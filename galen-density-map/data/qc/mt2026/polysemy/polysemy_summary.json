@@ -1,0 +1,468 @@
+{
+  "date": "2026-11-06",
+  "spec": "mt2026_polysemy_probe_spec.md",
+  "runs_present": [
+    "fable-5-1_A",
+    "fable-5-1_B",
+    "opus-5-5_A",
+    "opus-5-5_B",
+    "sonnet-5-5_A",
+    "sonnet-5-5_B"
+  ],
+  "n_targets": 310,
+  "per_class": {
+    "polysemy_risk": 159,
+    "genuinely_hard": 151
+  },
+  "within_model_run_to_run": {
+    "fable-5-1": {
+      "polysemy_risk": {
+        "k": 19,
+        "n": 159,
+        "pct": 11.95,
+        "wilson95": [
+          7.78,
+          17.91
+        ]
+      },
+      "genuinely_hard": {
+        "k": 22,
+        "n": 151,
+        "pct": 14.57,
+        "wilson95": [
+          9.82,
+          21.07
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": -2.62,
+        "z": -0.681,
+        "p_two_sided": 0.49614,
+        "ci95_diff_pct_points": [
+          -10.18,
+          4.94
+        ]
+      }
+    },
+    "opus-5-5": {
+      "polysemy_risk": {
+        "k": 14,
+        "n": 159,
+        "pct": 8.81,
+        "wilson95": [
+          5.32,
+          14.24
+        ]
+      },
+      "genuinely_hard": {
+        "k": 12,
+        "n": 151,
+        "pct": 7.95,
+        "wilson95": [
+          4.6,
+          13.38
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": 0.86,
+        "z": 0.272,
+        "p_two_sided": 0.78531,
+        "ci95_diff_pct_points": [
+          -5.31,
+          7.02
+        ]
+      }
+    },
+    "sonnet-5-5": {
+      "polysemy_risk": {
+        "k": 19,
+        "n": 159,
+        "pct": 11.95,
+        "wilson95": [
+          7.78,
+          17.91
+        ]
+      },
+      "genuinely_hard": {
+        "k": 22,
+        "n": 151,
+        "pct": 14.57,
+        "wilson95": [
+          9.82,
+          21.07
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": -2.62,
+        "z": -0.681,
+        "p_two_sided": 0.49614,
+        "ci95_diff_pct_points": [
+          -10.18,
+          4.94
+        ]
+      }
+    }
+  },
+  "cross_model_runA": {
+    "fable-5-1__opus-5-5": {
+      "polysemy_risk": {
+        "k": 19,
+        "n": 159,
+        "pct": 11.95,
+        "wilson95": [
+          7.78,
+          17.91
+        ]
+      },
+      "genuinely_hard": {
+        "k": 21,
+        "n": 151,
+        "pct": 13.91,
+        "wilson95": [
+          9.28,
+          20.33
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": -1.96,
+        "z": -0.514,
+        "p_two_sided": 0.60732,
+        "ci95_diff_pct_points": [
+          -9.43,
+          5.52
+        ]
+      }
+    },
+    "fable-5-1__sonnet-5-5": {
+      "polysemy_risk": {
+        "k": 20,
+        "n": 159,
+        "pct": 12.58,
+        "wilson95": [
+          8.29,
+          18.63
+        ]
+      },
+      "genuinely_hard": {
+        "k": 28,
+        "n": 151,
+        "pct": 18.54,
+        "wilson95": [
+          13.15,
+          25.49
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": -5.96,
+        "z": -1.451,
+        "p_two_sided": 0.14678,
+        "ci95_diff_pct_points": [
+          -14.03,
+          2.1
+        ]
+      }
+    },
+    "opus-5-5__sonnet-5-5": {
+      "polysemy_risk": {
+        "k": 18,
+        "n": 159,
+        "pct": 11.32,
+        "wilson95": [
+          7.28,
+          17.18
+        ]
+      },
+      "genuinely_hard": {
+        "k": 23,
+        "n": 151,
+        "pct": 15.23,
+        "wilson95": [
+          10.37,
+          21.82
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": -3.91,
+        "z": -1.016,
+        "p_two_sided": 0.30963,
+        "ci95_diff_pct_points": [
+          -11.47,
+          3.65
+        ]
+      }
+    },
+    "any_of_three_differs": {
+      "polysemy_risk": {
+        "k": 27,
+        "n": 159,
+        "pct": 16.98,
+        "wilson95": [
+          11.94,
+          23.58
+        ]
+      },
+      "genuinely_hard": {
+        "k": 32,
+        "n": 151,
+        "pct": 21.19,
+        "wilson95": [
+          15.43,
+          28.38
+        ]
+      },
+      "difference_polysemy_minus_hard": {
+        "diff_pct_points": -4.21,
+        "z": -0.944,
+        "p_two_sided": 0.34516,
+        "ci95_diff_pct_points": [
+          -12.96,
+          4.54
+        ]
+      }
+    }
+  },
+  "self_flagged_uncertain": {
+    "fable-5-1_A": {
+      "polysemy_risk": {
+        "k": 1,
+        "n": 159,
+        "pct": 0.63,
+        "wilson95": [
+          0.11,
+          3.48
+        ]
+      },
+      "genuinely_hard": {
+        "k": 11,
+        "n": 151,
+        "pct": 7.28,
+        "wilson95": [
+          4.12,
+          12.57
+        ]
+      }
+    },
+    "fable-5-1_B": {
+      "polysemy_risk": {
+        "k": 0,
+        "n": 159,
+        "pct": 0.0,
+        "wilson95": [
+          -0.0,
+          2.36
+        ]
+      },
+      "genuinely_hard": {
+        "k": 4,
+        "n": 151,
+        "pct": 2.65,
+        "wilson95": [
+          1.03,
+          6.61
+        ]
+      }
+    },
+    "opus-5-5_A": {
+      "polysemy_risk": {
+        "k": 0,
+        "n": 159,
+        "pct": 0.0,
+        "wilson95": [
+          -0.0,
+          2.36
+        ]
+      },
+      "genuinely_hard": {
+        "k": 5,
+        "n": 151,
+        "pct": 3.31,
+        "wilson95": [
+          1.42,
+          7.52
+        ]
+      }
+    },
+    "opus-5-5_B": {
+      "polysemy_risk": {
+        "k": 1,
+        "n": 159,
+        "pct": 0.63,
+        "wilson95": [
+          0.11,
+          3.48
+        ]
+      },
+      "genuinely_hard": {
+        "k": 10,
+        "n": 151,
+        "pct": 6.62,
+        "wilson95": [
+          3.64,
+          11.76
+        ]
+      }
+    },
+    "sonnet-5-5_A": {
+      "polysemy_risk": {
+        "k": 6,
+        "n": 159,
+        "pct": 3.77,
+        "wilson95": [
+          1.74,
+          7.99
+        ]
+      },
+      "genuinely_hard": {
+        "k": 17,
+        "n": 151,
+        "pct": 11.26,
+        "wilson95": [
+          7.15,
+          17.29
+        ]
+      }
+    },
+    "sonnet-5-5_B": {
+      "polysemy_risk": {
+        "k": 10,
+        "n": 159,
+        "pct": 6.29,
+        "wilson95": [
+          3.45,
+          11.19
+        ]
+      },
+      "genuinely_hard": {
+        "k": 14,
+        "n": 151,
+        "pct": 9.27,
+        "wilson95": [
+          5.6,
+          14.96
+        ]
+      }
+    }
+  },
+  "per_lemma_inconsistency_within_run": {
+    "fable-5-1_A": {
+      "polysemy_risk": {
+        "k": 14,
+        "n": 36,
+        "pct": 38.89,
+        "wilson95": [
+          24.78,
+          55.14
+        ]
+      },
+      "genuinely_hard": {
+        "k": 2,
+        "n": 10,
+        "pct": 20.0,
+        "wilson95": [
+          5.67,
+          50.98
+        ]
+      }
+    },
+    "fable-5-1_B": {
+      "polysemy_risk": {
+        "k": 16,
+        "n": 36,
+        "pct": 44.44,
+        "wilson95": [
+          29.54,
+          60.42
+        ]
+      },
+      "genuinely_hard": {
+        "k": 2,
+        "n": 10,
+        "pct": 20.0,
+        "wilson95": [
+          5.67,
+          50.98
+        ]
+      }
+    },
+    "opus-5-5_A": {
+      "polysemy_risk": {
+        "k": 14,
+        "n": 36,
+        "pct": 38.89,
+        "wilson95": [
+          24.78,
+          55.14
+        ]
+      },
+      "genuinely_hard": {
+        "k": 0,
+        "n": 10,
+        "pct": 0.0,
+        "wilson95": [
+          -0.0,
+          27.75
+        ]
+      }
+    },
+    "opus-5-5_B": {
+      "polysemy_risk": {
+        "k": 12,
+        "n": 36,
+        "pct": 33.33,
+        "wilson95": [
+          20.21,
+          49.67
+        ]
+      },
+      "genuinely_hard": {
+        "k": 2,
+        "n": 10,
+        "pct": 20.0,
+        "wilson95": [
+          5.67,
+          50.98
+        ]
+      }
+    },
+    "sonnet-5-5_A": {
+      "polysemy_risk": {
+        "k": 18,
+        "n": 36,
+        "pct": 50.0,
+        "wilson95": [
+          34.47,
+          65.53
+        ]
+      },
+      "genuinely_hard": {
+        "k": 1,
+        "n": 10,
+        "pct": 10.0,
+        "wilson95": [
+          1.79,
+          40.42
+        ]
+      }
+    },
+    "sonnet-5-5_B": {
+      "polysemy_risk": {
+        "k": 17,
+        "n": 36,
+        "pct": 47.22,
+        "wilson95": [
+          31.99,
+          62.99
+        ]
+      },
+      "genuinely_hard": {
+        "k": 1,
+        "n": 10,
+        "pct": 10.0,
+        "wilson95": [
+          1.79,
+          40.42
+        ]
+      }
+    }
+  }
+}

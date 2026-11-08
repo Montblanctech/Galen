@@ -1,0 +1,33 @@
+pair_id,preference,confidence,note
+P030,tie,medium,B ῥητίνη Κολοφωνία 'Colophonian resin of the pine' adds pine gloss; otherwise equivalent
+P026,A,low,B χαλβάνη 'resinous juice of all-heal' wrong (galbanum); A μάννη λιβάνου 'manna and frankincense' splits one item
+P012,B,medium,A χαλβάνη 'resinous juice of all-heal' wrong; B κονδυλώδεις 'condyloid' loose
+P001,B,medium,A ῥευματικά 'rheumatic conditions' misleading; B 'conditions subject to a discharge or flux' correct
+P005,A,medium,B λείπεσθαι 'left over' wrong sense (lacking); A ῥητίνη 'resin of the pine' added gloss
+P009,B,medium,A ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P029,B,medium,A ἀρρενικόν 'arsenic' less precise than orpiment; A μαλάγματα 'soft masses' loose
+P022,A,medium,B ῥητίνη 'resin of the pine' throughout over-specific for generic resin
+P016,tie,high,no substantive term errors
+P031,tie,high,no substantive term errors
+P017,B,low,A κατὰ τὸ γενόμενον ἕλκος misattached to 'went on at the wound'
+P028,A,high,B χαλβάνη 'resinous juice of all-heal' wrong (galbanum)
+P004,A,medium,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P003,tie,high,no substantive term errors
+P021,A,low,B ῥητίνη 'resin of the pine' added gloss; A σίραιον 'boiled must' slightly loose
+P018,tie,high,no substantive term errors
+P027,A,low,B ῥητίνη 'resin of the pine' added gloss
+P020,A,medium,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P024,A,low,B ῥητίνη λάρικος 'larch resin of the pine' added gloss
+P002,tie,medium,A ἐπιτετευγμένον 'well-tried' loose; B adds 'ulcers' unbracketed
+P011,B,low,A ῥητίνη 'resin of the pine' added gloss
+P008,B,low,A ῥητίνη λάρικος 'larch resin of the pine' added gloss
+P015,tie,high,no substantive term errors
+P007,A,medium,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong source tree
+P014,B,low,A πάρυγρος 'the moist [cerate]' interpretive; A Κολοφωνία 'resin of the pine' gloss
+P013,A,low,B προσφάτῳ τῷ σπληνίῳ 'as a fresh compress' wrong (on a compress)
+P023,B,medium,A ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong; A λογικῶς 'methodically' wrong
+P032,tie,high,no substantive term errors
+P025,A,low,B ῥητίνη τερμινθίνη 'terebinth resin of the pine' wrong; A μάννη 'manna' vs B frankincense powder
+P010,B,high,A χαλβάνη 'resinous juice of all-heal' wrong (galbanum)
+P019,tie,high,no substantive term errors
+P006,A,medium,B ῥητίνη 'resin of the pine' throughout over-specific for generic resin

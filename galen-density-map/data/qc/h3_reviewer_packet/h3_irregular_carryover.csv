@@ -1,0 +1,3 @@
+wrong_lemma,intended_lemma,galen_raw_count,note
+γίγγνομαι,γίγνομαι,0,C4a blind-spot class: not in suspect gate. Not attested as a lemma in frozen medical lemmatized JSONL (architect-named exemplar; γίγνομαι exists). Do NOT auto-correct.
+δεικέω,δείκνυμι,320,C4a blind-spot class: consistently-wrong lemma for irregular form; missed by passthrough+fragmentation heuristics. Do NOT auto-correct; H3 reviewer.

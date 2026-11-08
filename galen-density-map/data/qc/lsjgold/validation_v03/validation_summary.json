@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-07",
+  "n_random": 60,
+  "readers": {
+    "reader1_opus-5-5": {
+      "gate": {
+        "anchors_yes": "9/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 57,
+          "n": 60,
+          "pct": 95.0,
+          "wilson95": [
+            86.3,
+            98.29
+          ]
+        },
+        "no": {
+          "k": 3,
+          "n": 60,
+          "pct": 5.0,
+          "wilson95": [
+            1.71,
+            13.7
+          ]
+        },
+        "unsure": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 57,
+        "n": 60,
+        "pct": 95.0,
+        "wilson95": [
+          86.3,
+          98.29
+        ]
+      }
+    },
+    "reader2_sonnet-5-5": {
+      "gate": {
+        "anchors_yes": "10/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 56,
+          "n": 60,
+          "pct": 93.33,
+          "wilson95": [
+            84.07,
+            97.38
+          ]
+        },
+        "no": {
+          "k": 4,
+          "n": 60,
+          "pct": 6.67,
+          "wilson95": [
+            2.62,
+            15.93
+          ]
+        },
+        "unsure": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 56,
+        "n": 60,
+        "pct": 93.33,
+        "wilson95": [
+          84.07,
+          97.38
+        ]
+      }
+    }
+  },
+  "between_readers": {
+    "kappa": 0.8485,
+    "both_yes": 56,
+    "both_no": 3,
+    "disagree": 1
+  }
+}

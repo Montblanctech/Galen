@@ -1,0 +1,81 @@
+row_id,is_instance(yes/no/unsure),right_headword_if_no,note
+V001,yes,,acc sg
+V002,yes,,dat pl
+V003,no,στέφω,fut 1sg of στέφω
+V004,yes,,enclitic νυν
+V005,no,ἀίσσω,impf 3pl of ἀίσσω/ᾄσσω
+V006,yes,,fem nom sg
+V007,yes,,pres mid ptcp gen
+V008,yes,,acc sg
+V009,yes,,neut pl
+V010,yes,,contracted ἔννους
+V011,yes,,pres ptcp gen pl
+V012,no,προστίθημι,pres imper 2sg
+V013,yes,,dat sg fem
+V014,yes,,nom/acc pl
+V015,yes,,
+V016,yes,,acc sg
+V017,yes,,gen sg
+V018,yes,,fem nom/voc pl
+V019,yes,,pres mid inf
+V020,yes,,gen sg
+V021,yes,,pres imper 2sg
+V022,yes,,acc pl
+V023,yes,,acc pl
+V024,no,παρηγορέω,impf 3pl
+V025,yes,,nom pl
+V026,yes,,aor pass subj 3sg
+V027,yes,,nom pl
+V028,yes,,pres mid 2sg
+V029,yes,,pres 2sg
+V030,yes,,pres 1sg
+V031,yes,,pres inf
+V032,no,φόβος,dat sg noun
+V033,yes,,headword has stray apostrophe; pres 1sg
+V034,yes,,adverb
+V035,no,τλήμων,voc sg
+V036,yes,,Ionic gen sg
+V037,yes,,delib subj 1sg
+V038,yes,,gen sg
+V039,yes,,nom sg
+V040,yes,,aor inf
+V041,yes,,nom/voc pl
+V042,yes,,acc pl
+V043,yes,,aor pass-form 1sg
+V044,yes,,fem acc sg
+V045,yes,,fem nom sg
+V046,yes,,fem acc sg
+V047,yes,,adverb
+V048,yes,,pres pass 3sg
+V049,yes,,neut pl
+V050,yes,,adverb from ἄσμενος
+V051,no,τις,indefinite dat sg τῳ
+V052,yes,,perf 1sg
+V053,yes,,pres 3sg
+V054,yes,,nom pl
+V055,yes,,acc pl
+V056,no,ἐθέλω,aor subj 3sg of (ἐ)θέλω
+V057,yes,,neut pl / fem
+V058,yes,,pres mid ptcp fem
+V059,yes,,Ionic acc sg
+V060,yes,,comparative neut
+V061,yes,,fem acc pl
+V062,yes,,nom pl
+V063,yes,,dat sg
+V064,yes,,comparative neut
+V065,yes,,pres mid 3sg
+V066,no,βρέτας,gen pl
+V067,yes,,pres 3sg
+V068,yes,,acc pl
+V069,yes,,neut sg
+V070,yes,,aor pass subj 3sg
+V071,yes,,pres imper 3sg
+V072,yes,,perf 2sg of εἴρω/ἐρῶ
+V073,yes,,pres inf
+V074,no,χράομαι,pres ptcp
+V075,yes,,pres imper 3sg
+V076,yes,,nom pl
+V077,yes,,nom pl
+V078,yes,,nom sg with enclitic accent
+V079,yes,,adverb
+V080,yes,,aor mid imper 2pl elided

@@ -1,0 +1,15 @@
+{
+  "seed": 20261105,
+  "passage_tokens": 120,
+  "n_per_work": 20,
+  "works": {
+    "temp": "urn_cts_greekLit_tlg0057.tlg009.1st1K-grc1",
+    "cmpg": "urn_cts_greekLit_tlg0057.tlg077.1st1K-grc1"
+  },
+  "control_min_lsj_senses": 3,
+  "n_passages": 40,
+  "n_targets": 306,
+  "n_punch": 153,
+  "n_control": 153,
+  "class_key_location": "outside the repository until scoring; published with results"
+}

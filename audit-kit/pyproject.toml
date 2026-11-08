@@ -1,0 +1,50 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "greek-lemma-audit"
+version = "0.3.0"
+description = "Lemmatizer Audit Kit: bounded accuracy range, disagreement worklist and blind reviewer sheet for any Ancient Greek lemmatizer output over any corpus (M1 Morpheus admissibility, M2 cross-system agreement, M3 LSJ-citation gold plugin, M5 blind sheet + scorer)."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.12"
+authors = [{ name = "William Pepperman" }]
+maintainers = [{ name = "William Pepperman" }]
+keywords = ["ancient greek", "lemmatizer", "evaluation", "morpheus", "stanza", "odycy", "dilemma"]
+classifiers = [
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Text Processing :: Linguistic",
+]
+# Stdlib plus what galen-density-map/requirements.txt already pins.
+dependencies = [
+  "beta-code>=1.1.1",
+  "requests>=2.32",
+]
+
+[project.optional-dependencies]
+# Lemmatizer systems are optional; each adapter skips cleanly if its library is absent.
+stanza = ["stanza==1.14.0"]
+odycy = ["spacy==3.7.5", "spacy-transformers==1.3.5"]
+dilemma = ["dilemma-nlp>=1.3"]
+xml = ["lxml>=5.4"]
+test = ["pytest>=8.4"]
+
+[project.urls]
+Homepage = "https://github.com/Montblanctech/Galen"
+Repository = "https://github.com/Montblanctech/Galen"
+Issues = "https://github.com/Montblanctech/Galen/issues"
+Preprint = "https://doi.org/10.5281/zenodo.22162810"
+
+[project.scripts]
+greek-lemma-audit = "greek_lemma_audit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["greek_lemma_audit*"]
+
+[tool.setuptools.package-data]
+greek_lemma_audit = ["data/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-05",
+  "design": "m5_llm_adjudication_spec.md",
+  "sheet_a": {
+    "readers": {
+      "reader1_fable-5-1": {
+        "gate": "PASS",
+        "gate_fail_reasons": [],
+        "controls_caught_unambiguous": "6/6",
+        "anchors_marked_wrong": 0,
+        "accent_controls_strict": {
+          "control01": true,
+          "control02": true
+        },
+        "missing_rows": [],
+        "random60": {
+          "y": 50,
+          "n": 10,
+          "unsure": 0,
+          "rate_lower_pct_unsure_as_wrong": 83.33,
+          "wilson95_lower_bound_variant": [
+            71.97,
+            90.69
+          ],
+          "rate_point_pct_unsure_excluded": 83.33,
+          "wilson95_point_variant": [
+            71.97,
+            90.69
+          ]
+        }
+      },
+      "reader2_opus-5-5": {
+        "gate": "PASS",
+        "gate_fail_reasons": [],
+        "controls_caught_unambiguous": "6/6",
+        "anchors_marked_wrong": 0,
+        "accent_controls_strict": {
+          "control03": true,
+          "control04": true
+        },
+        "missing_rows": [],
+        "random60": {
+          "y": 49,
+          "n": 11,
+          "unsure": 0,
+          "rate_lower_pct_unsure_as_wrong": 81.67,
+          "wilson95_lower_bound_variant": [
+            70.08,
+            89.44
+          ],
+          "rate_point_pct_unsure_excluded": 81.67,
+          "wilson95_point_variant": [
+            70.08,
+            89.44
+          ]
+        }
+      }
+    },
+    "n_random": 60,
+    "agreement_random60": {
+      "readers": [
+        "reader1_fable-5-1",
+        "reader2_opus-5-5"
+      ],
+      "raw_agreement_pct": 98.33,
+      "cohen_kappa_3cat": 0.942,
+      "cohen_kappa_yn_unsure_as_n": 0.942,
+      "both_marked_wrong": 10,
+      "both_wrong_same_correct_lemma": 9,
+      "either_marked_wrong": 11,
+      "both_marked_right": 49
+    }
+  },
+  "sheet_b": {
+    "reader": "reader1_fable-5-1",
+    "n_rows": 942,
+    "tally": {
+      "odycy_right": 402,
+      "sides_with_odycy+proiel": 191,
+      "sides_with_odycy+perseus": 144,
+      "odycy_wrong": 540,
+      "sides_with_perseus": 108,
+      "sides_with_proiel": 136,
+      "sides_with_none": 145,
+      "sides_with_odycy": 67,
+      "sides_with_perseus+proiel": 151
+    },
+    "odycy_right_pct_of_decided": 42.68,
+    "wilson95_odycy_right": [
+      39.55,
+      45.86
+    ],
+    "by_pos": {
+      "NOUN": {
+        "odycy_right": 116,
+        "odycy_wrong": 195
+      },
+      "VERB": {
+        "odycy_right": 68,
+        "odycy_wrong": 171
+      },
+      "ADJ": {
+        "odycy_wrong": 85,
+        "odycy_right": 80
+      },
+      "ADV": {
+        "odycy_right": 39,
+        "odycy_wrong": 68
+      },
+      "PRON": {
+        "odycy_right": 39,
+        "odycy_wrong": 9
+      },
+      "CCONJ": {
+        "odycy_right": 30,
+        "odycy_wrong": 3
+      },
+      "ADP": {
+        "odycy_right": 28,
+        "odycy_wrong": 2
+      },
+      "SCONJ": {
+        "odycy_wrong": 5
+      },
+      "DET": {
+        "odycy_right": 1,
+        "odycy_wrong": 1
+      },
+      "PART": {
+        "odycy_wrong": 1
+      },
+      "AUX": {
+        "odycy_right": 1
+      }
+    },
+    "by_g2a_flag": {
+      "encoding_artifact": {
+        "odycy_right": 335,
+        "odycy_wrong": 128
+      },
+      "real_or_unlabelled": {
+        "odycy_wrong": 412,
+        "odycy_right": 67
+      }
+    }
+  }
+}

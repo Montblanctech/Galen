@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-05",
+  "design": "mt2026_consistency_probe_spec.md",
+  "translators": [
+    "fable-5-1",
+    "opus-5-5"
+  ],
+  "normalisation": "lowercase, strip parentheticals/punctuation, drop function words, symmetric synonym fold (FOLD in score_consistency.py), crude singularisation; identical for both classes",
+  "classes": {
+    "punch": {
+      "targets": 153,
+      "scored": 153,
+      "disagree": 16,
+      "disagreement_rate_pct": 10.46,
+      "wilson95": [
+        6.54,
+        16.31
+      ],
+      "uncertain_rate_fable-5-1_pct": 4.58,
+      "uncertain_rate_opus-5-5_pct": 3.27,
+      "missing": 0
+    },
+    "control": {
+      "targets": 153,
+      "scored": 153,
+      "disagree": 15,
+      "disagreement_rate_pct": 9.8,
+      "wilson95": [
+        6.03,
+        15.55
+      ],
+      "uncertain_rate_fable-5-1_pct": 2.61,
+      "uncertain_rate_opus-5-5_pct": 3.92,
+      "missing": 0
+    }
+  },
+  "punch_by_lsj_tier": {
+    "thin": {
+      "scored": 70,
+      "disagree": 6,
+      "disagreement_rate_pct": 8.57,
+      "wilson95": [
+        3.99,
+        17.47
+      ]
+    },
+    "absent": {
+      "scored": 83,
+      "disagree": 10,
+      "disagreement_rate_pct": 12.05,
+      "wilson95": [
+        6.68,
+        20.78
+      ]
+    }
+  },
+  "thin_vs_control": {
+    "diff_pct_points": -1.23,
+    "z": -0.292,
+    "p_two_sided": 0.76995,
+    "ci95_diff_pct_points": [
+      -9.31,
+      6.84
+    ]
+  },
+  "punch_vs_control": {
+    "diff_pct_points": 0.65,
+    "z": 0.189,
+    "p_two_sided": 0.84973,
+    "ci95_diff_pct_points": [
+      -6.11,
+      7.41
+    ]
+  },
+  "paired_passages": {
+    "n": 36,
+    "mean_diff_pct_points": 3.8,
+    "passages_punch_worse": 10,
+    "passages_control_worse": 8,
+    "ties": 18
+  },
+  "passage_level_spearman_density_vs_disagreement": {
+    "n": 36,
+    "rho": 0.117,
+    "ci95": [
+      -0.239,
+      0.446
+    ]
+  },
+  "spearman_temp": {
+    "n": 16,
+    "rho": 0.281,
+    "ci95": [
+      -0.279,
+      0.699
+    ]
+  },
+  "spearman_cmpg": {
+    "n": 20,
+    "rho": -0.17,
+    "ci95": [
+      -0.588,
+      0.321
+    ]
+  },
+  "within_translator_consistency": {
+    "fable-5-1_punch": {
+      "lemmas_seen_2plus": 26,
+      "rendered_inconsistently": 3,
+      "rate_pct": 11.54
+    },
+    "fable-5-1_control": {
+      "lemmas_seen_2plus": 34,
+      "rendered_inconsistently": 7,
+      "rate_pct": 20.59
+    },
+    "opus-5-5_punch": {
+      "lemmas_seen_2plus": 26,
+      "rendered_inconsistently": 2,
+      "rate_pct": 7.69
+    },
+    "opus-5-5_control": {
+      "lemmas_seen_2plus": 34,
+      "rendered_inconsistently": 8,
+      "rate_pct": 23.53
+    }
+  }
+}
