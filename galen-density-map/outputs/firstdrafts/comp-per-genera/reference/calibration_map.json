@@ -1,0 +1,317 @@
+{
+ "work": "comp-per-genera",
+ "source": {
+  "name": "Zainaldin et al. 2026 reference translation of ten passages (Manuela Marai, CC BY 4.0)",
+  "repo": "https://github.com/campattison/galen_project",
+  "commit": "ad2d611c7505a3fb5c824d3fc8e07ae19065ded8"
+ },
+ "n_passages": 10,
+ "passages": [
+  {
+   "passage": 1,
+   "locus": "I.2, XIII.367,10–369,1 K.",
+   "kuhn_pages": [
+    367,
+    369
+   ],
+   "candidate_units": [
+    "K13.366-367",
+    "K13.367-368",
+    "K13.368-369",
+    "K13.369-370"
+   ],
+   "unit_ids": [
+    "K13.366-367",
+    "K13.367-368",
+    "K13.368-369",
+    "K13.369-370"
+   ],
+   "token_recall_in_units": 1.0,
+   "per_unit_share": {
+    "K13.366-367": 0.401,
+    "K13.367-368": 0.645,
+    "K13.368-369": 0.309,
+    "K13.369-370": 0.184
+   },
+   "n_greek_words": 224,
+   "n_english_words": 292
+  },
+  {
+   "passage": 2,
+   "locus": "I.15–16, XIII.431,4–432,13 K.",
+   "kuhn_pages": [
+    431,
+    432
+   ],
+   "candidate_units": [
+    "K13.430-431",
+    "K13.431-432",
+    "K13.432-433"
+   ],
+   "unit_ids": [
+    "K13.430-431",
+    "K13.431-432",
+    "K13.432-433"
+   ],
+   "token_recall_in_units": 0.994,
+   "per_unit_share": {
+    "K13.430-431": 0.525,
+    "K13.431-432": 0.562,
+    "K13.432-433": 0.198
+   },
+   "n_greek_words": 227,
+   "n_english_words": 315
+  },
+  {
+   "passage": 3,
+   "locus": "II.4–5, XIII.499,5–500,15 K.",
+   "kuhn_pages": [
+    499,
+    500
+   ],
+   "candidate_units": [
+    "K13.498-499",
+    "K13.499-500",
+    "K13.500-501"
+   ],
+   "unit_ids": [
+    "K13.498-499",
+    "K13.499-500",
+    "K13.500-501"
+   ],
+   "token_recall_in_units": 0.994,
+   "per_unit_share": {
+    "K13.498-499": 0.458,
+    "K13.499-500": 0.657,
+    "K13.500-501": 0.229
+   },
+   "n_greek_words": 234,
+   "n_english_words": 335
+  },
+  {
+   "passage": 4,
+   "locus": "III.2, XIII.569,10–570,17 K.",
+   "kuhn_pages": [
+    569,
+    570
+   ],
+   "candidate_units": [
+    "K13.568-569",
+    "K13.569-570",
+    "K13.570-571"
+   ],
+   "unit_ids": [
+    "K13.568-569",
+    "K13.569-570",
+    "K13.570-571"
+   ],
+   "token_recall_in_units": 0.993,
+   "per_unit_share": {
+    "K13.568-569": 0.359,
+    "K13.569-570": 0.791,
+    "K13.570-571": 0.222
+   },
+   "n_greek_words": 227,
+   "n_english_words": 310
+  },
+  {
+   "passage": 5,
+   "locus": "III.7–8, XIII.635,6–636,14 K.",
+   "kuhn_pages": [
+    635,
+    636
+   ],
+   "candidate_units": [
+    "K13.634-635",
+    "K13.635-636",
+    "K13.636-637"
+   ],
+   "unit_ids": [
+    "K13.634-635",
+    "K13.635-636",
+    "K13.636-637"
+   ],
+   "token_recall_in_units": 0.987,
+   "per_unit_share": {
+    "K13.634-635": 0.458,
+    "K13.635-636": 0.632,
+    "K13.636-637": 0.194
+   },
+   "n_greek_words": 217,
+   "n_english_words": 314
+  },
+  {
+   "passage": 6,
+   "locus": "IV.5, XIII.703,8–704,13 K.",
+   "kuhn_pages": [
+    703,
+    704
+   ],
+   "candidate_units": [
+    "K13.702-703",
+    "K13.703-704"
+   ],
+   "unit_ids": [
+    "K13.702-703",
+    "K13.703-704"
+   ],
+   "token_recall_in_units": 1.0,
+   "per_unit_share": {
+    "K13.702-703": 0.519,
+    "K13.703-704": 0.664
+   },
+   "n_greek_words": 200,
+   "n_english_words": 240
+  },
+  {
+   "passage": 7,
+   "locus": "V.2, XIII.771,18–773,9 K.",
+   "kuhn_pages": [
+    771,
+    773
+   ],
+   "candidate_units": [
+    "K13.770-771",
+    "K13.771-772",
+    "K13.772-773",
+    "K13.773-774"
+   ],
+   "unit_ids": [
+    "K13.770-771",
+    "K13.771-772",
+    "K13.772-773",
+    "K13.773-774"
+   ],
+   "token_recall_in_units": 1.0,
+   "per_unit_share": {
+    "K13.770-771": 0.248,
+    "K13.771-772": 0.725,
+    "K13.772-773": 0.418,
+    "K13.773-774": 0.157
+   },
+   "n_greek_words": 232,
+   "n_english_words": 280
+  },
+  {
+   "passage": 8,
+   "locus": "V.13, XIII.840,10–842,1 K.",
+   "kuhn_pages": [
+    840,
+    842
+   ],
+   "candidate_units": [
+    "K13.840",
+    "K13.841",
+    "K13.841-842",
+    "K13.842-843"
+   ],
+   "unit_ids": [
+    "K13.840",
+    "K13.841",
+    "K13.841-842",
+    "K13.842-843"
+   ],
+   "token_recall_in_units": 1.0,
+   "per_unit_share": {
+    "K13.840": 0.614,
+    "K13.841": 0.583,
+    "K13.841-842": 0.331,
+    "K13.842-843": 0.291
+   },
+   "n_greek_words": 229,
+   "n_english_words": 308
+  },
+  {
+   "passage": 9,
+   "locus": "VI.10, XIII.909,17–911,7 K.",
+   "kuhn_pages": [
+    909,
+    911
+   ],
+   "candidate_units": [
+    "K13.908-909",
+    "K13.909-910",
+    "K13.910-911",
+    "K13.911-912"
+   ],
+   "unit_ids": [
+    "K13.908-909",
+    "K13.909-910",
+    "K13.910-911",
+    "K13.911-912"
+   ],
+   "token_recall_in_units": 1.0,
+   "per_unit_share": {
+    "K13.908-909": 0.225,
+    "K13.909-910": 0.681,
+    "K13.910-911": 0.514,
+    "K13.911-912": 0.246
+   },
+   "n_greek_words": 224,
+   "n_english_words": 245
+  },
+  {
+   "passage": 10,
+   "locus": "VII.7, XIII.983,3–984,8 K.",
+   "kuhn_pages": [
+    983,
+    984
+   ],
+   "candidate_units": [
+    "K13.983",
+    "K13.983-984",
+    "K13.984-985"
+   ],
+   "unit_ids": [
+    "K13.983",
+    "K13.983-984",
+    "K13.984-985"
+   ],
+   "token_recall_in_units": 1.0,
+   "per_unit_share": {
+    "K13.983": 0.73,
+    "K13.983-984": 0.505,
+    "K13.984-985": 0.324
+   },
+   "n_greek_words": 228,
+   "n_english_words": 275
+  }
+ ],
+ "calibration_unit_ids": [
+  "K13.366-367",
+  "K13.367-368",
+  "K13.368-369",
+  "K13.369-370",
+  "K13.430-431",
+  "K13.431-432",
+  "K13.432-433",
+  "K13.498-499",
+  "K13.499-500",
+  "K13.500-501",
+  "K13.568-569",
+  "K13.569-570",
+  "K13.570-571",
+  "K13.634-635",
+  "K13.635-636",
+  "K13.636-637",
+  "K13.702-703",
+  "K13.703-704",
+  "K13.770-771",
+  "K13.771-772",
+  "K13.772-773",
+  "K13.773-774",
+  "K13.840",
+  "K13.841",
+  "K13.841-842",
+  "K13.842-843",
+  "K13.908-909",
+  "K13.909-910",
+  "K13.910-911",
+  "K13.911-912",
+  "K13.983",
+  "K13.983-984",
+  "K13.984-985"
+ ],
+ "n_calibration_units": 33,
+ "note": "A passage is a Kühn line range inside one or two pages; our units are whole pages snapped to sentence ends, so a calibration unit contains more Greek than its passage. Check (d) scores only the targets whose Greek token falls inside the passage (reference.py records token recall; checks.py restricts by token membership)."
+}

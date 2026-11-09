@@ -3,7 +3,8 @@
 Reads the Perseus LSJ XML parts in data/lsj/ (iterparse), keeps every entryFree whose normalised Beta
 Code key matches a wanted lemma (accent-blind, lib/beta_keys.lemma_to_lookup_key), and writes
 outputs/firstdrafts/<slug>/lsj_entries.json: key -> {lsj_entry_id, lsj_key, lsj_headword, lsj_sense_count,
-lsj_entry_text (plain, Beta Code Greek rendered as Unicode, truncated), lsj_part}. The lookup is the one
+lsj_entry_text (plain, Beta Code Greek rendered as Unicode, WHOLE entry, v0.2: no truncation),
+lsj_senses (the text of every <sense>, in order), lsj_first_sense_gloss (v0.2 anchor source), lsj_part}. The lookup is the one
 stage 06 and stage 11 use; when several entries share a key the one with more senses wins (stage 06 rule).
 Usage: .venv/Scripts/python -X utf8 pipeline/firstdrafts/lsj_index.py --work adversus-lycum
 """
@@ -22,7 +23,6 @@ from common import GDM, nfc, out_dir
 from lib.beta_keys import betacode_headword_to_unicode, lemma_to_lookup_key, normalize_betacode_key  # noqa: E402
 
 GREEK_RE = re.compile(r"[Ͱ-Ͽἀ-῿]")
-TEXT_MAX = 1200
 
 
 def _beta_or_text(s: str) -> str:
@@ -50,6 +50,27 @@ def entry_text(entry) -> str:
 
     walk(entry)
     return re.sub(r"\s+", " ", "".join(parts)).strip()
+
+
+def sense_texts(entry) -> list[str]:
+    return [t for t in (entry_text(s) for s in entry.iter("{*}sense", "sense")) if t]
+
+
+def first_sense_gloss(senses: list[str], entry_txt: str) -> str:
+    """v0.2 anchor gloss: the first English run of the first sense (falls back to the entry text), cut at the
+    first ',', ';', ':' or author citation, with parentheticals, '= <Greek>' cross references, sense letters
+    and grammatical labels removed. Validated later by checks.valid_anchor_gloss."""
+    src = senses[0] if senses else entry_txt
+    text = re.sub(r"\s+", " ", src or "")
+    text = re.sub(r"\([^)]*\)", " ", text)
+    text = re.sub(r"=\s*[^,;]*[,;]", " ", text)
+    text = re.sub(r"^\s*[A-Z]?\s*[IVX]*\.?\s*\d*\.?\s*", "", text)  # sense numbering
+    for m in re.finditer(r"(?<![A-Za-z])([a-z][a-z\-']+(?: [a-zA-Z\-']+)*)", text):
+        seg = text[m.start(1):]
+        seg = re.split(r"[,;:]| [A-Z][a-z]{1,5}\. ?| v\. | cf\. |\d", seg)[0].strip(" .")
+        if seg:
+            return seg
+    return ""
 
 
 def main() -> None:
@@ -81,9 +102,10 @@ def main() -> None:
                 prev = found.get(hit)
                 if prev is None or senses > prev["lsj_sense_count"]:
                     txt = entry_text(el)
+                    sts = sense_texts(el)
                     found[hit] = {"lsj_entry_id": el.get("id") or "", "lsj_key": key_attr, "lsj_headword": betacode_headword_to_unicode(re.sub(r"\d+$", "", key_attr)),
-                                  "lsj_sense_count": senses, "lsj_entry_text": txt[:TEXT_MAX] + ("…" if len(txt) > TEXT_MAX else ""), "lsj_part": path.name,
-                                  "lemmas": sorted(wanted[hit])}
+                                  "lsj_sense_count": senses, "lsj_entry_text": txt, "lsj_entry_chars": len(txt), "lsj_senses": sts,
+                                  "lsj_first_sense_gloss": first_sense_gloss(sts, txt), "lsj_part": path.name, "lemmas": sorted(wanted[hit])}
             el.clear()
             while el.getprevious() is not None:
                 del el.getparent()[0]

@@ -1,4 +1,4 @@
-"""Galen First Drafts v0, stage 3: sentence alignment and the term table (spec: firstdrafts_v0_spec.md).
+"""Galen First Drafts v0/v0.2, stage 3: sentence alignment and the term table (spec: firstdrafts_v0_spec.md).
 
 Inputs (outputs/firstdrafts/<slug>/): units.jsonl, targets.csv, renderings_fable-5-1.jsonl,
 renderings_opus-5-5.jsonl, lsj_entries.json (lsj_index.py).
@@ -175,12 +175,14 @@ def main() -> None:
 
     # --- term table
     rows = []
+    prior: dict[str, dict[str, set]] = {tag: {} for tag in RENDERINGS}
     for t in targets:
         uid, tno = t["unit_id"], int(t["target_no"])
         row = {k: t[k] for k in ("unit_id", "target_no", "surface", "dilemma_lemma", "odycy_lemma", "pos", "punch_tier", "tier_v3", "fourway", "class", "page")}
         ent = lsj.get(lemma_to_lookup_key(t["dilemma_lemma"])) or lsj.get(lemma_to_lookup_key(t["odycy_lemma"])) or {}
         row.update({"lsj_entry_id": ent.get("lsj_entry_id", ""), "lsj_key": ent.get("lsj_key", ""), "lsj_headword": ent.get("lsj_headword", ""),
-                    "lsj_sense_count": ent.get("lsj_sense_count", ""), "lsj_entry_text": ent.get("lsj_entry_text", "")})
+                    "lsj_sense_count": ent.get("lsj_sense_count", ""), "lsj_entry_text": ent.get("lsj_entry_text", ""),
+                    "lsj_first_sense_gloss": ent.get("lsj_first_sense_gloss", "")})
         # Greek sentence holding the target
         al = alignment["A"][uid]
         gsent, gidx = "", None
@@ -205,6 +207,19 @@ def main() -> None:
             row[f"english_sentence_{tag}"] = es
         both = bool(row["rendering_A"]) and bool(row["rendering_B"])
         row["agree"] = "" if not both else ("y" if row["norm_A"] == row["norm_B"] else "n")
+        # v0.2 memory consistency: does this rendering repeat one of the same model's earlier renderings of the lemma
+        # (text order; "" when the lemma has no earlier rendering by that model)
+        lem = t["dilemma_lemma"] or t["odycy_lemma"]
+        for tag in RENDERINGS:
+            seen = prior[tag].get(lem)
+            if not row[f"norm_{tag}"]:
+                row[f"memory_consistent_{tag}"] = ""
+            elif seen is None:
+                row[f"memory_consistent_{tag}"] = ""
+            else:
+                row[f"memory_consistent_{tag}"] = "y" if row[f"norm_{tag}"] in seen else "n"
+            if row[f"norm_{tag}"]:
+                prior[tag].setdefault(lem, set()).add(row[f"norm_{tag}"])
         rows.append(row)
     with (out / "term_table.csv").open("w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()), lineterminator="\n")

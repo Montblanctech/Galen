@@ -1,0 +1,19 @@
+{
+ "spec": "firstdrafts_v02_spec.md",
+ "seed": 20261109,
+ "subset": null,
+ "n_items": 10720,
+ "n_real": 10700,
+ "n_anchor": 10,
+ "n_plant": 10,
+ "n_groups": 1072,
+ "group_size": 10,
+ "anchor_candidates_valid": 4576,
+ "first_sense_glosses_rejected_by_validator": 697,
+ "lsj_entry_chars": {
+  "min": 12,
+  "median": 301,
+  "max": 16384
+ },
+ "key": "outside the repository until scored"
+}

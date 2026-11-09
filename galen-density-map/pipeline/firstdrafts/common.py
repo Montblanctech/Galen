@@ -1,4 +1,4 @@
-"""Shared paths, work table and helpers for Galen First Drafts v0 (spec: firstdrafts_v0_spec.md)."""
+"""Shared paths, work table and helpers for Galen First Drafts (v0 spec firstdrafts_v0_spec.md; v0.2 spec firstdrafts_v02_spec.md)."""
 from __future__ import annotations
 
 import hashlib
@@ -27,6 +27,129 @@ WORKS = {
         "lemmatized_dir": "galen_nonmedical",
         "source_note": "First1KGreek tlg0057.tlg093.1st1K-grc1 (Kühn 1829, vol. 18.1 pp. 196-245; keyboarded by Digital Divide Data for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
+    "comp-per-genera": {
+        "tlg": "tlg077",
+        "urn": "urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg077.1st1K-grc1",
+        "title_lat": "De compositione medicamentorum per genera",
+        "title_eng": "On the Composition of Drugs by Kind",
+        "kuhn_vol": "XIII",
+        "kuhn_vol_short": "13",
+        "kuhn_pages": "362-1058",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen",
+        "source_note": "First1KGreek tlg0057.tlg077.1st1K-grc1 (Kühn 1827, vol. 13 pp. 362-1058, seven books; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+        "reference": {
+            "name": "Zainaldin et al. 2026 reference translation of ten passages (Manuela Marai, CC BY 4.0)",
+            "repo": "https://github.com/campattison/galen_project",
+            "commit": "ad2d611c7505a3fb5c824d3fc8e07ae19065ded8",
+        },
+    },
+    # cycle 3 (firstdrafts_v02_cycle3_note.md): the eight remaining works with translation_status = none in phase1/galen_ogl_census.csv
+    "hirudinibus": {
+        "tlg": "tlg071",
+        "urn": "urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg071.1st1K-grc1",
+        "title_lat": "De hirudinibus, revulsione, cucurbitula, incisione et scarificatione",
+        "title_eng": "On Leeches, Revulsion, Cupping, Incision and Scarification",
+        "kuhn_vol": "XI",
+        "kuhn_vol_short": "11",
+        "kuhn_pages": "317-322",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen",
+        "source_note": "First1KGreek tlg0057.tlg071.1st1K-grc1 (Kühn 1826, vol. 11 pp. 317-322; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
+    "quos-quibus": {
+        "tlg": "tlg073",
+        "urn": "urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg073.1st1K-grc1",
+        "title_lat": "Quos quibus catharticis medicamentis et quando purgare oporteat",
+        "title_eng": "Whom to Purge, with Which Cathartic Drugs, and When",
+        "kuhn_vol": "XI",
+        "kuhn_vol_short": "11",
+        "kuhn_pages": "343-356",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen",
+        "source_note": "First1KGreek tlg0057.tlg073.1st1K-grc1 (Kühn 1826, vol. 11 pp. 343-356; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0; First1KGreek also has tlg073.1st1K-grc2, the Oribasius excerpt of the same work (Kühn XI 343-356 ap. Oribasium, with Latin and German), not used here",
+    },
+    "purgantium-facultate": {
+        "tlg": "tlg072",
+        "urn": "urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg072.1st1K-grc1",
+        "title_lat": "De purgantium medicamentorum facultate",
+        "title_eng": "On the Power of Purgative Drugs",
+        "kuhn_vol": "XI",
+        "kuhn_vol_short": "11",
+        "kuhn_pages": "323-342",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen",
+        "source_note": "First1KGreek tlg0057.tlg072.1st1K-grc1 (Kühn 1826, vol. 11 pp. 323-342; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
+    "morbi-temporibus": {
+        "tlg": "tlg047",
+        "urn": "urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg047.1st1K-grc1",
+        "title_lat": "De totius morbi temporibus",
+        "title_eng": "On the Periods of the Whole Disease",
+        "kuhn_vol": "VII",
+        "kuhn_vol_short": "7",
+        "kuhn_pages": "440-462",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen",
+        "source_note": "First1KGreek tlg0057.tlg047.1st1K-grc1 (Kühn 1824, vol. 7 pp. 440-462; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
+    "in-hipp-salubri": {
+        "tlg": "tlg086",
+        "urn": "urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg086.1st1K-grc1",
+        "title_lat": "In Hippocratis vel Polybi opus De salubri victus ratione privatorum commentarius",
+        "title_eng": "Commentary on Hippocrates' (or Polybus') Regimen in Health for Private Persons",
+        "kuhn_vol": "XV",
+        "kuhn_vol_short": "15",
+        "kuhn_pages": "174-223",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen_nonmedical",
+        "source_note": "First1KGreek tlg0057.tlg086.1st1K-grc1 (Kühn 1828, vol. 15 pp. 174-223; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
+    "de-humero": {
+        "tlg": "tlg096",
+        "urn": "urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg096.1st1K-grc1",
+        "title_lat": "De humero iis modis prolapso quos Hippocrates non vidit",
+        "title_eng": "On the Shoulder Dislocated in Ways Hippocrates Did Not See",
+        "kuhn_vol": "XVIIIA",
+        "kuhn_vol_short": "18a",
+        "kuhn_pages": "346-423",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen_nonmedical",
+        "source_note": "First1KGreek tlg0057.tlg096.1st1K-grc1 (Kühn 1829, vol. 18a pp. 346-423; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
+    "in-hipp-nat-hom": {
+        "tlg": "tlg085",
+        "urn": "urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg085.1st1K-grc1",
+        "title_lat": "In Hippocratis De natura hominis",
+        "title_eng": "Commentary on Hippocrates' Nature of Man",
+        "kuhn_vol": "XV",
+        "kuhn_vol_short": "15",
+        "kuhn_pages": "1-173",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen_nonmedical",
+        "source_note": "First1KGreek tlg0057.tlg085.1st1K-grc1 (Kühn 1828, vol. 15 pp. 1-173; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
+    "difficultate-respirationis": {
+        "tlg": "tlg056",
+        "urn": "urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1",
+        "stem": "urn_cts_greekLit_tlg0057.tlg056.1st1K-grc1",
+        "title_lat": "De difficultate respirationis",
+        "title_eng": "On Difficulty of Breathing",
+        "kuhn_vol": "VII",
+        "kuhn_vol_short": "7",
+        "kuhn_pages": "753-960",
+        "spec": "firstdrafts_v02_spec.md",
+        "lemmatized_dir": "galen",
+        "source_note": "First1KGreek tlg0057.tlg056.1st1K-grc1 (Kühn 1824, vol. 7 pp. 753-960; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+    },
 }
 
 PUNCT_RE = re.compile(r"[\.\,\;\:\·\!\?\(\)\[\]«»“”\"'’‘]")
@@ -34,7 +157,11 @@ SENTENCE_END = (".", ";")  # Greek full stop and question mark; the raised dot i
 
 
 def out_dir(slug: str) -> Path:
-    p = GDM / "outputs" / "firstdrafts" / slug
+    """outputs/firstdrafts/<slug>; FIRSTDRAFTS_OUT=<dir> redirects every stage to another root (dry runs on copies)."""
+    import os
+
+    root = Path(os.environ["FIRSTDRAFTS_OUT"]) if os.environ.get("FIRSTDRAFTS_OUT") else GDM / "outputs" / "firstdrafts"
+    p = root / slug
     p.mkdir(parents=True, exist_ok=True)
     return p
 
