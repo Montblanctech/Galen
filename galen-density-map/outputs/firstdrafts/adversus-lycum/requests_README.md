@@ -1,0 +1,3 @@
+# Translator session brief (one model per session, fresh context, nothing else from the project)
+
+Read `requests.jsonl` (50 rows). For every row, act exactly as the `system` text says on the `user` text: translate the TRANSLATE passage, report the renderings of the listed targets, list the Greek words you are unsure of. Write one JSON object per line to `responses_<model>.jsonl` with the fields: unit_id, model (your exact model id), started_utc, finished_utc (ISO 8601), response (the JSON object the system prompt asks for, as an object, not a string). Do not read any other file in this repository. Do not consult a glossary or any other translation. Do not skip, merge or shorten units.

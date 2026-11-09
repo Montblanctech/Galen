@@ -53,6 +53,9 @@ Hippocrates 78.3, below it). On headwords LSJ cites only once: Dilemma 83.8%, St
 | [`galen-density-map/data/qc/lsgold/`](galen-density-map/data/qc/lsgold/) | **LS-Gold**: the Latin twin (`ls_gold_v0.csv`, 161,032 Lewis & Short loci over 33 authors), scores, blind sheet, README |
 | [`galen-density-map/pipeline/lsgold/`](galen-density-map/pipeline/lsgold/) | The LS-Gold pipeline: fetch and tokenize the Perseus Latin editions, relocate, two-oracle validation, score, leaderboard |
 | [`docs/ls-gold/`](docs/ls-gold/) | The Latin leaderboard page and JSON (GitHub Pages) |
+| [`docs/first-drafts/`](docs/first-drafts/) | **Galen First Drafts**: machine first translations of untranslated works, unverified, with Greek, two renderings, term table and check marks (v0.1: *Against Lycus*) |
+| [`galen-density-map/pipeline/firstdrafts/`](galen-density-map/pipeline/firstdrafts/) | The First Drafts pipeline (units, renderings, alignment, term table, three pre-registered checks, page) and its spec |
+| [`phase1/README_translation_status.md`](phase1/README_translation_status.md) | Translation status of every census work (english / other modern / partial / none), with sources |
 | [`audit-kit/`](audit-kit/) | `greek-lemma-audit`: Morpheus floor, cross-system agreement, LSJ gold, blind sheets, `lsjgold` scoring (MIT, on PyPI) |
 | [`galen-density-map/outputs/t1/`](galen-density-map/outputs/t1/) | Fifty-author convention table and per-author lemmatizer recommendations |
 | [`docs/terms/`](docs/terms/) | Term Explorer pages (Galen and three further authors) |
