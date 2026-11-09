@@ -1,0 +1,39 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>
+<title>Galen, On the Composition of Drugs by Kind — machine first draft v0.1</title>
+<style>
+body{font:15px/1.5 Georgia,serif;max-width:1400px;margin:0 auto;padding:0 1rem 3rem;color:#222;background:#fff}
+.banner{background:#7a1f1f;color:#fff;padding:.6rem 1rem;font-size:.95em;position:sticky;top:0;z-index:5}
+.banner a{color:#ffd}
+h1{font-size:1.5rem;margin:.8rem 0 .2rem} h2{font-size:1.1rem;margin:1.6rem 0 .3rem;border-top:1px solid #ddd;padding-top:.8rem}
+.small{color:#555;font-size:.88em} code{background:#f3f1ec;padding:0 .25em}
+table.sum{border-collapse:collapse;margin:.5rem 0} table.sum td,table.sum th{border-bottom:1px solid #ddd;padding:.2rem .6rem;text-align:left;font-size:.9em}
+.unit{margin:1.2rem 0;padding:.4rem 0} .unit.fail{border-left:6px solid #a33;padding-left:.6rem}
+.uh{display:flex;flex-wrap:wrap;gap:.8rem;align-items:baseline} .uh .id{font-weight:bold}
+.cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem} @media(max-width:900px){.cols{grid-template-columns:1fr}}
+.grc{font-size:1.02em} .eng{} .col h4{margin:.3rem 0;font-size:.85em;color:#555;font-weight:normal}
+.pb{display:inline-block;background:#eee;border:1px solid #bbb;border-radius:.3em;padding:0 .3em;font-size:.75em;color:#333;vertical-align:super;margin:0 .15em}
+mark.agree{background:#dff3df} mark.differ{background:#f9d6d6} mark.one{background:#eee}
+.chk{display:inline-block;border-radius:.4em;padding:0 .45em;font-size:.8em;border:1px solid #999} .chk.ok{background:#dff3df;border-color:#7a7} .chk.bad{background:#f9d6d6;border-color:#a33} .chk.na{background:#eee} .chk.mixed{background:#fbefc9;border-color:#c90}
+.tier-low{color:#363} .tier-mid{color:#b60} .tier-high{color:#a33}
+details{margin:.4rem 0} summary{cursor:pointer;color:#444;font-size:.9em}
+table.tt{border-collapse:collapse;width:100%;font-size:.86em} table.tt th,table.tt td{border-bottom:1px solid #e5e5e5;padding:.15rem .4rem;text-align:left;vertical-align:top}
+.unc{color:#a33;font-size:.8em} .lsj{color:#555;font-size:.85em}
+.verdict{font-weight:bold}
+</style></head><body>
+<div class=banner><strong>Machine first draft, unverified, v0.1.</strong> Two language models translated this text independently; no scholar has checked it. Red marks show where the machine checks fail. The apparatus says where to look, not that the text is right. <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a> · <a href="../../">project pages</a></div>
+<h1>Galen, <em>De compositione medicamentorum per genera</em> (On the Composition of Drugs by Kind), Kühn XIII 362-1058</h1>
+<p class=small>Greek: First1KGreek tlg0057.tlg077.1st1K-grc1 (Kühn 1827, vol. 13 pp. 362-1058, seven books; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built 2026-11-09. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/main/galen-density-map/outputs/firstdrafts/comp-per-genera">README and data</a>; pre-registered thresholds: <code>firstdrafts_v02_spec.md</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
+
+<table class=sum><tr><th>units</th><th>Greek words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) LSJ judge pass</th><th>units failing ≥2 checks</th></tr>
+<tr><td>697</td><td>104760</td><td>5476</td><td>663/692</td><td>502/697 (term level 77.78%)</td><td>0/0 · judge gate 12/20</td><td>9</td></tr></table>
+<p class=small>Check (a): the English back-translated into Greek by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the LSJ entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>
+<h2>Books</h2><ul>
+<li><a href="book-1.html">Book 1</a>: 97 units</li>
+<li><a href="book-2.html">Book 2</a>: 104 units</li>
+<li><a href="book-3.html">Book 3</a>: 90 units</li>
+<li><a href="book-4.html">Book 4</a>: 111 units</li>
+<li><a href="book-5.html">Book 5</a>: 96 units</li>
+<li><a href="book-6.html">Book 6</a>: 87 units</li>
+<li><a href="book-7.html">Book 7</a>: 112 units</li>
+</ul>
+<h2>Licence and citation</h2><p class=small>Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY 4.0 by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. (2026). <i>Galen First Drafts</i>: Galen, <i>De compositione medicamentorum per genera</i> (On the Composition of Drugs by Kind), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">issue template</a>.</p></body></html>

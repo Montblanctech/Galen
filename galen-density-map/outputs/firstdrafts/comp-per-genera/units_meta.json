@@ -1,0 +1,41 @@
+{
+ "work": "comp-per-genera",
+ "urn": "urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg077.1st1K-grc1 (Kühn 1827, vol. 13 pp. 362-1058, seven books; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "n_units": 697,
+ "n_tei_words": 104760,
+ "n_odycy_tokens": 103923,
+ "alignment_loss": {
+  "n_a": 104760,
+  "n_b": 103923,
+  "n_aligned": 103436,
+  "skipped_a": 1324,
+  "skipped_b": 487,
+  "alignment_loss_a": 0.012638411607483772,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 5476,
+ "targets_by_class": {
+  "fourway:genuinely_hard": 1739,
+  "punch:thin": 457,
+  "punch:absent": 154,
+  "punch:absent+fourway:genuinely_hard": 1706,
+  "punch:thin+fourway:genuinely_hard": 1420
+ },
+ "density_terciles": [
+  3.66,
+  6.29
+ ],
+ "units_per_tier": {
+  "low": 234,
+  "mid": 232,
+  "high": 231
+ },
+ "n_books": 7,
+ "n_chapters": 113,
+ "pages_per_unit": {
+  "1": 90,
+  "2": 607
+ },
+ "dilemma_version": "1.3.15"
+}

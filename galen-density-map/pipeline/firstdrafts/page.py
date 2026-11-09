@@ -56,6 +56,9 @@ def highlight(text: str, spans: list[tuple[str, str, str]]) -> str:
     return MARK.sub(r'<span class=pb title="Kühn page"></span>', "".join(out))
 
 
+SPLIT_OVER = 120  # units; above this a work is published one page per book
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", default="adversus-lycum")
@@ -102,7 +105,7 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
 </style></head><body>
 <div class=banner><strong>Machine first draft, unverified, v0.1.</strong> Two language models translated this text independently; no scholar has checked it. Red marks show where the machine checks fail. The apparatus says where to look, not that the text is right. <a href="{ISSUE_URL}">Report a correction</a> · <a href="../../">project pages</a></div>
 <h1>Galen, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</h1>
-<p class=small>Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/main/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>firstdrafts_v0_spec.md</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
+<p class=small>Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/main/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
 """)
     # summary table
     parts.append("<table class=sum><tr><th>units</th><th>Greek words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) LSJ judge pass</th><th>units failing ≥2 checks</th></tr>")
@@ -112,7 +115,10 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
     parts.append(f"<tr><td>{len(units)}</td><td>{meta.get('n_tei_words', '')}</td><td>{meta.get('n_targets', '')}</td><td>{rs('a')}</td><td>{rs('b')} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td><td>{rs('c')}{' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else ''}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td></tr></table>")
     parts.append("<p class=small>Check (a): the English back-translated into Greek by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the LSJ entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
 
+    head_len = len(parts)
+    unit_starts = []  # (parts index, book) per unit, for the split by book (v0.2.1)
     for u in units:
+        unit_starts.append((len(parts), (u.get('books') or ['1'])[0]))
         uid = u["unit_id"]
         ck = checks["units"].get(uid, {})
         verdict = ck.get("verdict", "insufficient")
@@ -150,18 +156,48 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
                              f"<td>{esc(r['agree'])}</td><td class=small>{esc(r.get('judge_A', ''))} / {esc(r.get('judge_B', ''))}</td></tr>")
             parts.append("</table></details>")
         parts.append("</div>")
-    parts.append(f"<h2>Licence and citation</h2><p class=small>Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY 4.0 by the Galen Density Project; cite the repository and the version (v0.1, {date.today().isoformat()}), and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
+    parts.append(f"<h2>Licence and citation</h2><p class=small>Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY 4.0 by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({date.today().year}). <i>Galen First Drafts</i>: Galen, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
     dest = REPO / "docs" / "first-drafts" / slug
     dest.mkdir(parents=True, exist_ok=True)
-    (dest / "index.html").write_text("\n".join(parts), encoding="utf-8")
+    # Long works are split into one page per book so a phone can open them (v0.2.1, 2026-11-09: the 697-unit
+    # Composition of Drugs by Kind made a 7 MB page). The work's index then carries the header, the summary and a book list.
+    foot_start = len(parts) - 1
+    books = []
+    for i, (start, bk) in enumerate(unit_starts):
+        end = unit_starts[i + 1][0] if i + 1 < len(unit_starts) else foot_start
+        if not books or books[-1][0] != bk:
+            books.append([bk, start, end, 0])
+        books[-1][2] = end
+        books[-1][3] += 1
+    for f in dest.glob("book-*.html"):
+        f.unlink()
+    if len(units) > SPLIT_OVER and len(books) > 1:
+        nav = "<p class=small>" + " · ".join(f'<a href="book-{bk}.html">Book {bk}</a>' for bk, *_ in books) + ' · <a href="./">contents</a></p>'
+        for bk, a, b, n in books:
+            (dest / f"book-{bk}.html").write_text("\n".join(parts[:head_len] + [f"<h2>Book {bk} ({n} units)</h2>", nav] + parts[a:b] + [nav, parts[foot_start]]), encoding="utf-8")
+        toc = ["<h2>Books</h2><ul>"] + [f'<li><a href="book-{bk}.html">Book {bk}</a>: {n} units</li>' for bk, a, b, n in books] + ["</ul>"]
+        (dest / "index.html").write_text("\n".join(parts[:head_len] + toc + [parts[foot_start]]), encoding="utf-8")
+    else:
+        (dest / "index.html").write_text("\n".join(parts), encoding="utf-8")
     (dest / "data.json").write_text(json.dumps({"work": w, "units": units, "term_table": tt, "checks": checks, "renderings": {t: [{"unit_id": k, "model": v["model"], "backend": v["backend"], "translation": ((v.get("response") or {}).get("translation", ""))} for k, v in rend[t].items()] for t in RENDERINGS}}, ensure_ascii=False), encoding="utf-8")
-    # index of drafts
+    # index of drafts: every work in WORKS whose page exists, in WORKS order (cycle 3 added eight works)
+    items = []
+    for sl, ww in WORKS.items():
+        pdir = REPO / "docs" / "first-drafts" / sl
+        odir = out_dir(sl)
+        if not (pdir / "index.html").exists() or not (odir / "units_meta.json").exists():
+            continue
+        mm = json.loads((odir / "units_meta.json").read_text(encoding="utf-8"))
+        ss = (json.loads((odir / "checks.json").read_text(encoding="utf-8")).get("summary", {}) if (odir / "checks.json").exists() else {})
+        items.append(f'<li><a href="{sl}/">{esc(ww["title_lat"])} ({esc(ww["title_eng"])})</a>, Kühn {esc(ww["kuhn_vol"])} {esc(ww["kuhn_pages"])}: '
+                     f'{mm.get("n_units")} units, {mm.get("n_tei_words")} Greek words, {(ss.get("unit_verdicts") or {}).get("fail", "–")} units failing two or more checks.</li>')
     idx = REPO / "docs" / "first-drafts" / "index.html"
     idx.write_text(f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Galen First Drafts</title>
 <style>body{{font:16px/1.5 Georgia,serif;max-width:760px;margin:2rem auto;padding:0 1rem;color:#222}}.small{{color:#555;font-size:.9em}}</style></head><body>
 <h1>Galen First Drafts — machine first translations, unverified (v0.1)</h1>
-<p class=small>Works of Galen that have no modern-language translation (census: <code>phase1/README_translation_status.md</code>), rendered twice by two language-model families with the same neutral prompt, aligned to the Greek, every technical term tied to its LSJ entry, three machine checks per unit, failures marked and kept. These are drafts for scholars to correct, not translations to quote. Spec: <code>firstdrafts_v0_spec.md</code>.</p>
-<ul><li><a href="{slug}/">{esc(w['title_lat'])} ({esc(w['title_eng'])})</a>, Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}: {len(units)} units, {meta.get('n_tei_words')} Greek words, {(s.get('unit_verdicts') or {}).get('fail', '–')} units failing two or more checks.</li></ul>
+<p class=small>Author of the drafts series: William Pepperman (Galen Density Project). Each work carries its own citation line and version.</p>
+<p class=small>Works of Galen that have no modern-language translation (census: <code>phase1/README_translation_status.md</code>), rendered twice by two language-model families with the same neutral prompt, aligned to the Greek, every technical term tied to its LSJ entry, three machine checks per unit, failures marked and kept. These are drafts for scholars to correct, not translations to quote. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3).</p>
+<ul>{"".join(items)}</ul>
 <p class=small><a href="../">All project pages</a> · <a href="{ISSUE_URL}">Report a correction</a></p></body></html>""", encoding="utf-8")
     print(f"wrote {dest / 'index.html'} ({(dest / 'index.html').stat().st_size:,} bytes), {len(units)} units, verdicts {dict(Counter(checks['units'].get(u['unit_id'], {}).get('verdict', 'none') for u in units))}")
 
