@@ -6,11 +6,11 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 
 | status | works | editions | Greek words |
 |---|---|---|---|
-| `english` | 66 | 70 | 1,362,627 |
-| `other_modern` | 15 | 15 | 429,750 |
+| `english` | 67 | 71 | 1,387,004 |
+| `other_modern` | 16 | 16 | 430,454 |
 | `partial` | 4 | 4 | 372,931 |
 | `latin_only` | 0 | 0 | 0 |
-| `none` | 10 | 11 | 193,644 |
+| `none` | 8 | 9 | 168,563 |
 | `unknown` | 2 | 3 | 1,766 |
 | total | 97 | 103 | 2,360,718 |
 
@@ -18,11 +18,9 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 
 - tlg047 *De totius morbi temporibus* (Kühn VII, 3,538 words)
 - tlg056 *De difficultate respirationis* (Kühn VII, 31,842 words)
-- tlg071 *De hirudinibus, revulsione, cucurbitula, incisione et scarificatione* (Kühn XI, 704 words)
 - tlg072 *De purgantium medicamentorum facultate* (Kühn XI, 2,973 words)
 - tlg073 *Quos quibus catharticis medicamentis et quando purgare oporteat* (Kühn XI, 1,996 words)
 - tlg077 *De compositione medicamentorum per genera* (Kühn XIII, 104,110 words)
-- tlg085 *In Hippocratis De natura hominis* (Kühn XV, 24,377 words)
 - tlg086 *In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius* (Kühn XV, 6,837 words)
 - tlg093 *Adversus Lycum* (Kühn XVIII A, 7,436 words)
 - tlg096 *De Humero iis Modis Prolapso quos Hippocrates non Vidit* (Kühn XVIII A, 9,831 words)

@@ -1,0 +1,41 @@
+{
+ "work": "quos-quibus",
+ "urn": "urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg073.1st1K-grc1 (Kühn 1826, vol. 11 pp. 343-356; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0; First1KGreek also has tlg073.1st1K-grc2, the Oribasius excerpt of the same work (Kühn XI 343-356 ap. Oribasium, with Latin and German), not used here",
+ "n_units": 14,
+ "n_tei_words": 1999,
+ "n_odycy_tokens": 1992,
+ "alignment_loss": {
+  "n_a": 1999,
+  "n_b": 1992,
+  "n_aligned": 1969,
+  "skipped_a": 30,
+  "skipped_b": 23,
+  "alignment_loss_a": 0.015007503751875938,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 101,
+ "targets_by_class": {
+  "fourway:genuinely_hard": 64,
+  "punch:thin": 9,
+  "punch:thin+fourway:genuinely_hard": 17,
+  "punch:absent": 2,
+  "punch:absent+fourway:genuinely_hard": 9
+ },
+ "density_terciles": [
+  0.68,
+  3.09
+ ],
+ "units_per_tier": {
+  "low": 5,
+  "high": 4,
+  "mid": 5
+ },
+ "n_books": 0,
+ "n_chapters": 1,
+ "pages_per_unit": {
+  "1": 2,
+  "2": 12
+ },
+ "dilemma_version": "1.3.15"
+}

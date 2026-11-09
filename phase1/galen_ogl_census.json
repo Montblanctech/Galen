@@ -1042,9 +1042,9 @@
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Galenus verbatim catalogue tlg0057.tlg071 (Fichtner no. 074): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 74: no T (translation) line",
-      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "other_modern",
+      "translation_source": "G. Ecca, AION-SEZ 43 (2021) 155-179 (Italian, complete); drafts/prior_translation_check.md work 5",
+      "translation_note": "First Italian translation (Ecca 2021); no English found. Ecca argues a late-antique compilation (pseudo-Galenic)."
     },
     {
       "tlg_number": "tlg072",
@@ -1238,9 +1238,9 @@
       "kuhn_volume_approx": "XV",
       "category": "commentary",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Galenus verbatim catalogue tlg0057.tlg085 (Fichtner no. 090): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 90: no T (translation) line",
-      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "english",
+      "translation_source": "W. J. Lewis and J. A. Beach, Galen, On the Nature of Man (commentary), English translation, Medicina Antiqua (UCL), 1998 (online); drafts/prior_translation_check.md work 8",
+      "translation_note": "Complete English translation of K. XV 1-173 online since 1998; missed by Galenus verbatim and Fichtner 2023. Found by the prior-translation check of 2026-11-09."
     },
     {
       "tlg_number": "tlg086",
@@ -1518,24 +1518,24 @@
       "translation_sources/fichtner_translations_2026-11-09.json"
     ],
     "distinct_works_by_status": {
-      "english": 66,
-      "other_modern": 15,
+      "english": 67,
+      "other_modern": 16,
       "unknown": 2,
-      "none": 10,
+      "none": 8,
       "partial": 4
     },
     "greek_words_by_status_first_edition": {
-      "english": 1362627,
-      "other_modern": 429750,
+      "english": 1387004,
+      "other_modern": 430454,
       "unknown": 1766,
-      "none": 193644,
+      "none": 168563,
       "partial": 372931
     },
     "editions_by_status": {
-      "english": 70,
-      "other_modern": 15,
+      "english": 71,
+      "other_modern": 16,
       "unknown": 3,
-      "none": 11,
+      "none": 9,
       "partial": 4
     }
   }

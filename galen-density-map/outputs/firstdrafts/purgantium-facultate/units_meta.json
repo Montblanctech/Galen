@@ -1,0 +1,41 @@
+{
+ "work": "purgantium-facultate",
+ "urn": "urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg072.1st1K-grc1 (Kühn 1826, vol. 11 pp. 323-342; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "n_units": 20,
+ "n_tei_words": 2980,
+ "n_odycy_tokens": 2962,
+ "alignment_loss": {
+  "n_a": 2980,
+  "n_b": 2962,
+  "n_aligned": 2956,
+  "skipped_a": 24,
+  "skipped_b": 6,
+  "alignment_loss_a": 0.008053691275167786,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 158,
+ "targets_by_class": {
+  "fourway:genuinely_hard": 110,
+  "punch:thin+fourway:genuinely_hard": 12,
+  "punch:absent": 13,
+  "punch:thin": 8,
+  "punch:absent+fourway:genuinely_hard": 15
+ },
+ "density_terciles": [
+  1.36,
+  1.85
+ ],
+ "units_per_tier": {
+  "low": 7,
+  "high": 6,
+  "mid": 7
+ },
+ "n_books": 0,
+ "n_chapters": 5,
+ "pages_per_unit": {
+  "1": 5,
+  "2": 15
+ },
+ "dilemma_version": "1.3.15"
+}

@@ -1,0 +1,41 @@
+{
+ "work": "morbi-temporibus",
+ "urn": "urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg047.1st1K-grc1 (Kühn 1824, vol. 7 pp. 440-462; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "n_units": 23,
+ "n_tei_words": 3545,
+ "n_odycy_tokens": 3529,
+ "alignment_loss": {
+  "n_a": 3545,
+  "n_b": 3529,
+  "n_aligned": 3507,
+  "skipped_a": 38,
+  "skipped_b": 22,
+  "alignment_loss_a": 0.010719322990126939,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 166,
+ "targets_by_class": {
+  "fourway:genuinely_hard": 85,
+  "punch:thin+fourway:genuinely_hard": 26,
+  "punch:thin": 17,
+  "punch:absent+fourway:genuinely_hard": 18,
+  "punch:absent": 20
+ },
+ "density_terciles": [
+  1.94,
+  3.25
+ ],
+ "units_per_tier": {
+  "mid": 8,
+  "high": 7,
+  "low": 8
+ },
+ "n_books": 0,
+ "n_chapters": 8,
+ "pages_per_unit": {
+  "1": 4,
+  "2": 19
+ },
+ "dilemma_version": "1.3.15"
+}

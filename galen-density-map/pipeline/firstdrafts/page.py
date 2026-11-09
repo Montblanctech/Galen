@@ -190,13 +190,13 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
         mm = json.loads((odir / "units_meta.json").read_text(encoding="utf-8"))
         ss = (json.loads((odir / "checks.json").read_text(encoding="utf-8")).get("summary", {}) if (odir / "checks.json").exists() else {})
         items.append(f'<li><a href="{sl}/">{esc(ww["title_lat"])} ({esc(ww["title_eng"])})</a>, Kühn {esc(ww["kuhn_vol"])} {esc(ww["kuhn_pages"])}: '
-                     f'{mm.get("n_units")} units, {mm.get("n_tei_words")} Greek words, {(ss.get("unit_verdicts") or {}).get("fail", "–")} units failing two or more checks.</li>')
+                     f'{mm.get("n_units")} units, {mm.get("n_tei_words")} Greek words, {(ss.get("unit_verdicts") or {}).get("fail", 0) if ss else "–"} units failing two or more checks.</li>')
     idx = REPO / "docs" / "first-drafts" / "index.html"
     idx.write_text(f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Galen First Drafts</title>
 <style>body{{font:16px/1.5 Georgia,serif;max-width:760px;margin:2rem auto;padding:0 1rem;color:#222}}.small{{color:#555;font-size:.9em}}</style></head><body>
 <h1>Galen First Drafts — machine first translations, unverified (v0.1)</h1>
 <p class=small>Author of the drafts series: William Pepperman (Galen Density Project). Each work carries its own citation line and version.</p>
-<p class=small>Works of Galen that have no modern-language translation (census: <code>phase1/README_translation_status.md</code>), rendered twice by two language-model families with the same neutral prompt, aligned to the Greek, every technical term tied to its LSJ entry, three machine checks per unit, failures marked and kept. These are drafts for scholars to correct, not translations to quote. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3).</p>
+<p class=small>Works of Galen with no English translation, most of them with no translation in any modern language (status and sources per work: <code>phase1/README_translation_status.md</code>), rendered twice by two language-model families with the same neutral prompt, aligned to the Greek, every technical term tied to its LSJ entry, three machine checks per unit, failures marked and kept. These are drafts for scholars to correct, not translations to quote. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3).</p>
 <ul>{"".join(items)}</ul>
 <p class=small><a href="../">All project pages</a> · <a href="{ISSUE_URL}">Report a correction</a></p></body></html>""", encoding="utf-8")
     print(f"wrote {dest / 'index.html'} ({(dest / 'index.html').stat().st_size:,} bytes), {len(units)} units, verdicts {dict(Counter(checks['units'].get(u['unit_id'], {}).get('verdict', 'none') for u in units))}")

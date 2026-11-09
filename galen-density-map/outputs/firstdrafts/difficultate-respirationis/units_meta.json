@@ -1,0 +1,41 @@
+{
+ "work": "difficultate-respirationis",
+ "urn": "urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg056.1st1K-grc1 (Kühn 1824, vol. 7 pp. 753-960; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "n_units": 207,
+ "n_tei_words": 31901,
+ "n_odycy_tokens": 31893,
+ "alignment_loss": {
+  "n_a": 31901,
+  "n_b": 31893,
+  "n_aligned": 31364,
+  "skipped_a": 537,
+  "skipped_b": 529,
+  "alignment_loss_a": 0.016833328108836712,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 1541,
+ "targets_by_class": {
+  "fourway:genuinely_hard": 1024,
+  "punch:thin+fourway:genuinely_hard": 255,
+  "punch:absent+fourway:genuinely_hard": 106,
+  "punch:thin": 76,
+  "punch:absent": 80
+ },
+ "density_terciles": [
+  1.3,
+  2.56
+ ],
+ "units_per_tier": {
+  "high": 67,
+  "low": 70,
+  "mid": 70
+ },
+ "n_books": 3,
+ "n_chapters": 51,
+ "pages_per_unit": {
+  "1": 18,
+  "2": 189
+ },
+ "dilemma_version": "1.3.15"
+}
