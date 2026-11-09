@@ -19,7 +19,10 @@
       "wordcount": 5041,
       "kuhn_volume_approx": "I",
       "category": "protreptic",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg001 (Fichtner no. 001), translationes recentiores: Boudon-Millot, 2000 (grc;fra) – source ;; Barigazzi, 1991 (grc;ita) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_01_01.php?p=111>; Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/020024517>; Brodersen, 2021 (grc;deu) – source ; <https://www.sudoc.fr/257333312>; Robinson, 1955 (eng) – source ; <https://www.sudoc.fr/090929284>; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Walsh, 1930 (eng) – source ; <https://wellcomecollection.org/works/bsnrefcw>; Lüth, 1963 (grc;deu) – source ; <https://www.worldcat.org/fr/title/102998074>; Calderini, 1986 (grc;ita) – source ; <https://www.sudoc.fr/068417683>; Ochoa, 1987 (spa) – source ; <https://www.worldcat.org/fr/title/879041398>; Martinez Manzano, 2002 (spa) – source ; <https://www.sudoc.fr/087532166>; Walther, 1936 (grc;deu) – source ; <https://www.sudoc.fr/196914272>; Wenkebach, 1935 (deu;grc) <https://primo.getty.edu/permalink/f/mlc5om/GETTY_ALMA21127182490001551> || Fichtner, Corpus Galenicum 2023/12, entry 1: 12 translation (T) line(s): Barigazzi, Adelmo: Galeni Exhortatio ad medicinam (Protrepticus), CMG V 1,1, Berlin 1991, 111–151. | John, Walther: Γ αληνοῦ Προτρεπτικὸς ἐπ’ ἰατρικήν. Galens Werbeschrift: Studiert Medizin! (Ein Fragment.) Beilage Festschr. Staatl. Gymn. Göttingen. Göttingen 1 | Wenkebach, Ernst: Galens Protreptikosfragment. Quell. Stud. Gesch. Naturw. Med. 4 (1935), H. 3, 88–121. | Boudon, Véronique: Galien: Tome II: Exhortation à l'étude de la médecine. Art médical. Paris 2000, 1–146 (Collection des Universités de France). | Galli Calderini, Irene Ginevra: Galeno, Nobiltà delle arti. In: Collana Radici. Napoli 1986. | Daremberg, Charles: Oeuvres I.. | Lüth, Paul; Knapp, Winfriede: Galen v. Pergamon: Ermunterung zu Kunst und Wissenschaft. Aus d. Griech. Hippokrates 34 (1963), 665–669. | Ochoa, J.A.; Sanz Mingote, L.: Galeno. Ex-ortación al aprendizaje de las artes. Sobre la major doctrina. El major medico es también filósofo. Sobre las escuelas | Robinson, Rachel Sargent: Sources for the history of Greek athletics. In English translation. 2. Aufl. Chicago 1955, 191–197 . | Singer, Peter N.: Galen: An exhortation to study the arts. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's C | Walsh, Joseph: Exhortation to the study of the arts especially medicine. Medical Life 37 (1930), 507ff. | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg001",
@@ -30,7 +33,10 @@
       "wordcount": 5092,
       "kuhn_volume_approx": "I",
       "category": "protreptic",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc2:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg001.1st1K-grc2:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg001 (Fichtner no. 001), translationes recentiores: Boudon-Millot, 2000 (grc;fra) – source ;; Barigazzi, 1991 (grc;ita) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_01_01.php?p=111>; Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/020024517>; Brodersen, 2021 (grc;deu) – source ; <https://www.sudoc.fr/257333312>; Robinson, 1955 (eng) – source ; <https://www.sudoc.fr/090929284>; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Walsh, 1930 (eng) – source ; <https://wellcomecollection.org/works/bsnrefcw>; Lüth, 1963 (grc;deu) – source ; <https://www.worldcat.org/fr/title/102998074>; Calderini, 1986 (grc;ita) – source ; <https://www.sudoc.fr/068417683>; Ochoa, 1987 (spa) – source ; <https://www.worldcat.org/fr/title/879041398>; Martinez Manzano, 2002 (spa) – source ; <https://www.sudoc.fr/087532166>; Walther, 1936 (grc;deu) – source ; <https://www.sudoc.fr/196914272>; Wenkebach, 1935 (deu;grc) <https://primo.getty.edu/permalink/f/mlc5om/GETTY_ALMA21127182490001551> || Fichtner, Corpus Galenicum 2023/12, entry 1: 12 translation (T) line(s): Barigazzi, Adelmo: Galeni Exhortatio ad medicinam (Protrepticus), CMG V 1,1, Berlin 1991, 111–151. | John, Walther: Γ αληνοῦ Προτρεπτικὸς ἐπ’ ἰατρικήν. Galens Werbeschrift: Studiert Medizin! (Ein Fragment.) Beilage Festschr. Staatl. Gymn. Göttingen. Göttingen 1 | Wenkebach, Ernst: Galens Protreptikosfragment. Quell. Stud. Gesch. Naturw. Med. 4 (1935), H. 3, 88–121. | Boudon, Véronique: Galien: Tome II: Exhortation à l'étude de la médecine. Art médical. Paris 2000, 1–146 (Collection des Universités de France). | Galli Calderini, Irene Ginevra: Galeno, Nobiltà delle arti. In: Collana Radici. Napoli 1986. | Daremberg, Charles: Oeuvres I.. | Lüth, Paul; Knapp, Winfriede: Galen v. Pergamon: Ermunterung zu Kunst und Wissenschaft. Aus d. Griech. Hippokrates 34 (1963), 665–669. | Ochoa, J.A.; Sanz Mingote, L.: Galeno. Ex-ortación al aprendizaje de las artes. Sobre la major doctrina. El major medico es también filósofo. Sobre las escuelas | Robinson, Rachel Sargent: Sources for the history of Greek athletics. In English translation. 2. Aufl. Chicago 1955, 191–197 . | Singer, Peter N.: Galen: An exhortation to study the arts. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's C | Walsh, Joseph: Exhortation to the study of the arts especially medicine. Medical Life 37 (1930), 507ff. | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg002",
@@ -41,7 +47,10 @@
       "wordcount": 1830,
       "kuhn_volume_approx": "I",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg002 (Fichtner no. 002), translationes recentiores: Barigazzi, 1991 (grc;ita) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_01_01.php?p=89>; Barigazzi, 1966 (ita) – source ; <https://www.worldcat.org/fr/title/54321590>; Martinez Manzano, 2002 (spa) – source ; <https://www.sudoc.fr/087532166>; Ochoa, 1987 (spa) <https://www.worldcat.org/fr/title/879041398> || Fichtner, Corpus Galenicum 2023/12, entry 2: 5 translation (T) line(s): Barigazzi, Adelmo: Galeni De optimo docendi genere. In: Favorino di Arelate: Opere. Introduzione, testo critico e commento. Firenze 1966. (Testi greci e latini  | Barigazzi, Adelmo: Favorino di Arelate, Opere. Firenze 1966, 175–194. | Barigazzi, Adelmo: Galeni De optimo docendi genere, CMG V 1,1, Berlin 1991, 89–109. | Ochoa, J.A.; Sanz Mingote, L.: Galeno. Exortación al aprendizaje de las artes. Sobre la major doctrina. El major medico es también filósofo. Sobre las escuelas, | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg003",
@@ -52,7 +61,10 @@
       "wordcount": 1388,
       "kuhn_volume_approx": "I",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg003 (Fichtner no. 003), translationes recentiores: Boudon-Millot, 2007 (grc;fra) – source ;; Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/098158090>; Cardini, 1914 (grc;ita) – source ; <https://www.worldcat.org/fr/title/875240791>; Peter, 1977 (eng) – source ; <https://www.worldcat.org/fr/title/5878444275>; Martinez Manzano, 2002 (spa) – source ; <https://www.sudoc.fr/087532166>; Brodersen, 2021 (grc;deu) – source ; <https://www.sudoc.fr/257333312>; Ochoa, 1987 (grc;spa) – source ; <https://www.worldcat.org/fr/title/627404341>; Usobiaga, 1976 (spa) – source ; <https://revistes.ub.edu/index.php/EstudiosHelenicos/article/view/5407>; Garofalo, 1978 (ita) – source ; <https://www.sudoc.fr/01958069X>; Galen, 2014 (grc;eng) – source ; <https://www.sudoc.fr/188328254>; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Lüth, 1965 (deu) <https://www.worldcat.org/fr/title/104497959> || Fichtner, Corpus Galenicum 2023/12, entry 3: 12 translation (T) line(s): Bachmann, Peter: Galens Abhandlung darüber, daß der vorzügliche Arzt Philosoph sein muß. (Arab./Dt.) (Nachr. Akad. Göttingen, Phil.-Hist. Kl. 1965,1.). | Boudon-Millot, Véronique: Galien: Tome I: Introduction générale. Sur l'ordre des ses propres livres. Sur ses propres livres. Que l'excellent médecin est aussi p | Brain, Peter: Galen on the ideal of the physician. S. Afr. med. J. 52 (1977), 936–938. | Cardini, Massimiliano: Galeno: Come l'ottimo medico sia anche filosofo (Ὅτι ἄριστος ἰατρὸς καὶ φιλόσοφος). Riv. Crit. Clin. Med. (1914), 481–485. | Daremberg, Charles: Oeuvres I.. | Garofalo, Ivan: Il miglior medico è anche filosofo. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET) S. 91 | Lüth, Paul; Knapp, Winfriede: Der beste Arzt ist Wissenschaftler! Galen von Pergamon, übers. v… . Med. Welt 33 (1965), 2185–2187 . | Ochoa, J.A.; Sanz Mingote, L.: Galeno. Ex-ortación al aprendizaje de las artes. Sobre la major doctrina. El major medico es también filósofo. Sobre las escuelas | Singer, Peter N.: Galen: The best doctor is also a philosopher. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford Worl | Usobiaga, B.: Galeno: El mejor médico también es filósofo. Boletin del Instituto de Estudios Helenicos 10 (1976), 133–151. | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002. | Das, A. R. (Hrsg.), Galen’ s Humanistic Medicine. (SAPERE XLIII) Tübingen 2023.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg004",
@@ -63,7 +75,10 @@
       "wordcount": 6225,
       "kuhn_volume_approx": "I",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg004 (Fichtner no. 004), translationes recentiores: Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/020024517>; Martinez Manzano, 2002 (spa) – source ; <https://www.sudoc.fr/087532166>; Ochoa, 1987 (spa) – source ; <https://www.worldcat.org/fr/title/879041398>; Garofalo, 1978 (grc;ita) – source ; <https://www.sudoc.fr/01958069X>; Pellegrin, 1998 (fra) – source ; <https://www.sudoc.fr/004504534>; Walzer, 1985 (eng) – source ; <https://www.sudoc.fr/012818712>; Galen, 1947 (deu) <https://www.worldcat.org/fr/title/720573315> || Fichtner, Corpus Galenicum 2023/12, entry 4: 9 translation (T) line(s): Walbridge, John: The Alexandrian Epitomes of Galen. Vol. I: On the Medical Sects for Beginners. The Small Art of Medicine. On the Elements According to the Opin | Dalimier, Catherine: Galien. Traités philosophiques et logiques: Des sectes pour les débutants, Esquisse empirique, De l'expérience médicale, Des sophismes verb | Daremberg, Charles: Oeuvres II.. | Garofalo, Ivan: Le scuole di medicina, per gli studenti. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET)  | Kölbl, Walter: Die Übersetzung von Galens Schrift über die medizinischen Schulen an die Anfänger. (Anschließend eine kurze Zusammenfassung.) Diss. med. [masch.s | Ochoa, J.A.; Sanz Mingote, L.: Galeno. Ex-ortación al aprendizaje de las artes. Sobre la major doctrina. El major medico es también filósofo. Sobre las escuelas | Palmieri, Nicoletta: L'antica versione latina del »De sectis« di Galeno (Pal. lat. 1090). Pisa 1989. (Testi e studi di cultura classica. 7). | Walzer, Richard; Frede, Michael: Galen. Three Treatises On the Nature of Science. On the Sects for Beginners. An Outline for Empiricism. With an Introduction by | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg006",
@@ -74,7 +89,10 @@
       "wordcount": 11963,
       "kuhn_volume_approx": "I",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg006 (Fichtner no. 006), translationes recentiores: Johnston, 2016 (eng) – source ; <https://www.sudoc.fr/191581917>; Fortuna, 1997 (grc;ita) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_01_03.php?p=54>; Lara Nava, 1997 (spa) – source ; <https://www.sudoc.fr/067641709>; Boulogne, 2003 (grc;fra) – source ; <https://www.sudoc.fr/07449547X>; Fortuna, 1997 (grc;ita) – source ; <https://www.sudoc.fr/007907346>; Galen, 1993 (eng) <https://www.sudoc.fr/121088014> || Fichtner, Corpus Galenicum 2023/12, entry 123: no T (translation) line",
+      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg007",
@@ -85,7 +103,10 @@
       "wordcount": 16153,
       "kuhn_volume_approx": "I",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg007.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg007.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg007 (Fichtner no. 007), translationes recentiores: Boudon-Millot, 2000 (grc;fra) – source ;; Peters, 1978 (deu) – source ; <https://www.sudoc.fr/145873196>; Singer, 1997 (grc;eng) – source ; <https://www.sudoc.fr/080806805>; Lafont, 1947 (spa) – source ; <https://www.worldcat.org/fr/title/638771230>; Garofalo, 1978 (grc;ita) – source ; <https://www.sudoc.fr/01958069X>; Malato, 1972 (ita) – source ; <https://www.worldcat.org/fr/title/arte-medica/oclc/14418727>; Boudon-Millot, 1990 (grc;fra) – source ; <https://www.sudoc.fr/137421818>; Espinosa Espinosa, 2015 (grc;spa) <https://www.worldcat.org/fr/title/1003011617> || Fichtner, Corpus Galenicum 2023/12, entry 7: 10 translation (T) line(s): Boudon-Millot, V[éronique]: L' Ars medica de Galien. Introduction, texte critique, traduction et commentaire. Diss. phil. Paris 1990. | Johnston, Ian: Galen. On the Constitution of the Art of Medicine, The Art of Medicine, A Method of Medicine to Glaucon Cambridge (Mass.), London 2016. (Loeb Cla | Walbridge, John: The Alexandrian Epitomes of Galen. Vol. I: On the Medical Sects for Beginners. The Small Art of Medicine. On the Elements According to the Opin | Boudon, Véronique: Galien: Tome II: Exhortation à l'étude de la médecine. Art médical. Paris 2000, 147–448 (Collection des Universités de France). | Garofalo, Ivan: Manuale di medicina. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET) S. 999–1070. | Lafont, J. B.; Moreno, Annibal R.: Obras d. G. | Malato, M. T.: L'arte medica di Galeno. Roma 1972. | Singer, Peter N.: Galen: The art of medicine. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 3 | Baumann, Götz: Galen, τέχνη ἰατρικὴ (Ars medica), Kap. X bis XIX. Übersetzung u. Erläuterungen. (Symptome der Mischungen nach der Viersäftelehre bei den einzeln | Peters, Reinhard: Galen aus Pergamon »Über die Heilkunst«. Übers. u. mit Anm. vers. von … Diss. med. Hamburg 1979.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg008",
@@ -96,7 +117,10 @@
       "wordcount": 13405,
       "kuhn_volume_approx": "I",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg008 (Fichtner no. 008), translationes recentiores: De Lacy, 1996 (grc;eng) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_01_02.php?p=56>; De Lacy, 1996 (grc;eng) – source ; <https://www.sudoc.fr/00509531X>; Tassinari, 1997 (ita) <https://www.worldcat.org/fr/title/848814717> || Fichtner, Corpus Galenicum 2023/12, entry 8: 3 translation (T) line(s): Walbridge, John: The Alexandrian Epitomes of Galen. Vol. I: On the Medical Sects for Beginners. The Small Art of Medicine. On the Elements According to the Opin | De Lacy, Phillip: Galeni De elementis ex Hippocratis sententia, CMG V 1,2, Berlin 1996. | Tassinari, Piero: Galeno. Gli elementi secondo la dottrina di Ippocrate. I temperamenti. Rom 1997 .",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg009",
@@ -107,7 +131,10 @@
       "wordcount": 27694,
       "kuhn_volume_approx": "I",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg009 (Fichtner no. 009), translationes recentiores: von Ejik, 2018 (eng) – source ; <https://www.sudoc.fr/236756214>; Johnston, 2020 (grc;eng) – source ; <https://www.sudoc.fr/255644728>; Tassinari, 1997 (ita) – source ; <https://www.worldcat.org/fr/title/848814717>; Barras, 2022 (grc;fra) <https://www.sudoc.fr/26363079X> || Fichtner, Corpus Galenicum 2023/12, entry 9: 2 translation (T) line(s): Singer, Peter N.: Galen: Mixtures. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 202–289. | Tassinari, Piero: Galeno. Gli elementi secondo la dottrina di Ippocrate. I temperamenti. Rom 1997 .",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg009",
@@ -118,7 +145,10 @@
       "wordcount": 27714,
       "kuhn_volume_approx": "I",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg009 (Fichtner no. 009), translationes recentiores: von Ejik, 2018 (eng) – source ; <https://www.sudoc.fr/236756214>; Johnston, 2020 (grc;eng) – source ; <https://www.sudoc.fr/255644728>; Tassinari, 1997 (ita) – source ; <https://www.worldcat.org/fr/title/848814717>; Barras, 2022 (grc;fra) <https://www.sudoc.fr/26363079X> || Fichtner, Corpus Galenicum 2023/12, entry 9: 2 translation (T) line(s): Singer, Peter N.: Galen: Mixtures. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 202–289. | Tassinari, Piero: Galeno. Gli elementi secondo la dottrina di Ippocrate. I temperamenti. Rom 1997 .",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg010",
@@ -129,7 +159,10 @@
       "wordcount": 31893,
       "kuhn_volume_approx": "II",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg010.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg010.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg010 (Fichtner no. 010), translationes recentiores: Brock, 1916 (grc;eng) – source ; <https://www.sudoc.fr/015576574>; Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/098158090>; Garofalo, 1978 (ita) – source ; <https://www.sudoc.fr/01958069X>; Galeno, 1996 (grc;ita) – source ; <https://www.sudoc.fr/167883178>; Lara Nava, 1997 (spa) – source ; <https://www.sudoc.fr/067641709>; Renander, 1958 (swe) – source ; <https://www.worldcat.org/fr/title/14602911>; Zaragoza Gras, 2003 (spa) – source ; <https://www.sudoc.fr/087529467>; Beintkler, 1954 (deu) <https://www.sudoc.fr/241071593> || Fichtner, Corpus Galenicum 2023/12, entry 10: 9 translation (T) line(s): Brock, A. J.: Galen: On the Natural Faculties, with an English Transl. London, Cambridge (Mass.) 1916. (Loeb Class. Libr.). | Mortarino, Marzia: Galeno: Sulle facoltà naturali. Milano 1996. (Classici greci e latini). | Beintker, Erich; Kahlenberg, Wilhelm: Werke des Galenos. Bd. V: Die Kräfte der Physis (Über die natürlichen Kräfte). Stuttgart 1954. | Daremberg, Charles: Oeuvres II.. | Garofalo, Ivan: Le facoltà naturali. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET) S. 833–956. | Müri, W .: Der Arzt im Altertum. 4. Aufl. München 1979. S. 200f. (B. II,9). 14 | Lara Nava, Dolores: Sobre las facultades naturales. Sobre la constitución del arte médica, a Patrófilo. Introducción, traducción y notas. Madrid 1997 . | Renander, A.: Galen: Om Naturens Krafter. Overs. med med.-hist. Oversikt og Kommentarer. Stockholm 1958. | Zaragoza Gras, Juana: Galeno: Sobre las facultades naturales. Las facultades del alma siguen los temperamentos del cuerpo. Introducción, traducción y notas. 200",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg011",
@@ -140,7 +173,10 @@
       "wordcount": 78402,
       "kuhn_volume_approx": "II",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg011.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg011.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg011 (Fichtner no. 011), translationes recentiores: Singer, 1956 (eng) – source ; <https://www.sudoc.fr/082359105>; Garofalo, 1991 (grc;ita) – source ; <https://www.sudoc.fr/011400854>; López Salvá, 2022 (grc;spa) – source ; <https://www.sudoc.fr/087533677>; Duckworth, 1962 (eng) – source ; <https://www.sudoc.fr/025055046>; Simon, 1906 (deu) <https://www.sudoc.fr/118133144> || Fichtner, Corpus Galenicum 2023/12, entry 11: 15 translation (T) line(s): French, Roger K.; Lloyd, Geoffrey E. R.: Greek Fragments of the Lost Books of Galen's Anatomical Procedures. Sudhoffs Arch. 62 (1978), 235–249. | Garofalo, Ivan: Galeno: Procedimenti anatomici, edizione e traduzione. Vol. 1–3. Milano 1991. | Simon, M.: Galens Anatomie, 7 Bücher veröff. nach den Hss. einer arabischen Übersetzung des 9. Jhdt. p. Chr., ins Deutsche übertragen u. komm. Bd. 1, Leipzig 19 | Bonora, Fausto: Galeni De anatomicis administrationibus, Liber primus. Roma 1965. | Duckworth, W . L. H.; Lyons, Malcolm C.; Towers, C.: Galen: On Anatomical Procedures. The Later Books. A Translation. Cambridge 1962. | Garofalo, Ivan: I procedimenti anatomici. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET) S. 135–289. | Müri, W .: Der Arzt im Altertum. 4. Aufl. München 1979. S. 310–316 (Buch, I,11). | Perazzi, Francesco: Finalità dello studio dell'anatomia e anatomia del cervello in Galeno. Settim. Osped. 9 (1967), 1, 70–82 (Buch IX). | Renander, A.: On Galen's Anatomical Dissection. Svenska Läkartidningen 55 (1958), 1237–1347 . | Rosenthal, F.: Das Fortleben der Antike im Islam. Zürich, Stuttgart 1965, 263–265. 15 | Singer, C.: Galen on thoracic movements. Brit. J. Tubercul. Dis. Chest 47 (1953), 65–67 . | Singer, C.: Galen: On Anatomical Procedures (I-IX 6). London 1956. (Publ. Wellcome Hist. Med. Museum N.S. 7). | Temkin, Owsei; Straus, William S., Jr.: Galen's Dissection of the Liver and of the Muscles Moving the Forearm. Bull. Hist. Med. 19 (1946), 167–176. | Temkin, Owsei; Temkin, C. Lilian: Some Extracts from Galen's Anatomical Procedures. Transl. Bull. Hist. Med. 4 (1936), 466–476. | López Salvá, Mercedes: Galeno: Procedimientos anatómicos. Libros I-IX. Introducción, traducción y notas. (Biblioteca Clàsica Gredos 305) 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg012",
@@ -151,7 +187,10 @@
       "wordcount": 6930,
       "kuhn_volume_approx": "II",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg012.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg012.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg012 (Fichtner no. 012), translationes recentiores: Garofalo, 2005 (grc;fra) – source ;; Mayo Goss, 1984 (eng) – source ;; SInger, 1952 (eng) – source ; <https://www.worldcat.org/fr/title/102335295>; Sakai, 2007 (jpn) – source ; <http://jsmh.umin.jp/journal/53-3/index.html>; Galen, 1969 (grc;eng) – source ; <https://www.worldcat.org/fr/title/11338127>; Von Töply, 1914 (deu) <https://archive.org/details/anatomischehefte25mn/page/432/mode/2up?view=theater> || Fichtner, Corpus Galenicum 2023/12, entry 12: 6 translation (T) line(s): Garofalo, Ivan; Debru, Armelle: Galien: Tome V II: Les os pour les débutants. L'anatomie des muscles. Texte établi et annoté par Ivan Garofalo. Traduit par Ivan | Moore, M. G.: Galen. Introduction to the bones. Diss. phil. [Univ. of Michigan 1969] Ann Arbor 1987 . | Müri, W .: Der Arzt im Altertum. 4. Aufl. München 1979. S. 292–307 (Prooemium; Kap. 1). | Sakai, T.; Ikeda, R.; Sawai, T.: On bones for beginners. Nihon-Ishigaku-Zasshi (=Journal of the Japan Society of Medical History) 53.3 (2007), 353–421. | Töply, R. v.: Anatomische Werke des Ruphos und Galenos: Die Knochen. Anat. Hefte 76 (1904), 405–431. | Goss, C. M.; Goss Chodkowski, E.: On Bones for Beginners by Galen of Pergamon: A Translation With Commentary. American Journal of Anatomy 169 (1984), 59–74.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg013",
@@ -162,7 +201,10 @@
       "wordcount": 7539,
       "kuhn_volume_approx": "II",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg013.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg013.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg013 (Fichtner no. 013), translationes recentiores: Garofalo, 2008 (grc;fra) – source ;; Mayo Goss, 1961 (eng) – source ; <https://doi.org/10.1002/ar.1091410409>; Galen, 2006 (jpn) – source ; <http://jsmh.umin.jp/journal/52-2/211.pdf>; Galen, 1969 (ara;eng) – source ; <https://www.proquest.com/dissertations/docview/302483211/135B03B3DD0567A7113/845>; von Töply, 1904 (deu) <https://archive.org/details/anatomischehefte25mn/page/432/mode/2up?view=theater> || Fichtner, Corpus Galenicum 2023/12, entry 13: 5 translation (T) line(s): Garofalo, Ivan; Debru, Armelle: Galien: Tome V III: L'anatomie des nerfs. L'anatomie des veines et des artères. Texte etabli et annoté par Ivan Garofalo. Tradui | Smith, Emilie Savage: Galen on nerves, veins and arteries: a critical edition and translation from the Arabic, with notes, glossary and an introd. essay. Diss.  | Goss, C. M.: On Anatomy of Veins and Arteries by Galen of Pergamos (sic). Anat. Rec. 141 (1961), 355–366. | Sakai, T.; Ikeda, R.; Sawai, T.: On the anatomy of veins and arteries. Nihon-Ishigaku-Zasshi (=Journal of the Japan Society of Medical History) 52.2 (2006), 211 | Töply, R. v.: Anatomische Werke des Ruphos und Galenos: Anatomie der Venen und Arterien. Anat. Hefte 76 (1904), 432–459.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg014",
@@ -173,7 +215,10 @@
       "wordcount": 3606,
       "kuhn_volume_approx": "II",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg014.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg014.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg014 (Fichtner no. 014), translationes recentiores: Garofalo, 2008 (grc;fra) – source ;; Mayo Goss, 1966 (eng) – source ;; Garofalo, 2008 (grc;fra) – source ; <https://www.sudoc.fr/122083423>; Sakai, 2003 (jpn) – source ; <http://jsmh.umin.jp/journal/49-3/index.html>; Von Töply, 1904 (deu) <https://archive.org/details/anatomischehefte25mn/page/458/mode/2up?view=theater> || Fichtner, Corpus Galenicum 2023/12, entry 14: 6 translation (T) line(s): Garofalo, Ivan; Debru, Armelle: Galien: Tome V III: L'anatomie des nerfs. L'anatomie des veines et des artères. Texte etabli et annoté par Ivan Garofalo. Tradui | Al-Dubayan, Ahmad M. [al-Dubayyân, Ahmad Muhammad]: Galen: »Über die Anatomie der Nerven«. Originalschrift und alexandrinisches Kompendium in arabischer Überlie | Smith, Emilie Savage: Galen on nerves, veins and arteries. Diss. phil. [Madison 1969] Ann Arbor, Mich. 1978. | Goss, C. M.: On Anatomy of Nerves by Galen of Pergamon. American Journal of Anatomy 118 (1966), 327– 335. | Sakai, T.; Ikeda, R.; Tsukisawa, M.: Galen On the anatomy of nerves. Nihon-Ishigaku-Zasshi (=Journal of the Japan Society of Medical History) 49.3 (2003), 403–5 | Töply, R. v.: Anatomische Werke des Ruphos und Galenos: Galens Nervenanatomie. Anat. Hefte 76 (1904), 458–472.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg015",
@@ -184,7 +229,10 @@
       "wordcount": 4198,
       "kuhn_volume_approx": "II",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg015.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg015.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg015 (Fichtner no. 015), translationes recentiores: Wright, 1924 (eng) <https://doi.org/10.1288/00005537-192401000-00001> || Fichtner, Corpus Galenicum 2023/12, entry 15: 2 translation (T) line(s): Kollesch, Jutta: Galeni De instrumento odoratus, CMG Suppl. V , Berlin 1964. | Wright, J.: The Organ of Smell translated from Kühn's Greek and Latin texts. The Laryngoscope 34 (1924), 1– 11.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg016",
@@ -195,7 +243,10 @@
       "wordcount": 3261,
       "kuhn_volume_approx": "II",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg016.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg016.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg016 (Fichtner no. 016), translationes recentiores: Galen, 1962 (eng) – source ; <https://doi.org/10.1002/ar.1091440202>; Nickel, 1971 (grc;deu) <https://www.sudoc.fr/048344478> || Fichtner, Corpus Galenicum 2023/12, entry 16: 2 translation (T) line(s): Nickel, Diethard: Galeni De uteri dissectione, CMG V 2,1, Berlin 1971. | Goss, C. M.: On the Anatomy of the Uterus. Transl. Anat. Rec. 144 (1962), 77–84.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg017",
@@ -206,7 +257,10 @@
       "wordcount": 194301,
       "kuhn_volume_approx": "III-IV",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg017.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg017.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg017 (Fichtner no. 017), translationes recentiores: Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/020024517>; Kondrat'ev, 1971 (rus) – source ; <https://www.worldcat.org/fr/title/4280564>; López Salvá, 2010 (spa) – source ; <https://www.sudoc.fr/151303312>; Galeno, 2009 (spa) – source ; <https://www.worldcat.org/fr/title/793293741>; Garofalo, 1978 (ita) – source ; <https://www.sudoc.fr/01958069X>; Tallmadge-May, 1968 (grc;eng) – source ; <https://www.sudoc.fr/086615963>; Nöldeke, 1805 (deu) <http://opacplus.bsb-muenchen.de/title/BV004172010/ft/bsb10236024?page=45> || Fichtner, Corpus Galenicum 2023/12, entry 17: 8 translation (T) line(s): Smith, Emilie Savage: Galen on nerves, veins and arteries: a critical edition and translation from the Arabic, with notes, glossary and an introd. essay. Diss.  | Daremberg, Charles: Oeuvres I.. | Garofalo, Ivan: L'utilità delle parti. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET) S. 291–832. | Katz, Otto: Die Augenheilkunde des Galenus. Erster (theoretischer) Teil: Über Anatomie und Physiologie des Sehorgans. [Buch X.] Diss. med. Berlin 1890. | Kondrat'ev, S. P.: O naznačenii častej čelovečeskogo tela / Klavdij Galen. Perevod s drevnegrečeskogo S. P. Kondrat'eva. Pod. reg. V . N. Ternovskogo. Moskau 19 | López Salvá, Mercedes: Galeno: Del uso de las partes. Madrid 2010. 19 | May, Margaret Tallmadge: Galen. On the usefulness of parts of the body. Vol. 1–2. Ithaca, N. Y. 1968. | Nöldeke, Georg J. F.: Galen: Vom Nutzen der Theile des menschlichen Körpers. Oldenburg 1805.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg018",
@@ -217,7 +271,10 @@
       "wordcount": 14720,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg018.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg018.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg018 (Fichtner no. 019), translationes recentiores: Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/098158090>; Mayo Goss, 1968 (eng) – source ;; Rosa Pietro, 2009 (grc;ita) || Fichtner, Corpus Galenicum 2023/12, entry 19: 3 translation (T) line(s): Rosa, Pietro: Galenus. De motu musculorum. Pisa 2009. (Bibliotheca di «Galenos» 1). | Daremberg, Charles: Oeuvres II.. | Goss, C. M.: On Movement of Muscles by Galen of Pergamon. American Journal of Anatomy 123 (1968), 1– 25.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg019",
@@ -228,7 +285,10 @@
       "wordcount": 6488,
       "kuhn_volume_approx": "TBD",
       "category": "dietetics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg019 (Fichtner no. 349), translationes recentiores: Frieboes, 1903 (deu) – source ; <https://cmg.bbaw.de/epubl/online/wa_Gal_saefteverduennende_Diaet.php?custom=1&pn=22&AnzFrames=1>; Moszynski, 1982 (pol) – source ;; Marinone, 1973 (grc;ita) – source ; <https://www.sudoc.fr/108236803>; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Beintker, 1952 (deu) <https://www.sudoc.fr/241071488> || Fichtner, Corpus Galenicum 2023/12, entry 349: 5 translation (T) line(s): Marinone, N.: Galeno, La dieta dimagrante. Edizione critica del testo e della versione latina, traduzione e commento a cura di… Turin 1973. (Historica - Politic | Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Band IV: Die säfteverdünnende Diät. Stuttgart 1952. | Moszyński, J.: Galenus - De victu attenuante. Arch. Hist. Med. (Warschau) 45 (1982), 61–75. 119 | Singer, Peter N.: Galen: The thinning diet. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 305 | Frieboes, W .; Kobert, F. W .: Über die säfteverdünnende Diät. Breslau 1903. (Abh. Gesch. Med. 5).",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg019",
@@ -239,7 +299,10 @@
       "wordcount": 8800,
       "kuhn_volume_approx": "TBD",
       "category": "dietetics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg019.opp-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg019.opp-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg019 (Fichtner no. 349), translationes recentiores: Frieboes, 1903 (deu) – source ; <https://cmg.bbaw.de/epubl/online/wa_Gal_saefteverduennende_Diaet.php?custom=1&pn=22&AnzFrames=1>; Moszynski, 1982 (pol) – source ;; Marinone, 1973 (grc;ita) – source ; <https://www.sudoc.fr/108236803>; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Beintker, 1952 (deu) <https://www.sudoc.fr/241071488> || Fichtner, Corpus Galenicum 2023/12, entry 349: 5 translation (T) line(s): Marinone, N.: Galeno, La dieta dimagrante. Edizione critica del testo e della versione latina, traduzione e commento a cura di… Turin 1973. (Historica - Politic | Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Band IV: Die säfteverdünnende Diät. Stuttgart 1952. | Moszyński, J.: Galenus - De victu attenuante. Arch. Hist. Med. (Warschau) 45 (1982), 61–75. 119 | Singer, Peter N.: Galen: The thinning diet. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 305 | Frieboes, W .; Kobert, F. W .: Über die säfteverdünnende Diät. Breslau 1903. (Abh. Gesch. Med. 5).",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg020",
@@ -250,7 +313,10 @@
       "wordcount": 6050,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg020.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg020.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg020 (Fichtner no. 021), translationes recentiores: Furley, 1984 (grc;eng) <https://www.sudoc.fr/008430950> || Fichtner, Corpus Galenicum 2023/12, entry 21: 1 translation (T) line(s): Furley, David J.; Wilkie, James Sterling: Galen. On Respiration and the Arteries. An Edition with English Translation and Commentary of De usu respirationis, An",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg021",
@@ -261,7 +327,10 @@
       "wordcount": 20793,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg021.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg021.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg021 (Fichtner no. 022), translationes recentiores: De Lacy, 1992 (grc;eng) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_03_01.php?p=64>; Espinosa Espinosa, 2016 (grc:spa) – source ; <https://www.worldcat.org/fr/title/1026209743>; Galeno, 1959 (ita) <https://www.worldcat.org/fr/title/14943338> || Fichtner, Corpus Galenicum 2023/12, entry 22: 3 translation (T) line(s): Cassells, J. M.: De semine. [Arabischer Text.] [In Vorbereitung]. | De Lacy, Phillip: Galeni De semine, CMG V 3,1, Berlin 1992. | Tavone Passalacqua, Vera: Microtegni seu de Spermate. Traduzione e commento della … Roma 1959. (Corpus scriptorum medicorum infimae latinitatis et prioris medii",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg022",
@@ -272,7 +341,10 @@
       "wordcount": 7712,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg022.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg022.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg022 (Fichtner no. 023), translationes recentiores: Nickel, 2001 (grc;deu) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_03_03.php?p=54>; Singer, 1997 (eng) <https://www.sudoc.fr/080806805> || Fichtner, Corpus Galenicum 2023/12, entry 23: 3 translation (T) line(s): Nickel, Diethard: Galeni De foetuum formatione, CMG V 3,3, Berlin 2001. | Nickel, Diethard: Stoa und Stoiker in Galens Schrift De foetuum formatione. In: Galen und das hellenistische Erbe. Verhandlungen des IV . Internationalen Galen- | Singer, Peter N.: Galen: The construction of the embryo. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Cla",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg023",
@@ -283,7 +355,10 @@
       "wordcount": 4713,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg023.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg023.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg023 (Fichtner no. 024), translationes recentiores: Furley, 1984 (grc;eng) – source ; <https://www.sudoc.fr/008430950>; Goss, 1985 (eng) <https://doi.org/10.1002/ar.1092130102> || Fichtner, Corpus Galenicum 2023/12, entry 24: 2 translation (T) line(s): Furley, David J.; Wilkie, James Sterling: Galen. On Respiration and the Arteries. An Edition with English Translation and Commentary of De usu respirationis, An | Goss, C. M.; Goss Chodkowski, E.: W hether Blood Is Contained in the Arteries of the Living Animal by Galen of Pergamon: A Translation. Anat. Rec. 213 (1985), 1",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg024",
@@ -294,7 +369,10 @@
       "wordcount": 1766,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg024.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg024.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg024 (Fichtner no. 025), translationes recentiores: Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/020024517>; Espinosa Espinosa, 2006 (grc;spa) – source ; <https://www.worldcat.org/fr/title/1026209743>; Bertini Malgarini, 1992 (ita) – source ; <https://www.sudoc.fr/013179756>; Penella, 1973 (eng) – source ; <https://www.worldcat.org/fr/title/33215309>; Singer, 1997 (eng) <https://www.sudoc.fr/080806805> || Fichtner, Corpus Galenicum 2023/12, entry 25: 3 translation (T) line(s): Bertini Malgarini, Alessandra: Galeno. De optima corporis nostri constitutione e De bono habitu. Traduzione dal greco e commento. Roma 1992. | Singer, Peter N.: Galen: The best constitution of our bodies. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World' | Penella, Robert J.; Hall, Thomas S.: Galen's 'On the best constitution of our body'. Introduction, translation and notes. Bull. Hist. Med. 47 (1973), 282–296.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg025",
@@ -305,7 +383,10 @@
       "wordcount": 821,
       "kuhn_volume_approx": "IV",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg025.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg025.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg025 (Fichtner no. 026), translationes recentiores: Bertini Malgarini, 1992 (grc;ita) – source ; <https://www.sudoc.fr/013179756>; Espinosa Espinosa, 2016 (grc;spa) – source ; <https://www.worldcat.org/fr/title/1026209743>; Singer, 1997 (grc;eng) – source ; <https://www.sudoc.fr/080806805>; Barras, 2022 (grc;fra) <https://www.sudoc.fr/26363079X> || Fichtner, Corpus Galenicum 2023/12, entry 26: 2 translation (T) line(s): Bertini Malgarini, Alessandra: Galeno. De optima corporis nostri constitutione e De bono habitu. Traduzione dal greco e commento. Roma 1992. | Singer, Peter N.: Galen: Good constitution. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 296",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg027",
@@ -316,7 +397,10 @@
       "wordcount": 8377,
       "kuhn_volume_approx": "IV",
       "category": "psychology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg027.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg027.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg027 (Fichtner no. 028), translationes recentiores: Johnston, 2020 (grc;eng) – source ; <https://www.sudoc.fr/255644728>; Daremberg, 1854/1856 (fra) – source ; <https://www.sudoc.fr/020024517>; Hauke, 1937 (deu) – source ; <https://www.worldcat.org/fr/title/248419048>; Bazou, 2011 (grc;ell) – source ; <https://www.worldcat.org/fr/title/994828635>; Garofalo, 1978 (grc;ita) – source ; <https://www.sudoc.fr/01958069X>; Zaragoza Gras, 2003 (spa) – source ; <https://www.sudoc.fr/087529467>; Garcia-Ballester, 1972 (grc;spa) – source ; <https://www.sudoc.fr/008431183>; Bazou, 1999 (grc;fra) – source ; <https://www.sudoc.fr/075700050>; Singer, 2013 (eng) – source ; <https://www.sudoc.fr/180686895>; Barras, 1995 (grc;fra) <https://www.sudoc.fr/003692728> || Fichtner, Corpus Galenicum 2023/12, entry 28: 14 translation (T) line(s): Bazou, Athina: Γ αληνοῦ ὅτι ταῖς τοῦ σώματος κράσεσιν αἱ τῆς ψυχῆς δυνάμεις ἕπονται. Athen 2011. (Ακαδημία Αθηνών, Ελληνηκή Βιβλιοθήκη). | Biesterfeldt, Hans Hinrich: Galens Traktat, Daß die Kräfte der Seele den Mischungen des Körpers folgen, in arabischer Übersetzung. Wiesbaden 1973. (Abh. Kunde M | Μπάζου s. Bazou, Athina. | Bazou, Athina: Ὅτι ταῖς τοῦ σώματος κράσεσιν αἱ τῆς ψυχῆς δυνάμεις ἕπονται <Galenou, Hoti tais tou somatos krasesin hai tes psyches dynameis hepontai>. Galien,  | Μπάζου s. Bazou, Athina. | Daremberg, Charles: Oeuvres I.. | Garofalo, Ivan: Le facoltà dell'anima seguono il temperamento dei corpi. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici dell | Hauke, Erika: Galen: Daß die Vermögen der Seele eine Folge der Mischungen des Körpers sind. Diss. med. Berlin 1937 . (Abhandlungen zur Geschichte der Medizin un | Singer, Peter N.: Galen: The soul's dependence on the body. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's  | Singer, Peter N.: Galen: The capacities of the soul depend on the mixtures of the body. In: Galen - psychological writings. Ed. by P. N. Singer, transl. with in | Barras, Vincent; Birchler, Terpsichore; Morand, Anne-France: Galien. L'âme et ses passions. Les passions et les erreurs de l'âme. Les facultés de l'âme suivent  | García Ballester, Luis: Alma y enfermedad en la obra de G. Valencia, Granada 1972. | Zaragoza Gras, Juana: Galeno: Sobre las facultades naturales. Las facultades del alma siguen los temperamentos del cuerpo. Introducción, traducción y notas. 200 | Menghi, M.; Vegetti, Mario: Galeno. Le passioni e gli errori dell'anima. Opere morali. Venezia 1984. S. 93– 127 .",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg028",
@@ -327,7 +411,10 @@
       "wordcount": 8194,
       "kuhn_volume_approx": "V",
       "category": "psychology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg028.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg028.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg028 (Fichtner no. 029), translationes recentiores: Singer, 2013 (grc;ara;eng) – source ; <https://www.sudoc.fr/180686895>; Magnaldi, 1990 (grc;ita) – source ;; Barras, 1995 (fra) – source ; <https://www.sudoc.fr/003692728>; Galeno, 2013 (grc;spa) – source ; <https://www.worldcat.org/fr/title/981377891>; Magnaldi, 1999 (grc;ita) – source ; <https://www.sudoc.fr/079382436>; Menghi, 1984 (ita) – source ; <https://www.sudoc.fr/086566873>; Harkins, 1963 (eng) – source ; <https://www.sudoc.fr/015467457>;  <https://www.worldcat.org/fr/title/804892288> || Fichtner, Corpus Galenicum 2023/12, entry 29: 7 translation (T) line(s): Magnaldi, Giuseppina: Claudii Galeni Pergameni Περὶ ψυχῆς παθῶν καὶ ἁμαρτημάτων. Roma 1999. | Menghi, M.; Vegetti, Mario: Galeno. Le passioni e gli errori dell'anima. Opere morali. Venezia 1984. S. 23–59. | Molina González, L.: De las pasiones y los errores del alma. Medellin 2013. | Singer, Peter N.: Galen: The affections and errors of the soul. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford Worl | Singer, Peter N.: The diagnosis and treatment of the affections and errors peculiar to each person's soul. In: Galen - psychological writings. Ed. by P. N. Sing | Barras, Vincent; Birchler, Terpsichore; Morand, Anne-France: Galien. L'âme et ses passions. Les passions et les erreurs de l'âme. Les facultés de l'âme suivent  | Harkins, P. W .: G. On the passions and errors of the soul. Transl. with Introd. and Interpr. by W . Riese. Columbus (Ohio) 1963.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg029",
@@ -338,7 +425,10 @@
       "wordcount": 6320,
       "kuhn_volume_approx": "V",
       "category": "psychology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg029.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg029.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg029 (Fichtner no. 030), translationes recentiores: Singer, 2013 (grc;ara;eng) – source ; <https://www.sudoc.fr/180686895>; Barras, 1995 (fra) – source ; <https://www.sudoc.fr/003692728>; Galeno, 1999 (grc;ita) – source ; <https://www.sudoc.fr/079382436>; Nieto Ibáñez, 2005 (spa) – source ; <https://www.worldcat.org/fr/title/804892288>; Vegetti, 1984 (ita) – source ; <https://www.sudoc.fr/086566873>; Molina Gonzales, 2013 (spa) – source ; <https://www.worldcat.org/fr/title/981377891>; Galien, 1914 (fra) – source ; <https://www.sudoc.fr/026250373>; Harkins, 1963 (eng) <https://www.sudoc.fr/015467457> || Fichtner, Corpus Galenicum 2023/12, entry 30: 5 translation (T) line(s): Mancini, C.; Fravega, G.: In qual modo se possono conoscere e curare le infermità dell' animo. Transl. G. Tarcagnota (Venedig 1549). Genova 1963. (Scientia Vete | Menghi, M.; Vegetti, Mario: Galeno. Le passioni e gli errori dell'anima. Opere morali. Venezia 1984. S. 61–91. | Molina González, L.: De las pasiones y los errores del alma. Medellin 2013. | Barras, Vincent; Birchler, Terpsichore; Morand, Anne-France: Galien. L'âme et ses passions. Les passions et les erreurs de l'âme. Les facultés de l'âme suivent  | Harkins, P. W .: Galen: On the Passions and Errors of the Soul. Transl. with Introd. and Interpret. by W . Riese. Columbus (Ohio) 1963.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg030",
@@ -349,7 +439,10 @@
       "wordcount": 6257,
       "kuhn_volume_approx": "V",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg030.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg030.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg030 (Fichtner no. 031), translationes recentiores: Rameis, 1936 (deu) – source ; <https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_031.pdf>; Grant, 2000 (eng) – source ; <https://www.sudoc.fr/077233999>; Barras, 1998 (grc;fra) <https://www.sudoc.fr/004494164> || Fichtner, Corpus Galenicum 2023/12, entry 31: 4 translation (T) line(s): Barras, Vincent; Birchler, Terpsichore; Morand, Anne-France: De la bile noire. Introd., trad. du grec et notes. Paris 1998. (Le cabinet des lettres.). | Grant, M.: Galen on Food and Diet ([Hum.], At.Bil., Inaeq.Int., Caus.Morb., Ptis., Alim.Fac.). London 2000. | Galen: De la bile noire. Paris: Gallimard 1998. | Rameis, Fr.: Galen. Über die schwarze Galle. Diss. phil. Wien 1936 [masch.schr.].",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg031",
@@ -360,7 +453,10 @@
       "wordcount": 4468,
       "kuhn_volume_approx": "V",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg031.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg031.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg031 (Fichtner no. 032), translationes recentiores: Furley, 1984 (grc;eng) – source ; <https://www.sudoc.fr/008430950>; Pino Campos, 2015 (grc;spa) – source ; <https://revistas.uva.es/index.php/minerva/article/view/1182>; Wiklie, 1984 (grc;eng) <https://www.sudoc.fr/008430950> || Fichtner, Corpus Galenicum 2023/12, entry 32: 2 translation (T) line(s): Furley, David J.; Wilkie, James Sterling: Galen. On Respiration and the Arteries. An Edition with English Translation and Commentary of De usu respirationis, An | Johnston, I. / Papavramidou, N.: Galen on the Pulses, Berlin 2024.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg032",
@@ -371,7 +467,10 @@
       "wordcount": 94755,
       "kuhn_volume_approx": "V",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg032.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg032.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg032 (Fichtner no. 033), translationes recentiores: De Lacy, 2005 (grc;eng) <https://cmg.bbaw.de/epubl/online/cmg_05_04_01_02.php?p=64> || Fichtner, Corpus Galenicum 2023/12, entry 33: 4 translation (T) line(s): De Lacy, Phillip: Galeni De placitis Hippocratis et Platonis, CMG V 4,1,2, Teil 1, 3. Aufl., Teil 2, 2. Aufl., Teil 3, 2. verb. Aufl., Berlin 2005. | Müller, Iwan v.: Cl. Galeni De Placitis Hippocratis et Platonis libri IX rec. et expl. Vol. I (nicht mehr erschienen). Leipzig 1874. | Rusch, F. A.: Galeni De placitis Hippocratis et Platonis liber V III. Diss. phil. Evanston 1968. | Vegetti, Mario: I nervi dell'anima. In: Galen und das hellenistische Erbe. Verhandlungen des IV . Internationalen Galen-Symposiums […] 18.–20. September 1989. W",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg033",
@@ -382,7 +481,10 @@
       "wordcount": 13916,
       "kuhn_volume_approx": "V",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg033.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg033.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg033 (Fichtner no. 034), translationes recentiores: Johnston, 2018 (grc;eng) – source ; <https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148>; Nieto Ibañez, 2005 (grc;spa) – source ; <https://www.worldcat.org/fr/title/804892288>; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Englert, 1936 (deu) <https://www.worldcat.org/fr/title/73085134> || Fichtner, Corpus Galenicum 2023/12, entry 34: 4 translation (T) line(s): Johnston, Ian: Galen. Hygiene, Books 5–6, Thrasybulus, On Exercise with a Small Ball. Cambridge (Mass.), London 2018. (Loeb Class. Libr.). | Chrysaphe, I. E.: Die Ansichten des Galen über die Gymnastik. (Griech.) Athen 1910. | Englert, Ludwig: Galen, Thrasybulos. Ist das Gesunde Gegenstand der Heilkunde oder der Trainingslehre? Berlin 1936. (Kl. Texte Gesch. u. Lehrweise Leibesübungen | Singer, Peter N.: Galen: To Thrasyboulos. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics) S. 53–99",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg034",
@@ -393,7 +495,10 @@
       "wordcount": 1700,
       "kuhn_volume_approx": "V",
       "category": "hygiene",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg034.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg034.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg034 (Fichtner no. 035), translationes recentiores: Johnston, 2018 (grc;eng) – source ; <https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148>; Nieto Ibañez, 2005 (grc;spa) – source ; <https://www.worldcat.org/fr/title/804892288>; Valentini, 1941 (ita) – source ; <https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_035.pdf>; Cunze, 1890 (deu) – source ;; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Robinson, 1981 (eng) – source ; <https://www.sudoc.fr/005515777>; Schütze, 1936 (deu) – source ; <https://www.worldcat.org/fr/title/718856143>; Wenkebach, 1938 (grc;deu) <https://cmg.bbaw.de/epubl/online/wu_Gal_Ballspiel_Wenkebach.php> || Fichtner, Corpus Galenicum 2023/12, entry 35: 8 translation (T) line(s): Wenkebach, Ernst: Galenos von Pergamon: Allgemeine Ertüchtigung durch Ballspiel. Eine sporthygienische Schrift aus dem zweiten Jahrhundert n. Chr. [Griech. u. d | Johnston, Ian: Galen. Hygiene, Books 5–6, Thrasybulus, On Exercise with a Small Ball. Cambridge (Mass.), London 2018. (Loeb Class. Libr.). | Biliński, B.: Antikes Lob des Balles oder die Abhandlung des Arztes Galen Vom kleinen Ball. (Poln.) Meander 10 (1955), 238–260. | Cunze, F.: Galens Schrift über das Ballspiel. Mschr. Turnwesen 9 (1890), 293–297 . | Schütze, K.: Galen, Die Übung mit dem kleinen Ball. Berlin 1936. (Kl. Texte Gesch. u. Lehrweise Leibesübungen 1.). | Singer, Peter N.: Galen: The exercise with the small ball. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's C | Valentini, E.: La ginnastica in G. Il gioco della piccola palla. Gaz. Intern. Med. Chir. 50 (1941), 254–256. | Marker, J.: Claudius Galen, Die Leibesübung mit dem kleinen Ball (Περὶ τοῦ διὰ τῆς σμικρᾶς σφαίρας γυμνασίου), übers. eingel. u. erkl. Berlin 1932.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg034",
@@ -404,7 +509,10 @@
       "wordcount": 1712,
       "kuhn_volume_approx": "V",
       "category": "hygiene",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg034.1st1K-grc2:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg034.1st1K-grc2:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg034 (Fichtner no. 035), translationes recentiores: Johnston, 2018 (grc;eng) – source ; <https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148>; Nieto Ibañez, 2005 (grc;spa) – source ; <https://www.worldcat.org/fr/title/804892288>; Valentini, 1941 (ita) – source ; <https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_035.pdf>; Cunze, 1890 (deu) – source ;; Singer, 1997 (eng) – source ; <https://www.sudoc.fr/080806805>; Robinson, 1981 (eng) – source ; <https://www.sudoc.fr/005515777>; Schütze, 1936 (deu) – source ; <https://www.worldcat.org/fr/title/718856143>; Wenkebach, 1938 (grc;deu) <https://cmg.bbaw.de/epubl/online/wu_Gal_Ballspiel_Wenkebach.php> || Fichtner, Corpus Galenicum 2023/12, entry 35: 8 translation (T) line(s): Wenkebach, Ernst: Galenos von Pergamon: Allgemeine Ertüchtigung durch Ballspiel. Eine sporthygienische Schrift aus dem zweiten Jahrhundert n. Chr. [Griech. u. d | Johnston, Ian: Galen. Hygiene, Books 5–6, Thrasybulus, On Exercise with a Small Ball. Cambridge (Mass.), London 2018. (Loeb Class. Libr.). | Biliński, B.: Antikes Lob des Balles oder die Abhandlung des Arztes Galen Vom kleinen Ball. (Poln.) Meander 10 (1955), 238–260. | Cunze, F.: Galens Schrift über das Ballspiel. Mschr. Turnwesen 9 (1890), 293–297 . | Schütze, K.: Galen, Die Übung mit dem kleinen Ball. Berlin 1936. (Kl. Texte Gesch. u. Lehrweise Leibesübungen 1.). | Singer, Peter N.: Galen: The exercise with the small ball. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's C | Valentini, E.: La ginnastica in G. Il gioco della piccola palla. Gaz. Intern. Med. Chir. 50 (1941), 254–256. | Marker, J.: Claudius Galen, Die Leibesübung mit dem kleinen Ball (Περὶ τοῦ διὰ τῆς σμικρᾶς σφαίρας γυμνασίου), übers. eingel. u. erkl. Berlin 1932.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg035",
@@ -415,7 +523,10 @@
       "wordcount": 396,
       "kuhn_volume_approx": "TBD",
       "category": "hygiene",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg035.1st1K-grc2:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg035.1st1K-grc2:1",
+      "translation_status": "unknown",
+      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 36: 2 translation (T) line(s): Scarano, Giovanni B.: Il De venereis di Galeno. In: Congresso Nazionale di Storia della Medicina 21o, Perugia 1965. Roma 1966, 818–822. | Scarano, Giovanni B.: Il »De venereis« di Galeno. Pag. Stor. Med. 10 (1966), N. 6, 85–90.",
+      "translation_note": "not in the GV catalogue but Fichtner lists T line(s); their language and coverage are not coded, so the status is unknown rather than none"
     },
     {
       "tlg_number": "tlg035",
@@ -426,7 +537,10 @@
       "wordcount": 849,
       "kuhn_volume_approx": "TBD",
       "category": "hygiene",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg035.1st1K-grc3:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg035.1st1K-grc3:1",
+      "translation_status": "unknown",
+      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 36: 2 translation (T) line(s): Scarano, Giovanni B.: Il De venereis di Galeno. In: Congresso Nazionale di Storia della Medicina 21o, Perugia 1965. Roma 1966, 818–822. | Scarano, Giovanni B.: Il »De venereis« di Galeno. Pag. Stor. Med. 10 (1966), N. 6, 85–90.",
+      "translation_note": "not in the GV catalogue but Fichtner lists T line(s); their language and coverage are not coded, so the status is unknown rather than none"
     },
     {
       "tlg_number": "tlg036",
@@ -437,7 +551,10 @@
       "wordcount": 66881,
       "kuhn_volume_approx": "VI",
       "category": "hygiene",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg036.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg036.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg036 (Fichtner no. 037), translationes recentiores: Johnston, 2018 (grc;eng) – source ; <https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148>; Galeno, 2016 (grc;spa) – source ; <https://www.worldcat.org/fr/title/1035828992>; Montraville Green, 1951 (eng) – source ; <https://www.worldcat.org/fr/title/881360618>; Beintker, 1939 (deu) – source ; <https://www.sudoc.fr/092745156>; Beintker, 1941 (deu) <https://www.sudoc.fr/092745334> || Fichtner, Corpus Galenicum 2023/12, entry 37: 5 translation (T) line(s): Johnston, Ian: Galen. Hygiene, Books 1–4 Cambridge (Mass.), London 2018. (Loeb Class. Libr.). | Johnston, Ian: Galen. Hygiene, Books 5–6, Thrasybulus, On Exercise with a Small Ball Cambridge (Mass.), London 2018. (Loeb Class. Libr.). | Beintker, Erich: Die Werke des Galenos. Bd. I: Galens Gesundheitslehre Buch 1–3. Stuttgart 1939. | Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Bd. II: Galens Gesundheitslehre Buch 4–6. Stuttgart 1941. | Green, Robert M.: A translation of Galen's hygiene. With an introduction by H. E. Sigerist. Springfield (Ill.) 1951.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg037",
@@ -448,7 +565,10 @@
       "wordcount": 44450,
       "kuhn_volume_approx": "VI",
       "category": "dietetics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg037.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg037.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg037 (Fichtner no. 038), translationes recentiores: Wilkins, 2013 (grc;fra) – source ;; Ferreira, 2020 (por) – source ; <https://worldcat.org/de/title/1253298937>; Wilkins, 2013 (grc;fra) – source ; <https://www.sudoc.fr/174623577>; Zaragoza, 2015 (grc;spa) – source ; <https://www.worldcat.org/fr/title/992764678>; Powell, 2003 (eng) – source ; <https://www.sudoc.fr/069564922>; Grant, 2000 (eng) – source ; <https://www.sudoc.fr/060988282>; Beintker, 1948 (deu;grc) – source ; <https://www.sudoc.fr/241071186>; Beintker, 1952 (deu;grc) <https://www.sudoc.fr/241071488> || Fichtner, Corpus Galenicum 2023/12, entry 38: 18 translation (T) line(s): Wilkins, John: Galien: Tome V: Sur les facultés des aliments Paris 2013 (Collection des Universités de France). (Collection des universités de France. Série gre | Wilkins, John; Bhayro, Siam: The Greek and Syrian traditions of Galen, De alimentorum facultatibus. Galenos 7 2013, 95–113. | Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Band III: Die Kräfte der Nahrungsmittel Buch 1–2. Stuttgart 1948. | Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Band IV: Die Kräfte der Nahrungsmittel 3. Buch. Stuttgart 1952. | Grant, M.: Galen on Food and Diet ([Hum.], At.Bil., Inaeq.Int., Caus.Morb., Ptis., Alim.Fac.). London 2000. | Kaifel, J.: Galens Schrift über die Kräfte der Nahrungsmittel, Buch II, Cap. 39–56, übers. u. bearb. Diss. med. München 1939. | Krenner, W .: Galen, Über die Kräfte der Nahrungsmittel, II. Buch Kap. I-X. Kürbis, Melonen, Gurken und Baumfrüchte. Diss. med. München 1938. | Lieber, Elinor: Galen on contaminated cereals as a cause of epidemics. Bull. Hist. Med. 44 (1970), 332–345. | Micheler, H. E.: Galen über die Kräfte der Nahrungsmittel, 3. Buch Kapitel I-XIII (Tierische Nahrung). Übertragen und erläutert. Diss. med. München 1939. | Powell, Owen: Galen: On the Properties of Foodstuffs (De alimentorum facultatibus). Introduction, translation and commentary. With a foreword by John Wilkins. C | Renner, F.: Übersetzung aus Galen 'Die Kräfte der Nahrungsmittel', Lib. I, Cap. IX-XV II. (Getreide und Hülsenfrüchte.) Diss. med. München 1940. | Schönberger, M. M.: Übersetzung und Erläuterung von Galens Schrift: Über die Kräfte der Nahrungsmittel, 1. Buch Kap. 25 bis Schluß 37 (die Hülsenfrüchte). Diss. | Schultz, Antonia Maria: Beiträge zu Ernährungsfragen in der antiken und modernen Medizin (Übersetzung und Untersuchung zu Galens Werk 'Über die Kraft in der Nah | Stromberg, N. Freiherr von: Übersetzung und Besprechung der Schrift Galen's 'Über die Kräfte der Nahrungsmittel', III. Buch, Capitel 25–33. Diss. med. München 1 | Surauer, A.: Galens Schrift von der Kraft der Nahrungsmittel, Buch II, 21–26 über Äpfel, Quitten, Birnen, Granatäpfel, Mispeln, Spierlinge und Datteln. Diss. me | Unmann, G.: Galen: Über die Kräfte der Nahrungsmittel, II. Buch, Kap. 11–20 (Beerenfrüchte, Steinfrüchte und ähnliches). Übersetzung und Erklärungen. Diss. med. | Vidal, E.: Galen: Über die Kräfte der Nahrungsmittel, II. Buch, Kap. 30–38 (Früchte). Übersetzung und Bemerkungen. Diss. med. München 1939. | Zimmermann, P.: Galen: Die Hülsenfrüchte. [Buch I,16–25.] Diss. med. München 1938.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg038",
@@ -459,7 +579,10 @@
       "wordcount": 10187,
       "kuhn_volume_approx": "VI",
       "category": "dietetics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg038.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg038.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg038 (Fichtner no. 039), translationes recentiores: Ieraci Bio, 1987 (grc;ita) – source ; <https://www.sudoc.fr/059905220>; Beintker, 1952 (deu) <https://www.sudoc.fr/241071488> || Fichtner, Corpus Galenicum 2023/12, entry 39: 2 translation (T) line(s): Ieraci Bio, Anna Maria: Galeno. De bonis malisque sucis. Napoli 1987 . | Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Band IV: Gute und schlechte Säfte der Nahrungsmittel. Stuttgart 1952.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg039",
@@ -470,7 +593,10 @@
       "wordcount": 2212,
       "kuhn_volume_approx": "VI",
       "category": "dietetics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg039.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg039.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg039 (Fichtner no. 040), translationes recentiores: Grant, 2000 (eng) – source ; <https://www.sudoc.fr/077233999>; Galenos, 1952 (deu) <https://www.sudoc.fr/241071488> || Fichtner, Corpus Galenicum 2023/12, entry 40: 2 translation (T) line(s): Beintker, Erich; Kahlenberg, Wilhelm: Die Werke des Galenos. Band IV: Die Ptisane. Stuttgart 1952. | Grant, Mark: Galen on food and diet. London 2000, 62–67 .",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg040",
@@ -481,7 +607,10 @@
       "wordcount": 503,
       "kuhn_volume_approx": "VI",
       "category": "semiotics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg040.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg040.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg040 (Fichtner no. 041), translationes recentiores: Galen, 1983 (grc;eng) – source ;; Guidorizzi, 1973 (grc;ita) – source ;; Galenus, 1972 (deu;grc) <https://www.sudoc.fr/16127420X> || Fichtner, Corpus Galenicum 2023/12, entry 41: 3 translation (T) line(s): Guidorizzi, G.: L'opuscolo di G. 'De dignotione ex insomniis'. Boll. Comitato Preparaz. Edizione Naz. Classici Greci Lat. N.S. 21 (1973), 81–105. | Demuth, Gernot: Ps.-Galeni De Dignotione ex insomniis. Ausgabe mit Übersetzung und Kommentar. Phil. Diss. Göttingen 1972. | Oberhelman, Steven M.: Galen, On Diagnosis from Dreams. J. Hist. Med. 38 (1983), 36–47 .",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg041",
@@ -492,7 +621,10 @@
       "wordcount": 6645,
       "kuhn_volume_approx": "VI",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg041.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg041.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg041 (Fichtner no. 042), translationes recentiores: Johnston, 2006 (eng;grc) <https://www.sudoc.fr/127019227> || Fichtner, Corpus Galenicum 2023/12, entry 42: 1 translation (T) line(s): Johnston, Ian: Galen, on diseases and symptoms. Cambridge [u.a.]: Cambridge Univ. Press 2006.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg042",
@@ -503,7 +635,10 @@
       "wordcount": 6085,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg042.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg042.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg042 (Fichtner no. 043), translationes recentiores: Grant, 2000 (eng) – source ; <https://www.sudoc.fr/060988282>; Johnston, 2006 (grc;eng) <https://www.sudoc.fr/127019227> || Fichtner, Corpus Galenicum 2023/12, entry 43: 2 translation (T) line(s): Johnston, Ian: Galen, on diseases and symptoms. Cambridge [u.a.]: Cambridge Univ. Press 2006. | Grant, M.: Galen on Food and Diet ([Hum.], At.Bil., Inaeq.Int., Caus.Morb., Ptis., Alim.Fac.). London 2000.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg043",
@@ -514,7 +649,10 @@
       "wordcount": 6621,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg043.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg043.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg043 (Fichtner no. 044), translationes recentiores: Gundert, 2009 (grc;deu) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_05_01.php?p=195>; Johnston, 2006 (grc;eng) <https://www.sudoc.fr/127019227> || Fichtner, Corpus Galenicum 2023/12, entry 44: 2 translation (T) line(s): Gundert, Beate: Galeni De symptomatum differentiis, CMG V 5,1, Berlin 2009. | Johnston, Ian: Galen, on diseases and symptoms. Cambridge [u.a.]: Cambridge Univ. Press 2006.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg044",
@@ -525,7 +663,10 @@
       "wordcount": 29418,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg044.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg044.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg044 (Fichtner no. 045), translationes recentiores: Johnston, 2006 (eng) – source ; <https://www.sudoc.fr/127019227>; Vegetti, 1978 (grc;ita) <https://www.sudoc.fr/01958069X> || Fichtner, Corpus Galenicum 2023/12, entry 45: 2 translation (T) line(s): Garofalo, Ivan: Le cause dei sintomi. In: Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET) S. 1071–1080. | Johnston, Ian: Galen, on diseases and symptoms. Cambridge [u.a.]: Cambridge Univ. Press 2006.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg045",
@@ -536,7 +677,10 @@
       "wordcount": 20902,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg045.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg045.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg045 (Fichtner no. 048), translationes recentiores: Wernhard, 2004 (grc;deu) – source ; <https://edoc.ub.uni-muenchen.de/6399/1/Wernhard_Matthias.pdf>; De Stefani, 2011 (grc;ita) || Fichtner, Corpus Galenicum 2023/12, entry 48: 1 translation (T) line(s): Wernhard, Matthias: Galen. Über die Arten der Fieber in der arabischen Version des Ḥunain Ibn Isḥāq. Diss. Univ. München 2005.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg046",
@@ -547,7 +691,10 @@
       "wordcount": 5294,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg046.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg046.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg046 (Fichtner no. 049), translationes recentiores: Galen, 1960 (grc;deu) <https://www.sudoc.fr/076892468> || Fichtner, Corpus Galenicum 2023/12, entry 49: no T (translation) line",
+      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg047",
@@ -558,7 +705,10 @@
       "wordcount": 3538,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg047 (Fichtner no. 050): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 50: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg048",
@@ -569,7 +719,10 @@
       "wordcount": 1581,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg048.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg048.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg048 (Fichtner no. 051), translationes recentiores: García Sola, 2010 (grc;spa) <https://www.worldcat.org/fr/title/868843448> || Fichtner, Corpus Galenicum 2023/12, entry 51: 1 translation (T) line(s): García Sola, María del Carmen: Galeno. Sobre los tipos. [Contra los que escribieron contra los tipos o el libro de los períodos.] Sobre los días críticos. Madri",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg049",
@@ -580,7 +733,10 @@
       "wordcount": 5606,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg049.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg049.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg049 (Fichtner no. 052), translationes recentiores: García Sola, 2010 (grc;spa) <https://www.worldcat.org/fr/title/868843448> || Fichtner, Corpus Galenicum 2023/12, entry 52: 1 translation (T) line(s): García Sola, María del Carmen: Galeno. Sobre los tipos. [Contra los que escribieron contra los tipos o el libro de los períodos.] Sobre los días críticos. Madri",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg050",
@@ -591,7 +747,10 @@
       "wordcount": 11076,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg050 (Fichtner no. 053), translationes recentiores: Otte, 2001 (grc;deu) – source ; <https://www.sudoc.fr/060391324>; Otte, 2001 (grc;deu) <https://www.sudoc.fr/060391324> || Fichtner, Corpus Galenicum 2023/12, entry 53: 1 translation (T) line(s): Otte, Christoph: Galen, »De plenitudine«: Kritische Edition, Übersetzung und Erläuterungen. Wiesbaden: Dr. Ludwig Reichert 2001. (Serta Graeca, Beiträge zur Erf",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg051",
@@ -602,7 +761,10 @@
       "wordcount": 9114,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg051.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg051.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg051 (Fichtner no. 054), translationes recentiores: Sider, 1979 (eng;grc) <https://www.sudoc.fr/124508103> || Fichtner, Corpus Galenicum 2023/12, entry 54: 1 translation (T) line(s): Sider, D.; McVaugh, M.: Galen, On tremor, palpitation, spasm and rigor. Galeni De tremore, palpitatione, convulsione, et rigore. Transact. Stud. Coll. Physician",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg052",
@@ -613,7 +775,10 @@
       "wordcount": 3251,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg052 (Fichtner no. 055), translationes recentiores: Nieto Ibáñez, 2005 (grc;spa) <https://www.worldcat.org/fr/title/804892288> || Fichtner, Corpus Galenicum 2023/12, entry 55: no T (translation) line",
+      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg053",
@@ -624,7 +789,10 @@
       "wordcount": 5803,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg053.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg053.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg053 (Fichtner no. 056), translationes recentiores: Theoharides, 1971 (grc;eng) <https://www.worldcat.org/fr/title/100703708> || Fichtner, Corpus Galenicum 2023/12, entry 56: 1 translation (T) line(s): Theoharides, C. Theoharis: Galen on marasmus. J. Hist. Med. 26 (1971), 369–390.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg054",
@@ -635,7 +803,10 @@
       "wordcount": 4221,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg054.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg054.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg054 (Fichtner no. 057), translationes recentiores: Lytton, 1978 (grc;eng) – source ;; Richter, 1913 (grc;deu) – source ; <https://www.sudoc.fr/117954101>; Reedy, 1975 (grc;eng) <https://www.worldcat.org/fr/title/1021102867> || Fichtner, Corpus Galenicum 2023/12, entry 57: 4 translation (T) line(s): Reedy, J.: Galen. De tumoribus praeter naturam. Diss. phil. [masch.schr.] Michigan 1968. | Reedy, J.: Galen on cancer and related diseases. Clio Med. 10 (1975), 227–238. | Lytton, D. G.; Resuhr, L. M.: Galen on abnormal swellings, Γ αλήνου περὶ τῶν παρὰ φύσιν ὄγκων, transl. and introd. by … J. Hist. Med. 33 (1978), 531–549. | Richter, Paul: Galenos. Über die krankhaften Geschwülste. Leipzig 1913. (Klassiker der Medizin 21.).",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg055",
@@ -646,7 +817,10 @@
       "wordcount": 3158,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg055.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg055.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg055 (Fichtner no. 058), translationes recentiores: Grant, 2000 (eng;grc) – source ; <https://www.sudoc.fr/060988282>; Johnston, 2020 (grc;eng) – source ; <https://www.sudoc.fr/255644728>; Garcia Novo, 2012 (grc;eng) || Fichtner, Corpus Galenicum 2023/12, entry 58: 1 translation (T) line(s): García Novo, Elsa: Galen, On the Anomalous Dyskrasia (De inaequali intemperie). Berlin 2012. 41",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg056",
@@ -657,7 +831,10 @@
       "wordcount": 31842,
       "kuhn_volume_approx": "VII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg056 (Fichtner no. 059): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 59: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg057",
@@ -668,7 +845,10 @@
       "wordcount": 69856,
       "kuhn_volume_approx": "VIII",
       "category": "pathology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg057.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg057.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg057 (Fichtner no. 060), translationes recentiores: Wittwer, 2024 (grc;deu) – source ; <https://www.sudoc.fr/284311553>; Brunschön, 2021 (grc;deu) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_06_01_03.php?p=284=370>; Gärtner, 2015 (grc;deu) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_06_01_01.php?p=226=302>; Kollesch, 2023 (grc;deu) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_13_02.php?p=46=204>; García Sola, 1997 (grc;spa) – source ; <https://www.sudoc.fr/073335800>; Aparicio, 1997 (grc;spa) – source ; <https://www.sudoc.fr/011257350>; Siegel, 1976 (grc;eng) – source ; <https://www.sudoc.fr/000618055>; Brunschön, 2021 (grc;deu) – source ; <https://www.sudoc.fr/260224944>; Daremberg, 1854 (fra) – source ; <https://www.sudoc.fr/020024517>; Renander, 1962 (sve;grc) <https://www.worldcat.org/fr/title/473660796> || Fichtner, Corpus Galenicum 2023/12, entry 60: 10 translation (T) line(s): Gärtner, Florian: Galeni De locis affectis I–II, CMG V 6,1,1, Berlin 2015. 42 | Brunschön, Wolfram: Galeni De locis affectis V–V I, CMG V 6,1,3, Berlin 2021. | Eijk, P. J. van der; Pormann, P.: Galen, On Affected Places III.9–10: Greek, English, Arabic. In: Pormann, P. (ed.): Rufus on Melancholy. Tübingen 2008. | Andrés Aparicio, Salud: Galen: Sobre la localización de las enfermedades (De locis affectis). Introduction by Luis García Ballester. Madrid 1997 . (Biblioteca C | Daremberg, Charles: Oeuvres II.. | Durling, Richard J.; Kudlien, Fridolf: Galenus latinus II. Burgundio of Pisa's translation of Galen's Περὶ τῶν πεπονθότων τόπων, »De interioribus«. Ed. with Int | García Sola, María del Carmen: Sobre los lugares afectados. Madrid 1997 . | Renander, A.: G. Om sjukdomarnas lokalisation. Övers. från Grek med medic. översikt och komment. Stockholm 1962. | Zorgniotti, A. W .: Galenic urology. Translation of urologic portions of 'De locis affectis' (Book 1, Chapter 1). Urology 8 (1976), 638–642. | Zorgniotti, A. W .: Galenic urology. Translation of urological portions of 'De locis affectis' (Book V I, Chapter 3). Urology 13 (1979), 701–703.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg058",
@@ -679,7 +859,10 @@
       "wordcount": 5977,
       "kuhn_volume_approx": "VIII",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg058.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg058.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg058 (Fichtner no. 061), translationes recentiores: Tovar, 1948 (grc;spa) – source ; <https://www.worldcat.org/fr/title/12741487>; Singer, 1997 (grc;eng) – source ; <https://www.sudoc.fr/080806805>; Trifolgi, 1958 (grc;ita) – source ; <https://wellcomecollection.org/works/gspb4w4a>; Pino Campos, 2015 (grc;spa) <https://doi.org/10.24197/mrfc.30.2017.371-373> || Fichtner, Corpus Galenicum 2023/12, entry 61: 7 translation (T) line(s): Grave, B.: Galen: Über den Puls für Anfänger (Kap. 13). (Das Verhalten des Pulses bei verschiedenen Erkrankungen.) Übersetzung und Erläuterungen. Diss. med. Mün | Härtl, H.: Galen De pulsibus. Cap. 12. Diss. med. München 1940. | Johnston, I. / Papavramidou, N.: Galen on the Pulses, Berlin 2024. | Semmler, J.: Galen: Vom Pulse für Anfänger. Buch I Kapitel IX-XI. Pulsänderungen infolge innerer und äußerer Ursachen. Beitrag zur Geschichte der Lehre vom Puls | Singer, Peter N.: Galen: The pulse for beginners. In: Galen: Selected Works. Translated with an Introduction and Notes. Oxford 1997 . (Oxford World's Classics)  | Tovar, A.; Ruiz Moreno, Annibal: Obras de Galeno XII, 1: Compendio del pulso para los estudiantes. Buenos Aires 1948. | Trifogli, Roberto: De pulsibus ad tyrones. Trad. e Comment. Rom 1958.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg059",
@@ -690,7 +873,10 @@
       "wordcount": 42806,
       "kuhn_volume_approx": "VIII",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg059.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg059.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Johnston & Papavramidou 2024, Galen on the Pulses (De Gruyter), doi:10.1515/9783110612677; drafts/untranslated_galen_research.md §1",
+      "translation_note": "First modern Western-language translation of the four long pulse treatises (K. VIII-IX); Galenus verbatim lists it under this work only. Also Pino Campos 2010 (spa) per GV."
     },
     {
       "tlg_number": "tlg060",
@@ -701,7 +887,10 @@
       "wordcount": 31232,
       "kuhn_volume_approx": "VIII",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg060.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg060.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Johnston & Papavramidou 2024, Galen on the Pulses (De Gruyter), doi:10.1515/9783110612677; drafts/untranslated_galen_research.md §1",
+      "translation_note": "Covered by the 2024 volume (the four long pulse treatises); Galenus verbatim lists no translation for this work (catalogue gap noted in the research pass)."
     },
     {
       "tlg_number": "tlg061",
@@ -712,7 +901,10 @@
       "wordcount": 32090,
       "kuhn_volume_approx": "IX",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg061.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg061.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Johnston & Papavramidou 2024, Galen on the Pulses (De Gruyter), doi:10.1515/9783110612677; drafts/untranslated_galen_research.md §1",
+      "translation_note": "Covered by the 2024 volume (the four long pulse treatises); Galenus verbatim lists no translation for this work (catalogue gap noted in the research pass)."
     },
     {
       "tlg_number": "tlg062",
@@ -723,7 +915,10 @@
       "wordcount": 36318,
       "kuhn_volume_approx": "IX",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg062.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg062.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Johnston & Papavramidou 2024, Galen on the Pulses (De Gruyter), doi:10.1515/9783110612677; drafts/untranslated_galen_research.md §1",
+      "translation_note": "Covered by the 2024 volume (the four long pulse treatises); Galenus verbatim lists no translation for this work (catalogue gap noted in the research pass)."
     },
     {
       "tlg_number": "tlg063",
@@ -734,7 +929,10 @@
       "wordcount": 15724,
       "kuhn_volume_approx": "IX",
       "category": "pulse",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg063.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg063.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg063 (Fichtner no. 066), translationes recentiores: Pino Campos, 2005 (grc;spa) <https://www.sudoc.fr/17043320X> || Fichtner, Corpus Galenicum 2023/12, entry 66: 3 translation (T) line(s): Brendler, Fritz: Galens Synopsis seiner Schriften über den Puls. (Kap. XIX-XXXIII [recte: XXIX-XXXIII] übersetzt.) Diss. med. München 1941. | Johnston, I. / Papavramidou, N.: Galen on the Pulses, Berlin 2024. | Pino Campos, Luis Miguel: Sinopsis de Galeno de su propia obra sobre pulsos. Estudio introductorio, bibliografia, traducción, notas e índices. Madrid 2005.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg064",
@@ -745,7 +943,10 @@
       "wordcount": 33858,
       "kuhn_volume_approx": "IX",
       "category": "semiotics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg064.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg064.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg064 (Fichtner no. 067), translationes recentiores: Rodríguez Alfageme, 2003 (grc;spa) <https://www.worldcat.org/fr/title/804892692> || Fichtner, Corpus Galenicum 2023/12, entry 67: 1 translation (T) line(s): Rodríguez Alfageme, Ignacio: Galeno. Sobre las crisis. Madrid 2003.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg065",
@@ -756,7 +957,10 @@
       "wordcount": 27265,
       "kuhn_volume_approx": "IX",
       "category": "semiotics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg065.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg065.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg065 (Fichtner no. 068), translationes recentiores: García Sola, 2010 (grc;spa) – source ; <https://www.worldcat.org/fr/title/948281477>; Cooper, 2011 (Ara;eng) || Fichtner, Corpus Galenicum 2023/12, entry 68: 3 translation (T) line(s): Bos, Gerrit; Langermann, Y. Tzvi: The Alexandrian Summaries of Galen's On Critical Days. Editions and Translations of the Two Versions of the Jawāmi ʿ, with an  | Cooper, Glen M.: Galen, De diebus decretoriis, from Greek into Arabic. A critical edition, with translation and commentary, of Hunayn Ibn Ishaq, Kitāb Ayyām Al- | García Sola, María del Carmen: Galeno. Sobre los tipos. [Contra los que escribieron contra los tipos o el libro de los períodos.] Sobre los días críticos. Madri",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg066",
@@ -767,7 +971,10 @@
       "wordcount": 157549,
       "kuhn_volume_approx": "X",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg066.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg066.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg066 (Fichtner no. 069), translationes recentiores: Johnston, 2011 (grc;eng) – source ; <https://www.sudoc.fr/157591972; https://www.sudoc.fr/157750787 ;  https://www.sudoc.fr/157754332>; Lorusso, 2021 (grc;ita) – source ; <https://www.sudoc.fr/273578715>; Lorusso, 2018 (grc;ita) – source ; <https://www.sudoc.fr/235424587>; Boulogne, 2009 (fra) – source ; <https://www.sudoc.fr/13447029X>; Cerezo Magán, 2013 (grc;spa) – source ; <https://www.worldcat.org/fr/title/915261440>; Hankinson, 1991 () <https://www.sudoc.fr/021737835> || Fichtner, Corpus Galenicum 2023/12, entry 69: 20 translation (T) line(s): Lorusso, Vito: Metodo terapeutico: libri 1–2. (Pleiadi 23), Rom 2018 | Lorusso, Vito: Metodo terapeutico: libri 3–4. (Pleiadi 27), Rom 2021 | Beck, Arthur: Zur diätetisch-physikalischen Therapie des Galen, besonders beim Fieber. (Übers. v. Meth. med. | ter Beek, Cornelius: Die allgemeine Therapie des Galen [Schluß von Buch I]. (Übers. v. Meth. med. I, 6–9.) Diss. med. Berlin 1898. 48 | Boulogne, Jacques; Gerard, Alain: Galien: Méthode thérapeutique, Livres I et II. Stemma 2 (1992), T. 1–2, I– XXV III, 1–362. | Brink, Heinrich: Die allgemeine Therapie des Galen. (Übers. v. Meth. med. I, 1–5.) Diss. med. Berlin 1898. | Carney, Johannes: Die allgemeine Therapie des Galen. Buch III Cap. 1–3. Zum ersten Male deutsch übersetzt. Diss. med. Berlin 1898. | Cerezo Magán, Manuel: Galeno. Patologías y su tratamiento terapéutico y farmacológico según dos obras. Sobre el método terapéutico (decicado) a Glaucón (libros  | Glaser, Ernst: Zur Wund- und Geschwürsheilung nach Galen. (Übers. v. Meth. med. IV , 1–3.) Diss. med. Berlin 1898. | Hankinson, R. J.: Galen: On the therapeutic method. Books I and II. Translated with an Introduction and Commentary by … Oxford 1991. (Clarendon Later Ancient Ph | Johnston, Ian; Horsley, G. H. R.: Method of Medicine, Volume I. Books 1–4, Volume II. Books 5–9, Volume III. Books 10–14. Cambridge 2011. (Loeb Class. Libr.). | Kibre, Pearl; Kelter, Irving A.: Galen's Methodus medendi in the Middle Ages. Hist. Philos. Life Sc. 9 (1987), 17–36. | Meyer, Friedrich: Beitrag zur Therapie des Galen. (Übers. v. Meth. med. II, 1–4.) Diss. med. Berlin 1899. | Prüssmann, F.: Die Behandlung des Geschwürs nach Galen. (Paraphrase v. Meth. med. III, 4–6.) Diss. med. Berlin 1900. | Schröder, E.: Die allgemeine Wundbehandlung des Galen. (Paraphrase v. Meth. med. III.) Diss. med. Berlin 1901. | Szczepanski, Josef: Beitrag zur Therapie des Galen. (Übers. v. Meth. med. XIV , 8–19.) Diss. med. Berlin 1899. | Tietz, Julius: Beitrag zur Therapie des Galen. (Übers. v. Meth. med. XIV , 1–7 .) Diss. med. Berlin 1899. | Voigt, Max: Fieberbehandlung nach Galen. (Übers. v. Meth. med. V II, 1–4.) Diss. med. Berlin 1898. | Wandersleben, Kurt: Beitrag zur Kenntnis der Therapie des Galen. (Übers. v. Meth. med. II, 5–6.) Diss. med. Kiel 1900. | Boulogne, Jacques: Galien. Méthode de traitement. Paris 2009.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg067",
@@ -778,7 +985,10 @@
       "wordcount": 22890,
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg067.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg067.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg067 (Fichtner no. 070), translationes recentiores: Johnston, 2016 (grc;eng) – source ; <https://www.sudoc.fr/191581917>; Daremberg, 1854 (grc;fra) <https://www.sudoc.fr/020024517> || Fichtner, Corpus Galenicum 2023/12, entry 70: 4 translation (T) line(s): Johnston, Ian: Galen. On the Constitution of the Art of Medicine, The Art of Medicine, A Method of Medicine to Glaucon Cambridge (Mass.), London 2016. (Loeb Cla | Stoffregen, Malte: Eine frühmittelalterliche lateinische Übersetzung des byzantinischen Puls- und Urintraktats des Alexandros. Diss. med. Berlin 1977 . S. 243–2 | Cerezo Magán, Manuel: Galeno. Patologías y su tratamiento terapéutico y farmacológico según dos obras. Sobre el método terapéutico (decicado) a Glaucón (libros  | Daremberg, Charles: Oeuvres II..",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg068",
@@ -789,7 +999,10 @@
       "wordcount": 5971,
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg068.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg068.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg068 (Fichtner no. 071), translationes recentiores: Brain, 1986 (grc;eng) <https://doi.org/10.1017/CBO9780511753565 ; https://www.sudoc.fr/009446168> || Fichtner, Corpus Galenicum 2023/12, entry 71: 2 translation (T) line(s): Brain, Peter: Galen on venesection. Diss. Natal 1971. | Brain, Peter: Galen on Bloodletting. A study of the origins, development and validity of his opinions, with a translation of the three works. [De venae sectione",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg069",
@@ -800,7 +1013,10 @@
       "wordcount": 9042,
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg069.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg069.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg069 (Fichtner no. 072), translationes recentiores: Brain, 1986 (grc;eng) – source ; <https://doi.org/10.1017/CBO9780511753565 ; https://www.sudoc.fr/009446168>; Galen, 1970 (eng) <https://www.worldcat.org/fr/title/11338038> || Fichtner, Corpus Galenicum 2023/12, entry 72: 4 translation (T) line(s): Kotrc, Ronald F.: Galen's On phlebotomy against the Erasistrateans in Rome (Galeni De venae sectione adversus Erasistrateos Romae degentes). Diss. phil. [masch. | Kotrc, Ronald F.: Critical notes on Galen's De venae sectione adversus Erasistrateos Romae degentes [K XI 187–249]. Class. Quart. N.S. 23 (1973), 369–374. | Brain, Peter: Galen on venesection. Diss. Natal 1971. | Brain, Peter: Galen on Bloodletting. A study of the origins, development and validity of his opinions, with a translation of the three works. [De venae sectione",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg070",
@@ -811,7 +1027,10 @@
       "wordcount": 10057,
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg070.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg070.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg070 (Fichtner no. 073), translationes recentiores: Brain, 1986 (grc;eng) <https://doi.org/10.1017/CBO9780511753565 ; https://www.sudoc.fr/009446168> || Fichtner, Corpus Galenicum 2023/12, entry 73: 2 translation (T) line(s): Brain, Peter: Galen on venesection. Diss. Natal 1971. | Brain, Peter: Galen on Bloodletting. A study of the origins, development and validity of his opinions, with a translation of the three works. [De venae sectione",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg071",
@@ -822,7 +1041,10 @@
       "wordcount": 704,
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg071 (Fichtner no. 074): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 74: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg072",
@@ -833,7 +1055,10 @@
       "wordcount": 2973,
       "kuhn_volume_approx": "XI",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg072 (Fichtner no. 075): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 75: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg073",
@@ -844,7 +1069,10 @@
       "wordcount": 1996,
       "kuhn_volume_approx": "XI",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 76: no T (translation) line",
+      "translation_note": "not in the GV catalogue; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg073",
@@ -855,7 +1083,10 @@
       "wordcount": 2723,
       "kuhn_volume_approx": "XI",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc2:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc2:1",
+      "translation_status": "none",
+      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 76: no T (translation) line",
+      "translation_note": "not in the GV catalogue; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg074",
@@ -866,7 +1097,10 @@
       "wordcount": 3219,
       "kuhn_volume_approx": "XI",
       "category": "therapeutics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg074.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg074.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg074 (Fichtner no. 077), translationes recentiores: Temkin, 1934 (eng) – source ; <https://www.jstor.org/stable/44437787>; Galen, 2010 (grc-deu) – source ; <https://www.worldcat.org/fr/title/724232061>; Galen, 1911 (grc;deu) – source ; <https://www.worldcat.org/fr/title/729170568>; Botto Micca, 1930 (grc;ita) <https://www.worldcat.org/fr/title/5894399173 ; https://opac.museogalileo.it/imss/resource?uri=000000902884&l=en> || Fichtner, Corpus Galenicum 2023/12, entry 77: 4 translation (T) line(s): Botto-Micca, Augusto: Il »De puero epileptico« di Galeno. Riv. Stor. Sc. Med. Nat. 21 (1930), 149–169. | Goehl, Konrad; Wintjes, Jorit: Zwiebelsaft gegen Epilepsie. Claudius Galenus behandelt einen fallsüchtigen Knaben. Würzburg 2010. (DW V-Schriften zur Medizinges | Heller, F.: Über Pathologie und Therapie der Epilepsie im Altertum. Janus 16 (1911), 589–605 [597–605]. | Temkin, Owsei: Galen's »Advice for an epileptic boy«. Transl. from the Greek. Bull. Hist. Med. 2 (1934), 179–189.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg075",
@@ -877,7 +1111,10 @@
       "wordcount": 66926,
       "kuhn_volume_approx": "XI-XII",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1:1",
+      "translation_status": "partial",
+      "translation_source": "Petit 2010 (CUF, French, bk I ch. 1-3 only); Harvard MediManus De simplicibus header: 'No English translation of the full text' https://medimanus.chs.harvard.edu/app/pharmantica/de_simplicibus_header; drafts/untranslated_galen_research.md §1",
+      "translation_note": "No complete modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. First1KGreek carries books I-VI only."
     },
     {
       "tlg_number": "tlg076",
@@ -888,7 +1125,10 @@
       "wordcount": 142969,
       "kuhn_volume_approx": "XII-XIII",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg076.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg076.1st1K-grc1:1",
+      "translation_status": "partial",
+      "translation_source": "Santana Henríquez 2005 (grc;spa), book II only; Galenus verbatim entry tlg076 (Fichtner 80); drafts/untranslated_galen_research.md §1",
+      "translation_note": "Spanish of book II only; books I and III-X untranslated in any modern language."
     },
     {
       "tlg_number": "tlg077",
@@ -899,7 +1139,10 @@
       "wordcount": 104110,
       "kuhn_volume_approx": "XIII",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Fichtner, Corpus Galenicum (2023/12) entry 82 lists no modern translation; Zainaldin et al. 2026 arXiv:2602.24119 §2.2 ('never been translated into English'); Galenus verbatim tlg077: no translationes recentiores",
+      "translation_note": "No translation in any modern language. Zainaldin et al. 2026 published a CC BY reference translation of ten passages (github.com/campattison/galen_project), not a translation of the work."
     },
     {
       "tlg_number": "tlg078",
@@ -910,7 +1153,10 @@
       "wordcount": 27902,
       "kuhn_volume_approx": "XIV",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg078.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg078.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg078 (Fichtner no. 083), translationes recentiores: Galen, 1980 (grc;deu) <https://wellcomecollection.org/works/kqas3nuu> || Fichtner, Corpus Galenicum 2023/12, entry 83: 2 translation (T) line(s): Müri, W .: Der Arzt im Altertum. 4. Aufl. München 1979. 416–429 (Kap. 1–2.). | Winkler, Lutz: Galens Schrift »De Antidotis«. Ein Beitrag zur Geschichte von Antidot und Theriak. Diss. rer. nat. Marburg 1980.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg079",
@@ -921,7 +1167,10 @@
       "wordcount": 13019,
       "kuhn_volume_approx": "XIV",
       "category": "pharmacology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg079.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg079.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg079 (Fichtner no. 084), translationes recentiores: Boudon-Millot, 2016 (grc;fra) – source ;; Boudon-Millot, 2016 (grc;fra) – source ; <https://www.sudoc.fr/197168949>; Coturri, 1959 (grc;ita) – source ; <https://www.sudoc.fr/07068054X>; Galen, 1969 (grc;deu) – source ; <https://www.sudoc.fr/117739138>; Galen, 1898 (grc;deu) – source ; <https://www.sudoc.fr/025363050>; Galen, 2011 (grc;eng) <https://www.sudoc.fr/190630353> || Fichtner, Corpus Galenicum 2023/12, entry 84: 6 translation (T) line(s): Premerstein, A. v.: Das Troiaspiel und die Tribuni celerum. In: Festschrift O. Benndorf. Wien 1898, 261–266. | Richter-Bernburg, Lutz: Eine arabische Version der pseudogalenischen Schrift De Theriaca ad Pisonem. Diss. phil. Göttingen 1969. | Boudon-Millot, Véronique: Galien: Tome V I: Thériaque à Pison. Paris 2016 (Collection des Universités de France). | Leigh, R. A.: On Theriac to Piso, Attributed to Galen. A critical edition with translation and commentary. <https://ore.exeter.ac.uk/repository/bitstream/handle | Leigh, Robert: On Theriac to Piso, Attributed to Galen. A Critical Edition with Translation and Commentary. Leiden - Boston (2015). (Studies in Ancient Medicine | Coturri, Enrico: Claudio Galeno: De theriaca ad Pisonem. Testo latino, traduzione italiana et introduzione. Presentazione M. G. Nardi. Firenze 1959. (Biblioteca",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg081",
@@ -932,7 +1181,10 @@
       "wordcount": 8557,
       "kuhn_volume_approx": "not in Kuhn",
       "category": "logic",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg081 (Fichtner no. 402), translationes recentiores: Hošek, 1958 (ces/cze) – source ;; Ramírez Trejo, 1982 (grc;spa) – source ; <https://www.sudoc.fr/006406300>; Ingravalle, 2014 (ita) – source ;; Garofalo, 1978 (grc;ita) – source ; <https://www.sudoc.fr/01958069X>; Pellegrin, 1998 (fra) – source ; <https://www.sudoc.fr/004504534>; Kieffer, 1964 (eng) – source ; <https://www.sudoc.fr/014764687>; Orth, 1938 (deu) – source ;; Mau, 1960 (grc;deu) <https://www.sudoc.fr/01657642X> || Fichtner, Corpus Galenicum 2023/12, entry 402: 9 translation (T) line(s): Baldassarri, Mariano: Galeno: Dalla »Introduzione alla dialettica. Como 1986. (La Logica stoica. Testimonianze e Frammenti. V II A.). | Ramírez Trejo, Arturo: Galeno: Iniciación a la Dialéctica. With Introd. by Mario Otero. México, D.F. 1982. (Bibliotheca scriptorum Graecorum et Romanorum Mexica | Dalimier, Catherine: Galien. Traités philosophiques et logiques: Des sectes pour les débutants, Esquisse empirique, De l'expérience médicale, Des sophismes verb | Garofalo, Ivan; Vegetti, Mario: Opere scelte di Galeno. Torino 1978. (Classici della scienza UTET). | Hošek, R.; Berka, K.: Galen. Úvod do Logiky. Prag 1958. | Orth, Emil: Galen, Einführung in die Logik. (Über die Sprach-Trugschlüsse.) Rom 1938. (Humanistische Philosophie 1). | Kiefer, John Spangler: Galen's Institutio logica. Transl., introd., commentary. Baltimore 1964. | Levet, J. P.: L'Institutio logica de Galien, la Syllogistique, traduction accompagnée de notes. In: Antiquité classique, d'Hippocrate à Alcuin. Trames. Limoges  | Mau, Jürgen: Galen, Einführung in die Logik. Kritisch-exegetischer Kommentar mit deutscher Übersetzung. Berlin 1960. (Deutsche Akademie d. Wiss. zu Berlin, Inst",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg082",
@@ -943,7 +1195,10 @@
       "wordcount": 2530,
       "kuhn_volume_approx": "XIV",
       "category": "logic",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg082.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg082.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg082 (Fichtner no. 087), translationes recentiores: Dalimier, 1998 (fra) – source ; <https://www.sudoc.fr/004504534>; Martínez Manzano, 2002 (spa) – source ; <https://www.sudoc.fr/087532166>; Galeno, 2002 (ita) – source ; <https://www.sudoc.fr/075096463>; Edlow, 1977 (grc;eng) – source ; <https://www.sudoc.fr/005302382>; Ebbesen, 1981 (grc;eng) || Fichtner, Corpus Galenicum 2023/12, entry 87: 5 translation (T) line(s): Atherton, Catherine: The Stoics on Ambiguity. Cambridge 1993, 175–214 (Teiledition von Kap. IV ). | Edlow, R. B.: G. on ambiguity: an English transl. of De captionibus. Diss. phil. Univ. of Pennsylvania 1973. | Edlow, R. B.: Galen on language and ambiguity. An English translation of 'De captionibus' (On fallacies), with introduction, text, and commentary. Leiden 1977 . | Dalimier, Catherine: Galien. Traités philosophiques et logiques: Des sectes pour les débutants, Esquisse empirique, De l'expérience médicale, Des sophismes verb | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg083",
@@ -954,7 +1209,10 @@
       "wordcount": 11019,
       "kuhn_volume_approx": "XIV",
       "category": "semiotics",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg083.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg083.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg083 (Fichtner no. 088), translationes recentiores: Nutton, 1979 (grc;eng) – source ; <https://cmg.bbaw.de/epubl/online/cmg_05_08_01.php?p=65>; Martínez Manzano, 2002 (spa) <https://www.sudoc.fr/087532166> || Fichtner, Corpus Galenicum 2023/12, entry 88: 4 translation (T) line(s): Nutton, Vivian: Galeni De praecognitione, CMG V 8,1, Berlin 1979. | Müri, W .: Der Arzt im Altertum. 4. Aufl. München 1979. 50–59 (Kap. 4; 11). | Gourevitch, Danielle; Gourevitch, Michel: Chronique anachronique, XI: Un enfant boulimique. [Übersetzung und Komm. von De praenotione ad Posthumum 7 ,2–16.] L'é | Martínez Manzano, Teresa: Galeno: Tratados filosóficos y autobiográficos. Introducciónes, traducción y notas. (Biblioteca Clàsica Gredos; 305) Madrid 2002.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg084",
@@ -965,7 +1223,10 @@
       "wordcount": 1370,
       "kuhn_volume_approx": "TBD",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg084.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg084.1st1K-grc1:1",
+      "translation_status": "unknown",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg084 (Fichtner no. 027): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 27: 1 translation (T) line(s): Nutton, Vivian: A Translation of Galen's De substantia virtutum naturalium by Niccolò da Reggio. In: Medizin in Geschichte, Philologie und Ethnologie. Festschri",
+      "translation_note": "GV lists no translation but Fichtner lists T line(s); their language and coverage are not coded, so the status is unknown rather than none"
     },
     {
       "tlg_number": "tlg085",
@@ -976,7 +1237,10 @@
       "wordcount": 24377,
       "kuhn_volume_approx": "XV",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg085 (Fichtner no. 090): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 90: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg086",
@@ -987,7 +1251,10 @@
       "wordcount": 6837,
       "kuhn_volume_approx": "XV",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg086 (Fichtner no. 091): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 91: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg087",
@@ -998,7 +1265,10 @@
       "wordcount": 67032,
       "kuhn_volume_approx": "XV",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1:1",
+      "translation_status": "partial",
+      "translation_source": "Pietrobelli 2019 (CUF, French), book I only; Galenus verbatim tlg087 (Fichtner 93); drafts/untranslated_galen_research.md §1",
+      "translation_note": "French of book I only; books II-IV untranslated in any modern language."
     },
     {
       "tlg_number": "tlg089",
@@ -1009,7 +1279,10 @@
       "wordcount": 156385,
       "kuhn_volume_approx": "XVII A",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg089.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg089.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg089 (Fichtner no. 96), translationes recentiores: Pfaff, 1934 (grc;deu) <http://cmg.bbaw.de/epubl/online/cmg_05_10_01.php?p=35> || Fichtner, Corpus Galenicum 2023/12, entry 96: 7 translation (T) line(s): Vagelpohl, Uwe: Galeni In Hippocratis Epidemiarum librum I commentariorum I-III versio Arabica, CMG Suppl. Or. V 1, Berlin 2014. | Vagelpohl, Uwe: Galeni In Hippocratis Epidemiarum librum II commentariorum I-V I versio Arabica, CMG Suppl. Or. V 2, Berlin 2016. | Lorusso, Vito: Cinque nuovi frammenti di Galeno. Galenos 3 (2009), 45–66. | Cardini, Massimiliano: Galeno e la patomimia. Riv. Stor. Crit. Sc. 3 (1918), 513–515. | Fröhlich, H.: Galen: Über Krankheitsvortäuschungen. Friedreichs Blätter gerichtl. Med. Sanit. Pol. (1889), 21–26. | Lafont, J. B.; Moreno, Annibal R.: Obras de Galeno. La Plata 1947 . | Riese, W .; Bourgey, L.: Les gracieusetés à l'égard des malades: Epidem. V I comment. IV , 7 . Rev. philos. 150 (1960), 145–162.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg092",
@@ -1020,7 +1293,10 @@
       "wordcount": 96004,
       "kuhn_volume_approx": "XVII B-XVIII A",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg092.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg092.1st1K-grc1:1",
+      "translation_status": "partial",
+      "translation_source": "Savino 2020 (CMG V 12,6, Italian), book VI only; Galenus verbatim tlg092 (Fichtner 101); drafts/untranslated_galen_research.md §1",
+      "translation_note": "Italian of book VI only; books I-V and VII untranslated in any modern language."
     },
     {
       "tlg_number": "tlg093",
@@ -1031,7 +1307,10 @@
       "wordcount": 7436,
       "kuhn_volume_approx": "XVIII A",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg093 (Fichtner no. 103): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 103: no T (translation) line",
+      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg094",
@@ -1042,7 +1321,10 @@
       "wordcount": 7591,
       "kuhn_volume_approx": "XVIII A",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg094.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg094.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg094 (Fichtner no. 104), translationes recentiores: Tecusan, 2004 (grc;eng) <https://www.sudoc.fr/076072061> || Fichtner, Corpus Galenicum 2023/12, entry 104: no T (translation) line",
+      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg095",
@@ -1053,7 +1335,10 @@
       "wordcount": 51618,
       "kuhn_volume_approx": "XVIII A",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg095.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg095.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg095 (Fichtner no. 105), translationes recentiores: Abballe, 1972 (ita) || Fichtner, Corpus Galenicum 2023/12, entry 105: 2 translation (T) line(s): Aballe, M.: Galeno, I quattro commentari al trattato delle articolazioni di Ippocrate. Roma 1972. | Michler, Markwart: Die Klumpfußlehre der Hippokratiker. Eine Untersuchung von De articulis cap. 62 mit Übersetzung des Textes und des Galen-Kommentars. (IV , 1–",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg096",
@@ -1064,7 +1349,10 @@
       "wordcount": 9831,
       "kuhn_volume_approx": "XVIII A",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1:1",
+      "translation_status": "none",
+      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 106: no T (translation) line",
+      "translation_note": "not in the GV catalogue; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
     },
     {
       "tlg_number": "tlg099",
@@ -1075,7 +1363,10 @@
       "wordcount": 42854,
       "kuhn_volume_approx": "XVIII B",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg099.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg099.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg099 (Fichtner no. 109), translationes recentiores: Rubio Fernaz, 2010 (spa) || Fichtner, Corpus Galenicum 2023/12, entry 109: 1 translation (T) line(s): Rubio Fernaz, Santiago: Comentario al Pronóstico de Hipócrates Galeno ; introducción, traducción y notas Madrid 2010.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg100",
@@ -1086,7 +1377,10 @@
       "wordcount": 41682,
       "kuhn_volume_approx": "XVIII B",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg100.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg100.1st1K-grc1:1",
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg100 (Fichtner no. 110), translationes recentiores: Andreoni, 1972 (ita) <https://opac.bncf.firenze.sbn.it/bncf-prod/resource?uri=LO10053016&v=l&dcnr=3> || Fichtner, Corpus Galenicum 2023/12, entry 110: 1 translation (T) line(s): Andreoni, E.: Galeno, I tre commentari al trattato delle fratture di Ippocrate. Roma 1972.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg101",
@@ -1097,7 +1391,10 @@
       "wordcount": 41054,
       "kuhn_volume_approx": "XVIII B",
       "category": "commentary",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg101.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg101.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg101 (Fichtner no. 111), translationes recentiores: Lyons, 1963 (ara;eng) – source ; <https://cmg.bbaw.de/epubl/online/suppl_or_01.php>; Lyons, 1963 (ara;eng) <https://cmg.bbaw.de/epubl/online/suppl_or_01.php> || Fichtner, Corpus Galenicum 2023/12, entry 111: 1 translation (T) line(s): Lyons, Malcolm: Galeni In Hippocratis De officina medici commentariorum versio Arabica, CMG Suppl. Or. I, Berlin 1963.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg102",
@@ -1108,7 +1405,10 @@
       "wordcount": 14742,
       "kuhn_volume_approx": "TBD",
       "category": "anatomy",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg102.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg102.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg102 (Fichtner no. 112), translationes recentiores: Garofalo, 2005 (grc;fra) – source ;; Goss, 1963 (eng) – source ; <http://www.globalauthorid.com/WebPortal/ArticleView?wd=738CA3F32DBBA66365D5A50AEB9E5A2174644809A54F19F7>; Garofalo, 2005 (grc;fra) <https://www.sudoc.fr/084552883> || Fichtner, Corpus Galenicum 2023/12, entry 112: 2 translation (T) line(s): Garofalo, Ivan; Debru, Armelle: Galien: Tome V II: Les os pour les débutants. L'anatomie des muscles. Texte établi et annoté par Ivan Garofalo. Traduit par Ivan | Goss, C. M.: On the Anatomy of Muscles for Beginners by Galen of Pergamon. Anat. Rec. 145 (1963), 477– 501. 69",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg103",
@@ -1119,7 +1419,10 @@
       "wordcount": 4007,
       "kuhn_volume_approx": "not in Kuhn (CMG)",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg103 (Fichtner no. 202), translationes recentiores: Pfaff, 1941 (grc;lat;deu) – source ; <https://cmg.bbaw.de/epubl/online/suppl_03.php?p=47>; Daremberg, 1854 (fra) – source ; <https://opacplus.bsb-muenchen.de/Vta2/bsb10236008/bsb:BV009347829?page=116>; Brock, 1929 (eng) || Fichtner, Corpus Galenicum 2023/12, entry 202: 3 translation (T) line(s): Daremberg, Charles: Oeuvres I.. | Müri, W .: Der Arzt im Altertum. 4. Aufl. München 1979. 360–392. | Pfaff, Franz: Galeni De consuetudinibus, CMG Suppl. III, Leipzig u. Berlin 1941, 37–52..",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg107",
@@ -1130,7 +1433,10 @@
       "wordcount": 1001,
       "kuhn_volume_approx": "not in Kuhn (CMG, transl. from Arabic)",
       "category": "methodology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg107.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg107.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg107 (Fichtner no. 235), translationes recentiores: Pellegrin, 1998 (fra) – source ; <https://www.sudoc.fr/004504534>; Walzer, 1985 (eng) <https://www.sudoc.fr/012818712> || Fichtner, Corpus Galenicum 2023/12, entry 235: 4 translation (T) line(s): Walzer, Richard: Galen. On medical experience. London 1944, 93–96, 113–114. | Dalimier, Catherine: Galien. Traités philosophiques et logiques: Des sectes pour les débutants, Esquisse empirique, De l'expérience médicale, Des sophismes verb | Rosenthal, Franz: Das Fortleben der Antike im Islam. Zürich, Stuttgart 1965, 255–262. | Walzer, Richard; Frede, Michael: Galen. Three Treatises On the Nature of Science. On the Sects for Beginners. An Outline for Empiricism. With an Introduction by",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "tlg_number": "tlg114",
@@ -1141,7 +1447,10 @@
       "wordcount": 675,
       "kuhn_volume_approx": "TBD",
       "category": "physiology",
-      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg114.1st1K-grc1:1"
+      "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg114.1st1K-grc1:1",
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg114 (Fichtner no. 020), translationes recentiores: Furley, 1984 (grc;eng) – source ; <https://www.sudoc.fr/008430950>; Bonora, 1965 (grc;ita) <https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_020.pdf> || Fichtner, Corpus Galenicum 2023/12, entry 20: 2 translation (T) line(s): Bonora, Fausto: Galeno »De causis respirationis«. Collana Pag. Stor. Med. (1965), Miscell. 11, 115–125. 20 | Furley, David J.; Wilkie, James Sterling: Galen. On Respiration and the Arteries. An Edition with English Translation and Commentary of De usu respirationis, An",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     }
   ],
   "pseudo_galen_excluded_from_main_count": [
@@ -1149,37 +1458,85 @@
       "urn": "urn:cts:greekLit:tlg0530.tlg005.1st1K-grc1",
       "title": "De fasciis",
       "languages": "grc",
-      "wordcount": 8061
+      "wordcount": 8061,
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg005 (Fichtner no. 107), translationes recentiores: Schubring, 1963 (grc;deu) || Fichtner, Corpus Galenicum 2023/12, entry 107: 2 translation (T) line(s): Oberti, A.: Il trattato sulle fasciature di Galeno tradotto in latino da Vido Vidi, fiorentino, e illustrato con adatte figure (secolo XV I). Pisa 1966. (Scient | Schubring, Konrad: Die pseudogalenische Schrift über die Verbände. Habil.schr. [masch.schr.] Kiel 1963.",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "urn": "urn:cts:greekLit:tlg0530.tlg006.1st1K-grc1",
       "title": "Ad Gaurum quomodo animetur fetus",
       "languages": "grc",
-      "wordcount": 10106
+      "wordcount": 10106,
+      "translation_status": "english",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg006 (Fichtner no. 138), translationes recentiores: Wilberding, 2011 (eng) <https://www.sudoc.fr/153416793> || Fichtner, Corpus Galenicum 2023/12, entry 138: 1 translation (T) line(s): Jurisch, Ulrich: Grundfragen der Embryonalentwicklung aus der Sicht eines Neuplatonikers. Übersetzung und Bearbeitung der Schrift des Porphyrios über die Beseel",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "urn": "urn:cts:greekLit:tlg0530.tlg012.1st1K-grc1",
       "title": "Introductio seu medicus",
       "languages": "grc",
-      "wordcount": 18820
+      "wordcount": 18820,
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg012 (Fichtner no. 089), translationes recentiores: Pseudo-Galenus, 1964 (nld) – source ; <https://www.sudoc.fr/064562476>; Petit, 2009 (grc;fra) <https://www.sudoc.fr/139244379> || Fichtner, Corpus Galenicum 2023/12, entry 89: 2 translation (T) line(s): Moulin, Daniel de: De heelkunde in de vroege middeleeuwen. Diss. Leiden 1964. | Petit, Caroline: Galien: Tome III: Le médecin. Introduction. Paris 2009 (Collection des Universités de France).",
+      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "urn": "urn:cts:greekLit:tlg0530.tlg029.1st1K-grc1",
       "title": "De remediis parabilibus",
       "languages": "grc",
-      "wordcount": 35370
+      "wordcount": 35370,
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg029 (Fichtner no. 086), translationes recentiores: Brodersen, 2020 (grc;deu) <https://www.sudoc.fr/254474616> || Fichtner, Corpus Galenicum 2023/12, entry 86: no T (translation) line",
+      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "urn": "urn:cts:greekLit:tlg0530.tlg032.1st1K-grc1",
       "title": "De theriaca ad Pamphilianum",
       "languages": "grc",
-      "wordcount": 2148
+      "wordcount": 2148,
+      "translation_status": "other_modern",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg032 (Fichtner no. 085), translationes recentiores: Boudon-Millot, 2021 (grc;fra) || Fichtner, Corpus Galenicum 2023/12, entry 85: no T (translation) line",
+      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
     },
     {
       "urn": "urn:cts:greekLit:tlg0530.tlg043.1st1K-grc1",
       "title": "De optima secta ad Thrasybulum",
       "languages": "grc",
-      "wordcount": 17431
+      "wordcount": 17431,
+      "translation_status": "unknown",
+      "translation_source": "Galenus verbatim catalogue tlg0057.tlg043 (Fichtner no. 005): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 5: 1 translation (T) line(s): Daremberg, Charles: Oeuvres II..",
+      "translation_note": "GV lists no translation but Fichtner lists T line(s); their language and coverage are not coded, so the status is unknown rather than none"
     }
-  ]
+  ],
+  "translation_status_summary": {
+    "built": "2026-11-09",
+    "script": "phase1/build_translation_status.py",
+    "sources": [
+      "translation_sources/overrides.csv",
+      "translation_sources/galenus_verbatim_catalogue_2026-11-09.json",
+      "translation_sources/fichtner_translations_2026-11-09.json"
+    ],
+    "distinct_works_by_status": {
+      "english": 66,
+      "other_modern": 15,
+      "unknown": 2,
+      "none": 10,
+      "partial": 4
+    },
+    "greek_words_by_status_first_edition": {
+      "english": 1362627,
+      "other_modern": 429750,
+      "unknown": 1766,
+      "none": 193644,
+      "partial": 372931
+    },
+    "editions_by_status": {
+      "english": 70,
+      "other_modern": 15,
+      "unknown": 3,
+      "none": 11,
+      "partial": 4
+    }
+  }
 }

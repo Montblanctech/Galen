@@ -1,0 +1,10 @@
+{"item_id": "J0504", "verdict": "in_range", "note": "falsehood/lie covers 'something false'", "model": "claude-sonnet-5-5"}
+{"item_id": "J0593", "verdict": "in_range", "note": "fit, adapted, suitable; superlative matches", "model": "claude-sonnet-5-5"}
+{"item_id": "J0337", "verdict": "in_range", "note": "sour, harsh, astringent listed", "model": "claude-sonnet-5-5"}
+{"item_id": "J0552", "verdict": "in_range", "note": "ὀστέον is bone", "model": "claude-sonnet-5-5"}
+{"item_id": "J0132", "verdict": "in_range", "note": "exhalation listed directly", "model": "claude-sonnet-5-5"}
+{"item_id": "J0652", "verdict": "in_range", "note": "testimony, proof listed", "model": "claude-sonnet-5-5"}
+{"item_id": "J0514", "verdict": "in_range", "note": "bodily strength, force listed", "model": "claude-sonnet-5-5"}
+{"item_id": "J0457", "verdict": "in_range", "note": "quality listed directly", "model": "claude-sonnet-5-5"}
+{"item_id": "J0351", "verdict": "in_range", "note": "harsh listed directly", "model": "claude-sonnet-5-5"}
+{"item_id": "J0489", "verdict": "in_range", "note": "peculiar nature listed directly", "model": "claude-sonnet-5-5"}

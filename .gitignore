@@ -60,3 +60,7 @@ audit-kit/build/
 galen-density-map/data/qc/lsjgold/morpheus_lsjgold.jsonl
 galen-density-map/data/perseus_corpus/
 galen-density-map/data/latin_feasibility/*.xml
+
+# Galen First Drafts outputs are deliverables (auditable)
+!galen-density-map/outputs/firstdrafts/
+!galen-density-map/outputs/firstdrafts/**

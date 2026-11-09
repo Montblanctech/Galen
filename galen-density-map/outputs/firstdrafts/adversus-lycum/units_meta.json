@@ -1,0 +1,39 @@
+{
+ "work": "adversus-lycum",
+ "urn": "urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg093.1st1K-grc1 (Kühn 1829, vol. 18.1 pp. 196-245; keyboarded by Digital Divide Data for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "n_units": 50,
+ "n_tei_words": 7452,
+ "n_odycy_tokens": 7449,
+ "alignment_loss": {
+  "n_a": 7452,
+  "n_b": 7449,
+  "n_aligned": 7329,
+  "skipped_a": 123,
+  "skipped_b": 120,
+  "alignment_loss_a": 0.016505636070853463,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 350,
+ "targets_by_class": {
+  "fourway:genuinely_hard": 262,
+  "punch:thin": 31,
+  "punch:absent+fourway:genuinely_hard": 21,
+  "punch:thin+fourway:genuinely_hard": 24,
+  "punch:absent": 12
+ },
+ "density_terciles": [
+  0.56,
+  1.75
+ ],
+ "units_per_tier": {
+  "low": 17,
+  "mid": 17,
+  "high": 16
+ },
+ "pages_per_unit": {
+  "1": 5,
+  "2": 45
+ },
+ "dilemma_version": "1.3.15"
+}

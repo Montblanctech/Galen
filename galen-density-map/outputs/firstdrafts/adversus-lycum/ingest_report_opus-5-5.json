@@ -1,0 +1,15 @@
+{
+ "model": "opus-5-5",
+ "n_units": 50,
+ "n_responses": 50,
+ "missing_units": [],
+ "problems": [
+  "K18a.225-226: page-marker count differs",
+  "K18a.226-227: page-marker count differs",
+  "K18a.227-228: page-marker count differs",
+  "K18a.228-229: page-marker count differs",
+  "K18a.230-231: page-marker count differs",
+  "K18a.231-232: page-marker count differs",
+  "K18a.233-234: page-marker count differs"
+ ]
+}

@@ -1,0 +1,53 @@
+name: "Galen First Drafts: correction"
+description: "Report a wrong or doubtful rendering in a machine first draft (docs/first-drafts/)."
+title: "[first-drafts] <work> <unit>: <one line>"
+labels: ["first-drafts", "correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. These pages are machine first drafts, unverified (v0.1). Every correction is recorded against the unit and the rendering it concerns and goes into the next version with its source. Please do not put personal contact details in the issue.
+  - type: input
+    id: work
+    attributes:
+      label: Work
+      description: The work slug or title as shown on the page (e.g. adversus-lycum / Against Lycus).
+    validations:
+      required: true
+  - type: input
+    id: unit
+    attributes:
+      label: Unit
+      description: The unit id and Kühn locus shown in the unit header (e.g. K18a.203-204, K. XVIIIA 203–204).
+    validations:
+      required: true
+  - type: dropdown
+    id: rendering
+    attributes:
+      label: Which rendering
+      options:
+        - A (fable-5-1)
+        - B (opus-5-5)
+        - both
+        - the Greek text / page split / term table
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is wrong
+      description: Quote the Greek and the English concerned.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+      description: Your reading, and if possible why (lexicon entry, parallel passage, edition).
+    validations:
+      required: false
+  - type: input
+    id: reference
+    attributes:
+      label: Reference (optional)
+      description: Edition, lexicon, article or parallel passage supporting the correction.

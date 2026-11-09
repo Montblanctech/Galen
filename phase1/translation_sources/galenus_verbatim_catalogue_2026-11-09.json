@@ -1,0 +1,2470 @@
+[
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg089",
+  "title": "In Hippocratis Epidemias I commentaria (In Hipp. Epid. I comm.)",
+  "fichtner": "",
+  "kuhn": "17a.1-302",
+  "critical": "Pfaff, 1934 (grc;deu)",
+  "latin": "Hippocratis Epidem. I et Galeni in illum commentarius, 1828, vol. 17a, pp. 1-302. urn:cts:greekLit:tlg0057.tlg089.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pfaff, 1934 (grc;deu)",
+    "url": "http://cmg.bbaw.de/epubl/online/cmg_05_10_01.php?p=35"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg090",
+  "title": "In Hippocratis Epidemias III commentaria (In Hipp. Epid. III comm.)",
+  "fichtner": "",
+  "kuhn": "17a.480-792",
+  "critical": "Wenkebach, 1936",
+  "latin": "Hippocratis Epidem. III et Galeni in illum commentarius, 1828, vol. 17a, pp. 480-792. urn:cts:greekLit:tlg0057.tlg090.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg091",
+  "title": "In Hippocratis Epidemias VI commentaria (In Hipp. Epid. VI comm.)",
+  "fichtner": "",
+  "kuhn": "",
+  "critical": "Pfaff, 1956 (grc;deu)",
+  "latin": "Hippocratis Epidem. VI et Galeni in illum commentarius, 1828, vol. 17a-17b, pp. 793-1009 1-344. urn:cts:greekLit:tlg0057.tlg091.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pfaff, 1956 (grc;deu)",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_10_02_02.php?p=33"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg001",
+  "title": "Exhortatio ad medicinam – Protrepticus (Protr.)",
+  "fichtner": "001",
+  "kuhn": "1.1-39",
+  "critical": "Boudon-Millot, 2000 (grc;fra); Barigazzi, 1991 (grc;ita)",
+  "latin": "Adhortatio ad artes addiscendas, 1821, vol. 1, pp. 1-39. urn:cts:greekLit:tlg0057.tlg001.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2000 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Barigazzi, 1991 (grc;ita) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_01_01.php?p=111"
+   },
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/020024517"
+   },
+   {
+    "cite": "Brodersen, 2021 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/257333312"
+   },
+   {
+    "cite": "Robinson, 1955 (eng) – source ;",
+    "url": "https://www.sudoc.fr/090929284"
+   },
+   {
+    "cite": "Singer, 1997 (eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Walsh, 1930 (eng) – source ;",
+    "url": "https://wellcomecollection.org/works/bsnrefcw"
+   },
+   {
+    "cite": "Lüth, 1963 (grc;deu) – source ;",
+    "url": "https://www.worldcat.org/fr/title/102998074"
+   },
+   {
+    "cite": "Calderini, 1986 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/068417683"
+   },
+   {
+    "cite": "Ochoa, 1987 (spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/879041398"
+   },
+   {
+    "cite": "Martinez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Walther, 1936 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/196914272"
+   },
+   {
+    "cite": "Wenkebach, 1935 (deu;grc)",
+    "url": "https://primo.getty.edu/permalink/f/mlc5om/GETTY_ALMA21127182490001551"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg002",
+  "title": "De optimo docendi genere (De opt. doc. gen.)",
+  "fichtner": "002",
+  "kuhn": "1.40-52",
+  "critical": "Barigazzi, 1991 (grc;ita)",
+  "latin": "De optima doctrina, 1821, vol. 1, pp. 40-52. urn:cts:greekLit:tlg0057.tlg002.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Barigazzi, 1991 (grc;ita) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_01_01.php?p=89"
+   },
+   {
+    "cite": "Barigazzi, 1966 (ita) – source ;",
+    "url": "https://www.worldcat.org/fr/title/54321590"
+   },
+   {
+    "cite": "Martinez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Ochoa, 1987 (spa)",
+    "url": "https://www.worldcat.org/fr/title/879041398"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg003",
+  "title": "Quod optimus medicus sit quoque philosophus (Quod opt. med. sit etiam philos.)",
+  "fichtner": "003",
+  "kuhn": "1.53-63",
+  "critical": "Boudon-Millot, 2007 (grc;fra); Müller, 1891",
+  "latin": "Quod optimus medicus sit quoque philosophus, 1821, vol. 1, pp. 53-63. urn:cts:greekLit:tlg0057.tlg003.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2007 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/098158090"
+   },
+   {
+    "cite": "Cardini, 1914 (grc;ita) – source ;",
+    "url": "https://www.worldcat.org/fr/title/875240791"
+   },
+   {
+    "cite": "Peter, 1977 (eng) – source ;",
+    "url": "https://www.worldcat.org/fr/title/5878444275"
+   },
+   {
+    "cite": "Martinez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Brodersen, 2021 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/257333312"
+   },
+   {
+    "cite": "Ochoa, 1987 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/627404341"
+   },
+   {
+    "cite": "Usobiaga, 1976 (spa) – source ;",
+    "url": "https://revistes.ub.edu/index.php/EstudiosHelenicos/article/view/5407"
+   },
+   {
+    "cite": "Garofalo, 1978 (ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Galen, 2014 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/188328254"
+   },
+   {
+    "cite": "Singer, 1997 (eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Lüth, 1965 (deu)",
+    "url": "https://www.worldcat.org/fr/title/104497959"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg004",
+  "title": "De sectis ad eos, qui introducuntur (De sectis ad eos qui introd.)",
+  "fichtner": "004",
+  "kuhn": "1.64-105",
+  "critical": "Helmreich, 1893",
+  "latin": "De sectis ad eos qui introducuntur, 1821, vol. 1, pp. 64-105. urn:cts:greekLit:tlg0057.tlg004.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/020024517"
+   },
+   {
+    "cite": "Martinez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Ochoa, 1987 (spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/879041398"
+   },
+   {
+    "cite": "Garofalo, 1978 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Pellegrin, 1998 (fra) – source ;",
+    "url": "https://www.sudoc.fr/004504534"
+   },
+   {
+    "cite": "Walzer, 1985 (eng) – source ;",
+    "url": "https://www.sudoc.fr/012818712"
+   },
+   {
+    "cite": "Galen, 1947 (deu)",
+    "url": "https://www.worldcat.org/fr/title/720573315"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg043",
+  "title": "",
+  "fichtner": "005",
+  "kuhn": "1.106-223",
+  "critical": "",
+  "latin": "De optima secta ad Thrasybulum, 1821, vol. 1, pp. 106-223. urn:cts:greekLit:tlg0530.tlg043.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg006",
+  "title": "De constitutione artis medicae ad Patrophilum (De constit. artis med.)",
+  "fichtner": "006",
+  "kuhn": "1.224-304",
+  "critical": "Fortuna, 1997 (grc;ita)",
+  "latin": "De constitutione artis medicae ad Patrophilum, 1821, vol. 1, pp. 224-304. urn:cts:greekLit:tlg0057.tlg006.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2016 (eng) – source ;",
+    "url": "https://www.sudoc.fr/191581917"
+   },
+   {
+    "cite": "Fortuna, 1997 (grc;ita) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_01_03.php?p=54"
+   },
+   {
+    "cite": "Lara Nava, 1997 (spa) – source ;",
+    "url": "https://www.sudoc.fr/067641709"
+   },
+   {
+    "cite": "Boulogne, 2003 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/07449547X"
+   },
+   {
+    "cite": "Fortuna, 1997 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/007907346"
+   },
+   {
+    "cite": "Galen, 1993 (eng)",
+    "url": "https://www.sudoc.fr/121088014"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg007",
+  "title": "Ars medica (Ars med.)",
+  "fichtner": "007",
+  "kuhn": "1.305-412",
+  "critical": "Boudon-Millot, 2000 (grc;fra)",
+  "latin": "Ars Medica, 1821, vol. 1, pp. 305-412. urn:cts:greekLit:tlg0057.tlg007.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2000 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Peters, 1978 (deu) – source ;",
+    "url": "https://www.sudoc.fr/145873196"
+   },
+   {
+    "cite": "Singer, 1997 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Lafont, 1947 (spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/638771230"
+   },
+   {
+    "cite": "Garofalo, 1978 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Malato, 1972 (ita) – source ;",
+    "url": "https://www.worldcat.org/fr/title/arte-medica/oclc/14418727"
+   },
+   {
+    "cite": "Boudon-Millot, 1990 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/137421818"
+   },
+   {
+    "cite": "Espinosa Espinosa, 2015 (grc;spa)",
+    "url": "https://www.worldcat.org/fr/title/1003011617"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg008",
+  "title": "De elementis ex Hippocratis sententia (De elem. ex Hipp. sent.)",
+  "fichtner": "008",
+  "kuhn": "1.413-508",
+  "critical": "De Lacy, 1996 (grc;eng)",
+  "latin": "De elementis ex Hippocrate, 1821, vol. 1, pp. 413-508. urn:cts:greekLit:tlg0057.tlg008.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "De Lacy, 1996 (grc;eng) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_01_02.php?p=56"
+   },
+   {
+    "cite": "De Lacy, 1996 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/00509531X"
+   },
+   {
+    "cite": "Tassinari, 1997 (ita)",
+    "url": "https://www.worldcat.org/fr/title/848814717"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg009",
+  "title": "De temperamentis (De temp.)",
+  "fichtner": "009",
+  "kuhn": "1.509-694",
+  "critical": "Helmreich, 1904",
+  "latin": "De temperamentis, 1821, vol. 1, pp. 509-694. urn:cts:greekLit:tlg0057.tlg009.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "von Ejik, 2018 (eng) – source ;",
+    "url": "https://www.sudoc.fr/236756214"
+   },
+   {
+    "cite": "Johnston, 2020 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/255644728"
+   },
+   {
+    "cite": "Tassinari, 1997 (ita) – source ;",
+    "url": "https://www.worldcat.org/fr/title/848814717"
+   },
+   {
+    "cite": "Barras, 2022 (grc;fra)",
+    "url": "https://www.sudoc.fr/26363079X"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg010",
+  "title": "De facultatibus naturalibus (De fac. nat.)",
+  "fichtner": "010",
+  "kuhn": "2.1-214",
+  "critical": "Helmreich, 1893",
+  "latin": "De naturalibus facultatibus, 1821, vol. 2, pp. 1-214. urn:cts:greekLit:tlg0057.tlg010.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Brock, 1916 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/015576574"
+   },
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/098158090"
+   },
+   {
+    "cite": "Garofalo, 1978 (ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Galeno, 1996 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/167883178"
+   },
+   {
+    "cite": "Lara Nava, 1997 (spa) – source ;",
+    "url": "https://www.sudoc.fr/067641709"
+   },
+   {
+    "cite": "Renander, 1958 (swe) – source ;",
+    "url": "https://www.worldcat.org/fr/title/14602911"
+   },
+   {
+    "cite": "Zaragoza Gras, 2003 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087529467"
+   },
+   {
+    "cite": "Beintkler, 1954 (deu)",
+    "url": "https://www.sudoc.fr/241071593"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg011",
+  "title": "De anatomicis administrationibus (De anat. administr.)",
+  "fichtner": "011",
+  "kuhn": "2.215-731",
+  "critical": "Garofalo, 1986; Garofalo, 2000",
+  "latin": "De anatomicis administrationibus, 1821, vol. 2, pp. 215-731. urn:cts:greekLit:tlg0057.tlg011.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Singer, 1956 (eng) – source ;",
+    "url": "https://www.sudoc.fr/082359105"
+   },
+   {
+    "cite": "Garofalo, 1991 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/011400854"
+   },
+   {
+    "cite": "López Salvá, 2022 (grc;spa) – source ;",
+    "url": "https://www.sudoc.fr/087533677"
+   },
+   {
+    "cite": "Duckworth, 1962 (eng) – source ;",
+    "url": "https://www.sudoc.fr/025055046"
+   },
+   {
+    "cite": "Simon, 1906 (deu)",
+    "url": "https://www.sudoc.fr/118133144"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg012",
+  "title": "De ossibus ad tirones (De oss. ad tir.)",
+  "fichtner": "012",
+  "kuhn": "2.732-778",
+  "critical": "Garofalo, 2005 (grc;fra)",
+  "latin": "De ossibus ad tirones, 1821, vol. 2, pp. 732-778. urn:cts:greekLit:tlg0057.tlg012.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Garofalo, 2005 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Mayo Goss, 1984 (eng) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "SInger, 1952 (eng) – source ;",
+    "url": "https://www.worldcat.org/fr/title/102335295"
+   },
+   {
+    "cite": "Sakai, 2007 (jpn) – source ;",
+    "url": "http://jsmh.umin.jp/journal/53-3/index.html"
+   },
+   {
+    "cite": "Galen, 1969 (grc;eng) – source ;",
+    "url": "https://www.worldcat.org/fr/title/11338127"
+   },
+   {
+    "cite": "Von Töply, 1914 (deu)",
+    "url": "https://archive.org/details/anatomischehefte25mn/page/432/mode/2up?view=theater"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg013",
+  "title": "De venarum arteriarumque dissectione (De ven. arter. dissect.)",
+  "fichtner": "013",
+  "kuhn": "2.779-830",
+  "critical": "Garofalo, 2008 (grc;fra)",
+  "latin": "De venarum arteriarumque dissectione, 1821, vol. 2, pp. 779-830. urn:cts:greekLit:tlg0057.tlg013.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Garofalo, 2008 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Mayo Goss, 1961 (eng) – source ;",
+    "url": "https://doi.org/10.1002/ar.1091410409"
+   },
+   {
+    "cite": "Galen, 2006 (jpn) – source ;",
+    "url": "http://jsmh.umin.jp/journal/52-2/211.pdf"
+   },
+   {
+    "cite": "Galen, 1969 (ara;eng) – source ;",
+    "url": "https://www.proquest.com/dissertations/docview/302483211/135B03B3DD0567A7113/845"
+   },
+   {
+    "cite": "von Töply, 1904 (deu)",
+    "url": "https://archive.org/details/anatomischehefte25mn/page/432/mode/2up?view=theater"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg014",
+  "title": "De nervorum dissectione (De nerv. dissect.)",
+  "fichtner": "014",
+  "kuhn": "2.831-856",
+  "critical": "Garofalo, 2008 (grc;fra)",
+  "latin": "De nervorum dissectione, 1821, vol. 2, pp. 831-856. urn:cts:greekLit:tlg0057.tlg014.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Garofalo, 2008 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Mayo Goss, 1966 (eng) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Garofalo, 2008 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/122083423"
+   },
+   {
+    "cite": "Sakai, 2003 (jpn) – source ;",
+    "url": "http://jsmh.umin.jp/journal/49-3/index.html"
+   },
+   {
+    "cite": "Von Töply, 1904 (deu)",
+    "url": "https://archive.org/details/anatomischehefte25mn/page/458/mode/2up?view=theater"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg015",
+  "title": "De instrumento odoratus (De instr. odor.)",
+  "fichtner": "015",
+  "kuhn": "2.857-886",
+  "critical": "",
+  "latin": "De instrumento odoratus, 1821, vol. 2, pp. 857-886. urn:cts:greekLit:tlg0057.tlg015.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Wright, 1924 (eng)",
+    "url": "https://doi.org/10.1288/00005537-192401000-00001"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg016",
+  "title": "De uteri dissectione (De uteri dissect.)",
+  "fichtner": "016",
+  "kuhn": "2.887-908",
+  "critical": "Nickel, 1971",
+  "latin": "De uteri dissectione, 1821, vol. 2, pp. 887-908. urn:cts:greekLit:tlg0057.tlg016.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Galen, 1962 (eng) – source ;",
+    "url": "https://doi.org/10.1002/ar.1091440202"
+   },
+   {
+    "cite": "Nickel, 1971 (grc;deu)",
+    "url": "https://www.sudoc.fr/048344478"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg017",
+  "title": "De usu partium (De usu part.)",
+  "fichtner": "017",
+  "kuhn": "3-4.1-939;1-366",
+  "critical": "Helmreich, 1909; Helmreich, 1907",
+  "latin": "De usu partium corporis humani, 1822, vol. 3-4, pp. 1-939;1-366. urn:cts:greekLit:tlg0057.tlg017.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/020024517"
+   },
+   {
+    "cite": "Kondrat'ev, 1971 (rus) – source ;",
+    "url": "https://www.worldcat.org/fr/title/4280564"
+   },
+   {
+    "cite": "López Salvá, 2010 (spa) – source ;",
+    "url": "https://www.sudoc.fr/151303312"
+   },
+   {
+    "cite": "Galeno, 2009 (spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/793293741"
+   },
+   {
+    "cite": "Garofalo, 1978 (ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Tallmadge-May, 1968 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/086615963"
+   },
+   {
+    "cite": "Nöldeke, 1805 (deu)",
+    "url": "http://opacplus.bsb-muenchen.de/title/BV004172010/ft/bsb10236024?page=45"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg018",
+  "title": "De motu musculorum (De motu musc.)",
+  "fichtner": "019",
+  "kuhn": "4.367-464",
+  "critical": "Rosa Pietro, 2009 (grc;ita)",
+  "latin": "De motu musculorum, 1822, vol. 4, pp. 367-464. urn:cts:greekLit:tlg0057.tlg018.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/098158090"
+   },
+   {
+    "cite": "Mayo Goss, 1968 (eng) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Rosa Pietro, 2009 (grc;ita)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg114",
+  "title": "De causis respirationis (De causis respir.)",
+  "fichtner": "020",
+  "kuhn": "4.465-469",
+  "critical": "Furley, 1984 (grc;eng)",
+  "latin": "De causis respirationis, 1822, vol. 4, pp. 465-469. urn:cts:greekLit:tlg0057.tlg114.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Furley, 1984 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/008430950"
+   },
+   {
+    "cite": "Bonora, 1965 (grc;ita)",
+    "url": "https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_020.pdf"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg020",
+  "title": "De usu respirationis (De respir. usu)",
+  "fichtner": "021",
+  "kuhn": "4.470-511",
+  "critical": "Furley, 1984 (grc;eng); Noll, 1915",
+  "latin": "De usu respirationis, 1822, vol. 4, pp. 470-511. urn:cts:greekLit:tlg0057.tlg020.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Furley, 1984 (grc;eng)",
+    "url": "https://www.sudoc.fr/008430950"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg021",
+  "title": "De semine (De sem.)",
+  "fichtner": "022",
+  "kuhn": "4.512-651",
+  "critical": "De Lacy, 1992 (grc;eng)",
+  "latin": "De semine, 1822, vol. 4, pp. 512-651. urn:cts:greekLit:tlg0057.tlg021.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "De Lacy, 1992 (grc;eng) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_03_01.php?p=64"
+   },
+   {
+    "cite": "Espinosa Espinosa, 2016 (grc:spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/1026209743"
+   },
+   {
+    "cite": "Galeno, 1959 (ita)",
+    "url": "https://www.worldcat.org/fr/title/14943338"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg022",
+  "title": "De foetuum formatione (De foet. form.)",
+  "fichtner": "023",
+  "kuhn": "4.652-702",
+  "critical": "Nickel, 2001 (grc;deu)",
+  "latin": "De foetuum formatione, 1822, vol. 4, pp. 652-702. urn:cts:greekLit:tlg0057.tlg022.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Nickel, 2001 (grc;deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_03_03.php?p=54"
+   },
+   {
+    "cite": "Singer, 1997 (eng)",
+    "url": "https://www.sudoc.fr/080806805"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg023",
+  "title": "An in arteriis natura sanguis contineatur (An in art. nat. sanguis contin.)",
+  "fichtner": "024",
+  "kuhn": "4.703-736",
+  "critical": "Furley, 1984 (grc;eng); Albrecht, 1911",
+  "latin": "An in arteriis natura sanguis contineatur, 1822, vol. 4, pp. 703-736. urn:cts:greekLit:tlg0057.tlg023.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Furley, 1984 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/008430950"
+   },
+   {
+    "cite": "Goss, 1985 (eng)",
+    "url": "https://doi.org/10.1002/ar.1092130102"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg024",
+  "title": "De optima corporis nostri constitutione (De opt. corp. nostri constit.)",
+  "fichtner": "025",
+  "kuhn": "4.737-749",
+  "critical": "Helmreich, 1901",
+  "latin": "De optima nostri corporis constitutione, 1822, vol. 4, pp. 737-749. urn:cts:greekLit:tlg0057.tlg024.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/020024517"
+   },
+   {
+    "cite": "Espinosa Espinosa, 2006 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/1026209743"
+   },
+   {
+    "cite": "Bertini Malgarini, 1992 (ita) – source ;",
+    "url": "https://www.sudoc.fr/013179756"
+   },
+   {
+    "cite": "Penella, 1973 (eng) – source ;",
+    "url": "https://www.worldcat.org/fr/title/33215309"
+   },
+   {
+    "cite": "Singer, 1997 (eng)",
+    "url": "https://www.sudoc.fr/080806805"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg025",
+  "title": "De bono habitu (De bono hab.)",
+  "fichtner": "026",
+  "kuhn": "4.750-756",
+  "critical": "Helmreich, 1901",
+  "latin": "De bono habitu, 1822, vol. 4, pp. 750-756. urn:cts:greekLit:tlg0057.tlg025.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Bertini Malgarini, 1992 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/013179756"
+   },
+   {
+    "cite": "Espinosa Espinosa, 2016 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/1026209743"
+   },
+   {
+    "cite": "Singer, 1997 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Barras, 2022 (grc;fra)",
+    "url": "https://www.sudoc.fr/26363079X"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg084",
+  "title": "De substantia facultatum naturalium fragmentum (= De propriis placitis fragmentum) (De propr. plac. fragm.)",
+  "fichtner": "027",
+  "kuhn": "4.757-766",
+  "critical": "",
+  "latin": "De substantia facultatum naturalium fragmentum, 1822, vol. 4, pp. 757-766. urn:cts:greekLit:tlg0057.tlg084.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg027",
+  "title": "Quod animi mores corporis temperamenta sequantur (Quod animi mores corp. temp. sequ.)",
+  "fichtner": "028",
+  "kuhn": "4.767-822",
+  "critical": "Bazou, 2011; Müller, 1891",
+  "latin": "Quod animi mores corporis temperamenta sequantur, 1822, vol. 4, pp. 767-822. urn:cts:greekLit:tlg0057.tlg027.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2020 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/255644728"
+   },
+   {
+    "cite": "Daremberg, 1854/1856 (fra) – source ;",
+    "url": "https://www.sudoc.fr/020024517"
+   },
+   {
+    "cite": "Hauke, 1937 (deu) – source ;",
+    "url": "https://www.worldcat.org/fr/title/248419048"
+   },
+   {
+    "cite": "Bazou, 2011 (grc;ell) – source ;",
+    "url": "https://www.worldcat.org/fr/title/994828635"
+   },
+   {
+    "cite": "Garofalo, 1978 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Zaragoza Gras, 2003 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087529467"
+   },
+   {
+    "cite": "Garcia-Ballester, 1972 (grc;spa) – source ;",
+    "url": "https://www.sudoc.fr/008431183"
+   },
+   {
+    "cite": "Bazou, 1999 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/075700050"
+   },
+   {
+    "cite": "Singer, 2013 (eng) – source ;",
+    "url": "https://www.sudoc.fr/180686895"
+   },
+   {
+    "cite": "Barras, 1995 (grc;fra)",
+    "url": "https://www.sudoc.fr/003692728"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg028",
+  "title": "De animi cuiuslibet affectuum et peccatorum dignotione et curatione (De animi cuiusl. affect. et pecc. dign. et cur.)",
+  "fichtner": "029",
+  "kuhn": "5.1-57",
+  "critical": "Magnaldi, 1990 (grc;ita); Boer, 1937",
+  "latin": "De propriorum animi cuiusque affectuum dignotione et curatione, 1823, vol. 5, pp. 1-57. urn:cts:greekLit:tlg0057.tlg028.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Singer, 2013 (grc;ara;eng) – source ;",
+    "url": "https://www.sudoc.fr/180686895"
+   },
+   {
+    "cite": "Magnaldi, 1990 (grc;ita) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Barras, 1995 (fra) – source ;",
+    "url": "https://www.sudoc.fr/003692728"
+   },
+   {
+    "cite": "Galeno, 2013 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/981377891"
+   },
+   {
+    "cite": "Magnaldi, 1999 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/079382436"
+   },
+   {
+    "cite": "Menghi, 1984 (ita) – source ;",
+    "url": "https://www.sudoc.fr/086566873"
+   },
+   {
+    "cite": "Harkins, 1963 (eng) – source ;",
+    "url": "https://www.sudoc.fr/015467457"
+   },
+   {
+    "cite": "",
+    "url": "https://www.worldcat.org/fr/title/804892288"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg029",
+  "title": "De animi cuiuslibet peccatorum dignotione et curatione (De animi cuiusl. affect. et pecc. dign. et cur.)",
+  "fichtner": "030",
+  "kuhn": "5.58-103",
+  "critical": "Boer, 1937",
+  "latin": "De cuiusque animi peccatorum dignotione atque medela, 1823, vol. 5, pp. 58-103. urn:cts:greekLit:tlg0057.tlg029.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Singer, 2013 (grc;ara;eng) – source ;",
+    "url": "https://www.sudoc.fr/180686895"
+   },
+   {
+    "cite": "Barras, 1995 (fra) – source ;",
+    "url": "https://www.sudoc.fr/003692728"
+   },
+   {
+    "cite": "Galeno, 1999 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/079382436"
+   },
+   {
+    "cite": "Nieto Ibáñez, 2005 (spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/804892288"
+   },
+   {
+    "cite": "Vegetti, 1984 (ita) – source ;",
+    "url": "https://www.sudoc.fr/086566873"
+   },
+   {
+    "cite": "Molina Gonzales, 2013 (spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/981377891"
+   },
+   {
+    "cite": "Galien, 1914 (fra) – source ;",
+    "url": "https://www.sudoc.fr/026250373"
+   },
+   {
+    "cite": "Harkins, 1963 (eng)",
+    "url": "https://www.sudoc.fr/015467457"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg030",
+  "title": "De atra bile (De atra bile)",
+  "fichtner": "031",
+  "kuhn": "5.104-148",
+  "critical": "Boer, 1937",
+  "latin": "De atra bile, 1823, vol. 5, pp. 104-148. urn:cts:greekLit:tlg0057.tlg030.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Rameis, 1936 (deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_031.pdf"
+   },
+   {
+    "cite": "Grant, 2000 (eng) – source ;",
+    "url": "https://www.sudoc.fr/077233999"
+   },
+   {
+    "cite": "Barras, 1998 (grc;fra)",
+    "url": "https://www.sudoc.fr/004494164"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg031",
+  "title": "De usu pulsuum (De usu puls.)",
+  "fichtner": "032",
+  "kuhn": "5.149-180",
+  "critical": "Furley, 1984 (grc;eng)",
+  "latin": "De pulsuum usu, 1823, vol. 5, pp. 149-180. urn:cts:greekLit:tlg0057.tlg031.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Furley, 1984 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/008430950"
+   },
+   {
+    "cite": "Pino Campos, 2015 (grc;spa) – source ;",
+    "url": "https://revistas.uva.es/index.php/minerva/article/view/1182"
+   },
+   {
+    "cite": "Wiklie, 1984 (grc;eng)",
+    "url": "https://www.sudoc.fr/008430950"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg032",
+  "title": "De placitis Hippocratis et Platonis (De plac. Hipp. et Plat.)",
+  "fichtner": "033",
+  "kuhn": "5.181-805",
+  "critical": "De Lacy, 2005 (grc;eng)",
+  "latin": "De Hippocratis et Platonis placitis, 1823, vol. 5, pp. 181-805. urn:cts:greekLit:tlg0057.tlg032.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "De Lacy, 2005 (grc;eng)",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_04_01_02.php?p=64"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg033",
+  "title": "Thrasybulus sive utrum medicinae sit an gymnasticae hygiene (Thrasyb.)",
+  "fichtner": "034",
+  "kuhn": "5.806-898",
+  "critical": "Helmreich, 1893",
+  "latin": "Ad Thrasybulum liber, utrum medicinae sit an gymnastices hygieine, 1823, vol. 5, pp. 806-898. urn:cts:greekLit:tlg0057.tlg033.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2018 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148"
+   },
+   {
+    "cite": "Nieto Ibañez, 2005 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/804892288"
+   },
+   {
+    "cite": "Singer, 1997 (eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Englert, 1936 (deu)",
+    "url": "https://www.worldcat.org/fr/title/73085134"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg034",
+  "title": "De parvae pilae exercitio (De parvae pilae exercit.)",
+  "fichtner": "035",
+  "kuhn": "5.899-910",
+  "critical": "Marquardt, 1884; Wenkebach, 1938 (grc;deu)",
+  "latin": "De parvae pilae exercitio, 1823, vol. 5, pp. 899-910. urn:cts:greekLit:tlg0057.tlg034.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2018 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148"
+   },
+   {
+    "cite": "Nieto Ibañez, 2005 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/804892288"
+   },
+   {
+    "cite": "Valentini, 1941 (ita) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/Bibl/Galen-Bibliographie_035.pdf"
+   },
+   {
+    "cite": "Cunze, 1890 (deu) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Singer, 1997 (eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Robinson, 1981 (eng) – source ;",
+    "url": "https://www.sudoc.fr/005515777"
+   },
+   {
+    "cite": "Schütze, 1936 (deu) – source ;",
+    "url": "https://www.worldcat.org/fr/title/718856143"
+   },
+   {
+    "cite": "Wenkebach, 1938 (grc;deu)",
+    "url": "https://cmg.bbaw.de/epubl/online/wu_Gal_Ballspiel_Wenkebach.php"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg036",
+  "title": "De sanitate tuenda (De san. tuenda)",
+  "fichtner": "037",
+  "kuhn": "6.1-452",
+  "critical": "Koch, 1923",
+  "latin": "De sanitate tuenda, 1823, vol. 6, pp. 1-452. urn:cts:greekLit:tlg0057.tlg036.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2018 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/224014250; https://www.sudoc.fr/224699148"
+   },
+   {
+    "cite": "Galeno, 2016 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/1035828992"
+   },
+   {
+    "cite": "Montraville Green, 1951 (eng) – source ;",
+    "url": "https://www.worldcat.org/fr/title/881360618"
+   },
+   {
+    "cite": "Beintker, 1939 (deu) – source ;",
+    "url": "https://www.sudoc.fr/092745156"
+   },
+   {
+    "cite": "Beintker, 1941 (deu)",
+    "url": "https://www.sudoc.fr/092745334"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg037",
+  "title": "De alimentorum facultatibus (De alim. fac.)",
+  "fichtner": "038",
+  "kuhn": "6.453-748",
+  "critical": "Helmreich, 1923; Wilkins, 2013 (grc;fra)",
+  "latin": "De alimentorum facultatibus libri III, 1823, vol. 6, pp. 453-748. urn:cts:greekLit:tlg0057.tlg037.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Wilkins, 2013 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Ferreira, 2020 (por) – source ;",
+    "url": "https://worldcat.org/de/title/1253298937"
+   },
+   {
+    "cite": "Wilkins, 2013 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/174623577"
+   },
+   {
+    "cite": "Zaragoza, 2015 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/992764678"
+   },
+   {
+    "cite": "Powell, 2003 (eng) – source ;",
+    "url": "https://www.sudoc.fr/069564922"
+   },
+   {
+    "cite": "Grant, 2000 (eng) – source ;",
+    "url": "https://www.sudoc.fr/060988282"
+   },
+   {
+    "cite": "Beintker, 1948 (deu;grc) – source ;",
+    "url": "https://www.sudoc.fr/241071186"
+   },
+   {
+    "cite": "Beintker, 1952 (deu;grc)",
+    "url": "https://www.sudoc.fr/241071488"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg038",
+  "title": "De bonis malisque sucis (De bonis malisque sucis)",
+  "fichtner": "039",
+  "kuhn": "6.749-815",
+  "critical": "Helmreich, 1923",
+  "latin": "De probis pravisque alimentorum succis, 1823, vol. 6, pp. 749-815. urn:cts:greekLit:tlg0057.tlg038.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Ieraci Bio, 1987 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/059905220"
+   },
+   {
+    "cite": "Beintker, 1952 (deu)",
+    "url": "https://www.sudoc.fr/241071488"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg039",
+  "title": "De ptisana (De ptis.)",
+  "fichtner": "040",
+  "kuhn": "6.816-831",
+  "critical": "Hartlich, 1923",
+  "latin": "De ptisana, 1823, vol. 6, pp. 816-831. urn:cts:greekLit:tlg0057.tlg039.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Grant, 2000 (eng) – source ;",
+    "url": "https://www.sudoc.fr/077233999"
+   },
+   {
+    "cite": "Galenos, 1952 (deu)",
+    "url": "https://www.sudoc.fr/241071488"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg040",
+  "title": "",
+  "fichtner": "041",
+  "kuhn": "6.832-835",
+  "critical": "Demuth, 1972",
+  "latin": "De dignotione ex insomniis, 1823, vol. 6, pp. 832-835. urn:cts:greekLit:tlg0057.tlg040.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Galen, 1983 (grc;eng) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Guidorizzi, 1973 (grc;ita) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Galenus, 1972 (deu;grc)",
+    "url": "https://www.sudoc.fr/16127420X"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg041",
+  "title": "De differentiis morborum (De diff. morb.)",
+  "fichtner": "042",
+  "kuhn": "6.836-880",
+  "critical": "",
+  "latin": "De morborum differentiis, 1823, vol. 6, pp. 836-880. urn:cts:greekLit:tlg0057.tlg041.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2006 (eng;grc)",
+    "url": "https://www.sudoc.fr/127019227"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg042",
+  "title": "De morborum causis (De morb. causis)",
+  "fichtner": "043",
+  "kuhn": "7.1-41",
+  "critical": "",
+  "latin": "De morborum causis, 1824, vol. 7, pp. 1-41. urn:cts:greekLit:tlg0057.tlg042.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Grant, 2000 (eng) – source ;",
+    "url": "https://www.sudoc.fr/060988282"
+   },
+   {
+    "cite": "Johnston, 2006 (grc;eng)",
+    "url": "https://www.sudoc.fr/127019227"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg043",
+  "title": "De symptomatum differentiis (De sympt. diff.)",
+  "fichtner": "044",
+  "kuhn": "7.42-84",
+  "critical": "Gundert, 2009 (grc;deu)",
+  "latin": "De symptomatum differentiis, 1824, vol. 7, pp. 42-84. urn:cts:greekLit:tlg0057.tlg043.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Gundert, 2009 (grc;deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_05_01.php?p=195"
+   },
+   {
+    "cite": "Johnston, 2006 (grc;eng)",
+    "url": "https://www.sudoc.fr/127019227"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg044",
+  "title": "De symptomatum causis (De sympt. causis)",
+  "fichtner": "045",
+  "kuhn": "7.85-272",
+  "critical": "",
+  "latin": "De symptomatum causis, 1824, vol. 7, pp. 85-272. urn:cts:greekLit:tlg0057.tlg044.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2006 (eng) – source ;",
+    "url": "https://www.sudoc.fr/127019227"
+   },
+   {
+    "cite": "Vegetti, 1978 (grc;ita)",
+    "url": "https://www.sudoc.fr/01958069X"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg045",
+  "title": "De differentiis febrium (De diff. febr.)",
+  "fichtner": "048",
+  "kuhn": "7.273-405",
+  "critical": "Wernhard, 2004 (grc;deu); De Stefani, 2011 (grc;ita)",
+  "latin": "De differentiis febrium, 1824, vol. 7, pp. 273-405. urn:cts:greekLit:tlg0057.tlg045.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Wernhard, 2004 (grc;deu) – source ;",
+    "url": "https://edoc.ub.uni-muenchen.de/6399/1/Wernhard_Matthias.pdf"
+   },
+   {
+    "cite": "De Stefani, 2011 (grc;ita)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg046",
+  "title": "De morborum temporibus (De morb. temp.)",
+  "fichtner": "049",
+  "kuhn": "7.406-439",
+  "critical": "Wille, 1960",
+  "latin": "De morborum temporibus, 1824, vol. 7, pp. 406-439. urn:cts:greekLit:tlg0057.tlg046.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Galen, 1960 (grc;deu)",
+    "url": "https://www.sudoc.fr/076892468"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg047",
+  "title": "De morborum temporibus (De morb. temp.)",
+  "fichtner": "050",
+  "kuhn": "7.440-462",
+  "critical": "",
+  "latin": "De totius morbi temporibus, 1824, vol. 7, pp. 440-462. urn:cts:greekLit:tlg0057.tlg047.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg048",
+  "title": "De typis (De typis)",
+  "fichtner": "051",
+  "kuhn": "7.463-474",
+  "critical": "",
+  "latin": "De typis, 1824, vol. 7, pp. 463-474. urn:cts:greekLit:tlg0057.tlg048.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "García Sola, 2010 (grc;spa)",
+    "url": "https://www.worldcat.org/fr/title/868843448"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg049",
+  "title": "Adversus eos, qui de typis scripserunt (Adv. eos qui de typis scrips.)",
+  "fichtner": "052",
+  "kuhn": "7.475-512",
+  "critical": "",
+  "latin": "Adversus eos qui de typis scripserunt vel de circuitibus, 1824, vol. 7, pp. 475-512. urn:cts:greekLit:tlg0057.tlg049.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "García Sola, 2010 (grc;spa)",
+    "url": "https://www.worldcat.org/fr/title/868843448"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg050",
+  "title": "De plenitudine (De plen.)",
+  "fichtner": "053",
+  "kuhn": "7.513-583",
+  "critical": "Otte, 2001 (grc;deu)",
+  "latin": "De plenitudine, 1824, vol. 7, pp. 513-583. urn:cts:greekLit:tlg0057.tlg050.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Otte, 2001 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/060391324"
+   },
+   {
+    "cite": "Otte, 2001 (grc;deu)",
+    "url": "https://www.sudoc.fr/060391324"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg051",
+  "title": "De tremore, palpitatione, convulsione et rigore (De trem., palp., convuls. et rig.)",
+  "fichtner": "054",
+  "kuhn": "7.584-642",
+  "critical": "",
+  "latin": "De tremore, palpitatione, convulsione et rigore, 1824, vol. 7, pp. 584-642. urn:cts:greekLit:tlg0057.tlg051.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Sider, 1979 (eng;grc)",
+    "url": "https://www.sudoc.fr/124508103"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg052",
+  "title": "De comate secundum Hippocratem (De comate sec. Hipp.)",
+  "fichtner": "055",
+  "kuhn": "7.643-665",
+  "critical": "Mewaldt, 1915",
+  "latin": "De comate secundum Hippocratem, 1824, vol. 7, pp. 643-665. urn:cts:greekLit:tlg0057.tlg052.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Nieto Ibáñez, 2005 (grc;spa)",
+    "url": "https://www.worldcat.org/fr/title/804892288"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg053",
+  "title": "De marcore (De marcore)",
+  "fichtner": "056",
+  "kuhn": "7.666-704",
+  "critical": "",
+  "latin": "De marcore, 1824, vol. 7, pp. 666-704. urn:cts:greekLit:tlg0057.tlg053.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Theoharides, 1971 (grc;eng)",
+    "url": "https://www.worldcat.org/fr/title/100703708"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg054",
+  "title": "De tumoribus praeter naturam (De tum. praeter nat.)",
+  "fichtner": "057",
+  "kuhn": "7.705-732",
+  "critical": "Reedy, 1968",
+  "latin": "De tumoribus praeter naturam, 1824, vol. 7, pp. 705-732. urn:cts:greekLit:tlg0057.tlg054.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Lytton, 1978 (grc;eng) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Richter, 1913 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/117954101"
+   },
+   {
+    "cite": "Reedy, 1975 (grc;eng)",
+    "url": "https://www.worldcat.org/fr/title/1021102867"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg055",
+  "title": "De inaequali intemperie (De inaequ. intemp.)",
+  "fichtner": "058",
+  "kuhn": "7.733-752",
+  "critical": "Garcia Novo, 2012 (grc;eng)",
+  "latin": "De inaequali intemperie, 1824, vol. 7, pp. 733-752. urn:cts:greekLit:tlg0057.tlg055.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Grant, 2000 (eng;grc) – source ;",
+    "url": "https://www.sudoc.fr/060988282"
+   },
+   {
+    "cite": "Johnston, 2020 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/255644728"
+   },
+   {
+    "cite": "Garcia Novo, 2012 (grc;eng)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg056",
+  "title": "De difficultate respirationis (De difficult. respir.)",
+  "fichtner": "059",
+  "kuhn": "7.753-960",
+  "critical": "Minor, 1911",
+  "latin": "De difficultate respirationis, 1824, vol. 7, pp. 753-960. urn:cts:greekLit:tlg0057.tlg056.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg057",
+  "title": "De locis affectis (De locis affectis)",
+  "fichtner": "060",
+  "kuhn": "8.1-452",
+  "critical": "Wittwer, 2024 (grc;deu); Brunschön, 2021 (grc;deu); Gärtner, 2015 (grc;deu); Kollesch, 2023 (grc;deu)",
+  "latin": "De locis affectis, 1824, vol. 8, pp. 1-452. urn:cts:greekLit:tlg0057.tlg057.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Wittwer, 2024 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/284311553"
+   },
+   {
+    "cite": "Brunschön, 2021 (grc;deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_06_01_03.php?p=284=370"
+   },
+   {
+    "cite": "Gärtner, 2015 (grc;deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_06_01_01.php?p=226=302"
+   },
+   {
+    "cite": "Kollesch, 2023 (grc;deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_13_02.php?p=46=204"
+   },
+   {
+    "cite": "García Sola, 1997 (grc;spa) – source ;",
+    "url": "https://www.sudoc.fr/073335800"
+   },
+   {
+    "cite": "Aparicio, 1997 (grc;spa) – source ;",
+    "url": "https://www.sudoc.fr/011257350"
+   },
+   {
+    "cite": "Siegel, 1976 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/000618055"
+   },
+   {
+    "cite": "Brunschön, 2021 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/260224944"
+   },
+   {
+    "cite": "Daremberg, 1854 (fra) – source ;",
+    "url": "https://www.sudoc.fr/020024517"
+   },
+   {
+    "cite": "Renander, 1962 (sve;grc)",
+    "url": "https://www.worldcat.org/fr/title/473660796"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg058",
+  "title": "De pulsibus ad tirones (De puls. ad tir.)",
+  "fichtner": "061",
+  "kuhn": "8.453-492",
+  "critical": "",
+  "latin": "De pulsibus libellus ad tirones, 1824, vol. 8, pp. 453-492. urn:cts:greekLit:tlg0057.tlg058.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Tovar, 1948 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/12741487"
+   },
+   {
+    "cite": "Singer, 1997 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Trifolgi, 1958 (grc;ita) – source ;",
+    "url": "https://wellcomecollection.org/works/gspb4w4a"
+   },
+   {
+    "cite": "Pino Campos, 2015 (grc;spa)",
+    "url": "https://doi.org/10.24197/mrfc.30.2017.371-373"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg059",
+  "title": "De pulsuum differentiis (De puls. diff.)",
+  "fichtner": "062",
+  "kuhn": "8.493-765",
+  "critical": "",
+  "latin": "De pulsuum differentiis, 1824, vol. 8, pp. 493-765. urn:cts:greekLit:tlg0057.tlg059.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2024 (eng) – source ;",
+    "url": "https://www.sudoc.fr/276154304"
+   },
+   {
+    "cite": "Pino Campos, 2010 (grc;spa) – source ;",
+    "url": "https://www.sudoc.fr/170432610"
+   },
+   {
+    "cite": "Ruíz Moreno, 1948 (grc;spa)",
+    "url": "https://www.worldcat.org/fr/title/12741487"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg060",
+  "title": "De dignoscendis pulsibus (De dign. puls.)",
+  "fichtner": "063",
+  "kuhn": "8.766-961",
+  "critical": "",
+  "latin": "De dignoscendis pulsibus, 1824, vol. 8, pp. 766-961. urn:cts:greekLit:tlg0057.tlg060.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg061",
+  "title": "De causis pulsuum (De causis puls.)",
+  "fichtner": "064",
+  "kuhn": "9.1-204",
+  "critical": "",
+  "latin": "De causis pulsuum, 1825, vol. 9, pp. 1-204. urn:cts:greekLit:tlg0057.tlg061.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg062",
+  "title": "De praesagitione ex pulsibus (De praesag. ex puls.)",
+  "fichtner": "065",
+  "kuhn": "9.205-430",
+  "critical": "",
+  "latin": "De praesagitione ex pulsibus, 1825, vol. 9, pp. 205-430. urn:cts:greekLit:tlg0057.tlg062.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg063",
+  "title": "Synopsis librorum suorum sedecim de pulsibus (Synopsis libr. suor. de puls.)",
+  "fichtner": "066",
+  "kuhn": "9.431-533",
+  "critical": "",
+  "latin": "Synopsis librorum suorum de pulsibus, 1825, vol. 9, pp. 431-533. urn:cts:greekLit:tlg0057.tlg063.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pino Campos, 2005 (grc;spa)",
+    "url": "https://www.sudoc.fr/17043320X"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg064",
+  "title": "De crisibus (De cris.)",
+  "fichtner": "067",
+  "kuhn": "9.550-768",
+  "critical": "Alexanderson, 1967",
+  "latin": "De crisibus, 1825, vol. 9, pp. 550-768. urn:cts:greekLit:tlg0057.tlg064.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Rodríguez Alfageme, 2003 (grc;spa)",
+    "url": "https://www.worldcat.org/fr/title/804892692"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg065",
+  "title": "De diebus decretoriis (De diebus decr.)",
+  "fichtner": "068",
+  "kuhn": "9.769-941",
+  "critical": "Cooper, 2011 (Ara;eng)",
+  "latin": "De diebus decretoriis, 1825, vol. 9, pp. 769-941. urn:cts:greekLit:tlg0057.tlg065.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "García Sola, 2010 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/948281477"
+   },
+   {
+    "cite": "Cooper, 2011 (Ara;eng)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg066",
+  "title": "Methodus medendi (Meth. med.)",
+  "fichtner": "069",
+  "kuhn": "10.1-1021",
+  "critical": "Lorusso, 2021 (grc;ita); Lorusso, 2018 (grc;ita)",
+  "latin": "Methodus medendi, 1825, vol. 10, pp. 1-1021. urn:cts:greekLit:tlg0057.tlg066.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2011 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/157591972; https://www.sudoc.fr/157750787 ;  https://www.sudoc.fr/157754332"
+   },
+   {
+    "cite": "Lorusso, 2021 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/273578715"
+   },
+   {
+    "cite": "Lorusso, 2018 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/235424587"
+   },
+   {
+    "cite": "Boulogne, 2009 (fra) – source ;",
+    "url": "https://www.sudoc.fr/13447029X"
+   },
+   {
+    "cite": "Cerezo Magán, 2013 (grc;spa) – source ;",
+    "url": "https://www.worldcat.org/fr/title/915261440"
+   },
+   {
+    "cite": "Hankinson, 1991 ()",
+    "url": "https://www.sudoc.fr/021737835"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg067",
+  "title": "Ad Glauconem de medendi methodo (Ad Glauc. de med. meth.)",
+  "fichtner": "070",
+  "kuhn": "11.1-146",
+  "critical": "",
+  "latin": "Ad Glauconem de medendi methodo, 1826, vol. 11, pp. 1-146. urn:cts:greekLit:tlg0057.tlg067.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Johnston, 2016 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/191581917"
+   },
+   {
+    "cite": "Daremberg, 1854 (grc;fra)",
+    "url": "https://www.sudoc.fr/020024517"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg068",
+  "title": "De venae sectione adversus Erasistratum (De venae sect. adv. Erasistr.)",
+  "fichtner": "071",
+  "kuhn": "11.147-186",
+  "critical": "",
+  "latin": "De venae sectione adversus Erasistratum, 1826, vol. 11, pp. 147-186. urn:cts:greekLit:tlg0057.tlg068.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Brain, 1986 (grc;eng)",
+    "url": "https://doi.org/10.1017/CBO9780511753565 ; https://www.sudoc.fr/009446168"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg069",
+  "title": "De venae sectione adversus Erasistrateos Romae degentes (De venae sect. adv. Erasistrateos Romae deg.)",
+  "fichtner": "072",
+  "kuhn": "11.187-249",
+  "critical": "Galen, 1970",
+  "latin": "De venae sectione adversus Erasistrateos Romae degentes, 1826, vol. 11, pp. 187-249. urn:cts:greekLit:tlg0057.tlg069.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Brain, 1986 (grc;eng) – source ;",
+    "url": "https://doi.org/10.1017/CBO9780511753565 ; https://www.sudoc.fr/009446168"
+   },
+   {
+    "cite": "Galen, 1970 (eng)",
+    "url": "https://www.worldcat.org/fr/title/11338038"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg070",
+  "title": "De curandi ratione per venae sectionem (De cur. rat. per venae sect.)",
+  "fichtner": "073",
+  "kuhn": "11.250-316",
+  "critical": "",
+  "latin": "De curandi ratione per venae sectionem, 1826, vol. 11, pp. 250-316. urn:cts:greekLit:tlg0057.tlg070.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Brain, 1986 (grc;eng)",
+    "url": "https://doi.org/10.1017/CBO9780511753565 ; https://www.sudoc.fr/009446168"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg071",
+  "title": "De hirudinibus, revulsione, cucurbitula, incisione, et scarificatione (De hirudinibus)",
+  "fichtner": "074",
+  "kuhn": "11.317-322",
+  "critical": "",
+  "latin": "De hirudinibus, revulsione, cucurbitula, incisione et scarificatione, 1826, vol. 11, pp. 317-322. urn:cts:greekLit:tlg0057.tlg071.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg072",
+  "title": "De purgantium medicamentorum facultate (De purg. med. fac.)",
+  "fichtner": "075",
+  "kuhn": "11.323-342",
+  "critical": "",
+  "latin": "De purgantium medicamentorum facultate, 1826, vol. 11, pp. 323-342. urn:cts:greekLit:tlg0057.tlg072.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg074",
+  "title": "Puero epileptico consilium (Puero epil. consil.)",
+  "fichtner": "077",
+  "kuhn": "11.357-378",
+  "critical": "",
+  "latin": "Pro puero epileptico consilium, 1826, vol. 11, pp. 357-378. urn:cts:greekLit:tlg0057.tlg074.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Temkin, 1934 (eng) – source ;",
+    "url": "https://www.jstor.org/stable/44437787"
+   },
+   {
+    "cite": "Galen, 2010 (grc-deu) – source ;",
+    "url": "https://www.worldcat.org/fr/title/724232061"
+   },
+   {
+    "cite": "Galen, 1911 (grc;deu) – source ;",
+    "url": "https://www.worldcat.org/fr/title/729170568"
+   },
+   {
+    "cite": "Botto Micca, 1930 (grc;ita)",
+    "url": "https://www.worldcat.org/fr/title/5894399173 ; https://opac.museogalileo.it/imss/resource?uri=000000902884&l=en"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg075",
+  "title": "De simplicium medicamentorum facultatibus (De simpl. med. fac.)",
+  "fichtner": "078",
+  "kuhn": "11-12.379-892 1-377",
+  "critical": "",
+  "latin": "De simplicium medicamentorum temperamentis ac facultatibus, 1826, vol. 11-12, pp. 379-892 1-377. urn:cts:greekLit:tlg0057.tlg075.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg076",
+  "title": "De compositione medicamentorum secundum locos (De comp. med. sec. loc.)",
+  "fichtner": "080",
+  "kuhn": "",
+  "critical": "",
+  "latin": "De compositione medicamentorum secundum locos, 1826, vol. 12-13, pp. 378-1007;1-361. urn:cts:greekLit:tlg0057.tlg076.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Santana Henríquez, 2005 (grc;spa)",
+    "url": "https://www.sudoc.fr/130323810"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg077",
+  "title": "De compositione medicamentorum per genera (De comp. med. per gen.)",
+  "fichtner": "082",
+  "kuhn": "13.362-1058",
+  "critical": "",
+  "latin": "De compositione medicamentorum per genera, 1827, vol. 13, pp. 362-1058. urn:cts:greekLit:tlg0057.tlg077.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg078",
+  "title": "De antidotis (De antid.)",
+  "fichtner": "083",
+  "kuhn": "14.1-209",
+  "critical": "",
+  "latin": "De antidotis, 1827, vol. 14, pp. 1-209. urn:cts:greekLit:tlg0057.tlg078.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Galen, 1980 (grc;deu)",
+    "url": "https://wellcomecollection.org/works/kqas3nuu"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg079",
+  "title": "",
+  "fichtner": "084",
+  "kuhn": "14.210-294",
+  "critical": "Boudon-Millot, 2016 (grc;fra)",
+  "latin": "Ad Pisonem de theriaca, 1827, vol. 14, pp. 210-294. urn:cts:greekLit:tlg0057.tlg079.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2016 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Boudon-Millot, 2016 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/197168949"
+   },
+   {
+    "cite": "Coturri, 1959 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/07068054X"
+   },
+   {
+    "cite": "Galen, 1969 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/117739138"
+   },
+   {
+    "cite": "Galen, 1898 (grc;deu) – source ;",
+    "url": "https://www.sudoc.fr/025363050"
+   },
+   {
+    "cite": "Galen, 2011 (grc;eng)",
+    "url": "https://www.sudoc.fr/190630353"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg032",
+  "title": "",
+  "fichtner": "085",
+  "kuhn": "14.295-310",
+  "critical": "Boudon-Millot, 2021 (grc;fra)",
+  "latin": "De theriaca ad Pamphilianum, 1827, vol. 14, pp. 295-310. urn:cts:greekLit:tlg0530.tlg032.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2021 (grc;fra)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg029",
+  "title": "",
+  "fichtner": "086",
+  "kuhn": "14.311-581",
+  "critical": "",
+  "latin": "De remediis parabilibus, 1827, vol. 14, pp. 311-581. urn:cts:greekLit:tlg0530.tlg029.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Brodersen, 2020 (grc;deu)",
+    "url": "https://www.sudoc.fr/254474616"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg082",
+  "title": "De captionibus penes dictionem (De capt. penes dict.)",
+  "fichtner": "087",
+  "kuhn": "14.582-598",
+  "critical": "Ebbesen, 1981 (grc;eng); Gabler, 1903",
+  "latin": "De sophismatis seu captionibus penes dictionem, 1827, vol. 14, pp. 582-598. urn:cts:greekLit:tlg0057.tlg082.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Dalimier, 1998 (fra) – source ;",
+    "url": "https://www.sudoc.fr/004504534"
+   },
+   {
+    "cite": "Martínez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Galeno, 2002 (ita) – source ;",
+    "url": "https://www.sudoc.fr/075096463"
+   },
+   {
+    "cite": "Edlow, 1977 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/005302382"
+   },
+   {
+    "cite": "Ebbesen, 1981 (grc;eng)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg083",
+  "title": "De praecognitione ad Epigenem (De praecogn.)",
+  "fichtner": "088",
+  "kuhn": "14.599-673",
+  "critical": "Nutton, 1979 (grc;eng)",
+  "latin": "De praenotione ad Posthumum, 1827, vol. 14, pp. 599-673. urn:cts:greekLit:tlg0057.tlg083.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Nutton, 1979 (grc;eng) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_08_01.php?p=65"
+   },
+   {
+    "cite": "Martínez Manzano, 2002 (spa)",
+    "url": "https://www.sudoc.fr/087532166"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg012",
+  "title": "",
+  "fichtner": "089",
+  "kuhn": "14.674-797",
+  "critical": "",
+  "latin": "Introductio seu medicus, 1827, vol. 14, pp. 674-797. urn:cts:greekLit:tlg0530.tlg012.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pseudo-Galenus, 1964 (nld) – source ;",
+    "url": "https://www.sudoc.fr/064562476"
+   },
+   {
+    "cite": "Petit, 2009 (grc;fra)",
+    "url": "https://www.sudoc.fr/139244379"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg085",
+  "title": "In Hippocratis De natura hominis commentaria libr. I-II (In Hipp. De nat. hom. comm.)",
+  "fichtner": "090",
+  "kuhn": "15.1-173",
+  "critical": "Mewaldt, 1914",
+  "latin": "Hippocratis De natura hominis et Galeni in eum commentarius, 1828, vol. 15, pp. 1-173. urn:cts:greekLit:tlg0057.tlg085.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg086",
+  "title": "In Hippocratis De natura hominis commentaria lib. III (In Hipp. De nat. hom. comm.)",
+  "fichtner": "091",
+  "kuhn": "15.174-223",
+  "critical": "",
+  "latin": "Galeni In Hippocratis vel Polybi opus De salubri victus ratione privatorum commentarius, 1822, vol. 15, pp. 174-223. urn:cts:greekLit:tlg0057.tlg086.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg087",
+  "title": "In Hippocratis De victu acutorum commentaria (In Hipp. De victu acut. comm.)",
+  "fichtner": "093",
+  "kuhn": "15.418-919",
+  "critical": "Helmreich, 1914; Pietrobelli, 2019 (grc;fra)",
+  "latin": "Hippocratis De acutorum morborum victu liber et Galeni commentarius, 1828, vol. 15, pp. 418-919. urn:cts:greekLit:tlg0057.tlg087.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pietrobelli, 2019 (grc;fra)",
+    "url": "https://www.sudoc.fr/236337785"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg088",
+  "title": "In Hippocratis Prorrheticum I commentaria (In Hipp. Prorrh. I comm.)",
+  "fichtner": "095",
+  "kuhn": "16.489-840",
+  "critical": "Diels, 1915",
+  "latin": "Galeni in Hippocratis Praedictionum librum I commentarius, 1829, vol. 16, pp. 489-840. urn:cts:greekLit:tlg0057.tlg088.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg092",
+  "title": "In Hippocratis Aphorismos commentaria (In Hipp. Aphor. comm.)",
+  "fichtner": "101",
+  "kuhn": "17b-18a.345-887 1-195",
+  "critical": "Savino, 2020 (grc;ita)",
+  "latin": "Hippocratis Aphorismi et Galeni in eos commentarii, 1827, vol. 17b-18a, pp. 345-887 1-195. urn:cts:greekLit:tlg0057.tlg092.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Savino, 2020 (grc;ita)",
+    "url": "https://www.sudoc.fr/248735810"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg093",
+  "title": "Adversus Lycum (Adv. Lycum)",
+  "fichtner": "103",
+  "kuhn": "18a.196-245",
+  "critical": "Wenkebach, 1951",
+  "latin": "Adversus Lycum, 1829, vol. 18a, pp. 196-245. urn:cts:greekLit:tlg0057.tlg093.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg094",
+  "title": "Adversus ea quae Iuliano in Hippocratis aphorismos enuntiata sunt (Adv. Iul.)",
+  "fichtner": "104",
+  "kuhn": "18a.246-299",
+  "critical": "Wenkebach, 1951",
+  "latin": "Adversus ea quae Juliano in Hippocratis Aphorismos enunciata sunt, 1829, vol. 18a, pp. 246-299. urn:cts:greekLit:tlg0057.tlg094.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Tecusan, 2004 (grc;eng)",
+    "url": "https://www.sudoc.fr/076072061"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg095",
+  "title": "In Hippocratis De articulis commentaria (In Hipp. De artic. comm.)",
+  "fichtner": "105",
+  "kuhn": "18a.300-767",
+  "critical": "",
+  "latin": "Hippocratis De articulis liber et Galeni in eum commentarii, 1829, vol. 18a, pp. 300-767. urn:cts:greekLit:tlg0057.tlg095.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Abballe, 1972 (ita)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg005",
+  "title": "",
+  "fichtner": "107",
+  "kuhn": "18a.768-827",
+  "critical": "Schubring, 1963",
+  "latin": "De fasciis, 1829, vol. 18a, pp. 768-827. urn:cts:greekLit:tlg0530.tlg005.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Schubring, 1963 (grc;deu)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg099",
+  "title": "In Hippocratis Prognosticum commentaria (In Hipp. Progn. comm.)",
+  "fichtner": "109",
+  "kuhn": "18b.1-317",
+  "critical": "Heeg, 1915",
+  "latin": "Hippocratis Prognosticon et Galeni in eum librum commentarius, 1830, vol. 18b, pp. 1-317. urn:cts:greekLit:tlg0057.tlg099.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Rubio Fernaz, 2010 (spa)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg100",
+  "title": "In Hippocratis De fracturis commentaria (In Hipp. De fract. comm.)",
+  "fichtner": "110",
+  "kuhn": "18b.318-628",
+  "critical": "",
+  "latin": "Hippocratis De fracturis et Galeni in eum commentarius, 1830, vol. 18b, pp. 318-628. urn:cts:greekLit:tlg0057.tlg100.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Andreoni, 1972 (ita)",
+    "url": "https://opac.bncf.firenze.sbn.it/bncf-prod/resource?uri=LO10053016&v=l&dcnr=3"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg101",
+  "title": "In Hippocratis De officina medici commentaria (In Hipp. De off. med. comm.)",
+  "fichtner": "111",
+  "kuhn": "18b.629-925",
+  "critical": "Lyons, 1963 (ara;eng)",
+  "latin": "Hippocratis De medici officina liber et Galeni in eum commentarius, 1830, vol. 18b, pp. 629-925. urn:cts:greekLit:tlg0057.tlg101.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Lyons, 1963 (ara;eng) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/suppl_or_01.php"
+   },
+   {
+    "cite": "Lyons, 1963 (ara;eng)",
+    "url": "https://cmg.bbaw.de/epubl/online/suppl_or_01.php"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg102",
+  "title": "De musculorum dissectione ad tirones (De musc. dissect.)",
+  "fichtner": "112",
+  "kuhn": "18b.926-1026",
+  "critical": "Garofalo, 2005 (grc;fra)",
+  "latin": "De musculorum dissectione ad tirones, 1830, vol. 18b, pp. 926-1026. urn:cts:greekLit:tlg0057.tlg102.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Garofalo, 2005 (grc;fra) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Goss, 1963 (eng) – source ;",
+    "url": "http://www.globalauthorid.com/WebPortal/ArticleView?wd=738CA3F32DBBA66365D5A50AEB9E5A2174644809A54F19F7"
+   },
+   {
+    "cite": "Garofalo, 2005 (grc;fra)",
+    "url": "https://www.sudoc.fr/084552883"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg115",
+  "title": "*Quomodo morbum simulantes sint deprehendendi* (Quomodo morbum simul. sint deprehend.)",
+  "fichtner": "113",
+  "kuhn": "19.1-7",
+  "critical": "",
+  "latin": "*Quomodo morbum simulantes sint deprehendendi*, 1830, vol. 19, pp. 1-7. urn:cts:greekLit:tlg0057.tlg115.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg104",
+  "title": "De libris propriis (De libris propr.)",
+  "fichtner": "114",
+  "kuhn": "19.8-48",
+  "critical": "Boudon-Millot, 2007 (grc;fra); Müller, 1891",
+  "latin": "De libris propriis, 1830, vol. 19, pp. 8-48. urn:cts:greekLit:tlg0057.tlg104.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2007 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/113177674"
+   },
+   {
+    "cite": "Martínez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Singer, 1997 (eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Garofalo, 1978 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Hayes, 2014 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/188328254"
+   },
+   {
+    "cite": "Vegetti, 2013 (grc;ita)",
+    "url": "https://www.sudoc.fr/187395373"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg105",
+  "title": "De ordine librorum suorum ad Eugenianum (De ord. libror. suor.)",
+  "fichtner": "115",
+  "kuhn": "19.49-61",
+  "critical": "Boudon-Millot, 2007 (grc;fra); Müller, 1891",
+  "latin": "De ordine librorum suorum ad Eugenianum, 1830, vol. 19, pp. 49-61. urn:cts:greekLit:tlg0057.tlg105.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Boudon-Millot, 2007 (grc;fra) – source ;",
+    "url": "https://www.sudoc.fr/113177674"
+   },
+   {
+    "cite": "Martínez Manzano, 2002 (spa) – source ;",
+    "url": "https://www.sudoc.fr/087532166"
+   },
+   {
+    "cite": "Vegetti, 2013 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/187395373"
+   },
+   {
+    "cite": "Hayes, 2014 (grc;eng) – source ;",
+    "url": "https://www.sudoc.fr/188328254"
+   },
+   {
+    "cite": "Singer, 1997 (eng)",
+    "url": "https://www.sudoc.fr/080806805"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg106",
+  "title": "Vocum Hippocratis Glossarium (Voc. Hipp. gloss.)",
+  "fichtner": "116",
+  "kuhn": "19.62-157",
+  "critical": "Perilli, 2017 (grc;ita)",
+  "latin": "Vocum Hippocratis Glossarium, 1830, vol. 19, pp. 62-157. urn:cts:greekLit:tlg0057.tlg106.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Perilli, 2017 (grc;ita)",
+    "url": "https://cmg.bbaw.de/epubl/online/cmg_05_13_01.php?p=142=288"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg002",
+  "title": "",
+  "fichtner": "117",
+  "kuhn": "19.158-181",
+  "critical": "Wagner, 1914",
+  "latin": "An animal sit quod est in utero, 1830, vol. 19, pp. 158-181. urn:cts:greekLit:tlg0530.tlg002.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Colucci, 1971 (ita)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg037",
+  "title": "",
+  "fichtner": "118",
+  "kuhn": "19.182-221",
+  "critical": "Westenberger, 1914; Lyons, 1969 (ara;eng)",
+  "latin": "De diaeta Hippocratis in morbis acutis, 1830, vol. 19, pp. 182-221. urn:cts:greekLit:tlg0530.tlg037.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Lyons, 1969 (ara;eng)",
+    "url": "https://cmg.bbaw.de/epubl/online/suppl_or_02.php?p=75"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg042",
+  "title": "",
+  "fichtner": "119",
+  "kuhn": "19.222-345",
+  "critical": "Diels, 1929",
+  "latin": "De historia philosopha, 1830, vol. 19, pp. 222-345. urn:cts:greekLit:tlg0530.tlg042.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg041",
+  "title": "",
+  "fichtner": "120",
+  "kuhn": "19.346-462",
+  "critical": "",
+  "latin": "Definitiones medicae, 1830, vol. 19, pp. 346-462. urn:cts:greekLit:tlg0530.tlg041.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Lafont, 1947 (spa) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Kollesch, 2022 (grc;deu)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg111",
+  "title": "Quod qualitates incorporeae sint (Quod qual. incorp. sint)",
+  "fichtner": "121",
+  "kuhn": "19.463-484",
+  "critical": "Westenberger, 1906",
+  "latin": "Quod qualitates incorporeae sint, 1830, vol. 19, pp. 463-484. urn:cts:greekLit:tlg0057.tlg111.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Giusta, 1976 (grc;ita)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg009",
+  "title": "",
+  "fichtner": "122",
+  "kuhn": "19.485-496",
+  "critical": "",
+  "latin": "De humoribus, 1830, vol. 19, pp. 485-496. urn:cts:greekLit:tlg0530.tlg009.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Schmidt, 1964 (grc;deu) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Marra, 1966 (ita) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Grant, 2000 (eng)",
+    "url": "https://www.sudoc.fr/060988282"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg036",
+  "title": "",
+  "fichtner": "125",
+  "kuhn": "19.519-528",
+  "critical": "",
+  "latin": "De venae sectione, 1830, vol. 19, pp. 519-528. urn:cts:greekLit:tlg0530.tlg036.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg024",
+  "title": "",
+  "fichtner": "126",
+  "kuhn": "19.529-573",
+  "critical": "",
+  "latin": "Prognostica de decubitu ex mathematica scientia, 1830, vol. 19, pp. 529-573. urn:cts:greekLit:tlg0530.tlg024.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg033",
+  "title": "",
+  "fichtner": "127",
+  "kuhn": "19.574-601",
+  "critical": "",
+  "latin": "De urinis, 1830, vol. 19, pp. 573-601. urn:cts:greekLit:tlg0530.tlg033.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pseudo-Galen, 1937 (deu)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg034",
+  "title": "",
+  "fichtner": "128",
+  "kuhn": "19.602-608",
+  "critical": "",
+  "latin": "De urinis compendium, 1830, vol. 19, pp. 602-608. urn:cts:greekLit:tlg0530.tlg034.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg035",
+  "title": "",
+  "fichtner": "129",
+  "kuhn": "19.609-628",
+  "critical": "",
+  "latin": "De urinis ex Hippocrate, Galeno aliisque quibusdam, 1830, vol. 19, pp. 609-628. urn:cts:greekLit:tlg0530.tlg035.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Mitaritonna, 1968 (ita)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg026",
+  "title": "",
+  "fichtner": "130",
+  "kuhn": "19.629-642",
+  "critical": "",
+  "latin": "De pulsibus ad Antonium disciplinae studiosum et philosophum, 1830, vol. 19, pp. 629-642. urn:cts:greekLit:tlg0530.tlg026.verbatim-lat1",
+  "translations": [
+   {
+    "cite": "Pseudo-Galen, 1940 (deu)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg045",
+  "title": "",
+  "fichtner": "",
+  "kuhn": "19.643-698",
+  "critical": "",
+  "latin": "De affectuum renibus insidentium dignotione et curatione, 1830, vol. 19, pp. 643-698. urn:cts:greekLit:tlg0530.tlg045.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg031",
+  "title": "",
+  "fichtner": "133",
+  "kuhn": "19.721-747",
+  "critical": "",
+  "latin": "De succedaneis, 1830, vol. 19, pp. 721-747. urn:cts:greekLit:tlg0530.tlg031.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg022",
+  "title": "",
+  "fichtner": "134",
+  "kuhn": "19.748-781",
+  "critical": "Hultsch, 1864",
+  "latin": "De ponderibus et mensuris, 1830, vol. 19, pp. 748-781. urn:cts:greekLit:tlg0530.tlg022.verbatim-lat1",
+  "translations": []
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0530.tlg006",
+  "title": "",
+  "fichtner": "138",
+  "kuhn": "",
+  "critical": "Kalbfleisch, 1895",
+  "latin": "",
+  "translations": [
+   {
+    "cite": "Wilberding, 2011 (eng)",
+    "url": "https://www.sudoc.fr/153416793"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg103",
+  "title": "De consuetudinibus (De consuet.)",
+  "fichtner": "202",
+  "kuhn": "",
+  "critical": "Pfaff, 1941 (grc;lat;deu)",
+  "latin": "",
+  "translations": [
+   {
+    "cite": "Pfaff, 1941 (grc;lat;deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/suppl_03.php?p=47"
+   },
+   {
+    "cite": "Daremberg, 1854 (fra) – source ;",
+    "url": "https://opacplus.bsb-muenchen.de/Vta2/bsb10236008/bsb:BV009347829?page=116"
+   },
+   {
+    "cite": "Brock, 1929 (eng)",
+    "url": ""
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg107",
+  "title": "De experientia medica (De exper. med.)",
+  "fichtner": "235",
+  "kuhn": "",
+  "critical": "Walzer, 1944",
+  "latin": "",
+  "translations": [
+   {
+    "cite": "Pellegrin, 1998 (fra) – source ;",
+    "url": "https://www.sudoc.fr/004504534"
+   },
+   {
+    "cite": "Walzer, 1985 (eng)",
+    "url": "https://www.sudoc.fr/012818712"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg019",
+  "title": "De victu attenuante (De victu att.)",
+  "fichtner": "349",
+  "kuhn": "",
+  "critical": "Kalbfleisch, 1923; Marinone, 1973 (grc;ita)",
+  "latin": "",
+  "translations": [
+   {
+    "cite": "Frieboes, 1903 (deu) – source ;",
+    "url": "https://cmg.bbaw.de/epubl/online/wa_Gal_saefteverduennende_Diaet.php?custom=1&pn=22&AnzFrames=1"
+   },
+   {
+    "cite": "Moszynski, 1982 (pol) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Marinone, 1973 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/108236803"
+   },
+   {
+    "cite": "Singer, 1997 (eng) – source ;",
+    "url": "https://www.sudoc.fr/080806805"
+   },
+   {
+    "cite": "Beintker, 1952 (deu)",
+    "url": "https://www.sudoc.fr/241071488"
+   }
+  ]
+ },
+ {
+  "urn": "urn:cts:greekLit:tlg0057.tlg081",
+  "title": "Institutio logica (Inst. log.)",
+  "fichtner": "402",
+  "kuhn": "",
+  "critical": "Kalbfleisch, 1896",
+  "latin": "",
+  "translations": [
+   {
+    "cite": "Hošek, 1958 (ces/cze) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Ramírez Trejo, 1982 (grc;spa) – source ;",
+    "url": "https://www.sudoc.fr/006406300"
+   },
+   {
+    "cite": "Ingravalle, 2014 (ita) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Garofalo, 1978 (grc;ita) – source ;",
+    "url": "https://www.sudoc.fr/01958069X"
+   },
+   {
+    "cite": "Pellegrin, 1998 (fra) – source ;",
+    "url": "https://www.sudoc.fr/004504534"
+   },
+   {
+    "cite": "Kieffer, 1964 (eng) – source ;",
+    "url": "https://www.sudoc.fr/014764687"
+   },
+   {
+    "cite": "Orth, 1938 (deu) – source ;",
+    "url": ""
+   },
+   {
+    "cite": "Mau, 1960 (grc;deu)",
+    "url": "https://www.sudoc.fr/01657642X"
+   }
+  ]
+ }
+]
