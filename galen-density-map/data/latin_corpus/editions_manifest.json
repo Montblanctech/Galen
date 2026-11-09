@@ -1,0 +1,1471 @@
+{
+ "phi0978.phi001": {
+  "author": "Pliny, the Elder",
+  "title": "Naturalis Historia",
+  "citations": 23381,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0978.phi001.perseus-lat2.xml": 13243638
+  }
+ },
+ "phi0914.phi001": {
+  "author": "Titus Livius (Livy)",
+  "title": "Ab urbe condita",
+  "citations": 23100,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0914.phi001.perseus-lat2.xml": 7295656,
+   "phi0914.phi001.perseus-lat3.xml": 4684342,
+   "phi0914.phi001.perseus-lat4.xml": 5951469,
+   "phi0914.phi001.perseus-lat5.xml": 3012877
+  }
+ },
+ "phi1002.phi001": {
+  "author": "Quintilian",
+  "title": "Institutio Oratoria",
+  "citations": 11959,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1002.phi001.perseus-lat2.xml": 2683107
+  }
+ },
+ "phi0959.phi006": {
+  "author": "Ovid",
+  "title": "Metamorphoses",
+  "citations": 10176,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi006.perseus-lat2.xml": 931299
+  }
+ },
+ "phi0690.phi003": {
+  "author": "P. Vergilius Maro (Virgil)",
+  "title": "Aeneid",
+  "citations": 8526,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0690.phi003.perseus-lat2.xml": 694937
+  }
+ },
+ "phi0550.phi001": {
+  "author": "Lucretius",
+  "title": "De Rerum Natura",
+  "citations": 6781,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0550.phi001.perseus-lat1.xml": 459795
+  }
+ },
+ "phi0474.phi056": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Letters to his Friends",
+  "citations": 5664,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi056.perseus-lat2.xml": 1124134
+  }
+ },
+ "phi0474.phi057": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Letters to Atticus",
+  "citations": 5366,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi057.perseus-lat2.xml": 1327999
+  }
+ },
+ "phi0448.phi001": {
+  "author": "Julius Caesar",
+  "title": "Gallic War",
+  "citations": 5177,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0448.phi001.perseus-lat2.xml": 691991
+  }
+ },
+ "phi1351.phi005": {
+  "author": "Tacitus, Cornelius",
+  "title": "Annales",
+  "citations": 5107,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1351.phi005.perseus-lat2.xml": 778483
+  }
+ },
+ "phi0474.phi005": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "In C. Verrem",
+  "citations": 4655,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi005.perseus-lat2.xml": 1320692
+  }
+ },
+ "phi1254.phi001": {
+  "author": "Gellius, Aulus",
+  "title": "Noctes Atticae",
+  "citations": 4389,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1254.phi001.perseus-lat2.xml": 1469718
+  }
+ },
+ "phi0474.phi037": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "On Oratory",
+  "citations": 4300,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi037.perseus-lat2.xml": 566539
+  }
+ },
+ "phi0893.phi002": {
+  "author": "Horace",
+  "title": "Carmen Saeculare",
+  "citations": 4039,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0893.phi002.perseus-lat2.xml": 7857
+  }
+ },
+ "phi1276.phi001": {
+  "author": "Juvenal",
+  "title": "Saturae",
+  "citations": 3845,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1276.phi001.perseus-lat2.xml": 366144
+  }
+ },
+ "phi0474.phi049": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Tusculanae Disputationes",
+  "citations": 3597,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi049.perseus-lat2.xml": 760670
+  }
+ },
+ "phi1294.phi002": {
+  "author": "Martial",
+  "title": "Epigrammata",
+  "citations": 3524,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1294.phi002.perseus-lat2.xml": 960064
+  }
+ },
+ "phi0893.phi004": {
+  "author": "Horace",
+  "title": "Satires",
+  "citations": 3198,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0893.phi004.perseus-lat2.xml": 176460
+  }
+ },
+ "phi0690.phi002": {
+  "author": "P. Vergilius Maro (Virgil)",
+  "title": "Georgics",
+  "citations": 3036,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0690.phi002.perseus-lat2.xml": 176105
+  }
+ },
+ "phi0474.phi055": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Officiis",
+  "citations": 3008,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi055.perseus-lat2.xml": 309457
+  }
+ },
+ "phi0474.phi050": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Natura Deorum",
+  "citations": 2931,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi050.perseus-lat2.xml": 328419
+  }
+ },
+ "phi0448.phi002": {
+  "author": "Julius Caesar",
+  "title": "Civil War",
+  "citations": 2840,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0448.phi002.perseus-lat2.xml": 331853,
+   "phi0448.phi002.perseus-lat3.xml": 260700
+  }
+ },
+ "phi0474.phi035": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Philippicae",
+  "citations": 2661,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi035.perseus-lat2.xml": 705704
+  }
+ },
+ "phi0860.phi001": {
+  "author": "Curtius Rufus, Quintus",
+  "title": "Historiarum Alexandri Magni",
+  "citations": 2648,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0860.phi001.perseus-lat2.xml": 912268
+  }
+ },
+ "phi1351.phi004": {
+  "author": "Tacitus, Cornelius",
+  "title": "Historiae",
+  "citations": 2626,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1351.phi004.perseus-lat2.xml": 453247
+  }
+ },
+ "phi0474.phi048": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "de Finibus Bonorum et Malorum",
+  "citations": 2570,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi048.perseus-lat2.xml": 532712
+  }
+ },
+ "phi0959.phi007": {
+  "author": "Ovid",
+  "title": "Fasti",
+  "citations": 2488,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi007.perseus-lat2.xml": 383373
+  }
+ },
+ "phi0620.phi001": {
+  "author": "Propertius, Sextus",
+  "title": "Elegiae",
+  "citations": 2438,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0620.phi001.perseus-lat3.xml": 230572
+  }
+ },
+ "phi0474.phi043": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Republica",
+  "citations": 2433,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi043.perseus-lat2.xml": 214263
+  }
+ },
+ "phi0631.phi002": {
+  "author": "Sallust",
+  "title": "Bellum Iugurthinum",
+  "citations": 2308,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0631.phi002.perseus-lat3.xml": 186280,
+   "phi0631.phi002.perseus-lat4.xml": 162606
+  }
+ },
+ "phi0474.phi053": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Divinatione",
+  "citations": 2179,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi053.perseus-lat3.xml": 252509,
+   "phi0474.phi053.perseus-lat4.xml": 268227
+  }
+ },
+ "phi1017.phi015": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Epistulae",
+  "citations": 2094,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi015.perseus-lat2.xml": 1274876
+  }
+ },
+ "phi0836.phi002": {
+  "author": "Celsus, Aulus Cornelius",
+  "title": "De Medicina",
+  "citations": 2046,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0836.phi002.perseus-lat4.xml": 741623,
+   "phi0836.phi002.perseus-lat5.xml": 893899,
+   "phi0836.phi002.perseus-lat6.xml": 833266
+  }
+ },
+ "phi1056.phi001": {
+  "author": "Vitruvius Pollio",
+  "title": "On Architecture",
+  "citations": 1991,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1056.phi001.perseus-lat2.xml": 552982
+  }
+ },
+ "phi0917.phi001": {
+  "author": "Lucan",
+  "title": "Civil War",
+  "citations": 1985,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0917.phi001.perseus-lat2.xml": 648640
+  }
+ },
+ "phi0474.phi039": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Brutus",
+  "citations": 1919,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi039.perseus-lat2.xml": 317575
+  }
+ },
+ "phi1020.phi001": {
+  "author": "Statius, P. Papinius (Publius Papinius)",
+  "title": "Thebais",
+  "citations": 1748,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1020.phi001.perseus-lat2.xml": 887747
+  }
+ },
+ "phi0472.phi001": {
+  "author": "Catullus, C. Valerius",
+  "title": "Carmina",
+  "citations": 1684,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0472.phi001.perseus-lat2.xml": 290379
+  }
+ },
+ "phi0631.phi001": {
+  "author": "Sallust",
+  "title": "Catilinae Coniuratio",
+  "citations": 1536,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0631.phi001.perseus-lat3.xml": 99340,
+   "phi0631.phi001.perseus-lat4.xml": 85593
+  }
+ },
+ "phi0119.phi019": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Trinummus",
+  "citations": 1511,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi019.perseus-lat2.xml": 212195
+  }
+ },
+ "phi1035.phi001": {
+  "author": "Valerius Flaccus, Gaius",
+  "title": "Argonautica",
+  "citations": 1481,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1035.phi001.perseus-lat2.xml": 906886
+  }
+ },
+ "phi0959.phi002": {
+  "author": "Ovid",
+  "title": "Epistulae",
+  "citations": 1479,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi002.perseus-lat2.xml": 278042
+  }
+ },
+ "phi0119.phi012": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Miles Gloriosus",
+  "citations": 1434,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi012.perseus-lat2.xml": 279797
+  }
+ },
+ "phi0134.phi003": {
+  "author": "Terence",
+  "title": "Eunuchus",
+  "citations": 1432,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0134.phi003.perseus-lat2.xml": 240216
+  }
+ },
+ "phi0474.phi040": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Orator",
+  "citations": 1388,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi040.perseus-lat2.xml": 243910
+  }
+ },
+ "phi0119.phi001": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Amphitruo",
+  "citations": 1367,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi001.perseus-lat2.xml": 270378
+  }
+ },
+ "phi0959.phi008": {
+  "author": "Ovid",
+  "title": "Tristia",
+  "citations": 1325,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi008.perseus-lat2.xml": 296799
+  }
+ },
+ "phi0474.phi052": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Amicitia",
+  "citations": 1322,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi052.perseus-lat2.xml": 95110
+  }
+ },
+ "phi1038.phi001": {
+  "author": "Valerius Maximus",
+  "title": "Facta et Dicta Memorabilia",
+  "citations": 1319,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1038.phi001.perseus-lat1.xml": 684990
+  }
+ },
+ "phi0134.phi001": {
+  "author": "Terence",
+  "title": "Andria",
+  "citations": 1317,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0134.phi001.perseus-lat2.xml": 216689
+  }
+ },
+ "phi0119.phi016": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Pseudolus",
+  "citations": 1312,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi016.perseus-lat2.xml": 249435
+  }
+ },
+ "phi0119.phi017": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Rudens",
+  "citations": 1239,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi017.perseus-lat2.xml": 266607
+  }
+ },
+ "phi0119.phi005": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Captivi",
+  "citations": 1211,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi005.perseus-lat2.xml": 236690
+  }
+ },
+ "phi0134.phi002": {
+  "author": "Terence",
+  "title": "Heautontimorumenos",
+  "citations": 1209,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0134.phi002.perseus-lat2.xml": 228464
+  }
+ },
+ "phi0119.phi004": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Bacchides",
+  "citations": 1203,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi004.perseus-lat2.xml": 222717
+  }
+ },
+ "phi0134.phi006": {
+  "author": "Terence",
+  "title": "Adelphi",
+  "citations": 1180,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0134.phi006.perseus-lat2.xml": 202512
+  }
+ },
+ "phi0119.phi015": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Poenulus",
+  "citations": 1146,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi015.perseus-lat2.xml": 265244
+  }
+ },
+ "phi0474.phi002": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro S. Roscio Amerino",
+  "citations": 1137,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi002.perseus-lat2.xml": 182110
+  }
+ },
+ "phi0119.phi013": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Mostellaria",
+  "citations": 1131,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi013.perseus-lat2.xml": 225102
+  }
+ },
+ "phi0690.phi001": {
+  "author": "P. Vergilius Maro (Virgil)",
+  "title": "Eclogues",
+  "citations": 1124,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0690.phi001.perseus-lat2.xml": 76737
+  }
+ },
+ "phi0474.phi013": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "In Catilinam",
+  "citations": 1123,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi013.perseus-lat2.xml": 175663
+  }
+ },
+ "phi0474.phi010": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro A. Cluentio",
+  "citations": 1080,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi010.perseus-lat2.xml": 331846
+  }
+ },
+ "phi0119.phi002": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Asinaria",
+  "citations": 1074,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi002.perseus-lat2.xml": 171367
+  }
+ },
+ "phi1242.phi001": {
+  "author": "Florus, Lucius Annaeus",
+  "title": "Epitome Rerum Romanorum",
+  "citations": 1036,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1242.phi001.perseus-lat1.xml": 328484
+  }
+ },
+ "phi0959.phi001": {
+  "author": "Ovid",
+  "title": "Amores",
+  "citations": 1033,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi001.perseus-lat2.xml": 208077
+  }
+ },
+ "phi0134.phi004": {
+  "author": "Terence",
+  "title": "Phormio",
+  "citations": 1032,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0134.phi004.perseus-lat2.xml": 228705
+  }
+ },
+ "phi0474.phi058": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Letters to his brother Quintus",
+  "citations": 1018,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi058.perseus-lat2.xml": 175801
+  }
+ },
+ "phi0959.phi004": {
+  "author": "Ovid",
+  "title": "Ars Amatoria",
+  "citations": 992,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi004.perseus-lat2.xml": 192768
+  }
+ },
+ "phi0474.phi036": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Inventione",
+  "citations": 982,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi036.perseus-lat2.xml": 274440
+  }
+ },
+ "phi0474.phi022": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro P. Sestio",
+  "citations": 958,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi022.perseus-lat2.xml": 226176
+  }
+ },
+ "phi0893.phi003": {
+  "author": "Horace",
+  "title": "Epodi",
+  "citations": 915,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0893.phi003.perseus-lat2.xml": 43814
+  }
+ },
+ "phi1020.phi002": {
+  "author": "Statius, P. Papinius (Publius Papinius)",
+  "title": "Silvae",
+  "citations": 911,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1020.phi002.perseus-lat2.xml": 286363
+  }
+ },
+ "phi0119.phi003": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Aulularia",
+  "citations": 907,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi003.perseus-lat2.xml": 144456
+  }
+ },
+ "phi0959.phi009": {
+  "author": "Ovid",
+  "title": "Ex Ponto",
+  "citations": 898,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi009.perseus-lat2.xml": 267083
+  }
+ },
+ "phi0119.phi010": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Menaechmi",
+  "citations": 869,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi010.perseus-lat2.xml": 210073
+  }
+ },
+ "phi0474.phi027": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "In L. Calpurnium Pisonem",
+  "citations": 830,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi027.perseus-lat2.xml": 103543
+  }
+ },
+ "phi0474.phi011": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Lege Agraria",
+  "citations": 814,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi011.perseus-lat2.xml": 135115
+  }
+ },
+ "phi0119.phi008": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Curculio",
+  "citations": 811,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi008.perseus-lat2.xml": 149510
+  }
+ },
+ "phi0119.phi020": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Truculentus",
+  "citations": 807,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi020.perseus-lat2.xml": 182070
+  }
+ },
+ "phi0119.phi006": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Casina",
+  "citations": 801,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi006.perseus-lat2.xml": 180889
+  }
+ },
+ "phi0119.phi014": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Persa",
+  "citations": 797,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi014.perseus-lat2.xml": 187694
+  }
+ },
+ "phi0119.phi009": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Epidicus",
+  "citations": 790,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi009.perseus-lat2.xml": 153826
+  }
+ },
+ "phi0474.phi014": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro L. Murena",
+  "citations": 786,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi014.perseus-lat2.xml": 156013
+  }
+ },
+ "phi0134.phi005": {
+  "author": "Terence",
+  "title": "Hecyra",
+  "citations": 783,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0134.phi005.perseus-lat2.xml": 164350
+  }
+ },
+ "phi0119.phi011": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Mercator",
+  "citations": 771,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi011.perseus-lat2.xml": 202055
+  }
+ },
+ "phi0474.phi031": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro T. Annio Milone",
+  "citations": 752,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi031.perseus-lat2.xml": 164130
+  }
+ },
+ "phi0474.phi028": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro Cn. Plancio",
+  "citations": 720,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi028.perseus-lat2.xml": 174838
+  }
+ },
+ "phi0474.phi051": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Senectute",
+  "citations": 713,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi051.perseus-lat2.xml": 88130
+  }
+ },
+ "phi0119.phi018": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Stichus",
+  "citations": 695,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi018.perseus-lat2.xml": 142437
+  }
+ },
+ "phi0969.phi001": {
+  "author": "Persius",
+  "title": "Saturae",
+  "citations": 693,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0969.phi001.perseus-lat2.xml": 59967
+  }
+ },
+ "phi0975.phi001": {
+  "author": "Phaedrus",
+  "title": "Fabulae Aesopiae",
+  "citations": 689,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0975.phi001.perseus-lat2.xml": 121116
+  }
+ },
+ "phi1017.phi013": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "De Beneficiis",
+  "citations": 612,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi013.perseus-lat2.xml": 439093
+  }
+ },
+ "phi0474.phi024": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro M. Caelio",
+  "citations": 607,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi024.perseus-lat2.xml": 148447
+  }
+ },
+ "phi0474.phi008": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro A. Caecina",
+  "citations": 567,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi008.perseus-lat2.xml": 94226
+  }
+ },
+ "phi1351.phi002": {
+  "author": "Tacitus, Cornelius",
+  "title": "Germania",
+  "citations": 538,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1351.phi002.perseus-lat2.xml": 72808
+  }
+ },
+ "phi1351.phi001": {
+  "author": "Tacitus, Cornelius",
+  "title": "Agricola",
+  "citations": 534,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1351.phi001.perseus-lat2.xml": 87376
+  }
+ },
+ "phi0119.phi007": {
+  "author": "Plautus, Titus Maccius",
+  "title": "Cistellaria",
+  "citations": 492,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0119.phi007.perseus-lat2.xml": 132716
+  }
+ },
+ "phi0474.phi015": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro P. Sulla",
+  "citations": 473,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi015.perseus-lat2.xml": 146458
+  }
+ },
+ "phi0474.phi009": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Imperio Cn. Pompei Ad Quirites",
+  "citations": 439,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi009.perseus-lat2.xml": 104008
+  }
+ },
+ "phi0474.phi004": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Divinatio in Q. Caecilium",
+  "citations": 363,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi004.perseus-lat2.xml": 76783
+  }
+ },
+ "phi0474.phi026": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro L. Cornelio Balbo",
+  "citations": 362,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi026.perseus-lat2.xml": 101356
+  }
+ },
+ "phi0474.phi003": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro Q. Roscio Comoedo",
+  "citations": 343,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi003.perseus-lat2.xml": 51023
+  }
+ },
+ "phi1014.phi001": {
+  "author": "Seneca the Elder",
+  "title": "Controversiae",
+  "citations": 340,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1014.phi001.perseus-lat1.xml": 532933
+  }
+ },
+ "phi0474.phi020": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Domo Sua Ad Pontifices",
+  "citations": 303,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi020.perseus-lat2.xml": 200911
+  }
+ },
+ "phi0474.phi042": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Topica",
+  "citations": 293,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi042.perseus-lat2.xml": 77778
+  }
+ },
+ "phi0474.phi072": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Timaeus",
+  "citations": 278,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi072.perseus-lat2.xml": 42387
+  }
+ },
+ "phi0474.phi016": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro Archia Poeta",
+  "citations": 274,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi016.perseus-lat2.xml": 52939
+  }
+ },
+ "phi0474.phi025": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Provinciis Consularibus",
+  "citations": 259,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi025.perseus-lat2.xml": 62836
+  }
+ },
+ "phi0474.phi047": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Paradoxa Stoicorum",
+  "citations": 255,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi047.perseus-lat2.xml": 49795
+  }
+ },
+ "phi0474.phi034": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro Rege Deiotaro",
+  "citations": 246,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi034.perseus-lat2.xml": 66070
+  }
+ },
+ "phi0474.phi054": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Fato",
+  "citations": 241,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi054.perseus-lat2.xml": 54691
+  }
+ },
+ "phi0474.phi007": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro Fonteio",
+  "citations": 240,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi007.perseus-lat2.xml": 70987
+  }
+ },
+ "stoa0255.stoa010": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Ira",
+  "citations": 237,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa010.perseus-lat2.xml": 233411
+  }
+ },
+ "phi2003.phi001": {
+  "author": "Apicius",
+  "title": "De Re Coquinaria",
+  "citations": 234,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi2003.phi001.perseus-lat1.xml": 142687
+  }
+ },
+ "phi0474.phi030": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro C. Rabirio Postumo",
+  "citations": 227,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi030.perseus-lat2.xml": 43535
+  }
+ },
+ "phi0631.phi003": {
+  "author": "Sallust",
+  "title": "Historiae",
+  "citations": 221,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0631.phi003.perseus-lat2.xml": 38434
+  }
+ },
+ "stoa0040.stoa011": {
+  "author": "Augustine, Saint",
+  "title": "Epistulae",
+  "citations": 219,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0040.stoa011.perseus-lat1.xml": 347175,
+   "stoa0040.stoa011.perseus-lat2.xml": 348670
+  }
+ },
+ "phi0959.phi010": {
+  "author": "Ovid",
+  "title": "Ibis",
+  "citations": 213,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi010.perseus-lat2.xml": 51453
+  }
+ },
+ "phi0474.phi012": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro C. Rabirio Perduellionis Reo Ad Quirites",
+  "citations": 186,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi012.perseus-lat2.xml": 38524
+  }
+ },
+ "phi0474.phi023": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Against Vatinius",
+  "citations": 186,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi023.perseus-lat2.xml": 62524
+  }
+ },
+ "phi1017.phi009": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Hercules Oetaeus",
+  "citations": 183,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi009.perseus-lat2.xml": 173396
+  }
+ },
+ "phi0474.phi038": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Partitiones Oratoriae",
+  "citations": 177,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi038.perseus-lat2.xml": 116733
+  }
+ },
+ "stoa0255.stoa014": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Vita Beata",
+  "citations": 175,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa014.perseus-lat2.xml": 66235
+  }
+ },
+ "phi1017.phi005": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Phaedra",
+  "citations": 163,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi005.perseus-lat2.xml": 106342
+  }
+ },
+ "phi0474.phi021": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Haruspicum Responso In P. Clodium",
+  "citations": 156,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi021.perseus-lat2.xml": 93001
+  }
+ },
+ "phi0474.phi033": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro Q. Ligario",
+  "citations": 156,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi033.perseus-lat2.xml": 56159
+  }
+ },
+ "phi1017.phi001": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Hercules Furens",
+  "citations": 151,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi001.perseus-lat2.xml": 115163
+  }
+ },
+ "stoa0255.stoa013": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Tranquillitate Animi",
+  "citations": 133,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa013.perseus-lat2.xml": 78763
+  }
+ },
+ "phi0845.phi002": {
+  "author": "Columella, Lucius Junius Moderatus",
+  "title": "Res Rustica",
+  "citations": 123,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0845.phi002.perseus-lat3.xml": 1166937
+  }
+ },
+ "phi1017.phi014": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "De Clementia",
+  "citations": 119,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi014.perseus-lat2.xml": 76411
+  }
+ },
+ "phi1017.phi004": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Medea",
+  "citations": 108,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi004.perseus-lat2.xml": 88498
+  }
+ },
+ "phi1017.phi008": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Thyestes",
+  "citations": 106,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi008.perseus-lat2.xml": 96531
+  }
+ },
+ "phi0474.phi041": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "De Optimo Genere Oratorum",
+  "citations": 100,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi041.perseus-lat2.xml": 23986
+  }
+ },
+ "stoa0255.stoa004": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Brevitate Vitae",
+  "citations": 98,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa004.perseus-lat2.xml": 57670
+  }
+ },
+ "phi1017.phi007": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Agamemnon",
+  "citations": 94,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi007.perseus-lat2.xml": 87502
+  }
+ },
+ "stoa0255.stoa006": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Consolatione ad Helviam",
+  "citations": 94,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa006.perseus-lat2.xml": 69528
+  }
+ },
+ "stoa0255.stoa007": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Consolatione ad Marciam",
+  "citations": 94,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa007.perseus-lat2.xml": 87188
+  }
+ },
+ "phi1017.phi002": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Troades Furens",
+  "citations": 91,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi002.perseus-lat2.xml": 102388
+  }
+ },
+ "phi1017.phi006": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Oedipus",
+  "citations": 89,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi006.perseus-lat2.xml": 92904
+  }
+ },
+ "phi0474.phi032": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro M. Marcello",
+  "citations": 86,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi032.perseus-lat2.xml": 46421
+  }
+ },
+ "phi0478.phi003": {
+  "author": "Quintus Tullius Cicero",
+  "title": "Commentariolum Petitionis",
+  "citations": 83,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0478.phi003.perseus-lat2.xml": 41681
+  }
+ },
+ "stoa0255.stoa009": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Constantia",
+  "citations": 70,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa009.perseus-lat2.xml": 53390
+  }
+ },
+ "phi1014.phi003": {
+  "author": "Seneca the Elder",
+  "title": "Suasoriae",
+  "citations": 62,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1014.phi003.perseus-lat1.xml": 87113
+  }
+ },
+ "stoa0255.stoa012": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Providentia",
+  "citations": 58,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa012.perseus-lat2.xml": 42623
+  }
+ },
+ "phi1020.phi003": {
+  "author": "Statius, P. Papinius (Publius Papinius)",
+  "title": "Achilleis",
+  "citations": 54,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1020.phi003.perseus-lat2.xml": 102075
+  }
+ },
+ "phi0474.phi019": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Cum Senatui Gratias Egit",
+  "citations": 51,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi019.perseus-lat2.xml": 58330
+  }
+ },
+ "stoa0255.stoa008": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Consolatione ad Polybium",
+  "citations": 46,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa008.perseus-lat2.xml": 57822
+  }
+ },
+ "phi0474.phi029": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro M. Scauro",
+  "citations": 41,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi029.perseus-lat2.xml": 49924
+  }
+ },
+ "phi1017.phi003": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Phoenissae",
+  "citations": 40,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi003.perseus-lat2.xml": 55527
+  }
+ },
+ "phi0474.phi001": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro P. Quinctio",
+  "citations": 38,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi001.perseus-lat2.xml": 84105
+  }
+ },
+ "phi1017.phi011": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Apocolocyntosis",
+  "citations": 38,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi011.perseus-lat2.xml": 35685
+  }
+ },
+ "phi0959.phi003": {
+  "author": "Ovid",
+  "title": "Medicamina faciei femineae",
+  "citations": 36,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi003.perseus-lat2.xml": 11710
+  }
+ },
+ "phi1351.phi003": {
+  "author": "Tacitus, Cornelius",
+  "title": "Dialogus",
+  "citations": 32,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1351.phi003.perseus-lat2.xml": 109456
+  }
+ },
+ "phi0972.phi001": {
+  "author": "Petronius",
+  "title": "Satyricon",
+  "citations": 31,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0972.phi001.perseus-lat1.xml": 272583,
+   "phi0972.phi001.perseus-lat2.xml": 388678
+  }
+ },
+ "phi0474.phi006": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro M. Tullio",
+  "citations": 27,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi006.perseus-lat2.xml": 50894
+  }
+ },
+ "stoa0255.stoa011": {
+  "author": "Seneca the Younger (dialogues)",
+  "title": "De Otio",
+  "citations": 21,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "stoa0255.stoa011.perseus-lat2.xml": 23490
+  }
+ },
+ "phi0474.phi018": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Cum Populo Gratias Egit",
+  "citations": 16,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi018.perseus-lat2.xml": 41639
+  }
+ },
+ "phi1017.phi010": {
+  "author": "Seneca the Younger (tragedies)",
+  "title": "Octavia",
+  "citations": 9,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi1017.phi010.perseus-lat2.xml": 93246
+  }
+ },
+ "phi0474.phi017": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Pro L. Flacco",
+  "citations": 6,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi017.perseus-lat2.xml": 105584
+  }
+ },
+ "phi0474.phi045": {
+  "author": "Cicero, Marcus Tullius",
+  "title": "Academica",
+  "citations": 3,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0474.phi045.perseus-lat2.xml": 91763
+  }
+ },
+ "phi0959.phi005": {
+  "author": "Ovid",
+  "title": "Remedia amoris",
+  "citations": 1,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0959.phi005.perseus-lat2.xml": 66801
+  }
+ },
+ "phi0893.phi001": {
+  "author": "Horace",
+  "title": "Carmina (Odes); cited by Lewis & Short as phi0893.phi002 book:ode:line",
+  "citations": 0,
+  "licence": "CC BY-SA 4.0, Perseus Digital Library (PerseusDL/canonical-latinLit)",
+  "files": {
+   "phi0893.phi001.perseus-lat2.xml": 245204
+  }
+ }
+}

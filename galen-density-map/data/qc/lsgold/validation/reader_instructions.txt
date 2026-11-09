@@ -1,0 +1,3 @@
+LS-GOLD VALIDATION SHEET (Latin)
+
+Each row shows a Lewis & Short headword and a Latin token in brackets inside its context (Perseus canonical-latinLit text, tokenised stream without punctuation). Answer is_instance = yes if the bracketed token is a form of that headword (any inflection; u/v and i/j spelling differences do not matter; an enclitic -que/-ne/-ve on the token does not matter), no if it is a form of some other word, unsure if the context does not let you decide. If no, give the headword the token really belongs to. Use only the sheet and your knowledge of Latin: no lemmatizer, no dictionary file, no web, no other file. Answer every row. Rows 80: random loci plus salted controls at unmarked positions.

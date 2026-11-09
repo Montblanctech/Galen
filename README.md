@@ -32,6 +32,8 @@ odyCy 75.7% and Stanza-PROIEL 72.0%, all on the same 90,452 loci; Stoicheia, a 2
 (Aeschylus 93.1 and Sophocles 94.4, above Dilemma there; Homer 88.4 and Plato 89.8, level with it; Herodotus 84.7 and
 Hippocrates 78.3, below it). On headwords LSJ cites only once: Dilemma 83.8%, Stoicheia 75.0%, the treebank-trained systems 51–53%. Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
 
+**LS-Gold (2026-11-08, on the lab branch, not yet a release) — the Latin twin of LSJ-Gold.** The words Lewis & Short (1879) cites for a headword, relocated into the Perseus canonical-latinLit editions and checked by two independent offline analysers (Collatinus and Whitaker's Words): **161,032 loci over 33 authors, 20,830 headwords**, blind relocation check 60/60 by two readers, CC BY-SA 4.0 (L&S's licence), with a [leaderboard](docs/ls-gold/index.html) built the same way as the Greek one. LatinCy 84.9%, CLTK 84.0%, Stanza la-proiel 75.5%, la-perseus 65.5%, la-ittb 65.3%, la-llct 44.4%, all on the same loci; on headwords L&S cites once the neural systems lose 15–25 points and the lexicon-backed ones do not, the same shape as the Greek table. Details: [`galen-density-map/data/qc/lsgold/README.md`](galen-density-map/data/qc/lsgold/README.md).
+
 ## Contents
 
 | Path | What |
@@ -48,6 +50,9 @@ Hippocrates 78.3, below it). On headwords LSJ cites only once: Dilemma 83.8%, St
 | [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0.csv`, 93,926 loci), scores, validation sheets, README |
 | [`release/lsj-gold-0.1/`](release/lsj-gold-0.1/) | The LSJ-Gold release folder (CSV, schema, scores, leaderboard JSON, CC BY 4.0, checksums) |
 | [`docs/lsj-gold/`](docs/lsj-gold/) | The leaderboard page and JSON (GitHub Pages) |
+| [`galen-density-map/data/qc/lsgold/`](galen-density-map/data/qc/lsgold/) | **LS-Gold**: the Latin twin (`ls_gold_v0.csv`, 161,032 Lewis & Short loci over 33 authors), scores, blind sheet, README |
+| [`galen-density-map/pipeline/lsgold/`](galen-density-map/pipeline/lsgold/) | The LS-Gold pipeline: fetch and tokenize the Perseus Latin editions, relocate, two-oracle validation, score, leaderboard |
+| [`docs/ls-gold/`](docs/ls-gold/) | The Latin leaderboard page and JSON (GitHub Pages) |
 | [`audit-kit/`](audit-kit/) | `greek-lemma-audit`: Morpheus floor, cross-system agreement, LSJ gold, blind sheets, `lsjgold` scoring (MIT, on PyPI) |
 | [`galen-density-map/outputs/t1/`](galen-density-map/outputs/t1/) | Fifty-author convention table and per-author lemmatizer recommendations |
 | [`docs/terms/`](docs/terms/) | Term Explorer pages (Galen and three further authors) |

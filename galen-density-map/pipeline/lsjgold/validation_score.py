@@ -59,7 +59,8 @@ def main() -> None:
         readers[name] = {r["row_id"]: {"ans": norm(r.get("is_instance(yes/no/unsure)") or r.get("is_instance") or r.get("answer", "")),
                                        "hw": (r.get("right_headword_if_no") or "").strip(), "note": r.get("note", "")}
                          for r in csv.DictReader(Path(path).open(encoding="utf-8-sig"))}
-    res = {"date": "2026-11-07", "n_random": meta["n_random"], "readers": {}}
+    import datetime
+    res = {"date": datetime.date.today().isoformat(), "n_random": meta["n_random"], "readers": {}}
     rand = [rid for rid, k in key.items() if k["kind"] == "random"]
     for name, ans in readers.items():
         g = lambda rid: ans.get(rid, {"ans": "unsure", "hw": "", "note": ""})  # noqa: E731

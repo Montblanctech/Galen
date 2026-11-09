@@ -1,0 +1,9 @@
+# downloaded editions, the frozen token streams and the system caches are rebuilt by pipeline/lsgold/
+# (fetch_editions.py, tokenize_editions.py, latin_caches.py); the manifest and the tokenize summary are tracked
+raw_xml/
+tokens/
+units/
+caches/
+oracle_cache*.jsonl
+*.log
+*.err
