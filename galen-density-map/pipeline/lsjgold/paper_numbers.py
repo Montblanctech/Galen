@@ -87,6 +87,10 @@ def main() -> None:
         return r["pct"] if r else "--"
     tex += m("dilemmaHapax", cites("dilemma", "1")) + m("odycyHapax", cites("odycy", "1")) + m("stanzaHapax", cites("stanza_perseus", "1"))
     tex += m("dilemmaFreq", cites("dilemma", "6+")) + m("odycyFreq", cites("odycy", "6+")) + m("stanzaFreq", cites("stanza_perseus", "6+"))
+    has_sto = "stoicheia" in sysd and sysd["stoicheia"]["scored"] >= 1000
+    tex += m("stoicheiaBlind", pct("stoicheia") if has_sto else "--") + m("stoicheiaCI", ci("stoicheia") if has_sto else "--")
+    tex += m("stoicheiaN", f"{sysd['stoicheia']['scored']:,}" if has_sto else "--") + m("stoicheiaHippo", (by_author("stoicheia", "tlg0627") if has_sto else None) or "--")
+    tex += m("stoicheiaHapax", cites("stoicheia", "1") if has_sto else "--") + m("stoicheiaFreq", cites("stoicheia", "6+") if has_sto else "--")
     tex += m("nHapaxLoci", f"{sysd['dilemma']['by_lsj_citations'].get('1', {}).get('n', 0):,}" if "dilemma" in sysd else "--")
     tex += m("valRandom", val["n_random"]) + m("valControls", meta["n_anchors"] + meta["n_plants"]) + m("valRandomPct", val_random_pct) + m("valControlsCaught", plants_caught + anchors_caught) + m("valKappa", val.get("between_readers", {}).get("kappa", "--"))
     tex += m("valMorpheusPct", round(100 * morph / max(1, morph + quoted), 1)) + m("valQuotedPct", round(100 * quoted / max(1, morph + quoted), 1))

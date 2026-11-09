@@ -59,3 +59,4 @@ audit-kit/*.egg-info/
 audit-kit/build/
 galen-density-map/data/qc/lsjgold/morpheus_lsjgold.jsonl
 galen-density-map/data/perseus_corpus/
+galen-density-map/data/latin_feasibility/*.xml

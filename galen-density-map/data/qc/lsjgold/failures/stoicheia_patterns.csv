@@ -1,0 +1,17 @@
+class,rule,count,share_pct,example_n,headword,surface,lemma,author,locator
+article_convention,"Both headword and produced lemma, after accent/breathing stripping, are forms of the article (ο η το του της τω τον την οι αι τα των τοις ταις τους τας τοιν) and they differ: e.g. headword ὁ, lemma ἡ/τό, or the reverse.",3,0.03,1,ὁ,τώ,τῷ,Homer,1:418
+article_convention,"Both headword and produced lemma, after accent/breathing stripping, are forms of the article (ο η το του της τω τον την οι αι τα των τοις ταις τους τας τοιν) and they differ: e.g. headword ὁ, lemma ἡ/τό, or the reverse.",3,0.03,2,ἦ,ἡ,ὁ,Sophocles,955
+accent_only,"Headword and lemma are equal after stripping accents/breathings (NFD, drop combining marks, lowercase, ς->σ) but not equal before stripping. Blind match already ignores accents, so ~0 is expected.",0,0.00,,,,,
+same_stem,Headword and lemma both have at least 4 letters and their first 4 letters are equal after accent stripping.,4317,38.78,1,ἄγκοινα,ἀγκοίνῃσιν,ἀγκοίνη,Homer,14:213
+same_stem,Headword and lemma both have at least 4 letters and their first 4 letters are equal after accent stripping.,4317,38.78,2,ἀγορεύω,ἀγορὰς,ἀγορά,Homer,2:788
+same_stem,Headword and lemma both have at least 4 letters and their first 4 letters are equal after accent stripping.,4317,38.78,3,ἀγωνάρχης,ἀγών,ἀγών,Homer,24:1
+surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,937,8.42,1,ἄβιος,Ἀβίων,Ἀβίων,Homer,13:6
+surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,937,8.42,2,ἀϊκής,ἀϊκῶς,ἀικῶς,Homer,22:336
+surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,937,8.42,3,ἄλλυδις,ἄλλος,ἄλλος,Homer,11:486
+proper_name,Headword begins with a capital letter.,0,0.00,,,,,
+dialect_ending,"Surface (tonal marks stripped, quantity marks and iota subscript kept) ends in one of: -οισι, -ῃσι, -αισι, -εσσι, -οιο, -ᾰο, -ηθεν, -οθεν, -ονδε, -ῑο. Doric -ᾶς genitive is not detected.",69,0.62,1,πορφύρεος,ποταμοῖο,ποταμός,Homer,21:326
+dialect_ending,"Surface (tonal marks stripped, quantity marks and iota subscript kept) ends in one of: -οισι, -ῃσι, -αισι, -εσσι, -οιο, -ᾰο, -ηθεν, -οθεν, -ονδε, -ῑο. Doric -ᾶς genitive is not detected.",69,0.62,2,πρότερος,πρώτοισι,πρῶτος,Homer,11:64
+dialect_ending,"Surface (tonal marks stripped, quantity marks and iota subscript kept) ends in one of: -οισι, -ῃσι, -αισι, -εσσι, -οιο, -ᾰο, -ηθεν, -οθεν, -ονδε, -ῑο. Doric -ᾶς genitive is not detected.",69,0.62,3,πυκνός,πυκινοῖσι,πυκινός,Homer,24:453
+other,None of the above rules fired.,5806,52.16,1,ἄγνυμι,ἄγεν,ἄγω,Homer,4:214
+other,None of the above rules fired.,5806,52.16,2,ʼαθήναιον,Ἀθηναίων,Ἀθηναῖος,Homer,2:551
+other,None of the above rules fired.,5806,52.16,3,αἰ,αἴ,εἰ,Homer,7:387

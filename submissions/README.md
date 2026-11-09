@@ -34,4 +34,4 @@ summary. The same command runs locally. The maintainers then add the row to `doc
 never changes inside a version.
 
 Please name the model, version and date in your folder's `README.md`, and say whether lemmas were produced with or without context.
-Data CC BY 4.0, code MIT. Cite: Pepperman, W. (2026), LSJ-Gold, Galen Density Project, doi:10.5281/zenodo.21561962.
+Data CC BY 4.0, code MIT. Cite: Pepperman, W. (2026), LSJ-Gold, Galen Density Project, doi:10.5281/zenodo.24046260 (concept doi:10.5281/zenodo.21561962).
