@@ -1,4 +1,4 @@
-"""LSJ-Gold — package a dataset release folder for Will's Zenodo / Hugging Face upload (no network; files only).
+"""LSJ-Gold — package a dataset release folder for the Zenodo / Hugging Face upload (no network; files only).
 
 release/lsj-gold-<version>/: lsj_gold.csv, lsj_gold_scores.json, leaderboard.json, README.md (dataset card),
 SCHEMA.md, LICENSE (CC BY 4.0 text pointer), CITATION.cff, CHECKSUMS.sha256.

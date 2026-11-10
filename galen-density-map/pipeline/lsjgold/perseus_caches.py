@@ -36,7 +36,7 @@ from greek_lemma_audit.corpus import Token, Work, WorkRef, author_of  # noqa: E4
 # odycy / stanza / stoicheia adapters are imported lazily: they live in different venvs (stoicheia needs transformers 5).
 
 LEM = GDM / "data" / "perseus_corpus" / "lemmatized"
-DEFAULT_OUT = Path("C:/Users/W/AppData/Local/Temp/claude/3d58b1488e5f774d/c8b67b7e-4794-4ccf-9e64-fada4fc17b0d/scratchpad/perseus_caches/cache")
+DEFAULT_OUT = Path(os.environ.get("PERSEUS_CACHE_DIR", Path(__import__("tempfile").gettempdir()) / "perseus_caches" / "cache"))
 SYSTEMS = ("odycy", "stanza_perseus", "stanza_proiel")  # + "stoicheia" (explicit only; .venv-sto)
 STO_CHUNK = 2000  # tokens per stoicheia call = checkpoint size (multiple of the adapter's 40-word sentences)
 STANZA_SENT = 100  # words per pretokenized pseudo-sentence (source tokens carry no punctuation)
