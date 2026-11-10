@@ -62,6 +62,8 @@ def main() -> None:
     ap.add_argument("--gold", type=Path, default=OUT / "lsj_gold_v0.csv")
     ap.add_argument("--system-cache", action="append", type=Path, default=[], help="dir(s) with <system>/<stem>.jsonl caches")
     ap.add_argument("--no-dilemma", action="store_true")
+    ap.add_argument("--from-scored", type=Path, help="take every system's lemma per locus from an earlier lsj_gold_scored.csv "
+                    "instead of the caches and Dilemma (rescoring a corrected gold, e.g. 0.1.1, on the same system outputs)")
     a = ap.parse_args()
     gold = list(csv.DictReader(a.gold.open(encoding="utf-8")))
     # held stems
@@ -82,6 +84,10 @@ def main() -> None:
     need = defaultdict(set)
     for g in gold:
         need[stem_for(g, held)].add(int(g["token_index"]))
+    if a.from_scored:
+        # the earlier run already dropped misaligned rows to "" (missing), so they stay missing here
+        need.clear()
+        a.system_cache, a.no_dilemma = [], True
     ody: dict[tuple[str, int], str] = {}
     for stem, idxs in need.items():
         for lem_dir in (GDM / "data" / "lemmatized" / "reference", GDM / "data" / "lemmatized" / "galen"):
@@ -130,6 +136,16 @@ def main() -> None:
             systems["dilemma"] = dl
         except Exception as exc:
             print(f"dilemma unavailable: {exc}", flush=True)
+
+    if a.from_scored:
+        systems, surf = {}, {}
+        for r in csv.DictReader(a.from_scored.open(encoding="utf-8")):
+            key = (stem_for(r, held), int(r["token_index"]))
+            for col, v in r.items():
+                if col.endswith("_lemma"):
+                    m = systems.setdefault(col[: -len("_lemma")], {})
+                    if v:
+                        m[key] = v
 
     ARTICLE = {"ἡ", "τό", "τῶν", "τοῦ", "τῆς", "τῷ", "τῇ", "τόν", "τήν", "οἱ", "αἱ", "τά", "τοῖς", "ταῖς", "τούς", "τάς"}
 

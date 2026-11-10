@@ -41,12 +41,23 @@ def validation_sentence() -> str:
     return " ".join(out)
 
 
+GOLD_VERSION = {"lsj_gold_v0.csv": "v0", "lsj_gold_v0_1_1.csv": "0.1.1"}
+ERRATUM = {
+    "lsj_gold_v0_1_1.csv": "Erratum (0.1.1, 2026-11): 0.1 validated a locus as <em>quoted</em> when its token matched any word of the "
+    "phrase LSJ quotes beside the citation, so some golds were a neighbouring word (the Iliad 9:130 token καὶ was gold κάμνω). "
+    "0.1.1 keeps a quoted locus only when LSJ quotes that single word; 21,950 of the 93,926 loci are dropped and every system is "
+    "rescored on the same outputs. 0.1 stays citable at its DOI.",
+}
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     scores = json.load((QC / "lsj_gold_scores.json").open(encoding="utf-8"))
     stats = json.load((QC / "relocation_stats.json").open(encoding="utf-8"))
-    n_gold = sum(1 for _ in csv.DictReader((QC / "lsj_gold_v0.csv").open(encoding="utf-8")))
-    version = f"v0 ({n_gold} loci, {scores['date']})"
+    gold_file = scores.get("gold", "lsj_gold_v0.csv")   # the gold score.py was run on (0.1: lsj_gold_v0.csv)
+    n_gold = sum(1 for _ in csv.DictReader((QC / gold_file).open(encoding="utf-8")))
+    label = GOLD_VERSION.get(gold_file, gold_file)
+    version = f"{label} ({n_gold} loci, {scores['date']})"
     authors = sorted(scores["loci_per_author"], key=lambda a: -scores["loci_per_author"][a])
     rows = []
     for name, b in sorted(scores["systems"].items(), key=lambda kv: -(kv[1]["match_blind"]["pct"] or 0)):
@@ -60,6 +71,8 @@ def main() -> None:
           "relocation": stats.get("status_counts"), "rule": stats.get("rule"), "rows": rows, "author_names": {a: author_name(a) for a in authors},
           "citation": "Pepperman, W. (2026). LSJ-Gold: lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek. Galen Density Project v3.0, doi:10.5281/zenodo.24046260 (concept doi:10.5281/zenodo.21561962)",
           "how_to_submit": "open a pull request adding submissions/<system>/<stem>.jsonl token caches ({i, surface, lemma} per token of the covered editions); CI scores them with `greek-lemma-audit lsjgold` and the maintainers add the row at the next version (see submissions/README.md)"}
+    if gold_file in ERRATUM:
+        lb["erratum"] = ERRATUM[gold_file].replace("<em>", "").replace("</em>", "")
     (DOCS / "leaderboard.json").write_text(json.dumps(lb, indent=2, ensure_ascii=False), encoding="utf-8")
 
     def ci(r):
@@ -69,6 +82,7 @@ def main() -> None:
          "<title>LSJ-Gold leaderboard</title>",
          "<style>body{font:15px/1.45 Georgia,serif;max-width:980px;margin:2rem auto;padding:0 1rem;color:#222}table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border-bottom:1px solid #ccc;padding:.35rem .5rem;text-align:left;vertical-align:top}th{background:#f3f1ec}.ci{color:#777;font-size:.85em}.b{font-weight:bold}.small{color:#555;font-size:.9em}code{background:#f3f1ec;padding:0 .25em}</style></head><body>",
          f"<h1>LSJ-Gold leaderboard</h1><p class=small>Lemmatizer accuracy on the <em>dictionary-cited stratum</em> of Ancient Greek: tokens that Liddell–Scott–Jones cites for a headword, relocated into First1KGreek editions. Version <b>{html.escape(version)}</b>. Numbers never change inside a version; a new author or system is a new version.</p>",
+         (f"<p class=small><b>{ERRATUM[gold_file]}</b></p>" if gold_file in ERRATUM else ""),
          "<table><tr><th>system</th><th>loci</th><th>match (accent-blind) %</th><th>strict %</th><th>article-neutral %</th>" + "".join(f"<th>{author_name(a)}<br><span class=small>n {scores['loci_per_author'][a]}</span></th>" for a in authors) + "</tr>"]
     for r in rows:
         h.append(f"<tr><td>{html.escape(r['label'])}</td><td>{r['scored']}</td><td class=b>{r['blind_pct']} <span class=ci>[{r['blind_ci'][0]}–{r['blind_ci'][1]}]</span></td><td>{r['strict_pct']}</td><td>{r['article_neutral_pct']}</td>"
@@ -98,6 +112,8 @@ def main() -> None:
     for r in rows:
         md.append(f"| {r['label']} | {r['scored']} | **{r['blind_pct']}** [{r['blind_ci'][0]}–{r['blind_ci'][1]}] | {r['strict_pct']} | {r['article_neutral_pct']} | "
                   + " | ".join((f"{r['by_author'][a]['pct']}" if r['by_author'].get(a) else "—") for a in authors) + " |")
+    if gold_file in ERRATUM:
+        md += ["", lb["erratum"]]
     md += ["", "Regenerate: `python pipeline/lsjgold/score.py [--system-cache DIR]` then `python pipeline/lsjgold/leaderboard.py`. Page: `docs/lsj-gold/index.html` (GitHub Pages)."]
     (DOCS / "README.md").write_text("\n".join(md) + "\n", encoding="utf-8")
     print("\n".join(md))
