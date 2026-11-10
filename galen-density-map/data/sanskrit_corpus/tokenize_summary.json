@@ -1,0 +1,254 @@
+{
+ "rgveda": {
+  "text": "Ṛgveda",
+  "files": 1028,
+  "chapters": 1028,
+  "sentences": 21253,
+  "tokens": 169973
+ },
+ "manusmrti": {
+  "text": "Manusmṛti",
+  "files": 12,
+  "chapters": 12,
+  "sentences": 5229,
+  "tokens": 37678
+ },
+ "atharvaveda": {
+  "text": "Atharvaveda (Śaunaka)",
+  "files": 519,
+  "chapters": 518,
+  "sentences": 9105,
+  "tokens": 71252
+ },
+ "bhagavatapurana": {
+  "text": "Bhāgavatapurāṇa",
+  "files": 119,
+  "chapters": 117,
+  "sentences": 10597,
+  "tokens": 77814
+ },
+ "kathasaritsagara": {
+  "text": "Kathāsaritsāgara",
+  "files": 66,
+  "chapters": 65,
+  "sentences": 25188,
+  "tokens": 188181
+ },
+ "kumarasambhava": {
+  "text": "Kumārasaṃbhava",
+  "files": 8,
+  "chapters": 8,
+  "sentences": 1225,
+  "tokens": 10268
+ },
+ "kiratarjuniya": {
+  "text": "Kirātārjunīya",
+  "files": 18,
+  "chapters": 18,
+  "sentences": 2079,
+  "tokens": 18440
+ },
+ "meghaduta": {
+  "text": "Meghadūta",
+  "files": 2,
+  "chapters": 2,
+  "sentences": 244,
+  "tokens": 3394
+ },
+ "satakatraya": {
+  "text": "Śatakatraya",
+  "files": 3,
+  "chapters": 3,
+  "sentences": 648,
+  "tokens": 8703
+ },
+ "hitopadesa": {
+  "text": "Hitopadeśa",
+  "files": 5,
+  "chapters": 5,
+  "sentences": 3432,
+  "tokens": 25045
+ },
+ "gitagovinda": {
+  "text": "Gītagovinda",
+  "files": 12,
+  "chapters": 12,
+  "sentences": 692,
+  "tokens": 6020
+ },
+ "buddhacarita": {
+  "text": "Buddhacarita",
+  "files": 14,
+  "chapters": 14,
+  "sentences": 2069,
+  "tokens": 19067
+ },
+ "amarusataka": {
+  "text": "Amaruśataka",
+  "files": 1,
+  "chapters": 1,
+  "sentences": 212,
+  "tokens": 3221
+ },
+ "rtusamhara": {
+  "text": "Ṛtusaṃhāra",
+  "files": 6,
+  "chapters": 6,
+  "sentences": 316,
+  "tokens": 3133
+ },
+ "satapathabrahmana": {
+  "text": "Śatapathabrāhmaṇa",
+  "files": 240,
+  "chapters": 239,
+  "sentences": 15404,
+  "tokens": 144139
+ },
+ "taittiriyasamhita": {
+  "text": "Taittirīyasaṃhitā",
+  "files": 219,
+  "chapters": 217,
+  "sentences": 8926,
+  "tokens": 47990
+ },
+ "aitareyabrahmana": {
+  "text": "Aitareyabrāhmaṇa",
+  "files": 285,
+  "chapters": 285,
+  "sentences": 4583,
+  "tokens": 54448
+ },
+ "maitrayanisamhita": {
+  "text": "Maitrāyaṇīsaṃhitā",
+  "files": 374,
+  "chapters": 372,
+  "sentences": 13373,
+  "tokens": 72633
+ },
+ "kathakasamhita": {
+  "text": "Kāṭhakasaṃhitā",
+  "files": 204,
+  "chapters": 170,
+  "sentences": 10153,
+  "tokens": 49277
+ },
+ "pancavimsabrahmana": {
+  "text": "Pañcaviṃśabrāhmaṇa",
+  "files": 169,
+  "chapters": 169,
+  "sentences": 2629,
+  "tokens": 29329
+ },
+ "gopathabrahmana": {
+  "text": "Gopathabrāhmaṇa",
+  "files": 233,
+  "chapters": 233,
+  "sentences": 4425,
+  "tokens": 30474
+ },
+ "katyayanasrautasutra": {
+  "text": "Kātyāyanaśrautasūtra",
+  "files": 89,
+  "chapters": 87,
+  "sentences": 2393,
+  "tokens": 13367
+ },
+ "apastambasrautasutra": {
+  "text": "Āpastambaśrautasūtra",
+  "files": 248,
+  "chapters": 248,
+  "sentences": 4528,
+  "tokens": 36558
+ },
+ "latyayanasrautasutra": {
+  "text": "Lāṭyāyanaśrautasūtra",
+  "files": 2,
+  "chapters": 2,
+  "sentences": 36,
+  "tokens": 268
+ },
+ "sankhayanasrautasutra": {
+  "text": "Śāṅkhāyanaśrautasūtra",
+  "files": 209,
+  "chapters": 208,
+  "sentences": 3307,
+  "tokens": 20886
+ },
+ "asvalayanasrautasutra": {
+  "text": "Āśvālāyanaśrautasūtra",
+  "files": 36,
+  "chapters": 35,
+  "sentences": 679,
+  "tokens": 6246
+ },
+ "kausikasutra": {
+  "text": "Kauśikasūtra",
+  "files": 141,
+  "chapters": 140,
+  "sentences": 3394,
+  "tokens": 22833
+ },
+ "asvalayanagrhyasutra": {
+  "text": "Āśvalāyanagṛhyasūtra",
+  "files": 54,
+  "chapters": 54,
+  "sentences": 799,
+  "tokens": 7046
+ },
+ "gobhilagrhyasutra": {
+  "text": "Gobhilagṛhyasūtra",
+  "files": 39,
+  "chapters": 39,
+  "sentences": 1015,
+  "tokens": 7399
+ },
+ "sankhayanagrhyasutra": {
+  "text": "Śāṅkhāyanagṛhyasūtra",
+  "files": 96,
+  "chapters": 96,
+  "sentences": 1055,
+  "tokens": 8284
+ },
+ "gautamadharmasutra": {
+  "text": "Gautamadharmasūtra",
+  "files": 28,
+  "chapters": 28,
+  "sentences": 934,
+  "tokens": 5709
+ },
+ "apastambadharmasutra": {
+  "text": "Āpastambadharmasūtra",
+  "files": 61,
+  "chapters": 61,
+  "sentences": 1392,
+  "tokens": 9297
+ },
+ "astadhyayi": {
+  "text": "Aṣṭādhyāyī",
+  "files": 32,
+  "chapters": 32,
+  "sentences": 3982,
+  "tokens": 15455
+ },
+ "mahabharata": {
+  "text": "Mahābhārata",
+  "files": 1995,
+  "chapters": 1995,
+  "sentences": 168167,
+  "tokens": 1147968
+ },
+ "ramayana": {
+  "text": "Rāmāyaṇa",
+  "files": 606,
+  "chapters": 606,
+  "sentences": 38004,
+  "tokens": 261599
+ },
+ "harivamsa": {
+  "text": "Harivaṃśa",
+  "files": 118,
+  "chapters": 118,
+  "sentences": 12731,
+  "tokens": 85976
+ }
+}

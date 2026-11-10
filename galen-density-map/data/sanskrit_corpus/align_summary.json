@@ -1,0 +1,433 @@
+{
+ "manusmrti": {
+  "method": "gretil",
+  "source": "sa_manusmRti.txt",
+  "sentences": 5229,
+  "aligned": 5229,
+  "coverage": {
+   ">=0.8": 437,
+   "exact": 4789,
+   ">=0.5": 3
+  },
+  "reference_units": 2688,
+  "reference_units_hit": 2664,
+  "chapters": 12,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "gitagovinda": {
+  "method": "gretil",
+  "source": "sa_jayadeva-gItagovinda.txt",
+  "sentences": 692,
+  "aligned": 692,
+  "coverage": {
+   "exact": 636,
+   ">=0.8": 56
+  },
+  "reference_units": 264,
+  "reference_units_hit": 264,
+  "chapters": 12,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "kumarasambhava": {
+  "method": "ambuda",
+  "source": "kumarasambhavam.txt",
+  "sentences": 1225,
+  "aligned": 1225,
+  "coverage": {
+   "exact": 1192,
+   ">=0.8": 17,
+   ">=0.5": 16
+  },
+  "reference_units": 613,
+  "reference_units_hit": 613,
+  "chapters": 8,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "satapathabrahmana": {
+  "method": "vpc",
+  "source": "ŚBM.txt",
+  "sentences": 15404,
+  "aligned": 8484,
+  "coverage": {
+   "none": 6920,
+   "exact": 8182,
+   ">=0.8": 290,
+   ">0": 4,
+   ">=0.5": 8
+  },
+  "reference_units": 17492,
+  "reference_units_hit": 1644,
+  "chapters": 239,
+  "chapters_without_reference": 151,
+  "missing_examples": [
+   "ŚBM, 1, 1, 1",
+   "ŚBM, 1, 1, 2",
+   "ŚBM, 1, 1, 3",
+   "ŚBM, 1, 1, 4",
+   "ŚBM, 1, 2, 1"
+  ]
+ },
+ "katyayanasrautasutra": {
+  "method": "vpc",
+  "source": "KātyŚS.txt",
+  "sentences": 2393,
+  "aligned": 2393,
+  "coverage": {
+   "exact": 2125,
+   ">=0.8": 266,
+   ">=0.5": 2
+  },
+  "reference_units": 6118,
+  "reference_units_hit": 2369,
+  "chapters": 87,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "rgveda": {
+  "method": "gretil",
+  "source": "sa_Rgveda-edAufrecht.txt",
+  "sentences": 21253,
+  "aligned": 21230,
+  "coverage": {
+   "exact": 19838,
+   ">=0.8": 1336,
+   "none": 23,
+   ">0": 15,
+   ">=0.5": 41
+  },
+  "reference_units": 10552,
+  "reference_units_hit": 10495,
+  "chapters": 1028,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "atharvaveda": {
+  "method": "gretil_av",
+  "source": "avs___u.htm",
+  "sentences": 9105,
+  "aligned": 8442,
+  "coverage": {
+   ">=0.8": 1594,
+   "exact": 6807,
+   "none": 663,
+   ">=0.5": 39,
+   ">0": 2
+  },
+  "reference_units": 5577,
+  "reference_units_hit": 4166,
+  "chapters": 518,
+  "chapters_without_reference": 13,
+  "missing_examples": [
+   "AVŚ, 11, 4",
+   "AVŚ, 11, 5",
+   "AVŚ, 11, 6",
+   "AVŚ, 11, 7",
+   "AVŚ, 11, 8"
+  ]
+ },
+ "bhagavatapurana": {
+  "method": "gretil",
+  "source": "sa_bhAgavatapurANa.txt",
+  "sentences": 10597,
+  "aligned": 9809,
+  "coverage": {
+   "exact": 9682,
+   ">=0.8": 114,
+   "none": 788,
+   ">=0.5": 2,
+   ">0": 11
+  },
+  "reference_units": 13404,
+  "reference_units_hit": 4861,
+  "chapters": 117,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "kathasaritsagara": {
+  "method": "gretil",
+  "source": "sa_somadeva-kathAsaritsAgara.txt",
+  "sentences": 25188,
+  "aligned": 25187,
+  "coverage": {
+   "exact": 24509,
+   ">=0.8": 675,
+   ">=0.5": 2,
+   ">0": 1,
+   "none": 1
+  },
+  "reference_units": 21538,
+  "reference_units_hit": 12597,
+  "chapters": 65,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "hitopadesa": {
+  "method": "gretil",
+  "source": "sa_nArAyaNa-hitopadeza.txt",
+  "sentences": 3432,
+  "aligned": 3422,
+  "coverage": {
+   "exact": 3293,
+   ">=0.8": 127,
+   "none": 10,
+   ">0": 2
+  },
+  "reference_units": 715,
+  "reference_units_hit": 715,
+  "chapters": 5,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "buddhacarita": {
+  "method": "gretil",
+  "source": "sa_azvaghoSa-buddhacarita.txt",
+  "sentences": 2069,
+  "aligned": 2025,
+  "coverage": {
+   ">0": 15,
+   "none": 44,
+   "exact": 1855,
+   ">=0.8": 150,
+   ">=0.5": 5
+  },
+  "reference_units": 1019,
+  "reference_units_hit": 1012,
+  "chapters": 14,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "astadhyayi": {
+  "method": "gretil",
+  "source": "sa_pANini-aSTAdhyAyI.txt",
+  "sentences": 3982,
+  "aligned": 3949,
+  "coverage": {
+   "exact": 3770,
+   ">=0.8": 164,
+   "none": 33,
+   ">=0.5": 11,
+   ">0": 4
+  },
+  "reference_units": 3951,
+  "reference_units_hit": 3949,
+  "chapters": 32,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "kiratarjuniya": {
+  "method": "ambuda",
+  "source": "kiratarjuniyam.txt",
+  "sentences": 2079,
+  "aligned": 2079,
+  "coverage": {
+   "exact": 2041,
+   ">=0.5": 11,
+   ">=0.8": 27
+  },
+  "reference_units": 1040,
+  "reference_units_hit": 1040,
+  "chapters": 18,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "satakatraya": {
+  "method": "ambuda",
+  "source": "shatakatrayam.txt",
+  "sentences": 648,
+  "aligned": 648,
+  "coverage": {
+   "exact": 625,
+   ">=0.8": 22,
+   ">=0.5": 1
+  },
+  "reference_units": 324,
+  "reference_units_hit": 324,
+  "chapters": 3,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "meghaduta": {
+  "method": "ambuda",
+  "source": "meghadutam-kale.txt",
+  "sentences": 244,
+  "aligned": 240,
+  "coverage": {
+   "exact": 234,
+   ">=0.5": 1,
+   "none": 4,
+   ">=0.8": 5
+  },
+  "reference_units": 121,
+  "reference_units_hit": 120,
+  "chapters": 2,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "amarusataka": {
+  "method": "ambuda",
+  "source": "amarushatakam.txt",
+  "sentences": 212,
+  "aligned": 212,
+  "coverage": {
+   "exact": 210,
+   ">=0.8": 1,
+   ">=0.5": 1
+  },
+  "reference_units": 106,
+  "reference_units_hit": 106,
+  "chapters": 1,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "rtusamhara": {
+  "method": "ambuda",
+  "source": "rtusamharam.txt",
+  "sentences": 316,
+  "aligned": 316,
+  "coverage": {
+   "exact": 313,
+   ">=0.8": 3
+  },
+  "reference_units": 158,
+  "reference_units_hit": 158,
+  "chapters": 6,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "apastambasrautasutra": {
+  "method": "vpc",
+  "source": "ĀpŚS.txt",
+  "sentences": 4528,
+  "aligned": 4528,
+  "coverage": {
+   "exact": 4189,
+   ">=0.8": 336,
+   ">0": 1,
+   ">=0.5": 2
+  },
+  "reference_units": 8063,
+  "reference_units_hit": 3254,
+  "chapters": 248,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "latyayanasrautasutra": {
+  "method": "vpc",
+  "source": "LāṭŚS.txt",
+  "sentences": 36,
+  "aligned": 36,
+  "coverage": {
+   "exact": 36
+  },
+  "reference_units": 2634,
+  "reference_units_hit": 36,
+  "chapters": 2,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "sankhayanasrautasutra": {
+  "method": "vpc",
+  "source": "ŚāṅkhŚS.txt",
+  "sentences": 3307,
+  "aligned": 3307,
+  "coverage": {
+   "exact": 2969,
+   ">=0.8": 334,
+   ">0": 2,
+   ">=0.5": 2
+  },
+  "reference_units": 5239,
+  "reference_units_hit": 2730,
+  "chapters": 208,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "asvalayanasrautasutra": {
+  "method": "vpc",
+  "source": "ĀśvŚS.txt",
+  "sentences": 679,
+  "aligned": 679,
+  "coverage": {
+   "exact": 498,
+   ">=0.8": 179,
+   ">=0.5": 2
+  },
+  "reference_units": 2836,
+  "reference_units_hit": 490,
+  "chapters": 35,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "asvalayanagrhyasutra": {
+  "method": "vpc",
+  "source": "ĀśvGS.txt",
+  "sentences": 799,
+  "aligned": 797,
+  "coverage": {
+   "exact": 630,
+   ">=0.8": 165,
+   "none": 2,
+   ">0": 1,
+   ">=0.5": 1
+  },
+  "reference_units": 763,
+  "reference_units_hit": 708,
+  "chapters": 54,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "gobhilagrhyasutra": {
+  "method": "vpc",
+  "source": "GobhGS.txt",
+  "sentences": 1015,
+  "aligned": 1015,
+  "coverage": {
+   ">=0.8": 204,
+   "exact": 809,
+   ">=0.5": 2
+  },
+  "reference_units": 1088,
+  "reference_units_hit": 988,
+  "chapters": 39,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "sankhayanagrhyasutra": {
+  "method": "vpc",
+  "source": "ŚāṅkhGS.txt",
+  "sentences": 1055,
+  "aligned": 1054,
+  "coverage": {
+   ">=0.8": 138,
+   "exact": 911,
+   ">=0.5": 2,
+   ">0": 3,
+   "none": 1
+  },
+  "reference_units": 1085,
+  "reference_units_hit": 959,
+  "chapters": 96,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ },
+ "apastambadharmasutra": {
+  "method": "vpc",
+  "source": "ĀpDhS.txt",
+  "sentences": 1392,
+  "aligned": 1391,
+  "coverage": {
+   ">=0.8": 158,
+   "exact": 1232,
+   ">=0.5": 1,
+   "none": 1
+  },
+  "reference_units": 1365,
+  "reference_units_hit": 1276,
+  "chapters": 61,
+  "chapters_without_reference": 0,
+  "missing_examples": []
+ }
+}

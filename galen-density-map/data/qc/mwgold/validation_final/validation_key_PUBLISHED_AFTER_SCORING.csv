@@ -1,0 +1,81 @@
+row_id,kind,expected,headword,k1,k2,hom,L,abbrev,locus,text,chapter,ref,window_kind,sent_id,token_index,span,surface,unsandhied,dcs_lemma,upos,validation,status,members,shown_headword
+S001,random,,mā,mA,mA,3,161697,RV.,"iii, 29, 11",rgveda,3:29,3:29:11,verse,597175,45788,1,amimīta,amimīta,mā,VERB,dcs,located,mā,mā
+S002,plant,no,gulgulu,gulgulu,gu/lgulu,,66217,TS.,"vi, 2, 8, 6",taittiriyasamhita,6:2:8,6:2:8,chapter,721156,36724,1,gulgulu,gulgulu,gulgulu,NOUN,dcs,located,gulgulu,guṇa-saṃskāra
+S003,random,,prathama,praTama,praTama/,,134510,Mn.,"ii, 194",manusmrti,2,2:194,verse,78563,4333,1,prathamaṃ,prathamam,prathamam,ADV,vidyut,located,prathama,prathama
+S004,random,,añjimat,aYjimat,aYji—ma/t,,2314,RV.,"v, 57, 5",rgveda,5:57,5:57:5,verse,600090_1,70766,1,añjimantaḥ,añjimantaḥ,añjimat,ADJ,dcs,located,añji-mat,añji-mat
+S005,random,,gṛhamedhinī,gfhameDinI,gfha—meDinI,,66621,BhP.,"iv, 26, 13",bhagavatapurana,4:26,4:26:13,verse,95141,57475,1,gṛhamedhinīm,gṛhamedhinīm,gṛhamedhin,ADJ,vidyut,located,gṛha-medhinī,gṛha-medhinī
+S006,random,,kevalādin,kevalAdin,kevalAdi/n,,55893,RV.,"x, 117, 6",rgveda,10:117,10:117:6,verse,611984,163427,2,kevala,kevala,kevala,ADJ,dcs_cpd,located,kevalādin,kevalādin
+S007,plant,no,apunar,apunar,a-puna/r,,10269,RV.,"x, 68, 10",rgveda,10:68,10:68:10,verse,610768,152625,1,apunaś,apunar,apunar,ADV,dcs,located,a-punar,alpa-śas
+S008,random,,dādhikra,dADikra,dADikra,,91602,AitBr.,"vi, 36",aitareyabrahmana,6:36,6:36,chapter,664923,42854,1,dādhikrīṃ,dādhikrīm,dādhikra,ADJ,dcs,located,dādhikra,dādhikra
+S009,plant,no,tadā,tadA,tadA/,,82172,Kathās.,"ii, 62",kathasaritsagara,1:2,1:2:62,verse,613369,1856,1,tadā,tadā,tadā,ADV,dcs,located,tadā,tāvatā
+S010,random,,mekhalā,meKalA,me/KalA,,167488,Mn.,"ii, 42",manusmrti,2,2:42,verse,78258,2158,1,mekhalā,mekhalā,mekhalā,NOUN,dcs,located,mekhalā,mekhalā
+S011,random,,āvye,Avye,A-vye,,27342,RV.,"ii, 29, 6",rgveda,2:29,2:29:6,verse,596396_2,39178,1,vyayeyam,vyayeyam,vye,VERB,dcs_tmesis,located,ā-vye,ā-vye
+S012,plant,no,pari,pari,pa/ri,,117009.15,Pāṇ.,"i, 4, 90",astadhyayi,1:4,1:4:90,verse,551894,1277,1,pari,pari,pari,NOUN,dcs,located,pari,patha
+S013,random,,cetana,cetana,ce/tana,,74042,AV.,"ix, 4, 21",atharvaveda,9:4,9:4:21,verse,648462,38549,1,cetanīm,cetanīm,cetana,ADJ,dcs,located,cetana,cetana
+S014,random,,āpathī,ApaTI,ApaTI/,,24867,RV.,"i, 64, 11",rgveda,1:64,1:64:11,verse,593251,10404,1,āpathyo,āpathyaḥ,āpathi,ADJ,vidyut,located,āpathī,āpathī
+S015,anchor,yes,aiṣamas,Ezamas,Eza/mas,,40565,Pāṇ.,"v, 3, 22",astadhyayi,5:3,5:3:22,verse,553746,8373,1,aiṣamas,aiṣamas,aiṣamas,ADV,dcs,located,aiṣamas,aiṣamas
+S016,random,,cailāśaka,cElASaka,cElASaka,,75109,Mn.,"xii, 72",manusmrti,12,12:72,verse,83197,36901,1,cailāśakaś,cailāśakaḥ,cailāśaka,NOUN,dcs,located,cailāśaka,cailāśaka
+S017,random,,kṣudhārta,kzuDArta,kzuDArta,,60102,Mn.,"x, 107",manusmrti,10,10:107,verse,82474,31919,2,kṣudh,kṣudh,kṣudh,NOUN,dcs_cpd,located,kṣudhārta,kṣudhārta
+S018,random,,dā,dA,dA,1,91212,Kathās.,"v, 57",kathasaritsagara,1:5,1:5:57,verse,613957,6193,1,dīyate,dīyate,dā,VERB,dcs,located,dā,dā
+S019,anchor,yes,ūrjānī,UrjAnI,UrjA/nI,,38071,RV.,"i, 119, 2",rgveda,1:119,1:119:2,verse,594379,20460,1,ūrjānī,ūrjānī,ūrjānī,NOUN,dcs,located,ūrjānī,ūrjānī
+S020,random,,vimanas,vimanas,vi/—manas,1,193352,RV.,"x, 82, 2",rgveda,10:82,10:82:2,verse,611003,154741,1,vimanā,vimanāḥ,vimanas,ADJ,dcs,located,vi-manas,vi-manas
+S021,random,,trita,trita,trita/,,88580,RV.,"ix, 38, 2",rgveda,9:38,9:38:2,verse,607682,127547,1,tritasya,tritasya,trita,NOUN,dcs,located,trita,trita
+S022,random,,kaṣāya,kazAya,kazAya,,46760,Mn.,"xi, 153",manusmrti,11,11:153,verse,82828,34378,1,kaṣāyāṃś,kaṣāyān,kaṣāya,NOUN,dcs,located,kaṣāya,kaṣāya
+S023,random,,āditya,Aditya,Aditya/,1,23910,TS.,"ii, 2, 6, 1",taittiriyasamhita,2:2:6,2:2:6,chapter,716589,13547,1,ādityaṃ,ādityam,āditya,ADJ,dcs,located,āditya,āditya
+S024,random,,prāṇābādha,prARAbADa,prARAbADa,,139705,Mn.,"iv, 54",manusmrti,4,4:54,verse,79353,9926,2,prāṇa,prāṇa,prāṇa,NOUN,dcs_cpd,located,prāṇābādha,prāṇābādha
+S025,random,,vedapuṇya,vedapuRya,veda—puRya,,205724,Mn.,"ii, 78",manusmrti,2,2:78,verse,78331,2657,2,veda,veda,veda,NOUN,dcs_cpd,located,veda-puṇya,veda-puṇya
+S026,random,,upāra,upAra,upAra/,,36750,RV.,"vii, 86, 6",rgveda,7:86,7:86:6,verse,603402,99565,1,upāre,upāre,upāra,NOUN,dcs,located,upāra,upāra
+S027,random,,śrutaśīla,SrutaSIla,Sruta—SIla,,223492,Mn.,"xi, 22",manusmrti,11,11:22,verse,82567,32559,2,śruta,śruta,śruta,NOUN,dcs_cpd,located,śruta-śīla,śruta-śīla
+S028,random,,turi,turi,turi/,,86047,RV.,"x, 106, 4",rgveda,10:106,10:106:4,verse,611761_3,161339,1,turyai,turyai,turī,NOUN,vidyut,located,turi,turi
+S029,random,,ardha,arDa,arDa/,,16115,RV.,"x, 27, 18",rgveda,10:27,10:27:18,verse,609841_2,143989,1,ardhaḥ,ardhaḥ,ardha,NOUN,dcs,located,ardha,ardha
+S030,anchor,yes,cira,cira,cira/,,74208,Pāṇ.,"vi, 2, 6",astadhyayi,6:2,6:2:6,verse,554232,10170,1,cira,cira,cira,ADJ,dcs,located,cira,cira
+S031,random,,kālarātri,kAlarAtri,kAla—rAtri,,49502,Kathās.,"xx, 104",kathasaritsagara,3:6,3:6:104,verse,618647,40646,1,kālarātrir,kālarātriḥ,kālarātri,NOUN,dcs,located,kāla-rātri,kāla-rātri
+S032,random,,mā,mA,mA,3,161697,Pāṇ.,"vi, 4, 66",astadhyayi,6:4,6:4:66,verse,554630,11787,1,mā,mā,mā,NOUN,dcs,located,mā,mā
+S033,random,,goṣaṇi,gozaRi,go—za/Ri,,67667,RV.,"vi, 53, 10",rgveda,6:53,6:53:10,verse,601677_1,84312,1,goṣaṇim,goṣaṇim,goṣaṇi,ADJ,dcs,located,go-ṣaṇi,go-ṣaṇi
+S034,random,,kāryekṣaṇa,kAryekzaRa,kAryekzaRa,,48944,Mn.,"vii, 141",manusmrti,7,7:141,verse,80579,18642,2,kārya,kārya,kārya,NOUN,dcs_cpd,located,kāryekṣaṇa,kāryekṣaṇa
+S035,random,,inakṣ,inakz,inakz,,28841,RV.,"x, 45, 7",rgveda,10:45,10:45:7,verse,610242,147808,1,inakṣan,inakṣan,inakṣ,VERB,dcs,located,inakṣ,inakṣ
+S036,anchor,yes,kṣitidhara,kzitiDara,kziti—Dara,,59327,Kum.,"vii, 94",kumarasambhava,7,7:94,verse,486154,8679,1,kṣitidhara,kṣitidhara,kṣitidhara,NOUN,dcs,located,kṣiti-dhara,kṣiti-dhara
+S037,random,,kaṇvahotṛ,kaRvahotf,kaRva—hotf,,42634,RV.,"v, 41, 4",rgveda,5:41,5:41:4,verse,599704,67358,2,kaṇva,kaṇva,kaṇva,NOUN,dcs_cpd,located,kaṇva-hotṛ,kaṇva-hotṛ
+S038,random,,abhisaṃdhāya,aBisaMDAya,aBi-saMDAya,,12786.1,Mn.,"ix, 52",manusmrti,9,9:52,verse,81692,26475,1,abhisaṃdhāya,abhisaṃdhāya,abhisaṃdhā,VERB,surface,located,abhi-saṃdhāya,abhi-saṃdhāya
+S039,random,,kṣodiṣṭha,kzodizWa,kzo/dizWa,,60065,MaitrS.,"i, 8, 6",maitrayanisamhita,1:8:6,1:8:6,chapter,690355,19524,1,kṣodiṣṭhās,kṣodiṣṭhāḥ,kṣodiṣṭha,ADJ,dcs,located,kṣodiṣṭha,kṣodiṣṭha
+S040,random,,drāvayitnu,drAvayitnu,drAvayitnu/,,97825,RV.,"ix, 69, 6",rgveda,9:69,9:69:6,verse,608363_1,131124,1,drāvayitnavaḥ,drāvayitnavaḥ,drāvayitnu,ADJ,dcs,located,drāvayitnu,drāvayitnu
+S041,random,,akavāri,akavAri,a/-kavAri,,221,RV.,"iii, 47, 5",rgveda,3:47,3:47:5,verse,597568,49144,2,a,a,a,PART,dcs_cpd,located,a-kavāri,a-kavāri
+S042,random,,āvan,Avan,A-van,,26955,RV.,"v, 74, 7",rgveda,5:74,5:74:7,verse,600333,72617,1,vavne,vavne,van,VERB,dcs_tmesis,located,ā-van,ā-van
+S043,random,,kāpā,kApA,kA/pA,,47839,RV.,"x, 40, 3",rgveda,10:40,10:40:3,verse,610133_1,146720,1,kāpayā,kāpayā,kāpā,NOUN,dcs,located,kāpā,kāpā
+S044,plant,no,kārādhunī,kArADunI,kA/rADunI,,48659,RV.,"i, 180, 8",rgveda,1:180,1:180:8,verse,595596,31818,1,kārādhunī,kārādhunī,kārādhunī,NOUN,dcs,located,kārādhunī,kravis
+S045,random,,śūdra,SUdra,SUdra/,,220180,Mn.,"i, 91",manusmrti,1,1:91,verse,78118_1,1252,1,śūdrasya,śūdrasya,śūdra,NOUN,dcs,located,śūdra,śūdra
+S046,random,,ṛṣiṣāṇa,fzizARa,fzi—zARa,,39108,RV.,"ix, 86, 4",rgveda,9:86,9:86:4,verse,608596,133400,1,ṛṣiṣāṇa,ṛṣiṣāṇa,ṛṣiṣāṇa,ADJ,dcs,located,ṛṣi-ṣāṇa,ṛṣi-ṣāṇa
+S047,random,,āpi,Api,A-pi/,2,24754.1,RV.,"v, 53, 2",rgveda,5:53,5:53:2,verse,599984,69837,1,āpaya,āpayaḥ,āpi,NOUN,dcs,located,ā-pi,ā-pi
+S048,anchor,yes,asaṃbhavyam,asaMBavyam,a-saMBavya/m,,20762,AV.,"v, 19, 11",atharvaveda,5:19,5:19:11,verse,645918,18154,1,asaṃbhavyaṃ,asaṃbhavyam,asaṃbhavyam,ADV,dcs,located,a-saṃbhavyam,a-saṃbhavyam
+S049,random,,anarghya,anarGya,an-arGya,,5212,Kum.,"i, 59",kumarasambhava,1,1:59,verse,485228,1006,1,anarghyam,anarghyam,anarghya,ADJ,dcs,located,an-arghya,an-arghya
+S050,plant,no,kūla,kUla,kU/la,,54095,Pāṇ.,"vi, 2, 121",astadhyayi,6:2,6:2:121,verse,554347,10587,1,kūla,kūla,kūla,NOUN,dcs,located,kūla,kuṣumbhaka
+S051,random,,prakrand,prakrand,pra-krand,,130209,RV.,"ix, 77, 1",rgveda,9:77,9:77:1,verse,608485_1,132323,1,acikradat,acikradat,krand,VERB,dcs_tmesis,located,pra-krand,pra-krand
+S052,random,,upe,upe,upe,1,36910,RV.,"ii, 2, 11",rgveda,2:2,2:2:11,verse,595863_1,34187,1,upayanti,upayanti,upe,VERB,dcs,located,upe,upe
+S053,random,,madhyamasāhasa,maDyamasAhasa,maDyama—sAhasa,,156545,Mn.,"viii, 263",manusmrti,8,8:263,verse,81275,23585,1,madhyamasāhasam,madhyamasāhasam,madhyamasāhasa,NOUN,dcs,located,madhyama-sāhasa,madhyama-sāhasa
+S054,random,,tryaruṣa,tryaruza,try—a^ruza,,88864,RV.,"viii, 46, 22",rgveda,8:46,8:46:22,verse,605672,114865,2,tri,tri,tri,NUM,dcs_cpd,located,try-aruṣa,try-aruṣa
+S055,anchor,yes,dakṣiṇit,dakziRit,dakziRi/t,,89524,RV.,"v, 36, 4",rgveda,5:36,5:36:4,verse,599645_1,66864,1,dakṣiṇit,dakṣiṇit,dakṣiṇit,ADV,dcs,located,dakṣiṇit,dakṣiṇit
+S056,random,,tadapas,tadapas,ta/d—apas,,82066.1,RV.,"v, 47, 2",rgveda,5:47,5:47:2,verse,599875,68998,2,tad,tad,tad,PRON,dcs_cpd,located,tad-apas,tad-apas
+S057,plant,no,ghoṣa,Goza,Go/za,,69861,Pāṇ.,"vi, 2, 85",astadhyayi,6:2,6:2:85,verse,554311,10450,1,ghoṣa,ghoṣa,ghoṣa,NOUN,dcs,located,ghoṣa,guru-dāra
+S058,plant,no,ucchiṣya,ucCizya,uc-Cizya,,30434,Pāṇ.,"iii, 1, 123",astadhyayi,3:1,3:1:123,verse,552305,2900,1,ucchiṣya,ucchiṣya,ucchiṣya,ADJ,dcs,located,uc-chiṣya,uṣas
+S059,random,,āditya,Aditya,Aditya/,,23910.10,ŚBr.,"iii, 1, 3, 3",satapathabrahmana,3:1:3,3:1:3:3,verse,493195,27765,1,ādityā,ādityāḥ,āditya,NOUN,dcs,located,āditya,āditya
+S060,random,,vājagandhya,vAjaganDya,vA/ja—ganDya,,190295,RV.,"ix, 98, 12",rgveda,9:98,9:98:12,verse,608986,137019,1,vājagandhyaṃ,vājagandhyam,vājagandhya,ADJ,dcs,located,vāja-gandhya,vāja-gandhya
+S061,anchor,yes,pāraskara,pAraskara,pAraskara,,122621,Pāṇ.,"vi, 1, 157",astadhyayi,6:1,6:1:157,verse,554160,9902,1,pāraskara,pāraskara,pāraskara,NOUN,dcs,located,pāraskara,pāraskara
+S062,random,,titikṣu,titikzu,titikzu/,,84871,AV.,"xii, 1, 48",atharvaveda,12:1,12:1:48,verse,650330,53719,1,titikṣuḥ,titikṣuḥ,titikṣu,ADJ,dcs,located,titikṣu,titikṣu
+S063,anchor,yes,nīla,nIla,nI/la,,111426,Pāṇ.,"iv, 1, 42",astadhyayi,4:1,4:1:42,verse,552855,5164,1,nīla,nīla,nīla,ADJ,dcs,located,nīla,nīla
+S064,anchor,yes,khargalā,KargalA,Karga/lA,,61508,RV.,"vii, 104, 17",rgveda,7:104,7:104:17,verse,603679,101989,1,khargalā,khargalā,khargalā,NOUN,dcs,located,khargalā,khargalā
+S065,plant,no,candravat,candravat,candra/—vat,,71810.1,RV.,"v, 57, 7",rgveda,5:57,5:57:7,verse,600093,70808,1,candravad,candravat,candravat,ADJ,dcs,located,candra-vat,cāru-tama
+S066,plant,no,vāhana,vAhana,vA/hana,,192739,Kathās.,"xxi, 30",kathasaritsagara,4:1,4:1:30,verse,618959,42963,1,vāhana,vāhana,vāhana,NOUN,dcs,located,vāhana,veda-jña
+S067,random,,kṣapā,kzapA,kzapA/,2,58998,AitBr.,"i, 13",aitareyabrahmana,1:13,1:13,chapter,661474_1,2201,1,kṣapābhiḥ,kṣapābhiḥ,kṣapā,NOUN,dcs,located,kṣapā,kṣapā
+S068,random,,tata,tata,tata/,1,81781,AitBr.,"vii, 14, 8",aitareyabrahmana,7:14,7:14,chapter,665031_3,45723,1,tata,tata,tata,NOUN,dcs,located,tata,tata
+S069,random,,dhvaṃs,DvaMs,DvaMs,,102398,Pāṇ.,"vii, 4, 84",astadhyayi,7:4,7:4:84,verse,555164,13884,1,dhvaṃsu,dhvaṃsu,dhvaṃsu,NOUN,vidyut,located,dhvaṃs,dhvaṃs
+S070,anchor,yes,aprati,aprati,a-prati/,,10540,RV.,"vii, 83, 4",rgveda,7:83,7:83:4,verse,603357,99136,1,aprati,aprati,aprati,ADJ,dcs,located,a-prati,a-prati
+S071,random,,abhrajā,aBrajA,aBra—jA/,,13693,AV.,"i, 12, 3",atharvaveda,1:12,1:12:3,verse,643812_1,866,2,abhra,abhra,abhra,NOUN,dcs_cpd,located,abhra-jā,abhra-jā
+S072,random,,kṛtasaṃskāra,kftasaMskAra,kfta—saMskAra,,54389,Mn.,"ix, 326",manusmrti,9,9:326,verse,82240,30316,2,kṛta,kṛta,kṛ,VERB,dcs_cpd,located,kṛta-saṃskāra,kṛta-saṃskāra
+S073,random,,vibhajya,viBajya,vi-Bajya,,198211,Pāṇ.,"v, 3, 57",astadhyayi,5:3,5:3:57,verse,553781,8503,1,vibhajya,vibhajya,vibhaj,VERB,surface,located,vi-bhajya,vi-bhajya
+S074,random,,asuratva,asuratva,asura—tva/,,21066,RV.,"x, 55, 4",rgveda,10:55,10:55:4,verse,610418,149537,2,asura,asura,asura,NOUN,dcs_cpd,located,asura-tva,asura-tva
+S075,random,,jihmabāra,jihmabAra,jihma/—bAra,,79466,RV.,"i, 116, 9",rgveda,1:116,1:116:9,verse,594270_2,19506,2,jihma,jihma,jihma,ADJ,dcs_cpd,located,jihma-bāra,jihma-bāra
+S076,random,,aśani,aSani,aSa/ni,,19477,RV.,"x, 87, 4",rgveda,10:87,10:87:4,verse,611189,156321,1,aśanibhir,aśanibhiḥ,aśani,NOUN,dcs,located,aśani,aśani
+S077,random,,khaimakhā,KEmaKA,KEmaKA,,62078,AV.,"iv, 15, 15",atharvaveda,4:15,4:15:15,verse,645106,11417,1,khaimakhā,khaimakhā,khaimakhā,NOUN,dcs,located,khaimakhā,khaimakhā
+S078,random,,mauñjibandhana,mOYjibanDana,mOYji-banDana,,168706,Mn.,"ii, 171",manusmrti,2,2:171,verse,78517,4003,1,mauñjibandhanāt,mauñjibandhanāt,mauñjibandhana,NOUN,dcs,located,mauñji-bandhana,mauñji-bandhana
+S079,random,,aṣṭamakālika,azwamakAlika,azwama—kAlika,,20335,Mn.,"vi, 19",manusmrti,6,6:19,verse,80141,15622,1,aṣṭamakālikaḥ,aṣṭamakālikaḥ,aṣṭamakālika,ADJ,dcs,located,aṣṭama-kālika,aṣṭama-kālika
+S080,random,,agnāyī,agnAyI,agnA/yI,,888,RV.,"v, 46, 8",rgveda,5:46,5:46:8,verse,599871,68970,1,agnāyy,agnāyī,agnāyī,NOUN,dcs,located,agnāyī,agnāyī

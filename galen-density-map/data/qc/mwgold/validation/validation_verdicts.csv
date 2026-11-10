@@ -1,0 +1,81 @@
+row_id,kind,expected,headword_gold,headword_shown,surface,text,abbrev,locus,token_index,span,validation,dcs_lemma,opus_answer,opus_headword_if_no,opus_note,sonnet_answer,sonnet_headword_if_no,sonnet_note,fable_answer,fable_headword_if_no,fable_note
+S001,anchor,yes,nipāta,ni-pāta,nipāta,kumarasambhava,Kum.,"iii, 15",2184,1,dcs,nipāta,yes,,iṣu-nipāta,yes,,,yes,,nipāta 'falling' in ekeṣunipātasādhyaḥ
+S002,random,,dāsaveśa,dāsa-veśa,dāsaveśāya,rgveda,RV.,"ii, 13, 8",35968,1,dcs,dāsaveśa,yes,,proper name,yes,,,yes,,dat. sg. of name Dāsaveśa
+S003,random,,parīpsā,parīpsā,parīpsāyām,astadhyayi,Pāṇ.,"iii, 4, 52",4711,1,dcs,parīpsā,yes,,,yes,,,yes,,loc. sg. of parīpsā
+S004,random,,grāmadaśeśa,grāma-daśeśa,grāma,manusmrti,Mn.,"vii, 116",18274,3,dcs_cpd,grāma,yes,,grāmadaśeśa dat.,yes,,,yes,,grāmadaśeśāya Mn 7.116
+S005,anchor,yes,alam,alam,alam,atharvaveda,AV.,"vi, 109, 1",25912,1,dcs,alam,yes,,,yes,,,yes,,indecl.
+S006,random,,nābhivardhana,nābhi-vardhana,nābhi,manusmrti,Mn.,"ii, 29",1985,2,dcs_cpd,nābhi,yes,,,yes,,,yes,,abl. sg. nābhivardhanāt Mn 2.29
+S007,random,,gaṇikānna,gaṇikānna,gaṇikā,manusmrti,Mn.,"iv, 209",12186,2,dcs_cpd,gaṇikā,yes,,,yes,,,yes,,gaṇikānnam Mn 4.209
+S008,random,,ulkā,ulkā,ulkām,rgveda,RV.,"x, 68, 4",152505,1,dcs,ulkā,yes,,,yes,,,yes,,acc. sg.
+S009,random,,mandrayu,mandrayu,mandrayuvo,rgveda,RV.,"ix, 86, 17",133636,1,dcs,mandrayu,yes,,,yes,,,yes,,nom. pl. of mandrayu
+S010,random,,savitṛ,savitṛ,savitā,rgveda,RV.,"iii, 55, 19",50947,1,dcs,savitṛ,yes,,,yes,,,yes,,nom. sg. of savitṛ
+S011,random,,ātmavikraya,ātma-vikraya,ātma,manusmrti,Mn.,"xi, 59",33070,2,dcs_cpd,ātman,yes,,,yes,,,yes,,ātmavikrayaḥ Mn 11.60
+S012,random,,urubja,uru-'bja,urubjam,rgveda,RV.,"ix, 77, 4",132395,1,dcs,urubja,yes,,urubja acc.,yes,,,yes,,urubjam = uru+ubja
+S013,random,,avama,avama,avamasya,rgveda,RV.,"vi, 21, 5",78348,1,dcs,avama,yes,,,yes,,,yes,,gen. sg. of avama
+S014,random,,aśvimat,aśvi-mat,aśvimān,astadhyayi,Pāṇ.,"iv, 4, 126",7188,1,dcs,aśvimat,yes,,,yes,,,yes,,nom. sg. of aśvimat (Pāṇini)
+S015,anchor,yes,viśvasāman,viśva-sāman,viśvasāmann,rgveda,RV.,"v, 22, 1",64676,1,dcs,viśvasāman,yes,,voc.,yes,,,yes,,voc. sg. of viśvasāman
+S016,random,,tryavi,try-avi,tryaviṃ,rgveda,RV.,"iii, 55, 14",50854,1,dcs,tryavi,yes,,,yes,,,yes,,acc. sg. of tryavi
+S017,random,,upasad,upa-sad,upaseduṣe,rgveda,RV.,"viii, 47, 16",115335,1,dcs,upasad,yes,,perf. pple of upa-sad,yes,,,yes,,dat. sg. of pf. part. upasedvas of upa-sad
+S018,anchor,yes,tatra,tatra,tatra,manusmrti,Mn.,"ix, 205",28668,1,dcs,tatra,yes,,,yes,,,yes,,indecl.
+S019,random,,gopītha,go-pītha,gopīthe,rgveda,RV.,"x, 77, 7",154201,1,dcs,gopītha,yes,,,yes,,,yes,,loc. sg.
+S020,random,,ārupita,ārupita,ārupitaṃ,rgveda,RV.,"iv, 5, 7",53573,1,dcs,ārupita,yes,,,yes,,,yes,,ppp. ārupita
+S021,plant,no,upajā,ud-dhṛta-sneha,upajā,atharvaveda,AV.,"xi, 1, 19",47921,1,dcs,upajā,no,upa-ja,prajā upajā,no,upa-jā,,no,upajā,upajā 'born after' (upa-jā); not uddhṛtasneha
+S022,random,,citrarādhas,citra-rādhas,citra,rgveda,RV.,"viii, 11, 9",105869,2,dcs_cpd,citra,yes,,,yes,,,yes,,acc. sg. of citrarādhas
+S023,random,,vas,vas,vasiṣva,rgveda,RV.,"viii, 70, 10",119235,1,dcs,vas,yes,,impv. mid. vas (clothe),yes,,,yes,,vasiṣva 2sg. impv. mid. of vas 'dwell'
+S024,random,,sthāna,sthāna,sthānau,astadhyayi,Pāṇ.,"i, 4, 4",989,1,dcs,sthāna,yes,,iyaṅuvaṅsthānau,yes,,,yes,,nom. du. of sthāna (P 1.4.4)
+S025,random,,varṇa,varṇa,varṇam,rgveda,RV.,"i, 104, 2",16773,1,dcs,varṇa,yes,,,yes,,,yes,,acc. sg.
+S026,random,,aśna,aśna,aśnasya,rgveda,RV.,"ii, 20, 5",37309,1,dcs,aśna,yes,,demon name,unsure,,aśna vs aśan/aśman,yes,,gen. sg. of demon name Aśna
+S027,random,,kṣama,kṣama,kṣamām,kumarasambhava,Kum.,"v, 40",4833,1,dcs,kṣama,yes,,bahukṣamām; could be bahuvrīhi of kṣamā,yes,,,yes,,acc. f. of adj. kṣama (bahu-kṣamā 'very patient')
+S028,plant,no,vyakti,vasnya,vyakti,astadhyayi,Pāṇ.,"i, 2, 51",526,1,dcs,vyakti,no,vyakti,,no,vyakti,,no,vyakti,vyaktivacane P 1.2.51; not vasnya
+S029,random,,anabhiśasta,an-abhiśasta,anabhiśastā,rgveda,RV.,"ix, 88, 7",134563,1,dcs,anabhiśasta,yes,,,yes,,,yes,,nom. f. of anabhiśasta
+S030,random,,dīrghajihvya,dīrgha-jihvya,dīrghajihvyam,rgveda,RV.,"ix, 101, 1",137256,1,dcs,dīrghajihvya,yes,,,yes,,,yes,,acc. sg. of dīrghajihvya
+S031,plant,no,āpṛk,āsann-iṣu,āpṛk,rgveda,RV.,"x, 89, 14",157321,1,dcs,āpṛk,no,ā-pṛk,indecl.,no,ā-pṛc,,no,ā-pṛk,āpṛk indecl. (ā-pṛc) RV 1.132.6; not āsanniṣu
+S032,random,,carama,carama,caramas,rgveda,RV.,"viii, 20, 14",108273,1,dcs,carama,yes,,,yes,,,yes,,nom. sg. of carama
+S033,random,,cintā,cintā,cintā,manusmrti,Mn.,"xii, 31",36364,1,dcs,cintā,yes,,member of ātmacintā,yes,,,yes,,cintā as member of ātma-cintā
+S034,random,,krīḍi,krīḍi,krīḍayo,rgveda,RV.,"i, 87, 3",13605,1,dcs,krīḍi,yes,,,yes,,,yes,,nom. pl. of krīḍi/krīḷi
+S035,random,,ayoni,a-yoni,ayonis,kumarasambhava,Kum.,"ii, 9",1164,1,dcs,ayoni,yes,,,yes,,,yes,,nom. sg. of ayoni
+S036,random,,avaśas,ava-śas,avaśasā,atharvaveda,AV.,"vi, 45, 2",22779,1,dcs,avaśas,yes,,,yes,,,yes,,instr. sg. of avaśas
+S037,plant,no,tathā,tulya,tathā,manusmrti,Mn.,"vii, 68",17601,1,dcs,tathā,no,tathā,,no,tathā,,no,tathā,tathā indecl.; not tulya
+S038,random,,kiyāmbu,kiyāmbu,kiyāmbū,rgveda,RV.,"x, 16, 13",142069,1,dcs,kiyāmbu,yes,,,yes,,,yes,,kiyāmbu nom. sg. (RV 10.16.13)
+S039,random,,nada,nada,nadasya,rgveda,RV.,"i, 179, 4",31611,1,dcs,nada,yes,,,yes,,,yes,,gen. sg. of nada
+S040,random,,dasta,dasta,dasta,astadhyayi,Pāṇ.,"vii, 2, 27",12736,1,dcs,dasta,yes,,pp. of das,yes,,,yes,,dasta in P 7.2.27 list
+S041,random,,kṛṣṇayāma,kṛṣṇa-yāma,kṛṣṇa,rgveda,RV.,"vi, 6, 1",75187,2,dcs_cpd,kṛṣṇa,yes,,,yes,,,yes,,acc. sg. of kṛṣṇayāma
+S042,plant,no,sārava,samana,sārava,astadhyayi,Pāṇ.,"vi, 4, 174",12230,1,dcs,sārava,no,sārava,,no,sārava,,no,sārava,gaṇa word sārava; not samana
+S043,random,,ṛtayā,ṛtayā,ṛtayā,rgveda,RV.,"ii, 11, 12",35366,1,dcs,ṛtayā,yes,,instr. adv.,yes,,,yes,,ṛtayā indecl.
+S044,random,,āsrāva,ā-srāva,āsrāvasya,atharvaveda,AV.,"ii, 3, 3",2582,1,dcs,āsrāva,yes,,,yes,,,yes,,gen. sg. of āsrāva
+S045,random,,tāpayiṣṇu,tāpayiṣṇu,tāpayiṣṇavaḥ,rgveda,RV.,"x, 34, 7",145388,1,dcs,tāpayiṣṇu,yes,,,yes,,,yes,,nom. pl. of tāpayiṣṇu
+S046,random,,usra,usra,usrā,rgveda,RV.,"ii, 39, 3",41067,1,dcs,usra,yes,,dual (Aśvins),yes,,,yes,,nom. du. m. of usra (Aśvins)
+S047,random,,ghoṣi,ghoṣi,ghoṣi,rgveda,RV.,"vi, 5, 6",75154,1,surface,ghoṣin,no,ghuṣ,aor. pass. ghoṣi,unsure,,ghoṣi form unclear,yes,,ghoṣi
+S048,random,,aṣṭama,aṣṭama,aṣṭamaṃ,rgveda,RV.,"x, 114, 9",162951,1,dcs,aṣṭama,yes,,,yes,,,yes,,acc. sg. of aṣṭama
+S049,plant,no,tūla,tri-garta-ṣaṣṭha,tūla,astadhyayi,Pāṇ.,"vi, 2, 121",10589,1,dcs,tūla,no,tūla,,no,tūla,,no,tūla,tūla in P 6.2 list; not trigartaṣaṣṭha
+S050,random,,ātmacintā,ātma-cintā,ātma,manusmrti,Mn.,"xii, 31",36363,2,dcs_cpd,ātman,yes,,,yes,,,yes,,ātmacintā Mn 12.31
+S051,random,,vāṇa,vāṇa,vāṇasya,rgveda,RV.,"ix, 50, 1",128233,1,dcs,vāṇa,yes,,,yes,,,yes,,gen. sg. of vāṇa
+S052,random,,avyanat,a-vyanat,a,rgveda,RV.,"x, 120, 2",163758,2,dcs_cpd,a,yes,,,yes,,,yes,,a-vyanat 'not breathing'
+S053,plant,no,uṣṇih,ud-ojas,uṣṇih,astadhyayi,Pāṇ.,"iii, 2, 59",3279,1,dcs,uṣṇih,no,uṣṇih,,no,uṣṇih,,no,uṣṇih,uṣṇih in P 3.2.59 list; not udojas
+S054,random,,ṛkṣa,ṛkṣa,ṛkṣād,rgveda,RV.,"viii, 24, 27",109686,1,dcs,ṛkṣa,yes,,,unsure,,ṛkṣa bear vs harm sense,yes,,abl. sg. of ṛkṣa (RV 8.24.27)
+S055,anchor,yes,praṇīya,pra-ṇīya,praṇīya,astadhyayi,Pāṇ.,"iii, 1, 123",2898,1,dcs,praṇīya,yes,,gerundive,yes,,,yes,,praṇīya P 3.1.123
+S056,random,,acodas,a-codas,acodaso,rgveda,RV.,"ix, 79, 1",132520,1,dcs,acodas,yes,,,yes,,,yes,,nom. pl. of acodas
+S057,anchor,yes,kṣoṇī,kṣoṇī,kṣoṇī,rgveda,RV.,"viii, 52, 10",116286,1,dcs,kṣoṇī,yes,,,yes,,,yes,,nom./acc. du. of kṣoṇī
+S058,plant,no,kuṇḍapāyya,kāmya,kuṇḍapāyya,astadhyayi,Pāṇ.,"iii, 1, 130",2942,1,dcs,kuṇḍapāyya,no,kuṇḍa-pāyya,,no,kuṇḍapāyya,,no,kuṇḍapāyya,kuṇḍapāyya P 3.1.130; not kāmya
+S059,random,,devatyā,devatyā,devatyāḥ,atharvaveda,AV.,"i, 22, 3",1482,1,vidyut,devatya,no,devatya,fem. of adj. devatya,yes,,,yes,,nom. pl. f. of devatya/devatyā
+S060,random,,netṛ,netṛ,netā,manusmrti,Mn.,"vii, 25",17016,1,dcs,netṛ,yes,,,yes,,,yes,,nom. sg. of netṛ
+S061,random,,apadhvaṃsaja,apa-dhvaṃsa-ja,apadhvaṃsa,manusmrti,Mn.,"x, 46",31068,2,dcs_cpd,apadhvaṃsa,yes,,,yes,,,yes,,nom. pl. of apadhvaṃsaja Mn 10.46
+S062,anchor,yes,kalpadruma,kalpa-druma,kalpadruma,kumarasambhava,Kum.,"ii, 39",1572,1,dcs,kalpadruma,yes,,,yes,,,yes,,member of kalpadruma-vibhūṣaṇa
+S063,random,,cāpa,cāpa,cāpa,bhagavatapurana,BhP.,"i, 11, 28",6456,1,dcs,cāpa,yes,,,yes,,,yes,,cāpa 'bow' member of arkoḍupacāpavaidyuta
+S064,plant,no,adharedyus,anu-bhartṛ,adharedyus,astadhyayi,Pāṇ.,"v, 3, 22",8381,1,dcs,adharedyus,no,adharedyus,,no,adharedyus,,no,adharedyus,adharedyus P 5.3.22; not anubhartṛ
+S065,anchor,yes,kakṣyā,kakṣyā,kakṣyā,atharvaveda,AV.,"xviii, 1, 15",66473,1,dcs,kakṣyā,yes,,,yes,,,yes,,nom. sg. kakṣyā 'girth'
+S066,random,,janitra,janitra,janitram,atharvaveda,AV.,"i, 25, i",1633,1,dcs,janitra,yes,,,yes,,,yes,,acc. sg. of janitra
+S067,random,,tṛṇāgni,tṛṇāgni,tṛṇa,manusmrti,Mn.,"iii, 168",7511,2,dcs_cpd,tṛṇa,yes,,,yes,,,yes,,tṛṇāgniḥ Mn 3.168
+S068,random,,āreagha,āre-agha,āreaghā,rgveda,RV.,"vi, 1, 12",74522,1,dcs,āreagha,yes,,,yes,,,yes,,nom. pl. f. of āreagha
+S069,random,,pūrva,pūrva,pūrva,astadhyayi,Pāṇ.,"vii, 1, 16",12296,1,dcs,pūrva,yes,,,yes,,,yes,,pūrva in pūrvādibhyo navabhyo vā P 7.1.16
+S070,plant,no,graha,gandhi,graha,astadhyayi,Pāṇ.,"iii, 3, 58",4052,1,dcs,graha,no,graha,,no,graha,,no,graha,graha P 3.3.58; not gandhi
+S071,random,,ced,ced,ced,atharvaveda,AV.,"v, 17, 8",17618,1,dcs,ced,yes,,,yes,,,yes,,indecl.
+S072,anchor,yes,takṣaṇa,takṣaṇa,takṣaṇa,gautamadharmasutra,Gaut.,"i, 29",119,1,dcs,takṣaṇa,yes,,,yes,,,yes,,takṣaṇa member of dvandva (Gaut.)
+S073,random,,ābhūṣeṇya,ā-bhūṣeṇya,ābhūṣeṇyam,rgveda,RV.,"v, 55, 4",70402,1,dcs,ābhūṣeṇya,yes,,,yes,,,yes,,acc. sg. n. of ābhūṣeṇya
+S074,random,,asat,a-sat,asati,kumarasambhava,Kum.,"iv, 12",3465,1,dcs,asat,yes,,loc. abs.,yes,,,yes,,loc. sg. of asat (pres. part.)
+S075,random,,asahāyavat,a-sahāya-vat,asahāyavān,manusmrti,Mn.,"vi, 42",15926,1,dcs,asahāyavat,yes,,,yes,,,yes,,nom. sg. m. of asahāyavat Mn 6.42
+S076,random,,upāvasṛṣṭa,upāva-sṛṣṭa,upāvasṛṣṭam,aitareyabrahmana,AitBr.,"v, 26, 6",34648,1,vidyut,upāvasṛj,yes,,,yes,,,yes,,ppp. upāvasṛṣṭa acc. sg. n.
+S077,random,,hiṃsrā,hiṃsrā,hiṃsrā,manusmrti,Mn.,"ix, 80",26867,1,surface,hiṃsra,no,hiṃsra,fem. adj. not the noun hiṃsrā,yes,,,yes,,hiṃsrā f. Mn 9.80
+S078,random,,goduh,go-duh,go,atharvaveda,AV.,"vii, 73, 6",30697,2,dcs_cpd,go,yes,,,yes,,,yes,,voc. sg. of goduh
+S079,anchor,yes,kharadaṇḍa,khara-daṇḍa,kharadaṇḍa,bhagavatapurana,BhP.,"iv, 6, 29",43180,1,dcs,kharadaṇḍa,yes,,,yes,,,yes,,kharadaṇḍa 'lotus' member of kharadaṇḍajalāśaya
+S080,random,,tṛṣ,tṛṣ,atītṛṣāma,rgveda,RV.,"iv, 34, 11",58918,1,dcs,tṛṣ,yes,,redupl. aor.,yes,,,yes,,atītṛṣāma = augment+redupl. aor. of tṛṣ (not ati-)

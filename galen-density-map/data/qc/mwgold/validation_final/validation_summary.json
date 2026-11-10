@@ -1,0 +1,225 @@
+{
+  "date": "2026-11-09",
+  "seed": 20261110,
+  "n_random": 60,
+  "readers": {
+    "opus": {
+      "answered": 80,
+      "gate": {
+        "anchors_yes": "10/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 59,
+          "n": 60,
+          "pct": 98.33,
+          "wilson95": [
+            91.14,
+            99.71
+          ]
+        },
+        "no": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        },
+        "unsure": {
+          "k": 1,
+          "n": 60,
+          "pct": 1.67,
+          "wilson95": [
+            0.29,
+            8.86
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 59,
+        "n": 59,
+        "pct": 100.0,
+        "wilson95": [
+          93.89,
+          100.0
+        ]
+      },
+      "random_by_route": {
+        "dcs": {
+          "yes": 35,
+          "unsure": 1
+        },
+        "vidyut": {
+          "yes": 5
+        },
+        "dcs_cpd": {
+          "yes": 14
+        },
+        "dcs_tmesis": {
+          "yes": 3
+        },
+        "surface": {
+          "yes": 2
+        }
+      }
+    },
+    "sonnet": {
+      "answered": 80,
+      "gate": {
+        "anchors_yes": "10/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 58,
+          "n": 60,
+          "pct": 96.67,
+          "wilson95": [
+            88.64,
+            99.08
+          ]
+        },
+        "no": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        },
+        "unsure": {
+          "k": 2,
+          "n": 60,
+          "pct": 3.33,
+          "wilson95": [
+            0.92,
+            11.36
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 58,
+        "n": 58,
+        "pct": 100.0,
+        "wilson95": [
+          93.79,
+          100.0
+        ]
+      },
+      "random_by_route": {
+        "dcs": {
+          "yes": 35,
+          "unsure": 1
+        },
+        "vidyut": {
+          "yes": 4,
+          "unsure": 1
+        },
+        "dcs_cpd": {
+          "yes": 14
+        },
+        "dcs_tmesis": {
+          "yes": 3
+        },
+        "surface": {
+          "yes": 2
+        }
+      }
+    },
+    "fable": {
+      "answered": 80,
+      "gate": {
+        "anchors_yes": "10/10",
+        "plants_no": "10/10",
+        "passed": true
+      },
+      "random": {
+        "yes": {
+          "k": 59,
+          "n": 60,
+          "pct": 98.33,
+          "wilson95": [
+            91.14,
+            99.71
+          ]
+        },
+        "no": {
+          "k": 1,
+          "n": 60,
+          "pct": 1.67,
+          "wilson95": [
+            0.29,
+            8.86
+          ]
+        },
+        "unsure": {
+          "k": 0,
+          "n": 60,
+          "pct": 0.0,
+          "wilson95": [
+            -0.0,
+            6.02
+          ]
+        }
+      },
+      "relocation_precision_excl_unsure": {
+        "k": 59,
+        "n": 60,
+        "pct": 98.33,
+        "wilson95": [
+          91.14,
+          99.71
+        ]
+      },
+      "random_by_route": {
+        "dcs": {
+          "yes": 35,
+          "no": 1
+        },
+        "vidyut": {
+          "yes": 5
+        },
+        "dcs_cpd": {
+          "yes": 14
+        },
+        "dcs_tmesis": {
+          "yes": 3
+        },
+        "surface": {
+          "yes": 2
+        }
+      }
+    }
+  },
+  "between_readers": {
+    "pair": [
+      "opus",
+      "sonnet"
+    ],
+    "kappa": -0.0227,
+    "both_yes": 57,
+    "both_no": 0,
+    "disagree": 3,
+    "both_yes_rate": {
+      "k": 57,
+      "n": 60,
+      "pct": 95.0,
+      "wilson95": [
+        86.3,
+        98.29
+      ]
+    },
+    "rows_both_no": [],
+    "rows_disagree": [
+      "S028",
+      "S043",
+      "S047"
+    ]
+  }
+}
