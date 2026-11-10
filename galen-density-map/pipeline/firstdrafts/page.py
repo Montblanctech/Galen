@@ -53,7 +53,7 @@ def highlight(text: str, spans: list[tuple[str, str, str]]) -> str:
         out.append(f'<mark class="{cls}" title="{esc(title).replace(chr(34), "&quot;")}">{base[a:b]}</mark>')
         pos = b
     out.append(base[pos:])
-    return MARK.sub(r'<span class=pb title="Kühn page"></span>', "".join(out))
+    return MARK.sub(r'<span class=pb title="Kühn page">\1</span>', "".join(out))
 
 
 SPLIT_OVER = 120  # units; above this a work is published one page per book
@@ -102,10 +102,41 @@ details{{margin:.4rem 0}} summary{{cursor:pointer;color:#444;font-size:.9em}}
 table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,table.tt td{{border-bottom:1px solid #e5e5e5;padding:.15rem .4rem;text-align:left;vertical-align:top}}
 .unc{{color:#a33;font-size:.8em}} .lsj{{color:#555;font-size:.85em}}
 .verdict{{font-weight:bold}}
-</style></head><body>
+/* reading view (2026-11-10): the English of rendering A as a book page; the scholar view is the full apparatus */
+.modebar{{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.8rem 0 .2rem;font:14px/1.4 system-ui,"Segoe UI",sans-serif;color:#555}}
+.modebar button{{font:inherit;border:1px solid #bbb;background:#fff;border-radius:999px;padding:.3rem .9rem;cursor:pointer;color:#333}}
+.modebar button[aria-pressed=true]{{background:#7a1f1f;border-color:#7a1f1f;color:#fff}}
+.rhead{{display:none}} .unit{{scroll-margin-top:5.5rem}}
+body.read{{background:#faf7f0;color:#1f1b16}}
+body.read .rhead{{display:block;max-width:38rem;margin:2.2rem auto 1.4rem;text-align:center}}
+.rhead .kicker{{font:600 13px/1 system-ui,"Segoe UI",sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#7a1f1f}}
+.rhead .rt{{font-size:2.1rem;line-height:1.2;margin:.5rem 0}}
+.rhead .lat{{font-style:italic;color:#6b6257}}
+.rhead .note{{font:14px/1.5 system-ui,"Segoe UI",sans-serif;color:#6b6257;margin-top:.9rem}}
+body.read h1.st,body.read .meth,body.read table.sum,body.read details{{display:none}}
+body.read .modebar{{max-width:38rem;margin:.8rem auto 0}}
+body.read .unit{{max-width:38rem;margin:0 auto;padding:0}}
+body.read .unit.fail{{border-left:3px solid #c98a8a;padding-left:.9rem;margin-left:auto}}
+body.read .cols{{display:block}}
+body.read .col.grc,body.read .col.b,body.read .col h4{{display:none}}
+body.read .col.a{{font-size:19px;line-height:1.75;margin:0 0 1.1rem}}
+body.read mark{{background:none;color:inherit}}
+body.read .uh{{font:12px/1.4 system-ui,"Segoe UI",sans-serif;color:#a39a8e;gap:.5rem}}
+body.read .uh .id a{{color:#a39a8e;font-weight:normal;text-decoration:none}}
+body.read .uh>span:nth-child(n+3){{display:none}}
+body.read .unit.fail .uh::after{{content:"the machine checks flag this passage";color:#a33}}
+body.read .pb{{background:none;border:none;color:#b3aa9d;font-family:system-ui,sans-serif}}
+body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-left:auto;margin-right:auto}}
+@media(prefers-color-scheme:dark){{body.read{{background:#16130f;color:#e9e2d6}} body.read .rhead .lat,body.read .rhead .note{{color:#a39a8e}} body.read a{{color:#e2b0a0}}}}
+</style></head><body class=read>
+<script>try{{if(localStorage.getItem('gfd-view')==='scholar')document.body.className='scholar'}}catch(e){{}}</script>
 <div class=banner><strong>Machine first draft, unverified, v0.1.</strong> Two language models translated this text independently; no scholar has checked it. Red marks show where the machine checks fail. The apparatus says where to look, not that the text is right. <a href="{ISSUE_URL}">Report a correction</a> · <a href="../../">project pages</a></div>
-<h1>Galen, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</h1>
-<p class=small>Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/main/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
+<div class=modebar><button type=button data-v=read>Read</button><button type=button data-v=scholar>Scholar view</button><span>Read shows one English rendering. Scholar view adds the Greek, the second rendering, the term marks and the checks.</span></div>
+<script>(function(){{var bs=document.querySelectorAll('.modebar button');function set(v){{document.body.className=v;bs.forEach(function(b){{b.setAttribute('aria-pressed',b.dataset.v===v)}});try{{localStorage.setItem('gfd-view',v)}}catch(e){{}}}}bs.forEach(function(b){{b.onclick=function(){{set(b.dataset.v)}}}});set(document.body.className==='scholar'?'scholar':'read')}})()</script>
+<header class=rhead><div class=kicker>Galen · machine first draft</div><h1 class=rt>{esc(w['title_eng'])}</h1><div class=lat>{esc(w['title_lat'])} · Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</div>
+<p class=note>Never before published in English. This is rendering A, made by a language model and not yet checked by a scholar. The small grey numbers are the pages of Kühn's Greek edition. Passages with a red rule failed the machine checks.</p></header>
+<h1 class=st>Galen, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</h1>
+<p class="small meth">Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/main/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
 """)
     # summary table
     parts.append("<table class=sum><tr><th>units</th><th>Greek words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) LSJ judge pass</th><th>units failing ≥2 checks</th></tr>")
@@ -113,7 +144,7 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
         v = s.get(k) or {}
         return f"{v.get('pass', '–')}/{(v.get('pass') or 0) + (v.get('fail') or 0)}" if v else "not run"
     parts.append(f"<tr><td>{len(units)}</td><td>{meta.get('n_tei_words', '')}</td><td>{meta.get('n_targets', '')}</td><td>{rs('a')}</td><td>{rs('b')} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td><td>{rs('c')}{' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else ''}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td></tr></table>")
-    parts.append("<p class=small>Check (a): the English back-translated into Greek by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the LSJ entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
+    parts.append("<p class=\"small meth\">Check (a): the English back-translated into Greek by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the LSJ entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
 
     head_len = len(parts)
     unit_starts = []  # (parts index, book) per unit, for the split by book (v0.2.1)
@@ -143,8 +174,8 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
 <span class=verdict>unit: {mark(verdict)}</span></span></div>
 <div class=cols>
 <div class="col grc"><h4>Greek (Kühn)</h4>{highlight(u['greek'], spans_g)}</div>
-<div class="col eng"><h4>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get('uncertain_greek', []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get('uncertain_greek') else ''}</h4>{highlight(a_eng, spans_a) if a_eng else '<em class=small>no rendering</em>'}</div>
-<div class="col eng"><h4>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get('uncertain_greek', []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get('uncertain_greek') else ''}</h4>{highlight(b_eng, spans_b) if b_eng else '<em class=small>no rendering</em>'}</div>
+<div class="col eng a"><h4>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get('uncertain_greek', []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get('uncertain_greek') else ''}</h4>{highlight(a_eng, spans_a) if a_eng else '<em class=small>no rendering</em>'}</div>
+<div class="col eng b"><h4>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get('uncertain_greek', []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get('uncertain_greek') else ''}</h4>{highlight(b_eng, spans_b) if b_eng else '<em class=small>no rendering</em>'}</div>
 </div>""")
         if rows:
             parts.append(f"<details><summary>Term table ({len(rows)} targets)</summary><table class=tt><tr><th>Greek</th><th>Dilemma lemma</th><th>LSJ</th><th>tier</th><th>A</th><th>B</th><th>agree</th><th>judge A / B</th></tr>")
@@ -156,7 +187,7 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
                              f"<td>{esc(r['agree'])}</td><td class=small>{esc(r.get('judge_A', ''))} / {esc(r.get('judge_B', ''))}</td></tr>")
             parts.append("</table></details>")
         parts.append("</div>")
-    parts.append(f"<h2>Licence and citation</h2><p class=small>Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY 4.0 by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({date.today().year}). <i>Galen First Drafts</i>: Galen, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
+    parts.append(f"<h2>Licence and citation</h2><p class=\"small lic\">Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY 4.0 by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({date.today().year}). <i>Galen First Drafts</i>: Galen, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
     dest = REPO / "docs" / "first-drafts" / slug
     dest.mkdir(parents=True, exist_ok=True)
     # Long works are split into one page per book so a phone can open them (v0.2.1, 2026-11-09: the 697-unit
@@ -172,7 +203,7 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
     for f in dest.glob("book-*.html"):
         f.unlink()
     if len(units) > SPLIT_OVER and len(books) > 1:
-        nav = "<p class=small>" + " · ".join(f'<a href="book-{bk}.html">Book {bk}</a>' for bk, *_ in books) + ' · <a href="./">contents</a></p>'
+        nav = "<p class=\"small nav\">" + " · ".join(f'<a href="book-{bk}.html">Book {bk}</a>' for bk, *_ in books) + ' · <a href="./">contents</a></p>'
         for bk, a, b, n in books:
             (dest / f"book-{bk}.html").write_text("\n".join(parts[:head_len] + [f"<h2>Book {bk} ({n} units)</h2>", nav] + parts[a:b] + [nav, parts[foot_start]]), encoding="utf-8")
         toc = ["<h2>Books</h2><ul>"] + [f'<li><a href="book-{bk}.html">Book {bk}</a>: {n} units</li>' for bk, a, b, n in books] + ["</ul>"]
@@ -204,3 +235,5 @@ table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,tabl
 
 if __name__ == "__main__":
     main()
+    import landing  # the front page and the drafts index are rebuilt from every work's data (2026-11-10)
+    landing.main()
