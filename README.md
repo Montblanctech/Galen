@@ -36,11 +36,11 @@ a headword map and a blind reader pass (`outputs/phase3/punch_list_v3.csv`: thin
 thin_contested 84, artifact_suspect 602, real_no_perseus_lsj 108, real_contested 24); two
 pre-registered probes report negative results (an LSJ-first-gloss glossary makes translations
 worse; polysemy does not predict instability); and the project ships **LSJ-Gold**, a benchmark of
-lemmatizer accuracy on the words the dictionary itself cites: **71,976 relocated loci over 54
+lemmatizer accuracy on the words the dictionary itself cites: **71,974 relocated loci over 54
 authors** (0.1.1), CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
 [audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
 Stoicheia, a 2026 diffusion tagger, matches the lexicographer's headword 92.3% of the time and Dilemma (lexicon-first) 92.3%, a tie;
-Stanza-Perseus 84.3%, odyCy 82.0% and Stanza-PROIEL 79.1%, the four neural systems on the same 69,341 loci
+Stanza-Perseus 84.3%, odyCy 82.0% and Stanza-PROIEL 79.1%, the four neural systems on the same 69,339 loci
 (Stoicheia is above Dilemma on Homer 94.6, Aeschylus 94.1 and Sophocles 96.6; just below on Plato and Herodotus; well below on
 Hippocrates, 79.0 to 95.7). On headwords LSJ cites only once: Dilemma 89.0%, Stoicheia 75.9%, the treebank-trained systems 58%.
 0.1.1 corrects 0.1 (93,926 loci), which also counted a token matching any word of a phrase LSJ quotes; see the erratum in [`release/lsj-gold-0.1.1/README.md`](release/lsj-gold-0.1.1/README.md). Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
@@ -60,7 +60,7 @@ Hippocrates, 79.0 to 95.7). On headwords LSJ cites only once: Dilemma 89.0%, Sto
 | [`galen-density-map/outputs/`](galen-density-map/outputs/) | Keyness scores, per-corpus lemma frequencies, audited exclusion logs, QC summary |
 | [`galen-density-map/data/qc/`](galen-density-map/data/qc/) | QC artifacts, incl. `h3m/` machine-bounded lemmatizer-accuracy measurements + METHODS |
 | [`galen-density-map/outputs/phase3/`](galen-density-map/outputs/phase3/) | Phase 3 v0: attributed punch list, headword map, blind reader pass, `punch_list_v3.csv` |
-| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0_1_1.csv`, 71,976 loci; 0.1 `lsj_gold_v0.csv`, 93,926), scores, validation sheets, README |
+| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0_1_1.csv`, 71,974 loci; 0.1 `lsj_gold_v0.csv`, 93,926), scores, validation sheets, README |
 | [`release/lsj-gold-0.1/`](release/lsj-gold-0.1/) | The LSJ-Gold release folder (CSV, schema, scores, leaderboard JSON, CC BY 4.0, checksums) |
 | [`docs/lsj-gold/`](docs/lsj-gold/) | The leaderboard page and JSON (GitHub Pages) |
 | [`galen-density-map/data/qc/lsgold/`](galen-density-map/data/qc/lsgold/) | **LS-Gold**: the Latin twin (`ls_gold_v0.csv`, 161,032 Lewis & Short loci over 33 authors), scores, blind sheet, README |

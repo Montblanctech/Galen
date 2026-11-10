@@ -45,7 +45,7 @@ GOLD_VERSION = {"lsj_gold_v0.csv": "v0", "lsj_gold_v0_1_1.csv": "0.1.1"}
 ERRATUM = {
     "lsj_gold_v0_1_1.csv": "Erratum (0.1.1, 2026-11): 0.1 validated a locus as <em>quoted</em> when its token matched any word of the "
     "phrase LSJ quotes beside the citation, so some golds were a neighbouring word (the Iliad 9:130 token καὶ was gold κάμνω). "
-    "0.1.1 keeps a quoted locus only when LSJ quotes that single word; 21,950 of the 93,926 loci are dropped and every system is "
+    "0.1.1 keeps a quoted locus only when LSJ quotes that single word (not a prefix such as προσ-); 21,952 of the 93,926 loci are dropped and every system is "
     "rescored on the same outputs. 0.1 stays citable at its DOI.",
 }
 

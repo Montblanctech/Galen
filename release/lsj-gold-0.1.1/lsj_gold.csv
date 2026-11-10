@@ -65013,7 +65013,6 @@ headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface
 πεφυλαγμένως,pefulagmenws,tlg0058,tlg001,perseus-grc1,15:7,15:7,4135,πεφυλαγμένως,morpheus,,grc.lsj.perseus-eng17.xml,pefulagme/nws,located
 πλάγιος,plagios,tlg0058,tlg001,perseus-grc1,32:2,32:2,12236,πλαγίων,morpheus,πρόσθεν ἢ κατὰ <τὰ> πλάγια,grc.lsj.perseus-eng17.xml,pla/gios,located
 πλεονεκτικός,pleonektikos,tlg0058,tlg001,perseus-grc1,16:18,16:18,4917,πλεονεκτικῶς,morpheus,μάχεσθαι,grc.lsj.perseus-eng17.xml,pleonektiko/s,located
-προδιατάσσομαι,prodiatassomai,tlg0058,tlg001,perseus-grc1,16:16,16:16,4853,πρὸς,quoted,προσ-,grc.lsj.perseus-eng17.xml,prodiata/ssomai,located
 προνοητικός,pronohtikos,tlg0058,tlg001,perseus-grc1,18:11,18:11,5734,προνοητικῶς,morpheus,,grc.lsj.perseus-eng17.xml,pronohtiko/s,located
 προπαρασκευάζω,proparaskeuazw,tlg0058,tlg001,perseus-grc1,11:14,11:14,3504,προπαρεσκευασμένοι,morpheus,,grc.lsj.perseus-eng17.xml,proparaskeua/zw,located
 προσαγωγή,prosagwgh,tlg0058,tlg001,perseus-grc1,10:23,10:23,2807,προσαγωγαῖς,morpheus,,grc.lsj.perseus-eng17.xml,prosagwgh/,located
@@ -68537,7 +68536,6 @@ headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface
 σύνοιδα,sunoida,tlg0014,tlg059,perseus-grc1,67,67,4703,συνειδέναι,morpheus,,grc.lsj.perseus-eng21.xml,su/noida,located
 τέλειος,teleios,tlg0014,tlg059,perseus-grc1,60,60,4252,τελείων,morpheus,ἱερὰ τ,grc.lsj.perseus-eng22.xml,te/leios,located
 τιμωρία,timwria,tlg0014,tlg059,perseus-grc1,86,86,6145,τιμωρίαν,morpheus,τ. δοῦναί τινι,grc.lsj.perseus-eng22.xml,timwri/a,located
-τίνω,tinw,tlg0014,tlg059,perseus-grc1,7,8,552,τίς,quoted,τισ-,grc.lsj.perseus-eng22.xml,ti/nw,located
 τρέφω,trefw,tlg0014,tlg059,perseus-grc1,67,67,4711,τρέφειν,morpheus,τὴν οἰκίαν ὅλην,grc.lsj.perseus-eng22.xml,tre/fw,located
 τρέφω,trefw,tlg0014,tlg059,perseus-grc1,18,18,1285,θρέψαι,morpheus,θρέψαι καὶ παιδεῦσαι,grc.lsj.perseus-eng22.xml,tre/fw,located
 ὕδωρ,udwr,tlg0014,tlg059,perseus-grc1,99,99,7117,ὕδωρ,morpheus,,grc.lsj.perseus-eng23.xml,u(/dwr,located

@@ -10,11 +10,11 @@
 | unit | the unit found in our First1K edition (line number or div path) |
 | token_index | 0-based index into the project's token JSONL for that edition (urn_cts_greekLit_<author>.<work>.<edition>.jsonl) |
 | surface | the token |
-| validation | morpheus (Morpheus analyses contain the headword) or quoted (LSJ quotes this single word beside the citation, compared on letters only; used when Morpheus had no analysis) |
+| validation | morpheus (Morpheus analyses contain the headword) or quoted (LSJ quotes this single word beside the citation, compared on letters only, never a prefix ending in "-"; used when Morpheus had no analysis) |
 | quoted_form | the form LSJ quotes near the citation, if any |
 | lsj_part, entry_key | provenance in the Perseus LSJ XML |
 | status | located |
 
 Scoring: a system matches when its lemma at token_index equals headword after accent/case normalisation (blind); strict = exact; article-neutral maps the article's forms to ὁ first.
 
-`lsj_gold_0_1_1_dropped.csv` has the same columns: the 21,950 0.1 loci whose only evidence was one word inside a quoted phrase.
+`lsj_gold_0_1_1_dropped.csv` has the same columns: the 21,952 0.1 loci whose only evidence was one word inside a quoted phrase, or a quoted prefix (2).

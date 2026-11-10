@@ -7,7 +7,8 @@ In 0.1 a locus is validated either by Morpheus (its analyses of the surface cont
 "quoted" (the surface matches the form LSJ quotes beside the citation; used when Morpheus had no analysis).
 When LSJ quotes a phrase, the quoted route accepted any word of it: the Iliad 9:130 token καὶ is gold κάμνω
 because LSJ quotes "οἵ κέ σφιν καὶ νῆσον . . ἐκάμοντο". 0.1.1 keeps a quoted locus only when the quoted form
-is that single word, compared on letters only (no accents, breathings, carets or case). Nothing else changes:
+is that single word, compared on letters only (no accents, breathings, carets or case). A quoted form ending in
+"-" is a prefix, not a word: πρὸς is not gold προδιατάσσομαι because LSJ quotes "προσ-". Nothing else changes:
 the kept rows are the 0.1 rows, unedited, in the same order.
 
 In:  data/qc/lsjgold/lsj_gold_v0.csv (0.1, 93,926 loci)
@@ -37,10 +38,12 @@ def fold(s: str) -> str:
 
 
 def phrase_only(row: dict) -> bool:
-    """True when the locus's only evidence is one word inside a quoted phrase."""
+    """True when the locus's only evidence is one word inside a quoted phrase, or a quoted prefix."""
     if row["validation"] == "morpheus":
         return False
     words = row["quoted_form"].split()
+    if len(words) == 1 and words[0].endswith("-"):  # a quoted prefix ("προσ-") is not the word, though fold() drops the hyphen
+        return True
     return not (len(words) == 1 and fold(words[0]) == fold(row["surface"]))
 
 

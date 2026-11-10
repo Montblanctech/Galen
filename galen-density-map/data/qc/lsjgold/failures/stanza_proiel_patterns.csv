@@ -5,9 +5,9 @@ accent_only,"Headword and lemma are equal after stripping accents/breathings (NF
 same_stem,Headword and lemma both have at least 4 letters and their first 4 letters are equal after accent stripping.,7355,50.78,1,ἀγακλεής,ἀγακλῆος,ἀγακλῆος,Homer,16:738
 same_stem,Headword and lemma both have at least 4 letters and their first 4 letters are equal after accent stripping.,7355,50.78,2,ἀγάλλω,ἀγάλλεται,ἀγαλέω,Homer,17:473
 same_stem,Headword and lemma both have at least 4 letters and their first 4 letters are equal after accent stripping.,7355,50.78,3,ἀγήραος,ἀγήρως,ἀγήρως,Homer,8:539
-surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,925,6.39,1,ἄγνυμι,ἄγη,ἄγη,Homer,3:367
-surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,925,6.39,2,ἀείρω,ἄερθεν,ἄέρθεν,Homer,8:74
-surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,925,6.39,3,ἀήρ,ἠέρος,ἠέρος,Homer,14:288
+surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,923,6.37,1,ἄγνυμι,ἄγη,ἄγη,Homer,3:367
+surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,923,6.37,2,ἀείρω,ἄερθεν,ἄέρθεν,Homer,8:74
+surface_returned,Lemma equals the surface form after accent stripping: the system returned the form unchanged.,923,6.37,3,ἀήρ,ἠέρος,ἠέρος,Homer,14:288
 proper_name,Headword begins with a capital letter.,0,0.00,,,,,
 dialect_ending,"Surface (tonal marks stripped, quantity marks and iota subscript kept) ends in one of: -οισι, -ῃσι, -αισι, -εσσι, -οιο, -ᾰο, -ηθεν, -οθεν, -ονδε, -ῑο. Doric -ᾶς genitive is not detected.",62,0.43,1,ἀνήνοθε,ἀνήνοθεν,ἀνανοέω,Homer,11:266
 dialect_ending,"Surface (tonal marks stripped, quantity marks and iota subscript kept) ends in one of: -οισι, -ῃσι, -αισι, -εσσι, -οιο, -ᾰο, -ηθεν, -οθεν, -ονδε, -ῑο. Doric -ᾶς genitive is not detected.",62,0.43,2,γόνυ^,γούνεσσι,γούνεσις,Homer,9:488

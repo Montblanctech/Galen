@@ -20686,6 +20686,7 @@ headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface
 παραλέγω,paralegw,tlg0058,tlg001,perseus-grc1,4:7,4:7,1216,παραδείγματος,quoted,ἐπὶ παραδείγματος,grc.lsj.perseus-eng17.xml,parale/gw,located
 πελοποννήσιοι,peloponnhsioi,tlg0058,tlg001,perseus-grc1,27:1,27:1,9270,Πελοποννήσιον,quoted,ὄνομα Πελοποννήσιον,grc.lsj.perseus-eng17.xml,*peloponnh/sioi,located
 πολιτοφυλακέω,politofulakew,tlg0058,tlg001,perseus-grc1,1:3,1:3,232,πολιτοφυλακήσοντα,quoted,σώματα . . πολιτοφυλακήσοντα,grc.lsj.perseus-eng17.xml,politofulake/w,located
+προδιατάσσομαι,prodiatassomai,tlg0058,tlg001,perseus-grc1,16:16,16:16,4853,πρὸς,quoted,προσ-,grc.lsj.perseus-eng17.xml,prodiata/ssomai,located
 πυρσεύω,purseuw,tlg0058,tlg001,perseus-grc1,15:1,15:1,3941,πυρσευθῇ,quoted,ἄν τι πυρσευθῇ,grc.lsj.perseus-eng17.xml,purseu/w,located
 ταφρεύω,tafreuw,tlg0058,tlg001,perseus-grc1,33:4,33:4,12728,τὰ,quoted,τὰ ἔσωθεν,grc.lsj.perseus-eng22.xml,tafreu/w,located
 ὑπερπετής,uperpeths,tlg0058,tlg001,perseus-grc1,32:10,32:10,12513,ὑπερπετῆ,quoted,τοῦ τείχους ὑπερπετῆ γιγνόμενα τὰ βέλη,grc.lsj.perseus-eng23.xml,u(perpeth/s,located
@@ -21348,6 +21349,7 @@ headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface
 προσδέω,prosdew,tlg0014,tlg059,perseus-grc1,31,31,2114,προσέδει,quoted,"τὸ ἐπίλοιπον, οὗ προσέδει εἰς τὰς εἴκοσι μνᾶς",grc.lsj.perseus-eng17.xml,prosde/w2,located
 πρυτανεία,prutaneia,tlg0014,tlg059,perseus-grc1,27,27,1788,πρυτανείαν,quoted,κατὰ πρυτανείαν,grc.lsj.perseus-eng17.xml,prutanei/a1,located
 συνοράω,sunoraw,tlg0014,tlg059,perseus-grc1,18,18,1280,συνιδεῖν,quoted,δεινὴ φύσιν μικρῶν παιδίων συνιδεῖν εὐπρεπῆ,grc.lsj.perseus-eng21.xml,sunora/w,located
+τίνω,tinw,tlg0014,tlg059,perseus-grc1,7,8,552,τίς,quoted,τισ-,grc.lsj.perseus-eng22.xml,ti/nw,located
 ἀνελεήμων,anelehmwn,tlg0028,tlg001,perseus-grc1,25,25,1412,ἀνελεημόνως,quoted,"ἀνελεημόνως, ἀπολέσθαι",grc.lsj.perseus-eng1.xml,a)neleh/mwn,located
 ἀπολογέομαι,apologeomai,tlg0028,tlg001,perseus-grc1,7,8,371,ἀπολογήσεσθαι,quoted,τί ποτε ἀπολογήσεσθαι μέλλει μοι;,grc.lsj.perseus-eng1.xml,a)pologe/omai,located
 ἐξαπατάω,ecapataw,tlg0028,tlg001,perseus-grc1,19,19,1069,ἐξαπατωμένη,quoted,ᾔδει ὑπὸ τῆς μητρυιᾶς ἐξαπατωμένη,grc.lsj.perseus-eng5.xml,e)capata/w,located

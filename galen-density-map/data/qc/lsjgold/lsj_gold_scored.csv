@@ -65013,7 +65013,6 @@ headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface
 πεφυλαγμένως,pefulagmenws,tlg0058,tlg001,perseus-grc1,15:7,15:7,4135,πεφυλαγμένως,morpheus,,grc.lsj.perseus-eng17.xml,pefulagme/nws,located,thin,2-5,πεφυλαγμένως,1,1,πεφυλαγμένως,1,1,πυλάσσω,0,0,πεφυλαγμένως,1,1,πεφυλαγμένως,1,1
 πλάγιος,plagios,tlg0058,tlg001,perseus-grc1,32:2,32:2,12236,πλαγίων,morpheus,πρόσθεν ἢ κατὰ <τὰ> πλάγια,grc.lsj.perseus-eng17.xml,pla/gios,located,rich,6+,πλαγίων,0,0,πλάγιον,0,0,πλάγιον,0,0,πλάγιος,1,1,πλάγιος,1,1
 πλεονεκτικός,pleonektikos,tlg0058,tlg001,perseus-grc1,16:18,16:18,4917,πλεονεκτικῶς,morpheus,μάχεσθαι,grc.lsj.perseus-eng17.xml,pleonektiko/s,located,thin,6+,πλεονεκτικῶς,0,0,πλεονεκτίς,0,0,πλεονεκτικῶς,0,0,πλεονεκτικός,1,1,πλεονεκτικός,1,1
-προδιατάσσομαι,prodiatassomai,tlg0058,tlg001,perseus-grc1,16:16,16:16,4853,πρὸς,quoted,προσ-,grc.lsj.perseus-eng17.xml,prodiata/ssomai,located,thin,1,πρός,0,0,πρός,0,0,πρός,0,0,πρός,0,0,πρός,0,0
 προνοητικός,pronohtikos,tlg0058,tlg001,perseus-grc1,18:11,18:11,5734,προνοητικῶς,morpheus,,grc.lsj.perseus-eng17.xml,pronohtiko/s,located,rich,6+,προνοητικῶς,0,0,προνοητικός,1,1,προνοητικῶς,0,0,προνοητικός,1,1,προνοητικῶς,0,0
 προπαρασκευάζω,proparaskeuazw,tlg0058,tlg001,perseus-grc1,11:14,11:14,3504,προπαρεσκευασμένοι,morpheus,,grc.lsj.perseus-eng17.xml,proparaskeua/zw,located,thin,6+,προπαρεσκευασμένοι,0,0,προπαρασκευάζω,1,1,προπαρασκεύω,0,0,προπαρασκευάζω,1,1,προπαρασκευάζω,1,1
 προσαγωγή,prosagwgh,tlg0058,tlg001,perseus-grc1,10:23,10:23,2807,προσαγωγαῖς,morpheus,,grc.lsj.perseus-eng17.xml,prosagwgh/,located,rich,6+,προσαγωγή,1,1,προσαγωγή,1,1,προσαγωγή,1,1,προσαγωγή,1,1,προσαγωγή,1,1
@@ -68537,7 +68536,6 @@ headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface
 σύνοιδα,sunoida,tlg0014,tlg059,perseus-grc1,67,67,4703,συνειδέναι,morpheus,,grc.lsj.perseus-eng21.xml,su/noida,located,rich,6+,σύνοιδα,1,1,συνεῖδον,0,0,σύνοιδα,1,1,σύνοιδα,1,1,σύνοιδα,1,1
 τέλειος,teleios,tlg0014,tlg059,perseus-grc1,60,60,4252,τελείων,morpheus,ἱερὰ τ,grc.lsj.perseus-eng22.xml,te/leios,located,rich,6+,τέλειος,1,1,τέλειος,1,1,τέλειος,1,1,τέλειος,1,1,τέλειος,1,1
 τιμωρία,timwria,tlg0014,tlg059,perseus-grc1,86,86,6145,τιμωρίαν,morpheus,τ. δοῦναί τινι,grc.lsj.perseus-eng22.xml,timwri/a,located,rich,6+,τιμωρία,1,1,τιμωρία,1,1,τιμωρία,1,1,τιμωρία,1,1,τιμωρία,1,1
-τίνω,tinw,tlg0014,tlg059,perseus-grc1,7,8,552,τίς,quoted,τισ-,grc.lsj.perseus-eng22.xml,ti/nw,located,rich,6+,τίς,0,0,τις,0,0,τίς,0,0,τις,0,0,τίς,0,0
 τρέφω,trefw,tlg0014,tlg059,perseus-grc1,67,67,4711,τρέφειν,morpheus,τὴν οἰκίαν ὅλην,grc.lsj.perseus-eng22.xml,tre/fw,located,rich,6+,τρέφω,1,1,τρέφω,1,1,τρέφω,1,1,τρέφω,1,1,τρέφω,1,1
 τρέφω,trefw,tlg0014,tlg059,perseus-grc1,18,18,1285,θρέψαι,morpheus,θρέψαι καὶ παιδεῦσαι,grc.lsj.perseus-eng22.xml,tre/fw,located,rich,6+,θρέπτω,0,0,τρέφω,1,1,θρέφω,0,0,τρέφω,1,1,τρέφω,1,1
 ὕδωρ,udwr,tlg0014,tlg059,perseus-grc1,99,99,7117,ὕδωρ,morpheus,,grc.lsj.perseus-eng23.xml,u(/dwr,located,rich,6+,ὕδωρ,1,1,ὕδωρ,1,1,ὕδωρ,1,1,ὕδωρ,1,1,ὕδωρ,1,1
