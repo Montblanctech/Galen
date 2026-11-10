@@ -1,8 +1,0 @@
-# the 50 MB Monier-Williams source text and the scraped pages are re-fetched (see REPORT.md §1); mw_citations.jsonl
-# (11 MB) is rebuilt by pipeline/mwgold/mw_parse.py. Small licence / format files in mw_src/ are tracked.
-mw_src/mw.txt
-mw_src/*.html
-mw_src/benpref.html
-dcs_src/
-mw_citations.jsonl
-mw_ls_counts.json
