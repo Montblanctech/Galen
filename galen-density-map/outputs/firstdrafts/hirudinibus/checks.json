@@ -1,0 +1,430 @@
+{
+ "spec": "firstdrafts_v02_spec.md",
+ "thresholds": {
+  "a_term_recall_min": 0.5,
+  "a_content_recall_min_when_no_targets": 0.4,
+  "b_agreement_min": 0.7,
+  "c_in_range_share_min": 0.8,
+  "c_out_of_range_max": 2,
+  "c_gate": "20/20 controls (10 validated anchors in_range, 10 plants out_of_range)",
+  "d_expected_min": 0.6,
+  "d_calibration_halt_below": 0.4,
+  "unit_fail_rule": "fails two of three checks a-c (n/a counts neither way); d and memory consistency are reported, never part of the verdict"
+ },
+ "work": "hirudinibus",
+ "subset": null,
+ "units": {
+  "K11.317": {
+   "locus": "K. XI 317",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.417,
+     "n_content": 36,
+     "bt_tokens": 74,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.389,
+     "n_content": 36,
+     "bt_tokens": 63,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 2,
+    "agree": 2,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 4,
+    "exploratory_not_preregistered": {
+     "n": 4,
+     "in_range": 4,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K11.317-318": {
+   "locus": "K. XI 317–318",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.7,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.592,
+     "n_content": 71,
+     "bt_tokens": 145,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.592,
+     "n_content": 71,
+     "bt_tokens": 144,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 7,
+    "rate": 0.875,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K11.318-319": {
+   "locus": "K. XI 318–319",
+   "difficulty_tier": "high",
+   "punch_density_per100": 6.16,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.857,
+     "n_terms": 7,
+     "content_recall": 0.621,
+     "n_content": 66,
+     "bt_tokens": 156,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.857,
+     "n_terms": 7,
+     "content_recall": 0.621,
+     "n_content": 66,
+     "bt_tokens": 165,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 14,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.875,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K11.319-320": {
+   "locus": "K. XI 319–320",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 3.11,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.857,
+     "n_terms": 7,
+     "content_recall": 0.653,
+     "n_content": 75,
+     "bt_tokens": 182,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.857,
+     "n_terms": 7,
+     "content_recall": 0.627,
+     "n_content": 75,
+     "bt_tokens": 173,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 7,
+    "rate": 0.875,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K11.320-321": {
+   "locus": "K. XI 320–321",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 4.42,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.493,
+     "n_content": 73,
+     "bt_tokens": 129,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.493,
+     "n_content": 73,
+     "bt_tokens": 129,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 14,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K11.321-322": {
+   "locus": "K. XI 321–322",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.679,
+     "n_content": 53,
+     "bt_tokens": 99,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.774,
+     "n_content": 53,
+     "bt_tokens": 89,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 5,
+    "rate": 0.625,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  }
+ },
+ "summary": {
+  "n_units": 6,
+  "unit_verdicts": {
+   "pass": 5,
+   "mixed": 1
+  },
+  "a": {
+   "pass": 6,
+   "fail": 0,
+   "n_a_or_not_run": 0,
+   "pass_pct": 100.0,
+   "wilson95": [
+    60.97,
+    100.0
+   ]
+  },
+  "b": {
+   "pass": 5,
+   "fail": 1,
+   "n_a_or_not_run": 0,
+   "pass_pct": 83.3,
+   "wilson95": [
+    43.65,
+    96.99
+   ]
+  },
+  "c": {
+   "pass": 0,
+   "fail": 0,
+   "n_a_or_not_run": 6,
+   "pass_pct": null,
+   "wilson95": null
+  },
+  "b_term_level": {
+   "n": 42,
+   "agree": 37,
+   "pct": 88.1,
+   "wilson95": [
+    75.0,
+    94.81
+   ]
+  },
+  "b_by_class": {
+   "punch": {
+    "n": 18,
+    "agree": 18,
+    "pct": 100.0,
+    "wilson95": [
+     82.41,
+     100.0
+    ]
+   },
+   "fourway_only": {
+    "n": 24,
+    "agree": 19,
+    "pct": 79.17,
+    "wilson95": [
+     59.53,
+     90.76
+    ]
+   }
+  },
+  "a_mean_term_recall": {
+   "A": 0.702,
+   "B": 0.744
+  },
+  "a_mean_content_recall": {
+   "A": 0.576,
+   "B": 0.583
+  },
+  "c_gate": {
+   "controls": 20,
+   "correct": 16,
+   "passed": false,
+   "misses": [
+    {
+     "item_id": "J00083",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "that which flows"
+    },
+    {
+     "item_id": "J00091",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "of good name"
+    },
+    {
+     "item_id": "J00085",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "liable to discharge blood"
+    },
+    {
+     "item_id": "J00084",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "holding together"
+    }
+   ],
+   "defective_anchor_misses": 0,
+   "note": "gate failed; 4 control misses, 0 of them defective anchors"
+  },
+  "c_exploratory_not_preregistered": {
+   "pass": 6
+  },
+  "c_item_level": {
+   "A": {
+    "in_range": 40,
+    "out_of_range": 1
+   },
+   "B": {
+    "in_range": 40,
+    "out_of_range": 1
+   }
+  },
+  "d_reference_agreement": null,
+  "memory_consistency": {
+   "A": {
+    "n_with_prior": 4,
+    "consistent": 4,
+    "pct": 100.0
+   },
+   "B": {
+    "n_with_prior": 4,
+    "consistent": 4,
+    "pct": 100.0
+   }
+  },
+  "uncertain_flags": {
+   "A": 3,
+   "B": 2
+  },
+  "density_vs_disagreement_spearman": {
+   "rho": -0.501,
+   "n": 6
+  }
+ }
+}

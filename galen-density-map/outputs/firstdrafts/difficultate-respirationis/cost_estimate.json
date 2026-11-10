@@ -1,0 +1,59 @@
+{
+ "spec": "firstdrafts_v02_spec.md",
+ "n_units": 207,
+ "n_greek_words": 31901,
+ "n_targets": 1541,
+ "proxy": "Greek words x4.5 tokens, English words x1.3, prompt 800 tok/unit, context = both neighbours, term memory 30 tok/target, judge 650 input + 20 output tokens per item (whole LSJ entry, groups of 10), back-translation 300 tok prompt/unit, thinking allowance (output tokens) 2500/translation unit, 800/back-translation unit, 600/judge group",
+ "thinking_allowance_output_tokens": {
+  "translate": 2500,
+  "backtranslate": 800,
+  "judge_group": 600
+ },
+ "prices_per_mtok": {
+  "claude-fable-5-1": {
+   "input": 10.0,
+   "output": 50.0
+  },
+  "claude-opus-5-5": {
+   "input": 4.0,
+   "output": 20.0
+  },
+  "claude-sonnet-5-5": {
+   "input": 2.0,
+   "output": 10.0
+  }
+ },
+ "items": {
+  "rendering_A": {
+   "model": "claude-fable-5-1",
+   "input_tokens": 642492,
+   "output_tokens": 607864,
+   "usd": 36.82,
+   "usd_batch": 18.41
+  },
+  "rendering_B": {
+   "model": "claude-opus-5-5",
+   "input_tokens": 642492,
+   "output_tokens": 607864,
+   "usd": 14.73,
+   "usd_batch": 7.36
+  },
+  "backtranslation_A+B": {
+   "model": "claude-sonnet-5-5",
+   "input_tokens": 227878,
+   "output_tokens": 618308,
+   "usd": 6.64,
+   "usd_batch": 3.32
+  },
+  "judge_c": {
+   "model": "claude-sonnet-5-5",
+   "input_tokens": 2016300,
+   "output_tokens": 248640,
+   "usd": 6.52,
+   "usd_batch": 3.26
+  }
+ },
+ "total_usd_direct": 64.71,
+ "total_usd_batch": 32.35,
+ "total_usd": 64.71
+}

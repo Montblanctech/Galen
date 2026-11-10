@@ -1,0 +1,41 @@
+{
+ "work": "de-humero",
+ "urn": "urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg096.1st1K-grc1 (Kühn 1829, vol. 18a pp. 346-423; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "n_units": 77,
+ "n_tei_words": 9831,
+ "n_odycy_tokens": 9830,
+ "alignment_loss": {
+  "n_a": 9831,
+  "n_b": 9830,
+  "n_aligned": 9693,
+  "skipped_a": 138,
+  "skipped_b": 137,
+  "alignment_loss_a": 0.014037229173024107,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 473,
+ "targets_by_class": {
+  "punch:thin": 44,
+  "fourway:genuinely_hard": 339,
+  "punch:thin+fourway:genuinely_hard": 31,
+  "punch:absent": 9,
+  "punch:absent+fourway:genuinely_hard": 50
+ },
+ "density_terciles": [
+  1.04,
+  2.04
+ ],
+ "units_per_tier": {
+  "high": 25,
+  "mid": 26,
+  "low": 26
+ },
+ "n_books": 0,
+ "n_chapters": 52,
+ "pages_per_unit": {
+  "1": 23,
+  "2": 54
+ },
+ "dilemma_version": "1.3.15"
+}

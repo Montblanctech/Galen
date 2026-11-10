@@ -1,0 +1,24 @@
+{
+ "model": "fable-5-1",
+ "n_units": 77,
+ "n_responses": 77,
+ "n_ok": 77,
+ "missing_units": [],
+ "refusals": [],
+ "backends": {
+  "api": 77
+ },
+ "problems": [
+  "K18a.356-357: page-marker count differs",
+  "K18a.362-363: page-marker count differs",
+  "K18a.370: page-marker count differs",
+  "K18a.376: page-marker count differs",
+  "K18a.376-377: page-marker count differs",
+  "K18a.380-381: page-marker count differs",
+  "K18a.388-389: page-marker count differs",
+  "K18a.389-390: page-marker count differs",
+  "K18a.394-395: page-marker count differs",
+  "K18a.409-410: page-marker count differs",
+  "K18a.410-411: page-marker count differs"
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "units": 77,
+ "per_rendering": {
+  "A": {
+   "units_with_translation": 77,
+   "anchored": 73,
+   "markers_match": 76,
+   "bead_1:1": 320,
+   "bead_1:2": 10,
+   "bead_2:1": 32
+  },
+  "B": {
+   "units_with_translation": 77,
+   "anchored": 65,
+   "markers_match": 74,
+   "bead_1:1": 280,
+   "bead_1:2": 53,
+   "bead_2:1": 29,
+   "bead_0:1": 2,
+   "bead_1:0": 3
+  }
+ },
+ "term_table": {
+  "rows": 473,
+  "with_lsj_entry": 466,
+  "both_rendered": 473,
+  "agree": 324,
+  "disagree": 149,
+  "uncertain_A": 19,
+  "uncertain_B": 21
+ }
+}

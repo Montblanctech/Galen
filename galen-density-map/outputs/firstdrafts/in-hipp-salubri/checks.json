@@ -1,0 +1,2452 @@
+{
+ "spec": "firstdrafts_v02_spec.md",
+ "thresholds": {
+  "a_term_recall_min": 0.5,
+  "a_content_recall_min_when_no_targets": 0.4,
+  "b_agreement_min": 0.7,
+  "c_in_range_share_min": 0.8,
+  "c_out_of_range_max": 2,
+  "c_gate": "20/20 controls (10 validated anchors in_range, 10 plants out_of_range)",
+  "d_expected_min": 0.6,
+  "d_calibration_halt_below": 0.4,
+  "unit_fail_rule": "fails two of three checks a-c (n/a counts neither way); d and memory consistency are reported, never part of the verdict"
+ },
+ "work": "in-hipp-salubri",
+ "subset": null,
+ "units": {
+  "K15.174": {
+   "locus": "K. XV 174",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.556,
+     "n_content": 27,
+     "bt_tokens": 48,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 2,
+     "content_recall": 0.593,
+     "n_content": 27,
+     "bt_tokens": 48,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 2,
+    "agree": 1,
+    "rate": 0.5,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 4,
+    "exploratory_not_preregistered": {
+     "n": 4,
+     "in_range": 4,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.174-175": {
+   "locus": "K. XV 174–175",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.81,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 3,
+     "content_recall": 0.565,
+     "n_content": 62,
+     "bt_tokens": 132,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 3,
+     "content_recall": 0.565,
+     "n_content": 62,
+     "bt_tokens": 128,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 3,
+    "agree": 2,
+    "rate": 0.667,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 6,
+    "exploratory_not_preregistered": {
+     "n": 6,
+     "in_range": 5,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.833,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.175-176": {
+   "locus": "K. XV 175–176",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.592,
+     "n_content": 76,
+     "bt_tokens": 143,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.6,
+     "n_terms": 5,
+     "content_recall": 0.526,
+     "n_content": 76,
+     "bt_tokens": 145,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 5,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.176-177": {
+   "locus": "K. XV 176–177",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.83,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.575,
+     "n_content": 73,
+     "bt_tokens": 121,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.534,
+     "n_content": 73,
+     "bt_tokens": 121,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 5,
+    "rate": 0.833,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 12,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.177-178": {
+   "locus": "K. XV 177–178",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.03,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.623,
+     "n_content": 53,
+     "bt_tokens": 91,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.566,
+     "n_content": 53,
+     "bt_tokens": 95,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 2,
+    "agree": 2,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 2,
+    "exploratory_not_preregistered": {
+     "n": 2,
+     "in_range": 2,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.178": {
+   "locus": "K. XV 178",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "fail",
+    "A": {
+     "term_recall": 0.2,
+     "n_terms": 5,
+     "content_recall": 0.561,
+     "n_content": 41,
+     "bt_tokens": 75,
+     "verdict": "fail"
+    },
+    "B": {
+     "term_recall": 0.4,
+     "n_terms": 5,
+     "content_recall": 0.561,
+     "n_content": 41,
+     "bt_tokens": 76,
+     "verdict": "fail"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 4,
+    "rate": 0.8,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 6,
+     "out_of_range": 4,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.6,
+     "verdict": "fail"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.179": {
+   "locus": "K. XV 179",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.65,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.539,
+     "n_content": 76,
+     "bt_tokens": 153,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.592,
+     "n_content": 76,
+     "bt_tokens": 154,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 7,
+    "rate": 0.875,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 14,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.875,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.179-180": {
+   "locus": "K. XV 179–180",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.62,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.608,
+     "n_content": 79,
+     "bt_tokens": 169,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.646,
+     "n_content": 79,
+     "bt_tokens": 169,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.181": {
+   "locus": "K. XV 181",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.75,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 7,
+     "content_recall": 0.549,
+     "n_content": 71,
+     "bt_tokens": 129,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 7,
+     "content_recall": 0.535,
+     "n_content": 71,
+     "bt_tokens": 133,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 6,
+    "rate": 0.75,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.181-182": {
+   "locus": "K. XV 181–182",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 5,
+     "content_recall": 0.574,
+     "n_content": 61,
+     "bt_tokens": 114,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 5,
+     "content_recall": 0.607,
+     "n_content": 61,
+     "bt_tokens": 108,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 4,
+    "rate": 0.8,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.182-183": {
+   "locus": "K. XV 182–183",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 6,
+     "content_recall": 0.493,
+     "n_content": 73,
+     "bt_tokens": 133,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.575,
+     "n_content": 73,
+     "bt_tokens": 147,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 4,
+    "rate": 0.667,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 9,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.9,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.183-184": {
+   "locus": "K. XV 183–184",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.562,
+     "n_content": 64,
+     "bt_tokens": 134,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.547,
+     "n_content": 64,
+     "bt_tokens": 135,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 6,
+    "rate": 0.857,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 14,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.184-185": {
+   "locus": "K. XV 184–185",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.42,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.571,
+     "n_content": 70,
+     "bt_tokens": 132,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.529,
+     "n_content": 70,
+     "bt_tokens": 127,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 6,
+    "rate": 0.75,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 15,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.938,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.185-186": {
+   "locus": "K. XV 185–186",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.7,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.591,
+     "n_content": 66,
+     "bt_tokens": 138,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.6,
+     "n_terms": 5,
+     "content_recall": 0.576,
+     "n_content": 66,
+     "bt_tokens": 136,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 5,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.186-187": {
+   "locus": "K. XV 186–187",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.06,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.614,
+     "n_content": 83,
+     "bt_tokens": 179,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.627,
+     "n_content": 83,
+     "bt_tokens": 185,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 7,
+    "rate": 0.875,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 15,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.938,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.188": {
+   "locus": "K. XV 188",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.4,
+   "a": {
+    "verdict": "fail",
+    "A": {
+     "term_recall": 0.286,
+     "n_terms": 7,
+     "content_recall": 0.573,
+     "n_content": 75,
+     "bt_tokens": 141,
+     "verdict": "fail"
+    },
+    "B": {
+     "term_recall": 0.571,
+     "n_terms": 7,
+     "content_recall": 0.64,
+     "n_content": 75,
+     "bt_tokens": 128,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 5,
+    "rate": 0.714,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 11,
+     "out_of_range": 0,
+     "unsure": 1,
+     "missing": 0,
+     "share_in_range": 0.917,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.188-189": {
+   "locus": "K. XV 188–189",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.74,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.6,
+     "n_terms": 5,
+     "content_recall": 0.584,
+     "n_content": 77,
+     "bt_tokens": 167,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.584,
+     "n_content": 77,
+     "bt_tokens": 153,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 2,
+    "rate": 0.333,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 11,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.917,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.189-190": {
+   "locus": "K. XV 189–190",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.585,
+     "n_content": 53,
+     "bt_tokens": 97,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.528,
+     "n_content": 53,
+     "bt_tokens": 103,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 2,
+    "agree": 2,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 4,
+    "exploratory_not_preregistered": {
+     "n": 4,
+     "in_range": 4,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.191": {
+   "locus": "K. XV 191",
+   "difficulty_tier": "high",
+   "punch_density_per100": 4.13,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 7,
+     "content_recall": 0.578,
+     "n_content": 64,
+     "bt_tokens": 117,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.714,
+     "n_terms": 7,
+     "content_recall": 0.547,
+     "n_content": 64,
+     "bt_tokens": 118,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 4,
+    "rate": 0.571,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 12,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.857,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.192": {
+   "locus": "K. XV 192",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 4,
+     "content_recall": 0.567,
+     "n_content": 60,
+     "bt_tokens": 120,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 4,
+     "content_recall": 0.533,
+     "n_content": 60,
+     "bt_tokens": 128,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 4,
+    "agree": 4,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 8,
+    "exploratory_not_preregistered": {
+     "n": 8,
+     "in_range": 6,
+     "out_of_range": 1,
+     "unsure": 1,
+     "missing": 0,
+     "share_in_range": 0.75,
+     "verdict": "fail"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.193": {
+   "locus": "K. XV 193",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.641,
+     "n_content": 64,
+     "bt_tokens": 111,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.667,
+     "n_terms": 6,
+     "content_recall": 0.562,
+     "n_content": 64,
+     "bt_tokens": 110,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 3,
+    "rate": 0.429,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 14,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.193-194": {
+   "locus": "K. XV 193–194",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.61,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.622,
+     "n_content": 82,
+     "bt_tokens": 160,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.598,
+     "n_content": 82,
+     "bt_tokens": 164,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 6,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 12,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.194-195": {
+   "locus": "K. XV 194–195",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.26,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 6,
+     "content_recall": 0.488,
+     "n_content": 82,
+     "bt_tokens": 160,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.667,
+     "n_terms": 6,
+     "content_recall": 0.512,
+     "n_content": 82,
+     "bt_tokens": 161,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 7,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 13,
+     "out_of_range": 0,
+     "unsure": 1,
+     "missing": 0,
+     "share_in_range": 0.929,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.196": {
+   "locus": "K. XV 196",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.53,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.515,
+     "n_content": 66,
+     "bt_tokens": 145,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.47,
+     "n_content": 66,
+     "bt_tokens": 141,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 7,
+    "rate": 0.875,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 14,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.875,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.197": {
+   "locus": "K. XV 197",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.48,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.5,
+     "n_content": 64,
+     "bt_tokens": 144,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.5,
+     "n_content": 64,
+     "bt_tokens": 135,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 5,
+    "rate": 0.833,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 12,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.197-198": {
+   "locus": "K. XV 197–198",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.78,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.559,
+     "n_content": 59,
+     "bt_tokens": 125,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.61,
+     "n_content": 59,
+     "bt_tokens": 128,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 4,
+    "rate": 0.5,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.198-199": {
+   "locus": "K. XV 198–199",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.68,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 7,
+     "content_recall": 0.539,
+     "n_content": 76,
+     "bt_tokens": 152,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 7,
+     "content_recall": 0.526,
+     "n_content": 76,
+     "bt_tokens": 155,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 4,
+    "rate": 0.571,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 14,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.199-200": {
+   "locus": "K. XV 199–200",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.85,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.483,
+     "n_content": 60,
+     "bt_tokens": 101,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.483,
+     "n_content": 60,
+     "bt_tokens": 104,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 7,
+    "rate": 0.875,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 15,
+     "out_of_range": 0,
+     "unsure": 1,
+     "missing": 0,
+     "share_in_range": 0.938,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.200-201": {
+   "locus": "K. XV 200–201",
+   "difficulty_tier": "high",
+   "punch_density_per100": 2.13,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.634,
+     "n_content": 71,
+     "bt_tokens": 143,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.592,
+     "n_content": 71,
+     "bt_tokens": 139,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 6,
+    "rate": 0.75,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 15,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.938,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.201-202": {
+   "locus": "K. XV 201–202",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.97,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 6,
+     "content_recall": 0.552,
+     "n_content": 58,
+     "bt_tokens": 101,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 6,
+     "content_recall": 0.586,
+     "n_content": 58,
+     "bt_tokens": 106,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 3,
+    "rate": 0.5,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 11,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.917,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.202-203": {
+   "locus": "K. XV 202–203",
+   "difficulty_tier": "high",
+   "punch_density_per100": 3.5,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.57,
+     "n_content": 79,
+     "bt_tokens": 137,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.57,
+     "n_content": 79,
+     "bt_tokens": 142,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 13,
+     "out_of_range": 3,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.812,
+     "verdict": "fail"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.203-204": {
+   "locus": "K. XV 203–204",
+   "difficulty_tier": "high",
+   "punch_density_per100": 3.74,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.579,
+     "n_content": 76,
+     "bt_tokens": 182,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.553,
+     "n_content": 76,
+     "bt_tokens": 183,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 15,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.938,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.205": {
+   "locus": "K. XV 205",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.7,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.625,
+     "n_content": 88,
+     "bt_tokens": 169,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.557,
+     "n_content": 88,
+     "bt_tokens": 166,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.205-206": {
+   "locus": "K. XV 205–206",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.15,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.625,
+     "n_terms": 8,
+     "content_recall": 0.511,
+     "n_content": 90,
+     "bt_tokens": 168,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.433,
+     "n_content": 90,
+     "bt_tokens": 164,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 6,
+    "rate": 0.75,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 14,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.875,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.207": {
+   "locus": "K. XV 207",
+   "difficulty_tier": "high",
+   "punch_density_per100": 3.3,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.6,
+     "n_terms": 5,
+     "content_recall": 0.531,
+     "n_content": 49,
+     "bt_tokens": 92,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 5,
+     "content_recall": 0.633,
+     "n_content": 49,
+     "bt_tokens": 94,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 4,
+    "rate": 0.8,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.207-208": {
+   "locus": "K. XV 207–208",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.69,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.472,
+     "n_content": 72,
+     "bt_tokens": 149,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.444,
+     "n_content": 72,
+     "bt_tokens": 141,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 5,
+    "rate": 0.625,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 13,
+     "out_of_range": 3,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.812,
+     "verdict": "fail"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.208-209": {
+   "locus": "K. XV 208–209",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.93,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 4,
+     "content_recall": 0.527,
+     "n_content": 55,
+     "bt_tokens": 101,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 4,
+     "content_recall": 0.582,
+     "n_content": 55,
+     "bt_tokens": 103,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 4,
+    "agree": 3,
+    "rate": 0.75,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 8,
+    "exploratory_not_preregistered": {
+     "n": 8,
+     "in_range": 6,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.75,
+     "verdict": "fail"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.209-210": {
+   "locus": "K. XV 209–210",
+   "difficulty_tier": "high",
+   "punch_density_per100": 2.63,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.482,
+     "n_content": 83,
+     "bt_tokens": 164,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.482,
+     "n_content": 83,
+     "bt_tokens": 162,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 8,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 16,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.211": {
+   "locus": "K. XV 211",
+   "difficulty_tier": "high",
+   "punch_density_per100": 2.48,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.593,
+     "n_content": 59,
+     "bt_tokens": 130,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.833,
+     "n_terms": 6,
+     "content_recall": 0.593,
+     "n_content": 59,
+     "bt_tokens": 123,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 6,
+    "agree": 5,
+    "rate": 0.833,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 12,
+    "exploratory_not_preregistered": {
+     "n": 12,
+     "in_range": 12,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.212": {
+   "locus": "K. XV 212",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "fail",
+    "A": {
+     "term_recall": 0.4,
+     "n_terms": 5,
+     "content_recall": 0.577,
+     "n_content": 52,
+     "bt_tokens": 97,
+     "verdict": "fail"
+    },
+    "B": {
+     "term_recall": 0.2,
+     "n_terms": 5,
+     "content_recall": 0.538,
+     "n_content": 52,
+     "bt_tokens": 89,
+     "verdict": "fail"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 4,
+    "rate": 0.8,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.212-213": {
+   "locus": "K. XV 212–213",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.64,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 4,
+     "content_recall": 0.463,
+     "n_content": 67,
+     "bt_tokens": 124,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.75,
+     "n_terms": 4,
+     "content_recall": 0.478,
+     "n_content": 67,
+     "bt_tokens": 123,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 5,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.213-214": {
+   "locus": "K. XV 213–214",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.5,
+     "n_terms": 2,
+     "content_recall": 0.527,
+     "n_content": 91,
+     "bt_tokens": 177,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 2,
+     "content_recall": 0.56,
+     "n_content": 91,
+     "bt_tokens": 184,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 2,
+    "agree": 2,
+    "rate": 1.0,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 4,
+    "exploratory_not_preregistered": {
+     "n": 4,
+     "in_range": 4,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.214-215": {
+   "locus": "K. XV 214–215",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.68,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.714,
+     "n_terms": 7,
+     "content_recall": 0.595,
+     "n_content": 74,
+     "bt_tokens": 148,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.571,
+     "n_terms": 7,
+     "content_recall": 0.541,
+     "n_content": 74,
+     "bt_tokens": 150,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 6,
+    "rate": 0.857,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 13,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.929,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.215-216": {
+   "locus": "K. XV 215–216",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.68,
+   "a": {
+    "verdict": "fail",
+    "A": {
+     "term_recall": 0.429,
+     "n_terms": 7,
+     "content_recall": 0.474,
+     "n_content": 76,
+     "bt_tokens": 148,
+     "verdict": "fail"
+    },
+    "B": {
+     "term_recall": 0.429,
+     "n_terms": 7,
+     "content_recall": 0.447,
+     "n_content": 76,
+     "bt_tokens": 145,
+     "verdict": "fail"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 5,
+    "rate": 0.714,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 14,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.216-217": {
+   "locus": "K. XV 216–217",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.0,
+   "a": {
+    "verdict": "fail",
+    "A": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.562,
+     "n_content": 64,
+     "bt_tokens": 135,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.4,
+     "n_terms": 5,
+     "content_recall": 0.5,
+     "n_content": 64,
+     "bt_tokens": 130,
+     "verdict": "fail"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 2,
+    "rate": 0.4,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 10,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "fail"
+  },
+  "K15.218": {
+   "locus": "K. XV 218",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.18,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 3,
+     "content_recall": 0.477,
+     "n_content": 44,
+     "bt_tokens": 79,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 3,
+     "content_recall": 0.545,
+     "n_content": 44,
+     "bt_tokens": 79,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 3,
+    "agree": 2,
+    "rate": 0.667,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 6,
+    "exploratory_not_preregistered": {
+     "n": 6,
+     "in_range": 6,
+     "out_of_range": 0,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 1.0,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.218-219": {
+   "locus": "K. XV 218–219",
+   "difficulty_tier": "low",
+   "punch_density_per100": 0.61,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 3,
+     "content_recall": 0.514,
+     "n_content": 72,
+     "bt_tokens": 153,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 1.0,
+     "n_terms": 3,
+     "content_recall": 0.472,
+     "n_content": 72,
+     "bt_tokens": 144,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 3,
+    "agree": 2,
+    "rate": 0.667,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 6,
+    "exploratory_not_preregistered": {
+     "n": 6,
+     "in_range": 4,
+     "out_of_range": 1,
+     "unsure": 1,
+     "missing": 0,
+     "share_in_range": 0.667,
+     "verdict": "fail"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.220": {
+   "locus": "K. XV 220",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 1.36,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.75,
+     "n_terms": 8,
+     "content_recall": 0.612,
+     "n_content": 67,
+     "bt_tokens": 139,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.5,
+     "n_terms": 8,
+     "content_recall": 0.582,
+     "n_content": 67,
+     "bt_tokens": 144,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 3,
+    "rate": 0.375,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 13,
+     "out_of_range": 0,
+     "unsure": 1,
+     "missing": 0,
+     "share_in_range": 0.929,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "mixed"
+  },
+  "K15.221": {
+   "locus": "K. XV 221",
+   "difficulty_tier": "high",
+   "punch_density_per100": 1.64,
+   "a": {
+    "verdict": "fail",
+    "A": {
+     "term_recall": 0.429,
+     "n_terms": 7,
+     "content_recall": 0.576,
+     "n_content": 66,
+     "bt_tokens": 123,
+     "verdict": "fail"
+    },
+    "B": {
+     "term_recall": 0.571,
+     "n_terms": 7,
+     "content_recall": 0.545,
+     "n_content": 66,
+     "bt_tokens": 119,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 7,
+    "agree": 4,
+    "rate": 0.571,
+    "verdict": "fail"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 14,
+    "exploratory_not_preregistered": {
+     "n": 14,
+     "in_range": 12,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.857,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "fail"
+  },
+  "K15.221-222": {
+   "locus": "K. XV 221–222",
+   "difficulty_tier": "high",
+   "punch_density_per100": 3.23,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.455,
+     "n_content": 77,
+     "bt_tokens": 159,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.875,
+     "n_terms": 8,
+     "content_recall": 0.519,
+     "n_content": 77,
+     "bt_tokens": 161,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 8,
+    "agree": 6,
+    "rate": 0.75,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 16,
+    "exploratory_not_preregistered": {
+     "n": 16,
+     "in_range": 14,
+     "out_of_range": 2,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.875,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  },
+  "K15.222-223": {
+   "locus": "K. XV 222–223",
+   "difficulty_tier": "mid",
+   "punch_density_per100": 0.91,
+   "a": {
+    "verdict": "pass",
+    "A": {
+     "term_recall": 1.0,
+     "n_terms": 5,
+     "content_recall": 0.583,
+     "n_content": 60,
+     "bt_tokens": 110,
+     "verdict": "pass"
+    },
+    "B": {
+     "term_recall": 0.8,
+     "n_terms": 5,
+     "content_recall": 0.55,
+     "n_content": 60,
+     "bt_tokens": 109,
+     "verdict": "pass"
+    }
+   },
+   "b": {
+    "n": 5,
+    "agree": 4,
+    "rate": 0.8,
+    "verdict": "pass"
+   },
+   "c": {
+    "verdict": "judge_failed_gate",
+    "n": 10,
+    "exploratory_not_preregistered": {
+     "n": 10,
+     "in_range": 9,
+     "out_of_range": 1,
+     "unsure": 0,
+     "missing": 0,
+     "share_in_range": 0.9,
+     "verdict": "pass"
+    }
+   },
+   "d": null,
+   "verdict": "pass"
+  }
+ },
+ "summary": {
+  "n_units": 51,
+  "unit_verdicts": {
+   "mixed": 17,
+   "pass": 32,
+   "fail": 2
+  },
+  "a": {
+   "pass": 45,
+   "fail": 6,
+   "n_a_or_not_run": 0,
+   "pass_pct": 88.2,
+   "wilson95": [
+    76.62,
+    94.5
+   ]
+  },
+  "b": {
+   "pass": 36,
+   "fail": 15,
+   "n_a_or_not_run": 0,
+   "pass_pct": 70.6,
+   "wilson95": [
+    57.0,
+    81.29
+   ]
+  },
+  "c": {
+   "pass": 0,
+   "fail": 0,
+   "n_a_or_not_run": 51,
+   "pass_pct": null,
+   "wilson95": null
+  },
+  "b_term_level": {
+   "n": 311,
+   "agree": 241,
+   "pct": 77.49,
+   "wilson95": [
+    72.53,
+    81.78
+   ]
+  },
+  "b_by_class": {
+   "punch": {
+    "n": 76,
+    "agree": 64,
+    "pct": 84.21,
+    "wilson95": [
+     74.4,
+     90.73
+    ]
+   },
+   "fourway_only": {
+    "n": 235,
+    "agree": 177,
+    "pct": 75.32,
+    "wilson95": [
+     69.43,
+     80.4
+    ]
+   }
+  },
+  "a_mean_term_recall": {
+   "A": 0.724,
+   "B": 0.718
+  },
+  "a_mean_content_recall": {
+   "A": 0.555,
+   "B": 0.549
+  },
+  "c_gate": {
+   "controls": 20,
+   "correct": 17,
+   "passed": false,
+   "misses": [
+    {
+     "item_id": "J00624",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "flowing through"
+    },
+    {
+     "item_id": "J00616",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "cleansing from guilt or defilement"
+    },
+    {
+     "item_id": "J00619",
+     "kind": "anchor",
+     "expected": "in_range",
+     "got": "out_of_range",
+     "english": "delimitation"
+    }
+   ],
+   "defective_anchor_misses": 0,
+   "note": "gate failed; 3 control misses, 0 of them defective anchors"
+  },
+  "c_exploratory_not_preregistered": {
+   "pass": 45,
+   "fail": 6
+  },
+  "c_item_level": {
+   "A": {
+    "in_range": 287,
+    "out_of_range": 15,
+    "unsure": 5
+   },
+   "B": {
+    "in_range": 285,
+    "out_of_range": 21,
+    "unsure": 1
+   }
+  },
+  "d_reference_agreement": null,
+  "memory_consistency": {
+   "A": {
+    "n_with_prior": 105,
+    "consistent": 88,
+    "pct": 83.81
+   },
+   "B": {
+    "n_with_prior": 105,
+    "consistent": 89,
+    "pct": 84.76
+   }
+  },
+  "uncertain_flags": {
+   "A": 12,
+   "B": 17
+  },
+  "density_vs_disagreement_spearman": {
+   "rho": -0.043,
+   "n": 51
+  }
+ }
+}
