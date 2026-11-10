@@ -225,6 +225,29 @@ def main() -> None:
 """
     (FD / "index.html").write_text(idx, encoding="utf-8")
     print("front page and drafts index written;", total_words, "Greek words;", {"thin": thin, "none": none_, "artifact": art, "total": total})
+    sitemap()
+
+
+SITE = "https://montblanctech.github.io/Galen/"
+NOT_PUBLIC = {"mw-gold"}  # lab-only pages, never in the public sitemap
+
+
+def sitemap() -> None:
+    """docs/sitemap.xml: every public HTML page, front page and drafts first (2026-11-10, for Search Console)."""
+    from datetime import date
+    urls = []
+    for p in sorted(DOCS.rglob("*.html")):
+        rel = p.relative_to(DOCS).as_posix()
+        if rel.split("/")[0] in NOT_PUBLIC:
+            continue
+        urls.append(SITE + (rel[: -len("index.html")] if rel.endswith("index.html") else rel))
+    rank = lambda u: (u != SITE, "/first-drafts/" not in u, u)
+    urls = sorted(set(urls), key=rank)
+    today = date.today().isoformat()
+    body = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{today}</lastmod></url>\n" for u in urls)
+    (DOCS / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+                                      + body + "</urlset>\n", encoding="utf-8")
+    print("sitemap:", len(urls), "pages")
 
 
 if __name__ == "__main__":
