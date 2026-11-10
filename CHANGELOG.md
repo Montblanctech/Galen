@@ -5,6 +5,9 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased] — 2026-11-09
 
+### Changed
+- The project site's front page and the README now open with Galen First Drafts, the nine works with a link to each; the front page no longer says it holds no translation. README v3.0 paragraph corrected: LSJ-Gold covers 54 authors, not 17.
+
 ### Added
 - **LS-Gold v0 — the Latin twin of LSJ-Gold** (`galen-density-map/pipeline/lsgold/`, `galen-density-map/data/qc/lsgold/`, `docs/ls-gold/`): Lewis & Short's 253,107 CTS-tagged citations into 162 works held by Perseus canonical-latinLit (173 editions fetched and tokenized by `fetch_editions.py` / `tokenize_editions.py`, 5.4M tokens) relocated by `relocate_la.py` into **161,032 gold loci over 33 authors, 20,830 headwords** (63.6% located; ambiguous 15,059; not located 70,169; locator not in edition 6,847), each validated by Collatinus or Whitaker's Words (`oracle.py`) or by L&S's own quoted form. Blind relocation check (`validation/`, 60 random + 10 anchors + 10 plants, two model readers): 60/60 and 60/60, controls 20/20 each; key published after scoring. Eight systems cached over the whole corpus (`latin_caches.py`) and scored (`score_la.py`): LatinCy la_core_web_lg 84.94%, CLTK 1.5 backoff 83.96%, Stanza 1.15 la-proiel 75.47% / la-perseus 65.46% / la-ittb 65.26% / la-llct 44.40%, with Collatinus-first (82.26%) and Whitaker-first (81.38%) as partly circular baselines. On headwords cited once the neural systems fall 15–25 points below their frequent-headword figure and the lexicon-backed ones do not. Leaderboard page and JSON (`leaderboard_la.py`); `v01_quote_anchor_spec.md` pre-registers the next relocation change (quote-anchored window for the 70k not-located citations) with predictions. Homograph digits are dropped by the comparison key (documented in the README's honesty section). No human reader yet.
 - `pipeline/lsjgold/validation_score.py`: date stamp taken from the clock instead of a constant.

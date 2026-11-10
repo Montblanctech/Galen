@@ -2,6 +2,18 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21561962.svg)](https://doi.org/10.5281/zenodo.21561962)
 
+**Galen in English for the first time.** Nine works of Galen that had no complete English translation, published as machine first drafts by William Pepperman: unverified, with the Greek, two renderings, a term table and the failed units marked on every page. [Read them on the project site](https://montblanctech.github.io/Galen/first-drafts/).
+
+- [*Against Lycus*](https://montblanctech.github.io/Galen/first-drafts/adversus-lycum/) (Adversus Lycum)
+- [*On the Composition of Drugs by Kind*](https://montblanctech.github.io/Galen/first-drafts/comp-per-genera/) (De compositione medicamentorum per genera)
+- [*On Leeches, Revulsion, Cupping, Incision and Scarification*](https://montblanctech.github.io/Galen/first-drafts/hirudinibus/) (De hirudinibus, revulsione, cucurbitula, incisione et scarificatione)
+- [*Whom to Purge, with Which Cathartic Drugs, and When*](https://montblanctech.github.io/Galen/first-drafts/quos-quibus/) (Quos quibus catharticis medicamentis et quando purgare oporteat)
+- [*On the Power of Purgative Drugs*](https://montblanctech.github.io/Galen/first-drafts/purgantium-facultate/) (De purgantium medicamentorum facultate)
+- [*On the Periods of the Whole Disease*](https://montblanctech.github.io/Galen/first-drafts/morbi-temporibus/) (De totius morbi temporibus)
+- [*Commentary on Hippocrates' (or Polybus') Regimen in Health for Private Persons*](https://montblanctech.github.io/Galen/first-drafts/in-hipp-salubri/) (In Hippocratis vel Polybi opus De salubri victus ratione privatorum commentarius)
+- [*On the Shoulder Dislocated in Ways Hippocrates Did Not See*](https://montblanctech.github.io/Galen/first-drafts/de-humero/) (De humero iis modis prolapso quos Hippocrates non vidit)
+- [*On Difficulty of Breathing*](https://montblanctech.github.io/Galen/first-drafts/difficultate-respirationis/) (De difficultate respirationis)
+
 Reproducible infrastructure for making the untranslated Galenic corpus legible as a problem for
 translators and machine-translation research. Two phases, released together as of v2.0:
 
@@ -24,7 +36,7 @@ a headword map and a blind reader pass (`outputs/phase3/punch_list_v3.csv`: thin
 thin_contested 84, artifact_suspect 602, real_no_perseus_lsj 108, real_contested 24); two
 pre-registered probes report negative results (an LSJ-first-gloss glossary makes translations
 worse; polysemy does not predict instability); and the project ships **LSJ-Gold**, a benchmark of
-lemmatizer accuracy on the words the dictionary itself cites: **93,926 relocated loci over 17
+lemmatizer accuracy on the words the dictionary itself cites: **93,926 relocated loci over 54
 authors**, CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
 [audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
 Dilemma (lexicon-first) matches the lexicographer's headword 90.1% of the time; Stanza-Perseus 79.6% and
