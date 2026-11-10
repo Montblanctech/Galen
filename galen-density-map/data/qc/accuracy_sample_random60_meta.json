@@ -3,7 +3,7 @@
   "n_emitted": 60,
   "seed": 20260725,
   "population_tokens_with_lemma": 1746283,
-  "source": "C:\\Users\\W\\Desktop\\Galen\\galen-density-map\\data\\lemmatized\\galen",
-  "output": "C:\\Users\\W\\Desktop\\Galen\\galen-density-map\\data\\qc\\accuracy_sample_random60.csv",
+  "source": "galen-density-map/data/lemmatized/galen",
+  "output": "galen-density-map/data/qc/accuracy_sample_random60.csv",
   "method": "algorithm-R reservoir sample, uniform over tokens with lemma+surface"
 }

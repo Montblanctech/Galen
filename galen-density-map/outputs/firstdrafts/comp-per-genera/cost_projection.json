@@ -1,9 +1,0 @@
-{
- "calibration_units": 33,
- "usd_calibration": 8.97,
- "usd_per_unit": 0.2717,
- "projection_697_units_usd": 189.39,
- "rule": "batch if projection > 400 else direct (firstdrafts_v02_spec.md step 3)",
- "mode_chosen": "direct",
- "written": "2026-11-09T01:34:46"
-}

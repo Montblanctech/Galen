@@ -1,6 +1,6 @@
 # T1 author table — 50 largest First1K authors (odyCy reference vs Dilemma), 2026-11-06
 
-Source: `C:\Users\W\AppData\Local\Temp\claude\3d58b1488e5f774d\c8b67b7e-4794-4ccf-9e64-fada4fc17b0d\scratchpad\top50_by_author` (label: author_tlg9010). Morpheus cache built for Galen: the floor is only comparable where the not-in-cache share is small; flagged otherwise. Agreement strict and article-convention-neutral (ἡ/τό/τῶν… → ὁ).
+Source: one `greek-lemma-audit run` output folder per author (local working files, not in the repository) (label: author_tlg9010). Morpheus cache built for Galen: the floor is only comparable where the not-in-cache share is small; flagged otherwise. Agreement strict and article-convention-neutral (ἡ/τό/τῶν… → ὁ).
 
 | tlg | author | tokens | works | M1 odyCy % | cache gap % | M1 Dilemma % (strict / neutral) | odyCy–Dilemma agree % (strict / neutral) |
 |---|---|---|---|---|---|---|---|

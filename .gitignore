@@ -64,3 +64,8 @@ galen-density-map/data/latin_feasibility/*.xml
 # Galen First Drafts outputs are deliverables (auditable)
 !galen-density-map/outputs/firstdrafts/
 !galen-density-map/outputs/firstdrafts/**
+
+# never public: API usage and cost records (2026-11-10)
+galen-density-map/outputs/firstdrafts/*/usage.jsonl
+galen-density-map/outputs/firstdrafts/*/cost_estimate.json
+galen-density-map/outputs/firstdrafts/*/cost_projection.json
