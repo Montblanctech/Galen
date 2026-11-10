@@ -1,0 +1,17 @@
+{
+ "rows_in": 93926,
+ "rows_bad_headword": 351,
+ "rows_quantity_mark_stripped": 659,
+ "rows_form_with_punctuation": 16,
+ "pairs": 48403,
+ "forms": 46808,
+ "ambiguous_forms": 922,
+ "lexicon_rows": 45886,
+ "lexicon_headwords": 14875,
+ "train_rows": 41433,
+ "heldout_rows": 4453,
+ "train_headwords": 13406,
+ "heldout_headwords": 1469,
+ "lsjgold_loci_of_heldout_headwords": 8892,
+ "rows_with_morpheus_validation": 26525
+}
