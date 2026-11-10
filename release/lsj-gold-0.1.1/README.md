@@ -43,6 +43,7 @@ The four neural rows are on the same 69,339 loci. Stoicheia (92.34) and Dilemma 
 - `leaderboard.json` — the table as the leaderboard page renders it.
 - `lsj_gold_0_1_1_dropped.csv` — the 21,952 0.1 loci dropped in 0.1.1, same columns.
 - `SCHEMA.md`, `CITATION.cff`, `LICENSE`, `CHECKSUMS.sha256`.
+- Checksums: 0.1's `CHECKSUMS.sha256` was computed on a Windows checkout, so it fails on the Zenodo archive copy and passes only on a Windows checkout of the repository. 0.1.1's are computed on the files as stored, and `sha256sum -c CHECKSUMS.sha256` passes on the archive and on any checkout.
 
 ## How to score your lemmatizer
 ```
