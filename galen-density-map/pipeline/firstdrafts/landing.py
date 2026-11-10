@@ -238,7 +238,7 @@ def sitemap() -> None:
     urls = []
     for p in sorted(DOCS.rglob("*.html")):
         rel = p.relative_to(DOCS).as_posix()
-        if rel.split("/")[0] in NOT_PUBLIC:
+        if rel.split("/")[0] in NOT_PUBLIC or rel.startswith("google"):  # Search Console verification file
             continue
         urls.append(SITE + (rel[: -len("index.html")] if rel.endswith("index.html") else rel))
     rank = lambda u: (u != SITE, "/first-drafts/" not in u, u)
