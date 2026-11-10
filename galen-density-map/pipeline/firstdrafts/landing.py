@@ -188,6 +188,7 @@ def main() -> None:
 <ul class=tools>
 <li><a class=t href="lsj-gold/">LSJ-Gold leaderboard</a> — lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek (93,926 relocated loci over 54 authors, CC BY 4.0). <a href="lsj-gold/leaderboard.json">JSON</a>.</li>
 <li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites (161,032 relocated loci over 33 authors, validated by Collatinus and Whitaker's Words, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
+<li><a class=t href="mw-gold/">MW-Gold leaderboard</a> — the Sanskrit twin: lemmatizer accuracy on the words Monier-Williams cites (12,946 relocated loci over 32 texts of the Digital Corpus of Sanskrit, CC BY-SA 4.0). <a href="mw-gold/leaderboard.json">JSON</a>.</li>
 <li><a class=t href="galen-terms/">Galen Term Explorer</a> — any Galenic word: keyness, LSJ tier, Dilemma headword, punch-list label, contexts, Kühn loci.</li>
 <li><a class=t href="terms/">Term Explorer for further authors</a> — Diophantus, John Philoponus, Philodemus.</li>
 <li><a class=t href="first-drafts/">The drafts index</a> — all nine works with unit counts and check failures.</li>
@@ -229,7 +230,7 @@ def main() -> None:
 
 
 SITE = "https://montblanctech.github.io/Galen/"
-NOT_PUBLIC = {"mw-gold"}  # lab-only pages, never in the public sitemap
+NOT_PUBLIC: set[str] = set()  # lab-only page folders, never in the public sitemap
 
 
 def sitemap() -> None:
