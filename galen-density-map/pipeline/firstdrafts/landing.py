@@ -271,6 +271,7 @@ def main() -> None:
 <li><a class=t href="galen-terms/">Galen Term Explorer</a> — any Galenic word: keyness, LSJ tier, Dilemma headword, punch-list label, contexts, Kühn loci.</li>
 <li><a class=t href="terms/">Term Explorer for further authors</a> — Diophantus, John Philoponus, Philodemus.</li>
 <li><a class=t href="first-drafts/">The drafts index</a> — all {N_W} works with unit counts and check failures.</li>
+<li><a class=t href="https://doi.org/10.5281/zenodo.24146103">The methods note</a> — how the drafts were made and checked, with their limits (preprint, 2026, doi:10.5281/zenodo.24146103).</li>
 </ul>
 </div></section>
 
@@ -299,7 +300,7 @@ def main() -> None:
 <h2>All {N_W}, with their numbers</h2>
 <ul class=tools>{"".join(rows)}</ul>
 <p class=warn>A sample read (2026-11-11): 39 passages, three from each work chosen at random, were read against the Greek by a model reader, not a scholar. 35 were faithful, 4 had minor slips (in the two Hippocratic commentaries, e.g. the midday meal given as "the morning meal"), none was seriously wrong. The check marks did not predict the slips. The full record, with the corrections it led to: <a href="https://github.com/Montblanctech/Galen/blob/master/firstdrafts_sample_read_2026-11-11.md">firstdrafts_sample_read_2026-11-11.md</a>.</p>
-<p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
+<p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). How the drafts were made and checked: <a href="https://doi.org/10.5281/zenodo.24146103">the methods note</a> (doi:10.5281/zenodo.24146103). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
 </div></section>
 <footer><div class=wrap><a href="../">All project pages</a></div></footer>
 </body></html>
