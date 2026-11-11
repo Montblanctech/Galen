@@ -59,6 +59,22 @@ def highlight(text: str, spans: list[tuple[str, str, str]]) -> str:
 SPLIT_OVER = 120  # units; above this a work is published one page per book
 
 
+def clean_headword(h: str) -> str:
+    """LSJ headword for display and Logeion links (2026-11-11): drop the quantity marks ^ and _ the Perseus XML writes,
+    and rebuild capitals the XML writes as a detached breathing/accent before a lower-case letter (ʼαδρίας -> Ἀδρίας,
+    ʼ ́αμμων -> Ἄμμων, ʽροδιακός -> Ῥοδιακός)."""
+    import unicodedata
+    h = (h or "").replace("^", "").replace("_", "").strip()
+    marks = {"ʼ": "̓", "’": "̓", "ʽ": "̔", "᾽": "̓", "῾": "̔"}
+    lead, i = "", 0
+    while i < len(h) and (h[i] in marks or h[i] in " ́̀͂̓̔"):
+        lead += marks.get(h[i], h[i] if h[i] != " " else "")
+        i += 1
+    if lead and i < len(h):
+        return unicodedata.normalize("NFC", h[i].upper() + lead + h[i + 1:])
+    return unicodedata.normalize("NFC", h)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", default="adversus-lycum")
@@ -136,7 +152,7 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 <header class=rhead><div class=kicker>Galen · machine first draft</div><h1 class=rt>{esc(w['title_eng'])}</h1><div class=lat>{esc(w['title_lat'])} · Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</div>
 <p class=note>{esc(w.get('claim', 'The first complete English translation we know of.'))} {esc(w.get('prior_translations', ''))} This is rendering A, made by a language model and not yet checked by a scholar. The small grey numbers are the pages of Kühn's Greek edition. Passages with a red rule failed the machine checks.</p></header>
 <h1 class=st>Galen, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</h1>
-<p class="small meth">Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/main/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
+<p class="small meth">Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/master/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
 """)
     # summary table
     parts.append("<table class=sum><tr><th>units</th><th>Greek words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) LSJ judge pass</th><th>units failing ≥2 checks</th></tr>")
@@ -180,7 +196,8 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
         if rows:
             parts.append(f"<details><summary>Term table ({len(rows)} targets)</summary><table class=tt><tr><th>Greek</th><th>Dilemma lemma</th><th>LSJ</th><th>tier</th><th>A</th><th>B</th><th>agree</th><th>judge A / B</th></tr>")
             for r in rows:
-                lsj = f'<a class=lsj href="https://logeion.uchicago.edu/{esc(r["lsj_headword"])}">{esc(r["lsj_headword"])}</a> <span class=lsj>{esc(r["lsj_entry_id"])}, {esc(r["lsj_sense_count"])} sense(s)</span>' if r["lsj_entry_id"] else '<span class=lsj>no Perseus-LSJ entry</span>'
+                hw = clean_headword(r["lsj_headword"])
+                lsj = f'<a class=lsj href="https://logeion.uchicago.edu/{esc(hw)}">{esc(hw)}</a> <span class=lsj>{esc(r["lsj_entry_id"])}, {esc(r["lsj_sense_count"])} sense(s)</span>' if r["lsj_entry_id"] else '<span class=lsj>no Perseus-LSJ entry</span>'
                 tier = " ".join(x for x in (r["punch_tier"] and f"punch:{r['punch_tier']}", r["tier_v3"] and f"v3:{r['tier_v3']}", r["fourway"] and f"4w:{r['fourway']}") if x)
                 parts.append(f"<tr><td>{esc(r['surface'])}</td><td>{esc(r['dilemma_lemma'])}<br><span class=lsj>odyCy {esc(r['odycy_lemma'])}</span></td><td>{lsj}</td><td class=small>{esc(tier)}</td>"
                              f"<td>{esc(r['rendering_A'])}{' <span class=unc>unsure</span>' if r['uncertain_A'] == 'y' else ''}</td><td>{esc(r['rendering_B'])}{' <span class=unc>unsure</span>' if r['uncertain_B'] == 'y' else ''}</td>"

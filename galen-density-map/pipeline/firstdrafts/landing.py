@@ -118,7 +118,7 @@ section .intro{max-width:40rem;color:var(--muted);margin:0 0 2rem}
 .tools li{font-size:1rem}
 .tools a.t{font-weight:600}
 footer{padding:2.2rem 0 3rem;font:14px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted)}
-code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px}
+code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px;overflow-wrap:anywhere}
 """
 
 
@@ -184,6 +184,31 @@ def add_beacon() -> int:
             continue
         f.write_text(t.replace("</head>", BEACON + "</head>", 1), encoding="utf-8")
         n += 1
+    return n
+
+
+MOBILE = ("<meta name=viewport content='width=device-width,initial-scale=1'>"
+          "<style>table{display:block;max-width:100%;overflow-x:auto}code,pre{overflow-wrap:anywhere}</style>")
+
+
+def add_mobile() -> int:
+    """Pages built without a viewport (the LSJ-Gold and LS-Gold leaderboards): add one, and let wide tables scroll inside the page."""
+    n = 0
+    for f in DOCS.rglob("*.html"):
+        rel = f.relative_to(DOCS).as_posix()
+        if rel.split("/")[0] in NOT_PUBLIC or rel.startswith("google"):
+            continue
+        t = f.read_text(encoding="utf-8")
+        if "</head>" not in t:
+            continue
+        add = ""
+        if "name=viewport" not in t and 'name="viewport"' not in t:
+            add += MOBILE.split("<style>")[0]
+        if "<table" in t and "table{display:block;max-width:100%" not in t and rel.split("/")[0] not in ("first-drafts", "findings") and rel != "index.html":
+            add += "<style>" + MOBILE.split("<style>")[1]
+        if add:
+            f.write_text(t.replace("</head>", add + "</head>", 1), encoding="utf-8")
+            n += 1
     return n
 
 
@@ -280,6 +305,7 @@ def main() -> None:
     (FD / "index.html").write_text(idx, encoding="utf-8")
     print("front page and drafts index written;", total_words, "Greek words;", {"thin": thin, "none": none_, "artifact": art, "total": total})
     sitemap()
+    print("phone fixes added to", add_mobile(), "pages")
     print("analytics beacon added to", add_beacon(), "pages")
     import share
     ff = DOCS / "findings" / "findings.json"
