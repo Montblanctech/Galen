@@ -60,8 +60,9 @@ def main() -> None:
                 cites[(m.group(1), m.group(2))] += 1
     held = held_works()
     located: Counter = Counter()
-    if (QC / "lsj_gold_v0.csv").exists():
-        for r in csv.DictReader((QC / "lsj_gold_v0.csv").open(encoding="utf-8")):
+    gold = QC / "lsj_gold_v0_1_1.csv" if (QC / "lsj_gold_v0_1_1.csv").exists() else QC / "lsj_gold_v0.csv"   # current gold (2026-11-11)
+    if gold.exists():
+        for r in csv.DictReader(gold.open(encoding="utf-8")):
             located[(r["author"], r["work"])] += 1
     aname, wname = names()
     rows = []
@@ -91,7 +92,7 @@ def main() -> None:
          "<title>LSJ coverage map</title>",
          "<style>body{font:15px/1.45 Georgia,serif;max-width:980px;margin:2rem auto;padding:0 1rem;color:#222}table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border-bottom:1px solid #ccc;padding:.3rem .5rem;text-align:left;vertical-align:top}th{background:#f3f1ec}td.n{text-align:right}.small{color:#555;font-size:.9em}.no{color:#a33}</style></head><body>",
          f"<h1>LSJ coverage map</h1><p class=small>Every work the Perseus Liddell–Scott–Jones cites by CTS URN: {total:,} citations into {len(rows):,} works. "
-         f"Held here in a free edition: {out['held_works']} works, {held_c:,} citations ({100*held_c/total:.1f}%); {out['citations_located']:,} of those became LSJ-Gold loci. "
+         f"Held here in a free edition: {out['held_works']} works, {held_c:,} citations ({100*held_c/total:.1f}%); {out['citations_located']:,} of those are LSJ-Gold {'0.1.1' if gold.name == 'lsj_gold_v0_1_1.csv' else '0.1'} loci. "
          f"The rest is the ask: a free TEI edition of a missing work adds its citations to the benchmark. <a href='index.html'>Back to the leaderboard</a>.</p>",
          "<h2>Missing works, by author (top 60)</h2><table><tr><th>author</th><th>works cited, not held</th><th>citations</th></tr>"]
     for e in out["missing_by_author"]:

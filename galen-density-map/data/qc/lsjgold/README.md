@@ -1,5 +1,8 @@
 # LSJ-Gold v0 — lemmatizer accuracy on the dictionary-cited stratum (2026-11-06, night build)
 
+> **This is the build log, newest entries last; numbers in it are as of each entry.** The current release is **LSJ-Gold 0.1.1** (71,974 loci over 54 authors; `lsj_gold_v0_1_1.csv`): see [`release/lsj-gold-0.1.1/README.md`](../../../../release/lsj-gold-0.1.1/README.md) and the leaderboard at https://montblanctech.github.io/Galen/lsj-gold/. The form → lemma list is [`release/lsj-gold-lexicon-0.1.2/`](../../../../release/lsj-gold-lexicon-0.1.2/).
+
+
 Spec: `../../../../lsj_gold_benchmark_spec.md`. Scripts: `pipeline/lsjgold/relocate.py` (citations → token loci), `pipeline/lsjgold/score.py` (systems → table). Report only.
 
 ## What is here
