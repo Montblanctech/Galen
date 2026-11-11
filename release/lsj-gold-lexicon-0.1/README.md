@@ -1,6 +1,6 @@
 # LSJ-Gold lexicon 0.1: Ancient Greek form → lemma list
 
-> **Superseded by [LSJ-Gold lexicon 0.1.1](../lsj-gold-lexicon-0.1.1/) (2026-11-11).** 16,397 of the pairs below rest only on a phrase match that LSJ-Gold 0.1.1 no longer counts; 0.1.1 lists them separately, flagged. This folder is unchanged so that work citing 0.1 stays reproducible.
+> **Superseded by [LSJ-Gold lexicon 0.1.2](../lsj-gold-lexicon-0.1.2/) (2026-11-11), by way of 0.1.1.** 16,397 of the pairs below rest only on a phrase match that LSJ-Gold 0.1.1 no longer counts; 0.1.1 lists them separately, flagged. This folder is unchanged so that work citing 0.1 stays reproducible.
 
 A plain list of Greek word forms and their dictionary headwords, for lemmatizer dictionaries. Every row is a form
 that the Liddell–Scott–Jones lexicon (LSJ) cites under a headword, found again in a real edition by
