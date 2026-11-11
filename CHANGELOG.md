@@ -6,6 +6,7 @@ dated on release and each gets a Zenodo DOI.
 ## [Unreleased]
 
 ### Added
+- **Headline figures from one file** (`galen-density-map/facts.json`, `pipeline/facts.py`): every headline figure (works drafted, Greek words, findings, LSJ-Gold and LS-Gold sizes and scores, lexicon pairs, census totals) is computed from the files it describes; the front page reads it. `facts.py check` fails on any public text that still carries an old value of a figure, or a phrase naming a figure that does not match; it runs on every pull request (`.github/workflows/facts-check.yml`). History kept on purpose is listed, line by line, in `facts_allow.tsv`.
 - **Census checked against the files** (`phase1/census_file_check.py`): three columns (`greek_words_in_file`, `books_in_file`, `catalog_note`) beside Open Greek and Latin's catalog values. Six catalog entries disagree with their files; the worst, *De simplicium medicamentorum* (tlg075), is catalogued as books I–VI and 66,926 words but holds books I–XI and 133,948 Greek words. The census note that First1KGreek carries only books I–VI was wrong and is corrected.
 - **Methods note** for Galen First Drafts, published as a preprint: doi:10.5281/zenodo.24146103 (linked from the front page and the drafts index).
 
@@ -15,6 +16,9 @@ dated on release and each gets a Zenodo DOI.
 - Findings catalogue: six items corrected and marked (one summary that misstated the Greek, one note that misdiagnosed a numeral, one wrong category, two attestation notes that contradicted their evidence, one summary that added a modern diagnosis); the attestation check is described as made by model researchers; the reader's confidence is labelled as such.
 - Cycle-4 work READMEs said direct mode; the runs were batch, as every row records.
 - LS-Gold README: known residual errors from the quoted-form route (about 15 of 161,032 loci).
+- Stale figures found by the new check: the audit kit paper gave the packaged LSJ-Gold as 93,926 loci (0.1; the kit ships 0.1.1, 71,974); the LS-Gold README compared against LSJ-Gold 0.1 (93,926 loci; Dilemma 83.8% on once-cited headwords) instead of 0.1.1 (71,974; 89.0%); the README's First Drafts row named only the first nine works, and its release row pointed at LSJ-Gold 0.1.
+- Share-card tags and their JSON-LD are now rewritten on every build, so changed counts reach every page.
+- `data/qc/h3m/METHODS.md`: placeholder words left where control identifiers were removed now read as sentences.
 
 ## [3.1.3] — 2026-11-11
 

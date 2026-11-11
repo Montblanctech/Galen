@@ -1,0 +1,19 @@
+# Headline figures: every public text must agree with galen-density-map/facts.json (computed from the data by
+# pipeline/facts.py build). Fails when a text still carries an old value of a figure, or a phrase that names a figure
+# ("N words of Greek", "N loci over M authors") does not match. History kept on purpose is listed in facts_allow.tsv.
+name: Facts check
+on:
+  pull_request:
+  push:
+    branches: [master]
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: No old or wrong figures in the public text
+        run: python -X utf8 galen-density-map/pipeline/facts.py check
