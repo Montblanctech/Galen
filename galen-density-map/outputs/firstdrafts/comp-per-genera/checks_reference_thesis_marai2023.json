@@ -1,0 +1,711 @@
+{
+ "tag": "thesis_marai2023",
+ "source": "M. Marai, Wound Treatment in Galen, PhD thesis, University of Warwick 2023, wrap.warwick.ac.uk/id/eprint/188639: her own translations, used for agreement counts only (text not redistributed)",
+ "exploratory": "not pre-registered; the rule is the pre-registered rule of check (d)",
+ "n_passages_extracted": 48,
+ "n_passages_scored": 40,
+ "dropped": [
+  {
+   "n": 12,
+   "why": "english not verbatim in the source"
+  },
+  {
+   "n": 22,
+   "why": "english not verbatim in the source"
+  },
+  {
+   "n": 24,
+   "why": "english not verbatim in the source"
+  },
+  {
+   "n": 27,
+   "why": "english not verbatim in the source"
+  },
+  {
+   "n": 19,
+   "why": "repeat of passage 28 (shorter)"
+  },
+  {
+   "n": 17,
+   "why": "repeat of passage 29 (shorter)"
+  },
+  {
+   "n": 38,
+   "why": "repeat of passage 29 (shorter or equal)"
+  },
+  {
+   "n": 48,
+   "why": "repeat of passage 29 (shorter or equal)"
+  }
+ ],
+ "passages": [
+  {
+   "n": 1,
+   "kuhn": "XIII.370-371",
+   "unit_ids": [
+    "K13.369-370",
+    "K13.370-371"
+   ]
+  },
+  {
+   "n": 2,
+   "kuhn": "XIII.887",
+   "unit_ids": [
+    "K13.886-887"
+   ]
+  },
+  {
+   "n": 3,
+   "kuhn": "XIII.371-372",
+   "unit_ids": [
+    "K13.370-371",
+    "K13.371-372"
+   ]
+  },
+  {
+   "n": 4,
+   "kuhn": "XIII.372",
+   "unit_ids": [
+    "K13.371-372"
+   ]
+  },
+  {
+   "n": 5,
+   "kuhn": "XIII.374",
+   "unit_ids": [
+    "K13.373-374"
+   ]
+  },
+  {
+   "n": 6,
+   "kuhn": "XIII.459",
+   "unit_ids": [
+    "K13.458-459"
+   ]
+  },
+  {
+   "n": 7,
+   "kuhn": "XIII.462-463",
+   "unit_ids": [
+    "K13.461-462",
+    "K13.462-463"
+   ]
+  },
+  {
+   "n": 8,
+   "kuhn": "XIII.369-370",
+   "unit_ids": [
+    "K13.369-370"
+   ]
+  },
+  {
+   "n": 9,
+   "kuhn": "XIII.861-862",
+   "unit_ids": [
+    "K13.860-861",
+    "K13.861-862"
+   ]
+  },
+  {
+   "n": 10,
+   "kuhn": "XIII.862",
+   "unit_ids": [
+    "K13.861-862"
+   ]
+  },
+  {
+   "n": 11,
+   "kuhn": "XIII.375-376",
+   "unit_ids": [
+    "K13.375",
+    "K13.375-376"
+   ]
+  },
+  {
+   "n": 13,
+   "kuhn": "XIII.464-467",
+   "unit_ids": [
+    "K13.463-464",
+    "K13.464-465",
+    "K13.465-466",
+    "K13.467"
+   ]
+  },
+  {
+   "n": 14,
+   "kuhn": "XIII.467-469",
+   "unit_ids": [
+    "K13.467",
+    "K13.467-468",
+    "K13.468-469"
+   ]
+  },
+  {
+   "n": 15,
+   "kuhn": "XIII.563-564",
+   "unit_ids": [
+    "K13.563-564"
+   ]
+  },
+  {
+   "n": 16,
+   "kuhn": "XIII.947",
+   "unit_ids": [
+    "K13.946-947",
+    "K13.947-948"
+   ]
+  },
+  {
+   "n": 18,
+   "kuhn": "XIII.706-707",
+   "unit_ids": [
+    "K13.705-706",
+    "K13.706-707"
+   ]
+  },
+  {
+   "n": 20,
+   "kuhn": "XIII.374",
+   "unit_ids": [
+    "K13.373-374"
+   ]
+  },
+  {
+   "n": 21,
+   "kuhn": "XIII.367",
+   "unit_ids": [
+    "K13.366-367"
+   ]
+  },
+  {
+   "n": 23,
+   "kuhn": "XIII.496",
+   "unit_ids": [
+    "K13.495-496"
+   ]
+  },
+  {
+   "n": 25,
+   "kuhn": "XIII.475",
+   "unit_ids": [
+    "K13.474-475",
+    "K13.475-476"
+   ]
+  },
+  {
+   "n": 26,
+   "kuhn": "XIII.589",
+   "unit_ids": [
+    "K13.588-589"
+   ]
+  },
+  {
+   "n": 28,
+   "kuhn": "XIII.588, 590-592",
+   "unit_ids": [
+    "K13.587-588",
+    "K13.590-591",
+    "K13.591-592"
+   ]
+  },
+  {
+   "n": 29,
+   "kuhn": "XIII.469-470",
+   "unit_ids": [
+    "K13.468-469",
+    "K13.469-470"
+   ]
+  },
+  {
+   "n": 30,
+   "kuhn": "XIII.702",
+   "unit_ids": [
+    "K13.701-702"
+   ]
+  },
+  {
+   "n": 31,
+   "kuhn": "XIII.722",
+   "unit_ids": [
+    "K13.721-722"
+   ]
+  },
+  {
+   "n": 32,
+   "kuhn": "XIII.783",
+   "unit_ids": [
+    "K13.782-783"
+   ]
+  },
+  {
+   "n": 33,
+   "kuhn": "XIII.413",
+   "unit_ids": [
+    "K13.412-413"
+   ]
+  },
+  {
+   "n": 34,
+   "kuhn": "XIII.477-478",
+   "unit_ids": [
+    "K13.477-478"
+   ]
+  },
+  {
+   "n": 35,
+   "kuhn": "XIII.657",
+   "unit_ids": [
+    "K13.656-657"
+   ]
+  },
+  {
+   "n": 36,
+   "kuhn": "XIII.428",
+   "unit_ids": [
+    "K13.427-428"
+   ]
+  },
+  {
+   "n": 37,
+   "kuhn": "XIII.894",
+   "unit_ids": [
+    "K13.893-894"
+   ]
+  },
+  {
+   "n": 39,
+   "kuhn": "XIII.476-477",
+   "unit_ids": [
+    "K13.475-476",
+    "K13.476-477"
+   ]
+  },
+  {
+   "n": 40,
+   "kuhn": "XIII.628-629",
+   "unit_ids": [
+    "K13.627-628",
+    "K13.628-629"
+   ]
+  },
+  {
+   "n": 41,
+   "kuhn": "XIII.741-742",
+   "unit_ids": [
+    "K13.740-741",
+    "K13.741-742"
+   ]
+  },
+  {
+   "n": 42,
+   "kuhn": "XIII.753-754",
+   "unit_ids": [
+    "K13.752-753",
+    "K13.753-754"
+   ]
+  },
+  {
+   "n": 43,
+   "kuhn": "XIII.479",
+   "unit_ids": [
+    "K13.478-479"
+   ]
+  },
+  {
+   "n": 44,
+   "kuhn": "XIII.510",
+   "unit_ids": [
+    "K13.509-510"
+   ]
+  },
+  {
+   "n": 45,
+   "kuhn": "XIII.671",
+   "unit_ids": [
+    "K13.671-672"
+   ]
+  },
+  {
+   "n": 46,
+   "kuhn": "XIII.520",
+   "unit_ids": [
+    "K13.519-520"
+   ]
+  },
+  {
+   "n": 47,
+   "kuhn": "XIII.529",
+   "unit_ids": [
+    "K13.527-528"
+   ]
+  }
+ ],
+ "n_passages": 40,
+ "per_rendering": {
+  "A": {
+   "n": 207,
+   "agree": 126,
+   "pct": 60.87,
+   "wilson95": [
+    54.08,
+    67.26
+   ],
+   "meets_expected_min": true,
+   "below_halt_line": false
+  },
+  "B": {
+   "n": 207,
+   "agree": 129,
+   "pct": 62.32,
+   "wilson95": [
+    55.55,
+    68.64
+   ],
+   "meets_expected_min": true,
+   "below_halt_line": false
+  }
+ },
+ "per_passage": {
+  "1": {
+   "A": {
+    "n": 9,
+    "agree": 6
+   },
+   "B": {
+    "n": 9,
+    "agree": 5
+   }
+  },
+  "3": {
+   "A": {
+    "n": 4,
+    "agree": 3
+   },
+   "B": {
+    "n": 4,
+    "agree": 2
+   }
+  },
+  "4": {
+   "A": {
+    "n": 5,
+    "agree": 1
+   },
+   "B": {
+    "n": 5,
+    "agree": 1
+   }
+  },
+  "5": {
+   "A": {
+    "n": 2,
+    "agree": 2
+   },
+   "B": {
+    "n": 2,
+    "agree": 2
+   }
+  },
+  "20": {
+   "A": {
+    "n": 2,
+    "agree": 0
+   },
+   "B": {
+    "n": 2,
+    "agree": 0
+   }
+  },
+  "11": {
+   "A": {
+    "n": 10,
+    "agree": 5
+   },
+   "B": {
+    "n": 10,
+    "agree": 6
+   }
+  },
+  "33": {
+   "A": {
+    "n": 2,
+    "agree": 1
+   },
+   "B": {
+    "n": 2,
+    "agree": 1
+   }
+  },
+  "6": {
+   "A": {
+    "n": 3,
+    "agree": 2
+   },
+   "B": {
+    "n": 3,
+    "agree": 3
+   }
+  },
+  "7": {
+   "A": {
+    "n": 7,
+    "agree": 6
+   },
+   "B": {
+    "n": 7,
+    "agree": 6
+   }
+  },
+  "13": {
+   "A": {
+    "n": 21,
+    "agree": 8
+   },
+   "B": {
+    "n": 21,
+    "agree": 8
+   }
+  },
+  "14": {
+   "A": {
+    "n": 12,
+    "agree": 5
+   },
+   "B": {
+    "n": 12,
+    "agree": 5
+   }
+  },
+  "29": {
+   "A": {
+    "n": 13,
+    "agree": 10
+   },
+   "B": {
+    "n": 13,
+    "agree": 10
+   }
+  },
+  "25": {
+   "A": {
+    "n": 12,
+    "agree": 10
+   },
+   "B": {
+    "n": 12,
+    "agree": 10
+   }
+  },
+  "39": {
+   "A": {
+    "n": 9,
+    "agree": 6
+   },
+   "B": {
+    "n": 9,
+    "agree": 6
+   }
+  },
+  "34": {
+   "A": {
+    "n": 4,
+    "agree": 3
+   },
+   "B": {
+    "n": 4,
+    "agree": 3
+   }
+  },
+  "43": {
+   "A": {
+    "n": 3,
+    "agree": 3
+   },
+   "B": {
+    "n": 3,
+    "agree": 3
+   }
+  },
+  "23": {
+   "A": {
+    "n": 2,
+    "agree": 2
+   },
+   "B": {
+    "n": 2,
+    "agree": 2
+   }
+  },
+  "44": {
+   "A": {
+    "n": 3,
+    "agree": 0
+   },
+   "B": {
+    "n": 3,
+    "agree": 1
+   }
+  },
+  "15": {
+   "A": {
+    "n": 1,
+    "agree": 1
+   },
+   "B": {
+    "n": 1,
+    "agree": 1
+   }
+  },
+  "28": {
+   "A": {
+    "n": 20,
+    "agree": 12
+   },
+   "B": {
+    "n": 20,
+    "agree": 12
+   }
+  },
+  "26": {
+   "A": {
+    "n": 6,
+    "agree": 3
+   },
+   "B": {
+    "n": 6,
+    "agree": 2
+   }
+  },
+  "40": {
+   "A": {
+    "n": 6,
+    "agree": 3
+   },
+   "B": {
+    "n": 6,
+    "agree": 4
+   }
+  },
+  "35": {
+   "A": {
+    "n": 1,
+    "agree": 0
+   },
+   "B": {
+    "n": 1,
+    "agree": 0
+   }
+  },
+  "30": {
+   "A": {
+    "n": 2,
+    "agree": 1
+   },
+   "B": {
+    "n": 2,
+    "agree": 1
+   }
+  },
+  "18": {
+   "A": {
+    "n": 3,
+    "agree": 3
+   },
+   "B": {
+    "n": 3,
+    "agree": 3
+   }
+  },
+  "31": {
+   "A": {
+    "n": 3,
+    "agree": 2
+   },
+   "B": {
+    "n": 3,
+    "agree": 2
+   }
+  },
+  "41": {
+   "A": {
+    "n": 12,
+    "agree": 10
+   },
+   "B": {
+    "n": 12,
+    "agree": 10
+   }
+  },
+  "42": {
+   "A": {
+    "n": 10,
+    "agree": 5
+   },
+   "B": {
+    "n": 10,
+    "agree": 8
+   }
+  },
+  "32": {
+   "A": {
+    "n": 3,
+    "agree": 2
+   },
+   "B": {
+    "n": 3,
+    "agree": 2
+   }
+  },
+  "9": {
+   "A": {
+    "n": 9,
+    "agree": 5
+   },
+   "B": {
+    "n": 9,
+    "agree": 5
+   }
+  },
+  "10": {
+   "A": {
+    "n": 2,
+    "agree": 1
+   },
+   "B": {
+    "n": 2,
+    "agree": 0
+   }
+  },
+  "2": {
+   "A": {
+    "n": 2,
+    "agree": 1
+   },
+   "B": {
+    "n": 2,
+    "agree": 1
+   }
+  },
+  "37": {
+   "A": {
+    "n": 3,
+    "agree": 3
+   },
+   "B": {
+    "n": 3,
+    "agree": 3
+   }
+  },
+  "16": {
+   "A": {
+    "n": 1,
+    "agree": 1
+   },
+   "B": {
+    "n": 1,
+    "agree": 1
+   }
+  }
+ },
+ "rule": "a rendering's target agrees with the reference when at least one normalised content token of the rendering occurs in the normalised reference passage (score_consistency.norm on both: lower-case, stop words, singularisation, synonym fold); only targets whose Greek token falls inside the passage's lines count; lenient by construction (passage-level), so the number is a floor on disagreement, not a ceiling"
+}

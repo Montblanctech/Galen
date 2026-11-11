@@ -1,0 +1,18 @@
+{
+ "model": "opus-5-5",
+ "n_units": 71,
+ "n_responses": 71,
+ "n_ok": 71,
+ "missing_units": [],
+ "refusals": [],
+ "backends": {
+  "api_batch": 71
+ },
+ "problems": [
+  "K7.530-531: page-marker count differs",
+  "K7.566-567: page-marker count differs",
+  "K7.571-572: page-marker count differs",
+  "K7.576-577: page-marker count differs",
+  "K7.582-583: page-marker count differs"
+ ]
+}

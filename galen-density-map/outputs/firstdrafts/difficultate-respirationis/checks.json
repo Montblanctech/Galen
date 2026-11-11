@@ -1200,7 +1200,16 @@
     "share_in_range": 0.929,
     "verdict": "pass"
    },
-   "d": null,
+   "d": {
+    "A": {
+     "n": 6,
+     "agree": 1
+    },
+    "B": {
+     "n": 6,
+     "agree": 1
+    }
+   },
    "verdict": "pass"
   },
   "K7.781-782": {
@@ -1241,7 +1250,16 @@
     "share_in_range": 0.938,
     "verdict": "pass"
    },
-   "d": null,
+   "d": {
+    "A": {
+     "n": 8,
+     "agree": 1
+    },
+    "B": {
+     "n": 8,
+     "agree": 2
+    }
+   },
    "verdict": "pass"
   },
   "K7.782-783": {
@@ -8597,7 +8615,46 @@
     "unsure": 26
    }
   },
-  "d_reference_agreement": null,
+  "d_reference_agreement": {
+   "n_passages": 1,
+   "per_rendering": {
+    "A": {
+     "n": 14,
+     "agree": 2,
+     "pct": 14.29,
+     "wilson95": [
+      4.01,
+      39.94
+     ],
+     "meets_expected_min": false,
+     "below_halt_line": true
+    },
+    "B": {
+     "n": 14,
+     "agree": 3,
+     "pct": 21.43,
+     "wilson95": [
+      7.57,
+      47.59
+     ],
+     "meets_expected_min": false,
+     "below_halt_line": true
+    }
+   },
+   "per_passage": {
+    "1": {
+     "A": {
+      "n": 14,
+      "agree": 2
+     },
+     "B": {
+      "n": 14,
+      "agree": 3
+     }
+    }
+   },
+   "rule": "a rendering's target agrees with the reference when at least one normalised content token of the rendering occurs in the normalised reference passage (score_consistency.norm on both: lower-case, stop words, singularisation, synonym fold); only targets whose Greek token falls inside the passage's lines count; lenient by construction (passage-level), so the number is a floor on disagreement, not a ceiling"
+  },
   "memory_consistency": {
    "A": {
     "n_with_prior": 1005,

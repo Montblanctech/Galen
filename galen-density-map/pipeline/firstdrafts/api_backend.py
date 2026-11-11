@@ -2,7 +2,7 @@
 (spec: firstdrafts_v02_spec.md, cycle 2 brief drafts/firstdrafts_cycle2_brief.md).
 
 Rules it enforces, in code:
-  key        ANTHROPIC_API_KEY, or else the first line of ~\\.claude\\channels\\anthropic\\key
+  key        ANTHROPIC_API_KEY, or else the first line of C:\\Users\\W\\.claude\\channels\\anthropic\\key
              (stripped). Never printed, never logged, never written to any output row. No key: refuse.
   resume     every completed row is appended to the stage's JSONL at once; a re-run reads that file first
              and sends only the ids that have no usable row, so a re-run never pays twice.
@@ -38,7 +38,7 @@ from typing import Callable
 
 from common import PRICES_PER_MTOK, read_jsonl, sha256, write_jsonl
 
-KEY_FILE = Path(os.environ.get("ANTHROPIC_KEY_FILE", Path.home() / ".anthropic" / "key"))
+KEY_FILE = Path(r"C:\Users\W\.claude\channels\anthropic\key")
 BATCH_DISCOUNT = 0.5
 CACHE_READ_PER_MTOK = {"claude-fable-5-1": 0.25, "claude-opus-5-5": 0.20, "claude-sonnet-5-5": 0.20}
 MODEL_EFFORT = {"claude-fable-5-1": "high", "claude-opus-5-5": "high", "claude-sonnet-5-5": "high"}
@@ -308,7 +308,10 @@ def _run_direct(client, stage, work, model, reqs, out_path, usage_path, id_field
 
 
 def _run_batch(client, stage, work, model, reqs, out_path, usage_path, id_field, max_tokens, effort, parse) -> None:
-    requests = [{"custom_id": i, "params": message_params(model, system, user, max_tokens, effort)} for i, system, user, _, _ in reqs]
+    # Message Batches custom_id must match ^[a-zA-Z0-9_-]{1,64}$; unit ids carry dots (K7.643-644), so each request gets
+    # a positional id and the row is written under the item's own id (2026-11-11: the first batch translation run failed on this)
+    cid = {f"r{n:05d}": i for n, (i, _, _, _, _) in enumerate(reqs)}
+    requests = [{"custom_id": f"r{n:05d}", "params": message_params(model, system, user, max_tokens, effort)} for n, (i, system, user, _, _) in enumerate(reqs)]
     meta_by_id = {i: (meta, psha) for i, _, _, meta, psha in reqs}
     batch = _with_backoff(lambda: client.messages.batches.create(requests=requests), f"{stage} batch create")
     print(f"  {stage}: batch {batch.id} created with {len(requests)} requests ({now_utc()})", flush=True)
@@ -321,7 +324,7 @@ def _run_batch(client, stage, work, model, reqs, out_path, usage_path, id_field,
     t1 = (b.ended_at.isoformat() if hasattr(b.ended_at, "isoformat") else str(b.ended_at)) if b.ended_at else now_utc()
     n_ok = 0
     for res in _with_backoff(lambda: list(client.messages.batches.results(batch.id)), f"{stage} batch results"):
-        i = res.custom_id
+        i = cid.get(res.custom_id, res.custom_id)
         meta, psha = meta_by_id.get(i, ({}, ""))
         kind = res.result.type
         if kind == "succeeded":
