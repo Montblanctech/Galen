@@ -6,7 +6,7 @@
 
 ## Source and units
 - Greek: First1KGreek tlg0057.tlg087.1st1K-grc1 (Kühn 1828, vol. 15 pp. 418-919, four books; this draft: books II-IV, pp. 515-919; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0; Kühn XV 515–919.
-- `units.py`: **405 units** (one Kühn page snapped back to the preceding sentence end; 334 units span two pages, 71 one), **67,039 Greek words**, 27–252 words per unit (median 134); page breaks kept inline. Aligned to the odyCy token stream of the density map (alignment loss 0.65%). 3 book(s), 218 chapter(s) in the TEI.
+- `units.py`: **405 units** (one Kühn page snapped back to the preceding sentence end; 334 units span two pages, 71 one), **54,030 Greek words** in the drafted books (67,039 in the whole TEI file, book I included), 27–252 words per unit (median 134); page breaks kept inline. Aligned to the odyCy token stream of the density map (alignment loss 0.65%). 3 book(s), 218 chapter(s) in the TEI.
 - Targets: **2,820** NOUN/ADJ tokens (every punch-list token first, 953; then four-way `genuinely_hard` tokens rarest-first, 1867; cap 8 per unit, proper names and title lines excluded). Dilemma 1.3.15 lemma for each; **2,762 (97.9%) resolve to a Perseus-LSJ entry** (`lsj_index.py`, whole entries).
 - Difficulty: punch-list NOUN/ADJ tokens per 100 tokens (terciles within the work: ≤1.11 low, ≤2.59 mid, above high; 136/135/134 units).
 

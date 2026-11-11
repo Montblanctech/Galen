@@ -275,3 +275,9 @@ PRICES_PER_MTOK = {  # claude-api skill table, cached 2026-10-06
     "claude-opus-5-5": (4.0, 20.0),
     "claude-sonnet-5-5": (2.0, 10.0),
 }
+
+
+def draft_words(slug: str) -> int:
+    """Greek words in the drafted units (2026-11-11). units_meta's n_tei_words counts the whole TEI file, which for a work
+    drafted in part (in-hipp-acut: books II-IV only) includes text that was never drafted."""
+    return sum(int(u.get("n_tokens", 0)) for u in read_jsonl(out_dir(slug) / "units.jsonl"))

@@ -3,6 +3,12 @@
 All notable changes to this project. Format loosely follows Keep a Changelog; versions are
 dated on release and each gets a Zenodo DOI.
 
+## [3.1.2] — 2026-11-11
+
+### Fixed
+- **Greek word count of Galen First Drafts: 244,007, not 257,016.** The count for *Commentary on Regimen in Acute Diseases* used the whole TEI file (67,039 words), which includes book I; only books II–IV were drafted (54,030 words). The front page, the drafts index, the work's pages and README, the share card, CITATION.cff and the Zenodo description now give the drafted words (`common.draft_words`).
+- **Licence of the drafts: CC BY-SA 4.0.** The work pages said CC BY 4.0 for the renderings; they translate a CC BY-SA 4.0 text, so they are CC BY-SA 4.0, as CITATION.cff already said.
+
 ## [3.1.1] — 2026-11-11
 
 ### Fixed
