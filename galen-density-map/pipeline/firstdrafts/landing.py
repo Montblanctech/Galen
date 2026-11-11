@@ -12,7 +12,7 @@ import html
 import json
 import re
 
-from common import REPO, WORKS, out_dir
+from common import REPO, WORKS, draft_words, out_dir
 
 DOCS = REPO / "docs"
 FD = DOCS / "first-drafts"
@@ -56,7 +56,7 @@ def unit_text(slug: str, uid: str) -> tuple[str, str]:
 def counts(slug: str) -> tuple[int, int, int]:
     m = json.loads((out_dir(slug) / "units_meta.json").read_text(encoding="utf-8"))
     c = json.loads((out_dir(slug) / "checks.json").read_text(encoding="utf-8")).get("summary", {})
-    return m["n_units"], m["n_tei_words"], (c.get("unit_verdicts") or {}).get("fail", 0)
+    return m["n_units"], draft_words(slug), (c.get("unit_verdicts") or {}).get("fail", 0)   # drafted words, not the whole TEI (2026-11-11)
 
 
 def v3_tiers() -> dict[str, int]:

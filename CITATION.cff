@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: If you use this dataset or pipeline, please cite it.
 title: "Galen Corpus Terminology Density Map"
 type: dataset
-version: "3.1.1"
+version: "3.1.2"
 date-released: "2026-11-11"
 doi: "10.5281/zenodo.21561962"
 authors:
@@ -16,7 +16,7 @@ abstract: >
   density map; the LSJ-Gold and LS-Gold lemmatizer benchmarks and the
   LSJ-Gold lexicon; and Galen First Drafts: machine first-draft English
   translations of thirteen works of Galen with no complete English
-  translation known to us (257,016 words of Greek), each with two independent
+  translation known to us (244,007 words of Greek), each with two independent
   renderings, the Greek, and pre-registered machine checks, plus a catalogue
   of 678 items found in the drafts with an attestation check against
   Fichtner's Corpus Galenicum and the fragment collections. The drafts are

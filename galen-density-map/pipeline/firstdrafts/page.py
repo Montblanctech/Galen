@@ -17,7 +17,7 @@ import re
 from collections import Counter
 from datetime import date
 
-from common import REPO, WORKS, out_dir, read_jsonl
+from common import REPO, WORKS, draft_words, out_dir, read_jsonl
 
 RENDERINGS = {"A": "fable-5-1", "B": "opus-5-5"}
 ISSUE_URL = "https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml"
@@ -159,7 +159,7 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
     def rs(k):
         v = s.get(k) or {}
         return f"{v.get('pass', '–')}/{(v.get('pass') or 0) + (v.get('fail') or 0)}" if v else "not run"
-    parts.append(f"<tr><td>{len(units)}</td><td>{meta.get('n_tei_words', '')}</td><td>{meta.get('n_targets', '')}</td><td>{rs('a')}</td><td>{rs('b')} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td><td>{rs('c')}{' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else ''}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td></tr></table>")
+    parts.append(f"<tr><td>{len(units)}</td><td>{sum(int(u.get('n_tokens', 0)) for u in units)}</td><td>{meta.get('n_targets', '')}</td><td>{rs('a')}</td><td>{rs('b')} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td><td>{rs('c')}{' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else ''}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td></tr></table>")
     parts.append("<p class=\"small meth\">Check (a): the English back-translated into Greek by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the LSJ entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
 
     head_len = len(parts)
@@ -204,7 +204,7 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
                              f"<td>{esc(r['agree'])}</td><td class=small>{esc(r.get('judge_A', ''))} / {esc(r.get('judge_B', ''))}</td></tr>")
             parts.append("</table></details>")
         parts.append("</div>")
-    parts.append(f"<h2>Licence and citation</h2><p class=\"small lic\">Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY 4.0 by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({date.today().year}). <i>Galen First Drafts</i>: Galen, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
+    parts.append(f"<h2>Licence and citation</h2><p class=\"small lic\">Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY-SA 4.0 (a translation of a CC BY-SA text) by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({date.today().year}). <i>Galen First Drafts</i>: Galen, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
     dest = REPO / "docs" / "first-drafts" / slug
     dest.mkdir(parents=True, exist_ok=True)
     # Long works are split into one page per book so a phone can open them (v0.2.1, 2026-11-09: the 697-unit
@@ -238,7 +238,7 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
         mm = json.loads((odir / "units_meta.json").read_text(encoding="utf-8"))
         ss = (json.loads((odir / "checks.json").read_text(encoding="utf-8")).get("summary", {}) if (odir / "checks.json").exists() else {})
         items.append(f'<li><a href="{sl}/">{esc(ww["title_lat"])} ({esc(ww["title_eng"])})</a>, Kühn {esc(ww["kuhn_vol"])} {esc(ww["kuhn_pages"])}: '
-                     f'{mm.get("n_units")} units, {mm.get("n_tei_words")} Greek words, {(ss.get("unit_verdicts") or {}).get("fail", 0) if ss else "–"} units failing two or more checks.</li>')
+                     f'{mm.get("n_units")} units, {draft_words(sl):,} Greek words, {(ss.get("unit_verdicts") or {}).get("fail", 0) if ss else "–"} units failing two or more checks.</li>')
     idx = REPO / "docs" / "first-drafts" / "index.html"
     idx.write_text(f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Galen First Drafts</title>
 <style>body{{font:16px/1.5 Georgia,serif;max-width:760px;margin:2rem auto;padding:0 1rem;color:#222}}.small{{color:#555;font-size:.9em}}</style></head><body>
