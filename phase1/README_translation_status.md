@@ -23,7 +23,7 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 ### `partial` (a source states that only part of the work is translated)
 
 - tlg056 *De difficultate respirationis*: No complete translation in any modern language; one English paragraph exists.
-- tlg075 *De simplicium medicamentorum temperamentis ac facultatibus I-VI*: No complete modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. First1KGreek carries books I-VI only.
+- tlg075 *De simplicium medicamentorum temperamentis ac facultatibus I-VI*: No complete modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. The First1KGreek file carries all eleven books (Kühn XI 379-XII 377), although its catalog title says I-VI.
 - tlg076 *De compositione medicamentorum secundum locos I-VI*: Spanish of book II only; books I and III-X untranslated in any modern language.
 - tlg077 *De compositione medicamentorum per genera*: No complete translation in any modern language; English of parts exists.
 - tlg087 *In Hippocratis De victu acutorum*: No English translation of any book found; books II-IV untranslated in any modern language except the German excerpt. First Drafts cycle 4 drafts books II-IV.
