@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21561962.svg)](https://doi.org/10.5281/zenodo.21561962)
 
-**Galen in English for the first time.** Nine works of Galen that had no complete English translation, published as machine first drafts by William Pepperman: unverified, with the Greek, two renderings, a term table and the failed units marked on every page. [Read them on the project site](https://montblanctech.github.io/Galen/first-drafts/).
+**Galen in English for the first time.** Thirteen works of Galen that had no complete English translation that we know of, published as machine first drafts by William Pepperman: unverified, with the Greek, two renderings, a term table and the failed units marked on every page. [Read them on the project site](https://montblanctech.github.io/Galen/first-drafts/), and see [what the drafts say](https://montblanctech.github.io/Galen/findings/): 678 items (people, lost books, recipes, cases) found in them, each linked to its passage.
 
 - [*Against Lycus*](https://montblanctech.github.io/Galen/first-drafts/adversus-lycum/) (Adversus Lycum)
 - [*On the Composition of Drugs by Kind*](https://montblanctech.github.io/Galen/first-drafts/comp-per-genera/) (De compositione medicamentorum per genera)
