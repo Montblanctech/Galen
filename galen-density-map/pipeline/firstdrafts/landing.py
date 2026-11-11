@@ -281,6 +281,10 @@ def main() -> None:
     print("front page and drafts index written;", total_words, "Greek words;", {"thin": thin, "none": none_, "artifact": art, "total": total})
     sitemap()
     print("analytics beacon added to", add_beacon(), "pages")
+    import share
+    ff = DOCS / "findings" / "findings.json"
+    n_find = len(__import__("json").loads(ff.read_text(encoding="utf-8"))) if ff.exists() else 0
+    print("share tags added to", share.apply(N_WORKS, total_words, n_find, NOT_PUBLIC), "pages")
 
 
 SITE = "https://montblanctech.github.io/Galen/"
