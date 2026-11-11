@@ -2,7 +2,7 @@
 (spec: firstdrafts_v02_spec.md, cycle 2 brief drafts/firstdrafts_cycle2_brief.md).
 
 Rules it enforces, in code:
-  key        ANTHROPIC_API_KEY, or else the first line of C:\\Users\\W\\.claude\\channels\\anthropic\\key
+  key        ANTHROPIC_API_KEY, or else the first line of the file named by ANTHROPIC_KEY_FILE (default ~/.anthropic/key)
              (stripped). Never printed, never logged, never written to any output row. No key: refuse.
   resume     every completed row is appended to the stage's JSONL at once; a re-run reads that file first
              and sends only the ids that have no usable row, so a re-run never pays twice.
@@ -38,7 +38,7 @@ from typing import Callable
 
 from common import PRICES_PER_MTOK, read_jsonl, sha256, write_jsonl
 
-KEY_FILE = Path(r"C:\Users\W\.claude\channels\anthropic\key")
+KEY_FILE = Path(os.environ.get("ANTHROPIC_KEY_FILE", Path.home() / ".anthropic" / "key"))
 BATCH_DISCOUNT = 0.5
 CACHE_READ_PER_MTOK = {"claude-fable-5-1": 0.25, "claude-opus-5-5": 0.20, "claude-sonnet-5-5": 0.20}
 MODEL_EFFORT = {"claude-fable-5-1": "high", "claude-opus-5-5": "high", "claude-sonnet-5-5": "high"}
