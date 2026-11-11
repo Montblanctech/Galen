@@ -114,7 +114,7 @@ code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px}
 
 def head(title: str, prefix: str) -> str:
     return (f"<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>"
-            f"<title>{esc(title)}</title><meta name=description content=\"Nine works of Galen that had never been published in English, as machine first drafts with the Greek beside them.\">"
+            f"<title>{esc(title)}</title><meta name=description content=\"Nine works of Galen never before published in full in English, as machine first drafts with the Greek beside them.\">"
             f"<link rel=stylesheet href=\"{prefix}site.css\"></head><body>")
 
 
@@ -148,7 +148,7 @@ def main() -> None:
 <header class=hero><div class=wrap>
 <div class=kicker>Galen Density Project</div>
 <h1>Galen in English for the first time</h1>
-<p class=lede>Galen of Pergamon was a doctor in second-century Rome, and more of his writing survives than of any other ancient Greek author. Much of it has never been translated into English. Here are nine of those works, put into English by machine: rough, unchecked by any scholar, and readable today.</p>
+<p class=lede>Galen of Pergamon was a doctor in second-century Rome, and more of his writing survives than of any other ancient Greek author. Much of it has never been translated into English in full. Here are nine such works, put into English by machine: rough, unchecked by any scholar, and readable today.</p>
 <div class=btns><a class="btn primary" href="first-drafts/">Start reading</a><a class="btn ghost" href="#how">How they were made</a></div>
 <ul class=facts><li><b>9</b><span>works never before in English</span></li><li><b>{total_words:,}</b><span>words of Greek</span></li><li><b>2</b><span>independent machine translations of each passage</span></li></ul>
 </div></header>
@@ -209,7 +209,7 @@ def main() -> None:
 <header class=hero style="padding:3.2rem 0 2.2rem"><div class=wrap>
 <div class=kicker><a href="../" style="text-decoration:none">Galen Density Project</a></div>
 <h1 style="font-size:clamp(2rem,4.5vw,3rem)">Galen First Drafts</h1>
-<p class=lede>Nine works of Galen with no English translation, most of them with none in any modern language, put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
+<p class=lede>Nine works of Galen with no complete English translation that we know of, five of them with no complete translation in any modern language (each work's page names the earlier ones), put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
 </div></header>
 <section><div class=wrap>
 {cards("")}
@@ -229,7 +229,7 @@ def main() -> None:
 
 
 SITE = "https://montblanctech.github.io/Galen/"
-NOT_PUBLIC = {"mw-gold"}  # lab-only pages, never in the public sitemap
+NOT_PUBLIC = {"mw-gold"}  # lab-only page folders, never in the public sitemap (MW-Gold withdrawn 2026-11-10 for rechecking)
 
 
 def sitemap() -> None:
