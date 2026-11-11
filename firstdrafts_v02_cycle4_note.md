@@ -28,3 +28,6 @@ Book I of the commentary is left out because it already has a modern translation
 - **Reference check (d).** No human reference translation exists for these works, so no (d) is computed. That gap goes in each README.
 - **Claim wording.** "The first complete English translation we know of", followed by each work's earlier translations as in the table above. For the commentary the claim is about books II–IV only.
 - **Before publishing.** Nothing goes public until Will says so. Before that, the scrub scripts run and the public diff is read.
+
+## Addendum (2026-11-11, written before any call for this work): a fourth work
+`adversus-typos`: *Adversus eos qui de typis scripserunt vel de circuitibus* (Against Those Who Wrote on Types or on Periods of fever), tlg0057.tlg049, Kühn VII 475–512. It has 38 units, 5,611 Greek words and 273 targets. The same literature check found no English translation and none announced; Spanish: García Sola 2010. Its companion *De typis* is not drafted, because Fichtner gives it no CMG abbreviation and its authenticity is in doubt. The mode, order rule, checks and claim wording are as above.

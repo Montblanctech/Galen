@@ -1,0 +1,16 @@
+{
+ "model": "fable-5-1",
+ "n_units": 38,
+ "n_responses": 38,
+ "n_ok": 38,
+ "missing_units": [],
+ "refusals": [],
+ "backends": {
+  "api_batch": 38
+ },
+ "problems": [
+  "K7.496-497: page-marker count differs",
+  "K7.506-507: page-marker count differs",
+  "K7.509-510: page-marker count differs"
+ ]
+}

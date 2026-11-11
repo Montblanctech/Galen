@@ -30,6 +30,7 @@ QUOTES = [
     ("difficultate-respirationis", "K7.753-754", "what is according to nature is one thing, and is as it were a rule and a measure"),
     ("de-plenitudine", "K7.520-521", "a young man in good condition and a quite small child cannot carry the same weight"),
     ("in-hipp-acut", "K15.520-521", "Hippocrates, accordingly, is seen to have begun from the least dangerous fomentation, which is both the least biting and moist"),
+    ("adversus-typos", "K7.475-476", "Thus, at any rate, they used to call certain periods Olympic and Pythian."),
     ("de-comate", "K7.650-651", "they abound in the summer season, and in hotter regions, and in the age of those in their prime"),
 ]
 # works with no complete translation in any modern language (census + literature check 2026-11-10/11; each page names the earlier ones)
