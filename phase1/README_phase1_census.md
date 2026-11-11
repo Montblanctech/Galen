@@ -11,7 +11,7 @@ whether a Phase 2 terminology density map is feasible.
 have more than one edition/witness), spanning roughly 2.4 million words of Greek
 across pharmacology, therapeutics, pathology, anatomy, physiology, pulse theory,
 and Hippocratic commentary. Coverage is not limited to *De simplicibus medicamentorum*
-I–VI (`tlg0057.tlg075`), which Perseus/Scaife surfaces most prominently — every one
+(`tlg0057.tlg075`, catalogued as books I–VI though the file holds all eleven), which Perseus/Scaife surfaces most prominently — every one
 of these 97 works has its own Scaife reader URL and is independently fetchable.
 
 ## Files
@@ -56,3 +56,17 @@ of these 97 works has its own Scaife reader URL and is independently fetchable.
    (Galen surviving only in Arabic) — a separate, much harder census against a
    different corpus (no equivalent open GitHub repository; it would require Arabic
    manuscript catalogues or the Graeco-Arabic Studies project's own materials).
+
+## Catalog errors found by reading the files (2026-11-11)
+
+The `title` and `wordcount` columns are Open Greek and Latin's catalog values, kept as reported. `phase1/census_file_check.py`
+adds three columns from the TEI files themselves: `greek_words_in_file`, `books_in_file` and `catalog_note`. Six editions disagree
+with their catalog entry:
+
+- `tlg075` *De simplicium medicamentorum*: catalogued as books I–VI and 66,926 words; the file holds books I–XI and 133,948 Greek words.
+- `tlg076` *De compositione medicamentorum secundum locos*: catalogued as books I–VI; the file holds books I–X.
+- `tlg017` *De usu partium*: catalogued as books I–XI; the file holds books I–XVII.
+- `tlg019` (opp-grc1), `tlg035` (1st1K-grc3) and `tlg073` (1st1K-grc2): catalog word counts 8,800, 849 and 2,723; the files hold 7,259, 480 and 2,251 Greek words.
+
+Totals: 2,407,608 words by the catalog, 2,473,208 Greek words counted in the files.
+

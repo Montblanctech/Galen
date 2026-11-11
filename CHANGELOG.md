@@ -6,6 +6,7 @@ dated on release and each gets a Zenodo DOI.
 ## [Unreleased]
 
 ### Added
+- **Census checked against the files** (`phase1/census_file_check.py`): three columns (`greek_words_in_file`, `books_in_file`, `catalog_note`) beside Open Greek and Latin's catalog values. Six catalog entries disagree with their files; the worst, *De simplicium medicamentorum* (tlg075), is catalogued as books I–VI and 66,926 words but holds books I–XI and 133,948 Greek words. The census note that First1KGreek carries only books I–VI was wrong and is corrected.
 - **Methods note** for Galen First Drafts, published as a preprint: doi:10.5281/zenodo.24146103 (linked from the front page and the drafts index).
 
 ### Fixed (after a sample read against the Greek, 2026-11-11; record: `firstdrafts_sample_read_2026-11-11.md`)
