@@ -248,7 +248,7 @@ def main() -> None:
 </ul>
 </div></section>
 
-<footer><div class=wrap>Galen First Drafts by William Pepperman, Galen Density Project. Every number on these pages traces to a file in <code>galen-density-map/</code>. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Audit kit: <code>pip install greek-lemma-audit</code>. Cite the concept DOI <a href="https://doi.org/10.5281/zenodo.21561962">10.5281/zenodo.21561962</a> (v3.0: <a href="https://doi.org/10.5281/zenodo.24046260">10.5281/zenodo.24046260</a>). Visits are counted with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</div></footer>
+<footer><div class=wrap>Galen First Drafts by William Pepperman, Galen Density Project. Every number on these pages traces to a file in <code>galen-density-map/</code>. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Audit kit: <code>pip install &quot;git+https://github.com/Montblanctech/Galen#subdirectory=audit-kit&quot;</code>. Cite the concept DOI <a href="https://doi.org/10.5281/zenodo.21561962">10.5281/zenodo.21561962</a> (v3.0: <a href="https://doi.org/10.5281/zenodo.24046260">10.5281/zenodo.24046260</a>). Visits are counted with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</div></footer>
 </body></html>
 """
     (DOCS / "index.html").write_text(page, encoding="utf-8")

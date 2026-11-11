@@ -148,7 +148,7 @@ diagnostic); two readers get Cohen's κ.
 ## Score your system on LSJ-Gold
 
 ```
-pip install greek-lemma-audit
+pip install "git+https://github.com/Montblanctech/Galen#subdirectory=audit-kit"
 # write DIR/<system>/<urn_cts_greekLit_tlgAAAA.tlgWWW.edition>.jsonl, one {"i": token_index, "lemma": "..."} per token
 greek-lemma-audit lsjgold --system-cache DIR --out scores.json
 # prints a Markdown table: blind / strict / article-neutral match, Wilson 95%, by author and validation route
