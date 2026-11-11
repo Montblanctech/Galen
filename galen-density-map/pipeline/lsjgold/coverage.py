@@ -60,7 +60,7 @@ def main() -> None:
                 cites[(m.group(1), m.group(2))] += 1
     held = held_works()
     located: Counter = Counter()
-    gold = QC / "lsj_gold_v0_1_1.csv" if (QC / "lsj_gold_v0_1_1.csv").exists() else QC / "lsj_gold_v0.csv"   # current gold (2026-11-11)
+    gold = next(QC / f for f in ("lsj_gold_v0_1_2.csv", "lsj_gold_v0_1_1.csv", "lsj_gold_v0.csv") if (QC / f).exists())   # newest gold
     if gold.exists():
         for r in csv.DictReader(gold.open(encoding="utf-8")):
             located[(r["author"], r["work"])] += 1
@@ -92,7 +92,7 @@ def main() -> None:
          "<title>LSJ coverage map</title>",
          "<style>body{font:15px/1.45 Georgia,serif;max-width:980px;margin:2rem auto;padding:0 1rem;color:#222}table{border-collapse:collapse;width:100%;margin:1rem 0}th,td{border-bottom:1px solid #ccc;padding:.3rem .5rem;text-align:left;vertical-align:top}th{background:#f3f1ec}td.n{text-align:right}.small{color:#555;font-size:.9em}.no{color:#a33}</style></head><body>",
          f"<h1>LSJ coverage map</h1><p class=small>Every work the Perseus Liddell–Scott–Jones cites by CTS URN: {total:,} citations into {len(rows):,} works. "
-         f"Held here in a free edition: {out['held_works']} works, {held_c:,} citations ({100*held_c/total:.1f}%); {out['citations_located']:,} of those are LSJ-Gold {'0.1.1' if gold.name == 'lsj_gold_v0_1_1.csv' else '0.1'} loci. "
+         f"Held here in a free edition: {out['held_works']} works, {held_c:,} citations ({100*held_c/total:.1f}%); {out['citations_located']:,} of those are LSJ-Gold { {'lsj_gold_v0_1_2.csv': '0.1.2', 'lsj_gold_v0_1_1.csv': '0.1.1'}.get(gold.name, '0.1') } loci. "
          f"The rest is the ask: a free TEI edition of a missing work adds its citations to the benchmark. <a href='index.html'>Back to the leaderboard</a>.</p>",
          "<h2>Missing works, by author (top 60)</h2><table><tr><th>author</th><th>works cited, not held</th><th>citations</th></tr>"]
     for e in out["missing_by_author"]:
@@ -101,7 +101,7 @@ def main() -> None:
     for r in rows[:300]:
         h.append(f"<tr><td>{nm(r['author'], r['work'])} <span class=small>{r['author']}.{r['work']}</span></td><td class=n>{r['citations']:,}</td>"
                  f"<td>{html.escape(r['edition']) if r['held'] else '<span class=no>not held</span>'}</td><td class=n>{r['located']:,}</td></tr>")
-    h.append("</table><p class=small>Source: Perseus LSJ XML (bibl/@n), the held editions' file names, and lsj_gold_v0.csv. Regenerate: <code>python pipeline/lsjgold/coverage.py</code>. The full list is in coverage.json.</p></body></html>")
+    h.append("</table><p class=small>Source: Perseus LSJ XML (bibl/@n), the held editions' file names, and the newest LSJ-Gold file. Regenerate: <code>python pipeline/lsjgold/coverage.py</code>. The full list is in coverage.json.</p></body></html>")
     (DOCS / "coverage.html").write_text("\n".join(h), encoding="utf-8")
     print(f"citations {total:,} into {len(rows):,} works; held {out['held_works']} works / {held_c:,} citations; located {out['citations_located']:,}")
     for e in out["missing_by_author"][:12]:

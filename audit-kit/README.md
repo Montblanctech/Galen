@@ -213,8 +213,9 @@ kit is standalone while its numbers stay byte-comparable with
 M2 equality is accent-preserving (NFC + casefold + sigma), the accent-strict
 admissibility rate is a diagnostic.
 
-## Status (v0.3.1)
+## Status (v0.3.2)
 
+0.3.2 (2026-11-11): packaged gold is LSJ-Gold 0.1.2 (70,198 loci; see `release/lsj-gold-0.1.2/README.md`).
 0.3.1 (2026-11-10): packaged gold is LSJ-Gold 0.1.1 (71,974 loci; 0.1 less the 21,952 phrase-only quoted loci, see the erratum in `release/lsj-gold-0.1.1/README.md`).
 0.3.0 (2026-11-07): `lsjgold` subcommand and packaged LSJ-Gold 0.1 (93,926 loci, CC BY 4.0); 23 tests.
 0.2.0 (2026-11-06): below.

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "greek-lemma-audit"
-version = "0.3.1"
+version = "0.3.2"
 description = "Lemmatizer Audit Kit: bounded accuracy range, disagreement worklist and blind reviewer sheet for any Ancient Greek lemmatizer output over any corpus (M1 Morpheus admissibility, M2 cross-system agreement, M3 LSJ-citation gold plugin, M5 blind sheet + scorer)."
 readme = "README.md"
 license = { text = "MIT" }

@@ -44,21 +44,21 @@
    ]
   },
   "lsjgold.version": {
-   "value": "0.1.1",
+   "value": "0.1.2",
    "kind": "text",
    "label": "LSJ-Gold version",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": []
   },
   "lsjgold.loci": {
-   "value": 71974,
+   "value": 70198,
    "kind": "int",
    "label": "LSJ-Gold loci",
    "source": "docs/lsj-gold/leaderboard.json",
    "noun": "loci",
    "display": [
-    "71,974",
-    "71974 loci"
+    "70,198",
+    "70198 loci"
    ]
   },
   "lsjgold.authors": {
@@ -72,104 +72,104 @@
    ]
   },
   "lsjgold.neural_loci": {
-   "value": 69339,
+   "value": 67639,
    "kind": "int",
    "label": "loci scored for every neural system",
    "source": "docs/lsj-gold/leaderboard.json",
    "noun": "loci",
    "display": [
-    "69,339",
-    "69339 loci"
+    "67,639",
+    "67639 loci"
    ]
   },
   "lsjgold.score.stoicheia": {
-   "value": 92.3,
+   "value": 92.8,
    "kind": "pct",
    "label": "LSJ-Gold Stoicheia tagger-parser (2026)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "92.3%"
+    "92.8%"
    ]
   },
   "lsjgold.once.stoicheia": {
-   "value": 75.9,
+   "value": 78.4,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Stoicheia tagger-parser (2026)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "75.9%"
+    "78.4%"
    ]
   },
   "lsjgold.score.dilemma": {
-   "value": 92.3,
+   "value": 92.8,
    "kind": "pct",
    "label": "LSJ-Gold Dilemma 1.3.15 (Open Greek, lsj convention)",
+   "source": "docs/lsj-gold/leaderboard.json",
+   "display": [
+    "92.8%"
+   ]
+  },
+  "lsjgold.once.dilemma": {
+   "value": 92.3,
+   "kind": "pct",
+   "label": "LSJ-Gold once-cited headwords, Dilemma 1.3.15 (Open Greek, lsj convention)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
     "92.3%"
    ]
   },
-  "lsjgold.once.dilemma": {
-   "value": 89.0,
-   "kind": "pct",
-   "label": "LSJ-Gold once-cited headwords, Dilemma 1.3.15 (Open Greek, lsj convention)",
-   "source": "docs/lsj-gold/leaderboard.json",
-   "display": [
-    "89.0%"
-   ]
-  },
   "lsjgold.score.stanza_perseus": {
-   "value": 84.3,
+   "value": 84.8,
    "kind": "pct",
    "label": "LSJ-Gold Stanza 1.14 grc-perseus",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "84.3%"
+    "84.8%"
    ]
   },
   "lsjgold.once.stanza_perseus": {
-   "value": 58.0,
+   "value": 60.0,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Stanza 1.14 grc-perseus",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "58.0%"
+    "60.0%"
    ]
   },
   "lsjgold.score.odycy": {
-   "value": 82.0,
+   "value": 82.5,
    "kind": "pct",
    "label": "LSJ-Gold odyCy 0.7.0 (grc_odycy_joint_trf)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "82.0%"
+    "82.5%"
    ]
   },
   "lsjgold.once.odycy": {
-   "value": 57.8,
+   "value": 59.7,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, odyCy 0.7.0 (grc_odycy_joint_trf)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "57.8%"
+    "59.7%"
    ]
   },
   "lsjgold.score.stanza_proiel": {
-   "value": 79.1,
+   "value": 79.6,
    "kind": "pct",
    "label": "LSJ-Gold Stanza 1.14 grc-proiel",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "79.1%"
+    "79.6%"
    ]
   },
   "lsjgold.once.stanza_proiel": {
-   "value": 58.1,
+   "value": 60.0,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Stanza 1.14 grc-proiel",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "58.1%"
+    "60.0%"
    ]
   },
   "lsgold.loci": {
@@ -473,6 +473,14 @@
      "93,926",
      "93926 loci"
     ]
+   },
+   {
+    "value": 71974,
+    "until": "2026-11-11",
+    "display": [
+     "71,974",
+     "71974 loci"
+    ]
    }
   ],
   "lsjgold.neural_loci": [
@@ -484,6 +492,14 @@
      "90,452",
      "90452 loci"
     ]
+   },
+   {
+    "value": 69339,
+    "until": "2026-11-11",
+    "display": [
+     "69,339",
+     "69339 loci"
+    ]
    }
   ],
   "lsjgold.score.dilemma": [
@@ -493,6 +509,13 @@
     "note": "LSJ-Gold 0.1",
     "display": [
      "90.1%"
+    ]
+   },
+   {
+    "value": 92.3,
+    "until": "2026-11-11",
+    "display": [
+     "92.3%"
     ]
    }
   ],
@@ -504,6 +527,13 @@
     "display": [
      "87.7%"
     ]
+   },
+   {
+    "value": 92.3,
+    "until": "2026-11-11",
+    "display": [
+     "92.3%"
+    ]
    }
   ],
   "lsjgold.score.stanza_perseus": [
@@ -513,6 +543,13 @@
     "note": "LSJ-Gold 0.1",
     "display": [
      "79.6%"
+    ]
+   },
+   {
+    "value": 84.3,
+    "until": "2026-11-11",
+    "display": [
+     "84.3%"
     ]
    }
   ],
@@ -524,6 +561,13 @@
     "display": [
      "75.7%"
     ]
+   },
+   {
+    "value": 82.0,
+    "until": "2026-11-11",
+    "display": [
+     "82.0%"
+    ]
    }
   ],
   "lsjgold.score.stanza_proiel": [
@@ -533,6 +577,13 @@
     "note": "LSJ-Gold 0.1",
     "display": [
      "72.0%"
+    ]
+   },
+   {
+    "value": 79.1,
+    "until": "2026-11-11",
+    "display": [
+     "79.1%"
     ]
    }
   ],
@@ -544,6 +595,13 @@
     "display": [
      "83.8%"
     ]
+   },
+   {
+    "value": 89.0,
+    "until": "2026-11-11",
+    "display": [
+     "89.0%"
+    ]
    }
   ],
   "lsjgold.once.stoicheia": [
@@ -553,6 +611,13 @@
     "note": "LSJ-Gold 0.1",
     "display": [
      "75.0%"
+    ]
+   },
+   {
+    "value": 75.9,
+    "until": "2026-11-11",
+    "display": [
+     "75.9%"
     ]
    }
   ],
@@ -580,6 +645,40 @@
     "until": "2026-11-11",
     "display": [
      "21,110"
+    ]
+   }
+  ],
+  "lsjgold.version": [
+   {
+    "value": "0.1.1",
+    "until": "2026-11-11",
+    "display": []
+   }
+  ],
+  "lsjgold.once.stanza_perseus": [
+   {
+    "value": 58.0,
+    "until": "2026-11-11",
+    "display": [
+     "58.0%"
+    ]
+   }
+  ],
+  "lsjgold.once.odycy": [
+   {
+    "value": 57.8,
+    "until": "2026-11-11",
+    "display": [
+     "57.8%"
+    ]
+   }
+  ],
+  "lsjgold.once.stanza_proiel": [
+   {
+    "value": 58.1,
+    "until": "2026-11-11",
+    "display": [
+     "58.1%"
     ]
    }
   ]

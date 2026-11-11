@@ -41,12 +41,17 @@ def validation_sentence() -> str:
     return " ".join(out)
 
 
-GOLD_VERSION = {"lsj_gold_v0.csv": "v0", "lsj_gold_v0_1_1.csv": "0.1.1"}
+GOLD_VERSION = {"lsj_gold_v0.csv": "v0", "lsj_gold_v0_1_1.csv": "0.1.1", "lsj_gold_v0_1_2.csv": "0.1.2"}
 ERRATUM = {
     "lsj_gold_v0_1_1.csv": "Erratum (0.1.1, 2026-11): 0.1 validated a locus as <em>quoted</em> when its token matched any word of the "
     "phrase LSJ quotes beside the citation, so some golds were a neighbouring word (the Iliad 9:130 token καὶ was gold κάμνω). "
     "0.1.1 keeps a quoted locus only when LSJ quotes that single word (not a prefix such as προσ-); 21,952 of the 93,926 loci are dropped and every system is "
     "rescored on the same outputs. 0.1 stays citable at its DOI.",
+    "lsj_gold_v0_1_2.csv": "Corrections (0.1.2, 2026-11): every locus that rested only on a single word LSJ quotes, where Dilemma gives the "
+    "form another lemma (652 loci), was read blind by two readers with salted controls; 313 that were not accepted by both are dropped "
+    "(LSJ often quotes a related word in an entry, which passed as the headword's own form). 1,364 rows that repeated a locus are "
+    "removed, and 49 tokens that were gold under two different headwords are set aside. 70,198 loci remain; every system is rescored "
+    "on the same outputs. 0.1 and 0.1.1 stay citable.",
 }
 
 
@@ -100,7 +105,7 @@ def main() -> None:
             h.append(f"<tr><td>{html.escape(r['label'])}</td><td>{ci(c.get('1'))} <span class=small>n {c.get('1', {}).get('n', '')}</span></td><td>{ci(c.get('2-5'))} <span class=small>n {c.get('2-5', {}).get('n', '')}</span></td><td>{ci(c.get('6+'))} <span class=small>n {c.get('6+', {}).get('n', '')}</span></td></tr>")
         h.append("</table>")
     sc = stats.get("status_counts", {})
-    h.append(f"<h2>How the loci were made</h2><p class=small>{html.escape(stats.get('rule',''))}. Of {stats.get('citations_into_held_works','?')} LSJ citations into works held here: located {sc.get('located')} (LSJ-Gold 0.1.1 keeps {n_gold:,} of them: from 0.1.1 on, a quoted locus counts only when LSJ quotes that single word, not when the token matches one word of a quoted phrase), ambiguous {sc.get('ambiguous')}, not located {sc.get('not_located')} (mostly Morpheus coverage, being filled), locator not in our edition {sc.get('locator_not_in_edition')}. Match = the system's lemma equals the LSJ headword after accent/case normalisation; strict = exact; article-neutral maps the article's forms to ὁ before comparing.</p>")
+    h.append(f"<h2>How the loci were made</h2><p class=small>{html.escape(stats.get('rule',''))}. Of {stats.get('citations_into_held_works','?')} LSJ citations into works held here: located {sc.get('located')} (LSJ-Gold {label} keeps {n_gold:,} of them: from 0.1.1 on, a quoted locus counts only when LSJ quotes that single word, not when the token matches one word of a quoted phrase; from 0.1.2 on, the weakest of those were read blind, a locus repeated in LSJ counts once, and a token gold under two headwords is set aside), ambiguous {sc.get('ambiguous')}, not located {sc.get('not_located')} (mostly Morpheus coverage, being filled), locator not in our edition {sc.get('locator_not_in_edition')}. Match = the system's lemma equals the LSJ headword after accent/case normalisation; strict = exact; article-neutral maps the article's forms to ὁ before comparing.</p>")
     h.append("<h2>Coverage</h2><p class=small>Which works LSJ cites, which are held here, and what a missing edition would add: <a href=coverage.html>the coverage map</a> (<a href=coverage.json>JSON</a>).</p>")
     h.append("<h2>Where the systems fail</h2><p class=small>Every miss grouped by mechanical pattern (same stem, surface returned, dialect ending …) and the most-missed headwords per system, as a list a maintainer can act on: <a href=failures.html>the failure catalogue</a> (<code>data/qc/lsjgold/failures/</code>).</p>")
     h.append("<h2>Honesty</h2><p class=small>LSJ cites what a 1940 lexicographer found worth citing: this is the rare, dictionary-worthy stratum, not overall accuracy. The Perseus LSJ XML is incomplete. Only works held in First1KGreek or Perseus editions are covered. odyCy's lemmas are a frozen 2026-07 run on First1K and a token-by-token run on the Perseus works; Dilemma is context-free on the surface; convention differences count against a system in the strict and blind columns and are partly undone in the article-neutral one. " + validation_sentence() + " No human reader has judged a sheet yet; the sheets and keys are in the repository.</p>")

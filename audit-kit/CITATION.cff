@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "If you use greek-lemma-audit or the LSJ-Gold loci, please cite this software and the Galen Density Project preprint."
 title: "greek-lemma-audit: a Lemmatizer Audit Kit for Ancient Greek (M1 Morpheus floor, M2 cross-system agreement, M3 LSJ-citation gold, M5 blind salted reader sheets)"
 type: software
-version: 0.3.1
-date-released: 2026-11-10
+version: 0.3.2
+date-released: 2026-11-11
 license: MIT
 repository-code: "https://github.com/Montblanctech/Galen"
 authors:

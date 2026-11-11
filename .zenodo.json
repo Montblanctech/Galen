@@ -1,7 +1,7 @@
 {
  "title": "Galen Corpus Infrastructure: Galen First Drafts, Census, Terminology Density Map and Lemmatizer Benchmarks",
  "upload_type": "dataset",
- "description": "<p>Galen Corpus Infrastructure. <b>Galen First Drafts</b>: machine first-draft English translations of thirteen works of Galen with no complete English translation known to us (244,007 words of Greek), each with two independent renderings, the Greek, and pre-registered machine checks; each work's page names the earlier partial and other-language translations. A catalogue of 678 items found in the drafts (people, lost authors and books, recipes, cases, measures), with an attestation check against Fichtner's <i>Corpus Galenicum</i> and the fragment collections. The LSJ-Gold and LS-Gold lemmatizer benchmarks (LSJ-Gold 0.1.1 corrects 0.1: it drops the 21,952 loci validated only by matching one word of a phrase LSJ quotes, and rescores every system; 0.1 stays citable) and the LSJ-Gold lexicon; a digital-availability census of the Galenic Greek corpus in First1KGreek (103 editions / 97 works) and a terminology density map.</p><p>The drafts are unverified and meant for reading and correction. Site: https://montblanctech.github.io/Galen/</p>",
+ "description": "<p>Galen Corpus Infrastructure. <b>Galen First Drafts</b>: machine first-draft English translations of thirteen works of Galen with no complete English translation known to us (244,007 words of Greek), each with two independent renderings, the Greek, and pre-registered machine checks; each work's page names the earlier partial and other-language translations. A catalogue of 678 items found in the drafts (people, lost authors and books, recipes, cases, measures), with an attestation check against Fichtner's <i>Corpus Galenicum</i> and the fragment collections. The LSJ-Gold and LS-Gold lemmatizer benchmarks (LSJ-Gold 0.1.2, 70,198 loci: 0.1.1 dropped the 21,952 loci of 0.1 validated only by matching one word of a phrase LSJ quotes; 0.1.2 reads the 652 weakest remaining loci blind and drops 313, counts a repeated locus once and sets aside 49 tokens gold under two headwords; every system is rescored and earlier versions stay citable) and the LSJ-Gold lexicon; a digital-availability census of the Galenic Greek corpus in First1KGreek (103 editions / 97 works) and a terminology density map.</p><p>The drafts are unverified and meant for reading and correction. Site: https://montblanctech.github.io/Galen/</p>",
  "creators": [
   {
    "name": "Pepperman, William"
@@ -42,5 +42,5 @@
   }
  ],
  "access_right": "open",
- "version": "3.1.3"
+ "version": "3.2.0"
 }
