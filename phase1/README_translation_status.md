@@ -7,30 +7,27 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 | status | works | editions | Greek words |
 |---|---|---|---|
 | `english` | 67 | 71 | 1,387,004 |
-| `other_modern` | 16 | 16 | 430,454 |
-| `partial` | 4 | 4 | 372,931 |
+| `other_modern` | 19 | 20 | 449,717 |
+| `partial` | 6 | 6 | 508,883 |
 | `latin_only` | 0 | 0 | 0 |
-| `none` | 8 | 9 | 168,563 |
+| `none` | 3 | 3 | 13,348 |
 | `unknown` | 2 | 3 | 1,766 |
 | total | 97 | 103 | 2,360,718 |
 
 ### Works with no modern-language translation in either catalogue (`none`)
 
 - tlg047 *De totius morbi temporibus* (Kühn VII, 3,538 words)
-- tlg056 *De difficultate respirationis* (Kühn VII, 31,842 words)
 - tlg072 *De purgantium medicamentorum facultate* (Kühn XI, 2,973 words)
-- tlg073 *Quos quibus catharticis medicamentis et quando purgare oporteat* (Kühn XI, 1,996 words)
-- tlg077 *De compositione medicamentorum per genera* (Kühn XIII, 104,110 words)
 - tlg086 *In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius* (Kühn XV, 6,837 words)
-- tlg093 *Adversus Lycum* (Kühn XVIII A, 7,436 words)
-- tlg096 *De Humero iis Modis Prolapso quos Hippocrates non Vidit* (Kühn XVIII A, 9,831 words)
 
 ### `partial` (a source states that only part of the work is translated)
 
+- tlg056 *De difficultate respirationis*: No complete translation in any modern language; one English paragraph exists.
 - tlg075 *De simplicium medicamentorum temperamentis ac facultatibus I-VI*: No complete modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. First1KGreek carries books I-VI only.
 - tlg076 *De compositione medicamentorum secundum locos I-VI*: Spanish of book II only; books I and III-X untranslated in any modern language.
+- tlg077 *De compositione medicamentorum per genera*: No complete translation in any modern language; English of parts exists.
 - tlg087 *In Hippocratis De victu acutorum*: French of book I only; books II-IV untranslated in any modern language.
-- tlg092 *In Hippocratis Aphorismos*: Italian of book VI only; books I-V and VII untranslated in any modern language.
+- tlg092 *In Hippocratis Aphorismos*: Every book has some modern translation; GOHA (BBAW/HU Berlin) is editing bks I-IV with translation; P. N. Singer's English of bk I announced. Not a First Drafts candidate.
 
 ### `unknown` (the sources disagree or are silent; not a claim either way)
 

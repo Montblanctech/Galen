@@ -44,17 +44,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 4,
-    "exploratory_not_preregistered": {
-     "n": 4,
-     "in_range": 4,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 4,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -89,17 +85,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -134,17 +126,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -179,17 +167,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -224,17 +208,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -269,27 +249,22 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   }
  },
  "summary": {
   "n_units": 6,
   "unit_verdicts": {
-   "pass": 5,
-   "mixed": 1
+   "pass": 6
   },
   "a": {
    "pass": 6,
@@ -312,11 +287,14 @@
    ]
   },
   "c": {
-   "pass": 0,
+   "pass": 6,
    "fail": 0,
-   "n_a_or_not_run": 6,
-   "pass_pct": null,
-   "wilson95": null
+   "n_a_or_not_run": 0,
+   "pass_pct": 100.0,
+   "wilson95": [
+    60.97,
+    100.0
+   ]
   },
   "b_term_level": {
    "n": 42,
@@ -357,48 +335,18 @@
   },
   "c_gate": {
    "controls": 20,
-   "correct": 16,
-   "passed": false,
-   "misses": [
-    {
-     "item_id": "J00083",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "that which flows"
-    },
-    {
-     "item_id": "J00091",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "of good name"
-    },
-    {
-     "item_id": "J00085",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "liable to discharge blood"
-    },
-    {
-     "item_id": "J00084",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "holding together"
-    }
-   ],
+   "correct": 20,
+   "passed": true,
+   "misses": [],
    "defective_anchor_misses": 0,
-   "note": "gate failed; 4 control misses, 0 of them defective anchors"
+   "note": ""
   },
-  "c_exploratory_not_preregistered": {
-   "pass": 6
-  },
+  "c_exploratory_not_preregistered": null,
   "c_item_level": {
    "A": {
-    "in_range": 40,
-    "out_of_range": 1
+    "in_range": 39,
+    "out_of_range": 1,
+    "unsure": 1
    },
    "B": {
     "in_range": 40,

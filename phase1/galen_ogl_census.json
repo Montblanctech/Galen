@@ -832,9 +832,9 @@
       "kuhn_volume_approx": "VII",
       "category": "pathology",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Galenus verbatim catalogue tlg0057.tlg056 (Fichtner no. 059): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 59: no T (translation) line",
-      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "partial",
+      "translation_source": "A. A. Long 2021, 'Pneumatic Episodes from Homer to Galen', in The Life of Breath (Palgrave, open access), T23 (eng, ~230 words, K. VII 781-82); Fichtner 2023 no. 59 and Oxford Handbook of Galen 2024 list no translation; literature check 2026-11-10",
+      "translation_note": "No complete translation in any modern language; one English paragraph exists."
     },
     {
       "tlg_number": "tlg057",
@@ -1043,8 +1043,8 @@
       "category": "therapeutics",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1:1",
       "translation_status": "other_modern",
-      "translation_source": "G. Ecca, AION-SEZ 43 (2021) 155-179 (Italian, complete); drafts/prior_translation_check.md work 5",
-      "translation_note": "First Italian translation (Ecca 2021); no English found. Ecca argues a late-antique compilation (pseudo-Galenic)."
+      "translation_source": "Ecca 2021, AION (filol.) 43, 155-179 (ita, complete); Bussemaker & Daremberg 1854, Oeuvres d'Oribase vol. 2 (fra, the Oribasius passages the text is compiled from); literature check 2026-11-10",
+      "translation_note": "No English translation found; Ecca argues a late-antique compilation (pseudo-Galenic)."
     },
     {
       "tlg_number": "tlg072",
@@ -1070,9 +1070,9 @@
       "kuhn_volume_approx": "XI",
       "category": "pharmacology",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 76: no T (translation) line",
-      "translation_note": "not in the GV catalogue; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "other_modern",
+      "translation_source": "Bussemaker & Daremberg 1854, Oeuvres d'Oribase vol. 2, bk VII ch. 23 (fra, the work as excerpted by Oribasius; Fichtner treats the treatise as this excerpt); literature check 2026-11-10",
+      "translation_note": "No English translation found."
     },
     {
       "tlg_number": "tlg073",
@@ -1084,9 +1084,9 @@
       "kuhn_volume_approx": "XI",
       "category": "pharmacology",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg073.1st1K-grc2:1",
-      "translation_status": "none",
-      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 76: no T (translation) line",
-      "translation_note": "not in the GV catalogue; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "other_modern",
+      "translation_source": "Bussemaker & Daremberg 1854, Oeuvres d'Oribase vol. 2, bk VII ch. 23 (fra, the work as excerpted by Oribasius; Fichtner treats the treatise as this excerpt); literature check 2026-11-10",
+      "translation_note": "No English translation found."
     },
     {
       "tlg_number": "tlg074",
@@ -1140,9 +1140,9 @@
       "kuhn_volume_approx": "XIII",
       "category": "pharmacology",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Fichtner, Corpus Galenicum (2023/12) entry 82 lists no modern translation; Zainaldin et al. 2026 arXiv:2602.24119 §2.2 ('never been translated into English'); Galenus verbatim tlg077: no translationes recentiores",
-      "translation_note": "No translation in any modern language. Zainaldin et al. 2026 published a CC BY reference translation of ten passages (github.com/campattison/galen_project), not a translation of the work."
+      "translation_status": "partial",
+      "translation_source": "Baker 1574 London (eng, bk III from a French epitome); Marai 2023 Warwick PhD thesis (eng, substantial excerpts of bks I-III and recipes of II, IV); galen_project reference passages (eng, ten passages, CC BY 4.0); Totelin 2025: no full modern translation; literature check 2026-11-10",
+      "translation_note": "No complete translation in any modern language; English of parts exists."
     },
     {
       "tlg_number": "tlg078",
@@ -1295,8 +1295,8 @@
       "category": "commentary",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg092.1st1K-grc1:1",
       "translation_status": "partial",
-      "translation_source": "Savino 2020 (CMG V 12,6, Italian), book VI only; Galenus verbatim tlg092 (Fichtner 101); drafts/untranslated_galen_research.md §1",
-      "translation_note": "Italian of book VI only; books I-V and VII untranslated in any modern language."
+      "translation_source": "Savino 2020, CMG V 12,6 (ita, bk VI); Cardini 1911 Firenze (ita, bk I, selective); Cardini 1906 (ita excerpts, bks I-VII); GOHA/BBAW 2025 digital ed. (deu, IV.1-3); Rudolf 2025 MPIWG Sourcebook 011 (eng excerpt, I.1); Cerezo Magan 2023 Lleida (spa, coverage unverified); literature check 2026-11-10",
+      "translation_note": "Every book has some modern translation; GOHA (BBAW/HU Berlin) is editing bks I-IV with translation; P. N. Singer's English of bk I announced. Not a First Drafts candidate."
     },
     {
       "tlg_number": "tlg093",
@@ -1308,9 +1308,9 @@
       "kuhn_volume_approx": "XVIII A",
       "category": "commentary",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Galenus verbatim catalogue tlg0057.tlg093 (Fichtner no. 103): no translationes recentiores listed || Fichtner, Corpus Galenicum 2023/12, entry 103: no T (translation) line",
-      "translation_note": "GV lists no translation; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "other_modern",
+      "translation_source": "Cerezo Magan 2023, Comentarios de Galeno a los Aforismos de Hipocrates; Librito Contra Lico (Lleida; spa, possibly from Kuhn's Latin); Raiola 2018 (ita, one sentence); Fichtner 2023 and Oxford Handbook 2024 list no translation; literature check 2026-11-10",
+      "translation_note": "No English translation found."
     },
     {
       "tlg_number": "tlg094",
@@ -1350,9 +1350,9 @@
       "kuhn_volume_approx": "XVIII A",
       "category": "commentary",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1:1",
-      "translation_status": "none",
-      "translation_source": "Fichtner, Corpus Galenicum 2023/12, entry 106: no T (translation) line",
-      "translation_note": "not in the GV catalogue; Fichtner has no T line; Kühn's facing Latin (and any Renaissance/medieval Latin, Arabic or Syriac version) not counted"
+      "translation_status": "other_modern",
+      "translation_source": "Abballe 1972, I quattro Commentari al Trattato delle articolazioni di Ippocrate (Roma, De Luca; ita, whole In Hipp. De articulis commentary, of which this text is part per Fichtner no. 106); Meiggs (eng, short excerpt K. XVIIIA 347-348); literature check 2026-11-10",
+      "translation_note": "Part of the In Hipp. De articulis commentary (Fichtner); no complete English translation found."
     },
     {
       "tlg_number": "tlg099",
@@ -1519,24 +1519,24 @@
     ],
     "distinct_works_by_status": {
       "english": 67,
-      "other_modern": 16,
+      "other_modern": 19,
       "unknown": 2,
-      "none": 8,
-      "partial": 4
+      "none": 3,
+      "partial": 6
     },
     "greek_words_by_status_first_edition": {
       "english": 1387004,
-      "other_modern": 430454,
+      "other_modern": 449717,
       "unknown": 1766,
-      "none": 168563,
-      "partial": 372931
+      "none": 13348,
+      "partial": 508883
     },
     "editions_by_status": {
       "english": 71,
-      "other_modern": 16,
+      "other_modern": 20,
       "unknown": 3,
-      "none": 9,
-      "partial": 4
+      "none": 3,
+      "partial": 6
     }
   }
 }

@@ -16,6 +16,7 @@ sys.path.insert(0, str(PIPE))
 
 WORKS = {
     "adversus-lycum": {
+        "prior_translations": 'No earlier English translation found. A Spanish translation appeared in 2023 (M. Cerezo Magán, Lleida).',
         "tlg": "tlg093",
         "urn": "urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg093.1st1K-grc1",
@@ -28,6 +29,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg093.1st1K-grc1 (Kühn 1829, vol. 18.1 pp. 196-245; keyboarded by Digital Divide Data for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "comp-per-genera": {
+        "prior_translations": 'No complete translation in any modern language. Parts exist in English: G. Baker 1574 (book 3, from a French epitome), M. Marai 2023 (substantial excerpts, Warwick PhD thesis) and ten reference passages (galen_project, 2026).',
         "tlg": "tlg077",
         "urn": "urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg077.1st1K-grc1",
@@ -47,6 +49,7 @@ WORKS = {
     },
     # cycle 3 (firstdrafts_v02_cycle3_note.md): the eight remaining works with translation_status = none in phase1/galen_ogl_census.csv
     "hirudinibus": {
+        "prior_translations": 'No earlier English translation found. Italian: G. Ecca 2021 (complete). French: Bussemaker and Daremberg 1854, for the passages of Oribasius it is compiled from.',
         "tlg": "tlg071",
         "urn": "urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg071.1st1K-grc1",
@@ -60,6 +63,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg071.1st1K-grc1 (Kühn 1826, vol. 11 pp. 317-322; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "quos-quibus": {
+        "prior_translations": 'No earlier English translation found. French: Bussemaker and Daremberg 1854, in their Oribasius (book VII 23).',
         "tlg": "tlg073",
         "urn": "urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg073.1st1K-grc1",
@@ -73,6 +77,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg073.1st1K-grc1 (Kühn 1826, vol. 11 pp. 343-356; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0; First1KGreek also has tlg073.1st1K-grc2, the Oribasius excerpt of the same work (Kühn XI 343-356 ap. Oribasium, with Latin and German), not used here",
     },
     "purgantium-facultate": {
+        "prior_translations": 'No translation in any modern language found.',
         "tlg": "tlg072",
         "urn": "urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg072.1st1K-grc1",
@@ -86,6 +91,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg072.1st1K-grc1 (Kühn 1826, vol. 11 pp. 323-342; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "morbi-temporibus": {
+        "prior_translations": 'No translation in any modern language found.',
         "tlg": "tlg047",
         "urn": "urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg047.1st1K-grc1",
@@ -99,6 +105,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg047.1st1K-grc1 (Kühn 1824, vol. 7 pp. 440-462; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "in-hipp-salubri": {
+        "prior_translations": 'No translation in any modern language found.',
         "tlg": "tlg086",
         "urn": "urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg086.1st1K-grc1",
@@ -112,6 +119,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg086.1st1K-grc1 (Kühn 1828, vol. 15 pp. 174-223; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "de-humero": {
+        "prior_translations": "No complete English translation found; R. Meiggs translated a short passage (Kühn XVIIIA 347–348). The text is part of Galen's commentary on the Hippocratic Joints, which M. Abballe translated into Italian (1972).",
         "tlg": "tlg096",
         "urn": "urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg096.1st1K-grc1",
@@ -138,6 +146,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg085.1st1K-grc1 (Kühn 1828, vol. 15 pp. 1-173; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "difficultate-respirationis": {
+        "prior_translations": 'No complete translation in any modern language. One paragraph (Kühn VII 781–782) is in English in A. A. Long 2021.',
         "tlg": "tlg056",
         "urn": "urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg056.1st1K-grc1",

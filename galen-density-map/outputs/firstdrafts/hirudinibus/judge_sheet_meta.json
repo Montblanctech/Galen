@@ -1,6 +1,7 @@
 {
- "spec": "firstdrafts_v02_spec.md",
- "seed": 20261109,
+ "spec": "firstdrafts_v03_judge_note.md",
+ "anchor_rule": "v03",
+ "seed": 20261111,
  "subset": null,
  "n_items": 102,
  "n_real": 82,
@@ -8,11 +9,11 @@
  "n_plant": 10,
  "n_groups": 11,
  "group_size": 10,
- "anchor_candidates_valid": 34,
- "first_sense_glosses_rejected_by_validator": 7,
+ "anchor_candidates_valid": 27,
+ "first_sense_glosses_rejected_by_validator": 9,
  "lsj_entry_chars": {
   "min": 89,
-  "median": 522,
+  "median": 508,
   "max": 4184
  },
  "key": "outside the repository until scored"

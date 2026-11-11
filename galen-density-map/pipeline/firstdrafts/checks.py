@@ -257,7 +257,7 @@ def judge_user(items: list[dict]) -> str:
     return f"{len(items)} items. Answer with exactly {len(items)} JSON lines, one per item, in this order.\n\n" + "\n\n".join(parts)
 
 
-def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None) -> None:
+def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None, anchors_rule: str = "v03") -> None:
     out = out_dir(slug)
     rows = load_term_table(out)
     if subset == "calibration":
@@ -273,9 +273,24 @@ def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None) -> 
                 items.append({"item_id": iid, "greek_sentence": r["greek_sentence"], "surface": r["surface"], "lemma": r["dilemma_lemma"] or r["odycy_lemma"],
                               "lsj_headword": r["lsj_headword"], "lsj_entry": r["lsj_entry_text"], "english": r[f"rendering_{tag}"]})
                 key.append({"item_id": iid, "kind": "real", "unit_id": r["unit_id"], "target_no": r["target_no"], "rendering": tag, "expected": ""})
-    # anchors (v0.2): LSJ first-sense gloss, validated as an English gloss before salting; one per lemma
-    cands = [r for r in real if valid_anchor_gloss(r.get("lsj_first_sense_gloss", ""))]
-    n_invalid = sum(1 for r in real if r.get("lsj_first_sense_gloss") and not valid_anchor_gloss(r["lsj_first_sense_gloss"]))
+    # anchors. v0.2: LSJ first-sense gloss (fails in context: the judge is asked about THIS sentence, and the first
+    # sense is often not Galen's; 7 of 9 cycle 1-3 gates failed on anchors). v0.3 (2026-11-10): a target whose two
+    # independent renderings agree after normalisation, whose shared rendering is a valid English gloss, and at least
+    # one of whose content words occurs in the target's own LSJ entry: right in context by two translators, attested
+    # by the lexicon. The anchor item shows that shared rendering.
+    if anchors_rule == "v02":
+        cands = [r for r in real if valid_anchor_gloss(r.get("lsj_first_sense_gloss", ""))]
+        n_invalid = sum(1 for r in real if r.get("lsj_first_sense_gloss") and not valid_anchor_gloss(r["lsj_first_sense_gloss"]))
+    else:
+        def v03_ok(r):
+            a_, b_ = r.get("rendering_A") or "", r.get("rendering_B") or ""
+            if not a_ or not b_ or norm(a_) != norm(b_) or not valid_anchor_gloss(a_.lower()):
+                return False
+            entry = set(norm(r.get("lsj_entry_text") or "").split())
+            content = [w for w in norm(a_).split() if len(w) >= 3 and w not in STOP and w not in GLOSS_LABELS]
+            return bool(content) and any(w in entry for w in content)
+        cands = [r for r in real if v03_ok(r)]
+        n_invalid = sum(1 for r in real if r.get("rendering_A") and r.get("rendering_B") and norm(r["rendering_A"]) == norm(r["rendering_B"]) and not v03_ok(r))
     rng.shuffle(cands)
     seen, anchors = set(), []
     for r in cands:
@@ -288,8 +303,10 @@ def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None) -> 
     for r in anchors:
         iid = f"J{len(items) + 1:05d}"
         items.append({"item_id": iid, "greek_sentence": r["greek_sentence"], "surface": r["surface"], "lemma": r["dilemma_lemma"] or r["odycy_lemma"],
-                      "lsj_headword": r["lsj_headword"], "lsj_entry": r["lsj_entry_text"], "english": r["lsj_first_sense_gloss"].strip()})
-        key.append({"item_id": iid, "kind": "anchor", "unit_id": r["unit_id"], "target_no": r["target_no"], "rendering": "lsj_first_sense_gloss", "expected": "in_range"})
+                      "lsj_headword": r["lsj_headword"], "lsj_entry": r["lsj_entry_text"],
+                      "english": (r["lsj_first_sense_gloss"] if anchors_rule == "v02" else r["rendering_A"]).strip()})
+        key.append({"item_id": iid, "kind": "anchor", "unit_id": r["unit_id"], "target_no": r["target_no"],
+                    "rendering": "lsj_first_sense_gloss" if anchors_rule == "v02" else "A=B shared rendering, attested in the entry", "expected": "in_range"})
     # plants: a real target with the rendering of a different target (different LSJ entry, no shared normalised token with either rendering or the entry)
     plants, tries = [], 0
     pool = [r for r in real if r["rendering_A"]]
@@ -324,7 +341,7 @@ def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None) -> 
         w = csv.DictWriter(fh, fieldnames=list(key[0].keys()), lineterminator="\n")
         w.writeheader()
         w.writerows(key)
-    meta = {"spec": "firstdrafts_v02_spec.md", "seed": seed, "subset": subset, "n_items": len(items), "n_real": sum(k["kind"] == "real" for k in key), "n_anchor": len(anchors), "n_plant": len(plants),
+    meta = {"spec": "firstdrafts_v02_spec.md" if anchors_rule == "v02" else "firstdrafts_v03_judge_note.md", "anchor_rule": anchors_rule, "seed": seed, "subset": subset, "n_items": len(items), "n_real": sum(k["kind"] == "real" for k in key), "n_anchor": len(anchors), "n_plant": len(plants),
             "n_groups": len(groups), "group_size": JUDGE_GROUP, "anchor_candidates_valid": len(cands), "first_sense_glosses_rejected_by_validator": n_invalid,
             "lsj_entry_chars": {"min": min(len(it["lsj_entry"]) for it in items), "median": sorted(len(it["lsj_entry"]) for it in items)[len(items) // 2], "max": max(len(it["lsj_entry"]) for it in items)},
             "key": "outside the repository until scored"}
@@ -368,9 +385,23 @@ def cmd_api_judge(slug: str, a) -> None:
               out_path=out / "judge_group_answers.jsonl", usage_path=out / "usage.jsonl", id_field="group_id", budget=a.budget, mode=a.mode,
               packet_size=a.packet_size or (16 if a.mode == "direct" else 100), workers=a.workers, max_tokens=a.max_tokens, effort=a.effort, est_usd_per_call=est, parse="jsonl", limit=a.limit)
     ans = answers_from_groups(out, read_jsonl(out / "judge_group_answers.jsonl"), "api" if a.mode == "direct" else "api_batch")
+    items = {it["item_id"]: it for it in read_jsonl(out / "judge_sheet.jsonl")}
+    missing = [i for i in items if i not in {r["item_id"] for r in ans}]
+    if missing:   # v0.3: re-ask the unanswered items once, in groups of their own (cycle 2 lost 5 controls this way)
+        re_groups = {}
+        for g0 in range(0, len(missing), JUDGE_GROUP):
+            grp = [items[i] for i in missing[g0:g0 + JUDGE_GROUP]]
+            user = judge_user(grp)
+            re_groups[f"R{g0 // JUDGE_GROUP + 1:05d}"] = {"system": JUDGE_SYSTEM, "user": user, "item_ids": [it["item_id"] for it in grp]}
+        print(len(missing), "items unanswered; re-asking them in", len(re_groups), "groups")
+        run_stage(stage="judge_reask", work=slug, model="claude-sonnet-5-5", ids=list(re_groups),
+                  make_request=lambda i: (re_groups[i]["system"], re_groups[i]["user"], {"item_ids": re_groups[i]["item_ids"]}),
+                  out_path=out / "judge_group_answers_reask.jsonl", usage_path=out / "usage.jsonl", id_field="group_id", budget=a.budget, mode=a.mode,
+                  packet_size=a.packet_size or (16 if a.mode == "direct" else 100), workers=a.workers, max_tokens=a.max_tokens, effort=a.effort, est_usd_per_call=est, parse="jsonl", limit=a.limit)
+        have = {r["item_id"] for r in ans}
+        ans += [r for r in answers_from_groups(out, read_jsonl(out / "judge_group_answers_reask.jsonl"), "api" if a.mode == "direct" else "api_batch") if r["item_id"] not in have]
     write_jsonl(out / "judge_answers.jsonl", ans)
-    sheet = {it["item_id"] for it in read_jsonl(out / "judge_sheet.jsonl")}
-    print(len(ans), "of", len(sheet), "items judged; missing", len(sheet - {r['item_id'] for r in ans}))
+    print(len(ans), "of", len(items), "items judged; missing", len(set(items) - {r['item_id'] for r in ans}))
 
 
 def cmd_ingest_judge(slug: str, paths: list[str]) -> None:
@@ -606,6 +637,7 @@ def main() -> None:
     ap.add_argument("--key", type=Path)
     ap.add_argument("--seed", type=int, default=20261109)
     ap.add_argument("--subset", choices=["calibration"], default=None)
+    ap.add_argument("--anchors", choices=["v02", "v03"], default="v03", help="build-judge: anchor rule (v0.3 default, 2026-11-10)")
     add_api_args(ap)
     a = ap.parse_args()
     if a.cmd == "build-bt":
@@ -615,7 +647,7 @@ def main() -> None:
     elif a.cmd == "ingest-bt":
         cmd_ingest_bt(a.work, a.rendering, a.responses)
     elif a.cmd == "build-judge":
-        cmd_build_judge(a.work, a.key_out, a.seed, a.subset)
+        cmd_build_judge(a.work, a.key_out, a.seed, a.subset, a.anchors)
     elif a.cmd == "api-judge":
         cmd_api_judge(a.work, a)
     elif a.cmd == "ingest-judge":

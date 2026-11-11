@@ -1,0 +1,710 @@
+{"item_id": "J0001", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0002", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0003", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0004", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0005", "verdict": "in_range", "note": "understanding, skill; knowledge plausible", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0006", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0007", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0008", "verdict": "in_range", "note": "letters taken together forming one sound, syllable", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0009", "verdict": "in_range", "note": "aphorism listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0010", "verdict": "unsure", "note": "book title Aphorisms not visible in truncated entry", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0011", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0012", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0013", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0014", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0015", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0016", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0017", "verdict": "in_range", "note": "explanation, interpretation", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0018", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0019", "verdict": "in_range", "note": "comrade, companion", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0020", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0021", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0022", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0023", "verdict": "out_of_range", "note": "Entry gives only comfrey plant; no innate sense shown.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0024", "verdict": "out_of_range", "note": "entry is the plant comfrey, not adjective connate", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0025", "verdict": "in_range", "note": "warmth, heat", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0026", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0027", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0028", "verdict": "in_range", "note": "animal", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0029", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0030", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0031", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0032", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0033", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0034", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0035", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0036", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0037", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0038", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0039", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0040", "verdict": "in_range", "note": "disease", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0041", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0042", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0043", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0044", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0045", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0046", "verdict": "in_range", "note": "tongue", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0047", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0048", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0049", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0050", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0051", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0052", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0053", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0054", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0055", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0056", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0057", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0058", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0059", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0060", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0061", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0062", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0063", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0064", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0065", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0066", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0067", "verdict": "in_range", "note": "cold, comparative", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0068", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0069", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0070", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0071", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0072", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0073", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0074", "verdict": "in_range", "note": "bath, bathing-room", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0075", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0076", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0077", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0078", "verdict": "in_range", "note": "steam, vapour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0079", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0080", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0081", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0082", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0083", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0084", "verdict": "in_range", "note": "steam, vapour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0085", "verdict": "in_range", "note": "steam, vapour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0086", "verdict": "in_range", "note": "steam, vapour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0087", "verdict": "in_range", "note": "Of bad temperament; ill-mixed equivalent.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0088", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0089", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0090", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0091", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0092", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0093", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0094", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0095", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0096", "verdict": "in_range", "note": "smoky", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0097", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0098", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0099", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0100", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0101", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0102", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0103", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0104", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0105", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0106", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0107", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0108", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0109", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0110", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0111", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0112", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0113", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0114", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0115", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0116", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0117", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0118", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0119", "verdict": "in_range", "note": "warmth, heat", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0120", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0121", "verdict": "in_range", "note": "bad temperament calque", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0122", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0123", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0124", "verdict": "in_range", "note": "smoky", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0125", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0126", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0127", "verdict": "unsure", "note": "soot not shown in visible entry; thick smoke with flame", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0128", "verdict": "in_range", "note": "soot listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0129", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0130", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0131", "verdict": "in_range", "note": "exhalation", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0132", "verdict": "in_range", "note": "exhalation listed directly", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0133", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0134", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0135", "verdict": "unsure", "note": "insensible not visible; unseen/obscure only", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0136", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0137", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0138", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0139", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0140", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0141", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0142", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0143", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0144", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0145", "verdict": "unsure", "note": "speech in entry; passage not shown", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0146", "verdict": "unsure", "note": "speech in entry; passage not shown", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0147", "verdict": "in_range", "note": "argument of disproof, refutation", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0148", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0149", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0150", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0151", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0152", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0153", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0154", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0155", "verdict": "in_range", "note": "tame, of animals", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0156", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0157", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0158", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0159", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0160", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0161", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0162", "verdict": "in_range", "note": "plant", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0163", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0164", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0165", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0166", "verdict": "in_range", "note": "living being, animal", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0167", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0168", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0169", "verdict": "in_range", "note": "very many", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0170", "verdict": "in_range", "note": "very many", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0171", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0172", "verdict": "in_range", "note": "disease", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0173", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0174", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0175", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0176", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0177", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0178", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0179", "verdict": "unsure", "note": "shown senses lack excess; truncated", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0180", "verdict": "out_of_range", "note": "Greediness/advantage; excess not given.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0181", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0182", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0183", "verdict": "in_range", "note": "biting/pungent", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0184", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0185", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0186", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0187", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0188", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0189", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0190", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0191", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0192", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0193", "verdict": "out_of_range", "note": "Entry is ἤπειρος mainland; unlimited not covered.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0194", "verdict": "out_of_range", "note": "entry is ἤπειρος land; unlimited belongs to ἄπειρος", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0195", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0196", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0197", "verdict": "out_of_range", "note": "entry is ἤπειρος land; unlimited belongs to ἄπειρος", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0198", "verdict": "out_of_range", "note": "Entry is ἤπειρος (mainland); \"unlimitedness\" not covered.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0199", "verdict": "in_range", "note": "how many", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0200", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0201", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0202", "verdict": "in_range", "note": "knowing letters", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0203", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0204", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0205", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0206", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0207", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0208", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0209", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0210", "verdict": "in_range", "note": "idiom ὡς ἔπος εἰπεῖν, so to speak", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0211", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0212", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0213", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0214", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0215", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0216", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0217", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0218", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0219", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0220", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0221", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0222", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0223", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0224", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0225", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0226", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0227", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0228", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0229", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0230", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0231", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0232", "verdict": "in_range", "note": "meet, encounter, applied to argument", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0233", "verdict": "in_range", "note": "different, unlike", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0234", "verdict": "in_range", "note": "different, unlike", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0235", "verdict": "in_range", "note": "opposite, superlative", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0236", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0237", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0238", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0239", "verdict": "in_range", "note": "colour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0240", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0241", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0242", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0243", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0244", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0245", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0246", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0247", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0248", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0249", "verdict": "unsure", "note": "dialogue title Statesman; shown text lacks statesman sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0250", "verdict": "in_range", "note": "Statesman as politikos title/statesman sense plausible", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0251", "verdict": "in_range", "note": "colour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0252", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0253", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0254", "verdict": "in_range", "note": "form, shape, figure", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0255", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0256", "verdict": "in_range", "note": "time of life, age", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0257", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0258", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0259", "verdict": "in_range", "note": "Species/kind sense of εἶδος (entry truncated).", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0260", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0261", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0262", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0263", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0264", "verdict": "in_range", "note": "ἐν κεφαλαίῳ \"in sum\"; entry truncated.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0265", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0266", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0267", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0268", "verdict": "unsure", "note": "grammar-art not visible; grammarian listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0269", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0270", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0271", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0272", "verdict": "in_range", "note": "impossible/impracticable sense; entry truncated but fits context", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0273", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0274", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0275", "verdict": "unsure", "note": "word means four; rendering is whole phrase twenty-four", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0276", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0277", "verdict": "in_range", "note": "Twenty; rendering is phrase-level four-upon-twenty, twenty-four.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0278", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0279", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0280", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0281", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0282", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0283", "verdict": "in_range", "note": "low pitch", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0284", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0285", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0286", "verdict": "in_range", "note": "transliteration of the string/forefinger note", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0287", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0288", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0289", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0290", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0291", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0292", "verdict": "in_range", "note": "Without means/helpless; impracticable plausible for things, entry truncated.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0293", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0294", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0295", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0296", "verdict": "unsure", "note": "alternation/change shown; variation not clearly covered", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0297", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0298", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0299", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0300", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0301", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0302", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0303", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0304", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0305", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0306", "verdict": "in_range", "note": "colour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0307", "verdict": "in_range", "note": "opposite, superlative", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0308", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0309", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0310", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0311", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0312", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0313", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0314", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0315", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0316", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0317", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0318", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0319", "verdict": "in_range", "note": "difference; dative of respect", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0320", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0321", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0322", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0323", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0324", "verdict": "in_range", "note": "training, education", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0325", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0326", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0327", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0328", "verdict": "in_range", "note": "grammarian", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0329", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0330", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0331", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0332", "verdict": "in_range", "note": "Capable of knowledge; scientific plausible, entry truncated.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0333", "verdict": "in_range", "note": "causing shame, reproachful", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0334", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0335", "verdict": "unsure", "note": "entry shows pastime; school sense not visible", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0336", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0337", "verdict": "in_range", "note": "sour, harsh, astringent listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0338", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0339", "verdict": "in_range", "note": "sweet to the taste", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0340", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0341", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0342", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0343", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0344", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0345", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0346", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0347", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0348", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0349", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0350", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0351", "verdict": "in_range", "note": "harsh listed directly", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0352", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0353", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0354", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0355", "verdict": "in_range", "note": "wonderful, admirable", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0356", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0357", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0358", "verdict": "in_range", "note": "some", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0359", "verdict": "in_range", "note": "sweet to the taste", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0360", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0361", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0362", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0363", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0364", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0365", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0366", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0367", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0368", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0369", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0370", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0371", "verdict": "in_range", "note": "Chymos covers juice/flavour; truncated but plausible.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0372", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0373", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0374", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0375", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0376", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0377", "verdict": "out_of_range", "note": "Entry is αἰσθητής, one who perceives; not sensible objects.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0378", "verdict": "out_of_range", "note": "Entry is a perceiver; sensibles are objects.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0379", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0380", "verdict": "in_range", "note": "in pl., the senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0381", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0382", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0383", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0384", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0385", "verdict": "unsure", "note": "entry is verb be dark in colour; dark blue adjective", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0386", "verdict": "unsure", "note": "entry is verb be dark; adjective dark blue lemma mismatch", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0387", "verdict": "in_range", "note": "colour", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0388", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0389", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0390", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0391", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0392", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0393", "verdict": "in_range", "note": "flavour listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0394", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0395", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0396", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0397", "verdict": "out_of_range", "note": "bare transliteration, not a rendering of ague", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0398", "verdict": "unsure", "note": "transliteration; entry gives ague", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0399", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0400", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0401", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0402", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0403", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0404", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0405", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0406", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0407", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0408", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0409", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0410", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0411", "verdict": "in_range", "note": "flame", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0412", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0413", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0414", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0415", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0416", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0417", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0418", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0419", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0420", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0421", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0422", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0423", "verdict": "in_range", "note": "smallness", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0424", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0425", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0426", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0427", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0428", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0429", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0430", "verdict": "in_range", "note": "diversity, varied aspect", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0431", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0432", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0433", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0434", "verdict": "in_range", "note": "quality", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0435", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0436", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0437", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0438", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0439", "verdict": "in_range", "note": "Opportune, fitting; pertinent contextual equivalent.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0440", "verdict": "unsure", "note": "vital/pertinent part not visible in shown text", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0441", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0442", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0443", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0444", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0445", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0446", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0447", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0448", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0449", "verdict": "in_range", "note": "jar; amphora as measure", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0450", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0451", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0452", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0453", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0454", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0455", "verdict": "in_range", "note": "warming", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0456", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0457", "verdict": "in_range", "note": "quality listed directly", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0458", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0459", "verdict": "in_range", "note": "ὅστισοῦν any whatsoever", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0460", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0461", "verdict": "in_range", "note": "short/small, here small quantity", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0462", "verdict": "in_range", "note": "short/small, here small quantity", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0463", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0464", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0465", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0466", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0467", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0468", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0469", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0470", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0471", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0472", "verdict": "in_range", "note": "warm, lukewarm", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0473", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0474", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0475", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0476", "verdict": "in_range", "note": "working up, of food by digestion", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0477", "verdict": "in_range", "note": "change, alter", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0478", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0479", "verdict": "in_range", "note": "nourishing; nutrition", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0480", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0481", "verdict": "in_range", "note": "growth", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0482", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0483", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0484", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0485", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0486", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0487", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0488", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0489", "verdict": "in_range", "note": "peculiar nature listed directly", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0490", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0491", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0492", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0493", "verdict": "in_range", "note": "jar; amphora", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0494", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0495", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0496", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0497", "verdict": "in_range", "note": "falsehood", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0498", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0499", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0500", "verdict": "in_range", "note": "warming, heat; warmth fits", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0501", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0502", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0503", "verdict": "in_range", "note": "falsehood, lie; false rendering of noun", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0504", "verdict": "in_range", "note": "falsehood/lie covers 'something false'", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0505", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0506", "verdict": "in_range", "note": "quality", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0507", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0508", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0509", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0510", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0511", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0512", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0513", "verdict": "in_range", "note": "force", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0514", "verdict": "in_range", "note": "bodily strength, force listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0515", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0516", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0517", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0518", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0519", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0520", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0521", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0522", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0523", "verdict": "unsure", "note": "entry is verb αὐξάνω; growth noun not shown", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0524", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0525", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0526", "verdict": "in_range", "note": "inborn, natural", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0527", "verdict": "unsure", "note": "impracticable not visible in truncated entry", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0528", "verdict": "in_range", "note": "Impossible/impracticable sense of ἀμήχανος (entry truncated).", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0529", "verdict": "in_range", "note": "written work, treatise", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0530", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0531", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0532", "verdict": "unsure", "note": "Entry is adjective βίαιος; noun force not shown.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0533", "verdict": "in_range", "note": "stretched out, extended", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0534", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0535", "verdict": "in_range", "note": "small, comparative", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0536", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0537", "verdict": "in_range", "note": "warming", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0538", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0539", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0540", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0541", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0542", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0543", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0544", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0545", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0546", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0547", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0548", "verdict": "in_range", "note": "on the sixth day", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0549", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0550", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0551", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0552", "verdict": "in_range", "note": "ὀστέον is bone", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0553", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0554", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0555", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0556", "verdict": "in_range", "note": "ligaments covered", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0557", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0558", "verdict": "in_range", "note": "embryo", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0559", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0560", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0561", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0562", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0563", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0564", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0565", "verdict": "in_range", "note": "gained besides, acquired", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0566", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0567", "verdict": "in_range", "note": "living being, animal", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0568", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0569", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0570", "verdict": "unsure", "note": "Entry gives sinew, tendon; \"nerves\" not shown.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0571", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0572", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0573", "verdict": "in_range", "note": "blood-vessel, vein", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0574", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0575", "verdict": "out_of_range", "note": "entry is comfrey plant; adjective connate not covered", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0576", "verdict": "out_of_range", "note": "Entry gives only comfrey plant; connate not covered.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0577", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0578", "verdict": "in_range", "note": "quality", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0579", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0580", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0581", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0582", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0583", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0584", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0585", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0586", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0587", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0588", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0589", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0590", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0591", "verdict": "out_of_range", "note": "Entry is dread; serous is a different word.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0592", "verdict": "out_of_range", "note": "serous not among sense of dread; lemma mismatch", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0593", "verdict": "in_range", "note": "fit, adapted, suitable; superlative matches", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0594", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0595", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0596", "verdict": "in_range", "note": "quality", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0597", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0598", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0599", "verdict": "in_range", "note": "superlative of ἀγαθός; address my excellent", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0600", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0601", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0602", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0603", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0604", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0605", "verdict": "out_of_range", "note": "entry is persuade; jar not covered", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0606", "verdict": "out_of_range", "note": "jar absent; entry is persuade", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0607", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0608", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0609", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0610", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0611", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0612", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0613", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0614", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0615", "verdict": "in_range", "note": "four", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0616", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0617", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0618", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0619", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0620", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0621", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0622", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0623", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0624", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0625", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0626", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0627", "verdict": "out_of_range", "note": "entry is verb sail; no excess sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0628", "verdict": "out_of_range", "note": "entry is sail; not more", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0629", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0630", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0631", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0632", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0633", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0634", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0635", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0636", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0637", "verdict": "in_range", "note": "bitter vetch", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0638", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0639", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0640", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0641", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0642", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0643", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0644", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0645", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0646", "verdict": "in_range", "note": "steam", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0647", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0648", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0649", "verdict": "in_range", "note": "very great/numerous", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0650", "verdict": "in_range", "note": "very great/numerous", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0651", "verdict": "unsure", "note": "testimony/proof, witness as person uncertain", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0652", "verdict": "in_range", "note": "testimony, proof listed", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0653", "verdict": "out_of_range", "note": "entry is sail; not more", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0654", "verdict": "out_of_range", "note": "Entry is verb πλέω (sail); no sense of more.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0655", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0656", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0657", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0658", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0659", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0660", "verdict": "in_range", "note": "big, comparative", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0661", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0662", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0663", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0664", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0665", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0666", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0667", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0668", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0669", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0670", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0671", "verdict": "in_range", "note": "friendly", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0672", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0673", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0674", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0675", "verdict": "in_range", "note": "steaming like roast meat, fatty", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0676", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0677", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0678", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0679", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0680", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0681", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0682", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0683", "verdict": "unsure", "note": "Contradiction/controversy; refutation is a stretch.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0684", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0685", "verdict": "in_range", "note": "covered by LSJ senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0686", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0687", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0688", "verdict": "in_range", "note": "Covered by an LSJ sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0689", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0690", "verdict": "in_range", "note": "covered by entry senses", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0691", "verdict": "out_of_range", "note": "sun-dial shadow sense does not fit element context", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0692", "verdict": "out_of_range", "note": "\"in\" is not a sense of εὐγενής", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0693", "verdict": "in_range", "note": "harm, damage", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0694", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0695", "verdict": "out_of_range", "note": "Rendering is entry text fragment, not a sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0696", "verdict": "in_range", "note": "Covered by entry sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0697", "verdict": "in_range", "note": "covered by an LSJ sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0698", "verdict": "out_of_range", "note": "English is not a rendering; noble sense unrelated", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0699", "verdict": "in_range", "note": "Matches entry gloss exactly; lemma verb vs adjective in context.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0700", "verdict": "in_range", "note": "Covered by a sense in the entry.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0701", "verdict": "out_of_range", "note": "Quality, not falsehood.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0702", "verdict": "out_of_range", "note": "Lesson/learning, not sensible objects.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0703", "verdict": "out_of_range", "note": "charges not a sense of ἐρώτησις", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0704", "verdict": "out_of_range", "note": "nerves not a sense of ἄδηλος", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0705", "verdict": "out_of_range", "note": "jar not a sense of ἐναντίος", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0706", "verdict": "out_of_range", "note": "\"schools\" is no sense of μικρός/comparative.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0707", "verdict": "out_of_range", "note": "Fever/burning heat, not pungent.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0708", "verdict": "out_of_range", "note": "Entry is only comfrey plant; no sense of quality.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0709", "verdict": "out_of_range", "note": "interrogative gloss, not an art/music sense", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
+{"item_id": "J0710", "verdict": "out_of_range", "note": "Babe/foetus; no such sense.", "model": "claude-sonnet-5-5", "backend": "claude_code_session"}
