@@ -1,39 +1,32 @@
 {
-  "upload_type": "dataset",
-  "title": "Galen Corpus Infrastructure: Census, Terminology Density Map, Phase 3 Attribution and the LSJ-Gold Lemmatizer Benchmark",
-  "version": "3.0.0",
-  "creators": [
-    {
-      "name": "Pepperman, William"
-    }
-  ],
-  "license": "cc-by-4.0",
-  "access_right": "open",
-  "description": "Reproducible infrastructure over the Galenic Greek corpus in First1KGreek. Phase 1: a structured digital-availability census (103 editions across 97 works, ~2.4M words of Greek) with CTS URNs, word counts, subject categories, and Scaife reader links. Phase 2 (new in v2.0): a config-driven terminology-density pipeline (odyCy lemmatization, log-likelihood keyness against a 19.7M-token non-Galen reference, LSJ cross-reference) producing a four-way classification of 12,538 lemmas along medical vs. non-medical Galen frequency axes and a prioritized punch list of 1,433 thin-gloss candidate terms, plus machine-bounded lemmatizer-accuracy measurements (Morpheus admissibility floor 89.5%; a 1,850-item gold standard mined from LSJ's own Galen citations, 62.3% on the rare stratum). Lemmatizer error is reported, never patched; no translation is made and no Greek word's meaning is adjudicated. Code MIT, data CC-BY-4.0. Phase 3 v0 (v3.0): the punch list re-tiered from a Dilemma headword map and a blind two-reader pass; machine-adjudicated accuracy (M5); three pre-registered MT-2026 probes with negative results reported; the fifty-author convention table; and LSJ-Gold, a benchmark of lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek (93,926 relocated loci over 54 authors, CC BY 4.0) with a standing leaderboard and the pip-installable greek-lemma-audit kit (MIT).",
-  "keywords": [
-    "Galen",
-    "Ancient Greek",
-    "terminology",
-    "digital humanities",
-    "corpus linguistics",
-    "machine translation",
-    "lemmatization",
-    "keyness",
-    "lemmatizer benchmark",
-    "LSJ",
-    "evaluation"
-  ],
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/Montblanctech/Galen",
-      "relation": "isSupplementTo",
-      "scheme": "url"
-    },
-    {
-      "identifier": "10.5281/zenodo.22162809",
-      "relation": "isDescribedBy",
-      "scheme": "doi",
-      "resource_type": "publication-preprint"
-    }
-  ]
+ "title": "Galen Corpus Infrastructure: Galen First Drafts, Census, Terminology Density Map and Lemmatizer Benchmarks",
+ "upload_type": "dataset",
+ "description": "<p>Galen Corpus Infrastructure. <b>Galen First Drafts</b>: machine first-draft English translations of thirteen works of Galen with no complete English translation known to us (257,016 words of Greek), each with two independent renderings, the Greek, and pre-registered machine checks; each work's page names the earlier partial and other-language translations. A catalogue of 678 items found in the drafts (people, lost authors and books, recipes, cases, measures), with an attestation check against Fichtner's <i>Corpus Galenicum</i> and the fragment collections. The LSJ-Gold and LS-Gold lemmatizer benchmarks and the LSJ-Gold lexicon; a digital-availability census of the Galenic Greek corpus in First1KGreek (103 editions / 97 works) and a terminology density map.</p><p>The drafts are unverified and meant for reading and correction. Site: https://montblanctech.github.io/Galen/</p>",
+ "creators": [
+  {
+   "name": "Pepperman, William"
+  }
+ ],
+ "keywords": [
+  "Galen",
+  "Galen First Drafts",
+  "Ancient Greek",
+  "machine translation",
+  "history of medicine",
+  "lemmatization",
+  "digital humanities"
+ ],
+ "license": "cc-by-4.0",
+ "related_identifiers": [
+  {
+   "identifier": "https://github.com/Montblanctech/Galen",
+   "relation": "isSupplementTo",
+   "scheme": "url"
+  },
+  {
+   "identifier": "https://montblanctech.github.io/Galen/",
+   "relation": "isDocumentedBy",
+   "scheme": "url"
+  }
+ ]
 }
