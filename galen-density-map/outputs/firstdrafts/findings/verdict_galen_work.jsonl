@@ -1,0 +1,59 @@
+{"i": 1, "work_named": "On the Composition of Drugs by Kind (first edition, books 1-2)", "verdict": "known_extant", "evidence": "Fichtner 82 De comp. med. per gen. (K XIII); loss of first edition in the 192 fire is told in Galen's own preface", "note": "Extant text is the rewritten second edition; the lost first draft is known from this same preface."}
+{"i": 2, "work_named": "On the Power of Simple Drugs, 11 books", "verdict": "known_extant", "evidence": "Fichtner 78 De simpl. med. temp. et fac. libri XI", "note": "The book count matches."}
+{"i": 3, "work_named": "On Differences of Diseases; of Symptoms; Causes of Diseases; Causes of Symptoms III; On Plethora; Differences of Fevers; Therapeutic Method", "verdict": "known_extant", "evidence": "Fichtner 42, 44, 43, 45, 53, 48, 69", "note": "All extant."}
+{"i": 4, "work_named": "Writings against those who censure people committing solecisms", "verdict": "known_lost", "evidence": "Fichtner 136 Ad eos qui voce soloecissantes reprehendunt VI; De libris propriis XVII (K XIX 47); 'Nicht erhalten'", "note": "Listed by Galen in six books."}
+{"i": 5, "work_named": "none", "verdict": "no_work", "evidence": "Autobiographical (return from Alexandria at 28)", "note": ""}
+{"i": 113, "work_named": "Anatomical Procedures", "verdict": "known_extant", "evidence": "Fichtner 11 De anatomicis administrationibus", "note": ""}
+{"i": 129, "work_named": "none", "verdict": "no_work", "evidence": "Names Galen's own phoinikine plaster (a drug), not a book", "note": "Recipe given in De comp. med. per gen. I."}
+{"i": 140, "work_named": "none", "verdict": "no_work", "evidence": "Biographical (his father's stored oil)", "note": ""}
+{"i": 164, "work_named": "none", "verdict": "no_work", "evidence": "Anonymous teacher's version of Heras' Isis plaster; no work of Galen's", "note": ""}
+{"i": 191, "work_named": "none", "verdict": "no_work", "evidence": "Practice anecdote", "note": ""}
+{"i": 206, "work_named": "none", "verdict": "no_work", "evidence": "Practice anecdote", "note": ""}
+{"i": 207, "work_named": "none", "verdict": "no_work", "evidence": "Names pharmacological books by Asclepiades and Criton, not works by Galen", "note": ""}
+{"i": 249, "work_named": "On the Elements according to Hippocrates; Causes of Symptoms", "verdict": "known_extant", "evidence": "Fichtner 8 De elementis sec. Hipp.; 45 De symptomatum causis", "note": ""}
+{"i": 252, "work_named": "Anatomical Procedures III; Anatomy of Veins and Arteries", "verdict": "known_extant", "evidence": "Fichtner 11; 13 De venarum arteriarumque dissectione", "note": ""}
+{"i": 256, "work_named": "On the Power of Simple Drugs", "verdict": "known_extant", "evidence": "Fichtner 78", "note": ""}
+{"i": 272, "work_named": "Therapeutic Method", "verdict": "known_extant", "evidence": "Fichtner 69 Methodi medendi libri XIV", "note": ""}
+{"i": 274, "work_named": "Commentaries on Hippocratic On Diseases and On Affections (promised)", "verdict": "unsure", "evidence": "Not in Fichtner (Hippocratic commentaries 90-111, 382-393 checked). Ancient Concepts of the Hippocratic (Brill 2015) calls this passage the only notice of the plan", "note": "A promise, probably never written. Scholarship already knows the passage, so it is not new."}
+{"i": 275, "work_named": "On Difficulty of Breathing", "verdict": "known_extant", "evidence": "Fichtner 59 De difficultate respirationis libri III", "note": ""}
+{"i": 276, "work_named": "Commentaries on Prognostic, On Humours, Aphorisms; On Crises", "verdict": "known_extant", "evidence": "Fichtner 109, 101, 67; Humours commentary = Fichtner 94", "note": "The Kühn XVI Humours commentary is a Renaissance forgery (Fichtner 94). The genuine one is lost but known."}
+{"i": 313, "work_named": "none", "verdict": "no_work", "evidence": "Personal anecdote", "note": ""}
+{"i": 318, "work_named": "On Simple Drugs, book IV", "verdict": "known_extant", "evidence": "Fichtner 78", "note": ""}
+{"i": 322, "work_named": "On Phlebotomy, and a second book on venesection for Empiricists and Dogmatists", "verdict": "known_extant", "evidence": "Fichtner 73 De curandi ratione per venae sectionem; 71/72 De venae sectione adv. Erasistratum / Erasistrateos Romae degentes", "note": "The second book's identification is not certain, but all candidates are extant."}
+{"i": 324, "work_named": "Commentaries examining the Methodic sect", "verdict": "known_lost", "evidence": "Fichtner 271 De methodica secta libri VI; De libris propriis X; 'Nicht erhalten'", "note": ""}
+{"i": 328, "work_named": "Single book on swellings contrary to nature", "verdict": "known_extant", "evidence": "Fichtner 57 De tumoribus praeter naturam", "note": ""}
+{"i": 371, "work_named": "On the Use of the Pulses; Causes in the Pulses; Differences of Pulses", "verdict": "known_extant", "evidence": "Fichtner 32 De usu pulsuum; 64 De causis pulsuum; 62 De pulsuum differentiis", "note": ""}
+{"i": 372, "work_named": "Commentaries On the Innate Heat", "verdict": "known_lost", "evidence": "No Fichtner entry; not in Lib. prop./Ord. lib. (Kühn XIX checked). Called a lost Galen work, citing K VII 823 (medicinetraditions.com; cf. Durling, Med.hist. J. 23, 1988)", "note": "Weakest 'known' item: this may be the only place Galen cites it, and the scholarly evidence I found is thin."}
+{"i": 373, "work_named": "On the Movement of Muscles; commentaries On Respiration", "verdict": "known_extant", "evidence": "Fichtner 19 De motu musculorum; 'On Respiration' = 20 De causis respirationis or 280 De motu thoracis et pulmonis (lost)", "note": "Both candidates for the respiration work are catalogued."}
+{"i": 374, "work_named": "On the Causes of Respiration", "verdict": "known_lost", "evidence": "Fichtner 20 De causis respirationis (K IV 465-469, survives only as a summary); Lib. prop./Ord. lib.: two books", "note": "The full work is lost. A short summary survives."}
+{"i": 375, "work_named": "On the anatomy of Hippocrates; on the plague in Thucydides", "verdict": "known_lost", "evidence": "Hipp. anatomy: Fichtner 243, Lib. prop. I. Thucydides: no Fichtner entry, but Kudlien, Episteme 5 (1971) 132-3; OSU diss. 2018 calls it 'a now lost essay'", "note": "The Thucydides work is missing from Fichtner but known to scholarship from this passage."}
+{"i": 376, "work_named": "On the Best Sect", "verdict": "known_lost", "evidence": "Lib. prop. (K XIX 44, logic list); Ord. lib. suor. (K XIX 51); De experientia medica. Fichtner lists only spurious no. 5 Ad Thrasybulum", "note": "Genuine work lost. Fichtner has no separate entry for it."}
+{"i": 377, "work_named": "Promised fourth book of On Difficulty of Breathing", "verdict": "unsure", "evidence": "Fichtner 59 lists 3 books; nothing found in Fichtner or on the web about a fourth", "note": "An unfulfilled plan, probably never written. It is printed in Kühn VII 959-960, so not a new attestation."}
+{"i": 378, "work_named": "none", "verdict": "no_work", "evidence": "Polemical anecdote", "note": ""}
+{"i": 379, "work_named": "none", "verdict": "no_work", "evidence": "Polemical anecdote", "note": ""}
+{"i": 420, "work_named": "none", "verdict": "no_work", "evidence": "Clinical/biographical", "note": ""}
+{"i": 422, "work_named": "none", "verdict": "no_work", "evidence": "Biographical (in Rome after age 30)", "note": ""}
+{"i": 424, "work_named": "none", "verdict": "no_work", "evidence": "Practice anecdote", "note": ""}
+{"i": 436, "work_named": "Commentaries on In the Surgery; treatise on hygiene", "verdict": "known_extant", "evidence": "Fichtner 111 In Hipp. de officina medici; 37 De sanitate tuenda", "note": ""}
+{"i": 460, "work_named": "Commentaries on On Fractures", "verdict": "known_extant", "evidence": "Fichtner 110 In Hipp. de fracturis comm. III", "note": ""}
+{"i": 462, "work_named": "none", "verdict": "no_work", "evidence": "Training anecdote (reading with teachers)", "note": ""}
+{"i": 467, "work_named": "On the Faculties of Foodstuffs, 3 books", "verdict": "known_extant", "evidence": "Fichtner 38 De alimentorum facultatibus libri III", "note": ""}
+{"i": 485, "work_named": "Commentaries on the Aphorisms", "verdict": "known_extant", "evidence": "Fichtner 101", "note": ""}
+{"i": 525, "work_named": "Refutation booklet handed to the sophist's followers the next day", "verdict": "unsure", "evidence": "No Fichtner title; no scholarship found on the web. Kühn XI 332-336: the quoted address ('o sophista') carries on in the extant text", "note": "Probably absorbed into extant De purg. med. fac. (Fichtner 75), not a separate lost work. Needs a specialist check."}
+{"i": 534, "work_named": "none", "verdict": "no_work", "evidence": "Practice/biographical", "note": ""}
+{"i": 539, "work_named": "On Crises, book 1", "verdict": "known_extant", "evidence": "Fichtner 67 De crisibus libri III", "note": ""}
+{"i": 540, "work_named": "On Uneven Dyskrasia; On Tumours contrary to Nature", "verdict": "known_extant", "evidence": "Fichtner 58 De inaequali intemperie; 57", "note": ""}
+{"i": 550, "work_named": "On the Differentiae of Diseases", "verdict": "known_extant", "evidence": "Fichtner 42 De differentiis morborum", "note": ""}
+{"i": 586, "work_named": "Against Those Who Wrote on Types (the host work)", "verdict": "known_extant", "evidence": "Fichtner 52 Adversus eos qui de typis scripserunt (K VII 475-512)", "note": "Item is about how the host work was composed."}
+{"i": 591, "work_named": "none", "verdict": "no_work", "evidence": "Biographical (arithmetic training)", "note": ""}
+{"i": 596, "work_named": "Against Those Who Wrote on Types (the host work)", "verdict": "known_extant", "evidence": "Fichtner 52", "note": "Item is about how the host work circulated."}
+{"i": 602, "work_named": "On the Doctrines of Hippocrates and Plato; On the Elements; On the Natural Faculties", "verdict": "known_extant", "evidence": "Fichtner 33, 8, 10; 'another treatise' = 28 Quod animi mores or 27 De substantia fac. nat.", "note": "All known."}
+{"i": 605, "work_named": "On the Natural Faculties", "verdict": "known_extant", "evidence": "Fichtner 10", "note": ""}
+{"i": 608, "work_named": "On the Movement of Muscles", "verdict": "known_extant", "evidence": "Fichtner 19", "note": ""}
+{"i": 616, "work_named": "Causes of Symptoms II; Hygiene IV; On the Power of Drugs; On Mixtures", "verdict": "known_extant", "evidence": "Fichtner 45, 37, 78, 9", "note": ""}
+{"i": 619, "work_named": "none", "verdict": "no_work", "evidence": "Biographical (Empiricist teacher)", "note": ""}
+{"i": 621, "work_named": "Planned discourse on phlebotomy", "verdict": "known_extant", "evidence": "Probably Fichtner 73 De curandi ratione per venae sectionem", "note": "A promise that the extant work fulfils."}
+{"i": 634, "work_named": "Against Lycus (the host work)", "verdict": "known_extant", "evidence": "Fichtner 103 Adversus Lycum; Lib. prop. (K XIX 37)", "note": "Lycus' Aphorisms commentaries are not Galen's work."}
+{"i": 637, "work_named": "On the Elements according to Hippocrates", "verdict": "known_extant", "evidence": "Fichtner 8", "note": ""}
+{"i": 638, "work_named": "On Mixtures", "verdict": "known_extant", "evidence": "Fichtner 9 De temperamentis libri III", "note": ""}
+{"i": 672, "work_named": "On Seed", "verdict": "known_extant", "evidence": "Fichtner 22 De semine libri II", "note": ""}

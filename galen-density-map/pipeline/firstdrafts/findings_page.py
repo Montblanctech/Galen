@@ -20,7 +20,21 @@ REPO = GDM.parent
 DOCS = REPO / "docs"
 FD = DOCS / "first-drafts"
 SRC = GDM / "outputs" / "firstdrafts" / "findings" / "findings.jsonl"
-RANK = GDM / "outputs" / "firstdrafts" / "findings" / "rank.jsonl"   # {i, s, why}: a model reader's 1-5 score for general interest
+RANK = GDM / "outputs" / "firstdrafts" / "findings" / "rank.jsonl"
+VERDICTS = [GDM / "outputs" / "firstdrafts" / "findings" / f for f in ("verdict_galen_work.jsonl", "verdict_lost_source.jsonl")]
+# 2026-11-11 attestation check of every 'lost author/work' and 'Galen's own work' item against Fichtner 2023 and the fragment
+# collections. Known only from the passage itself, per the check's evidence:
+ONLY_FROM_HERE = {372, 375}
+
+
+def attestation(i: int, v: dict) -> tuple[str, str]:
+    if not v or v.get("verdict") == "no_work":
+        return "", ""
+    if i in ONLY_FROM_HERE:
+        return "Known to scholars only from this passage", v.get("evidence", "")
+    return {"known": "Known elsewhere", "known_extant": "Known elsewhere (the work survives)", "known_lost": "Known elsewhere (the work is lost)",
+            "known_but_new_detail": "Known author; this detail may be new", "unsure": "Not found elsewhere by our check",
+            "only_here": "Not found elsewhere by our check"}.get(v.get("verdict"), ""), (v.get("evidence", "") + (" " + v["note"] if v.get("note") else "")).strip()   # {i, s, why}: a model reader's 1-5 score for general interest
 CATS = [("person", "People"), ("lost_source", "Lost authors and works"), ("galen_work", "Galen's own works and life"), ("recipe", "Recipes and remedies"),
         ("case", "Cases"), ("procedure", "Procedures"), ("place_event", "Places and events"), ("daily_life", "Daily life, trade, measures"),
         ("claim", "Claims and arguments"), ("doubt", "Doubts: where the draft or the text may be wrong")]
@@ -47,16 +61,18 @@ def main() -> None:
     cache: dict = {}
     order = {c: i for i, (c, _) in enumerate(CATS)}
     rank = {r["i"]: r for r in read_jsonl(RANK)} if RANK.exists() else {}
+    ver = {v["i"]: v for f in VERDICTS if f.exists() for v in read_jsonl(f)}
     for i, r in enumerate(items):
         r["_s"] = rank.get(i, {}).get("s", 0)
         r["_why"] = rank.get(i, {}).get("why", "")
+        r["_att"], r["_ev"] = attestation(i, ver.get(i))
     items.sort(key=lambda r: (-r["_s"], order.get(r["category"], 99), r["work"], r["unit_id"]))
     rows = []
     for r in items:
         slug = r["work"]
         href = f"../first-drafts/{slug}/{page_for(slug, r['unit_id'], cache)}#{r['unit_id']}"
         rows.append({"c": r["category"], "w": slug, "wt": WORKS[slug]["title_eng"], "t": r["title"], "s": r["summary"], "q": r["quote"], "g": r["greek"],
-                     "l": r["locus"], "h": href, "k": r["checks"], "f": r["confidence"], "n": r.get("note", ""), "r": r["_s"]})
+                     "l": r["locus"], "h": href, "k": r["checks"], "f": r["confidence"], "n": r.get("note", ""), "r": r["_s"], "a": r["_att"], "e": r["_ev"]})
     DOCS.joinpath("findings").mkdir(exist_ok=True)
     (DOCS / "findings" / "findings.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
     n_c = Counter(r["c"] for r in rows)
@@ -86,7 +102,7 @@ def main() -> None:
 <div class=kicker>Galen First Drafts</div>
 <h1>What the drafts say</h1>
 <p class=lede>{len(rows):,} items from the {len(works)} works: people, lost authors and books, Galen's own life and writings, recipes, cases, procedures, prices and measures, and the places where the draft or the Greek itself may be wrong. Each item quotes the draft and links to the passage, with the Greek beside it. The page opens on the highlights; the order, from most to least interesting to a general reader, is a model reader's judgement, not a scholar's.</p>
-<p class=warn>How this was made: model readers went through every passage of the machine drafts and noted what a researcher would want. A script then checked that every quotation is word for word in the draft and every Greek word is in that passage's Greek. Nothing else was checked. The summaries are the readers' and have not been read by a scholar, and the drafts themselves are unverified. Much of this has been read by specialists in the Greek; what is new is that it can now be read in English. Treat each item as a pointer to the passage, not as a finding to cite. <a href="{ISSUE_URL}">Report a correction</a>.</p>
+<p class=warn>How this was made: model readers went through every passage of the machine drafts and noted what a researcher would want. A script then checked that every quotation is word for word in the draft and every Greek word is in that passage's Greek. Nothing else was checked. The summaries are the readers' and have not been read by a scholar, and the drafts themselves are unverified. Much of this has been read by specialists in the Greek; what is new is that it can now be read in English. Treat each item as a pointer to the passage, not as a finding to cite. Every item about a lost author or book, or about Galen's own works, was then checked against Fichtner's catalogue of Galen's works (2023) and the standard fragment collections: none turned out to be unknown to scholarship, and each such item says what is known and where. A few are known to scholars only from the very passage shown here. <a href="{ISSUE_URL}">Report a correction</a>.</p>
 </div></header>
 <section><div class=fwrap>
 <div class=controls><select id=only><option value="5">Highlights</option><option value="">Everything, most interesting first</option></select><select id=cat><option value="">All kinds ({len(rows):,})</option>{cat_opts}</select><select id=work><option value="">All works</option>{work_opts}</select><input id=q type=search placeholder="Search: a name, a drug, a word"></div>
@@ -101,7 +117,7 @@ function show(){{
   const o=document.getElementById('only').value, c=document.getElementById('cat').value, w=document.getElementById('work').value, q=document.getElementById('q').value.trim().toLowerCase();
   const R=D.filter(r=>(!o||r.r>=+o)&&(!c||r.c===c)&&(!w||r.w===w)&&(!q||(r.t+' '+r.s+' '+r.q+' '+r.g+' '+r.n+' '+r.wt).toLowerCase().includes(q)));
   document.getElementById('count').textContent=R.length+' of '+D.length+' items';
-  document.getElementById('list').innerHTML=R.slice(0,400).map(r=>`<div class=item><div class=meta><span class=tag>${{e(L[r.c]||r.c)}}</span>${{e(r.wt)}} · <a href="${{e(r.h)}}">${{e(r.l)}}</a>${{r.k&&r.k!=='pass'?` · <span class=warnflag>passage checks: ${{e(r.k)}}</span>`:''}} · confidence ${{e(r.f)}}</div><h3>${{e(r.t)}}</h3><div>${{e(r.s)}}</div><blockquote>“${{e(r.q)}}”</blockquote><div class=gk>${{e(r.g)}}</div>${{r.n?`<div class=note>${{e(r.n)}}</div>`:''}}</div>`).join('')+(R.length>400?'<p class=small>Showing the first 400; narrow the filter to see the rest.</p>':'');
+  document.getElementById('list').innerHTML=R.slice(0,400).map(r=>`<div class=item><div class=meta><span class=tag>${{e(L[r.c]||r.c)}}</span>${{e(r.wt)}} · <a href="${{e(r.h)}}">${{e(r.l)}}</a>${{r.k&&r.k!=='pass'?` · <span class=warnflag>passage checks: ${{e(r.k)}}</span>`:''}} · confidence ${{e(r.f)}}</div><h3>${{e(r.t)}}</h3><div>${{e(r.s)}}</div><blockquote>“${{e(r.q)}}”</blockquote><div class=gk>${{e(r.g)}}</div>${{r.n?`<div class=note>${{e(r.n)}}</div>`:''}}${{r.a?`<div class=note><b>${{e(r.a)}}.</b> ${{e(r.e)}}</div>`:''}}</div>`).join('')+(R.length>400?'<p class=small>Showing the first 400; narrow the filter to see the rest.</p>':'');
 }}
 fetch('findings.json').then(r=>r.json()).then(d=>{{D=d;show();}});
 ['only','cat','work','q'].forEach(id=>document.getElementById(id).addEventListener('input',show));
