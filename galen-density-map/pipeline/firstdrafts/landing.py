@@ -143,6 +143,50 @@ def cards(prefix: str) -> str:
     return "<div class=grid>" + "".join(out) + "</div>"
 
 
+def highlights(n: int = 6) -> str:
+    """Front-page section from docs/findings/findings.json (findings_page.py; already sorted, most interesting first)."""
+    import json as _json
+    f = DOCS / "findings" / "findings.json"
+    if not f.exists():
+        return ""
+    rows = _json.loads(f.read_text(encoding="utf-8"))
+    top = [r for r in rows if r.get("r", 0) >= 5][:n]
+    if not top:
+        return ""
+    cards_ = "".join(f'<a class=card href="{esc(r["h"][3:] if r["h"].startswith("../") else r["h"])}"><h3>{esc(r["t"])}</h3><div class=lat>{esc(r["wt"])} · {esc(r["l"])}</div>'
+                     f'<blockquote>{esc(r["s"])}</blockquote><div class=meta><span>{esc(r["c"]).replace("_", " ")}</span><span class=go>Read the passage →</span></div></a>'
+                     for r in top)
+    return (f"""<section><div class=wrap>
+<div class=kicker>Inside the drafts</div>
+<h2>What the drafts say</h2>
+<p class=intro>{len(rows):,} items catalogued from the thirteen works: people, lost books, recipes, cases, prices and measures, each linked to its passage. A few of the most striking are below. They were found by model readers in unverified drafts, so treat each as a pointer to the passage, not a finding to cite.</p>
+<div class=grid>{cards_}</div>
+<div class=btns style="margin-top:1.4rem"><a class="btn primary" href="findings/">All {len(rows):,} items</a></div>
+</div></section>
+""")
+
+
+# Cloudflare Web Analytics (cookieless, no personal data; site montblanctech.github.io registered 2026-11-11). The token is the
+# public site tag that every visitor's browser sees; it is not a secret.
+BEACON = ("<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' "
+          "data-cf-beacon='{\"token\": \"f9fe8afc1b6944d1b3d77d259e01d445\"}'></script><!-- End Cloudflare Web Analytics -->")
+
+
+def add_beacon() -> int:
+    """Put the counter into every public HTML page under docs/ (idempotent; lab-only folders and the verification file skipped)."""
+    n = 0
+    for f in DOCS.rglob("*.html"):
+        rel = f.relative_to(DOCS).as_posix()
+        if rel.split("/")[0] in NOT_PUBLIC or rel.startswith("google"):
+            continue
+        t = f.read_text(encoding="utf-8")
+        if "cloudflareinsights.com/beacon" in t or "</head>" not in t:
+            continue
+        f.write_text(t.replace("</head>", BEACON + "</head>", 1), encoding="utf-8")
+        n += 1
+    return n
+
+
 def main() -> None:
     (DOCS / "site.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     slugs = [s for s, _, _ in QUOTES]
@@ -171,7 +215,7 @@ def main() -> None:
 <p class=warn>These are machine first drafts. No scholar has checked them yet; they are for reading and for correcting, not for quoting as Galen's words. Every page keeps the Greek, a second translation and the checks one click away, under <em>Scholar view</em>.</p>
 </div></section>
 
-<section><div class=wrap><div class=gap>
+{highlights()}<section><div class=wrap><div class=gap>
 <div><div class=kicker>Why nobody had done it</div>
 <h2>Galen's words fall through the dictionary</h2>
 <p>Galen wrote in a specialist Greek full of drug names, anatomy and rare technical words. The standard Greek–English dictionary (LSJ) covers many of those words thinly or not at all. That gap makes him hard to translate, for people and for machines: earlier research found that the rarer a passage's terminology, the worse machine translation of Galen does.</p>
@@ -204,7 +248,7 @@ def main() -> None:
 </ul>
 </div></section>
 
-<footer><div class=wrap>Galen First Drafts by William Pepperman, Galen Density Project. Every number on these pages traces to a file in <code>galen-density-map/</code>. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Audit kit: <code>pip install greek-lemma-audit</code>. Cite the concept DOI <a href="https://doi.org/10.5281/zenodo.21561962">10.5281/zenodo.21561962</a> (v3.0: <a href="https://doi.org/10.5281/zenodo.24046260">10.5281/zenodo.24046260</a>).</div></footer>
+<footer><div class=wrap>Galen First Drafts by William Pepperman, Galen Density Project. Every number on these pages traces to a file in <code>galen-density-map/</code>. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Audit kit: <code>pip install greek-lemma-audit</code>. Cite the concept DOI <a href="https://doi.org/10.5281/zenodo.21561962">10.5281/zenodo.21561962</a> (v3.0: <a href="https://doi.org/10.5281/zenodo.24046260">10.5281/zenodo.24046260</a>). Visits are counted with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</div></footer>
 </body></html>
 """
     (DOCS / "index.html").write_text(page, encoding="utf-8")
@@ -236,6 +280,7 @@ def main() -> None:
     (FD / "index.html").write_text(idx, encoding="utf-8")
     print("front page and drafts index written;", total_words, "Greek words;", {"thin": thin, "none": none_, "artifact": art, "total": total})
     sitemap()
+    print("analytics beacon added to", add_beacon(), "pages")
 
 
 SITE = "https://montblanctech.github.io/Galen/"
