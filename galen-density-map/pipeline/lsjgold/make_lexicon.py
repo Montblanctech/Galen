@@ -1,4 +1,7 @@
-"""LSJ-Gold lexicon 0.1: a form -> lemma list derived from LSJ-Gold 0.1, for lemmatizer dictionaries.
+"""LSJ-Gold lexicon: a form -> lemma list derived from LSJ-Gold, for lemmatizer dictionaries.
+
+0.1 (2026-11-10) was built from LSJ-Gold 0.1; 0.1.1 (2026-11-11) from LSJ-Gold 0.1.1, same rules. The held-out salt below
+stays "lsjgold-lexicon-0.1:" in every version, so a headword held out in one version is held out in all.
 
 Asked for on stanfordnlp/stanza#1732 (2026-11-10). Every row is a surface form that LSJ cites for a headword and
 that LSJ-Gold relocated into a real edition. Nothing is model-written and nothing is inferred: rows are counted,

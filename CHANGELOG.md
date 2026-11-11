@@ -3,10 +3,14 @@
 All notable changes to this project. Format loosely follows Keep a Changelog; versions are
 dated on release and each gets a Zenodo DOI.
 
-## [Unreleased] — 2026-11-09
+## [3.1.1] — 2026-11-11
 
 ### Fixed
 - **LSJ-Gold 0.1.1** (`release/lsj-gold-0.1.1/`, `pipeline/lsjgold/erratum_0_1_1.py`): 0.1 counted a locus as validated by LSJ's quoted form when its token matched any word of a quoted phrase, so some golds were a neighbouring word (Iliad 9:130 καὶ gold κάμνω). 0.1.1 keeps a quoted locus only when LSJ quotes that single word, and never on a quoted prefix such as "προσ-" (2 loci): 71,974 of 93,926 loci, rows unedited, the 21,952 dropped listed beside them. All five systems rescored on the same outputs (`score.py --from-scored`, which reproduces 0.1 exactly on the 0.1 gold): Stoicheia 92.3, Dilemma 92.3, Stanza-Perseus 84.3, odyCy 82.0, Stanza-PROIEL 79.1. Leaderboard, failure catalogues and medical gap regenerated; audit kit 0.3.1 ships the 0.1.1 gold. 0.1 stays citable at doi:10.5281/zenodo.24046260.
+- **LSJ-Gold lexicon 0.1.1** (`release/lsj-gold-lexicon-0.1.1/`): the form → lemma list rebuilt from LSJ-Gold 0.1.1 with 0.1's rules and held-out hash. 29,858 pairs over 10,325 headwords (0.1: 45,886): the 16,397 pairs that rested only on a phrase match leave the lexicon and are kept, flagged, in `phrase_only_pairs.tsv` with Dilemma 1.3.15's lemma beside each (it agrees on 14,428); 369 forms that a phrase match had made ambiguous now resolve (περὶ → περί). 0.1 stays as it was.
+- `pipeline/firstdrafts/api_backend.py`: the key file is read from `ANTHROPIC_KEY_FILE` (default `~/.anthropic/key`); no local path in the code.
+
+## [3.1.0] — 2026-11-11
 
 ### Changed
 - **What the drafts say: a findings catalogue** (`docs/findings/`, `galen-density-map/outputs/firstdrafts/findings/`, `pipeline/firstdrafts/findings_check.py`, `findings_page.py`): 678 items (people, lost authors and works, Galen's own works and life, recipes, cases, procedures, places and events, daily life and measures, claims, and doubts about the draft or the Greek) found by six model readers in the thirteen drafts. Every quotation was checked verbatim against the draft and every Greek word against the passage; summaries are not checked by a scholar, and the page says so. Ordered by a model reader's 1–5 judgement of general interest (`rank.jsonl`); the page opens on the 28 highlights and the front page shows six of them. Visits to the site are now counted with Cloudflare Web Analytics (no cookies, no personal data), noted in the footer.
