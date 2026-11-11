@@ -87,8 +87,8 @@ treebanks); on **1,850** gold loci mined from LSJ's own Galen citations, odyCy m
 lexicographer's headword **62.3%** accent-blind — a rare-stratum accuracy that independently
 confirms the rarity→failure pattern. Error is **reported, never patched**. v3.0 adds a fourth bound, **M5**, two blind model readers on the salted
 human protocol (83.3% / 81.7%, κ 0.94), and widens the gold to **LSJ-Gold** across 54 authors, where
-the lexicon-first Dilemma reaches 90.1%, Stanza-Perseus 79.6%, odyCy 75.7% (62.2% on Hippocrates), Stanza-PROIEL 72.0% (0.1; corrected in LSJ-Gold 0.1.1, above); 71% of their disagreement
-with each other is the article convention (`outputs/t1/`).
+(in 0.1.1) the lexicon-first Dilemma and the 2026 Stoicheia tagger are level at 92.3%, followed by Stanza-Perseus 84.3%, odyCy 82.0% (62.7% on Hippocrates) and Stanza-PROIEL 79.1%. Across 50 First1K
+authors, 71% of odyCy–Dilemma disagreement is the article convention (`outputs/t1/`).
 
 ## Reproducibility
 
