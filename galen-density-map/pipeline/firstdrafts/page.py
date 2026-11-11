@@ -84,6 +84,15 @@ def main() -> None:
     out = out_dir(slug)
     units = read_jsonl(out / "units.jsonl")
     rend = {t: {r["unit_id"]: r for r in read_jsonl(out / f"renderings_{s}.jsonl")} for t, s in RENDERINGS.items()}
+    # A Kühn page marker whose number the TEI lacks comes out as "[None]" (in-hipp-salubri K15.178); it marks nothing,
+    # so it is dropped from the Greek and the renderings on the page (2026-11-11). The unit files are unchanged.
+    for u in units:
+        u["greek"] = u["greek"].replace("[None] ", "").replace("[None]", "")
+    for t in rend:
+        for r in rend[t].values():
+            resp = r.get("response") or {}
+            if isinstance(resp.get("translation"), str):
+                resp["translation"] = resp["translation"].replace("[None] ", "").replace("[None]", "")
     tt = list(csv.DictReader((out / "term_table.csv").open(encoding="utf-8")))
     checks = json.loads((out / "checks.json").read_text(encoding="utf-8")) if (out / "checks.json").exists() else {"units": {}, "summary": {}}
     meta = json.loads((out / "units_meta.json").read_text(encoding="utf-8"))
@@ -150,7 +159,7 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 <div class=modebar><button type=button data-v=read>Read</button><button type=button data-v=scholar>Scholar view</button><span>Read shows one English rendering. Scholar view adds the Greek, the second rendering, the term marks and the checks.</span></div>
 <script>(function(){{var bs=document.querySelectorAll('.modebar button');function set(v){{document.body.className=v;bs.forEach(function(b){{b.setAttribute('aria-pressed',b.dataset.v===v)}});try{{localStorage.setItem('gfd-view',v)}}catch(e){{}}}}bs.forEach(function(b){{b.onclick=function(){{set(b.dataset.v)}}}});set(document.body.className==='scholar'?'scholar':'read')}})()</script>
 <header class=rhead><div class=kicker>Galen · machine first draft</div><h1 class=rt>{esc(w['title_eng'])}</h1><div class=lat>{esc(w['title_lat'])} · Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</div>
-<p class=note>{esc(w.get('claim', 'The first complete English translation we know of.'))} {esc(w.get('prior_translations', ''))} This is rendering A, made by a language model and not yet checked by a scholar. The small grey numbers are the pages of Kühn's Greek edition. Passages with a red rule failed the machine checks.</p></header>
+<p class=note>{esc(w.get('claim', 'The first complete English translation we know of.'))} {esc(w.get('prior_translations', ''))} This is rendering A, made by a language model and not yet checked by a scholar. The small grey numbers are the pages of Kühn's Greek edition. Passages with a red rule failed the machine checks; those checks are automated agreement tests, not a reading of the Greek, so a passage without the rule is not checked either. Words in square brackets were supplied by the model for the sense; Greek in parentheses gives the original word; any remark about a doubtful or corrupt reading is the model's, not a scholar's.</p></header>
 <h1 class=st>Galen, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</h1>
 <p class="small meth">Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/master/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
 """)

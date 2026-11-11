@@ -49,6 +49,8 @@ WORKS = {
     },
     # cycle 3 (firstdrafts_v02_cycle3_note.md): the eight remaining works with translation_status = none in phase1/galen_ogl_census.csv
     "hirudinibus": {
+        "authorship": "Transmitted among Galen's works; probably a late-antique compilation (Ecca 2021).",
+        "claim": "Transmitted among Galen's works; G. Ecca (2021) treats it as pseudo-Galenic, a late-antique compilation of four pieces with parallels in Oribasius. The first complete English translation we know of.",
         "prior_translations": 'No earlier English translation found. Italian: G. Ecca 2021 (complete). French: Bussemaker and Daremberg 1854, for the passages of Oribasius it is compiled from.',
         "tlg": "tlg071",
         "urn": "urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1",

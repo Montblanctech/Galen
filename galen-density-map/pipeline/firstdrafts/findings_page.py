@@ -24,14 +24,37 @@ RANK = GDM / "outputs" / "firstdrafts" / "findings" / "rank.jsonl"
 VERDICTS = [GDM / "outputs" / "firstdrafts" / "findings" / f for f in ("verdict_galen_work.jsonl", "verdict_lost_source.jsonl")]
 # 2026-11-11 attestation check of every 'lost author/work' and 'Galen's own work' item against Fichtner 2023 and the fragment
 # collections. Known only from the passage itself, per the check's evidence:
-ONLY_FROM_HERE = {372, 375}
+ONLY_FROM_HERE = {372}   # 375 removed 2026-11-11: one of its two works is in Galen's own list (Fichtner 243)
+
+# Corrections after a reading of a random sample against the Greek (2026-11-11; record in
+# firstdrafts_sample_read_2026-11-11.md). Keyed by the item's index in findings.jsonl; each corrected item says so.
+CORRECTIONS = {
+    64: {"summary": "Many who operate on hernias apply the phoinikine plaster immediately after the operation, carrying on the "
+                    "treatment with affusions and poultices alongside it."},
+    121: {"summary": "In Heras's plaster for fractured limbs the draft gives scraped verdigris as 16 (ιστ΄) minae, against 1 mina of "
+                     "litharge and pitch, which is impossible as a weight; the Greek probably means a sixteenth of a mina. The boiling "
+                     "instruction also has a doubled 'until (ἕως ἕως)'.",
+          "note": "The Greek has ἰοῦ ξυστοῦ μνᾶς ιστ΄. Read as a numeral that is 16 minae; read as a fraction it is a sixteenth of a "
+                  "mina, and the next ingredient is written out as μνᾶς ἑκκαιδέκατον ('a sixteenth of a mina'). If so, the draft, not "
+                  "the Greek, is wrong here."},
+    647: {"category": "claim"},
+    449: {"summary": "Galen injured his own shoulder in the wrestling school in his thirty-fifth year: the collarbone was pulled away, "
+                    "and he bore tight bandaging for forty days until it was drawn back to the head of the arm-bone, so that people "
+                    "who see it now doubt it was ever torn. He could not cure any other grown man the same way, because none could "
+                    "bear the bandaging."},
+    525: {"note": "The quoted address carries on in the extant text (Kühn XI 332-336), so this is probably part of On the Power of "
+                  "Purgative Drugs itself, not a separate lost pamphlet.",
+          "attestation": "Probably part of the extant work"},
+    375: {"note": "Outside knowledge: both works are lost. The work on Hippocratic anatomy is in Galen's own list of his books "
+                  "(Fichtner 243); the essay on the plague in Thucydides seems to be known only from this passage."},
+}
 
 
 def attestation(i: int, v: dict) -> tuple[str, str]:
     if not v or v.get("verdict") == "no_work":
         return "", ""
     if i in ONLY_FROM_HERE:
-        return "Known to scholars only from this passage", v.get("evidence", "")
+        return "Apparently known only from this passage (our check)", v.get("evidence", "")
     return {"known": "Known elsewhere", "known_extant": "Known elsewhere (the work survives)", "known_lost": "Known elsewhere (the work is lost)",
             "known_but_new_detail": "Known author; this detail may be new", "unsure": "Not found elsewhere by our check",
             "only_here": "Not found elsewhere by our check"}.get(v.get("verdict"), ""), (v.get("evidence", "") + (" " + v["note"] if v.get("note") else "")).strip()   # {i, s, why}: a model reader's 1-5 score for general interest
@@ -66,13 +89,20 @@ def main() -> None:
         r["_s"] = rank.get(i, {}).get("s", 0)
         r["_why"] = rank.get(i, {}).get("why", "")
         r["_att"], r["_ev"] = attestation(i, ver.get(i))
+        cx = CORRECTIONS.get(i, {})
+        r["summary"] = cx.get("summary", r["summary"])
+        r["note"] = cx.get("note", r.get("note", ""))
+        r["category"] = cx.get("category", r["category"])
+        if "attestation" in cx:
+            r["_att"] = cx["attestation"]
+        r["_fix"] = "Corrected 2026-11-11 after a reading against the Greek." if cx else ""
     items.sort(key=lambda r: (-r["_s"], order.get(r["category"], 99), r["work"], r["unit_id"]))
     rows = []
     for r in items:
         slug = r["work"]
         href = f"../first-drafts/{slug}/{page_for(slug, r['unit_id'], cache)}#{r['unit_id']}"
         rows.append({"c": r["category"], "w": slug, "wt": WORKS[slug]["title_eng"], "t": r["title"], "s": r["summary"], "q": r["quote"], "g": r["greek"],
-                     "l": r["locus"], "h": href, "k": r["checks"], "f": r["confidence"], "n": r.get("note", ""), "r": r["_s"], "a": r["_att"], "e": r["_ev"]})
+                     "l": r["locus"], "h": href, "k": r["checks"], "f": r["confidence"], "n": r.get("note", ""), "r": r["_s"], "a": r["_att"], "e": r["_ev"], "x": r["_fix"]})
     DOCS.joinpath("findings").mkdir(exist_ok=True)
     (DOCS / "findings" / "findings.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
     n_c = Counter(r["c"] for r in rows)
@@ -102,7 +132,7 @@ def main() -> None:
 <div class=kicker>Galen First Drafts</div>
 <h1>What the drafts say</h1>
 <p class=lede>{len(rows):,} items from the {len(works)} works: people, lost authors and books, Galen's own life and writings, recipes, cases, procedures, prices and measures, and the places where the draft or the Greek itself may be wrong. Each item quotes the draft and links to the passage, with the Greek beside it. The page opens on the highlights; the order, from most to least interesting to a general reader, is a model reader's judgement, not a scholar's.</p>
-<p class=warn>How this was made: model readers went through every passage of the machine drafts and noted what a researcher would want. A script then checked that every quotation is word for word in the draft and every Greek word is in that passage's Greek. Nothing else was checked. The summaries are the readers' and have not been read by a scholar, and the drafts themselves are unverified. Much of this has been read by specialists in the Greek; what is new is that it can now be read in English. Treat each item as a pointer to the passage, not as a finding to cite. Every item about a lost author or book, or about Galen's own works, was then checked against Fichtner's catalogue of Galen's works (2023) and the standard fragment collections: none turned out to be unknown to scholarship, and each such item says what is known and where. A few are known to scholars only from the very passage shown here. <a href="{ISSUE_URL}">Report a correction</a>.</p>
+<p class=warn>How this was made: model readers went through every passage of the machine drafts and noted what a researcher would want. A script then checked that every quotation is word for word in the draft and every Greek word is in that passage's Greek. Nothing else was checked. The summaries are the readers' and have not been read by a scholar, and the drafts themselves are unverified. Much of this has been read by specialists in the Greek; what is new is that it can now be read in English. Treat each item as a pointer to the passage, not as a finding to cite. Every item about a lost author or book, or about Galen's own works, was then checked by model researchers (not a specialist) against Fichtner's catalogue of Galen's works (2023), the standard fragment collections and the web: none was shown to be unknown to scholarship, a few could not be placed, and each such item says what was found and where. One, Galen's lost <em>On the Innate Heat</em>, seems to be known only from the passage shown here. A reading of 40 items chosen at random against the Greek (2026-11-11) found one summary that misstated the passage; it and the other problems that reading found are corrected and marked. <a href="{ISSUE_URL}">Report a correction</a>.</p>
 </div></header>
 <section><div class=fwrap>
 <div class=controls><select id=only><option value="5">Highlights</option><option value="">Everything, most interesting first</option></select><select id=cat><option value="">All kinds ({len(rows):,})</option>{cat_opts}</select><select id=work><option value="">All works</option>{work_opts}</select><input id=q type=search placeholder="Search: a name, a drug, a word"></div>
@@ -117,7 +147,7 @@ function show(){{
   const o=document.getElementById('only').value, c=document.getElementById('cat').value, w=document.getElementById('work').value, q=document.getElementById('q').value.trim().toLowerCase();
   const R=D.filter(r=>(!o||r.r>=+o)&&(!c||r.c===c)&&(!w||r.w===w)&&(!q||(r.t+' '+r.s+' '+r.q+' '+r.g+' '+r.n+' '+r.wt).toLowerCase().includes(q)));
   document.getElementById('count').textContent=R.length+' of '+D.length+' items';
-  document.getElementById('list').innerHTML=R.slice(0,400).map(r=>`<div class=item><div class=meta><span class=tag>${{e(L[r.c]||r.c)}}</span>${{e(r.wt)}} · <a href="${{e(r.h)}}">${{e(r.l)}}</a>${{r.k&&r.k!=='pass'?` · <span class=warnflag>passage checks: ${{e(r.k)}}</span>`:''}} · confidence ${{e(r.f)}}</div><h3>${{e(r.t)}}</h3><div>${{e(r.s)}}</div><blockquote>“${{e(r.q)}}”</blockquote><div class=gk>${{e(r.g)}}</div>${{r.n?`<div class=note>${{e(r.n)}}</div>`:''}}${{r.a?`<div class=note><b>${{e(r.a)}}.</b> ${{e(r.e)}}</div>`:''}}</div>`).join('')+(R.length>400?'<p class=small>Showing the first 400; narrow the filter to see the rest.</p>':'');
+  document.getElementById('list').innerHTML=R.slice(0,400).map(r=>`<div class=item><div class=meta><span class=tag>${{e(L[r.c]||r.c)}}</span>${{e(r.wt)}} · <a href="${{e(r.h)}}">${{e(r.l)}}</a>${{r.k&&r.k!=='pass'?` · <span class=warnflag>passage checks: ${{e(r.k)}}</span>`:''}} · reader's confidence ${{e(r.f)}}${{r.x?` · <span class=warnflag>${{e(r.x)}}</span>`:''}}</div><h3>${{e(r.t)}}</h3><div>${{e(r.s)}}</div><blockquote>“${{e(r.q)}}”</blockquote><div class=gk>${{e(r.g)}}</div>${{r.n?`<div class=note>${{e(r.n)}}</div>`:''}}${{r.a?`<div class=note><b>${{e(r.a)}}.</b> ${{e(r.e)}}</div>`:''}}</div>`).join('')+(R.length>400?'<p class=small>Showing the first 400; narrow the filter to see the rest.</p>':'');
 }}
 fetch('findings.json').then(r=>r.json()).then(d=>{{D=d;show();}});
 ['only','cat','work','q'].forEach(id=>document.getElementById(id).addEventListener('input',show));
