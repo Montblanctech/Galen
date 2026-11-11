@@ -250,11 +250,11 @@
    },
    "c": {
     "n": 10,
-    "in_range": 8,
-    "out_of_range": 1,
-    "unsure": 1,
+    "in_range": 10,
+    "out_of_range": 0,
+    "unsure": 0,
     "missing": 0,
-    "share_in_range": 0.8,
+    "share_in_range": 1.0,
     "verdict": "pass"
    },
    "d": null,
@@ -291,11 +291,11 @@
    },
    "c": {
     "n": 14,
-    "in_range": 11,
+    "in_range": 10,
     "out_of_range": 3,
-    "unsure": 0,
+    "unsure": 1,
     "missing": 0,
-    "share_in_range": 0.786,
+    "share_in_range": 0.714,
     "verdict": "fail"
    },
    "d": null,
@@ -332,11 +332,11 @@
    },
    "c": {
     "n": 16,
-    "in_range": 12,
+    "in_range": 13,
     "out_of_range": 3,
-    "unsure": 1,
+    "unsure": 0,
     "missing": 0,
-    "share_in_range": 0.75,
+    "share_in_range": 0.812,
     "verdict": "fail"
    },
    "d": null,
@@ -414,11 +414,11 @@
    },
    "c": {
     "n": 16,
-    "in_range": 14,
+    "in_range": 16,
     "out_of_range": 0,
-    "unsure": 2,
+    "unsure": 0,
     "missing": 0,
-    "share_in_range": 0.875,
+    "share_in_range": 1.0,
     "verdict": "pass"
    },
    "d": null,
@@ -537,12 +537,12 @@
    },
    "c": {
     "n": 16,
-    "in_range": 12,
-    "out_of_range": 3,
+    "in_range": 13,
+    "out_of_range": 2,
     "unsure": 1,
     "missing": 0,
-    "share_in_range": 0.75,
-    "verdict": "fail"
+    "share_in_range": 0.812,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -824,11 +824,11 @@
    },
    "c": {
     "n": 16,
-    "in_range": 14,
+    "in_range": 15,
     "out_of_range": 0,
-    "unsure": 2,
+    "unsure": 1,
     "missing": 0,
-    "share_in_range": 0.875,
+    "share_in_range": 0.938,
     "verdict": "pass"
    },
    "d": null,
@@ -984,13 +984,13 @@
    ]
   },
   "c": {
-   "pass": 20,
-   "fail": 3,
+   "pass": 21,
+   "fail": 2,
    "n_a_or_not_run": 0,
-   "pass_pct": 87.0,
+   "pass_pct": 91.3,
    "wilson95": [
-    67.87,
-    95.46
+    73.2,
+    97.58
    ]
   },
   "b_term_level": {
@@ -1041,14 +1041,14 @@
   "c_exploratory_not_preregistered": null,
   "c_item_level": {
    "A": {
-    "in_range": 145,
-    "out_of_range": 9,
-    "unsure": 5
+    "in_range": 149,
+    "out_of_range": 8,
+    "unsure": 2
    },
    "B": {
-    "in_range": 148,
-    "out_of_range": 9,
-    "unsure": 2
+    "in_range": 150,
+    "out_of_range": 8,
+    "unsure": 1
    }
   },
   "d_reference_agreement": null,

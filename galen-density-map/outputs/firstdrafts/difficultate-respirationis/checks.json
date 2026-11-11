@@ -44,20 +44,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 7,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 7,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.753-754": {
    "locus": "K. VII 753–754",
@@ -89,17 +85,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -134,17 +126,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -179,17 +167,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -224,20 +208,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.757-758": {
    "locus": "K. VII 757–758",
@@ -269,17 +249,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -314,20 +290,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.759-760": {
    "locus": "K. VII 759–760",
@@ -359,20 +331,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.760-761": {
    "locus": "K. VII 760–761",
@@ -404,17 +372,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -449,17 +413,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -494,17 +454,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 12,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -539,20 +495,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.764-765": {
    "locus": "K. VII 764–765",
@@ -584,17 +536,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 10,
-    "exploratory_not_preregistered": {
-     "n": 10,
-     "in_range": 9,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.9,
-     "verdict": "pass"
-    }
+    "in_range": 10,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -629,17 +577,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -674,17 +618,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -719,17 +659,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -764,17 +700,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -809,17 +741,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -854,17 +782,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -899,20 +823,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.773": {
    "locus": "K. VII 773",
@@ -944,20 +864,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.773-774": {
    "locus": "K. VII 773–774",
@@ -989,17 +905,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1034,20 +946,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.775-776": {
    "locus": "K. VII 775–776",
@@ -1079,17 +987,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1124,17 +1028,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 12,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -1169,20 +1069,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.778-779": {
    "locus": "K. VII 778–779",
@@ -1214,20 +1110,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.779-780": {
    "locus": "K. VII 779–780",
@@ -1259,17 +1151,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1304,20 +1192,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.781-782": {
    "locus": "K. VII 781–782",
@@ -1349,17 +1233,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1394,17 +1274,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1439,17 +1315,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1484,17 +1356,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1529,17 +1397,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1574,17 +1438,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1619,17 +1479,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1664,20 +1520,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 10,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.833,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.789-790": {
    "locus": "K. VII 789–790",
@@ -1709,20 +1561,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 10,
-    "exploratory_not_preregistered": {
-     "n": 10,
-     "in_range": 10,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 10,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.790-791": {
    "locus": "K. VII 790–791",
@@ -1754,17 +1602,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -1799,20 +1643,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.792-793": {
    "locus": "K. VII 792–793",
@@ -1844,17 +1684,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1889,17 +1725,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1934,17 +1766,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -1979,17 +1807,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2024,17 +1848,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2069,20 +1889,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.798-799": {
    "locus": "K. VII 798–799",
@@ -2114,17 +1930,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2159,20 +1971,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 2,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.800-801": {
    "locus": "K. VII 800–801",
@@ -2204,20 +2012,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.802": {
    "locus": "K. VII 802",
@@ -2249,17 +2053,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2294,17 +2094,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2339,17 +2135,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2384,20 +2176,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 3,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "fail"
-    }
+    "in_range": 13,
+    "out_of_range": 3,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.805-806": {
    "locus": "K. VII 805–806",
@@ -2429,20 +2217,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.806-807": {
    "locus": "K. VII 806–807",
@@ -2474,20 +2258,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.807-808": {
    "locus": "K. VII 807–808",
@@ -2519,17 +2299,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -2564,20 +2340,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.809-810": {
    "locus": "K. VII 809–810",
@@ -2609,17 +2381,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2654,17 +2422,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2699,17 +2463,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2744,17 +2504,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2789,17 +2545,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -2834,20 +2586,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.815-816": {
    "locus": "K. VII 815–816",
@@ -2879,20 +2627,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.816-817": {
    "locus": "K. VII 816–817",
@@ -2924,20 +2668,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 12,
-     "out_of_range": 2,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.75,
-     "verdict": "fail"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.817-818": {
    "locus": "K. VII 817–818",
@@ -2969,20 +2709,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.819": {
    "locus": "K. VII 819",
@@ -3014,17 +2750,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3059,17 +2791,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 2,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3104,20 +2832,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.822": {
    "locus": "K. VII 822",
@@ -3149,17 +2873,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 12,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.857,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3194,20 +2914,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.823-824": {
    "locus": "K. VII 823–824",
@@ -3239,20 +2955,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 2,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 3,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.825": {
    "locus": "K. VII 825",
@@ -3284,20 +2996,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 4,
-    "exploratory_not_preregistered": {
-     "n": 4,
-     "in_range": 4,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 4,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.825-826": {
    "locus": "K. VII 825–826",
@@ -3329,17 +3037,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 2,
-    "exploratory_not_preregistered": {
-     "n": 2,
-     "in_range": 2,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 2,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3374,20 +3078,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.827-828": {
    "locus": "K. VII 827–828",
@@ -3419,17 +3119,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 12,
-     "out_of_range": 0,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.857,
-     "verdict": "pass"
-    }
+    "in_range": 11,
+    "out_of_range": 2,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.786,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -3464,20 +3160,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.829-830": {
    "locus": "K. VII 829–830",
@@ -3509,20 +3201,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 3,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "fail"
-    }
+    "in_range": 13,
+    "out_of_range": 3,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.830-831": {
    "locus": "K. VII 830–831",
@@ -3554,17 +3242,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3599,17 +3283,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 11,
-     "out_of_range": 1,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.786,
-     "verdict": "fail"
-    }
+    "in_range": 10,
+    "out_of_range": 3,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.714,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -3644,17 +3324,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3689,20 +3365,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 7,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.834-835": {
    "locus": "K. VII 834–835",
@@ -3734,20 +3406,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 10,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.833,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 3,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.667,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.835-836": {
    "locus": "K. VII 835–836",
@@ -3779,17 +3447,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 11,
-     "out_of_range": 1,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.786,
-     "verdict": "fail"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3824,20 +3488,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 10,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.833,
-     "verdict": "pass"
-    }
+    "in_range": 10,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.833,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.837-838": {
    "locus": "K. VII 837–838",
@@ -3869,20 +3529,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 10,
-    "exploratory_not_preregistered": {
-     "n": 10,
-     "in_range": 8,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.8,
-     "verdict": "pass"
-    }
+    "in_range": 10,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.838-839": {
    "locus": "K. VII 838–839",
@@ -3914,17 +3570,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -3959,20 +3611,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.840-841": {
    "locus": "K. VII 840–841",
@@ -4004,17 +3652,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -4049,20 +3693,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.842-843": {
    "locus": "K. VII 842–843",
@@ -4094,20 +3734,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.843-844": {
    "locus": "K. VII 843–844",
@@ -4139,17 +3775,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 6,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.75,
-     "verdict": "fail"
-    }
+    "in_range": 6,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.75,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -4184,20 +3816,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 12,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 11,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.917,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.845-846": {
    "locus": "K. VII 845–846",
@@ -4229,17 +3857,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -4274,20 +3898,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.847-848": {
    "locus": "K. VII 847–848",
@@ -4319,20 +3939,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 7,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 7,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.848-849": {
    "locus": "K. VII 848–849",
@@ -4364,20 +3980,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.849-850": {
    "locus": "K. VII 849–850",
@@ -4409,20 +4021,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.850-851": {
    "locus": "K. VII 850–851",
@@ -4454,17 +4062,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 10,
-    "exploratory_not_preregistered": {
-     "n": 10,
-     "in_range": 10,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 10,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -4499,17 +4103,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 10,
-     "out_of_range": 2,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.714,
-     "verdict": "fail"
-    }
+    "in_range": 11,
+    "out_of_range": 2,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.786,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -4544,20 +4144,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.853-854": {
    "locus": "K. VII 853–854",
@@ -4589,20 +4185,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.854-855": {
    "locus": "K. VII 854–855",
@@ -4634,17 +4226,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -4679,17 +4267,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 8,
-     "out_of_range": 4,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.667,
-     "verdict": "fail"
-    }
+    "in_range": 8,
+    "out_of_range": 3,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.667,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -4724,17 +4308,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -4769,17 +4349,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 10,
-     "out_of_range": 5,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.625,
-     "verdict": "fail"
-    }
+    "in_range": 11,
+    "out_of_range": 4,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.688,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -4814,17 +4390,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -4859,20 +4431,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.860-861": {
    "locus": "K. VII 860–861",
@@ -4904,17 +4472,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -4949,17 +4513,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -4994,20 +4554,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.863-864": {
    "locus": "K. VII 863–864",
@@ -5039,17 +4595,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5084,17 +4636,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -5129,20 +4677,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.867": {
    "locus": "K. VII 867",
@@ -5174,17 +4718,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5219,17 +4759,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5264,17 +4800,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5309,20 +4841,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.870-871": {
    "locus": "K. VII 870–871",
@@ -5354,20 +4882,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 10,
-    "exploratory_not_preregistered": {
-     "n": 10,
-     "in_range": 10,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 9,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.9,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.871-872": {
    "locus": "K. VII 871–872",
@@ -5399,17 +4923,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5444,17 +4964,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5489,17 +5005,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5534,20 +5046,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.875-876": {
    "locus": "K. VII 875–876",
@@ -5579,20 +5087,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.876-877": {
    "locus": "K. VII 876–877",
@@ -5624,20 +5128,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.877-878": {
    "locus": "K. VII 877–878",
@@ -5669,20 +5169,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.878-879": {
    "locus": "K. VII 878–879",
@@ -5714,17 +5210,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5759,20 +5251,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.880-881": {
    "locus": "K. VII 880–881",
@@ -5804,20 +5292,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 4,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.75,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.882": {
    "locus": "K. VII 882",
@@ -5849,20 +5333,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.882-883": {
    "locus": "K. VII 882–883",
@@ -5894,17 +5374,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -5939,20 +5415,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.884-885": {
    "locus": "K. VII 884–885",
@@ -5984,17 +5456,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6029,17 +5497,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6074,17 +5538,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6119,20 +5579,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.889-890": {
    "locus": "K. VII 889–890",
@@ -6164,17 +5620,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 12,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.857,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6209,17 +5661,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 11,
-     "out_of_range": 3,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.786,
-     "verdict": "fail"
-    }
+    "in_range": 12,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6254,20 +5702,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.892-893": {
    "locus": "K. VII 892–893",
@@ -6299,17 +5743,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "mixed"
@@ -6344,17 +5784,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6389,17 +5825,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6434,17 +5866,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 9,
-     "out_of_range": 4,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.643,
-     "verdict": "fail"
-    }
+    "in_range": 7,
+    "out_of_range": 6,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.5,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -6479,17 +5907,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 3,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "fail"
-    }
+    "in_range": 13,
+    "out_of_range": 3,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -6524,20 +5948,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 3,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "fail"
-    }
+    "in_range": 13,
+    "out_of_range": 3,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.898-899": {
    "locus": "K. VII 898–899",
@@ -6569,20 +5989,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 6,
-    "exploratory_not_preregistered": {
-     "n": 6,
-     "in_range": 6,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 6,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.899-900": {
    "locus": "K. VII 899–900",
@@ -6614,17 +6030,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6659,20 +6071,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.901-902": {
    "locus": "K. VII 901–902",
@@ -6704,20 +6112,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.902-903": {
    "locus": "K. VII 902–903",
@@ -6749,17 +6153,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 6,
-    "exploratory_not_preregistered": {
-     "n": 6,
-     "in_range": 4,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.667,
-     "verdict": "fail"
-    }
+    "in_range": 6,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "fail"
@@ -6794,17 +6194,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6839,17 +6235,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -6884,20 +6276,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.906-907": {
    "locus": "K. VII 906–907",
@@ -6929,20 +6317,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.907-908": {
    "locus": "K. VII 907–908",
@@ -6974,17 +6358,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 2,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.75,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -7019,17 +6399,13 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 3,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "fail"
@@ -7064,17 +6440,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7109,17 +6481,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7154,20 +6522,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 8,
-    "exploratory_not_preregistered": {
-     "n": 8,
-     "in_range": 8,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.912-913": {
    "locus": "K. VII 912–913",
@@ -7199,20 +6563,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.913-914": {
    "locus": "K. VII 913–914",
@@ -7244,17 +6604,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7289,17 +6645,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7334,17 +6686,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 12,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7379,17 +6727,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7424,20 +6768,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.918-919": {
    "locus": "K. VII 918–919",
@@ -7469,20 +6809,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 11,
-     "out_of_range": 3,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.786,
-     "verdict": "fail"
-    }
+    "in_range": 12,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.919-920": {
    "locus": "K. VII 919–920",
@@ -7514,20 +6850,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.920-921": {
    "locus": "K. VII 920–921",
@@ -7559,17 +6891,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7604,20 +6932,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.922-923": {
    "locus": "K. VII 922–923",
@@ -7649,17 +6973,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7694,20 +7014,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.924-925": {
    "locus": "K. VII 924–925",
@@ -7739,17 +7055,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7784,17 +7096,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 11,
-     "out_of_range": 1,
-     "unsure": 2,
-     "missing": 0,
-     "share_in_range": 0.786,
-     "verdict": "fail"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.857,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7829,20 +7137,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.929,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.927-928": {
    "locus": "K. VII 927–928",
@@ -7874,20 +7178,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 0,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.928-929": {
    "locus": "K. VII 928–929",
@@ -7919,17 +7219,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -7964,17 +7260,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8009,20 +7301,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 12,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.857,
-     "verdict": "pass"
-    }
+    "in_range": 8,
+    "out_of_range": 6,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.571,
+    "verdict": "fail"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "fail"
   },
   "K7.931-932": {
    "locus": "K. VII 931–932",
@@ -8054,17 +7342,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 2,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8099,17 +7383,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8144,17 +7424,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8189,17 +7465,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8234,17 +7506,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8279,17 +7547,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8324,17 +7588,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8369,20 +7629,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 13,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.929,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.939-940": {
    "locus": "K. VII 939–940",
@@ -8414,17 +7670,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8459,20 +7711,16 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.941-942": {
    "locus": "K. VII 941–942",
@@ -8504,20 +7752,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.942-943": {
    "locus": "K. VII 942–943",
@@ -8549,20 +7793,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.943-944": {
    "locus": "K. VII 943–944",
@@ -8594,20 +7834,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.944-945": {
    "locus": "K. VII 944–945",
@@ -8639,17 +7875,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 0,
+    "unsure": 2,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8684,17 +7916,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8729,17 +7957,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 2,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8774,20 +7998,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.949": {
    "locus": "K. VII 949",
@@ -8819,20 +8039,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.949-950": {
    "locus": "K. VII 949–950",
@@ -8864,17 +8080,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 2,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8909,17 +8121,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 14,
-    "exploratory_not_preregistered": {
-     "n": 14,
-     "in_range": 14,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 11,
+    "out_of_range": 0,
+    "unsure": 3,
+    "missing": 0,
+    "share_in_range": 0.786,
+    "verdict": "fail"
    },
    "d": null,
    "verdict": "pass"
@@ -8954,17 +8162,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 16,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -8999,17 +8203,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 10,
-    "exploratory_not_preregistered": {
-     "n": 10,
-     "in_range": 9,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.9,
-     "verdict": "pass"
-    }
+    "in_range": 10,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -9044,20 +8244,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 1,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 13,
+    "out_of_range": 2,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.812,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.954-955": {
    "locus": "K. VII 954–955",
@@ -9089,20 +8285,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 12,
-    "exploratory_not_preregistered": {
-     "n": 12,
-     "in_range": 12,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 12,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.955-956": {
    "locus": "K. VII 955–956",
@@ -9134,17 +8326,13 @@
     "verdict": "pass"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 1,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
    "verdict": "pass"
@@ -9179,20 +8367,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 15,
-     "out_of_range": 0,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.938,
-     "verdict": "pass"
-    }
+    "in_range": 16,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.957-958": {
    "locus": "K. VII 957–958",
@@ -9224,20 +8408,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 14,
-     "out_of_range": 2,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 0.875,
-     "verdict": "pass"
-    }
+    "in_range": 15,
+    "out_of_range": 1,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 0.938,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.958-959": {
    "locus": "K. VII 958–959",
@@ -9269,20 +8449,16 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 16,
-    "exploratory_not_preregistered": {
-     "n": 16,
-     "in_range": 13,
-     "out_of_range": 2,
-     "unsure": 1,
-     "missing": 0,
-     "share_in_range": 0.812,
-     "verdict": "pass"
-    }
+    "in_range": 14,
+    "out_of_range": 1,
+    "unsure": 1,
+    "missing": 0,
+    "share_in_range": 0.875,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   },
   "K7.959-960": {
    "locus": "K. VII 959–960",
@@ -9314,28 +8490,24 @@
     "verdict": "fail"
    },
    "c": {
-    "verdict": "judge_failed_gate",
     "n": 6,
-    "exploratory_not_preregistered": {
-     "n": 6,
-     "in_range": 6,
-     "out_of_range": 0,
-     "unsure": 0,
-     "missing": 0,
-     "share_in_range": 1.0,
-     "verdict": "pass"
-    }
+    "in_range": 6,
+    "out_of_range": 0,
+    "unsure": 0,
+    "missing": 0,
+    "share_in_range": 1.0,
+    "verdict": "pass"
    },
    "d": null,
-   "verdict": "mixed"
+   "verdict": "pass"
   }
  },
  "summary": {
   "n_units": 207,
   "unit_verdicts": {
-   "mixed": 91,
-   "pass": 108,
-   "fail": 8
+   "pass": 191,
+   "fail": 15,
+   "mixed": 1
   },
   "a": {
    "pass": 187,
@@ -9358,11 +8530,14 @@
    ]
   },
   "c": {
-   "pass": 0,
-   "fail": 0,
-   "n_a_or_not_run": 207,
-   "pass_pct": null,
-   "wilson95": null
+   "pass": 189,
+   "fail": 18,
+   "n_a_or_not_run": 0,
+   "pass_pct": 91.3,
+   "wilson95": [
+    86.67,
+    94.43
+   ]
   },
   "b_term_level": {
    "n": 1541,
@@ -9403,62 +8578,23 @@
   },
   "c_gate": {
    "controls": 20,
-   "correct": 15,
-   "passed": false,
-   "misses": [
-    {
-     "item_id": "J03035",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "that which is sought"
-    },
-    {
-     "item_id": "J03033",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "of the head"
-    },
-    {
-     "item_id": "J03039",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "throbbing of inflamed parts"
-    },
-    {
-     "item_id": "J03038",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "coming to pass"
-    },
-    {
-     "item_id": "J03034",
-     "kind": "anchor",
-     "expected": "in_range",
-     "got": "out_of_range",
-     "english": "twofold"
-    }
-   ],
+   "correct": 20,
+   "passed": true,
+   "misses": [],
    "defective_anchor_misses": 0,
-   "note": "gate failed; 5 control misses, 0 of them defective anchors"
+   "note": ""
   },
-  "c_exploratory_not_preregistered": {
-   "pass": 191,
-   "fail": 16
-  },
+  "c_exploratory_not_preregistered": null,
   "c_item_level": {
    "A": {
-    "in_range": 1422,
-    "out_of_range": 70,
-    "unsure": 24
+    "in_range": 1418,
+    "out_of_range": 73,
+    "unsure": 25
    },
    "B": {
-    "in_range": 1412,
-    "out_of_range": 72,
-    "unsure": 32
+    "in_range": 1411,
+    "out_of_range": 79,
+    "unsure": 26
    }
   },
   "d_reference_agreement": null,
