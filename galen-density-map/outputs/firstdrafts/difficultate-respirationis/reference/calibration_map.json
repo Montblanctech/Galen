@@ -1,0 +1,16 @@
+{
+ "source": "A. A. Long, 'Pneumatic Episodes from Homer to Galen', in D. Fuller, C. Saunders, J. Macnaughton (eds), The Life of Breath in Literature, Culture and Medicine (Palgrave Macmillan, 2021), ch. 2, text T23, doi:10.1007/978-3-030-74443-4_2",
+ "licence": "CC BY 4.0",
+ "passages": {
+  "1": {
+   "unit_ids": [
+    "K7.780-781",
+    "K7.781-782"
+   ],
+   "kuhn": "VII 781-782",
+   "greek_start": "ὅταν οὖν ἤτοι φυμάτων",
+   "greek_end": "ὕστερον ἀπαντήσασαι."
+  }
+ },
+ "rule": "Greek span read against Long's English by the build session: his T23 begins at 'Breathing has to increase in speed and density' = ὅταν οὖν ἤτοι φυμάτων (K. VII 781) and ends with the labour clause = ὕστερον ἀπαντήσασαι (K. VII 782)"
+}

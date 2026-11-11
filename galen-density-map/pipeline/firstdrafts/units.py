@@ -253,6 +253,10 @@ def main() -> None:
             "n_content_tokens": sum(1 for t in wds if t["pos"] in CONTENT_POS),
             "n_targets": len(tgt_rows), "has_head": any(t["head"] for t in wds),
         })
+    if w.get("books"):   # cycle 4: a draft of some books only (In Hipp. De victu acutorum II-IV)
+        keep = {u["unit_id"] for u in units if u["books"] and set(u["books"]) <= set(w["books"])}
+        units = [u for u in units if u["unit_id"] in keep]
+        targets = [r for r in targets if r["unit_id"] in keep]
     # density terciles within the work
     dens = sorted(u["punch_density_per100"] for u in units)
     t1, t2 = dens[len(dens) // 3], dens[2 * len(dens) // 3]

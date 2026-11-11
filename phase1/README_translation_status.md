@@ -26,7 +26,7 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 - tlg075 *De simplicium medicamentorum temperamentis ac facultatibus I-VI*: No complete modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. First1KGreek carries books I-VI only.
 - tlg076 *De compositione medicamentorum secundum locos I-VI*: Spanish of book II only; books I and III-X untranslated in any modern language.
 - tlg077 *De compositione medicamentorum per genera*: No complete translation in any modern language; English of parts exists.
-- tlg087 *In Hippocratis De victu acutorum*: French of book I only; books II-IV untranslated in any modern language.
+- tlg087 *In Hippocratis De victu acutorum*: No English translation of any book found; books II-IV untranslated in any modern language except the German excerpt. First Drafts cycle 4 drafts books II-IV.
 - tlg092 *In Hippocratis Aphorismos*: Every book has some modern translation; GOHA (BBAW/HU Berlin) is editing bks I-IV with translation; P. N. Singer's English of bk I announced. Not a First Drafts candidate.
 
 ### `unknown` (the sources disagree or are silent; not a claim either way)

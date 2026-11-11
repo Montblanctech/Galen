@@ -749,8 +749,8 @@
       "category": "pathology",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1:1",
       "translation_status": "other_modern",
-      "translation_source": "Galenus verbatim catalogue tlg0057.tlg050 (Fichtner no. 053), translationes recentiores: Otte, 2001 (grc;deu) – source ; <https://www.sudoc.fr/060391324>; Otte, 2001 (grc;deu) <https://www.sudoc.fr/060391324> || Fichtner, Corpus Galenicum 2023/12, entry 53: 1 translation (T) line(s): Otte, Christoph: Galen, »De plenitudine«: Kritische Edition, Übersetzung und Erläuterungen. Wiesbaden: Dr. Ludwig Reichert 2001. (Serta Graeca, Beiträge zur Erf",
-      "translation_note": "completeness not coded by the catalogues; a listed translation may be a selection"
+      "translation_source": "Otte 2001, Galen, De plenitudine (edition with German translation); literature check 2026-11-11",
+      "translation_note": "No English translation found."
     },
     {
       "tlg_number": "tlg051",
@@ -777,8 +777,8 @@
       "category": "pathology",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1:1",
       "translation_status": "other_modern",
-      "translation_source": "Galenus verbatim catalogue tlg0057.tlg052 (Fichtner no. 055), translationes recentiores: Nieto Ibáñez, 2005 (grc;spa) <https://www.worldcat.org/fr/title/804892288> || Fichtner, Corpus Galenicum 2023/12, entry 55: no T (translation) line",
-      "translation_note": "GV lists a translation that Fichtner's T lines do not; coverage (complete vs. selection) not verified; completeness not coded by the catalogues; a listed translation may be a selection"
+      "translation_source": "Nieto Ibáñez 2005 (spa), per the BBAW Galenus-Übersetzungen table; literature check 2026-11-11",
+      "translation_note": "No English translation found."
     },
     {
       "tlg_number": "tlg053",
@@ -1267,8 +1267,8 @@
       "category": "commentary",
       "scaife_url": "https://scaife.perseus.org/reader/urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1:1",
       "translation_status": "partial",
-      "translation_source": "Pietrobelli 2019 (CUF, French), book I only; Galenus verbatim tlg087 (Fichtner 93); drafts/untranslated_galen_research.md §1",
-      "translation_note": "French of book I only; books II-IV untranslated in any modern language."
+      "translation_source": "Pietrobelli 2019, Galien, Commentaire au Régime des maladies aiguës d'Hippocrate, livre I (Les Belles Lettres; fra, book I); Müri 1979 (deu excerpt, II.20-23); literature check 2026-11-11",
+      "translation_note": "No English translation of any book found; books II-IV untranslated in any modern language except the German excerpt. First Drafts cycle 4 drafts books II-IV."
     },
     {
       "tlg_number": "tlg089",

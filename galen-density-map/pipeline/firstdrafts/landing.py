@@ -28,7 +28,16 @@ QUOTES = [
     ("quos-quibus", "K11.343-344", "one must anticipate by evacuating them at the onset of spring"),
     ("morbi-temporibus", "K7.440", "Of the whole disease, then, we conceive periods analogous to the ages of living beings"),
     ("difficultate-respirationis", "K7.753-754", "what is according to nature is one thing, and is as it were a rule and a measure"),
+    ("de-plenitudine", "K7.520-521", "a young man in good condition and a quite small child cannot carry the same weight"),
+    ("in-hipp-acut", "K15.520-521", "Hippocrates, accordingly, is seen to have begun from the least dangerous fomentation, which is both the least biting and moist"),
+    ("de-comate", "K7.650-651", "they abound in the summer season, and in hotter regions, and in the age of those in their prime"),
 ]
+# works with no complete translation in any modern language (census + literature check 2026-11-10/11; each page names the earlier ones)
+NO_COMPLETE_MODERN = {"comp-per-genera", "difficultate-respirationis", "in-hipp-salubri", "purgantium-facultate", "morbi-temporibus", "in-hipp-acut"}
+WORDS = {3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine", 10: "ten", 11: "eleven", 12: "twelve", 13: "thirteen", 14: "fourteen", 15: "fifteen"}
+N_WORKS = len(QUOTES)
+N_W = WORDS.get(N_WORKS, str(N_WORKS))
+N_NONE_W = WORDS.get(len(NO_COMPLETE_MODERN), str(len(NO_COMPLETE_MODERN)))
 PB = re.compile(r"\s*\[\d+\]\s*")
 
 
@@ -114,7 +123,7 @@ code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px}
 
 def head(title: str, prefix: str) -> str:
     return (f"<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>"
-            f"<title>{esc(title)}</title><meta name=description content=\"Nine works of Galen never before published in full in English, as machine first drafts with the Greek beside them.\">"
+            f"<title>{esc(title)}</title><meta name=description content=\"{N_W.capitalize()} works of Galen never before published in full in English, as machine first drafts with the Greek beside them.\">"
             f"<link rel=stylesheet href=\"{prefix}site.css\"></head><body>")
 
 
@@ -148,14 +157,14 @@ def main() -> None:
 <header class=hero><div class=wrap>
 <div class=kicker>Galen Density Project</div>
 <h1>Galen in English for the first time</h1>
-<p class=lede>Galen of Pergamon was a doctor in second-century Rome, and more of his writing survives than of any other ancient Greek author. Much of it has never been translated into English in full. Here are nine such works, put into English by machine: rough, unchecked by any scholar, and readable today.</p>
+<p class=lede>Galen of Pergamon was a doctor in second-century Rome, and more of his writing survives than of any other ancient Greek author. Much of it has never been translated into English in full. Here are {N_W} such works, put into English by machine: rough, unchecked by any scholar, and readable today.</p>
 <div class=btns><a class="btn primary" href="first-drafts/">Start reading</a><a class="btn ghost" href="#how">How they were made</a></div>
-<ul class=facts><li><b>9</b><span>works never before in English</span></li><li><b>{total_words:,}</b><span>words of Greek</span></li><li><b>2</b><span>independent machine translations of each passage</span></li></ul>
+<ul class=facts><li><b>{N_WORKS}</b><span>works never before fully in English</span></li><li><b>{total_words:,}</b><span>words of Greek</span></li><li><b>2</b><span>independent machine translations of each passage</span></li></ul>
 </div></header>
 
 <section><div class=wrap>
 <div class=kicker>The works</div>
-<h2>Nine books, in Galen's own voice</h2>
+<h2>{N_W.capitalize()} books, in Galen's own voice</h2>
 <p class=intro>Each quotation below is copied from the draft as it stands, from a passage that passed all the machine checks. Click a card to start reading there.</p>
 {cards("first-drafts/")}
 <p class=warn>These are machine first drafts. No scholar has checked them yet; they are for reading and for correcting, not for quoting as Galen's words. Every page keeps the Greek, a second translation and the checks one click away, under <em>Scholar view</em>.</p>
@@ -190,7 +199,7 @@ def main() -> None:
 <li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites (161,032 relocated loci over 33 authors, validated by Collatinus and Whitaker's Words, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
 <li><a class=t href="galen-terms/">Galen Term Explorer</a> — any Galenic word: keyness, LSJ tier, Dilemma headword, punch-list label, contexts, Kühn loci.</li>
 <li><a class=t href="terms/">Term Explorer for further authors</a> — Diophantus, John Philoponus, Philodemus.</li>
-<li><a class=t href="first-drafts/">The drafts index</a> — all nine works with unit counts and check failures.</li>
+<li><a class=t href="first-drafts/">The drafts index</a> — all {N_W} works with unit counts and check failures.</li>
 </ul>
 </div></section>
 
@@ -209,14 +218,14 @@ def main() -> None:
 <header class=hero style="padding:3.2rem 0 2.2rem"><div class=wrap>
 <div class=kicker><a href="../" style="text-decoration:none">Galen Density Project</a></div>
 <h1 style="font-size:clamp(2rem,4.5vw,3rem)">Galen First Drafts</h1>
-<p class=lede>Nine works of Galen with no complete English translation that we know of, five of them with no complete translation in any modern language (each work's page names the earlier ones), put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
+<p class=lede>{N_W.capitalize()} works of Galen with no complete English translation that we know of, {N_NONE_W} of them with no complete translation in any modern language (each work's page names the earlier ones), put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
 </div></header>
 <section><div class=wrap>
 {cards("")}
 </div></section>
 <section><div class=wrap>
 <div class=kicker>Details</div>
-<h2>All nine, with their numbers</h2>
+<h2>All {N_W}, with their numbers</h2>
 <ul class=tools>{"".join(rows)}</ul>
 <p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
 </div></section>
