@@ -36,14 +36,14 @@ a headword map and a blind reader pass (`outputs/phase3/punch_list_v3.csv`: thin
 thin_contested 84, artifact_suspect 602, real_no_perseus_lsj 108, real_contested 24); two
 pre-registered probes report negative results (an LSJ-first-gloss glossary makes translations
 worse; polysemy does not predict instability); and the project ships **LSJ-Gold**, a benchmark of
-lemmatizer accuracy on the words the dictionary itself cites: **71,974 relocated loci over 54
-authors** (0.1.1), CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
+lemmatizer accuracy on the words the dictionary itself cites: **70,198 relocated loci over 54
+authors** (0.1.2), CC BY 4.0, with a [standing leaderboard](docs/lsj-gold/index.html) and a pip-installable
 [audit kit](audit-kit/) (`greek-lemma-audit lsjgold`) so any system can be scored the same way.
-Stoicheia, a 2026 diffusion tagger, matches the lexicographer's headword 92.3% of the time and Dilemma (lexicon-first) 92.3%, a tie;
-Stanza-Perseus 84.3%, odyCy 82.0% and Stanza-PROIEL 79.1%, the four neural systems on the same 69,339 loci
-(Stoicheia is above Dilemma on Homer 94.6, Aeschylus 94.1 and Sophocles 96.6; just below on Plato and Herodotus; well below on
-Hippocrates, 79.0 to 95.7). On headwords LSJ cites only once: Dilemma 89.0%, Stoicheia 75.9%, the treebank-trained systems 58%.
-0.1.1 corrects 0.1 (93,926 loci), which also counted a token matching any word of a phrase LSJ quotes; see the erratum in [`release/lsj-gold-0.1.1/README.md`](release/lsj-gold-0.1.1/README.md). Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
+Stoicheia, a 2026 diffusion tagger, matches the lexicographer's headword 92.8% of the time and Dilemma (lexicon-first) 92.8%, a tie;
+Stanza-Perseus 84.8%, odyCy 82.5% and Stanza-PROIEL 79.6%, the four neural systems on the same 67,639 loci
+(Stoicheia is above Dilemma on Homer 95.1, Aeschylus 94.3 and Sophocles 96.8; just below on Plato and Herodotus; well below on
+Hippocrates, 79.4 to 95.9). On headwords LSJ cites only once: Dilemma 92.3%, Stoicheia 78.4%, the treebank-trained systems 60%.
+0.1.1 corrects 0.1 (93,926 loci), which also counted a token matching any word of a phrase LSJ quotes; 0.1.2 reads its 652 weakest loci blind and drops 313, counts a repeated locus once, and sets aside 49 tokens gold under two headwords. See [`release/lsj-gold-0.1.2/README.md`](release/lsj-gold-0.1.2/README.md). Details: [`CHANGELOG.md`](CHANGELOG.md), [`galen-density-map/data/qc/lsjgold/README.md`](galen-density-map/data/qc/lsjgold/README.md).
 
 **LS-Gold (2026-11-08, on the lab branch, not yet a release) — the Latin twin of LSJ-Gold.** The words Lewis & Short (1879) cites for a headword, relocated into the Perseus canonical-latinLit editions and checked by two independent offline analysers (Collatinus and Whitaker's Words): **161,032 loci over 33 authors, 20,830 headwords**, blind relocation check 60/60 by two readers, CC BY-SA 4.0 (L&S's licence), with a [leaderboard](docs/ls-gold/index.html) built the same way as the Greek one. LatinCy 84.9%, CLTK 84.0%, Stanza la-proiel 75.5%, la-perseus 65.5%, la-ittb 65.3%, la-llct 44.4%, all on the same loci; on headwords L&S cites once the neural systems lose 15–25 points and the lexicon-backed ones do not, the same shape as the Greek table. Details: [`galen-density-map/data/qc/lsgold/README.md`](galen-density-map/data/qc/lsgold/README.md).
 
@@ -60,8 +60,8 @@ Hippocrates, 79.0 to 95.7). On headwords LSJ cites only once: Dilemma 89.0%, Sto
 | [`galen-density-map/outputs/`](galen-density-map/outputs/) | Keyness scores, per-corpus lemma frequencies, audited exclusion logs, QC summary |
 | [`galen-density-map/data/qc/`](galen-density-map/data/qc/) | QC artifacts, incl. `h3m/` machine-bounded lemmatizer-accuracy measurements + METHODS |
 | [`galen-density-map/outputs/phase3/`](galen-density-map/outputs/phase3/) | Phase 3 v0: attributed punch list, headword map, blind reader pass, `punch_list_v3.csv` |
-| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0_1_1.csv`, 71,974 loci; 0.1 `lsj_gold_v0.csv`, 93,926), scores, validation sheets, README |
-| [`release/lsj-gold-0.1.1/`](release/lsj-gold-0.1.1/) | The current LSJ-Gold release folder (CSV, schema, scores, leaderboard JSON, CC BY 4.0, checksums); [`release/lsj-gold-0.1/`](release/lsj-gold-0.1/) is kept as published |
+| [`galen-density-map/data/qc/lsjgold/`](galen-density-map/data/qc/lsjgold/) | **LSJ-Gold**: the benchmark (`lsj_gold_v0_1_2.csv`, 70,198 loci; 0.1.1 `lsj_gold_v0_1_1.csv`; 0.1 `lsj_gold_v0.csv`, 93,926), scores, validation and reading sheets, README |
+| [`release/lsj-gold-0.1.2/`](release/lsj-gold-0.1.2/) | The current LSJ-Gold release folder (CSV, schema, scores, leaderboard JSON, set-aside rows, CC BY 4.0, checksums); [`0.1.1`](release/lsj-gold-0.1.1/) and [`0.1`](release/lsj-gold-0.1/) are kept as published |
 | [`docs/lsj-gold/`](docs/lsj-gold/) | The leaderboard page and JSON (GitHub Pages) |
 | [`galen-density-map/data/qc/lsgold/`](galen-density-map/data/qc/lsgold/) | **LS-Gold**: the Latin twin (`ls_gold_v0.csv`, 161,032 Lewis & Short loci over 33 authors), scores, blind sheet, README |
 | [`galen-density-map/pipeline/lsgold/`](galen-density-map/pipeline/lsgold/) | The LS-Gold pipeline: fetch and tokenize the Perseus Latin editions, relocate, two-oracle validation, score, leaderboard |
@@ -87,7 +87,7 @@ treebanks); on **1,850** gold loci mined from LSJ's own Galen citations, odyCy m
 lexicographer's headword **62.3%** accent-blind — a rare-stratum accuracy that independently
 confirms the rarity→failure pattern. Error is **reported, never patched**. v3.0 adds a fourth bound, **M5**, two blind model readers on the salted
 human protocol (83.3% / 81.7%, κ 0.94), and widens the gold to **LSJ-Gold** across 54 authors, where
-(in 0.1.1) the lexicon-first Dilemma and the 2026 Stoicheia tagger are level at 92.3%, followed by Stanza-Perseus 84.3%, odyCy 82.0% (62.7% on Hippocrates) and Stanza-PROIEL 79.1%. Across 50 First1K
+(in 0.1.2) the lexicon-first Dilemma and the 2026 Stoicheia tagger are level at 92.8%, followed by Stanza-Perseus 84.8%, odyCy 82.5% (63.1% on Hippocrates) and Stanza-PROIEL 79.6%. Across 50 First1K
 authors, 71% of odyCy–Dilemma disagreement is the article convention (`outputs/t1/`).
 
 ## Reproducibility

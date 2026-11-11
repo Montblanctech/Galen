@@ -1,0 +1,653 @@
+locus,row_id,headword,surface,reader_A,reader_A_headword,reader_A_note,reader_B,reader_B_headword,reader_B_note,sheet_gate,decision
+tlg0001.tlg001:14593:ilaomai,S1-001,ἱλάομαι,ἱλάεσθαι,yes,,,yes,,,pass,keep
+tlg0059.tlg005:11478:euferosunh,S1-002,εὐφεροσύνη,εὐφροσύνη,no,εὐφροσύνη,εὐφεροσύνη is Plato's etymological form; token is the ordinary noun,no,εὐφροσύνη,,pass,drop
+tlg0005.tlg001:435:atuzomai,S1-003,ἀτύζομαι,ἀτύξαι,yes,,active aorist filed under ἀτύζομαι,yes,,,pass,keep
+tlg0719.tlg002:353:eilw,S1-004,εἴλω,εἱλῶνται,yes,,εἱλέω form,yes,,,pass,keep
+tlg0006.tlg014:10110:dioskoroi,S1-005,διόσκοροι,Διόσκοροι,yes,,,yes,,,pass,keep
+tlg0006.tlg010:4714:ototoi,S1-006,ὀτοτοῖ,ὀττοτοττοτοῖ,yes,,,yes,,,pass,keep
+tlg0085.tlg002:5384:iwa,S1-007,ἰωά,ἰώ,no,ἰώ,interjection ἰώ not ἰωά,no,ἰώ,,pass,drop
+tlg0001.tlg001:5810:endukews,S1-008,ἐνδυκέως,ἐνδυκὲς,yes,,neuter used adverbially,yes,neuter adv. form,,pass,keep
+tlg0085.tlg001:1792:cunos,S1-011,ξυνός,ξυνῇ,yes,,adverbial dative,yes,,,pass,keep
+tlg0033.tlg003:1706:arignws,S1-012,ἀρίγνως,ἀριγνῶτες,no,ἀρίγνωτος,,yes,,,pass,drop
+tlg0023.tlg001:8362:susbennumi,S1-013,συσβέννυμι,συνέσβετο,yes,,,yes,,,pass,keep
+tlg0005.tlg001:2307:eramai,S1-014,ἔραμαι,ἐρᾶται,no,ἐράω,contracted middle of ἐράω,yes,,,pass,drop
+tlg0012.tlg002:8894:cenizw,S1-015,ξενίζω,ξείνους,no,ξένος,,no,ξεῖνος,noun,pass,drop
+tlg0016.tlg001:25955:sukea,S1-016,συκέα,συκέην,yes,,,yes,,,pass,keep
+tlg0012.tlg001:3194:apouras,S1-017,ἀπούρας,ἀπηύρων,no,ἀπαυράω,,yes,imperfect of ἀπαυράω,,pass,drop
+tlg2046.tlg001:58766:anoidainw,S1-018,ἀνοιδαίνω,ἀνοιδῆναί,yes,,,yes,,,pass,keep
+tlg0003.tlg001:95282:ofliskanw,S1-019,ὀφλισκάνω,ὀφλεῖν,yes,,,yes,,,pass,keep
+tlg0024.tlg001:13398:kumainw,S1-020,κυμαίνω,κυστίδα,no,κύστις,,no,κύστις,,pass,drop
+tlg0020.tlg002:4526:naiw,S1-021,ναίω,νάσσατο,yes,,,yes,,,pass,keep
+tlg0008.tlg001:2072:deilinos,S1-022,δειλινός,Δεῖπνον,no,δεῖπνον,title of Philoxenus' poem,no,δεῖπνον,,pass,drop
+tlg0099.tlg001:246091:puknorrac,S1-023,πυκνορράξ,πυκνορρῶγά,yes,,,yes,,,pass,keep
+tlg2046.tlg001:40004:amfimaomai,S1-024,ἀμφιμάομαι,ἀμφεμάσαντο,yes,,,yes,,,pass,keep
+tlg0020.tlg001:234:eirew,S1-025,εἰρέω,εἰρεῦσαι,yes,,Hes. Th. 38 participle,yes,,,pass,keep
+tlg0006.tlg011:7208:ototoi,S1-026,ὀτοτοῖ,ὀττοτοτοτοτοῖ,yes,,,yes,,,pass,keep
+tlg0016.tlg001:73052:kaqhmai,S1-027,κάθημαι,κατέατο,yes,,,yes,,,pass,keep
+tlg0005.tlg001:19713:oposakis,S1-028,ὁποσάκις,ὁπποσσάκιν,yes,,,yes,,,pass,keep
+tlg0005.tlg001:7843:afikneomai,S1-029,ἀφικνέομαι,ἀφίκευσο,yes,,,yes,,,pass,keep
+tlg0011.tlg005:8157:kuklew,S1-030,κυκλέω,κυκλοῦνται,unsure,,could be κυκλόω or κυκλέω,yes,,,pass,drop
+tlg0011.tlg007:3090:xrh,S1-032,χρή,χρῆσταί,yes,,χρὴ ἔσται,unsure,,χρῆσται unclear form,pass,drop
+tlg0012.tlg001:78702:edw,S1-033,ἔδω,ἐδηδώς,yes,,,yes,,,pass,keep
+tlg0012.tlg001:44965:dhiow,S1-034,δηϊόω,δῄουν,yes,,,yes,,,pass,keep
+tlg0016.tlg001:18462:protiqhmi,S1-035,προτίθημι,προτιθεῖ,yes,,,yes,,,pass,keep
+tlg0032.tlg007:5956:egeirw,S1-036,ἐγείρω,ἐγρηγόρει,yes,,,yes,,,pass,keep
+tlg0016.tlg001:55378:doulios,S1-037,δούλιος,δουληίῃ,no,δούλειος,Ionic δουλήιος,yes,,,pass,drop
+tlg0016.tlg001:17725:eorga,S1-038,ἔοργα,ἐόργεε,yes,,,yes,,,pass,keep
+tlg0016.tlg001:47834:dendreon,S1-039,δένδρεον,δένδρεσι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:77642:tanumai,S1-040,τάνυμαι,τάνυται,yes,,,yes,,,pass,keep
+tlg0019.tlg009:8569:istotonos,S1-042,ἱστότονος,ἱστόπονα,no,ἱστόπονος,,no,ἱστοπόνος,,pass,drop
+tlg0003.tlg001:91902:enwmotarxhs,S1-043,ἐνωμοτάρχης,ἐνωμοτίᾳ,no,ἐνωμοτία,,no,ἐνωμοτία,,pass,drop
+tlg0003.tlg001:40616:prosxwnnumi,S1-044,προσχώννυμι,προσχοῖ,no,προσχόω,,yes,,,pass,drop
+tlg0033.tlg002:549:naus,S1-045,ναῦς,ναῶν,yes,,,yes,,,pass,keep
+tlg0561.tlg001:15789:omogalaktes,S1-046,ὁμογάλακτες,ὁμογάλακτος,no,ὁμογάλακτος,nominative singular adjective/noun not ὁμογάλακτες,yes,,,pass,drop
+tlg2045.tlg001:30512:didumoxroos,S1-047,διδυμόχροος,διδυμόχροϊ,yes,,,yes,,,pass,keep
+tlg0001.tlg001:36044:dieidon,S1-049,διεῖδον,διίδμεναι,no,δίοιδα,infinitive like ἴδμεναι,no,διοῖδα (οἶδα),not διεῖδον,pass,drop
+tlg0016.tlg001:175020:sugkerannumi,S1-050,συγκεράννυμι,συγκεκυρημένον,no,συγκυρέω,,no,συγκυρέω,,pass,drop
+tlg0627.tlg006:34338:sparagmwdhs,S1-051,σπαραγμώδης,σπασμώδης,no,σπασμώδης,,no,σπασμώδης,,pass,drop
+tlg0033.tlg003:4922:peri,S1-052,περί,περόδοις,no,περίοδος,Aeolic περόδοις,no,περίοδος,,pass,drop
+tlg0019.tlg011:1294:klaiw,S1-053,κλαίω,κλαύσεται,yes,,,yes,,,pass,keep
+tlg0011.tlg004:8528:eruw,S1-055,ἐρύω,ἔρυτο,no,ῥύομαι,ἔρυμαι rescue sense,unsure,,ῥύομαι sense,pass,drop
+tlg0525.tlg001:14655:euhrhs,S1-056,εὐήρης,εὐήρις,unsure,,text appears corrupt,unsure,,possibly proper name Εὐηρίς,pass,drop
+tlg0033.tlg002:1302:agh,S1-057,ἀγή,ἀγὰν,unsure,,textual variant ἄταν; sense unclear,no,ἄγαν,Doric adverb,pass,drop
+tlg0001.tlg001:11458:diihmi,S1-058,διΐημι,διαειμένος,yes,,,yes,,,pass,keep
+tlg0012.tlg002:10336:deidiskomai,S1-059,δειδίσκομαι,δεικνύμενος,no,δείκνυμι,,unsure,,δεικνύμενος greeting sense,pass,drop
+tlg0012.tlg001:2923:lissomai,S1-060,λίσσομαι,λίσαι,yes,,,yes,,,pass,keep
+tlg0059.tlg034:89845:aplws,S1-061,ἁπλῶς,ἁπλούστατα,yes,,superlative adverb,yes,,,pass,keep
+tlg0001.tlg001:29310:upeikaqein,S1-062,ὑπεικαθεῖν,ὑπείκαθον,yes,,,yes,,,pass,keep
+tlg0012.tlg001:755:lampeths,S1-063,λαμπέτης,λαμπετόωντι,no,λαμπετάω,,no,λαμπετάω,,pass,drop
+tlg0024.tlg001:9941:egrw,S1-064,ἔγρω,ἔγρετο,no,ἐγείρω,epic aorist of ἐγείρω,yes,,,pass,drop
+tlg0012.tlg002:78439:katalexomai,S1-065,καταλέχομαι,καταλέγμενος,yes,,,yes,,,pass,keep
+tlg0001.tlg001:26488:xazw,S1-066,χάζω,χαζέσθην,yes,,,yes,,,pass,keep
+tlg0012.tlg002:44867:episeuw,S1-067,ἐπισεύω,ἐπεσσεύοντο,yes,,,yes,,,pass,keep
+tlg0012.tlg001:24897:fertatos,S1-068,φέρτατος,φέριστε,no,φέριστος,,yes,,,pass,drop
+tlg0012.tlg002:54574:katalexomai,S1-069,καταλέχομαι,καταλέχθαι,yes,,,yes,,,pass,keep
+tlg0019.tlg010:270:xous,S1-071,χοῦς,χοᾶς,yes,,,yes,,,pass,keep
+tlg0012.tlg001:101721:oiomai,S1-072,οἴομαι,οἴω,yes,,,yes,,,pass,keep
+tlg0012.tlg001:65233:fertatos,S1-074,φέρτατος,φέριστε,no,φέριστος,,yes,,,pass,drop
+tlg0014.tlg018:17405:priamai,S1-075,πρίαμαι,πρίηται,yes,,,yes,,,pass,keep
+tlg0012.tlg001:35008:dhiow,S1-076,δηϊόω,δῃώσας,yes,,,yes,,,pass,keep
+tlg0012.tlg002:17266:krainw,S1-077,κραίνω,κρῆναί,yes,,,yes,,,pass,keep
+tlg0016.tlg001:153983:staqmoomai,S1-078,σταθμόομαι,σταθμώμενος,yes,,,yes,,,pass,keep
+tlg0011.tlg006:6152:pernhmi,S1-079,πέρνημι,πέπραμαι,no,πιπράσκω,,yes,,,pass,drop
+tlg0012.tlg001:15111:kamnw,S1-080,κάμνω,κάμον,yes,,,yes,,,pass,keep
+tlg0020.tlg001:1969:kallirroos,S1-081,καλλίρροος,Καλλιρόῃ,no,Καλλιρρόη,proper name,no,Καλλιρόη,proper name,pass,drop
+tlg2045.tlg001:66319:auxmew,S1-082,αὐχμέω,αὐχμώοντα,no,αὐχμάω,,yes,,,pass,drop
+tlg0012.tlg002:45829:proeidon,S1-083,προεῖδον,προΐδωνται,yes,,,yes,,,pass,keep
+tlg0059.tlg002:2711:ekklhsiasths,S1-084,ἐκκλησιαστής,ἐκκλησίᾳ,no,ἐκκλησία,,no,ἐκκλησία,,pass,drop
+tlg0019.tlg003:4221:priamai,S1-085,πρίαμαι,πρίῃ,yes,,,yes,,,pass,keep
+tlg0085.tlg003:271:epaurew,S1-086,ἐπαυρέω,ἐπηύρου,yes,,aorist of ἐπαυρίσκω/ἐπαυρέω,yes,,,pass,keep
+tlg0020.tlg001:4633:peri,S1-087,περί,περίαχε,no,περιαχέω,,no,περιαχέω,,pass,drop
+tlg0012.tlg002:62078:sigaw,S1-088,σιγάω,σίγα,yes,,imperative,yes,,,pass,keep
+tlg0020.tlg003:218:tufwnios,S1-089,τυφώνιος,Τυφαόνιον,no,Τυφαόνιον,mountain name,unsure,,Τυφαόνιον adjective of Τυφάων,pass,drop
+tlg0033.tlg001:1985:ponew,S1-090,πονέω,ποναθῇ,yes,,,yes,,,pass,keep
+tlg0016.tlg001:89102:aniaw,S1-091,ἀνιάω,ἀνιῴατο,yes,,,yes,,,pass,keep
+tlg0006.tlg015:6720:kras,S1-092,κράς,κρᾶτας,yes,,,yes,,,pass,keep
+tlg0006.tlg010:951:pteroeis,S1-093,πτερόεις,πτεροῦντος,yes,,contracted genitive,no,πτερόω,,pass,drop
+tlg0012.tlg002:11040:ethtumos,S1-094,ἐτήτυμος,ἐτήτυμον,yes,,,yes,,,pass,keep
+tlg0016.tlg001:136889:mar,S1-095,μάρ,Μᾶρες,no,Μᾶρες,ethnic name,no,Μᾶρες,ethnic name,pass,drop
+tlg0019.tlg005:5884:ois,S1-096,ὄϊς,ὀί,yes,,dative 'with a sheep',no,οἴ,interjection,pass,drop
+tlg0016.tlg001:15801:upokrinw,S1-099,ὑποκρίνω,ὑπόκρισις,no,ὑπόκρισις,,no,ὑπόκρισις,,pass,drop
+tlg0012.tlg001:80864:tiw,S1-101,τίω,τῖον,yes,,,yes,,,pass,keep
+tlg0006.tlg015:4139:ecoisteos,S1-102,ἐξοιστέος,ἐξοιστέον,yes,,,yes,,,pass,keep
+tlg0019.tlg011:2356:qarsew,S1-103,θαρσέω,θάρρει,yes,,,yes,,,pass,keep
+tlg0012.tlg001:33798:swzw,S1-104,σῴζω,σώεσκον,yes,,,yes,,,pass,keep
+tlg0033.tlg002:1042:trafw,S1-105,τράφω,τράφοισα,yes,,Aeolic participle of τρέφω,yes,,,pass,keep
+tlg0006.tlg012:7066:druoxoi,S1-106,δρύοχοι,δρύοχα,yes,,neuter plural 'thickets',yes,,,pass,keep
+tlg0012.tlg001:85902:diyos,S1-107,δίψος,δίψά,no,δίψα,,no,δίψα,,pass,drop
+tlg0005.tlg001:12562:daktulos,S1-108,δάκτυλος,δάκτυλα,yes,,,yes,,,pass,keep
+tlg0024.tlg001:11465:episeuw,S1-109,ἐπισεύω,ἐπέσσυθεν,yes,,,yes,,,pass,keep
+tlg0032.tlg007:46459:parakaqizw,S1-110,παρακαθίζω,παρακαθεζόμενος,no,παρακαθέζομαι,,yes,,,pass,drop
+tlg0005.tlg001:10510:isami,S1-111,ἴσαμι,ἴσατι,yes,,,yes,,,pass,keep
+tlg0001.tlg001:22178:paroiteros,S1-112,παροίτερος,παροιτέρω,yes,,,yes,,,pass,keep
+tlg0003.tlg001:14205:exqos,S1-113,ἔχθος,ἔχθει,yes,,,yes,,,pass,keep
+tlg0012.tlg002:52815:deidiskomai,S1-114,δειδίσκομαι,δεδισκόμενος,yes,,,yes,,,pass,keep
+tlg0012.tlg001:53538:arnumai,S1-115,ἄρνυμαι,ἄρηται,yes,,,yes,,,pass,keep
+tlg0005.tlg001:5882:fertatos,S1-116,φέρτατος,φέριστε,no,φέριστος,,yes,,,pass,drop
+tlg0012.tlg002:50781:episeuw,S1-118,ἐπισεύω,ἐπισσεύας,yes,,,yes,,,pass,keep
+tlg0028.tlg002:1178:eisferw,S1-120,εἰσφέρω,εἰσφορὰς,no,εἰσφορά,,no,εἰσφορά,,pass,drop
+tlg0019.tlg006:7404:ampexw,S1-121,ἀμπέχω,ἀμπισχνοῦνται,no,ἀμπισχνέομαι,,yes,,,pass,drop
+tlg0059.tlg034:86043:neos,S1-122,νέος,νεωτέρως,yes,,comparative adverb,yes,,,pass,keep
+tlg0012.tlg002:31864:swzw,S1-123,σῴζω,σώοντες,yes,,,yes,,,pass,keep
+tlg0033.tlg003:937:epeite,S1-124,ἔπειτε,ἔπειτεν,no,ἔπειτα,Aeolic ἔπειτεν,yes,,,pass,drop
+tlg0014.tlg044:2282:anoignumi,S1-125,ἀνοίγνυμι,ἀνοιχθῇ,yes,,,yes,,,pass,keep
+tlg0019.tlg006:8:diarrhgnumi,S1-126,διαρρήγνυμι,διαρραγείης,yes,,,yes,,,pass,keep
+tlg2045.tlg001:52416:epikremannumi,S1-128,ἐπικρεμάννυμι,ἐπεκρεμόωντο,yes,,,yes,,,pass,keep
+tlg2046.tlg001:7424:arariskw,S1-129,ἀραρίσκω,ἀρηράμενος,yes,,,yes,,,pass,keep
+tlg0012.tlg001:52413:probainw,S1-130,προβαίνω,προβοῶντε,no,προβοάω,,no,προβοάω,,pass,drop
+tlg0012.tlg001:3629:fqinuqw,S1-131,φθινύθω,φθινύθεσκε,yes,,,yes,,,pass,keep
+tlg0006.tlg011:1130:euqalhs,S1-132,εὐθαλής,εὐκαρπείᾳ,no,εὐκαρπεία,,no,εὐκαρπία,,pass,drop
+tlg0012.tlg001:38502:efizw,S1-133,ἐφίζω,ἐφέσσεσθαι,no,ἐφέζομαι,,yes,,,pass,drop
+tlg0085.tlg005:1955:uperteros,S1-134,ὑπέρτερος,ὑπερβατώτερα,no,ὑπερβατός,,no,ὑπερβατός,,pass,drop
+tlg0005.tlg001:13035:delear,S1-135,δέλεαρ,δέλητα,yes,,,yes,,,pass,keep
+tlg0012.tlg002:34247:klaiw,S1-136,κλαίω,κλαῖον,yes,,,yes,,,pass,keep
+tlg0012.tlg001:83770:teras,S1-137,τέρας,τείρεα,no,τείρεα,,no,τείρεα,Ep. pl. of τέρας separate entry,pass,drop
+tlg0011.tlg005:63:fonh,S1-138,φονή,φονῶν,yes,,,yes,,,pass,keep
+tlg0012.tlg001:99476:eruw,S1-140,ἐρύω,ἔρυσο,no,ῥύομαι,protect sense,unsure,,ῥύομαι sense,pass,drop
+tlg0005.tlg001:6842:ama,S1-141,ἁμᾶ,ἁμᾷ,yes,,,yes,,,pass,keep
+tlg0016.tlg001:48408:dunamai,S1-143,δύναμαι,δυνέαται,yes,,,yes,,,pass,keep
+tlg0059.tlg030:15842:tiqhmi,S1-144,τίθημι,τιθεῖς,yes,,,yes,,,pass,keep
+tlg0059.tlg034:48433:numfios,S1-145,νυμφίος,νύμφῃ,no,νύμφη,,no,νύμφη,,pass,drop
+tlg0032.tlg001:34919:xruseion,S1-146,χρυσεῖον,χρύσεια,yes,,gold mines,yes,,,pass,keep
+tlg0085.tlg005:4849:yudos,S1-148,ψύδος,ψύθη,no,ψύθος,,unsure,,ψύθη vs ψύδος/ψεῦδος,pass,drop
+tlg0016.tlg001:993:qeaomai,S1-149,θεάομαι,θεήσασθαι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:74170:dhiow,S1-150,δηϊόω,δῄουν,yes,,,yes,,,pass,keep
+tlg2045.tlg001:31735:kurbeis,S1-151,κύρβεις,κύρβιν,yes,,,yes,,,pass,keep
+tlg2045.tlg001:20907:anabruw,S1-154,ἀναβρύω,ἄνθεα,no,ἄνθος,,no,ἄνθος,,pass,drop
+tlg0059.tlg004:11742:anabiwskomai,S1-155,ἀναβιώσκομαι,ἀναβιώσασθαι,yes,,,yes,,,pass,keep
+tlg0085.tlg002:2175:afradmwn,S1-156,ἀφράδμων,ἀφρασμόνως,no,ἀφράσμων,adverb ἀφρασμόνως,no,ἀφράσμων,,pass,drop
+tlg0016.tlg001:26067:sukea,S1-157,συκέα,συκέων,yes,,,yes,,,pass,keep
+tlg0016.tlg001:42235:melagxroos,S1-158,μελάγχροος,μελάγχροες,yes,,,yes,,,pass,keep
+tlg0016.tlg001:51740:anihmi,S1-159,ἀνίημι,ἀνέωνται,yes,,,yes,,,pass,keep
+tlg0012.tlg001:57506:enqaper,S1-160,ἔνθαπερ,ἔνθά,yes,,ἔνθα περ written apart,no,ἔνθα,two words ἔνθα περ,pass,drop
+tlg0024.tlg001:8265:wpazomai,S1-161,ὠπάζομαι,ὠπήσασθαι,unsure,,,unsure,,ὠπήσασθαι unclear,pass,drop
+tlg0019.tlg002:337:entiqhmi,S1-162,ἐντίθημι,ἐνθοῦ,yes,,,yes,,,pass,keep
+tlg0012.tlg002:16456:hpeiros,S1-163,ἤπειρος,ἤπειρόνδε,no,ἤπειρόνδε,,unsure,,allative adverb,pass,drop
+tlg0012.tlg002:1745:samos,S1-164,σάμος,Σάμῃ,no,Σάμη,island name,no,Σάμη,place name,pass,drop
+tlg0540.tlg007:1313:kakonoos,S1-165,κακόνοος,κακονούστατος,yes,,,yes,,,pass,keep
+tlg0012.tlg001:58654:fqia,S1-166,φθία,Φθῖοι,no,Φθῖος,,no,Φθῖοι,ethnic name,pass,drop
+tlg0012.tlg002:15178:aklehs,S1-167,ἀκλεής,ἀκλέα,yes,,,yes,,,pass,keep
+tlg0085.tlg003:1287:xrh,S1-168,χρή,χρείη,yes,,,yes,,,pass,keep
+tlg0016.tlg001:93131:perinew,S1-169,περινέω,περινήσας,yes,,,yes,,,pass,keep
+tlg0032.tlg006:26637:xrisma,S1-170,χρῖσμα,χρῖμα,no,χρῖμα,,no,χρῖμα,,pass,drop
+tlg0059.tlg004:16603:sumfhmi,S1-171,σύμφημι,συνέφη,yes,,,yes,,,pass,keep
+tlg0019.tlg007:8328:pantaxou,S1-172,πανταχοῦ,πανταχοῖ,no,πανταχοῖ,,no,πανταχοῖ,,pass,drop
+tlg0016.tlg001:168014:staqmoomai,S1-173,σταθμόομαι,σταθμεύμενοι,yes,,,unsure,,σταθμεύω vs σταθμάομαι,pass,drop
+tlg0012.tlg001:69167:euteixhs,S1-174,εὐτειχής,εὐτείχεα,yes,,,yes,,,pass,keep
+tlg0012.tlg002:69181:keiw,S1-175,κείω,κείω,yes,,,yes,,,pass,keep
+tlg0085.tlg003:509:errhesteron,S1-176,ἐρρηέστερον,ἐρρωμένως,no,ῥώννυμι,,no,ῥώννυμι,,pass,drop
+tlg0024.tlg001:2668:melw,S1-177,μέλω,μεμέληται,yes,,,yes,,,pass,keep
+tlg0085.tlg002:2799:lwiwn,S1-178,λωΐων,λῷον,yes,,,yes,,,pass,keep
+tlg0099.tlg001:223646:kulindw,S1-179,κυλίνδω,κυλινδηθεὶς,yes,,,yes,,,pass,keep
+tlg0020.tlg003:1032:prodiwcis,S1-180,προδίωξις,Προΐωξίς,no,προΐωξις,,unsure,,Προΐωξις personification,pass,drop
+tlg0012.tlg002:42281:poqew,S1-181,ποθέω,ποθήμεναι,yes,,,yes,,,pass,keep
+tlg2046.tlg001:60024:plew,S1-182,πλέω,πλώεσκον,yes,,,yes,,,pass,keep
+tlg0085.tlg001:2118:tlaw,S2-001,τλάω,τλῇς,yes,,aor. subj.,yes,,,pass,keep
+tlg0016.tlg001:19817:patrai,S2-003,πάτραι,Πατρέες,no,Πατρεύς,ethnic used as town name,no,Πατρεύς,ethnic,pass,drop
+tlg0001.tlg001:28338:eupalhs,S2-004,εὐπαλής,εὐπαλέως,yes,,adverb,yes,,,pass,keep
+tlg0012.tlg001:2704:eidw,S2-005,εἴδω,εἴδομεν,yes,,Ep. subj. of οἶδα,yes,,,pass,keep
+tlg0023.tlg001:7320:agkh,S2-006,ἀγκή,ἀγκάσιν,no,ἀγκάς,dat. pl. of ἀγκάς as noun,unsure,,ἀγκάς vs ἀγκή,pass,drop
+tlg0023.tlg001:11644:anaqrwskw,S2-007,ἀναθρῴσκω,ἀναθρώξωσι,yes,,,yes,,,pass,keep
+tlg0059.tlg006:11796:anandros,S2-008,ἄνανδρος,ἀνδρικῶς,no,ἀνδρικός,adverb of ἀνδρικός,no,ἀνδρικός,,pass,drop
+tlg0011.tlg001:465:euboia,S2-009,εὔβοια,Εὐβοΐδα,no,Εὐβοΐς,adjective,no,Εὐβοΐς,adjective,pass,drop
+tlg0085.tlg005:5885:pro,S2-010,πρό,προτοῦ,yes,,προτοῦ = πρὸ τοῦ,yes,,πρὸ τοῦ,pass,keep
+tlg0020.tlg002:630:zw,S2-011,ζῶ,ζώεσκον,yes,,iterative of ζώω,yes,,,pass,keep
+tlg0012.tlg001:78332:tlaw,S2-013,τλάω,τλαῖεν,yes,,,yes,,,pass,keep
+tlg0085.tlg005:3192:tufws,S2-014,τυφώς,τυφῶ,yes,,dat.,yes,,,pass,keep
+tlg0012.tlg001:68352:boaw,S2-015,βοάω,βοόων,yes,,,yes,,,pass,keep
+tlg0012.tlg002:13462:daw,S2-017,δάω,δαῆναι,yes,,,yes,,,pass,keep
+tlg0011.tlg004:4114:eikaqein,S2-018,εἰκαθεῖν,εἰκάθω,yes,,,yes,,,pass,keep
+tlg2046.tlg001:17928:ofrus,S2-019,ὀφρῦς,ὀφρύα,yes,,,yes,,,pass,keep
+tlg0012.tlg001:39285:aloaw,S2-020,ἀλοάω,ἀλοία,yes,,,yes,,,pass,keep
+tlg0005.tlg001:3432:dwlos,S2-021,δῶλος,δῶλε,yes,,Dor. voc.,yes,,Doric,pass,keep
+tlg0012.tlg002:58082:eisomai,S2-022,εἴσομαι,εἴσῃ,yes,,fut. 'will know',no,εἶμι,will go,pass,drop
+tlg0016.tlg001:161776:kuklow,S2-023,κυκλόω,κυκλούμενοι,yes,,,yes,,,pass,keep
+tlg0006.tlg006:1892:alalhmai,S2-024,ἀλάλημαι,ἀλάληντο,yes,,,yes,,,pass,keep
+tlg0013.tlg003:2264:pwleomai,S2-025,πωλέομαι,πωλήσομαι,yes,,,yes,,,pass,keep
+tlg0019.tlg003:4891:koris,S2-026,κόρις,Κορίνθιοι,no,Κορίνθιος,pun on κόρεις,no,Κορίνθιος,pun on bugs,pass,drop
+tlg0543.tlg001:110911:sugkleisis,S2-027,σύγκλεισις,συγκλείσεις,yes,,,yes,,,pass,keep
+tlg0005.tlg001:1971:koxudew,S2-028,κοχυδέω,κοχύδεσκεν,yes,,,yes,,,pass,keep
+tlg0012.tlg001:19783:memona,S2-029,μέμονα,μεμαὼς,no,μάω,pf. ptc. μεμαώς (μέμαα),yes,,,pass,drop
+tlg0001.tlg001:35579:agapazw,S2-030,ἀγαπάζω,ἀγάπαζον,yes,,,yes,,,pass,keep
+tlg0012.tlg001:65594:oiomai,S2-031,οἴομαι,οἴω,yes,,,yes,,,pass,keep
+tlg0085.tlg001:3693:sebas,S2-032,σέβας,σέβη,yes,,,yes,,,pass,keep
+tlg0561.tlg001:6728:skiros,S2-033,σκιρός,σκληροὶ,no,σκληρός,,no,σκληρός,,pass,drop
+tlg0012.tlg001:39955:katalexomai,S2-034,καταλέχομαι,κατέλεκτο,yes,,,yes,,,pass,keep
+tlg0627.tlg001:5004:texnaomai,S2-035,τεχνάομαι,τετεχνέαται,yes,,,yes,,,pass,keep
+tlg0012.tlg002:62735:uperfialos,S2-036,ὑπερφίαλος,ὑπερφιάλως,yes,,adverb,yes,,,pass,keep
+tlg0001.tlg001:22770:doiazw,S2-037,δοιάζω,δοάσσατο,yes,,aor. δοάσσατο 'hesitated',unsure,,"δοάσσατο, LSJ filing unclear",pass,drop
+tlg0024.tlg001:2147:peleias,S2-038,πελειάς,πεληϊάδεσσι,yes,,,yes,,,pass,keep
+tlg0016.tlg001:49727:staqmoomai,S2-039,σταθμόομαι,σταθμεόμενοι,yes,,,yes,,,pass,keep
+tlg0011.tlg004:4154:epistamai,S2-040,ἐπίσταμαι,ἐπίστω,yes,,,yes,,,pass,keep
+tlg0551.tlg017:2527:dhmarxew,S2-041,δημαρχέω,δήμαρχος,no,δήμαρχος,,no,δήμαρχος,,pass,drop
+tlg0013.tlg005:1754:damnaw,S2-042,δαμνάω,δάμνασκε,yes,,,yes,,,pass,keep
+tlg0001.tlg001:9863:tews,S2-043,τέως,τείως,yes,,,yes,,,pass,keep
+tlg0019.tlg005:2293:subriazw,S2-044,συβριάζω,συβαρίζειν,no,συβαρίζω,,no,συβαρίζω,,pass,drop
+tlg0032.tlg006:2873:epiponos,S2-046,ἐπίπονος,ἐπικινδυνοτέρα,no,ἐπικίνδυνος,,no,ἐπικίνδυνος,,pass,drop
+tlg0012.tlg001:99124:plhqus,S2-048,πληθύς,πληθυῖ,yes,,,yes,,,pass,keep
+tlg0085.tlg007:161:delfoi,S2-050,δελφοί,Δελφός,no,Δελφός,eponymous king,no,Δελφός,"hero, not place",pass,drop
+tlg0543.tlg001:225039:parairew,S2-052,παραιρέω,παρῄρηται,yes,,,yes,,,pass,keep
+tlg0006.tlg017:2557:askew,S2-053,ἀσκέω,ἀσέβειαν,no,ἀσέβεια,,no,ἀσέβεια,,pass,drop
+tlg0006.tlg010:8925:gorgofonos,S2-055,γοργοφόνος,Γοργοφόνα,yes,,epithet of Athena,yes,,,pass,keep
+tlg0012.tlg001:48824:eromai,S2-056,ἔρομαι,ἔρειο,yes,,,yes,,,pass,keep
+tlg0012.tlg002:3952:trieths,S2-057,τριέτης,τρίετες,yes,,neut. as adverb,yes,,adverbial,pass,keep
+tlg0005.tlg001:14540:enwpios,S2-058,ἐνώπιος,ἐνώπιον,yes,,,yes,,,pass,keep
+tlg0012.tlg002:74793:eruw,S2-059,ἐρύω,ἐρύσσεσθαι,yes,,draw (the bow),yes,,,pass,keep
+tlg2046.tlg001:48645:epikainumai,S2-061,ἐπικαίνυμαι,ἐπικίνυται,no,ἐπικίνυμαι,,yes,,,pass,drop
+tlg0627.tlg010:15265:eughrws,S2-062,εὐγήρως,εὔγηρα,yes,,,yes,,,pass,keep
+tlg0551.tlg007:11901:diatetrainw,S2-063,διατετραίνω,διετίτρων,yes,,impf. from διατιτράω,yes,,imperf. of διατιτράω,pass,keep
+tlg0019.tlg001:1630:probainw,S2-064,προβαίνω,πρόβα,yes,,,yes,,,pass,keep
+tlg0525.tlg001:187353:xeimarroos,S2-065,χειμάρροος,χείμαρρος,yes,,,yes,,,pass,keep
+tlg0099.tlg001:283448:polugunhs,S2-066,πολυγύνης,πολυγύναικες,no,πολυγύναιξ,,no,πολυγύναιξ,,pass,drop
+tlg0647.tlg001:2927:katefallomai,S2-067,κατεφάλλομαι,κατέπαλτο,yes,,LSJ also cites under καταπάλλω,yes,,,pass,keep
+tlg0001.tlg001:12351:parakatatiqhmi,S2-068,παρακατατίθημι,παρακάτθετο,yes,,,yes,,,pass,keep
+tlg0001.tlg001:37804:epexw,S2-069,ἐπέχω,ἐπέσχεθον,yes,,,yes,,,pass,keep
+tlg0010.tlg007:2296:perilupos,S2-071,περίλυπος,περιχαρὴς,no,περιχαρής,,no,περιχαρής,,pass,drop
+tlg0005.tlg001:9938:isami,S2-072,ἴσαμι,ἴσαντι,yes,,Dor. οἶδα,yes,,,pass,keep
+tlg0012.tlg002:36162:prwtistos,S2-074,πρώτιστος,πρώτιστον,yes,,,yes,,,pass,keep
+tlg0012.tlg001:41441:kras,S2-075,κράς,κράτεσφι,yes,,,yes,,,pass,keep
+tlg0019.tlg005:6695:aiboi,S2-076,αἰβοῖ,αἰβοιβοῖ,yes,,doubled form,unsure,,αἰβοῖ vs αἰβοιβοῖ,pass,drop
+tlg0012.tlg001:54573:ethtumos,S2-077,ἐτήτυμος,ἐτήτυμον,yes,,,yes,,,pass,keep
+tlg0012.tlg002:73349:dusmenewn,S2-078,δυσμενέων,δυσμενέοντες,yes,,,yes,,,pass,keep
+tlg0012.tlg001:15622:keraw,S2-079,κεράω,κέρωνται,yes,,,yes,,,pass,keep
+tlg0032.tlg002:15389:ecwmidopoiia,S2-080,ἐξωμιδοποιΐα,ἐξωμίδες,no,ἐξωμίς,,no,ἐξωμίς,,pass,drop
+tlg0012.tlg001:80133:epeimi,S2-081,ἔπειμι,ἐπήϊεν,yes,,,yes,,,pass,keep
+tlg0003.tlg001:105753:apeoika,S2-082,ἀπέοικα,ἀπεοικότως,yes,,adverb,yes,,,pass,keep
+tlg0023.tlg001:21047:qustas,S2-083,θυστάς,θυτὴρ,no,θυτήρ,,no,θυτήρ,,pass,drop
+tlg0016.tlg001:29329:staqmoomai,S2-084,σταθμόομαι,σταθμησάμενοι,yes,,,yes,,,pass,keep
+tlg0012.tlg002:2701:epiboaw,S2-085,ἐπιβοάω,ἐπιβώσομαι,yes,,,yes,,,pass,keep
+tlg0016.tlg001:12991:epipla,S2-086,ἔπιπλα,ἐπίπλοα,yes,,Ion. ἐπίπλοα,yes,,Ionic ἐπίπλοα,pass,keep
+tlg0028.tlg002:662:eikos,S2-087,εἰκός,εἰκότερον,yes,,comparative,yes,,,pass,keep
+tlg0019.tlg006:4851:ahdw,S2-088,ἀηδώ,ἀηδοῖ,yes,,voc.,yes,,,pass,keep
+tlg2046.tlg001:42916:kataleipw,S2-089,καταλείπω,καλλείψῃς,yes,,,yes,,,pass,keep
+tlg0005.tlg001:12245:enos,S2-090,ἔνος,ἔνας,no,ἔνας,adverb; distinct from ἔνος,unsure,,ἔνας unclear,pass,drop
+tlg0016.tlg001:83702:diadrhsteuw,S2-091,διαδρηστεύω,διεπρήστευσε,yes,,MS reading διεπρήστευσε,yes,,,pass,keep
+tlg0001.tlg001:16491:oiomai,S2-093,οἴομαι,ὀισσάμενος,yes,,,yes,,,pass,keep
+tlg0016.tlg001:50116:upisxneomai,S2-095,ὑπισχνέομαι,ὑπισχνεύμενος,yes,,,yes,,,pass,keep
+tlg0033.tlg002:3197:apouras,S2-096,ἀπούρας,ἀπούραις,yes,,Aeolic/Dor. aor. ptc.,yes,,,pass,keep
+tlg0033.tlg002:3630:epeite,S2-097,ἔπειτε,ἔπειτεν,yes,,,yes,,,pass,keep
+tlg0005.tlg001:4340:teinde,S2-098,τεῖνδε,τεῖδέ,no,τεῖδε,'here',unsure,,Doric τεῖδε,pass,drop
+tlg0012.tlg001:2468:eromai,S2-099,ἔρομαι,ἐρέοντο,yes,,Ep. ἐρέομαι,yes,,,pass,keep
+tlg0013.tlg003:2953:samos,S2-100,σάμος,Σάμη,no,Σάμη,island,yes,,,pass,drop
+tlg0012.tlg001:89957:daiw,S2-101,δαίω,δάηται,yes,,,yes,,,pass,keep
+tlg0012.tlg001:36246:tiw,S2-102,τίω,τίσω,yes,,fut. 'honour',yes,,honour,pass,keep
+tlg0059.tlg030:85420:qeomishs,S2-103,θεομισής,θεοφιλὴς,no,θεοφιλής,,no,θεοφιλής,,pass,drop
+tlg0016.tlg001:103106:katalusis,S2-104,κατάλυσις,κάλλισται,no,καλός,superlative,no,καλός,κάλλισται superlative,pass,drop
+tlg0012.tlg001:102395:titainw,S2-105,τιταίνω,τιταίνετον,yes,,,yes,,,pass,keep
+tlg0012.tlg001:24232:upokuw,S2-106,ὑποκύω,ὑποκυσαμένη,yes,,,yes,,,pass,keep
+tlg0012.tlg001:75971:alalke,S2-107,ἄλαλκε,ἀλαλκέμεναι,yes,,,yes,,,pass,keep
+tlg0059.tlg003:1502:poteos,S2-108,ποτέος,ποτέον,yes,,,yes,,,pass,keep
+tlg0012.tlg002:25195:kras,S2-109,κράς,κρᾶτα,yes,,,yes,,,pass,keep
+tlg0059.tlg004:2227:mala,S2-110,μάλα,μᾶλλον,yes,,comparative,yes,,,pass,keep
+tlg0032.tlg007:69838:kashs,S2-111,κασῆς,κασᾶς,yes,,,yes,,,pass,keep
+tlg0033.tlg003:1810:prwtistos,S2-112,πρώτιστος,πρώτιστον,yes,,,yes,,,pass,keep
+tlg0012.tlg002:79224:kras,S2-113,κράς,κράτων,yes,,,yes,,,pass,keep
+tlg0012.tlg001:577:xwomai,S2-114,χώομαι,χώσεται,yes,,,yes,,,pass,keep
+tlg0016.tlg001:150904:kaqoraw,S2-115,καθοράω,κατώρα,yes,,,yes,,,pass,keep
+tlg0019.tlg007:6726:muqizw,S2-116,μυθίζω,μυσίξαι,yes,,Lacon. μυθίξαι,yes,,,pass,keep
+tlg0059.tlg001:1808:qeomishs,S2-117,θεομισής,θεοφιλὴς,no,θεοφιλής,,no,θεοφιλής,,pass,drop
+tlg0019.tlg002:2272:diarrhgnumi,S2-118,διαρρήγνυμι,διαρραγήσομαι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:98337:eruw,S2-119,ἐρύω,ἐρύσασθαι,yes,,weigh/draw in gold,no,ἐρύομαι,"ῥύομαι, ransom",pass,drop
+tlg0011.tlg005:2280:oi,S2-121,οἷ,οἷπερ,yes,,relative adv. 'whither',yes,,,pass,keep
+tlg0016.tlg001:149851:protiqhmi,S2-122,προτίθημι,προτιθεῖσι,yes,,,yes,,,pass,keep
+tlg0001.tlg001:23973:metalhgw,S2-124,μεταλήγω,μεταλλήγεσκεν,yes,,,yes,,,pass,keep
+tlg0005.tlg001:743:lugizw,S2-125,λυγίζω,λυγιξεῖν,yes,,,yes,,,pass,keep
+tlg0011.tlg006:5273:eceidon,S2-126,ἐξεῖδον,ἐξιδοῦ,yes,,aor. mid. imper.,yes,,,pass,keep
+tlg0012.tlg001:33252:ecerew,S2-127,ἐξερέω,ἐξερέω,yes,,,yes,,,pass,keep
+tlg0012.tlg001:94850:daw,S2-128,δάω,δαήμεναι,yes,,,yes,,,pass,keep
+tlg0019.tlg001:5479:priamai,S2-129,πρίαμαι,πρίασο,yes,,,yes,,,pass,keep
+tlg0012.tlg001:21473:eisomai,S2-130,εἴσομαι,εἴσατο,yes,,aor. 'went (through)',no,ἵημι,εἴσατο sped,pass,drop
+tlg0059.tlg030:38410:new,S2-131,νέω,νεῖ,yes,,swim,yes,,,pass,keep
+tlg0023.tlg001:12640:apafiskw,S2-132,ἀπαφίσκω,ἀπαφῶν,yes,,ptc. of ἀπαφάω,yes,,,pass,keep
+tlg0012.tlg002:48773:alalhmai,S2-133,ἀλάλημαι,ἀλαλήμενος,yes,,,yes,,,pass,keep
+tlg0033.tlg002:41:xalaw,S2-134,χαλάω,χαλάξαις,yes,,,yes,,,pass,keep
+tlg0012.tlg002:32619:tutqos,S2-135,τυτθός,τυτθόν,yes,,adverb,yes,,,pass,keep
+tlg0012.tlg001:105436:xraw,S2-136,χράω,χρεώμενος,yes,,mid. 'use',unsure,,χρεώμενος: need or use,pass,drop
+tlg0006.tlg017:3858:nebris,S2-137,νεβρίς,νεβρίδας,yes,,,yes,,,pass,keep
+tlg0016.tlg001:171880:omotrapezos,S2-138,ὁμοτράπεζος,ὁμόσπονδος,no,ὁμόσπονδος,,no,ὁμόσπονδος,,pass,drop
+tlg0059.tlg030:76532:filonikos,S2-140,φιλόνικος,φιλότιμός,no,φιλότιμος,,no,φιλότιμος,,pass,drop
+tlg0019.tlg007:6889:mogew,S2-141,μογέω,μογίομες,yes,,Lacon.,yes,,,pass,keep
+tlg0012.tlg001:60331:sigaw,S2-142,σιγάω,σίγα,yes,,imperative,yes,,,pass,keep
+tlg0033.tlg003:1404:dwdwnh,S2-143,δωδώνη,Δωδώναθεν,yes,,-θεν form,yes,,-θεν adverb,pass,keep
+tlg0011.tlg004:8006:porw,S2-144,πόρω,πορεῖν,yes,,,yes,,,pass,keep
+tlg0012.tlg001:78375:elaunw,S2-146,ἐλαύνω,ἐλάαν,yes,,,yes,,,pass,keep
+tlg0012.tlg002:21848:eromai,S2-147,ἔρομαι,ἐρέεσθαι,yes,,,yes,,,pass,keep
+tlg0653.tlg001:6170:dexomai,S2-148,δέχομαι,δειδέχθαι,yes,,Ep. pf. 'await',yes,,,pass,keep
+tlg0099.tlg001:213461:katakaiw,S2-149,κατακαίω,Κατακεκαυμένη,yes,,participle used as region name,no,Κατακεκαυμένη,place name,pass,drop
+tlg0012.tlg001:95184:oiomai,S2-150,οἴομαι,οἴω,yes,,,yes,,,pass,keep
+tlg0006.tlg009:7913:swsteos,S2-151,σωστέος,σῳστέον,yes,,,yes,,,pass,keep
+tlg0099.tlg001:272289:nitriwths,S2-152,νιτριώτης,νίτρον,no,νίτρον,,no,νίτρον,derivative: νιτριώτης,pass,drop
+tlg0006.tlg003:2730:deros,S2-153,δέρος,δέρας,no,δέρας,poetic by-form,yes,,,pass,drop
+tlg0012.tlg002:62931:eromai,S2-154,ἔρομαι,ἐρέωμαι,yes,,,yes,,,pass,keep
+tlg0019.tlg001:5949:qerizw,S2-155,θερίζω,θερίδδειν,yes,,,yes,,,pass,keep
+tlg0023.tlg001:17431:perikremhs,S2-157,περικρεμής,περικρατὲς,no,περικρατής,,no,περικρατής,,pass,drop
+tlg0012.tlg001:35719:basileus,S2-158,βασιλεύς,βασιλεύτατός,yes,,superlative,yes,,superlative,pass,keep
+tlg0099.tlg001:160128:naias,S2-159,ναϊάς,Ναΐδες,no,Ναΐς,pl. of Ναΐς,yes,,,pass,drop
+tlg0001.tlg001:30392:kedaiw,S2-160,κεδαίω,κεδόωνται,yes,,,unsure,,κεδόωνται unclear,pass,drop
+tlg0012.tlg001:37564:oaroi,S2-161,ὄαροι,ὀάρων,no,ὄαρ,'wives',yes,,,pass,drop
+tlg0019.tlg008:7580:graidion,S2-162,γραΐδιον,γρᾴδιο,yes,,barbarized voc.,yes,,,pass,keep
+tlg0099.tlg001:218662:kwrukos,S2-163,κώρυκος,Κωρυκαῖος,no,Κωρυκαῖος,,no,Κωρύκαιος,adj. of Κώρυκος,pass,drop
+tlg0012.tlg001:33908:korennumi,S2-164,κορέννυμι,κορέει,yes,,fut.,yes,,,pass,keep
+tlg0543.tlg001:102064:kaqhkw,S2-165,καθήκω,καθηκόντως,yes,,adverb,yes,,,pass,keep
+tlg0012.tlg002:84697:sitew,S2-166,σιτέω,σιτέσκοντο,yes,,,yes,,,pass,keep
+tlg0005.tlg001:8596:awton,S2-167,ἄωτον,ἄωτος,yes,,masc. by-form,yes,,,pass,keep
+tlg0001.tlg001:37349:dexomai,S2-168,δέχομαι,Δέχθε,yes,,,yes,,,pass,keep
+tlg0005.tlg001:9178:isami,S2-169,ἴσαμι,ἴσαις,yes,,,yes,,,pass,keep
+tlg0013.tlg002:873:pernhmi,S2-170,πέρνημι,περάσαντες,yes,,,yes,,,pass,keep
+tlg0011.tlg005:965:katathkw,S2-171,κατατήκω,κατατάκομαι,yes,,,yes,,,pass,keep
+tlg0085.tlg005:3858:quhlh,S2-172,θυηλή,θύελλαι,no,θύελλα,,no,θύελλα,,pass,drop
+tlg0012.tlg001:69810:podargos,S2-173,πόδαργος,Ποδάργη,no,Ποδάργη,Harpy name,no,Ποδάργη,Harpy name,pass,drop
+tlg0543.tlg001:298546:diartaw,S2-174,διαρτάω,διαττᾶσθαι,no,διαττάω,,no,διαττάω,,pass,drop
+tlg0653.tlg001:6490:oxea,S2-175,ὀχεά,ὀχῆς,yes,,possibly LSJ ὀχή,unsure,,ὀχεά vs ὀχή,pass,drop
+tlg0016.tlg001:2220:epeiromai,S2-177,ἐπείρομαι,ἐπειρέσθαι,yes,,,yes,,,pass,keep
+tlg0005.tlg001:8991:lanqanw,S2-178,λανθάνω,λασῶ,yes,,Dor. fut.,unsure,,λασῶ unclear,pass,drop
+tlg0013.tlg004:1000:ignua,S2-180,ἰγνύα,ἰγνύσι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:6634:daw,S2-181,δάω,δαῶμεν,yes,,,yes,,,pass,keep
+tlg0627.tlg030:350:pentaplokos,S2-182,πεντάπλοκος,πεντάπλουν,no,πενταπλόος,,no,πεντάπλους,,pass,drop
+tlg0026.tlg002:10565:mastigow,S2-183,μαστιγόω,μαστιγοίην,yes,,,yes,,,pass,keep
+tlg0627.tlg006:45:diespasmenws,S3-001,διεσπασμένως,διεσπαρμένως,no,διεσπαρμένως,from διασπείρω not διασπάω,no,διασπείρω,adverb of participle of διασπείρω,fail,drop
+tlg0032.tlg004:3608:atimasteos,S3-002,ἀτιμαστέος,ἀτιμαστέον,yes,,,yes,,,fail,drop
+tlg0019.tlg010:8317:proseoika,S3-003,προσέοικα,προσεικέναι,yes,,,yes,,,fail,drop
+tlg0012.tlg001:80718:axeuw,S3-004,ἀχεύω,ἄχνυται,no,ἄχνυμαι,,no,ἄχνυμαι,,fail,drop
+tlg0019.tlg006:1741:torotic,S3-005,τοροτίξ,τοροτοροτοροτοροτίξ,yes,,extended form of the bird call,yes,,onomatopoeic hoopoe call,fail,drop
+tlg0012.tlg002:64255:hpeiros,S3-006,ἤπειρος,ἤπειρόνδε,yes,,-δε allative,yes,,,fail,drop
+tlg0059.tlg030:49716:uperballw,S3-007,ὑπερβάλλω,ὑπερβαλλόντως,yes,,adv. of pres. part.,yes,,,fail,drop
+tlg0012.tlg002:57858:neuw,S3-008,νεύω,νεύσω,yes,,,yes,,,fail,drop
+tlg0012.tlg002:52039:aeskw,S3-009,ἀέσκω,ἀέσαι,yes,,aor. of sleeping verb,yes,,,fail,drop
+tlg0016.tlg001:73306:empiptw,S3-011,ἐμπίπτω,ἐμπεσόντες,yes,,,yes,,,fail,drop
+tlg0012.tlg002:1204:eidw,S3-012,εἴδω,εἰδῶ,yes,,,yes,,,fail,drop
+tlg0012.tlg001:20790:xazw,S3-013,χάζω,χάζεο,yes,,,yes,,,fail,drop
+tlg0012.tlg001:88311:upisxneomai,S3-014,ὑπισχνέομαι,ὑπίσχεο,yes,,Ep. ὑπίσχομαι,yes,,,fail,drop
+tlg0011.tlg002:5899:ecelkew,S3-015,ἐξελκέω,ἐξημπόλημαι,no,ἐξεμπολάω,,no,ἐξαμπολάω,,fail,drop
+tlg0085.tlg007:2089:lappein,S3-017,λάππειν,λάμπᾳ,no,λάμπη,,no,λάμπη,,fail,drop
+tlg0033.tlg003:3279:xeirwn,S3-018,χείρων,χειρόνεσσι,yes,,,yes,,,fail,drop
+tlg0001.tlg001:16337:kedannumi,S3-019,κεδάννυμι,κεκέδαστο,yes,,,yes,,,fail,drop
+tlg0059.tlg034:51732:proagwnisteon,S3-020,προαγωνιστέον,προαγῶνας,no,προαγών,,no,προαγών,,fail,drop
+tlg0005.tlg001:19678:orhmi,S3-022,ὄρημι,ὄρη,yes,,Aeolic = ὁρᾷ,yes,,Doric 2sg of ὁράω,fail,drop
+tlg0033.tlg001:4989:naus,S3-023,ναῦς,νᾶες,yes,,,yes,,,fail,drop
+tlg0012.tlg002:19707:bia,S3-024,βία,βίηφι,yes,,,yes,,,fail,drop
+tlg0085.tlg001:3205:epeidon,S3-025,ἐπεῖδον,ἐπιδόμενοι,yes,,,yes,,,fail,drop
+tlg0059.tlg006:11802:andrikos,S3-026,ἀνδρικός,ἀνάνδρως,no,ἄνανδρος,,no,ἄνανδρος,,fail,drop
+tlg0012.tlg002:65508:axeuw,S3-028,ἀχεύω,ἄχομαι,no,ἄχομαι,,no,ἄχνυμαι,,fail,drop
+tlg0012.tlg002:52749:oinoxoeuw,S3-029,οἰνοχοεύω,οἰνοχόει,no,οἰνοχοέω,,no,οἰνοχοέω,,fail,drop
+tlg0023.tlg001:11099:antrofuhs,S3-030,ἀντροφυής,ἀνθίαι,no,ἀνθίας,,no,ἄνθιας,,fail,drop
+tlg0012.tlg001:13115:agnumi,S3-031,ἄγνυμι,ἄγη,yes,,,yes,,,fail,drop
+tlg0012.tlg001:69478:damnaw,S3-032,δαμνάω,δάμνα,yes,,,yes,,,fail,drop
+tlg0059.tlg034:98417:oph,S3-033,ὅπη,ὁπῃοῦν,no,ὁπῃοῦν,,no,ὁπηοῦν,,fail,drop
+tlg0012.tlg001:40626:eruw,S3-034,ἐρύω,ἐρύσσεται,no,ῥύομαι,sense protect/save,yes,,,fail,drop
+tlg0012.tlg001:17662:kras,S3-035,κράς,κρατός,yes,,,yes,,,fail,drop
+tlg0012.tlg001:32189:katapthssw,S3-036,καταπτήσσω,καταπτήτην,yes,,,yes,,,fail,drop
+tlg0032.tlg004:8591:hduswmatos,S3-037,ἡδυσώματος,ἡδυγνώμων,no,ἡδυγνώμων,,no,ἡδυγνώμων,,fail,drop
+tlg0012.tlg001:70822:prwn,S3-038,πρών,πρώονες,yes,,,yes,,,fail,drop
+tlg0012.tlg002:3072:priamai,S3-039,πρίαμαι,πρίατο,yes,,,yes,,,fail,drop
+tlg0012.tlg002:18076:agxistos,S3-040,ἄγχιστος,ἄγχιστον,yes,,,yes,,,fail,drop
+tlg0653.tlg001:7050:kataxqhs,S3-041,καταχθής,καρποῖο,no,καρπός,,no,καρπός,,fail,drop
+tlg0627.tlg001:2206:asqeneia,S3-042,ἀσθένεια,ἀσθενέων,no,ἀσθενέω,,no,ἀσθενέω,participle of ἀσθενέω,fail,drop
+tlg0016.tlg001:50217:stratopedon,S3-043,στρατόπεδον,Στρατόπεδα,no,Στρατόπεδα,place name,yes,,place name Στρατόπεδα; plural of common noun,fail,drop
+tlg0006.tlg011:1688:euan,S3-044,εὐάν,εὐοἵ,no,εὐοῖ,,no,εὐοῖ,,fail,drop
+tlg0012.tlg002:71543:prwtistos,S3-045,πρώτιστος,πρώτιστον,yes,,,yes,,,fail,drop
+tlg0001.tlg001:18522:potexw,S3-046,ποτέχω,ποτισχομένη,no,προσίσχω,ποτίσχομαι,yes,,,fail,drop
+tlg0012.tlg001:13604:afradhs,S3-047,ἀφραδής,ἀφραδέως,yes,,,yes,,,fail,drop
+tlg0059.tlg008:11175:dwrea,S3-048,δωρεά,δωρεῖσθαι,no,δωρέω,,no,δωρέομαι,,fail,drop
+tlg0085.tlg006:3565:eubolos,S3-049,εὔβολος,εὐβούλως,no,εὔβουλος,,no,εὔβουλος,,fail,drop
+tlg0653.tlg001:6303:dexomai,S3-051,δέχομαι,δειδέχθαι,yes,,perf. inf. sense await,yes,,,fail,drop
+tlg0003.tlg001:47405:epw,S3-052,ἕπω,ἐπισπόμενος,no,ἐφέπω,,no,ἐφέπομαι,,fail,drop
+tlg0005.tlg001:17309:ofellw,S3-053,ὀφέλλω,ὄφελλε,yes,,,yes,,,fail,drop
+tlg0019.tlg001:4829:qaomai,S3-054,θάομαι,θᾶσθε,yes,,,yes,,,fail,drop
+tlg0013.tlg005:331:geloiaw,S3-055,γελοιάω,γελοιήσασα,yes,,,yes,,,fail,drop
+tlg0011.tlg002:6477:qhbai,S3-056,θῆβαι,Θηβαΐας,no,Θηβαῖος,,no,Θηβαῖος,,fail,drop
+tlg2045.tlg001:8230:diasfairoomai,S3-058,διασφαιρόομαι,διεσφαίρωτο,yes,,,yes,,,fail,drop
+tlg0012.tlg001:48894:idrws,S3-059,ἱδρώς,ἱδρῶ,yes,,,yes,,,fail,drop
+tlg0005.tlg001:587:pratos,S3-061,πρᾶτος,πράτιστος,yes,,,yes,,,fail,drop
+tlg0085.tlg001:4856:pteroeis,S3-062,πτερόεις,πτεροῦντα,yes,,contracted πτερόεντα,no,πτερόω,,fail,drop
+tlg0012.tlg001:102436:fertatos,S3-064,φέρτατος,φέριστοι,no,φέριστος,,yes,,,fail,drop
+tlg0012.tlg001:59665:korennumi,S3-065,κορέννυμι,κορέεις,yes,,,yes,,,fail,drop
+tlg2046.tlg001:23417:dhiow,S3-066,δηϊόω,δῃώσασθαι,yes,,,yes,,,fail,drop
+tlg0012.tlg001:24385:xarizw,S3-067,χαρίζω,χαρίσαιτο,yes,,,yes,,,fail,drop
+tlg0012.tlg002:23622:esqw,S3-069,ἔσθω,ἐσθέμεναι,yes,,,yes,,,fail,drop
+tlg0543.tlg001:179574:purseia,S3-070,πυρσεία,πυρσοί,no,πυρσός,,no,πυρσός,,fail,drop
+tlg0024.tlg001:3336:megaklehs,S3-071,μεγακλεής,μεγακλέα,yes,,,yes,,,fail,drop
+tlg0023.tlg001:21326:mimnazw,S3-072,μιμνάζω,μίμναζε,yes,,,yes,,,fail,drop
+tlg0085.tlg005:7447:neiros,S3-073,νειρός,νείρᾳ,yes,,fem. = belly,yes,,,fail,drop
+tlg0012.tlg002:75954:uperfialos,S3-074,ὑπερφίαλος,ὑπερφιάλως,yes,,,yes,,,fail,drop
+tlg0001.tlg001:11746:daw,S3-075,δάω,δαείην,yes,,,yes,,,fail,drop
+tlg0012.tlg002:38529:damnaw,S3-076,δαμνάω,δαμνᾷ,yes,,,yes,,,fail,drop
+tlg0012.tlg001:39638:lexomai,S3-077,λέχομαι,λέξεο,yes,,,yes,,,fail,drop
+tlg0011.tlg002:6638:priamai,S3-080,πρίαμαι,πριαίμην,yes,,,yes,,,fail,drop
+tlg0012.tlg001:29310:meidaw,S3-081,μειδάω,μειδιόων,no,μειδιάω,,yes,,,fail,drop
+tlg0005.tlg001:1398:quw,S3-082,θύω,θυσῶ,yes,,,yes,,,fail,drop
+tlg0023.tlg001:19779:tufwn,S3-083,τυφῶν,Τυφάωνος,no,Τυφάων,proper name,no,Τυφάων,proper name,fail,drop
+tlg0012.tlg001:54857:artunw,S3-084,ἀρτύνω,ἀρτύναντες,yes,,,yes,,,fail,drop
+tlg0005.tlg001:14017:sunageirw,S3-085,συναγείρω,συνάγερθεν,yes,,,yes,,,fail,drop
+tlg0020.tlg001:3303:trafw,S3-087,τράφω,τραφέμεν,no,τρέφω,aor. inf.,yes,,,fail,drop
+tlg0012.tlg001:82500:sfeis,S3-088,σφεῖς,σφεων,yes,,,yes,,,fail,drop
+tlg0006.tlg003:8227:epeidon,S3-089,ἐπεῖδον,ἐπιδέσθαι,yes,,,yes,,,fail,drop
+tlg0019.tlg007:8682:umnew,S3-090,ὑμνέω,ὑμνίωμες,yes,,,yes,,,fail,drop
+tlg0024.tlg001:9420:tigris,S3-091,τίγρις,Τίγριδος,yes,,,yes,,,fail,drop
+tlg0016.tlg001:152024:paraskeuazw,S3-092,παρασκευάζω,παρεσκευάδατο,yes,,,yes,,,fail,drop
+tlg0003.tlg001:72662:eunoos,S3-093,εὔνοος,εὔνῳ,yes,,,yes,,,fail,drop
+tlg0012.tlg001:93894:qrusios,S3-094,θρύσιος,θρύον,no,θρύον,,no,θρύον,,fail,drop
+tlg0012.tlg001:97935:qanatos,S3-095,θάνατος,θάνατόνδε,yes,,-δε allative,yes,,,fail,drop
+tlg0012.tlg001:81165:arnumai,S3-096,ἄρνυμαι,ἀροίμην,yes,,,yes,,,fail,drop
+tlg0719.tlg002:16535:proqnhskw,S3-097,προθνῄσκω,προτεθνήσκουσι,yes,,,yes,,,fail,drop
+tlg0001.tlg001:38656:ennaiw,S3-098,ἐνναίω,ἐννάσσονται,yes,,,yes,,,fail,drop
+tlg0532.tlg001:24606:kenogamion,S3-099,κενογάμιον,Κενοτάφιον,no,κενοτάφιον,,no,κενοτάφιον,,fail,drop
+tlg0012.tlg001:59019:pleiwn,S3-100,πλείων,πλεόνεσσι,yes,,,yes,,,fail,drop
+tlg0020.tlg002:5444:enos,S3-101,ἕνος,ἔνη,yes,,ἕνη the old day,yes,,,fail,drop
+tlg0006.tlg014:8345:polus,S3-102,πολύς,πόλεων,no,πόλις,,no,πόλις,,fail,drop
+tlg0032.tlg007:60533:sterew,S3-103,στερέω,στέροιτο,yes,,,yes,,,fail,drop
+tlg0032.tlg007:69901:kashs,S3-104,κασῆς,κασᾶ,yes,,,yes,,low confidence,fail,drop
+tlg0557.tlg002:2903:episurw,S3-105,ἐπισύρω,ἐπισεσυρμένως,yes,,adv. of perf. part.,yes,,,fail,drop
+tlg0012.tlg002:4207:enepw,S3-106,ἐνέπω,ἐνίψω,yes,,,no,ἐνίπτω,,fail,drop
+tlg0012.tlg002:24372:ekas,S3-107,ἑκάς,ἑκαστέρω,yes,,,yes,,,fail,drop
+tlg0023.tlg001:8394:ferepteros,S3-108,φερέπτερος,φερεπτερύγων,no,φερεπτέρυξ,,no,φερέπτερος,compound φερεπτέρυξ type; different word,fail,drop
+tlg2045.tlg001:1387:mesopaghs,S3-109,μεσοπαγής,μεσσοπαγής,yes,,,yes,,,fail,drop
+tlg0019.tlg007:7370:orhmi,S3-110,ὄρημι,ὁρῆν,no,ὁράω,Laconian inf.,yes,,,fail,drop
+tlg0627.tlg028:2977:oisupoeis,S3-111,οἰσυπόεις,οἰσυποῦντα,yes,,contracted οἰσυπόεντα,yes,,,fail,drop
+tlg0012.tlg001:98216:aikhs,S3-112,ἀϊκής,ἀϊκῶς,yes,,,yes,,,fail,drop
+tlg0005.tlg001:9307:geuw,S3-113,γεύω,γεύμεθα,yes,,,yes,,,fail,drop
+tlg0033.tlg003:2696:troia,S3-115,τροία,Τρωΐαθεν,yes,,-θεν suffix,yes,,,fail,drop
+tlg0026.tlg002:7173:sumpareimi,S3-116,συμπάρειμι,συμπαρῄει,yes,,,yes,,,fail,drop
+tlg0012.tlg001:91903:porw,S3-117,πόρω,πορών,yes,,,yes,,,fail,drop
+tlg0031.tlg001:2198:apostasiou,S3-118,ἀποστασίου,ἀποστάσιον,yes,,,yes,,same noun ἀποστάσιον,fail,drop
+tlg0012.tlg001:81211:ethtumos,S3-119,ἐτήτυμος,ἐτήτυμον,yes,,,yes,,,fail,drop
+tlg0006.tlg019:1709:gorgw,S3-120,γοργώ,Γοργὼν,yes,,,yes,,,fail,drop
+tlg0012.tlg001:91851:gounoomai,S3-121,γουνόομαι,γουνοῦμαι,yes,,,yes,,,fail,drop
+tlg0003.tlg001:12855:timwrhteon,S3-122,τιμωρητέον,τιμωρητέα,yes,,,yes,,,fail,drop
+tlg0012.tlg001:39542:alalke,S3-123,ἄλαλκε,ἀλαλκών,yes,,,yes,,,fail,drop
+tlg0006.tlg014:2784:epaurew,S3-124,ἐπαυρέω,ἐπηυρόμην,yes,,,yes,,,fail,drop
+tlg0010.tlg011:9580:proapagoreuw,S3-125,προαπαγορεύω,προαπεῖπον,yes,,,yes,,,fail,drop
+tlg0012.tlg002:4596:asxalaw,S3-127,ἀσχαλάω,ἀσχάλλῃς,yes,,,yes,,,fail,drop
+tlg0085.tlg001:1590:exqos,S3-128,ἔχθος,ἔχθει,yes,,,yes,,,fail,drop
+tlg0014.tlg018:3539:parenoxlew,S3-129,παρενοχλέω,παρηνώχλησθε,yes,,,yes,,,fail,drop
+tlg0012.tlg001:15084:qarsew,S3-130,θαρσέω,θάρσει,yes,,,yes,,,fail,drop
+tlg0005.tlg001:9863:diaxraomai,S3-131,διαχράομαι,διαχρησεῖται,yes,,,yes,,,fail,drop
+tlg0012.tlg001:7944:muqeomai,S3-132,μυθέομαι,μυθήσομαι,yes,,,yes,,,fail,drop
+tlg0001.tlg001:9767:dhiow,S3-133,δηϊόω,δῃώσεσθαι,yes,,,yes,,,fail,drop
+tlg0001.tlg001:6343:eucenos,S3-134,εὔξενος,ἐυξείνως,yes,,,no,εὔξεινος,,fail,drop
+tlg0012.tlg002:19600:eruw,S3-135,ἐρύω,ἔρυσθαι,no,ῥύομαι,sense shelter,no,ἔρυμαι,sense protect; εἴρυμαι/ῥύομαι,fail,drop
+tlg0059.tlg030:78004:oligos,S3-136,ὀλίγος,ὀλίγιστον,yes,,,yes,,,fail,drop
+tlg0005.tlg001:4872:stornumi,S3-137,στόρνυμι,στορεσεῖν,yes,,,yes,,,fail,drop
+tlg0059.tlg004:13799:ilaos,S3-138,ἵλαος,ἵλεά,yes,,,yes,,,fail,drop
+tlg0020.tlg001:1885:medw,S3-139,μέδω,Μέδουσά,no,Μέδουσα,,no,Μέδουσα,proper name,fail,drop
+tlg0012.tlg002:54054:oinoxoeuw,S3-140,οἰνοχοεύω,οἰνοχοῆσαι,no,οἰνοχοέω,,no,οἰνοχοέω,,fail,drop
+tlg0012.tlg002:3515:doioi,S3-141,δοιοί,δοιά,yes,,,yes,,,fail,drop
+tlg0099.tlg001:267895:antibolh,S3-142,ἀντιβολή,ἀντιγράφων,no,ἀντιγράφω,,no,ἀντίγραφον,,fail,drop
+tlg0001.tlg001:17687:suneuadon,S3-143,συνεύαδον,συνεύαδε,yes,,,yes,,,fail,drop
+tlg0719.tlg002:12786:lipas,S3-144,λίπας,λίπας,yes,,,yes,,,fail,drop
+tlg0099.tlg001:97802:ecartaw,S3-145,ἐξαρτάω,ἐξῆρται,no,ἐξαίρω,,no,ἐξαίρω,,fail,drop
+tlg0059.tlg007:2448:epidapantikos,S3-146,ἐπιδαπαντικός,ἐπιδεικτικὴ,no,ἐπιδεικτικός,,no,ἐπιδεικτικός,,fail,drop
+tlg0001.tlg001:13857:hpeiros,S3-147,ἤπειρος,ἤπειρόνδε,yes,,,yes,,,fail,drop
+tlg0023.tlg001:10904:elmins,S3-148,ἕλμινς,ἑλμῖσι,yes,,,yes,,,fail,drop
+tlg0033.tlg002:3338:krinw,S3-149,κρίνω,κρίθεν,yes,,,yes,,,fail,drop
+tlg0058.tlg001:5713:stelea,S3-151,στελεά,στυρακίου,no,στυράκιον,,no,στύραξ,,fail,drop
+tlg0012.tlg001:51687:xazw,S3-153,χάζω,χάσσασθαι,yes,,,yes,,,fail,drop
+tlg0016.tlg001:65287:empiptw,S3-154,ἐμπίπτω,ἐμπεσὼν,yes,,,yes,,,fail,drop
+tlg0525.tlg001:94459:poikilos,S3-155,ποικίλος,Ποικίλῃ,no,Ποικίλη,Stoa Poikile,no,Ποικίλη,proper name Stoa,fail,drop
+tlg0032.tlg004:985:xrisma,S3-156,χρῖσμα,χρῖμα,no,χρῖμα,,no,χρῖμα,,fail,drop
+tlg0019.tlg003:373:klaiw,S3-157,κλαίω,κλαύσομαι,yes,,,yes,,,fail,drop
+tlg0010.tlg007:1737:filaitios,S3-158,φιλαίτιος,φιλεπιτιμητής,no,φιλεπιτιμητής,,no,φιλεπιτιμητής,,fail,drop
+tlg0012.tlg001:110733:lexomai,S3-159,λέχομαι,λέξο,yes,,,yes,,,fail,drop
+tlg0005.tlg001:4059:karneios,S3-160,κάρνειος,Κάρνεα,yes,,festival τὰ Κάρνεια,yes,,,fail,drop
+tlg0001.tlg001:14285:cunos,S3-161,ξυνός,ξυνῇ,yes,,,yes,,,fail,drop
+tlg0085.tlg002:4742:wmofrwn,S3-163,ὠμόφρων,ὠμοφρόνως,yes,,,yes,,,fail,drop
+tlg0032.tlg007:54653:loxagos,S3-165,λοχαγός,λόχος,no,λόχος,,no,λόχος,,fail,drop
+tlg0655.tlg001:4812:epagaiomai,S3-166,ἐπαγαίομαι,ἐπαγάσσατο,yes,,,yes,,,fail,drop
+tlg0019.tlg007:559:oiomai,S3-167,οἴομαι,οἰῶ,yes,,,yes,,,fail,drop
+tlg0026.tlg003:2591:tragwdos,S3-169,τραγῳδός,τραγῳδοῖς,yes,,,yes,,,fail,drop
+tlg0016.tlg001:30844:ardw,S3-170,ἄρδω,ἄρσῃ,yes,,,yes,,,fail,drop
+tlg0012.tlg001:46967:triptuxos,S3-171,τρίπτυχος,τρυφάλεια,no,τρυφάλεια,,no,τρυφάλεια,,fail,drop
+tlg0012.tlg002:7302:sfeis,S3-172,σφεῖς,σφεων,yes,,,yes,,,fail,drop
+tlg0023.tlg001:1081:amfiteinomai,S3-173,ἀμφιτείνομαι,ἀμφιταθεὶς,yes,,,yes,,,fail,drop
+tlg0012.tlg001:54832:xazw,S3-174,χάζω,χασσάμενος,yes,,,yes,,,fail,drop
+tlg0012.tlg001:220:saos,S3-175,σάος,σαώτερος,yes,,,yes,,,fail,drop
+tlg0028.tlg006:2954:parihmi,S3-176,παρίημι,παρεῖσαν,yes,,,yes,,,fail,drop
+tlg0005.tlg001:17684:tlaw,S3-177,τλάω,τλήμεναι,yes,,,yes,,,fail,drop
+tlg0005.tlg001:4865:kleiw,S3-178,κλείω,κλᾳξῶ,yes,,Doric fut.,yes,,,fail,drop
+tlg0033.tlg004:672:qereios,S3-179,θέρειος,θερείαις,yes,,,yes,,,fail,drop
+tlg0006.tlg012:7434:dioskoroi,S3-180,διόσκοροι,Διόσκοροι,yes,,,yes,,,fail,drop
+tlg0016.tlg001:42417:istaw,S3-182,ἱστάω,ἵστα,yes,,,yes,,,fail,drop
+tlg0033.tlg002:1918:sunihmi,S3-183,συνίημι,συνέμεν,yes,,,yes,,,fail,drop
+tlg0012.tlg002:77438:edw,S4-001,ἔδω,ἐδήδοται,yes,,pf. pass.,yes,,,pass,keep
+tlg0001.tlg001:25649:xreos,S4-002,χρέος,χρήεσσι,yes,,dat. pl. χρήεσσι (A.R.),yes,,χρῆος/χρέος need,pass,keep
+tlg0012.tlg001:10707:kurew,S4-003,κυρέω,κύρσας,yes,,aor. part. (κύρω stem),yes,,,pass,keep
+tlg0012.tlg001:80551:nhrhis,S4-004,νηρηΐς,Νηρηΐδες,yes,,,yes,,LSJ νηρηΐς entry,pass,keep
+tlg0031.tlg001:6375:katagnumi,S4-005,κατάγνυμι,κατεάξει,yes,,fut.,yes,,,pass,keep
+tlg0024.tlg001:12151:speos,S4-006,σπέος,σπέϊ,yes,,,yes,,,pass,keep
+tlg0011.tlg001:3367:fonh,S4-007,φονή,φονῶν,yes,,gen. pl. φοναί,yes,,,pass,keep
+tlg0099.tlg001:46870:tarixhih,S4-008,ταριχηΐη,ταριχεῖαι,yes,,Att. ταριχεία = Ion. ταριχηΐη,yes,,,pass,keep
+tlg0019.tlg002:683:spendw,S4-009,σπένδω,σπονδήν,no,σπονδή,noun,no,σπονδή,,pass,drop
+tlg0059.tlg004:10837:qrassw,S4-010,θράσσω,θρᾶττον,yes,,Att. θράττω part.,yes,,,pass,keep
+tlg0059.tlg030:27380:fulakeus,S4-011,φυλακεύς,φύλακες,no,φύλαξ,,no,φύλαξ,,pass,drop
+tlg0016.tlg001:164165:qumiaw,S4-013,θυμιάω,θυμιήματα,no,θυμίαμα,noun (Ion. θυμίημα),no,θυμίαμα,,pass,drop
+tlg0019.tlg007:8010:epei,S4-014,ἐπεί,ἐπὴν,yes,,crasis ἐπεὶ ἄν,yes,,,pass,keep
+tlg0012.tlg001:3722:oninhmi,S4-015,ὀνίνημι,ὄνησα,yes,,aor.,yes,,,pass,keep
+tlg0012.tlg001:28930:profrwn,S4-016,πρόφρων,προφρονέως,yes,,adverb,yes,,,pass,keep
+tlg0016.tlg001:119252:katerew,S4-017,κατερέω,κατειρήσεται,yes,,fut. pass.,yes,,,pass,keep
+tlg0031.tlg005:15491:terta,S4-018,τέρτα,Τέρτυλλος,no,Τέρτυλλος,proper name,no,Τέρτυλλος (proper name),,pass,drop
+tlg0012.tlg001:62723:eruw,S4-019,ἐρύω,ἐρύεσθαι,yes,,drag away,yes,,,pass,keep
+tlg0019.tlg007:2282:xrusolofos,S4-020,χρυσόλοφος,χρυσολόφα,yes,,voc. fem.,yes,,,pass,keep
+tlg0012.tlg002:19499:katadarqanw,S4-021,καταδαρθάνω,καταδράθω,yes,,aor. subj.,yes,,,pass,keep
+tlg0012.tlg001:13646:trepw,S4-022,τρέπω,τραπείομεν,no,τέρπω,aor. pass. subj. (metathesis),yes,,,pass,drop
+tlg0019.tlg009:5317:diaskopew,S4-023,διασκοπέω,διέσκεμμαι,yes,,suppletive pf. (σκέπτομαι stem),yes,,,pass,keep
+tlg0016.tlg001:33952:furaw,S4-024,φυράω,φυρῶσι,yes,,,yes,,,pass,keep
+tlg0033.tlg002:1732:peri,S4-025,περί,περάπτων,no,περιάπτω,,no,περιάπτω,,pass,drop
+tlg0011.tlg005:2223:eikaqein,S4-026,εἰκαθεῖν,εἰκαθεῖν,yes,,,yes,,,pass,keep
+tlg0019.tlg003:6380:klaiw,S4-027,κλαίω,κλαύσει,yes,,fut.,yes,,,pass,keep
+tlg0012.tlg001:37519:eorga,S4-028,ἔοργα,ἐοργώς,yes,,,yes,,,pass,keep
+tlg0012.tlg001:58969:tiqhmi,S4-029,τίθημι,τιθεῖ,yes,,,yes,,,pass,keep
+tlg0001.tlg001:16983:eruw,S4-030,ἐρύω,ἔρυται,no,ῥύομαι,ἔρυμαι 'guard',no,ῥύομαι/ἐρύομαι (protect),,pass,drop
+tlg0011.tlg005:5158:kateidon,S4-032,κατεῖδον,κατειδόμην,yes,,,yes,,,pass,keep
+tlg0551.tlg009:22257:diatetrainw,S4-033,διατετραίνω,διετίτρη,yes,,impf. via τιτράω,yes,,διατιτράω impf,pass,keep
+tlg0014.tlg050:1726:penthkontarxew,S4-034,πεντηκονταρχέω,πεντηκόνταρχος,no,πεντηκόνταρχος,noun,no,πεντηκόνταρχος,,pass,drop
+tlg0059.tlg030:21511:troxileion,S4-035,τροχιλεῖον,τροχιλιῶν,no,τροχιλία,,no,τροχιλία,,pass,drop
+tlg0627.tlg030:1336:xliaros,S4-037,χλιαρός,χλιηρῶς,yes,,adverb Ion.,yes,,,pass,keep
+tlg0006.tlg002:6196:proseoika,S4-038,προσέοικα,προσήιξαι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:34350:lita,S4-039,λῖτα,λῖτα,yes,,,yes,,,pass,keep
+tlg0012.tlg001:46968:trufaleia,S4-040,τρυφάλεια,τρίπτυχος,no,τρίπτυχος,,no,τρίπτυχος,,pass,drop
+tlg0019.tlg003:10162:diwkaqw,S4-041,διωκάθω,διωκάθω,yes,,,yes,,,pass,keep
+tlg0005.tlg001:12915:latmios,S4-042,λάτμιος,λάθριον,no,λάθριος,,no,λάθριος,,pass,drop
+tlg0012.tlg001:46721:tlaw,S4-044,τλάω,τλήσομαι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:79807:dakruon,S4-045,δάκρυον,δακρυόφι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:99435:edw,S4-047,ἔδω,ἔδεσκε,yes,,,yes,,,pass,keep
+tlg0012.tlg001:5220:eratuw,S4-048,ἐρατύω,ἐρήτυθεν,yes,,,yes,,,pass,keep
+tlg0085.tlg005:981:peripeths,S4-049,περιπετής,πέπλοισι,no,πέπλος,,no,πέπλος,,pass,drop
+tlg0019.tlg006:2508:eleleu,S4-050,ἐλελεῦ,ἐλελελεῦ,yes,,variant cry,yes,,,pass,keep
+tlg0006.tlg017:7287:proseoika,S4-051,προσέοικα,προσεικέναι,yes,,,yes,,,pass,keep
+tlg0013.tlg002:2777:kallirroos,S4-052,καλλίρροος,Καλλιρόη,no,Καλλιρρόη,proper name,no,Καλλιρόη (name),,pass,drop
+tlg0006.tlg016:9279:proskunew,S4-053,προσκυνέω,προσπίτνων,no,προσπίτνω,,no,προσπίτνω,,pass,drop
+tlg0543.tlg001:78430:patrai,S4-054,πάτραι,Πατρέων,no,Πατρεύς,ethnic gen. pl.,no,Πατρεύς,,pass,drop
+tlg0059.tlg005:6272:opou,S4-055,ὅπου,ὁπουοῦν,no,ὁπουοῦν,,yes,,ὅπου+οὖν,pass,drop
+tlg0005.tlg001:1698:qaomai,S4-056,θάομαι,θάσασθαι,yes,,Dor. aor.,yes,,,pass,keep
+tlg0032.tlg002:15387:xlamudopoiia,S4-057,χλαμυδοποιία,χλαμύδες,no,χλαμύς,,no,χλαμύς,,pass,drop
+tlg0006.tlg016:8848:eupac,S4-058,εὐπάξ,εὐπαγεῖ,no,εὐπαγής,,no,εὐπαγής,,pass,drop
+tlg0012.tlg001:37636:polemizw,S4-059,πολεμίζω,πολεμιζέμεναι,yes,,,yes,,,pass,keep
+tlg0016.tlg001:23080:asth,S4-060,ἀστή,ἀστὸς,no,ἀστός,masculine,no,ἀστός,,pass,drop
+tlg0019.tlg010:5707:enos,S4-061,ἔνος,ἔνης,yes,,ἔνης 'day after tomorrow',yes,,ἔνη fem of ἔνος,pass,keep
+tlg0012.tlg001:70191:eramai,S4-062,ἔραμαι,ἐράασθε,yes,,,yes,,,pass,keep
+tlg0653.tlg001:5842:dixaw,S4-063,διχάω,διχόωνται,yes,,,yes,,,pass,keep
+tlg0012.tlg002:57528:frazw,S4-065,φράζω,φράσσομαι,yes,,,yes,,,pass,keep
+tlg0016.tlg001:112054:meqihmi,S4-066,μεθίημι,μεμετιμένος,yes,,Ion. pf. part. pass.,yes,,,pass,keep
+tlg0016.tlg001:47359:sunnew,S4-067,συννέω,συννενέαται,yes,,,yes,,,pass,keep
+tlg0653.tlg001:6125:afantow,S4-068,ἀφαντόω,ἄφαντος,no,ἄφαντος,,no,ἄφαντος,,pass,drop
+tlg0016.tlg001:32575:kalws,S4-069,κάλως,κατεῖναι,no,καθίημι,Ion. κατίημι aor. inf.,no,κατίημι,,pass,drop
+tlg0085.tlg003:3530:qrassw,S4-070,θράσσω,θρᾶξαι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:14755:eruw,S4-072,ἐρύω,ἔρυτο,no,ῥύομαι,ἔρυμαι 'protect',no,ῥύομαι/ἐρύομαι (protect),,pass,drop
+tlg0005.tlg001:16878:saos,S4-073,σάος,σαώτερος,yes,,comparative,yes,,,pass,keep
+tlg0024.tlg001:3350:icuoqen,S4-074,ἰξυόθεν,ἰξυόφιν,no,ἰξύς,-φιν form,no,ἰξύς,,pass,drop
+tlg0012.tlg002:16739:nhmerths,S4-075,νημερτής,νημερτέως,yes,,adverb,yes,,,pass,keep
+tlg0627.tlg006:7408:uperpolus,S4-077,ὑπέρπολυς,ὑπέρπουλυ,yes,,Ion.,yes,,,pass,keep
+tlg0099.tlg001:219828:lusiwdos,S4-078,λυσιῳδός,Λῦσις,no,Λῦσις,proper name,no,Λῦσις (name),,pass,drop
+tlg0016.tlg001:177148:neikew,S4-079,νεικέω,νεικέων,yes,,participle,yes,,,pass,keep
+tlg0019.tlg010:7651:pan,S4-081,πάν,Πᾶνες,yes,,pl. of Πάν,no,Πάν,,pass,drop
+tlg0012.tlg001:20328:mayidios,S4-082,μαψίδιος,μαψιδίως,yes,,adverb,yes,,,pass,keep
+tlg0099.tlg001:74915:pelargos,S4-083,πελαργός,Πελασγός,no,Πελασγός,proper name,no,Πελασγός,,pass,drop
+tlg0012.tlg001:35176:prwn,S4-084,πρών,πρώονες,yes,,,yes,,,pass,keep
+tlg0012.tlg002:26356:paizw,S4-085,παίζω,παίσατε,yes,,aor.,yes,,,pass,keep
+tlg0006.tlg018:8754:ampexw,S4-086,ἀμπέχω,ἀμπίσχῃ,yes,,by-form ἀμπίσχω,yes,,,pass,keep
+tlg0023.tlg001:6889:fwleos,S4-087,φωλεός,φωλειοῖο,yes,,,yes,,,pass,keep
+tlg0012.tlg001:51588:tarfus,S4-088,ταρφύς,ταρφειὰς,yes,,,yes,,,pass,keep
+tlg0016.tlg001:27167:dendreon,S4-089,δένδρεον,δενδρέων,yes,,,yes,,,pass,keep
+tlg0016.tlg001:158495:kranaos,S4-090,κραναός,Κραναοί,no,Κραναοί,ethnic name,yes,,LSJ files Κραναοί under κραναός,pass,drop
+tlg0033.tlg001:1174:fwnheis,S4-091,φωνήεις,φωνᾶντα,yes,,contracted form,yes,,,pass,keep
+tlg0012.tlg002:10812:erion,S4-092,ἔριον,ἐρίοιο,yes,,,yes,,,pass,keep
+tlg0016.tlg001:30847:ardw,S4-095,ἄρδω,ἄρσας,yes,,aor. part.,yes,,,pass,keep
+tlg0012.tlg001:40152:katalexomai,S4-096,καταλέχομαι,κατελέξατο,yes,,,yes,,,pass,keep
+tlg0012.tlg002:28340:eisanagw,S4-097,εἰσανάγω,εἴρερον,no,εἴρερος,,no,εἴρερος,,pass,drop
+tlg0012.tlg002:42055:pericestos,S4-098,περιξεστός,πέτρη,no,πέτρα,,no,πέτρα,,pass,drop
+tlg0005.tlg001:599:eramai,S4-099,ἔραμαι,ἐρᾶσαι,yes,,2 sg.,yes,,,pass,keep
+tlg0012.tlg002:41742:perainw,S4-100,περαίνω,πεπείρανται,yes,,,yes,,,pass,keep
+tlg0019.tlg006:6703:epei,S4-101,ἐπεί,ἐπὴν,yes,,crasis ἐπεὶ ἄν,yes,,,pass,keep
+tlg0059.tlg034:48692:genesios,S4-102,γενέσιος,γενέθλια,no,γενέθλιος,,no,γενέθλιος,,pass,drop
+tlg0027.tlg001:8840:parasullegomai,S4-103,παρασυλλέγομαι,παρασυλλεγέντες,yes,,,yes,,,pass,keep
+tlg0005.tlg001:4602:flaw,S4-104,φλάω,φλάσσαιμι,yes,,,yes,,,pass,keep
+tlg0005.tlg001:10014:eimi,S4-105,εἰμί,εἰμές,yes,,Dor. 1 pl.,yes,,,pass,keep
+tlg0006.tlg009:5263:lazomai,S4-107,λάζομαι,λάζυσθαι,yes,,λάζυμαι by-form,yes,,,pass,keep
+tlg0059.tlg034:59173:maqhteos,S4-108,μαθητέος,μαθητέον,yes,,,yes,,,pass,keep
+tlg0016.tlg001:31304:iqus,S4-109,ἰθύς,ἰθέα,yes,,Ion. fem.,yes,,,pass,keep
+tlg0033.tlg002:5536:empiptw,S4-110,ἐμπίπτω,ἔμπετες,yes,,,yes,,,pass,keep
+tlg0099.tlg001:126249:dwdwnh,S4-111,δωδώνη,Δωδὼ,no,Δωδώ,variant name,no,Δωδώ,,pass,drop
+tlg0020.tlg002:3790:skepas,S4-113,σκέπας,σκέπα,yes,,,yes,,,pass,keep
+tlg0019.tlg008:7455:orxeomai,S4-114,ὀρχέομαι,ὀρκῆσι,yes,,Scythian ὀρχήσει,yes,,,pass,keep
+tlg0016.tlg001:146495:upisxneomai,S4-115,ὑπισχνέομαι,ὑπίσχοντο,yes,,Ion. ὑπίσχομαι,yes,,,pass,keep
+tlg0033.tlg002:5173:tiqhmi,S4-116,τίθημι,τιθεῖς,yes,,,yes,,,pass,keep
+tlg0012.tlg001:78861:dhiow,S4-117,δηϊόω,δηϊόων,yes,,,yes,,,pass,keep
+tlg0085.tlg005:4819:umnos,S4-118,ὕμνος,ὑμνῳδεῖ,no,ὑμνῳδέω,,no,ὑμνῳδέω,,pass,drop
+tlg0012.tlg001:73934:xazw,S4-119,χάζω,χάζετο,yes,,,yes,,,pass,keep
+tlg0012.tlg002:41719:proslexomai,S4-120,προσλέχομαι,προσέλεκτο,yes,,,yes,,,pass,keep
+tlg0006.tlg016:10497:oninhmi,S4-121,ὀνίνημι,ὄναιο,yes,,,yes,,,pass,keep
+tlg2045.tlg001:33083:mhlea,S4-122,μηλέα,μηλείῃ,yes,,,yes,,,pass,keep
+tlg0024.tlg001:798:simblos,S4-123,σίμβλος,σίμβλα,yes,,neut. pl. σίμβλα,yes,,,pass,keep
+tlg0012.tlg001:75318:dhiow,S4-124,δηϊόω,δῃῶν,yes,,,yes,,,pass,keep
+tlg0019.tlg001:7219:neifw,S4-125,νείφω,νείφει,yes,,,yes,,,pass,keep
+tlg0033.tlg001:1234:prapides,S4-126,πραπίδες,πραπίσιν,yes,,,yes,,,pass,keep
+tlg0019.tlg006:1744:torotic,S4-127,τοροτίξ,τοροτοροτοροτορολιλιλίξ,no,τοροτοροτοροτορολιλιλίξ,different bird cry,yes,,birdsong variant,pass,drop
+tlg0085.tlg001:3388:promhqeus,S4-128,προμηθεύς,προμαθὶς,no,προμηθής,Dor. fem. προμαθίς,no,προμαθίς,,pass,drop
+tlg0006.tlg015:8794:propas,S4-129,πρόπας,πρόπαν,yes,,,yes,,,pass,keep
+tlg0019.tlg004:8668:maqhteos,S4-130,μαθητέος,μαθητέον,yes,,,yes,,,pass,keep
+tlg0006.tlg014:2450:ampexw,S4-131,ἀμπέχω,ἀμπίσχομαι,yes,,by-form ἀμπίσχω,yes,,,pass,keep
+tlg0020.tlg002:4479:arnumai,S4-132,ἄρνυμαι,ἄρηαι,yes,,,yes,,,pass,keep
+tlg0001.tlg001:5899:mnaomai,S4-133,μνάομαι,μνώεο,yes,,'remember',yes,,,pass,keep
+tlg0031.tlg019:2500:ilasthrios,S4-134,ἱλαστήριος,ἱλαστήριον,yes,,,yes,,,pass,keep
+tlg2046.tlg001:22917:epibraxein,S4-135,ἐπιβραχεῖν,ἐπέβραχε,yes,,,yes,,,pass,keep
+tlg0006.tlg015:4984:parihmi,S4-136,παρίημι,παρεῖμαι,yes,,pf. pass.,yes,,,pass,keep
+tlg0005.tlg001:4582:flaw,S4-137,φλάω,φλασσῶ,yes,,,yes,,,pass,keep
+tlg0032.tlg001:8546:sumpareimi,S4-138,συμπάρειμι,συμπαρῄει,yes,,,yes,,,pass,keep
+tlg0012.tlg001:11984:pepnumai,S4-139,πέπνυμαι,πεπνυμένος,yes,,,yes,,,pass,keep
+tlg0012.tlg001:35267:ahmi,S4-140,ἄημι,ἄητον,yes,,,yes,,,pass,keep
+tlg0012.tlg002:67749:meteipon,S4-141,μετεῖπον,μετέειπον,yes,,,yes,,,pass,keep
+tlg0006.tlg018:6362:anaklazw,S4-142,ἀνακλάζω,ἀνέκλαγον,yes,,,yes,,,pass,keep
+tlg0014.tlg063:4671:sunexw,S4-143,συνέχω,συνέξομαι,yes,,,yes,,,pass,keep
+tlg0001.tlg001:16337:kedannumi,S4-145,κεδάννυμι,κεκέδαστο,yes,,,yes,,,pass,keep
+tlg0059.tlg005:16548:sklhrothr,S4-146,σκληρότηρ,σκληρότης,no,σκληρότης,,no,σκληρότης,,pass,drop
+tlg0012.tlg002:11997:algiwn,S4-148,ἀλγίων,ἄλγιον,yes,,,yes,,,pass,keep
+tlg0012.tlg002:68077:krhth,S4-149,κρήτη,Κρήτηνδε,yes,,,yes,,,pass,keep
+tlg0019.tlg004:8329:lagws,S4-150,λαγώς,λαγών,yes,,,yes,,,pass,keep
+tlg0019.tlg001:5524:xan,S4-151,χάν,χᾶνας,yes,,,yes,,,pass,keep
+tlg0012.tlg002:3420:oninhmi,S4-152,ὀνίνημι,ὀνήμενος,yes,,,yes,,,pass,keep
+tlg0012.tlg002:18151:elaunw,S4-154,ἐλαύνω,ἐλάαν,yes,,,yes,,,pass,keep
+tlg0012.tlg001:83189:zwon,S4-156,ζῷον,ζῳάγρια,no,ζῳάγρια,,no,ζῳάγρια,,pass,drop
+tlg0059.tlg004:20813:metamelei,S4-157,μεταμέλει,μεταμέλον,yes,,,yes,,,pass,keep
+tlg0032.tlg004:8586:hdugnwmwn,S4-158,ἡδυγνώμων,ἡδυσώματος,no,ἡδυσώματος,,no,ἡδυσώματος,,pass,drop
+tlg0085.tlg004:4021:tiw,S4-160,τίω,τίον,yes,,,yes,,,pass,keep
+tlg0019.tlg008:4454:diaskopew,S4-161,διασκοπέω,διεσκέφθαι,yes,,suppletive pf. (σκέπτομαι stem),yes,,,pass,keep
+tlg0012.tlg002:84755:frazw,S4-163,φράζω,φράσσεται,yes,,,yes,,,pass,keep
+tlg0032.tlg006:50333:magadis,S4-164,μάγαδις,μαγάδι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:36369:basileus,S4-165,βασιλεύς,βασιλεύτερός,no,βασιλεύτερος,,yes,,,pass,drop
+tlg0033.tlg003:4698:skamma,S4-166,σκάμμα,σκάπτῳ,no,σκῆπτρον,Dor. σκᾶπτον,no,σκῆπτρον,,pass,drop
+tlg0033.tlg004:2411:puqoi,S4-168,πυθοῖ,Πυθόϊ,no,Πυθώ,,yes,,,pass,drop
+tlg0525.tlg001:96359:iktin,S4-169,ἰκτίν,ἰκτῖνες,yes,,,yes,,,pass,keep
+tlg0032.tlg007:69921:kashs,S4-170,κασῆς,κασᾶν,yes,,,unsure,,,pass,drop
+tlg0019.tlg006:4902:aghraos,S4-171,ἀγήραος,ἀγήρῳς,yes,,,yes,,ἀγήρως contracted,pass,keep
+tlg0033.tlg001:2991:daw,S4-172,δάω,δαέντι,yes,,,yes,,,pass,keep
+tlg0059.tlg034:75007:biow,S4-173,βιόω,βιῷ,yes,,,yes,,,pass,keep
+tlg0012.tlg002:49638:einaeths,S4-174,εἰναετής,εἰνάετες,yes,,,yes,,,pass,keep
+tlg0012.tlg002:20798:makar,S4-175,μάκαρ,μακάρτατος,yes,,superlative,yes,,,pass,keep
+tlg0024.tlg001:13163:ofrus,S4-176,ὀφρῦς,ὀφρύα,yes,,,yes,,,pass,keep
+tlg0012.tlg001:71699:daw,S4-177,δάω,δαείω,yes,,,yes,,,pass,keep
+tlg0019.tlg009:6283:dieidon,S4-178,διεῖδον,διειδέναι,unsure,,pf. inf. of διοῖδα; LSJ filing unclear,no,διοῖδα,"perf inf διοῖδα, not aor",pass,drop
+tlg0012.tlg002:13162:lexomai,S4-179,λέχομαι,λέκτο,yes,,,yes,,,pass,keep
+tlg0001.tlg001:15745:ayeghs,S4-180,ἀψεγής,ἀψεγέως,yes,,,yes,,,pass,keep
+tlg0012.tlg002:47433:trieths,S4-181,τριέτης,τρίετες,yes,,,yes,,,pass,keep
+tlg0012.tlg001:39871:medw,S4-182,μέδω,μεδήσομαι,yes,,,yes,,,pass,keep
+tlg0012.tlg001:50813:artunw,S4-183,ἀρτύνω,ἀρτύναντες,yes,,,yes,,,pass,keep

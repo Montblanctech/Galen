@@ -5,6 +5,12 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased]
 
+## [3.2.0] — 2026-11-11
+
+### Changed
+- **LSJ-Gold 0.1.2** (`release/lsj-gold-0.1.2/`, `pipeline/lsjgold/recheck_0_1_2.py`, `release_0_1_2.py`, record in `data/qc/lsjgold/recheck_0_1_2/`): 70,198 loci over 54 authors (0.1.1: 71,974). (1) The 652 loci that rested only on the single word LSJ quotes where Dilemma gives the form another lemma were read blind by two readers (Claude Opus and Sonnet) with salted anchors and near-miss plants, under a rule fixed before reading: kept only if both say yes. 339 kept, 313 dropped; one sheet failed its anchor gate twice and all its 163 loci are dropped, as the rule says. (2) 1,364 rows that repeated a locus are removed: those loci counted twice. (3) 49 tokens gold under two different headwords (99 rows) are set aside. Every system rescored on the same outputs: Stoicheia 92.8, Dilemma 92.8, Stanza-Perseus 84.8, odyCy 82.5, Stanza-PROIEL 79.6. The read touched only loci Dilemma disagreed with, so Dilemma's once-cited figure rises most (89.0 to 92.3); the release card gives a sensitivity figure and a sample read of kept and dropped loci. 0.1 and 0.1.1 stay as published.
+- Audit kit 0.3.2: packaged gold is LSJ-Gold 0.1.2. The leaderboard, failure catalogue, medical-gap package and coverage page are rebuilt on it.
+
 ### Added
 - **Headline figures from one file** (`galen-density-map/facts.json`, `pipeline/facts.py`): every headline figure (works drafted, Greek words, findings, LSJ-Gold and LS-Gold sizes and scores, lexicon pairs, census totals) is computed from the files it describes; the front page reads it. `facts.py check` fails on any public text that still carries an old value of a figure, or a phrase naming a figure that does not match; it runs on every pull request (`.github/workflows/facts-check.yml`). History kept on purpose is listed, line by line, in `facts_allow.tsv`.
 - **Census checked against the files** (`phase1/census_file_check.py`): three columns (`greek_words_in_file`, `books_in_file`, `catalog_note`) beside Open Greek and Latin's catalog values. Six catalog entries disagree with their files; the worst, *De simplicium medicamentorum* (tlg075), is catalogued as books I–VI and 66,926 words but holds books I–XI and 133,948 Greek words. The census note that First1KGreek carries only books I–VI was wrong and is corrected.

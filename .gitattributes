@@ -2,3 +2,4 @@
 # is computed on those bytes. Never convert their line endings on checkout or commit.
 # 0.1 is left as published: its checksums were computed on a CRLF checkout (see release/lsj-gold-0.1).
 release/lsj-gold-0.1.1/** -text
+release/lsj-gold-0.1.2/** -text

@@ -1,0 +1,78 @@
+{
+ "gates": {
+  "1A": {
+   "anchors_yes": 9,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  },
+  "1B": {
+   "anchors_yes": 9,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  },
+  "2A": {
+   "anchors_yes": 10,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  },
+  "2B": {
+   "anchors_yes": 10,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  },
+  "3A": {
+   "anchors_yes": 8,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": false
+  },
+  "3A_r2": {
+   "anchors_yes": 8,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": false
+  },
+  "3B": {
+   "anchors_yes": 8,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": false
+  },
+  "3B_r2": {
+   "anchors_yes": 9,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  },
+  "4A": {
+   "anchors_yes": 10,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  },
+  "4B": {
+   "anchors_yes": 10,
+   "plants_no": 10,
+   "missing": 0,
+   "pass": true
+  }
+ },
+ "weak_loci": 652,
+ "kept": 339,
+ "dropped": 313,
+ "answer_pairs_A_B": {
+  "yes/yes": 456,
+  "no/no": 126,
+  "no/yes": 35,
+  "yes/no": 11,
+  "no/unsure": 10,
+  "yes/unsure": 9,
+  "unsure/unsure": 2,
+  "unsure/no": 2,
+  "unsure/yes": 1
+ }
+}
