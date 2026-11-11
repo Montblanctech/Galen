@@ -3,6 +3,12 @@
 All notable changes to this project. Format loosely follows Keep a Changelog; versions are
 dated on release and each gets a Zenodo DOI.
 
+## [3.1.3] — 2026-11-11
+
+### Fixed
+- **LSJ-Gold lexicon 0.1.2** (`release/lsj-gold-lexicon-0.1.2/`, `pipeline/lsjgold/lexicon_review.py`): 0.1.1 with its weakest 617 pairs set aside in `review_pairs.tsv`: the 616 pairs that rest only on the single word LSJ quotes and that Dilemma 1.3.15 lemmatizes differently, and one pair found wrong by reading (πόλεων under πολύς). In samples read, 10 of 68 such pairs were wrong (LSJ quoting a related word, e.g. δήμαρχος in the entry δημαρχέω), against 1 of 132 Morpheus-validated pairs where Dilemma differs and none of 80 quoted-only pairs where it agrees. 29,241 pairs remain; Dilemma only sets pairs aside, never adds or changes one. The README also states the homograph limit (ἄξειν is listed under ἄγνυμι, the only headword LSJ cites it for). 0.1 and 0.1.1 unchanged.
+- Known residual errors in LSJ-Gold 0.1.1, stated in the lexicon 0.1.2 README: the 651 loci behind the 616 quoted-only pairs are of the same kind, so roughly 100 of 71,974 loci (about 0.1%) may carry a wrong gold. LSJ-Gold 0.1.1's files are unchanged (its README is covered by its checksums).
+
 ## [3.1.2] — 2026-11-11
 
 ### Fixed

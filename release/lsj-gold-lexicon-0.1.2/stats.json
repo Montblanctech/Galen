@@ -1,0 +1,11 @@
+{
+ "source": "lsj-gold-lexicon-0.1.1",
+ "lexicon_all_rows": 29241,
+ "lexicon_train_rows": 26398,
+ "lexicon_heldout_rows": 2843,
+ "review_pairs": 617,
+ "lexicon_headwords": 10076,
+ "rows_with_morpheus_validation": 26862,
+ "heldout_headwords": 978,
+ "train_headwords": 9098
+}
