@@ -139,7 +139,8 @@ def cards(prefix: str) -> str:
         page = next((f.name for f in sorted((FD / slug).glob("book-*.html")) if f'id="{uid}"' in f.read_text(encoding="utf-8")), "")
         out.append(f'<a class=card href="{prefix}{slug}/{page}#{esc(uid)}"><h3>{esc(w["title_eng"])}</h3><div class=lat>{esc(w["title_lat"])}</div>'
                    f'<blockquote>“{esc(q[0].upper() + q[1:])}”</blockquote>'
-                   f'<div class=meta><span>{n_words:,} Greek words · Kühn {esc(w["kuhn_vol"])}</span><span class=go>Read →</span></div></a>')
+                   + (f'<div class=lat>{esc(w["authorship"])}</div>' if w.get("authorship") else "")
+                   + f'<div class=meta><span>{n_words:,} Greek words · Kühn {esc(w["kuhn_vol"])}</span><span class=go>Read →</span></div></a>')
     return "<div class=grid>" + "".join(out) + "</div>"
 
 
@@ -234,7 +235,7 @@ def main() -> None:
 
 <section><div class=wrap>
 <div class=kicker>The works</div>
-<h2>{N_W.capitalize()} books, in Galen's own voice</h2>
+<h2>{N_W.capitalize()} works from the Galenic corpus</h2>
 <p class=intro>Each quotation below is copied from the draft as it stands, from a passage that passed all the machine checks. Click a card to start reading there.</p>
 {cards("first-drafts/")}
 <p class=warn>These are machine first drafts. No scholar has checked them yet; they are for reading and for correcting, not for quoting as Galen's words. Every page keeps the Greek, a second translation and the checks one click away, under <em>Scholar view</em>.</p>
@@ -244,9 +245,9 @@ def main() -> None:
 <div><div class=kicker>Why nobody had done it</div>
 <h2>Galen's words fall through the dictionary</h2>
 <p>Galen wrote in a specialist Greek full of drug names, anatomy and rare technical words. The standard Greek–English dictionary (LSJ) covers many of those words thinly or not at all. That gap makes him hard to translate, for people and for machines: earlier research found that the rarer a passage's terminology, the worse machine translation of Galen does.</p>
-<p class=sans style="font-size:15px;color:var(--muted)">From the project's list of {total:,} words that are distinctive to Galen and thinly glossed, checked by hand. <a href="galen-terms/">Look any word up in the Term Explorer</a>.</p></div>
+<p class=sans style="font-size:15px;color:var(--muted)">From the project's list of {total:,} words that are distinctive to Galen and thinly glossed, sorted by machine (the lemmatizer Dilemma and two model readers), not yet checked by a person. <a href="galen-terms/">Look any word up in the Term Explorer</a>.</p></div>
 <div><div class=bar>{seg(thin, "var(--thin)")}{seg(none_, "var(--none)")}{seg(art, "var(--rule)")}</div>
-<ul class=legend><li><i style="background:var(--thin)"></i><b>{thin:,}</b> real words with only a thin, one-sense entry</li><li><i style="background:var(--none)"></i><b>{none_:,}</b> real words with no entry at all</li><li><i style="background:var(--rule)"></i><b>{art:,}</b> false alarms from the software, set aside</li></ul></div>
+<ul class=legend><li><i style="background:var(--thin)"></i><b>{thin:,}</b> words with only a thin, one-sense entry</li><li><i style="background:var(--none)"></i><b>{none_:,}</b> words with no entry in the digital LSJ</li><li><i style="background:var(--rule)"></i><b>{art:,}</b> probable software errors, set aside</li></ul></div>
 </div></div></section>
 
 <section id=how><div class=wrap>
@@ -254,9 +255,9 @@ def main() -> None:
 <h2>How they were made</h2>
 <ol class=steps>
 <li><b>The Greek</b>The text comes from Kühn's 1820s edition, as digitised by the First1KGreek project, and is shown beside every passage.</li>
-<li><b>Two translations</b>Two different language models translated each passage separately, with the same plain instructions and no help.</li>
+<li><b>Two translations</b>Two language models (both Anthropic's) translated each passage separately, with the same instructions, the neighbouring passages for context, and no dictionary or glossary.</li>
 <li><b>Three checks</b>Each passage is translated back into Greek, the two versions are compared term by term, and a model judge tests the technical terms against the dictionary.</li>
-<li><b>Failures kept</b>Nothing is hidden or smoothed over. Passages that fail the checks stay on the page, marked, so a reader knows where to be careful.</li>
+<li><b>Failures kept</b>Nothing is hidden or smoothed over. Passages that fail the checks stay on the page, marked. The checks are automated agreement tests, not a reading of the Greek: a mark says the machines disagreed, and an unmarked passage has not been checked by a person either.</li>
 </ol>
 <p class=warn>Found a mistake? <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>; that is what these drafts are for.</p>
 </div></section>
@@ -266,14 +267,14 @@ def main() -> None:
 <h2>Data, benchmarks and tools</h2>
 <ul class=tools>
 <li><a class=t href="lsj-gold/">LSJ-Gold leaderboard</a> — lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek (LSJ-Gold 0.1.1: 71,974 relocated loci over 54 authors, CC BY 4.0). <a href="lsj-gold/leaderboard.json">JSON</a>.</li>
-<li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites (161,032 relocated loci over 33 authors, validated by Collatinus and Whitaker's Words, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
+<li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites (161,032 relocated loci over 33 authors, validated by Collatinus and Whitaker's Words, 480 of them by the form Lewis &amp; Short quotes, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
 <li><a class=t href="galen-terms/">Galen Term Explorer</a> — any Galenic word: keyness, LSJ tier, Dilemma headword, punch-list label, contexts, Kühn loci.</li>
 <li><a class=t href="terms/">Term Explorer for further authors</a> — Diophantus, John Philoponus, Philodemus.</li>
 <li><a class=t href="first-drafts/">The drafts index</a> — all {N_W} works with unit counts and check failures.</li>
 </ul>
 </div></section>
 
-<footer><div class=wrap>Galen First Drafts by William Pepperman, Galen Density Project. Every number on these pages traces to a file in <code>galen-density-map/</code>. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Audit kit: <code>pip install &quot;git+https://github.com/Montblanctech/Galen#subdirectory=audit-kit&quot;</code>. Cite the concept DOI <a href="https://doi.org/10.5281/zenodo.21561962">10.5281/zenodo.21561962</a> (v3.0: <a href="https://doi.org/10.5281/zenodo.24046260">10.5281/zenodo.24046260</a>). Visits are counted with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</div></footer>
+<footer><div class=wrap>Galen First Drafts by William Pepperman, Galen Density Project. Every number on these pages traces to a file in <code>galen-density-map/</code>. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Audit kit: <code>pip install &quot;git+https://github.com/Montblanctech/Galen#subdirectory=audit-kit&quot;</code>. Cite the concept DOI <a href="https://doi.org/10.5281/zenodo.21561962">10.5281/zenodo.21561962</a>, which always resolves to the latest version. Visits are counted with Cloudflare Web Analytics, which sets no cookies and collects no personal data.</div></footer>
 </body></html>
 """
     (DOCS / "index.html").write_text(page, encoding="utf-8")
@@ -297,6 +298,7 @@ def main() -> None:
 <div class=kicker>Details</div>
 <h2>All {N_W}, with their numbers</h2>
 <ul class=tools>{"".join(rows)}</ul>
+<p class=warn>A sample read (2026-11-11): 39 passages, three from each work chosen at random, were read against the Greek by a model reader, not a scholar. 35 were faithful, 4 had minor slips (in the two Hippocratic commentaries, e.g. the midday meal given as "the morning meal"), none was seriously wrong. The check marks did not predict the slips. The full record, with the corrections it led to: <a href="https://github.com/Montblanctech/Galen/blob/master/firstdrafts_sample_read_2026-11-11.md">firstdrafts_sample_read_2026-11-11.md</a>.</p>
 <p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
 </div></section>
 <footer><div class=wrap><a href="../">All project pages</a></div></footer>

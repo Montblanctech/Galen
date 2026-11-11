@@ -3,6 +3,15 @@
 All notable changes to this project. Format loosely follows Keep a Changelog; versions are
 dated on release and each gets a Zenodo DOI.
 
+## [Unreleased]
+
+### Fixed (after a sample read against the Greek, 2026-11-11; record: `firstdrafts_sample_read_2026-11-11.md`)
+- Front page: the 1,433-word list was described as checked by hand; it was sorted by machine (Dilemma and two model readers). 'No entry at all' is now 'no entry in the digital LSJ'. The works heading no longer says every work is in Galen's own voice; *On Leeches* is marked as probably pseudo-Galenic (Ecca 2021) on its card and page. The method says what the translators were given. The check marks are described as automated agreement tests that do not certify a passage. The footer cites the concept DOI only.
+- Work pages: what square brackets, Greek in parentheses and remarks on doubtful readings are; a broken '[None]' page marker (Regimen in Health K. XV 178) no longer shown.
+- Findings catalogue: six items corrected and marked (one summary that misstated the Greek, one note that misdiagnosed a numeral, one wrong category, two attestation notes that contradicted their evidence, one summary that added a modern diagnosis); the attestation check is described as made by model researchers; the reader's confidence is labelled as such.
+- Cycle-4 work READMEs said direct mode; the runs were batch, as every row records.
+- LS-Gold README: known residual errors from the quoted-form route (about 15 of 161,032 loci).
+
 ## [3.1.3] — 2026-11-11
 
 ### Fixed

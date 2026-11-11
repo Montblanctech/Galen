@@ -10,8 +10,8 @@
 - Targets: **525** NOUN/ADJ tokens (every punch-list token first, 190; then four-way `genuinely_hard` tokens rarest-first, 335; cap 8 per unit, proper names and title lines excluded). Dilemma 1.3.15 lemma for each; **508 (96.8%) resolve to a Perseus-LSJ entry** (`lsj_index.py`, whole entries).
 - Difficulty: punch-list NOUN/ADJ tokens per 100 tokens (terciles within the work: ≤1.16 low, ≤2.5 mid, above high; 24/24/23 units).
 
-## Renderings (`translate.py api`, direct mode, `api_backend.py`)
-- A = `claude-fable-5-1`, B = `claude-opus-5-5`, effort high, no fallback; prompt in `translate.py` (`SYSTEM`), identical for both; the unit's Greek with its two neighbours as context; the target list by position; a TERM MEMORY block with the same model's earlier renderings of the unit's target lemmas (information, not instruction). One streaming call per unit, per-unit timestamps, prompt SHA-256 on every row.
+## Renderings (`translate.py api`, batch mode (Message Batches), `api_backend.py`)
+- A = `claude-fable-5-1`, B = `claude-opus-5-5`, effort high, no fallback; prompt in `translate.py` (`SYSTEM`), identical for both; the unit's Greek with its two neighbours as context; the target list by position; a TERM MEMORY block with the same model's earlier renderings of the unit's target lemmas (information, not instruction). Sent as one Message Batch per stage (one request per unit), prompt SHA-256 on every row.
 - Output: **A 71/71 units rendered** (15,339 English words; refusals 0, errors left 0), **B 71/71** (15,090 words; refusals 0, errors left 0). Page markers reproduced: A 70, B 70 of 71 units.
 
 ## Alignment and term table (`align.py`)
@@ -21,7 +21,7 @@
 ## The three checks (`checks.py`, thresholds from the spec; results in `checks.json`)
 
 ### (a) Back-translation agreement
-- Each English rendering back-translated into Greek by `claude-sonnet-5-5` (direct mode, per-unit timestamps; 71 calls for A, 71 for B), lemmatized with Dilemma, compared with the source lemmas on accent-blind keys. Pass = at least half of the unit's target lemmas reappear in both back-translations.
+- Each English rendering back-translated into Greek by `claude-sonnet-5-5` (batch mode; 71 requests for A, 71 for B), lemmatized with Dilemma, compared with the source lemmas on accent-blind keys. Pass = at least half of the unit's target lemmas reappear in both back-translations.
 - **54 of 70 units pass, 16 fail** (77.1%, Wilson 95% 66.05–85.41); not run or n/a: 1. Mean term-lemma recall A 0.672, B 0.693; mean content-lemma recall A 0.631, B 0.607. Per rendering per unit in `checks.json`.
 
 ### (b) Rendering agreement A vs B at the term level
