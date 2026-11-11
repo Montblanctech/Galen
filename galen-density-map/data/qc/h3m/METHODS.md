@@ -75,13 +75,13 @@ modified. Artifacts: `galen-density-map/data/qc/h3m/`. Cache (gitignored): `h3m/
 ## Gates (this run)
 
 - **G1a** 50/50 top-50 lemmas admissible.
-- **G1b** 12/13 controls matched expectation. control (ἥπατος as lemma) is `admissible` under
+- **G1b** 12/13 controls matched expectation. One control (ἥπατος as lemma) is `admissible` under
   Morpheus — the analyzer lists ἥπατος among readings of that surface (same unanimous
   Stanza output in G2b). Recorded as a permissive-analyzer caveat, not a plumbing miss.
 - **G1c** no_analysis 4.41% of tokens (below 15%); floor is paper-ready.
 - **G2a** 0/20 encoding artifacts (pass). Work-level alignment loss mean 8.2% (flagged >5%);
   sample-level drop ~16% on the 5k — reported, not buried.
-- **G2b** wrong-plants mostly contested; right-anchors control/control/control unanimous; several
+- **G2b** wrong-plants mostly contested; the three right-anchor controls unanimous; several
   controls unaligned (tokenization divergence).
 - **G3a** 10/10 relocated matched surfaces appear in the mapped page-window excerpt
   (form-on-page check; quoted LSJ text is not the target).
@@ -99,7 +99,7 @@ Skipped (spec default).
   repository during the run; published next to the results after scoring.
 - Readers: two separate model sessions, `claude-fable-5-1` (reader 1) and `claude-opus-5-5`
   (reader 2), identical instructions (in the spec), no access to any other project file.
-- Gate (protocol §3): both PASS, 13/13 controls each (control non-word caught; 6/6 unambiguous
+- Gate (protocol §3): both PASS, 13/13 controls each (the non-word control caught; 6/6 unambiguous
   wrong-plants; 5/5 anchors; both accent-only controls marked strictly).
 - Rate on the 60 random rows only: reader 1 **83.33%** (50/60; Wilson 95% 71.97–90.69),
   reader 2 **81.67%** (49/60; 70.08–89.44); no `unsure`. Raw agreement 98.33%, Cohen's κ 0.942.

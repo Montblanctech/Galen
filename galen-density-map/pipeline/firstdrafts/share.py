@@ -4,7 +4,8 @@ Makes the public pages travel well when shared and read well by search engines:
   1. docs/og-card.png: a 1200x630 share card (title, counts), drawn with Pillow.
   2. Open Graph and Twitter card tags in every public page's <head> (title and description from the page itself).
   3. JSON-LD on the front page (WebSite + Dataset for the drafts) and on the findings page (Dataset).
-Idempotent: a page that already carries the tags is left alone. Called from landing.main() after the beacon.
+Idempotent: a page that already carries the tags gets them replaced, so changed counts reach every page (2026-11-11; before,
+the old tags were kept). Called from landing.main() after the beacon.
 """
 from __future__ import annotations
 
@@ -19,6 +20,8 @@ DOCS = REPO / "docs"
 SITE = "https://montblanctech.github.io/Galen/"
 CARD = "og-card.png"
 MARK = "<!-- share tags -->"
+# the block head_tags() writes, with the JSON-LD that may follow it
+BLOCK = re.compile(re.escape(MARK) + r'.*?<link rel="canonical" href="[^"]*">(?:<script type="application/ld\+json">.*?</script>)?', re.S)
 
 
 def draw_card(n_works: int, n_words: int, n_findings: int) -> None:
@@ -81,8 +84,9 @@ def apply(n_works: int, n_words: int, n_findings: int, not_public: set[str]) -> 
         if rel.split("/")[0] in not_public or rel.startswith("google"):
             continue
         t = f.read_text(encoding="utf-8")
-        if MARK in t or "</head>" not in t:
+        if "</head>" not in t:
             continue
+        t = BLOCK.sub("", t)
         m = re.search(r"<title>(.*?)</title>", t, re.S)
         title = html.unescape(m.group(1)).strip() if m else "Galen in English"
         m = re.search(r'<meta name=["\']?description["\']? content="([^"]*)"', t)

@@ -11,6 +11,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import sys
 
 from common import REPO, WORKS, draft_words, out_dir
 
@@ -216,12 +217,15 @@ def add_mobile() -> int:
 def main() -> None:
     (DOCS / "site.css").write_text(CSS.strip() + "\n", encoding="utf-8")
     slugs = [s for s, _, _ in QUOTES]
-    total_words = sum(counts(s)[1] for s in slugs)
-    t = v3_tiers()
-    none_ = t.get("real_no_perseus_lsj", 0) + t.get("real_contested", 0)
-    thin = t.get("thin", 0) + t.get("thin_contested", 0)
-    art = t.get("artifact_suspect", 0)
-    total = t["_total"]
+    # every headline number comes from facts.json, recomputed here from the data (pipeline/facts.py, 2026-11-11)
+    sys.path.insert(0, str(REPO / "galen-density-map" / "pipeline"))
+    import facts as FX
+    FX.build()
+    F = {k: f["value"] for k, f in FX.load().items()}
+    assert F["first_drafts.works"] == N_WORKS, f"{F['first_drafts.works']} published works but {N_WORKS} front-page quotes: add or drop a QUOTES row"
+    total_words = F["first_drafts.greek_words"]
+    assert total_words == sum(counts(s)[1] for s in slugs), "facts.json and the per-work counts disagree"
+    none_, thin, art, total = F["punchlist_v3.no_entry"], F["punchlist_v3.thin_all"], F["punchlist_v3.artifact_suspect"], F["punchlist_v3.total"]
     seg = lambda n, c: f'<div style="width:{100 * n / total:.2f}%;background:{c}" title="{n}"></div>'
 
     page = head("Galen in English for the first time", "") + f"""
@@ -266,8 +270,8 @@ def main() -> None:
 <div class=kicker>For researchers</div>
 <h2>Data, benchmarks and tools</h2>
 <ul class=tools>
-<li><a class=t href="lsj-gold/">LSJ-Gold leaderboard</a> — lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek (LSJ-Gold 0.1.1: 71,974 relocated loci over 54 authors, CC BY 4.0). <a href="lsj-gold/leaderboard.json">JSON</a>.</li>
-<li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites (161,032 relocated loci over 33 authors, validated by Collatinus and Whitaker's Words, 480 of them by the form Lewis &amp; Short quotes, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
+<li><a class=t href="lsj-gold/">LSJ-Gold leaderboard</a> — lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek (LSJ-Gold {F['lsjgold.version']}: {F['lsjgold.loci']:,} relocated loci over {F['lsjgold.authors']} authors, CC BY 4.0). <a href="lsj-gold/leaderboard.json">JSON</a>.</li>
+<li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites ({F['lsgold.loci']:,} relocated loci over {F['lsgold.authors']} authors, validated by Collatinus and Whitaker's Words, {F['lsgold.quoted']:,} of them by the form Lewis &amp; Short quotes, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
 <li><a class=t href="galen-terms/">Galen Term Explorer</a> — any Galenic word: keyness, LSJ tier, Dilemma headword, punch-list label, contexts, Kühn loci.</li>
 <li><a class=t href="terms/">Term Explorer for further authors</a> — Diophantus, John Philoponus, Philodemus.</li>
 <li><a class=t href="first-drafts/">The drafts index</a> — all {N_W} works with unit counts and check failures.</li>
@@ -311,8 +315,7 @@ def main() -> None:
     print("phone fixes added to", add_mobile(), "pages")
     print("analytics beacon added to", add_beacon(), "pages")
     import share
-    ff = DOCS / "findings" / "findings.json"
-    n_find = len(__import__("json").loads(ff.read_text(encoding="utf-8"))) if ff.exists() else 0
+    n_find = F["findings.items"]
     print("share tags added to", share.apply(N_WORKS, total_words, n_find, NOT_PUBLIC), "pages")
 
 
