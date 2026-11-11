@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use LSJ-Gold, cite it and the Galen Density Project preprint."
+title: "LSJ-Gold 0.1.1: lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek"
+type: dataset
+version: "0.1.1"
+date-released: 2026-11-12
+license: CC-BY-4.0
+authors:
+  - family-names: Pepperman
+    given-names: William
+    affiliation: "Montblanc Tech LLC (independent researcher)"
+references:
+  - type: article
+    title: "A density map of under-described vocabulary in the Galenic corpus"
+    authors:
+      - family-names: Pepperman
+        given-names: William
+    year: 2026
+    doi: 10.5281/zenodo.22162810

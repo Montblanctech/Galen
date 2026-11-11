@@ -13,8 +13,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἄνθραξ,Ἄνθρακες,tlg0627,Hippocrates,tlg006,3:7,3:7,13109,morpheus,6+,ἄνθρακς,0,Ἄνθραξ,1,ἄνθραξ,1,Ἄνθρακες,0,ἄνθραξ,1,2,odycy|stoicheia,same_stem
 ἀνίημι,ἀνῆκαν,tlg0627,Hippocrates,tlg006,7:46,7:46,36666,morpheus,6+,ἀνῆκαν,0,ἀνίημι,1,ἀνήκω,0,ἀνίημι,1,ἀνίημι,1,2,odycy|stanza_proiel,surface_returned
 ἄνοσος,ἀνόσως,tlg0627,Hippocrates,tlg006,1:1,1:1,193,morpheus,6+,ἀνόσως,0,ἄνοσος,1,ἀνόσως,0,ἀνόσος,1,ἄνοσος,1,2,odycy|stanza_proiel,same_stem
-ἀντέχω,ἀντίσχετο,tlg0627,Hippocrates,tlg006,4:20,4:20,17480,quoted,6+,ἀντίχω,0,ἀντισχέω,0,ἀντέχω,1,ἀντίχω,0,ἀντέχω,1,3,odycy|stanza_perseus|stoicheia,other
-ἀπαρτίζω,ἀπαρτιζούσης,tlg0627,Hippocrates,tlg006,2:3:17,2:3:17,9173,quoted,6+,ἀπαρτιζούσης,0,ἀπαρτίζω,1,ἀπαρτιζέω,0,ἀπαρτίζω,1,ἀπαρτίζω,1,2,odycy|stanza_proiel,same_stem
 ἀπελεύθερος,ἀπελευθέρης,tlg0627,Hippocrates,tlg006,5:75,5:75,25031,morpheus,6+,ἀπελευθέρα,0,ἀπελεύθερος,1,ἀπελεύθερος,1,ἀπελεύθερος,1,ἀπελεύθερος,1,1,odycy,same_stem
 ἄπνοια,ἄπνοια,tlg0627,Hippocrates,tlg006,3:2,3:2,12378,morpheus,2-5,ἄπνοια,1,ἄπνοια,1,ἄπνοιος,0,ἄπνοια,1,ἄπνοια,1,1,stanza_proiel,same_stem
 ἀπογεύω,ἀπογευομένῳ,tlg0627,Hippocrates,tlg006,7:2,7:2,31673,morpheus,2-5,ἀπογεύω,1,ἀπογεύω,1,ἀπογεύομαι,0,ἀπογύω,0,ἀπογεύω,1,2,stanza_proiel|stoicheia,same_stem
@@ -55,7 +53,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἐγγαστρίμυθος,ἐγγαστρίμυθοι,tlg0627,Hippocrates,tlg006,5:63,5:63,24539,morpheus,1,ἐγγαστρίμυθος,1,ἐγγαστρίμυθος,1,ἐγγαστρίθωθος,0,ἐγγαστρίμυθος,1,ἐγγαστρίμυθος,1,1,stanza_proiel,same_stem
 εἰκῇ,εἰκῇ,tlg0627,Hippocrates,tlg006,7:9,7:9,33149,morpheus,6+,εἰκῇ,1,εἰκός,0,εἰκῇ,1,εἰκῇ,1,εἰκῇ,1,1,stanza_perseus,other
 εἰλεώδης,εἰλεώδεα,tlg0627,Hippocrates,tlg006,3:1,3:1:9,12002,morpheus,2-5,εἰλεώδης,1,εἰλεώδης,1,εἰλεώδης,1,εἰλεώόσδε,0,εἰλεώδης,1,1,stoicheia,same_stem
-ἐκγλευκίζομαι,ἐκγεγλευκισμένος,tlg0627,Hippocrates,tlg006,7:64,7:64,38100,quoted,1,ἐκγεγλευκισμένος,0,ἐκγεγλεύω,0,ἐκγλευκίζομαι,1,γεγλευκίζω,0,ἐκγεγλαγιυκίσκω,0,3,odycy|stanza_perseus|stoicheia,surface_returned
 ἔκθυμα,ἐκθύματα,tlg0627,Hippocrates,tlg006,3:7,3:7,13118,morpheus,2-5,ἐκθύματος,0,ἔκθυμα,1,ἔκθυμα,1,ἐκθῦμα,1,ἔκθυμα,1,1,odycy,same_stem
 ἐκκοπρίζω,ἐξεκόπρισεν,tlg0627,Hippocrates,tlg006,3:17,3:17:4,14638,morpheus,1,ἐξεκόπρισεν,0,ἐκκοπρίζω,1,ἐκκοπρίζω,1,ἐκκόπέω,0,ἐκκοπρίζω,1,2,odycy|stoicheia,surface_returned
 ἐκλάμπω,ἐκλάμπειν,tlg0627,Hippocrates,tlg006,7:88,7:88,39648,morpheus,6+,ἐκλάμπω,1,ἐκλαμβάνω,0,ἐκλαμβάνω,0,ἐκλάμπω,1,ἐκλάμπω,1,2,stanza_perseus|stanza_proiel,same_stem
@@ -73,8 +70,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἔμπλεος,ἔμπλεον,tlg0627,Hippocrates,tlg006,6:4:8,6:4:8,28384,morpheus,6+,ἔμπλεος,1,ἔμπλεος,1,μπλέω,0,ἔμπλεος,1,ἔμπλεος,1,1,stanza_proiel,other
 ἐμφρονώδης,ἐμφρονώδεες,tlg0627,Hippocrates,tlg006,7:7,7:7,33042,morpheus,1,ἐμφρονώδεες,0,ἐμφρονώδης,1,ἐμφρονώδης,1,ἐμφρονώδης,1,ἐμφρονώδης,1,1,odycy,same_stem
 ἔμψυχρος,ἐμψυχρότερος,tlg0627,Hippocrates,tlg006,6:6:2,6:6:2,29061,morpheus,1,ἐμψυχρότερος,0,ἐμψυχρός,1,ἐμψύχροτής,0,ἐμψυχρός,1,ἔμψυχρος,1,2,odycy|stanza_proiel,same_stem
-ἐνδινέω,ἐνδεδινημένα,tlg0627,Hippocrates,tlg006,5:99,5:99,25929,quoted,2-5,ἐνδεδινημένα,0,ἐνδινένω,0,ἐνδίδωμι,0,δεδιάζω,0,ἐνδινέω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
-ἔνειμι,ἔνι,tlg0627,Hippocrates,tlg006,7:12,7:12,34068,quoted,6+,ἐν,0,ἐν,0,ἔνι,0,ἔνειμι,1,ἐν,0,3,odycy|stanza_perseus|stanza_proiel,other
 ἔνθερμος,Ἐνθέρμῳ,tlg0627,Hippocrates,tlg006,6:4:13,6:4:13,28426,morpheus,1,ἐνθέρμῳ,0,Ἴνθερμος,0,Ἔνθερμος,1,Ἔνθομος,0,ἔνθερμος,1,3,odycy|stanza_perseus|stoicheia,same_stem
 ἑξηκονθήμερος,ἑξηκονθήμερον,tlg0627,Hippocrates,tlg006,2:2:13,2:2:13,7044,morpheus,1,ἑξηκονθήμερος,1,ἑξηκονθήμερος,1,ἑξηκόνθημος,0,ἑξηκονθήμερος,1,ἑξηκονθήμερος,1,1,stanza_proiel,same_stem
 ἐπανθέω,ἐπήνθει,tlg0627,Hippocrates,tlg006,7:43,7:43,36256,morpheus,6+,ἐπήνθει,0,ἐπαίνω,0,ἐπαίγω,0,πήνθέω,0,ἐπανθέω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
@@ -114,7 +109,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἰσατώδης,ἰσατώδει,tlg0627,Hippocrates,tlg006,4:45,4:45,19735,morpheus,2-5,ἰσατώδης,1,ἰσατώδης,1,ἰσατώδης,1,ἰσατώδος,0,ἰσατώδης,1,1,stoicheia,same_stem
 ἰσχνοφωνία,Ἰσχνοφωνίην,tlg0627,Hippocrates,tlg006,2:5:1,2:5:1,9804,morpheus,1,ἰσχνοφωνία,1,Ἰσχνοφωνία,1,Ἰσχνοφωνίος,0,Ἰσχνοφωνία,1,ἰσχνοφωνία,1,1,stanza_proiel,same_stem
 καθαίρω,ἐκαθήρατο,tlg0627,Hippocrates,tlg006,5:43,5:43,23674,morpheus,6+,καθήραμαι,0,καθαίρω,1,καθαίρω,1,ἐκαθαίρω,0,καθαίρω,1,2,odycy|stoicheia,other
-καθελκόομαι,καθηλκωμένα,tlg0627,Hippocrates,tlg006,7:11,7:11,33895,quoted,1,καθηλκωμένα,0,καθέλκω,0,καθαλκάνω,0,θηλκόω,0,καθελκόω,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 καίω,ἐκαύθη,tlg0627,Hippocrates,tlg006,4:4,4:4,16385,morpheus,6+,καύω,0,καίω,1,καίω,1,καύω,0,καίω,1,2,odycy|stoicheia,other
 καίω,ἐκαύθη,tlg0627,Hippocrates,tlg006,4:20,4:20,17699,morpheus,6+,καύω,0,καίω,1,καίω,1,καύω,0,καίω,1,2,odycy|stoicheia,other
 καλλίφυλλον,καλλιφύλλου,tlg0627,Hippocrates,tlg006,7:59,7:59,37761,morpheus,1,καλλιφύλλου,0,καλλίφυλλος,0,καλλίφυλλος,0,Κάλλιφύλλος,0,καλλίφυλλον,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
@@ -190,7 +184,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ὁποσάμηνος,ὁποσάμηνον,tlg0627,Hippocrates,tlg006,4:6,4:6,16424,morpheus,1,ὁποσάμηνος,1,ὁποσάμηνος,1,ὁποσάμηνον,0,ὁποσάμηνος,1,ὁποσάμηνος,1,1,stanza_proiel,same_stem
 ὀρθοστάδην,ὀρθοστάδην,tlg0627,Hippocrates,tlg006,1:1,1:1,97,morpheus,2-5,ὀρθοστάδην,1,ὄρθοστα,0,ὀρθοστάς,0,ὀρθοστάδην,1,ὀρθοστάδην,1,2,stanza_perseus|stanza_proiel,same_stem
 ὀρθοστατέω,ὀρθοστατεῖν,tlg0627,Hippocrates,tlg006,2:2:24,2:2:24,7766,morpheus,1,ὀρθοστατέω,1,ὄρχομαι,0,ὀρθοστατέω,1,ὀρθοστατέω,1,ὀρθοστατέω,1,1,stanza_perseus,other
-ὀρίγανον,ὀρίγανος,tlg0627,Hippocrates,tlg006,5:54,5:54,24213,quoted,2-5,ὀρίγανος,0,ὀρίγανος,0,ὀρίγανος,0,ὀρίγανος,0,ὀρίγανον,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ὁρμάω,ὁρμῶντα,tlg0627,Hippocrates,tlg006,6:8:7,6:8:7,30542,morpheus,6+,ὁρμάω,1,ὅρμος,0,ὁρμάω,1,ὁρμάω,1,ὁρμή,0,1,stanza_perseus,other
 ὀρνιθίας,ὀρνιθίαι,tlg0627,Hippocrates,tlg006,7:105,7:105,40663,morpheus,2-5,ὀρνιθίαι,0,ὀρνιθία,0,ὀρνιθία,0,ὀρνιθίης,0,ὀρνιθία,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ὀσπριοφαγέω,ὀσπριοφαγεῦντες,tlg0627,Hippocrates,tlg006,2:4:3,2:4:3,9700,morpheus,2-5,ὀσπριοφαγέω,1,ὀσπριοφαγέγω,0,ὀσπριοφαγέω,1,ὀσπριοφαγέω,1,ὀσπριοφαγέω,1,1,stanza_perseus,same_stem
@@ -203,10 +196,8 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 παραλλάσσω,παρηλλαγμένοι,tlg0627,Hippocrates,tlg006,6:1:2,6:1:2,26129,morpheus,6+,παρηλλαγμένοι,0,παραλλάσσω,1,παραλλάσσω,1,παραλλάσσω,1,παραλλάσσω,1,1,odycy,surface_returned
 παρατρώγω,παρέτραγε,tlg0627,Hippocrates,tlg006,5:86,5:86,25504,morpheus,2-5,παρατραγέω,0,παρατρέχω,0,παρατρέσσω,0,παρέαλαμβάνω,0,παρατρώγω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 παρέπομαι,παρείποντο,tlg0627,Hippocrates,tlg006,1:8,1:9,2407,morpheus,6+,παρέπω,0,παρεῖπον,0,παραλέγομαι,0,παρέπομαι,1,παρεῖπον,0,3,odycy|stanza_perseus|stanza_proiel,same_stem
-παρερύω,παρειρύσθη,tlg0627,Hippocrates,tlg006,3:1,3:1:1,10933,quoted,2-5,παραιρύω,0,παρερύδομαι,0,παρερύσσω,0,παρεφέρω,0,παρειρύω,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 πεντάμηνος,πεντάμηνον,tlg0627,Hippocrates,tlg006,3:1,3:1:11,12101,morpheus,1,πεντάμηνος,1,πεντάμηνος,1,πεντάμηνον,0,πεντάμηνος,1,πεντάμηνος,1,1,stanza_proiel,same_stem
 πεπαίνω,πεπαίνεσθαι,tlg0627,Hippocrates,tlg006,6:2:16,6:2:16,27164,morpheus,6+,πεπαίνω,1,παίνομαι,0,πεπαίνω,1,πεπαίνω,1,πεπαίνω,1,1,stanza_perseus,other
-πέπειρος,πεπειρότερον,tlg0627,Hippocrates,tlg006,2:3:4,2:3:4,8442,quoted,2-5,πεπειρός,1,πεπειρός,1,πεπειρός,1,πεπειῖος,0,πέπειρος,1,1,stoicheia,same_stem
 περίγλισχρος,περίγλισχρα,tlg0627,Hippocrates,tlg006,4:46,4:46,19917,morpheus,2-5,περίγλισχρος,1,περίγλισχρον,0,περίγλισχρος,1,περίγλισχρος,1,περίγλισχρος,1,1,stanza_perseus,same_stem
 περικνήμια,περικνήμια,tlg0627,Hippocrates,tlg006,3:4,3:4,12739,morpheus,1,περικνήμιος,0,περικνήμιον,0,περικνήμιον,0,περικνήμιον,0,περικνήμια,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 περιμάδαρος,περιμάδαρα,tlg0627,Hippocrates,tlg006,6:8:2,6:8:2,30347,morpheus,2-5,περιμάδαρος,1,περιμάδαρος,1,περιμάδαρα,0,περιμάδαρος,1,περιμάδαρος,1,1,stanza_proiel,same_stem
@@ -216,7 +207,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 περίσκληρος,περίσκληρα,tlg0627,Hippocrates,tlg006,6:1:10,6:1:10,26334,morpheus,1,περίσκληρος,1,περίσκληρος,1,περίσκλυρος,0,περίσκληρος,1,περίσκληρος,1,1,stanza_proiel,same_stem
 περίσσωσις,περισσώσιος,tlg0627,Hippocrates,tlg006,6:5:10,6:5:10,28846,morpheus,1,περισσώσιιος,0,περισσώσιος,0,περισσώσιος,0,περισσώσις,1,περίσσωσις,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 πινακίδιον,πινακιδίου,tlg0627,Hippocrates,tlg006,6:8:7,6:8:7,30474,morpheus,1,πινακιδίας,0,πινακίδιον,1,πινακίδιον,1,πινακίδιον,1,πινακίδιον,1,1,odycy,same_stem
-πλειάδες,πληϊάδα,tlg0627,Hippocrates,tlg006,1:1,1:1,9,quoted,6+,πληϊάδα,0,πληιάς,0,πληϊάς,0,Πληϊίς,0,πληϊάδες,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 πλεῖστος,πλείστῳ,tlg0627,Hippocrates,tlg006,6:1:10,6:1:10,26347,morpheus,6+,πλείστῳ,0,πλεῖστος,1,πολύς,0,πλεῖστος,1,πλεῖστος,1,2,odycy|stanza_proiel,same_stem
 πνιγμώδης,πνιγμώδους,tlg0627,Hippocrates,tlg006,7:26,7:26,35095,morpheus,1,πνιγμώδης,1,πνίγμοδος,0,πνίγμωδος,0,πνιγμώδης,1,πνιγμώδης,1,2,stanza_perseus|stanza_proiel,same_stem
 πόδιον,πόδια,tlg0627,Hippocrates,tlg006,7:52,7:52,37289,morpheus,1,πόδιος,0,πόδια,0,πόδις,0,πόδιος,0,πόδιον,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
@@ -224,7 +214,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 πραγματεύομαι,πραγματευσαμένων,tlg0627,Hippocrates,tlg006,6:8:32,6:8:32,31301,morpheus,6+,πραγματεύω,0,πραγματεύω,0,πραγματεύομαι,1,πραγματεύομαι,1,πραγματεύομαι,1,2,odycy|stanza_perseus,same_stem
 πρᾶος,πρηέως,tlg0627,Hippocrates,tlg006,1:10,1:11,3497,morpheus,6+,πρηής,0,πρεύς,0,πρηέως,0,πρηύς,0,πρᾶος,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 πρίω,πρισθὲν,tlg0627,Hippocrates,tlg006,5:16,5:16,21862,morpheus,6+,πρισθὲν,0,πρίσσω,0,πρίσσω,0,πρίζω,0,πρίζω,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
-προπετής,προπετέως,tlg0627,Hippocrates,tlg006,4:45,4:45,19621,quoted,6+,προπετής,1,πρόπετος,0,προπετέως,0,προπετής,1,προπετέως,0,2,stanza_perseus|stanza_proiel,same_stem
 πρόπυλον,προπύλοισι,tlg0627,Hippocrates,tlg006,4:42,4:42,19443,morpheus,2-5,προπύλοισι,0,πρόπυλος,0,πρόπυλον,1,Προπύλοα,0,πρόπυλον,1,3,odycy|stanza_perseus|stoicheia,same_stem
 προσβλάπτω,προσέβλαπτον,tlg0627,Hippocrates,tlg006,3:8,3:8,13210,morpheus,1,προσέβλαπτον,0,προσβλάπτω,1,προσβλάπτω,1,προσέαβάλλω,0,προσβλάπτω,1,2,odycy|stoicheia,same_stem
 προσίστημι,προσίσταντο,tlg0627,Hippocrates,tlg006,7:96,7:96,40202,morpheus,6+,προσίσταμαι,0,προσίστημι,1,προσίστημι,1,προσίστημι,1,προσίστημι,1,1,odycy,same_stem
@@ -234,9 +223,7 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 προσσκαλεύω,προσεσκαλεύθη,tlg0627,Hippocrates,tlg006,6:6:13,6:6:13,29423,morpheus,1,προσεσκαλεύθη,0,πρόσταγαμαι,0,προσσσκαλεύω,0,ροσεσκαλεύω,0,προσσκαλεύω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 προστίθημι,Προσθεμένη,tlg0627,Hippocrates,tlg006,4:30,4:30,18741,morpheus,6+,προστίθημι,1,Προσθέμενος,0,προστίθημι,1,Προστίθημι,1,προστίθημι,1,1,stanza_perseus,same_stem
 πρόσφατος,προσφάτου,tlg0627,Hippocrates,tlg006,7:10,7:10,33307,morpheus,6+,προσφάτου,0,πρόσφατον,0,πρόσφατος,1,πρόσφατος,1,πρόσφατος,1,2,odycy|stanza_perseus,same_stem
-προταράσσω,προεταράχθη,tlg0627,Hippocrates,tlg006,4:25,4:25,18212,quoted,1,προεταράζω,0,προταράσσω,1,προταράσσω,1,προεταρσσω,0,προταράσσω,1,2,odycy|stoicheia,other
 πρόφασις,προφάσιος,tlg0627,Hippocrates,tlg006,3:17,3:17:11,15458,morpheus,6+,πρόφασις,1,προφάσιος,0,πρόφασις,1,πρόφασις,1,πρόφασις,1,1,stanza_perseus,same_stem
-πρόχειρος,πρὸς,tlg0627,Hippocrates,tlg006,7:17,7:17,34310,quoted,6+,πρός,0,πρός,0,πρός,0,πρός,0,πρός,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 πρωΐ,πρωϊαίτερον,tlg0627,Hippocrates,tlg006,2:1:6,2:1:6,5997,morpheus,6+,πρωϊαίτερον,0,πρόαις,0,πρόοιας,0,πρωϊαίτότερος,0,πρωΐ,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 πρωΐ,πρωϊαίτερον,tlg0627,Hippocrates,tlg006,2:3:2,2:3:2,8232,morpheus,6+,πρωϊαίς,0,πρόαις,0,πρόοιας,0,πρωϊαίτειος,0,πρωΐ,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 πρωΐ,πρωϊαίτερον,tlg0627,Hippocrates,tlg006,6:8:13,6:8:13,30745,morpheus,6+,πρωϊαίτερον,0,πρόαις,0,πρόοιας,0,πρωϊαίτειος,0,πρωΐ,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
@@ -295,8 +282,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ὑπέρπολυς,ὑπέρπουλυ,tlg0627,Hippocrates,tlg006,2:2:23,2:2:23,7408,quoted,2-5,ὑπέρπουλυ,0,ὑπέρπουλος,0,ὑπέρπουλυς,0,ὑπέρπουλυς,0,ὑπέρπουλς,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ὑπνώσσω,ὑπνώσσουσα,tlg0627,Hippocrates,tlg006,7:11,7:11,33690,morpheus,6+,ὑπνώσσω,1,ὑπνόω,0,ὑπνόω,0,ὑπνώσσω,1,ὑπνώσσω,1,2,stanza_perseus|stanza_proiel,other
 ὑποδιψάω,ὑπεδίψη,tlg0627,Hippocrates,tlg006,3:1,3:1:3,11427,morpheus,1,ὑπεδίψη,0,ὑποδίδωμι,0,ὑποδίδωμι,0,ὑπεοράω,0,ὑποδιψάω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
-ὑποκαταφρονέω,ὑποκατεφρόνει,tlg0627,Hippocrates,tlg006,4:31,4:31,18879,quoted,1,ὑποκατεφρόνει,0,ὑποκατεφρόνος,0,ὑποκαταφρονέω,1,ποκατεφρονέω,0,ὑποκαταφρονέω,1,3,odycy|stanza_perseus|stoicheia,same_stem
-ὑπολείπω,ὑπολελοίπει,tlg0627,Hippocrates,tlg006,5:10,5:10,21199,quoted,6+,ὑπολελοίπει,0,ὑπολολοῖπον,0,ὑπολοιποιπέω,0,ὑπολείπω,1,ὑπολείπω,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 ὑπομύσαρος,ὑπομύσαρα,tlg0627,Hippocrates,tlg006,7:92,7:92,39934,morpheus,1,ὑπομύσαρος,1,ὑπομύσαρος,1,ὑπομυσαίρω,0,ὑπομύσαρος,1,ὑπομύσαρος,1,1,stanza_proiel,same_stem
 ὑπονοσέω,ὑπενόσεον,tlg0627,Hippocrates,tlg006,1:3,1:3,501,morpheus,1,ὑπενόσεον,0,ὑπονοσέω,1,ὑπονοσέω,1,πενοσέω,0,ὑπονοσέω,1,2,odycy|stoicheia,surface_returned
 ὑπόξανθος,ὑπόξανθα,tlg0627,Hippocrates,tlg006,3:1,3:1:12,12282,morpheus,1,ὑπόξανθος,1,ὑποχαίνω,0,ὑποξαίνω,0,ὑπόξανθος,1,ὑπόξανθος,1,2,stanza_perseus|stanza_proiel,other
@@ -307,7 +292,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ὑποστροφώδης,ὑποστροφώδεα,tlg0627,Hippocrates,tlg006,2:3:8,2:3:8,8600,morpheus,2-5,ὑποστροφώδης,1,ὑποστροφώδης,1,ὑποστροφώδης,1,ὑποστροφώδεας,0,ὑποστροφώδης,1,1,stoicheia,same_stem
 ὑποτρομώδης,ὑποτρομώδεες,tlg0627,Hippocrates,tlg006,4:45,4:45,19611,morpheus,1,ὑποτρομώδεες,0,ὑποτρομώδης,1,ὑποτρομώδης,1,ὑποτρομώδης,1,ὑποτρομώδης,1,1,odycy,same_stem
 ὑποφέρω,ὑπεφέροντο,tlg0627,Hippocrates,tlg006,3:13,3:13,13518,morpheus,6+,ὑπαφέρω,0,ὑποφέρω,1,ὑποφέρω,1,ὑπφέρω,0,ὑποφέρω,1,2,odycy|stoicheia,other
-ὑποχάσκω,ὑποχάσκειν,tlg0627,Hippocrates,tlg006,4:46,4:46,19920,quoted,2-5,ὑποχάσκω,1,ὑποχάσκω,1,ὑποχάζω,0,ὑποχάσκω,1,ὑποχάσκω,1,1,stanza_proiel,same_stem
 ὑποχλιαίνω,ὑπεχλιαίνετο,tlg0627,Hippocrates,tlg006,2:2:7,2:2:7,6892,morpheus,1,ὑπεχλιαίνω,0,ὑποχλίνω,0,ὑποχλιαίνω,1,ὑπεχλιαίνομαι,0,ὑποχλιαίνω,1,3,odycy|stanza_perseus|stoicheia,other
 ὕσμα,ὕσματα,tlg0627,Hippocrates,tlg006,1:1,1:1,35,morpheus,1,ὕσματα,0,ὕσμα,1,ὕσμα,1,ὕσμα,1,ὕσμα,1,1,odycy,same_stem
 φακώδης,φακῶδες,tlg0627,Hippocrates,tlg006,3:14,3:14,13714,morpheus,1,φακώδης,1,φακώδης,1,φακώς,0,φακώδης,1,φακώδης,1,1,stanza_proiel,same_stem
@@ -427,7 +411,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 διόρθωμα,διορθώματα,tlg0627,Hippocrates,tlg010,33,33,6523,morpheus,2-5,διορθώματα,0,διόρθωμα,1,διόρθωμα,1,διορόω,0,διόρθωμα,1,2,odycy|stoicheia,same_stem
 διορίζω,διοριεῖται,tlg0627,Hippocrates,tlg010,9,9,2138,morpheus,6+,διοριέω,0,διοριέομαι,0,διορίζω,1,διορίζω,1,διορίζω,1,2,odycy|stanza_perseus,same_stem
 ἐγγώνιος,ἐγγωνίῳ,tlg0627,Hippocrates,tlg010,22,22,5112,morpheus,2-5,ἐγγωνίῳ,0,ἐγγών,0,εγγώνιον,0,ἐγγωνῖος,1,ἐγγώνιος,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
-ἐγκλίνω,ἐγκλιθέντα,tlg0627,Hippocrates,tlg010,38,38,7606,quoted,6+,ἐγκλόι,0,ἐγκλίνω,1,ἐγκλίνω,1,ἐγκίνω,0,ἐγκλίνω,1,2,odycy|stoicheia,same_stem
 ἐθίζω,ἐθισθέωσι,tlg0627,Hippocrates,tlg010,41,41,8722,morpheus,6+,ἐθιόσ,0,ἐθίσθημι,0,θίω,0,ἐθάζω,0,ἐθίζω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 ἐθίζω,ἐθισθέωσι,tlg0627,Hippocrates,tlg010,41,41,8722,morpheus,6+,ἐθιόσ,0,ἐθίσθημι,0,θίω,0,ἐθάζω,0,ἐθίζω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 εἰλίπους,εἰλίπουν,tlg0627,Hippocrates,tlg010,8,8,1785,morpheus,2-5,εἰλίπουν,0,εἰλίπτω,0,εἰλιπέω,0,εἰλίπους,1,εἰλίπους,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
@@ -749,7 +732,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 χείρισμα,χειρίσματι,tlg0627,Hippocrates,tlg010,14,14,3850,morpheus,2-5,χειρίσματι,0,χειρίσματις,0,χείρισμα,1,σόφιίσμα,0,χείρισμα,1,3,odycy|stanza_perseus|stoicheia,same_stem
 χείρισμα,χειρίσματος,tlg0627,Hippocrates,tlg010,42,42,8815,morpheus,2-5,χειρίσμα,1,χειρίσματος,0,χείρισμα,1,ψήφιίσμα,0,χείρισμα,1,2,stanza_perseus|stoicheia,same_stem
 χείρωναξ,χειρώναξιν,tlg0627,Hippocrates,tlg010,53,53,13009,morpheus,2-5,χειρώναξ,1,χειρώναξις,0,χειρῶναξ,1,χειρώναξ,1,χειρῶναξ,1,1,stanza_perseus,same_stem
-χῖος,χῖαι,tlg0627,Hippocrates,tlg010,62,62,16464,quoted,6+,χῖος,1,χῖος,1,χῖας,0,Χῖας,0,Χῖος,1,2,stanza_proiel|stoicheia,other
 χονδρίον,χονδρίων,tlg0627,Hippocrates,tlg010,45,45,9453,morpheus,1,χονδρίων,0,χονδρίος,0,χονδρία,0,χονδρίον,1,χόνδρος,0,3,odycy|stanza_perseus|stanza_proiel,same_stem
 χρῆσις,χρῆσιν,tlg0627,Hippocrates,tlg010,27,27,5384,morpheus,6+,χρῆσις,1,χρής,0,χρῆσις,1,χρῆσις,1,χρῆσις,1,1,stanza_perseus,same_stem
 χρηστέον,χρηστέον,tlg0627,Hippocrates,tlg010,77,77,19731,morpheus,6+,χρηστέος,0,χρηστέος,0,χρηστεός,0,χρηστέον,1,χρηστέον,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
@@ -783,7 +765,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἀνταπόδοσις,ἀνταποδόσιες,tlg0627,Hippocrates,tlg012,1:12,1:12,453,morpheus,6+,ἀνταποδόσιες,0,ἀνταποδόσιος,0,ἀνταπόδοσις,1,ἀνταποδόσις,1,ἀνταπόδοσις,1,2,odycy|stanza_perseus,same_stem
 ἀπάγχω,ἀπαγχομένων,tlg0627,Hippocrates,tlg012,2:43,2:43,1438,morpheus,6+,ἀπαγχομένων,0,ἀπέχω,0,ἀπάγχω,1,ἀπαέχω,0,ἀπάγχω,1,3,odycy|stanza_perseus|stoicheia,same_stem
 ἀποβήσσω,ἀποβήσσωσι,tlg0627,Hippocrates,tlg012,5:11,5:11,3963,morpheus,2-5,ἀποβήσσωσι,0,ἀποβαίνω,0,ἀποβαίνω,0,ἀποβήσσω,1,ἀποβήσσω,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
-ἀποκαταρρέω,ἀπὸ,tlg0627,Hippocrates,tlg012,7:30,7:30,6081,quoted,1,ἀπό,0,ἀπό,0,ἀπό,0,ἀπό,0,ἀπό,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 ἀποπιέζω,ἀποπιέζει,tlg0627,Hippocrates,tlg012,5:46,5:46,4572,morpheus,2-5,ἀποπιέζω,1,ἀποπίγνω,0,ἀποπιέχω,0,ἀποπιέζω,1,ἀποπιέζω,1,2,stanza_perseus|stanza_proiel,same_stem
 ἀποσήπομαι,ἀποσαπῆναι,tlg0627,Hippocrates,tlg012,6:58,6:58,5829,morpheus,2-5,ἀποσαπαίνω,0,ἀποσάπτω,0,ἀποσαίνω,0,ἀποήπω,0,ἀποσήπομαι,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ἀποσιτία,ἀποσιτίαι,tlg0627,Hippocrates,tlg012,6:3,6:3,5175,morpheus,2-5,ἀποσιτία,1,ἀποσιτία,1,ἀποσίατια,0,ἀποσιτία,1,ἀποσιτία,1,1,stanza_proiel,same_stem
@@ -909,7 +890,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 κτείς,κτένα,tlg0627,Hippocrates,tlg012,7:39,7:39,6241,morpheus,2-5,κτήν,0,κτένος,0,κτένα,0,κτείς,1,κτείς,1,3,odycy|stanza_perseus|stanza_proiel,other
 κυνάγχη,κυνάγχαι,tlg0627,Hippocrates,tlg012,3:16,3:16,2050,morpheus,2-5,κυνάγχας,0,κυνάγχη,1,κυνάγχης,0,κυνάγχη,1,κυνάγχη,1,2,odycy|stanza_proiel,same_stem
 κυνόδους,κυνόδοντας,tlg0627,Hippocrates,tlg012,3:25,3:25,2354,morpheus,2-5,κυνόδοντης,0,κυνόδοις,0,κυνορέω,0,κυνόδούς,1,κυνόδους,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
-κωφόω,κωφωθῇ,tlg0627,Hippocrates,tlg012,4:60,4:60,3452,quoted,1,κωφόω,1,κωφωθέω,0,κωφόω,1,κωφόω,1,κωφόω,1,1,stanza_perseus,other
 λειεντερία,λειεντερίαι,tlg0627,Hippocrates,tlg012,3:22,3:22,2282,morpheus,1,λειεντερία,1,λειεντερίος,0,λειεντερία,1,λειεντερία,1,λειεντερία,1,1,stanza_perseus,same_stem
 λειεντεριώδης,λειεντεριώδεες,tlg0627,Hippocrates,tlg012,4:12,4:12,2670,morpheus,1,λειεντεριώδεες,0,λειεντεριώδης,1,λειεντεριώδης,1,λειεντεριώδης,1,λειεντεριώδης,1,1,odycy,same_stem
 λειχήν,λειχῆνες,tlg0627,Hippocrates,tlg012,3:20,3:20,2218,morpheus,2-5,λειχῆνς,0,λειχήν,1,λειχόνης,0,λειχήν,1,λειχήν,1,2,odycy|stanza_proiel,same_stem
@@ -944,7 +924,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 παράλογος,παραλόγως,tlg0627,Hippocrates,tlg012,2:27,2:27,1159,morpheus,6+,παραλόγως,0,παράλογος,1,παραλόγως,0,παράλογος,1,παράλογος,1,2,odycy|stanza_proiel,same_stem
 παραφροσύνη,παραφροσύναι,tlg0627,Hippocrates,tlg012,6:53,6:53,5760,morpheus,2-5,παραφροσύνα,0,παραφροσύνη,1,παραφροσίνω,0,παραφροσύνη,1,παραφροσύνη,1,2,odycy|stanza_proiel,same_stem
 παρίσθμιον,παρίσθμια,tlg0627,Hippocrates,tlg012,3:26,3:26,2369,morpheus,1,παρίσθμια,0,παρίσθμια,0,παρίσθμια,0,παρίσθμιον,1,παρίσθμιον,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
-παχύς,παίδων,tlg0627,Hippocrates,tlg012,3:25,3:25,2359,quoted,6+,παῖς,0,παῖς,0,παῖς,0,παῖς,0,παῖς,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 πελιδνός,πελιδναὶ,tlg0627,Hippocrates,tlg012,4:47,4:47,3241,morpheus,2-5,πελιδναὶ,0,πελιδνή,0,πελιδνή,0,πελιδνός,1,πελιδνός,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 πεπαίνω,πεπαίνονται,tlg0627,Hippocrates,tlg012,2:40,2:40,1417,morpheus,6+,πεπαίνω,1,παίνω,0,πεπαίνω,1,πεπαίνω,1,πεπαίνω,1,1,stanza_perseus,other
 περίγλισχρος,περίγλισχρα,tlg0627,Hippocrates,tlg012,4:53,4:53,3375,morpheus,2-5,περίγλισχρος,1,περίγλισχρον,0,περίγλισχρος,1,περίγλισχρος,1,περίγλισχρος,1,1,stanza_perseus,same_stem
@@ -955,8 +934,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 περισσός,περισσῇσιν,tlg0627,Hippocrates,tlg012,4:61,4:61,3467,morpheus,6+,περισσῇσιν,0,περισσά,0,περίσσησις,0,περισσός,1,περισσός,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 περιωδυνέω,περιωδυνέοντι,tlg0627,Hippocrates,tlg012,6:10,6:10,5249,morpheus,2-5,περιωδυνέω,1,περιωδυνέομαι,0,περιωδύνομαι,0,περιωδυνέω,1,περιωδυνέω,1,2,stanza_perseus|stanza_proiel,same_stem
 πιτυρώδης,πιτυρώδεα,tlg0627,Hippocrates,tlg012,4:77,4:77,3744,morpheus,2-5,πιτυρώδεος,0,πιτυρῶδης,1,πιτυρώδης,1,πιτυρώδης,1,πιτυρώδης,1,1,odycy,same_stem
-πίων,πιοτέρως,tlg0627,Hippocrates,tlg012,1:10,1:10,406,quoted,6+,πῖος,0,πιότερος,0,πιῶτέρως,0,πιός,0,πιοτέρως,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
-πλάνης,πλανῆτες,tlg0627,Hippocrates,tlg012,3:22,3:22,2272,quoted,6+,πλανῆς,1,πλαίνω,0,πλανάς,0,πλανής,1,πλανήτης,0,2,stanza_perseus|stanza_proiel,other
 πλευρῖτις,πλευρίτιδες,tlg0627,Hippocrates,tlg012,3:23,3:23,2304,morpheus,2-5,πλευρίτιδες,0,πλευρίτης,0,πλευρίτις,1,πλευρίτις,1,πλευρῖτις,1,2,odycy|stanza_perseus,same_stem
 πνευματώδης,πνευματώδεές,tlg0627,Hippocrates,tlg012,5:72,5:72,5143,morpheus,2-5,πνευματώδεές,0,πνευματώδης,1,πνευματώδης,1,πνευματώδης,1,πνευματώδης,1,1,odycy,same_stem
 ποδαγρικός,ποδαγρικὰ,tlg0627,Hippocrates,tlg012,5:25,5:25,4256,morpheus,2-5,ποδαγρικὰ,0,ποδαγρικός,1,ποδαγρικός,1,ποδαγρικός,1,ποδαγρικός,1,1,odycy,same_stem
@@ -1061,7 +1038,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἀναμάρτητος,ἀναμαρτητότερον,tlg0627,Hippocrates,tlg009,16,16,4827,morpheus,6+,ἄναμαρτητος,1,ἀναμαρτητερός,0,ἄναμαρτος,0,ἄναμαρτητος,1,ἀναμάρτητος,1,2,stanza_perseus|stanza_proiel,same_stem
 ἀναπαλινδρομέω,ἀναπαλινδρομῆσαι,tlg0627,Hippocrates,tlg009,4,4,1197,morpheus,1,ἀναπαλινδρομέω,1,ἀναπαλινέομαι,0,ἀναπαλινδράω,0,ἀναπαλινδρομέω,1,ἀναπαλινδρομέω,1,2,stanza_perseus|stanza_proiel,same_stem
 ἀναρρήγνυμι,ἀναῤῥηγνύμενα,tlg0627,Hippocrates,tlg009,11,11,3238,morpheus,6+,ἀναῤῥηγνύμενα,0,ἀναρήγνυμι,0,ἀναιῥηγνύω,0,γίαῤῥηγνομαι,0,,,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
-ἀναψύχω,ἀνεψύχθαι,tlg0627,Hippocrates,tlg009,25,25,6248,quoted,6+,ἀνεψύχθαι,0,ἀναψύχω,1,ἀνοψύχω,0,ἀνεύχω,0,ἀνεψύχομαι,0,3,odycy|stanza_proiel|stoicheia,surface_returned
 ἀνεπίδετος,ἀνεπίδετα,tlg0627,Hippocrates,tlg009,20,20,5629,morpheus,1,ἀνεπίδετος,1,ἀνεπίδες,0,ἀνεπίδετος,1,ἀνεπίδετος,1,ἀνεπίδετος,1,1,stanza_perseus,same_stem
 ἄνισος,ἄνισά,tlg0627,Hippocrates,tlg009,37,37,9729,morpheus,6+,ἄνισός,1,ἄνισος,1,ἀνίσα,0,ἄνισος,1,ἄνισος,1,1,stanza_proiel,same_stem
 ἀντικατατείνω,ἀντικατατείνειν,tlg0627,Hippocrates,tlg009,14,14,4028,morpheus,2-5,ἀντικατατείνω,1,ἀντικατέω,0,ἀντικαθατείνω,0,ἀντικατατείνω,1,ἀντικατατείνω,1,2,stanza_perseus|stanza_proiel,same_stem
@@ -1128,12 +1104,10 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἡμισπιθαμιαῖος,ἡμισπιθαμιαίους,tlg0627,Hippocrates,tlg009,29,29,7511,morpheus,1,ἡμισπιθαμιαίους,0,ἡμισπιθαμίαιος,1,ἡμισπιθαμίαιος,1,ἡμισπιθαμιαῖος,1,ἡμισπιθαμιαῖος,1,1,odycy,same_stem
 ἠρεμέω,ἠρεμέειν,tlg0627,Hippocrates,tlg009,6,6,1759,morpheus,6+,ἠρεμέω,1,ἀρεμέω,0,ἀρέμω,0,ἠρεμέω,1,ἠρεμέω,1,2,stanza_perseus|stanza_proiel,other
 ἰγνύα,ἰγνύης,tlg0627,Hippocrates,tlg009,13,13,3752,morpheus,2-5,ἰγνύα,1,ἰγνύα,1,ἰγνύς,0,ἰγνύα,1,ἰγνύα,1,1,stanza_proiel,same_stem
-ἵξις,ἴξει,tlg0627,Hippocrates,tlg009,9,9,2818,quoted,6+,ἴξις,1,ἴξος,0,ἴξος,0,ἴξις,1,ἵξις,1,2,stanza_perseus|stanza_proiel,other
 ἰξύς,ἰξύας,tlg0627,Hippocrates,tlg009,20,20,5600,morpheus,2-5,ἰξύς,1,ἴξυος,0,ἰξύος,0,ἰξύη,0,ἰξύς,1,3,stanza_perseus|stanza_proiel|stoicheia,other
 κακόσινος,κακοσινώτερον,tlg0627,Hippocrates,tlg009,46,46,10776,morpheus,1,κακοσινός,1,κακοσίνωτερος,0,κακός,0,κακοσινός,1,κακόσινος,1,2,stanza_perseus|stanza_proiel,same_stem
 κατακρεμάννυμι,κατακρεμάμενον,tlg0627,Hippocrates,tlg009,21,21,5771,morpheus,2-5,κατακρεμάμενον,0,κατακρέπτω,0,κατακρεμάννυμι,1,κατακρεάννυμι,0,κατακρεμάννυμι,1,3,odycy|stanza_perseus|stoicheia,same_stem
 καταναγκάζω,καταναγκαζέτω,tlg0627,Hippocrates,tlg009,8,8,2430,morpheus,2-5,καταναγκαζέτω,0,καταναγκάζω,1,καταναγκάζω,1,καταναγάζω,0,καταναγκάζω,1,2,odycy|stoicheia,same_stem
-καταπορέω,κατηπορήθη,tlg0627,Hippocrates,tlg009,33,33,8937,quoted,2-5,κατηπορήθη,0,κατηπορέω,0,κατηπορέω,0,κατηπορέω,0,καταπορέω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 κατατέμνω,κατατάμνειν,tlg0627,Hippocrates,tlg009,11,11,3118,morpheus,6+,κατατάμνω,0,κατατάμνω,0,κατατέμνω,1,κατατάμνω,0,κατατέμνω,1,3,odycy|stanza_perseus|stoicheia,same_stem
 κατεπείγω,κατεπείγει,tlg0627,Hippocrates,tlg009,14,14,4182,morpheus,6+,κατεπείγω,1,καταπείγω,0,καταπείγω,0,κατεπείγω,1,κατεπείγω,1,2,stanza_perseus|stanza_proiel,other
 κατόρθωσις,κατορθώσιας,tlg0627,Hippocrates,tlg009,26,26,6572,morpheus,6+,κατορθώσια,0,κατορθώσιος,0,κατορθόσιος,0,κατόρθωσις,1,κατόρθωσις,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
@@ -1180,8 +1154,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 πλανώδης,πλανωδέστερον,tlg0627,Hippocrates,tlg009,45,45,10707,morpheus,2-5,πλανωδέσς,0,πλανωδέστερος,0,πλανωδής,1,πλανώδης,1,πλανώδης,1,2,odycy|stanza_perseus,same_stem
 πλεονάζω,πεπλεόνασται,tlg0627,Hippocrates,tlg009,7,7,2152,morpheus,6+,πεπλεόνασται,0,πεπλεόναστος,0,πλεονάζω,1,πλείζω,0,πλεονάζω,1,3,odycy|stanza_perseus|stoicheia,surface_returned
 πλεονάζω,πεπλεόνασται,tlg0627,Hippocrates,tlg009,7,7,2152,morpheus,6+,πεπλεόνασται,0,πεπλεόναστος,0,πλεονάζω,1,πλείζω,0,πλεονάζω,1,3,odycy|stanza_perseus|stoicheia,surface_returned
-πρανής,πρηνὲς,tlg0627,Hippocrates,tlg009,1,1,28,quoted,6+,πρηνής,0,πρηνής,0,πρηνής,0,πρηνής,0,πρηνής,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
-πρανής,πρηνὲς,tlg0627,Hippocrates,tlg009,2,1,28,quoted,6+,πρηνής,0,πρηνής,0,πρηνής,0,πρηνής,0,πρηνής,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 προμηθέομαι,προμηθέεσθαι,tlg0627,Hippocrates,tlg009,20,20,5651,morpheus,6+,προμηθέημι,0,προμηθέομαι,1,προμηθέομαι,1,προμηθέομαι,1,προμηθέομαι,1,1,odycy,same_stem
 προσαρτάω,προσήρτηται,tlg0627,Hippocrates,tlg009,11,11,3064,morpheus,6+,προσήρτηται,0,προσήρω,0,προσερτάομαι,0,προσαρτάω,1,προσαρτάω,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 προσδέω,προσδήσαντα,tlg0627,Hippocrates,tlg009,13,13,3733,morpheus,6+,προσδήζω,0,προσδέω,1,προσδέω,1,προσδέω,1,προσδέω,1,1,odycy,same_stem
@@ -1192,7 +1164,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 πρόφασις,προφάσιας,tlg0627,Hippocrates,tlg009,15,15,4516,morpheus,6+,προφάσια,0,πρόφασις,1,πρόφασις,1,πρόφασις,1,πρόφασις,1,1,odycy,same_stem
 προχώρησις,προχωρήσεσιν,tlg0627,Hippocrates,tlg009,16,16,4806,morpheus,1,προχωρήσεσιν,0,πρόχωρεν,0,πρόσωρεσης,0,προχωώρησις,0,προχώρησις,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 πτύσσω,πτύξαντα,tlg0627,Hippocrates,tlg009,8,8,2654,morpheus,6+,πτύκω,0,πτύσσω,1,πτύσσω,1,πτύσσω,1,πτύσσω,1,1,odycy,other
-πυρεταίνω,πυρεταίνηται,tlg0627,Hippocrates,tlg009,11,11,3448,quoted,2-5,πυρεταίνω,1,πυρεταίνομαι,0,πυραίνω,0,πυρεταίνω,1,πυρεταίνω,1,2,stanza_perseus|stanza_proiel,same_stem
 πυρετώδης,πυρετωδέων,tlg0627,Hippocrates,tlg009,34,34,9240,morpheus,2-5,πυρετωδής,1,πυρετωδής,1,πυρετωδέω,0,πυρετωδής,1,πυρετώδης,1,1,stanza_proiel,same_stem
 πυρώδης,πυρῶδες,tlg0627,Hippocrates,tlg009,25,25,6420,morpheus,2-5,πυρώδης,1,πυρός,0,πυρών,0,πυρώδης,1,πυρώδης,1,2,stanza_perseus|stanza_proiel,other
 πώρωσις,πωρώσιες,tlg0627,Hippocrates,tlg009,23,23,6045,morpheus,2-5,πωρώσιες,0,πωρώσις,1,πωρῶσις,1,πωίωσις,0,πώρωσις,1,2,odycy|stoicheia,same_stem
@@ -1244,7 +1215,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 αἴσθησις,αἴσθησιν,tlg0627,Hippocrates,tlg001,9,9,1642,morpheus,6+,αἴσθησις,1,αἶσθης,0,αἰσάνω,0,αἴσθησις,1,αἴσθησις,1,2,stanza_perseus|stanza_proiel,same_stem
 αἴτιος,αἴτια,tlg0627,Hippocrates,tlg001,6,6,1217,morpheus,6+,αἴτιον,0,αἴτιον,0,αἴτιος,1,αἴτιος,1,αἴτιος,1,2,odycy|stanza_perseus,same_stem
 ἄκαιρος,ἀκαίρου,tlg0627,Hippocrates,tlg001,10,10,1805,morpheus,6+,ἀκαίρου,0,ἄκαιρος,1,ἄκαιρος,1,ἄκαιρος,1,ἄκαιρος,1,1,odycy,same_stem
-ἀκρασία,ἀκρησίην,tlg0627,Hippocrates,tlg001,7,7,1313,quoted,2-5,ἀκρησία,0,ἀκρησία,0,ἀκρασία,1,ἀκρησία,0,ἀκρασία,1,3,odycy|stanza_perseus|stoicheia,other
 ἄκρατος,ἀκρητέστερα,tlg0627,Hippocrates,tlg001,5,5,1102,morpheus,6+,ἀκρητέσς,0,ἀκρητέστερα,0,ἀκρητής,0,ἀκρητής,0,ἄκρατος,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 ἀκρότης,ἀκρότητάς,tlg0627,Hippocrates,tlg001,22,22,4849,morpheus,2-5,ἀκρότητάς,0,ἀκρότης,1,ἀκρότης,1,ἀκρότης,1,ἀκρότης,1,1,odycy,same_stem
 ἄλγημα,ἀλγήματα,tlg0627,Hippocrates,tlg001,6,6,1132,morpheus,2-5,ἀλγήματα,0,ἄλγημα,1,ἄλγημα,1,ἀέβημα,0,ἄλγημα,1,2,odycy|stoicheia,same_stem
@@ -1257,8 +1227,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἀνάριστος,ἀναρίστων,tlg0627,Hippocrates,tlg001,11,11,2174,morpheus,2-5,ἀναρίστων,0,ἀνάριστος,1,ἀνάριστος,1,ἀναρίστος,1,ἀνάριστος,1,1,odycy,same_stem
 ἀνείλημα,ἀνειλήματα,tlg0627,Hippocrates,tlg001,22,22,5178,morpheus,2-5,ἀνειλήματα,0,ἀνείλημα,1,ἀνείλημα,1,φίληλήμα,0,ἀνείλημα,1,2,odycy|stoicheia,same_stem
 ἀνεπιστήμων,ἀνεπιστήμονες,tlg0627,Hippocrates,tlg001,1,1,117,morpheus,6+,ἀνεπιστήμων,1,ἀνεπιστήμονες,0,ἀνεπιστήμων,1,ἀνεπιστήμων,1,ἀνεπιστήμων,1,1,stanza_perseus,same_stem
-ἀντιπαίω,ἀντιπαῖον,tlg0627,Hippocrates,tlg001,22,22,5313,quoted,2-5,ἀντιπαῖος,0,ἀντιπαῖος,0,ἀντιπαῖος,0,ἀντιπίνω,0,ἀντιπαίω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
-ἀπέοικα,ἀπεικός,tlg0627,Hippocrates,tlg001,4,4,825,quoted,6+,ἀπεικός,0,ἀπεικός,0,ἀπεικός,0,ἀφίημι,0,ἀπεικός,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 ἀποκαθαίρω,ἀποκαθαρθῇ,tlg0627,Hippocrates,tlg001,19,19,4191,morpheus,2-5,ἀποκαθαρθῇ,0,ἀποκαθάρχομαι,0,ἀποκαθαίρω,1,ἀποκαθαίρω,1,ἀποκαθαίρω,1,2,odycy|stanza_perseus,same_stem
 ἄπτιστος,ἀπτίστων,tlg0627,Hippocrates,tlg001,14,14,2584,morpheus,1,ἀπτίστων,0,ἄπτιστος,1,ἄπτιστος,1,ἄπος,0,ἄπτιστος,1,2,odycy|stoicheia,same_stem
 ἀργός,ἀργοὺς,tlg0627,Hippocrates,tlg001,13,13,2375,morpheus,6+,ἀργοὺς,0,ἀργός,1,ἀργός,1,ἀργός,1,ἀργός,1,1,odycy,same_stem
@@ -1294,7 +1262,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἐπισφαλής,ἐπισφαλεῖ,tlg0627,Hippocrates,tlg001,9,9,1775,morpheus,6+,ἐπισφαλής,1,ἐπισφαλεύς,0,ἐπισφαλή,0,ἐπισφαλής,1,ἐπισφαλής,1,2,stanza_perseus|stanza_proiel,same_stem
 ἐπώδυνος,ἐπώδυνά,tlg0627,Hippocrates,tlg001,22,22,5370,morpheus,2-5,ἐπώδυνόν,0,ἐπώδυνος,1,ἐπωδύω,0,ἐπώδυνος,1,ἐπώδυνος,1,2,odycy|stanza_proiel,same_stem
 ἐρωτάω,ἐρωτήσει,tlg0627,Hippocrates,tlg001,15,15,3085,morpheus,6+,ἐρωτέω,0,ἐρωτάω,1,ἐρωτάω,1,ἐρωτάω,1,ἐρωτάω,1,1,odycy,same_stem
-ἑτεροῖος,έτεροῖον,tlg0627,Hippocrates,tlg001,7,7,1243,quoted,2-5,έτεροῖος,1,έτερος,0,έτεροιος,1,έτεροῖος,1,έτερόων,0,1,stanza_perseus,same_stem
 ἑτεροῖος,ἑτεροῖα,tlg0627,Hippocrates,tlg001,9,9,1592,morpheus,2-5,ἑτεροῖος,1,ἑτερός,0,ἑτεροῖος,1,ἑτεροῖος,1,ἑτεροῖος,1,1,stanza_perseus,same_stem
 εὕρημα,εὑρήματι,tlg0627,Hippocrates,tlg001,4,3,776,morpheus,6+,εὑρήματι,0,εύρημα,1,εὕρημα,1,εὕρημα,1,εὕρημα,1,1,odycy,same_stem
 ἑφθός,ἑφθὰ,tlg0627,Hippocrates,tlg001,13,13,2472,morpheus,6+,ἑφθὰ,0,ἑφθός,1,ἑφθά,0,ἑφθός,1,ἑφθός,1,2,odycy|stanza_proiel,surface_returned
@@ -1302,7 +1269,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ζήτημα,ζητήματι,tlg0627,Hippocrates,tlg001,3,3,779,morpheus,6+,ζητήματι,0,ζήτημα,1,ζήτημα,1,ζητῆμα,1,ζήτημα,1,1,odycy,same_stem
 θέρμη,θέρμης,tlg0627,Hippocrates,tlg001,19,19,4268,morpheus,6+,θέρμη,1,θέρμα,0,θέρμη,1,θέρμη,1,θέρμη,1,1,stanza_perseus,same_stem
 θερμότης,θερμότητα,tlg0627,Hippocrates,tlg001,16,16,3238,morpheus,2-5,θερμότης,1,θέρμα,0,θέρμος,0,θερμότης,1,θερμότης,1,2,stanza_perseus|stanza_proiel,same_stem
-θορυβώδης,θορυβώδεα,tlg0627,Hippocrates,tlg001,10,10,2040,quoted,2-5,θορυβώδεος,0,θορυβώδης,1,θορυβώδης,1,θορυβώδεας,0,θορυβώδης,1,2,odycy|stoicheia,same_stem
 ἰατρικός,ἰητρικῆς,tlg0627,Hippocrates,tlg001,1,1,153,morpheus,6+,ἰητρικῆ,0,ἰητρικός,0,ἰητρικός,0,ἰητρικός,0,ἰατρικός,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,other
 κάκωσις,κακώσιος,tlg0627,Hippocrates,tlg001,17,17,3667,morpheus,6+,κακώσιος,0,κακώσιος,0,κακόσιος,0,καίωσις,0,κάκωσις,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 καταλέω,καταλέσαντες,tlg0627,Hippocrates,tlg001,3,3,689,morpheus,2-5,καταλέσαντες,0,καταλέω,1,καταλέω,1,καταλέω,1,καταλέω,1,1,odycy,same_stem
@@ -1324,7 +1290,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ὄροβος,ὀρόβους,tlg0627,Hippocrates,tlg001,8,8,1456,morpheus,2-5,ὀρόβους,0,ὄροβος,1,ὄροβος,1,ὀρόβος,1,ὄροβος,1,1,odycy,same_stem
 πάταγος,πάταγον,tlg0627,Hippocrates,tlg001,22,22,5199,morpheus,6+,πάταγος,1,πάταγος,1,πάταγον,0,πάταγος,1,πάταγος,1,1,stanza_proiel,same_stem
 περιολισθάνω,περιολισθάνοι,tlg0627,Hippocrates,tlg001,22,22,5073,morpheus,2-5,περιολισθάνω,1,περιολίζω,0,περιολίζω,0,περιολισθάνω,1,περιολισθάνω,1,2,stanza_perseus|stanza_proiel,same_stem
-πέσσω,πέσσουσι,tlg0627,Hippocrates,tlg001,11,11,2102,quoted,6+,πέσω,0,πέσσω,1,πίπτω,0,πέσσω,1,πέσσω,1,2,odycy|stanza_proiel,other
 πέψις,πέψιος,tlg0627,Hippocrates,tlg001,18,18,3878,morpheus,2-5,πέψιος,0,πέψιος,0,πέψις,1,πέψις,1,πέψις,1,2,odycy|stanza_perseus,same_stem
 πιέζω,πιέσας,tlg0627,Hippocrates,tlg001,22,22,4978,morpheus,6+,πιέσας,0,πίνω,0,πίνω,0,πιέθω,0,πιέζω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 πλήρωσις,πληρώσιος,tlg0627,Hippocrates,tlg001,21,21,4792,morpheus,6+,πληρώσις,1,πληρώσιος,0,πλήρωσις,1,πληρόω,0,πλήρωσις,1,2,stanza_perseus|stoicheia,same_stem
@@ -1335,10 +1300,8 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 σαρκώδης,σαρκώδεά,tlg0627,Hippocrates,tlg001,22,22,5226,morpheus,6+,σαρκώδεος,0,σαρκώδης,1,σαρκώδης,1,σαρκώδης,1,σαρκώδης,1,1,odycy,same_stem
 σικύα,σικύαι,tlg0627,Hippocrates,tlg001,22,22,4995,morpheus,6+,σικύας,0,σικύς,0,σικύη,0,σικύα,1,σικύα,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 σκέπτομαι,ἐσκέφθαι,tlg0627,Hippocrates,tlg001,24,24,5455,morpheus,6+,ἐσκέφθαι,0,εἰσκέφθομαι,0,εἰσκέπω,0,έπτομαι,0,σκέπτομαι,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
-σκέψις,σκέψιος,tlg0627,Hippocrates,tlg001,4,4,857,quoted,6+,σκέψιος,0,σκέψιος,0,σκέψιος,0,σκέψις,1,σκέψις,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 σκληρύνω,σκληρυνθείη,tlg0627,Hippocrates,tlg001,22,22,5099,morpheus,2-5,σκληρύνω,1,σκληρύω,0,σκληρύνω,1,σκληύνω,0,σκληρύνω,1,2,stanza_perseus|stoicheia,same_stem
 σταθμός,σταθμὸν,tlg0627,Hippocrates,tlg001,9,9,1623,morpheus,6+,σταθμός,1,σταθμός,1,σταθμόν,0,σταθμός,1,σταθμός,1,1,stanza_proiel,same_stem
-στενόω,στενώτερον,tlg0627,Hippocrates,tlg001,22,22,5000,quoted,1,στενώς,0,στενώς,0,στένωτερος,0,στενός,0,στενός,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 στοχάζομαι,στοχάσασθαι,tlg0627,Hippocrates,tlg001,9,9,1619,morpheus,6+,στοχάζομαι,1,στοχάζω,0,στοχάζω,0,στοχάζω,0,στοχάζομαι,1,3,stanza_perseus|stanza_proiel|stoicheia,same_stem
 στοχάζομαι,στοχάσασθαι,tlg0627,Hippocrates,tlg001,9,9,1619,morpheus,6+,στοχάζομαι,1,στοχάζω,0,στοχάζω,0,στοχάζω,0,στοχάζομαι,1,3,stanza_perseus|stanza_proiel|stoicheia,same_stem
 τεχνάομαι,τετεχνέαται,tlg0627,Hippocrates,tlg001,22,22,5004,quoted,6+,τεχνέω,0,τεχνάομαι,1,τεχνάομαι,1,τεχνζω,0,τεχνεάομαι,0,2,odycy|stoicheia,same_stem
@@ -1386,7 +1349,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἐνδίδωμι,ἐνδιδοίη,tlg0627,Hippocrates,tlg003,19,19,3759,morpheus,6+,ἐνδιδοίη,0,ἐνδίδωμι,1,ἐνδίδωμι,1,ἐνδίδωμι,1,ἐνδίδωμι,1,1,odycy,same_stem
 ἐξανάστασις,ἐξαναστάσιος,tlg0627,Hippocrates,tlg003,11,11,1784,morpheus,2-5,ἐξαναστάσιος,0,ἐξαναστάσιος,0,ἐξανάστασις,1,ἐξανάστασις,1,ἐξανάστασις,1,2,odycy|stanza_perseus,same_stem
 ἐξίσχω,ἐξίσχοντες,tlg0627,Hippocrates,tlg003,2,2,450,morpheus,2-5,ἐξίσχοντες,0,ἐξίσχω,1,ἐξέχω,0,ἐξίσχω,1,ἐξίσχω,1,2,odycy|stanza_proiel,same_stem
-ἐξυγραίνω,ἐξυγρασμένα,tlg0627,Hippocrates,tlg003,2,2,311,quoted,1,ἐξυγρασμένα,0,ἐξυγράζω,0,ἐξυγράζω,0,ἐξυγρασμένός,0,ἐξυγράζω,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ἐπικατεῖδον,ἐπικατιδεῖν,tlg0627,Hippocrates,tlg003,7,7,1071,morpheus,1,ἐπικατοράω,0,ἐπικατεῖδον,1,ἐπικαθίδημι,0,ἐπικατιδέω,0,ἐπικατεῖδον,1,3,odycy|stanza_proiel|stoicheia,same_stem
 ἑπταετής,ἑπταετέων,tlg0627,Hippocrates,tlg003,19,19,3788,morpheus,2-5,ἑπταετής,1,ἱπταετής,0,ἑπταέτης,1,ἑπταετής,1,ἑπταετής,1,1,stanza_perseus,other
 ἑτοῖμος,ἑτοιμοτάταν,tlg0627,Hippocrates,tlg003,24,24,4978,morpheus,6+,ἑτοιμοτάταν,0,ἑτοιμός,1,ἕτοιμος,1,ἑτοιμοτῖμος,0,ἑτοῖμος,1,2,odycy|stoicheia,same_stem
@@ -1509,7 +1471,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 εὐφυΐα,εὐφυΐα,tlg0627,Hippocrates,tlg008,4,4,435,morpheus,2-5,εὐφυΐα,1,εὐφυία,1,εὐφυΐα,1,εὐφία,0,εὐφυΐα,1,1,stoicheia,other
 ἰθύς,ἰθὺ,tlg0627,Hippocrates,tlg008,3,3,209,morpheus,6+,ἰθύς,1,ἰθύς,1,εὐθύ,0,ἰθύς,1,ἰθύς,1,1,stanza_proiel,other
 ἰθυωρίη,ἰθυωρίας,tlg0627,Hippocrates,tlg008,15,15,1517,morpheus,2-5,ἰθυωρία,0,ἰθυωρία,0,ἰθυωρία,0,ἰθυωρία,0,ἰθυωρίη,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
-ἵξις,ἴξιν,tlg0627,Hippocrates,tlg008,9,9,766,quoted,6+,ἴξις,1,ἴξιος,0,ἴξις,1,ἴξις,1,ἵξις,1,1,stanza_perseus,other
 κατάντης,κατάντη,tlg0627,Hippocrates,tlg008,9,9,738,morpheus,6+,κατάντης,1,κατάντη,0,καθάντος,0,κατάντής,1,κατάντης,1,2,stanza_perseus|stanza_proiel,same_stem
 καταντία,καταντίαν,tlg0627,Hippocrates,tlg008,3,3,392,morpheus,1,καταντία,1,καταντία,1,κατάντιος,0,καταντίος,0,καταντία,1,2,stanza_proiel|stoicheia,same_stem
 κηρωτή,Κηρωτῇ,tlg0627,Hippocrates,tlg008,12,12,1388,morpheus,2-5,κηρωτή,1,Κηρωτός,0,Κηρωτής,0,Κηρωτή,1,κηρωτή,1,2,stanza_perseus|stanza_proiel,same_stem
@@ -1577,7 +1538,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 προστατέω,προστατέοντος,tlg0627,Hippocrates,tlg051,13,13,1146,morpheus,6+,προστατέω,1,προστατίω,0,προστίθημι,0,προστατέω,1,προστατέω,1,2,stanza_perseus|stanza_proiel,same_stem
 σημαντικός,σημαντικῶν,tlg0627,Hippocrates,tlg051,11,11,1062,morpheus,2-5,σημαντικῶν,0,σημαντίκος,1,σημαντικός,1,σημαντικός,1,σημαντικός,1,1,odycy,same_stem
 στενοχωρέω,στενοχωρέων,tlg0627,Hippocrates,tlg051,8,8,771,morpheus,6+,στενοχωρέω,1,στεοχωρέω,0,στενοχωρέω,1,στενοχωρέω,1,στενοχωρέω,1,1,stanza_perseus,other
-ὑψόω,ὑψεύμενοι,tlg0627,Hippocrates,tlg051,7,7,606,quoted,2-5,ὑψεύμενοι,0,ὑψέομαι,0,ὑψεύω,0,ὑψόω,1,ὑψόω,1,3,odycy|stanza_perseus|stanza_proiel,surface_returned
 φιλαλυστής,φιλαλυστέων,tlg0627,Hippocrates,tlg051,13,13,1153,morpheus,1,φιλαλυστής,1,φιλαλυστής,1,φιλαλύστης,1,φιλαλυστέος,0,φιλαλυστής,1,1,stoicheia,same_stem
 χειροτριβία,χειροτριβίης,tlg0627,Hippocrates,tlg051,13,13,1212,morpheus,1,χειροτριβία,1,χειροτριβίος,0,χειροτριβία,1,χειροτριβία,1,χειροτριβία,1,1,stanza_perseus,same_stem
 ἁγνεία,ἁγνείας,tlg0627,Hippocrates,tlg027,1,1,631,morpheus,6+,ἁγνεία,1,ἁγνείας,0,ἁγνεία,1,ἁγνεία,1,ἁγνεία,1,1,stanza_perseus,same_stem
@@ -1587,12 +1547,9 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 ἀποπνίγω,ἀπέπνιξε,tlg0627,Hippocrates,tlg027,9,9,2696,morpheus,6+,ἀπέπνιξε,0,ἀποπνίζω,0,ἀποπνίγω,1,ἀποπνίγω,1,ἀποπνίγω,1,2,odycy|stanza_perseus,surface_returned
 ἀτρεμέω,ἀτρεμήσῃ,tlg0627,Hippocrates,tlg027,14,14,3873,morpheus,6+,ἀτρεμέω,1,ἀτρέμω,0,ἀτρέμω,0,ἀτρεμέω,1,ἀτρεμέω,1,2,stanza_perseus|stanza_proiel,same_stem
 ἀτρεμίζω,ἀτρεμίσαντος,tlg0627,Hippocrates,tlg027,7,7,2224,morpheus,6+,ἀτρεμίω,0,ἀτρεμίζω,1,ἀτρεμίζω,1,ἀτρεμίζω,1,ἀτρεμίζω,1,1,odycy,same_stem
-βρυχάομαι,βρύχωνται,tlg0627,Hippocrates,tlg027,1,1,846,quoted,6+,βρύχομαι,0,βρύχω,0,βρύχω,0,βρύχομαι,0,βρύκω,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 διεκδύομαι,διεκδῦναι,tlg0627,Hippocrates,tlg027,7,7,2316,morpheus,1,διεκδύω,0,διακδύνω,0,διακδάομαι,0,διεκδύνω,0,διεκδύομαι,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ἐθάς,ἐθάδες,tlg0627,Hippocrates,tlg027,12,12,3242,morpheus,2-5,ἐθάς,1,ἐθάδες,0,ἐθάς,1,ἐθάς,1,ἐθάς,1,1,stanza_perseus,surface_returned
 ἐνόδιος,Ἐνοδίου,tlg0627,Hippocrates,tlg027,1,1,883,morpheus,6+,ἐνοδίου,0,Ἐνόδιος,1,Ἐνόδιος,1,Ἐνόνιος,0,ἐνόδιος,1,2,odycy|stoicheia,same_stem
-ἐπεγείρω,ἐπέγρωνται,tlg0627,Hippocrates,tlg027,1,1,184,quoted,6+,ἐπέγρλυμι,0,ἐπιγρώσκω,0,ἐπιγιγράνομαι,0,ἐπέγρομαι,0,ἐπεγείρω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
-ἐπισημαίνω,ἐπισημανθῇ,tlg0627,Hippocrates,tlg027,8,8,2524,quoted,6+,ἐπισημανθῇ,0,ἐφίημι,0,ἐπισημαίνω,1,ἐπισημαίνω,1,ἐπισημαίνω,1,2,odycy|stanza_perseus,same_stem
 εὐσθενέω,εὐσθενέοντα,tlg0627,Hippocrates,tlg027,10,10,2846,morpheus,2-5,εὐσθενέω,1,εὐσθείνω,0,εὐσθενέω,1,εὐσθενέω,1,εὐσθενέω,1,1,stanza_perseus,same_stem
 ἰάομαι,ἰῆσθαι,tlg0627,Hippocrates,tlg027,13,13,3668,morpheus,6+,ἰῆσθαι,0,εἶμι,0,ἰάομαι,1,ἰάομαι,1,ἰάομαι,1,2,odycy|stanza_perseus,surface_returned
 κεκράκτης,κεκράκται,tlg0627,Hippocrates,tlg027,15,15,3915,morpheus,2-5,κεκράκται,0,κράζω,0,κράπτω,0,κεκράκτης,1,κεκράκτης,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
@@ -1626,7 +1583,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 προστιμωρέω,προστιμωρεῖται,tlg0057,Galen,tlg010,1:13,1:13,6217,morpheus,2-5,προστιμωρέω,1,προστιμωρέομαι,0,προστιμωρέω,1,προστιμωρέω,1,προστιμωρέω,1,1,stanza_perseus,same_stem
 συμμαίνομαι,συμμανῆναι,tlg0057,Galen,tlg010,1:15,1:15,8285,morpheus,1,συμμαναίνω,0,συμμαίνω,0,συμμαίνω,0,συμμαναίνω,0,συμμαίνομαι,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 συμπεραντέον,Συμπεραντέον,tlg0057,Galen,tlg010,3:11,3:11,26526,morpheus,1,συμπεραντέον,1,Συμπεραντῆς,0,Συμπεραντέων,0,Συμπεραντέον,1,συμπεραντέον,1,2,stanza_perseus|stanza_proiel,same_stem
-σύμπνοος,σύῤῥουν,tlg0057,Galen,tlg010,1:12,1:12,4289,quoted,2-5,σύῤῥουν,0,σύρῥαμαι,0,σύῤῥομαι,0,σύῤῥους,0,σύρροος,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 συνεπωθέω,συνεπωθοῦντος,tlg0057,Galen,tlg010,3:8,3:8,25341,morpheus,1,συνεπωθέω,1,συνεπωθέω,1,συνεπιθέω,0,συνεπωθέω,1,συνεπωθέω,1,1,stanza_proiel,same_stem
 ὑπήρετις,ὑπηρέτιδας,tlg0057,Galen,tlg010,3:9,3:9,26220,morpheus,2-5,ὑπηρέτις,1,ὑπερτίδωμι,0,ὑπηρέτις,1,ὑπηρέτις,1,ὑπήρετις,1,1,stanza_perseus,other
 χύσις,χύσεσι,tlg0057,Galen,tlg010,1:3,1:3,1068,morpheus,6+,χύσεσι,0,χύω,0,χύσις,1,χύσις,1,χύσις,1,2,odycy|stanza_perseus,surface_returned
@@ -1634,7 +1590,6 @@ headword,surface,author,author_name,work,locator,unit,token_index,validation,cit
 διάσφυξις,διασφύξιες,tlg0627,Hippocrates,tlg046,48,48,1184,morpheus,2-5,διασφύξιες,0,διασφύξια,0,διασφύξις,1,διάστασις,0,διάσφυξις,1,3,odycy|stanza_perseus|stoicheia,same_stem
 ἐκβλαστάνω,ἐξεβλάστησε,tlg0627,Hippocrates,tlg046,6,6,116,morpheus,2-5,ἐξεβλάστησε,0,ἐκβλάζω,0,ἐκβλάστω,0,βαβλάστάζω,0,ἐκβλαστάνω,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,surface_returned
 οὐλομελίη,οὐλομελίην,tlg0627,Hippocrates,tlg046,23,23,538,morpheus,2-5,οὐλομελίη,1,οὐλομελία,0,οὐλομελία,0,οὐλομελία,0,οὐλομελίη,1,3,stanza_perseus|stanza_proiel|stoicheia,same_stem
-παρέκ,παρὲξ,tlg0627,Hippocrates,tlg046,51,51,1261,quoted,6+,παρέξ,0,παρέξ,0,παρός,0,παρέξ,0,παρέξ,0,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 ῥώννυμι,ῥώννυσι,tlg0627,Hippocrates,tlg046,2,2,34,morpheus,6+,ῥώννυσι,0,ῥώννυ,0,ῥωννύω,0,ῥώννυμι,1,ῥώννυμι,1,3,odycy|stanza_perseus|stanza_proiel,same_stem
 στερέμνιος,στερεμνίως,tlg0627,Hippocrates,tlg046,5,5,106,morpheus,2-5,στερεμνίως,0,στερεμνός,0,στερεμνίως,0,στερεμνίωα,0,στερέμνιος,1,4,odycy|stanza_perseus|stanza_proiel|stoicheia,same_stem
 συμπαθής,ξυμπαθέα,tlg0627,Hippocrates,tlg046,23,23,534,morpheus,2-5,ξυμπαθέος,0,συμπάθεος,0,ξυμπαθής,0,συμπαθής,1,συμπαθής,1,3,odycy|stanza_perseus|stanza_proiel,other

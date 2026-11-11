@@ -1,7 +1,7 @@
 {
  "title": "Galen Corpus Infrastructure: Galen First Drafts, Census, Terminology Density Map and Lemmatizer Benchmarks",
  "upload_type": "dataset",
- "description": "<p>Galen Corpus Infrastructure. <b>Galen First Drafts</b>: machine first-draft English translations of thirteen works of Galen with no complete English translation known to us (257,016 words of Greek), each with two independent renderings, the Greek, and pre-registered machine checks; each work's page names the earlier partial and other-language translations. A catalogue of 678 items found in the drafts (people, lost authors and books, recipes, cases, measures), with an attestation check against Fichtner's <i>Corpus Galenicum</i> and the fragment collections. The LSJ-Gold and LS-Gold lemmatizer benchmarks and the LSJ-Gold lexicon; a digital-availability census of the Galenic Greek corpus in First1KGreek (103 editions / 97 works) and a terminology density map.</p><p>The drafts are unverified and meant for reading and correction. Site: https://montblanctech.github.io/Galen/</p>",
+ "description": "<p>Galen Corpus Infrastructure. <b>Galen First Drafts</b>: machine first-draft English translations of thirteen works of Galen with no complete English translation known to us (257,016 words of Greek), each with two independent renderings, the Greek, and pre-registered machine checks; each work's page names the earlier partial and other-language translations. A catalogue of 678 items found in the drafts (people, lost authors and books, recipes, cases, measures), with an attestation check against Fichtner's <i>Corpus Galenicum</i> and the fragment collections. The LSJ-Gold and LS-Gold lemmatizer benchmarks (LSJ-Gold 0.1.1 corrects 0.1: it drops the 21,950 loci validated only by a phrase LSJ quotes, about 1,600 of which had a wrong answer key, and rescores every system; 0.1 stays citable) and the LSJ-Gold lexicon; a digital-availability census of the Galenic Greek corpus in First1KGreek (103 editions / 97 works) and a terminology density map.</p><p>The drafts are unverified and meant for reading and correction. Site: https://montblanctech.github.io/Galen/</p>",
  "creators": [
   {
    "name": "Pepperman, William"
@@ -14,7 +14,13 @@
   "machine translation",
   "history of medicine",
   "lemmatization",
-  "digital humanities"
+  "digital humanities",
+  "terminology",
+  "corpus linguistics",
+  "keyness",
+  "lemmatizer benchmark",
+  "LSJ",
+  "evaluation"
  ],
  "license": "cc-by-4.0",
  "related_identifiers": [
@@ -27,6 +33,13 @@
    "identifier": "https://montblanctech.github.io/Galen/",
    "relation": "isDocumentedBy",
    "scheme": "url"
+  },
+  {
+   "identifier": "10.5281/zenodo.22162809",
+   "relation": "isDescribedBy",
+   "scheme": "doi",
+   "resource_type": "publication-preprint"
   }
- ]
+ ],
+ "access_right": "open"
 }

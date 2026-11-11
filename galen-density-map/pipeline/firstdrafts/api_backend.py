@@ -38,7 +38,7 @@ from typing import Callable
 
 from common import PRICES_PER_MTOK, read_jsonl, sha256, write_jsonl
 
-KEY_FILE = Path(r"C:\Users\W\.claude\channels\anthropic\key")
+KEY_FILE = Path(os.environ.get("ANTHROPIC_KEY_FILE", Path.home() / ".anthropic" / "key"))
 BATCH_DISCOUNT = 0.5
 CACHE_READ_PER_MTOK = {"claude-fable-5-1": 0.25, "claude-opus-5-5": 0.20, "claude-sonnet-5-5": 0.20}
 MODEL_EFFORT = {"claude-fable-5-1": "high", "claude-opus-5-5": "high", "claude-sonnet-5-5": "high"}
