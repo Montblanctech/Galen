@@ -357,10 +357,19 @@ def check() -> int:
         cps = [c for c in e.get("copies", []) if (REPO / c).exists()]
         for rel, i, d, line, facts in scan(cps, stale, rules):
             posted_hits.append((e, rel, d, facts))
-    if posted_hits:
+    # a posted text that names the version its figures belong to ("labelled" in facts_external.json) is superseded,
+    # not wrong: it is listed apart, once, so the old values in it are not mistaken for errors
+    stale_posts = [h for h in posted_hits if not h[0].get("labelled")]
+    labelled = {(h[0]["where"], h[0].get("labelled")) for h in posted_hits if h[0].get("labelled")}
+    if stale_posts:
         print(f"\nPOSTED ELSEWHERE with an old value (correct by hand, then refresh the local copy):")
-        for e, rel, d, facts in posted_hits:
+        for e, rel, d, facts in stale_posts:
             print(f"  {e['where']} {e.get('url', '')}: '{d}' (now {', '.join(c or '?' for _, c in facts)})  [copy: {rel}]")
+    if labelled:
+        print("\nPOSTED, SUPERSEDED (the text names the version its figures are for; a short note when convenient, no correction needed):")
+        for where, lab in sorted(labelled):
+            print(f"  {where}: figures for {lab}")
+    posted_hits = stale_posts
     print(f"\nchecked {len(files)} public text files and {len(outgoing)} outgoing drafts against {len(stale)} old values; "
           f"{len(hits)} in our text, {len(posted_hits)} in posted places; {len(ANCHORS)} figure phrases, {len(wrong)} wrong")
     return bad

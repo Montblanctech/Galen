@@ -1,6 +1,6 @@
 # LSJ-Gold v0 — lemmatizer accuracy on the dictionary-cited stratum (2026-11-06, night build)
 
-> **This is the build log, newest entries last; numbers in it are as of each entry.** The current release is **LSJ-Gold 0.1.2** (70,198 loci over 54 authors; `lsj_gold_v0_1_2.csv`): see [`release/lsj-gold-0.1.2/README.md`](../../../../release/lsj-gold-0.1.2/README.md); the 0.1.2 reading record is [`recheck_0_1_2/README.md`](recheck_0_1_2/README.md) and the leaderboard at https://montblanctech.github.io/Galen/lsj-gold/. The form → lemma list is [`release/lsj-gold-lexicon-0.1.2/`](../../../../release/lsj-gold-lexicon-0.1.2/).
+> **This is the build log, newest entries last; numbers in it are as of each entry.** The current release is **LSJ-Gold 1.0**, the stable release (70,033 loci over 54 authors; `lsj_gold_v1_0.csv`): see [`release/lsj-gold-1.0/README.md`](../../../../release/lsj-gold-1.0/README.md); the reading records are [`recheck_0_1_2/README.md`](recheck_0_1_2/README.md) and [`grind/`](grind/) (ledger, sheets, answers, keys) and the leaderboard at https://montblanctech.github.io/Galen/lsj-gold/. The form → lemma list is [`release/lsj-gold-lexicon-0.1.2/`](../../../../release/lsj-gold-lexicon-0.1.2/).
 
 
 Spec: `../../../../lsj_gold_benchmark_spec.md`. Scripts: `pipeline/lsjgold/relocate.py` (citations → token loci), `pipeline/lsjgold/score.py` (systems → table). Report only.

@@ -1,0 +1,100 @@
+{
+ "pools": {
+  "allmiss": {
+   "keep": 591,
+   "drop": 303
+  },
+  "conflict": {
+   "keep": 42,
+   "drop": 57
+  },
+  "ctx3": {
+   "keep": 198,
+   "drop": 2
+  },
+  "ctxmiss": {
+   "keep": 1001,
+   "drop": 30
+  },
+  "quoted_dm": {
+   "keep": 2
+  },
+  "sample_dm": {
+   "keep": 195,
+   "drop": 5
+  },
+  "sample_dm2": {
+   "keep": 198,
+   "drop": 2
+  },
+  "sample_ok": {
+   "keep": 99,
+   "drop": 1
+  },
+  "sample_ok2": {
+   "keep": 299,
+   "drop": 1
+  },
+  "sheet3": {
+   "drop": 47,
+   "keep": 116
+  },
+  "split": {
+   "keep": 21,
+   "drop": 39
+  }
+ },
+ "ledger_loci": 3249,
+ "residual": {
+  "bulk (Dilemma and at least two context systems match)": {
+   "sampled": 400,
+   "dropped": 2,
+   "rate": 0.005,
+   "wilson95": [
+    0.0014,
+    0.018
+   ],
+   "unread_loci": 61280,
+   "expected_wrong": [
+    84,
+    306,
+    1106
+   ]
+  },
+  "Morpheus-validated, only Dilemma misses": {
+   "sampled": 400,
+   "dropped": 7,
+   "rate": 0.0175,
+   "wilson95": [
+    0.0085,
+    0.0357
+   ],
+   "unread_loci": 3794,
+   "expected_wrong": [
+    32,
+    66,
+    135
+   ]
+  },
+  "Dilemma matches, three of four context systems miss": {
+   "sampled": 200,
+   "dropped": 2,
+   "rate": 0.01,
+   "wilson95": [
+    0.0027,
+    0.0357
+   ],
+   "unread_loci": 2481,
+   "expected_wrong": [
+    7,
+    25,
+    89
+   ]
+  }
+ },
+ "residual_total_expected_wrong": [
+  123,
+  398,
+  1330
+ ]
+}

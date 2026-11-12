@@ -4,7 +4,7 @@
  "cited_works": 375,
  "held_works": 276,
  "citations_into_held_works": 249090,
- "citations_located": 70198,
+ "citations_located": 70033,
  "missing_by_author": [
   {
    "author": "tlg0060",
@@ -94,7 +94,7 @@
    "citations": 24251,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 6758
+   "located": 6746
   },
   {
    "author": "tlg0016",
@@ -104,7 +104,7 @@
    "citations": 20241,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 5623
+   "located": 5611
   },
   {
    "author": "tlg0012",
@@ -114,7 +114,7 @@
    "citations": 15035,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 4198
+   "located": 4202
   },
   {
    "author": "tlg0003",
@@ -124,7 +124,7 @@
    "citations": 12256,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 4302
+   "located": 4291
   },
   {
    "author": "tlg0543",
@@ -134,7 +134,7 @@
    "citations": 7311,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 1885
+   "located": 1877
   },
   {
    "author": "tlg0059",
@@ -144,7 +144,7 @@
    "citations": 4874,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 2046
+   "located": 2041
   },
   {
    "author": "tlg0059",
@@ -154,7 +154,7 @@
    "citations": 4589,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 1641
+   "located": 1634
   },
   {
    "author": "tlg0099",
@@ -164,7 +164,7 @@
    "citations": 3875,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 479
+   "located": 470
   },
   {
    "author": "tlg0032",
@@ -174,7 +174,7 @@
    "citations": 3867,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 1319
+   "located": 1316
   },
   {
    "author": "tlg0060",
@@ -204,7 +204,7 @@
    "citations": 3079,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 290
+   "located": 300
   },
   {
    "author": "tlg0032",
@@ -214,7 +214,7 @@
    "citations": 3063,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 1143
+   "located": 1135
   },
   {
    "author": "tlg0005",
@@ -224,7 +224,7 @@
    "citations": 3047,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 518
+   "located": 527
   },
   {
    "author": "tlg0085",
@@ -234,7 +234,7 @@
    "citations": 2937,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 1055
+   "located": 1051
   },
   {
    "author": "tlg0033",
@@ -244,7 +244,7 @@
    "citations": 2499,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 652
+   "located": 654
   },
   {
    "author": "tlg0085",
@@ -254,7 +254,7 @@
    "citations": 2450,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 1694
+   "located": 1690
   },
   {
    "author": "tlg0032",
@@ -264,7 +264,7 @@
    "citations": 2416,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 748
+   "located": 740
   },
   {
    "author": "tlg0011",
@@ -274,7 +274,7 @@
    "citations": 2374,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 865
+   "located": 861
   },
   {
    "author": "tlg0086",
@@ -294,7 +294,7 @@
    "citations": 2256,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 939
+   "located": 937
   },
   {
    "author": "tlg0011",
@@ -304,7 +304,7 @@
    "citations": 2122,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 282
+   "located": 279
   },
   {
    "author": "tlg0033",
@@ -334,7 +334,7 @@
    "citations": 2037,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 85
+   "located": 88
   },
   {
    "author": "tlg0011",
@@ -344,7 +344,7 @@
    "citations": 1970,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 850
+   "located": 848
   },
   {
    "author": "tlg0526",
@@ -364,7 +364,7 @@
    "citations": 1884,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 733
+   "located": 730
   },
   {
    "author": "tlg0019",
@@ -374,7 +374,7 @@
    "citations": 1855,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 629
+   "located": 626
   },
   {
    "author": "tlg0011",
@@ -394,7 +394,7 @@
    "citations": 1810,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 728
+   "located": 722
   },
   {
    "author": "tlg0086",
@@ -414,7 +414,7 @@
    "citations": 1797,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 621
+   "located": 619
   },
   {
    "author": "tlg0085",
@@ -424,7 +424,7 @@
    "citations": 1795,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 1166
+   "located": 1163
   },
   {
    "author": "tlg0085",
@@ -434,7 +434,7 @@
    "citations": 1769,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 581
+   "located": 582
   },
   {
    "author": "tlg0019",
@@ -444,7 +444,7 @@
    "citations": 1754,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 498
+   "located": 496
   },
   {
    "author": "tlg0019",
@@ -464,7 +464,7 @@
    "citations": 1726,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 407
+   "located": 406
   },
   {
    "author": "tlg0085",
@@ -474,7 +474,7 @@
    "citations": 1646,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 535
+   "located": 534
   },
   {
    "author": "tlg0019",
@@ -484,7 +484,7 @@
    "citations": 1616,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 423
+   "located": 424
   },
   {
    "author": "tlg0019",
@@ -494,7 +494,7 @@
    "citations": 1604,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 470
+   "located": 469
   },
   {
    "author": "tlg0085",
@@ -534,7 +534,7 @@
    "citations": 1404,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 450
+   "located": 447
   },
   {
    "author": "tlg0059",
@@ -544,7 +544,7 @@
    "citations": 1401,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 568
+   "located": 569
   },
   {
    "author": "tlg0085",
@@ -554,7 +554,7 @@
    "citations": 1401,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 388
+   "located": 387
   },
   {
    "author": "tlg0014",
@@ -564,7 +564,7 @@
    "citations": 1397,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 571
+   "located": 570
   },
   {
    "author": "tlg0086",
@@ -584,7 +584,7 @@
    "citations": 1343,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 564
+   "located": 562
   },
   {
    "author": "tlg0020",
@@ -594,7 +594,7 @@
    "citations": 1314,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 299
+   "located": 298
   },
   {
    "author": "tlg0006",
@@ -604,7 +604,7 @@
    "citations": 1312,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 381
+   "located": 379
   },
   {
    "author": "tlg0023",
@@ -614,7 +614,7 @@
    "citations": 1280,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 94
+   "located": 98
   },
   {
    "author": "tlg0006",
@@ -634,7 +634,7 @@
    "citations": 1250,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 528
+   "located": 527
   },
   {
    "author": "tlg0019",
@@ -644,7 +644,7 @@
    "citations": 1189,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 288
+   "located": 290
   },
   {
    "author": "tlg0004",
@@ -664,7 +664,7 @@
    "citations": 1139,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 174
+   "located": 168
   },
   {
    "author": "tlg0006",
@@ -674,7 +674,7 @@
    "citations": 1121,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 311
+   "located": 310
   },
   {
    "author": "tlg0006",
@@ -684,7 +684,7 @@
    "citations": 1112,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 364
+   "located": 363
   },
   {
    "author": "tlg0006",
@@ -694,7 +694,7 @@
    "citations": 1109,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 378
+   "located": 376
   },
   {
    "author": "tlg0627",
@@ -704,7 +704,7 @@
    "citations": 1105,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 642
+   "located": 641
   },
   {
    "author": "tlg0019",
@@ -744,7 +744,7 @@
    "citations": 1042,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 316
+   "located": 313
   },
   {
    "author": "tlg0006",
@@ -774,7 +774,7 @@
    "citations": 958,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 248
+   "located": 249
   },
   {
    "author": "tlg0006",
@@ -804,7 +804,7 @@
    "citations": 910,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 323
+   "located": 320
   },
   {
    "author": "tlg0059",
@@ -814,7 +814,7 @@
    "citations": 906,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 332
+   "located": 330
   },
   {
    "author": "tlg0024",
@@ -824,7 +824,7 @@
    "citations": 900,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 68
+   "located": 70
   },
   {
    "author": "tlg0006",
@@ -844,7 +844,7 @@
    "citations": 856,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 247
+   "located": 246
   },
   {
    "author": "tlg0019",
@@ -864,7 +864,7 @@
    "citations": 838,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 247
+   "located": 246
   },
   {
    "author": "tlg2046",
@@ -884,7 +884,7 @@
    "citations": 827,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 231
+   "located": 230
   },
   {
    "author": "tlg0006",
@@ -894,7 +894,7 @@
    "citations": 804,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 217
+   "located": 218
   },
   {
    "author": "tlg0006",
@@ -914,7 +914,7 @@
    "citations": 789,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 250
+   "located": 249
   },
   {
    "author": "tlg0006",
@@ -924,7 +924,7 @@
    "citations": 783,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 199
+   "located": 198
   },
   {
    "author": "tlg0033",
@@ -934,7 +934,7 @@
    "citations": 769,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 58
+   "located": 59
   },
   {
    "author": "tlg0059",
@@ -944,7 +944,7 @@
    "citations": 732,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 297
+   "located": 295
   },
   {
    "author": "tlg0059",
@@ -954,7 +954,7 @@
    "citations": 724,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 257
+   "located": 255
   },
   {
    "author": "tlg0032",
@@ -964,7 +964,7 @@
    "citations": 704,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 228
+   "located": 227
   },
   {
    "author": "tlg0551",
@@ -974,7 +974,7 @@
    "citations": 688,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 5
+   "located": 4
   },
   {
    "author": "tlg0014",
@@ -1004,7 +1004,7 @@
    "citations": 672,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 89
+   "located": 88
   },
   {
    "author": "tlg0020",
@@ -1044,7 +1044,7 @@
    "citations": 626,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 170
+   "located": 169
   },
   {
    "author": "tlg0031",
@@ -1054,7 +1054,7 @@
    "citations": 602,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 184
+   "located": 183
   },
   {
    "author": "tlg0719",
@@ -1064,7 +1064,7 @@
    "citations": 574,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 106
+   "located": 107
   },
   {
    "author": "tlg0027",
@@ -1094,7 +1094,7 @@
    "citations": 541,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 171
+   "located": 170
   },
   {
    "author": "tlg0006",
@@ -1104,7 +1104,7 @@
    "citations": 535,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 139
+   "located": 140
   },
   {
    "author": "tlg0032",
@@ -1144,7 +1144,7 @@
    "citations": 506,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 133
+   "located": 131
   },
   {
    "author": "tlg0627",
@@ -1154,7 +1154,7 @@
    "citations": 496,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 284
+   "located": 283
   },
   {
    "author": "tlg0627",
@@ -1194,7 +1194,7 @@
    "citations": 420,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 82
+   "located": 81
   },
   {
    "author": "tlg0013",
@@ -1204,7 +1204,7 @@
    "citations": 413,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 77
+   "located": 76
   },
   {
    "author": "tlg0010",
@@ -1214,7 +1214,7 @@
    "citations": 410,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 182
+   "located": 183
   },
   {
    "author": "tlg0719",
@@ -1234,7 +1234,7 @@
    "citations": 387,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 100
+   "located": 101
   },
   {
    "author": "tlg0284",
@@ -1284,7 +1284,7 @@
    "citations": 314,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 131
+   "located": 130
   },
   {
    "author": "tlg0013",
@@ -1294,7 +1294,7 @@
    "citations": 309,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 61
+   "located": 60
   },
   {
    "author": "tlg0648",
@@ -1304,7 +1304,7 @@
    "citations": 302,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 48
+   "located": 47
   },
   {
    "author": "tlg0014",
@@ -1344,7 +1344,7 @@
    "citations": 281,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 109
+   "located": 108
   },
   {
    "author": "tlg0031",
@@ -1354,7 +1354,7 @@
    "citations": 276,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 77
+   "located": 76
   },
   {
    "author": "tlg0059",
@@ -1424,7 +1424,7 @@
    "citations": 226,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 102
+   "located": 101
   },
   {
    "author": "tlg0719",
@@ -1454,7 +1454,7 @@
    "citations": 224,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 84
+   "located": 83
   },
   {
    "author": "tlg0014",
@@ -1514,7 +1514,7 @@
    "citations": 199,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 55
+   "located": 54
   },
   {
    "author": "tlg0647",
@@ -1534,7 +1534,7 @@
    "citations": 197,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 27
+   "located": 26
   },
   {
    "author": "tlg0032",
@@ -1554,7 +1554,7 @@
    "citations": 193,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 58
+   "located": 56
   },
   {
    "author": "tlg0028",
@@ -1564,7 +1564,7 @@
    "citations": 191,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 78
+   "located": 76
   },
   {
    "author": "tlg0561",
@@ -1594,7 +1594,7 @@
    "citations": 185,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 78
+   "located": 77
   },
   {
    "author": "tlg0010",
@@ -1604,7 +1604,7 @@
    "citations": 179,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 70
+   "located": 69
   },
   {
    "author": "tlg0014",
@@ -1634,7 +1634,7 @@
    "citations": 169,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 58
+   "located": 57
   },
   {
    "author": "tlg0014",
@@ -1654,7 +1654,7 @@
    "citations": 167,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 74
+   "located": 73
   },
   {
    "author": "tlg0014",
@@ -1704,7 +1704,7 @@
    "citations": 164,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 51
+   "located": 50
   },
   {
    "author": "tlg0031",
@@ -1724,7 +1724,7 @@
    "citations": 160,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 67
+   "located": 68
   },
   {
    "author": "tlg0014",
@@ -1734,7 +1734,7 @@
    "citations": 156,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 58
+   "located": 57
   },
   {
    "author": "tlg0086",
@@ -1754,7 +1754,7 @@
    "citations": 153,
    "held": true,
    "edition": "1st1K-grc1",
-   "located": 61
+   "located": 60
   },
   {
    "author": "tlg1799",
@@ -1784,7 +1784,7 @@
    "citations": 150,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 16
+   "located": 15
   },
   {
    "author": "tlg0010",
@@ -1834,7 +1834,7 @@
    "citations": 142,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 42
+   "located": 41
   },
   {
    "author": "tlg0551",
@@ -1844,7 +1844,7 @@
    "citations": 141,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 19
+   "located": 18
   },
   {
    "author": "tlg0010",
@@ -1904,7 +1904,7 @@
    "citations": 132,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 52
+   "located": 51
   },
   {
    "author": "tlg0031",
@@ -1914,7 +1914,7 @@
    "citations": 131,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 33
+   "located": 32
   },
   {
    "author": "tlg0526",
@@ -1974,7 +1974,7 @@
    "citations": 120,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 12
+   "located": 13
   },
   {
    "author": "tlg0540",
@@ -2004,7 +2004,7 @@
    "citations": 112,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 26
+   "located": 27
   },
   {
    "author": "tlg0027",
@@ -2104,7 +2104,7 @@
    "citations": 101,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 22
+   "located": 21
   },
   {
    "author": "tlg4081",
@@ -2184,7 +2184,7 @@
    "citations": 92,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 7
+   "located": 6
   },
   {
    "author": "tlg0014",
@@ -2234,7 +2234,7 @@
    "citations": 88,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 19
+   "located": 17
   },
   {
    "author": "tlg0540",
@@ -2324,7 +2324,7 @@
    "citations": 80,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 25
+   "located": 24
   },
   {
    "author": "tlg0031",
@@ -2344,7 +2344,7 @@
    "citations": 79,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 23
+   "located": 22
   },
   {
    "author": "tlg0017",
@@ -2354,7 +2354,7 @@
    "citations": 79,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 17
+   "located": 16
   },
   {
    "author": "tlg0540",
@@ -2414,7 +2414,7 @@
    "citations": 75,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 14
+   "located": 15
   },
   {
    "author": "tlg0014",
@@ -2424,7 +2424,7 @@
    "citations": 75,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 24
+   "located": 22
   },
   {
    "author": "tlg0017",
@@ -2514,7 +2514,7 @@
    "citations": 67,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 19
+   "located": 18
   },
   {
    "author": "tlg0014",
@@ -2604,7 +2604,7 @@
    "citations": 63,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 27
+   "located": 26
   },
   {
    "author": "tlg0014",
@@ -2644,7 +2644,7 @@
    "citations": 61,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 25
+   "located": 24
   },
   {
    "author": "tlg0062",
@@ -2724,7 +2724,7 @@
    "citations": 56,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 19
+   "located": 17
   },
   {
    "author": "tlg0014",
@@ -2754,7 +2754,7 @@
    "citations": 55,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 20
+   "located": 19
   },
   {
    "author": "tlg0014",
@@ -2794,7 +2794,7 @@
    "citations": 52,
    "held": true,
    "edition": "perseus-grc2",
-   "located": 15
+   "located": 14
   },
   {
    "author": "tlg0014",

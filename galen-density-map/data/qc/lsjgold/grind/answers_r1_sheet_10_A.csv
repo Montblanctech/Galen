@@ -1,0 +1,159 @@
+row_id,is_instance,right_headword_if_no,note
+r1-10-001,no,ἄλλος,
+r1-10-002,yes,,
+r1-10-003,no,δαπάνη,
+r1-10-004,yes,,adverbial πέρας 'at last'
+r1-10-005,no,πρῶτος,LSJ has separate πρῶτος entry
+r1-10-006,yes,,interjection εἶεν
+r1-10-007,no,ὀρθός,adverb ὀρθῶς
+r1-10-008,yes,,δύνω filed under δύω; sun sets
+r1-10-009,no,πρῶτος,
+r1-10-010,no,ποταμός,
+r1-10-011,no,πρῶτος,
+r1-10-012,no,βίος,
+r1-10-013,yes,,aor. mid. participle
+r1-10-014,unsure,,ἐκ πέρας 'from beyond': adverb πέρα or noun πέρας
+r1-10-015,no,ἀνεκτός,
+r1-10-016,yes,,
+r1-10-017,yes,,subj. of εἶμι
+r1-10-018,yes,,
+r1-10-019,yes,,
+r1-10-020,yes,,
+r1-10-021,yes,,ἄρμενα 'fitting/tackle' for ships
+r1-10-022,yes,,
+r1-10-023,no,πρῶτος,
+r1-10-024,yes,,
+r1-10-025,yes,,aor. subj.
+r1-10-026,no,πρέσβυς,gen. πρέσβεως of πρέσβυς
+r1-10-027,no,πέραν,LSJ separate adverb entry
+r1-10-028,yes,,fut. 'you will go through'
+r1-10-029,no,πρέσβυς,
+r1-10-030,no,ὅς,relative pronoun
+r1-10-031,yes,,
+r1-10-032,no,στέφανος,
+r1-10-033,yes,,
+r1-10-034,yes,,interjection 'there!'
+r1-10-035,no,Πάριος,Parian marble
+r1-10-036,yes,,Doric form
+r1-10-037,no,πέμπω,
+r1-10-038,yes,,
+r1-10-039,yes,,σμικρός filed under μικρός
+r1-10-040,yes,,reduplicated bird-cry
+r1-10-041,yes,,adverb
+r1-10-042,yes,,contracted πτερόεις (πτεροῦς)
+r1-10-043,yes,,
+r1-10-044,yes,,comparative adverb
+r1-10-045,no,πρῶτος,
+r1-10-046,yes,,Ionic form
+r1-10-047,no,σχολή,
+r1-10-048,yes,,
+r1-10-049,yes,,
+r1-10-050,no,Κραναοί,ethnic name for Pelasgians
+r1-10-051,yes,,aor. inf. 'lie down'
+r1-10-052,yes,,ῥυτά 'reins'
+r1-10-053,yes,,participle
+r1-10-054,yes,,
+r1-10-055,yes,,
+r1-10-056,yes,,
+r1-10-057,yes,,
+r1-10-058,yes,,participle of δυσμενέω
+r1-10-059,no,ὀφρῦς,
+r1-10-060,yes,,
+r1-10-061,yes,,
+r1-10-062,no,ῥίπτω,accent shows ῥίπτω
+r1-10-063,no,λούω,
+r1-10-064,yes,,
+r1-10-065,yes,,
+r1-10-066,yes,,
+r1-10-067,yes,,friendly territory
+r1-10-068,yes,,
+r1-10-069,yes,,city name
+r1-10-070,yes,,Doric imperative
+r1-10-071,yes,,
+r1-10-072,yes,,
+r1-10-073,yes,,Doric 3pl
+r1-10-074,yes,,
+r1-10-075,yes,,
+r1-10-076,yes,,
+r1-10-077,yes,,
+r1-10-078,no,κάλλος,
+r1-10-079,yes,,
+r1-10-080,no,πάχος,
+r1-10-081,no,δεξιός,adjective with χείρ
+r1-10-082,yes,,
+r1-10-083,yes,,
+r1-10-084,yes,,
+r1-10-085,yes,,
+r1-10-086,yes,,
+r1-10-087,yes,,
+r1-10-088,yes,,
+r1-10-089,yes,,
+r1-10-090,yes,,
+r1-10-091,yes,,'forgive/let pass'
+r1-10-092,yes,,
+r1-10-093,yes,,
+r1-10-094,yes,,
+r1-10-095,no,μισθός,
+r1-10-096,yes,,ποτόν 'drink'
+r1-10-097,yes,,
+r1-10-098,yes,,Doric future
+r1-10-099,yes,,τίθησι split
+r1-10-100,no,ποίμνη,
+r1-10-101,no,ταγός,
+r1-10-102,yes,,
+r1-10-103,yes,,
+r1-10-104,yes,,
+r1-10-105,yes,,'inexperienced'
+r1-10-106,yes,,
+r1-10-107,no,πρῶτος,
+r1-10-108,yes,,
+r1-10-109,yes,,
+r1-10-110,yes,,
+r1-10-111,yes,,
+r1-10-112,no,Ποικίλη,the Stoa Poikile
+r1-10-113,unsure,,dat. fits σταθμός or σταθμόν
+r1-10-114,no,εἰρήνη,
+r1-10-115,no,πρῶτος,
+r1-10-116,yes,,
+r1-10-117,yes,,
+r1-10-118,no,κακός,
+r1-10-119,no,στέγη,
+r1-10-120,no,ὀστέον,
+r1-10-121,no,αἰσχύνη,
+r1-10-122,no,πρῶτος,
+r1-10-123,yes,,
+r1-10-124,yes,,ὥς περ = ὥσπερ written apart
+r1-10-125,yes,,
+r1-10-126,yes,,
+r1-10-127,no,κεράτιον,carob pods
+r1-10-128,yes,,
+r1-10-129,yes,,
+r1-10-130,yes,,old Attic nom. pl.
+r1-10-131,yes,,
+r1-10-132,yes,,
+r1-10-133,yes,,contracted πτερόεις
+r1-10-134,no,ὦ,vocative interjection
+r1-10-135,yes,,
+r1-10-136,yes,,
+r1-10-137,no,πρῶτος,
+r1-10-138,no,βίος,
+r1-10-139,yes,,
+r1-10-140,yes,,
+r1-10-141,yes,,
+r1-10-142,yes,,
+r1-10-143,yes,,
+r1-10-144,yes,,
+r1-10-145,yes,,
+r1-10-146,yes,,gate name
+r1-10-147,yes,,
+r1-10-148,no,ἄνθος,
+r1-10-149,yes,,
+r1-10-150,no,βασιλεύτερος,
+r1-10-151,no,κεῖμαι,
+r1-10-152,yes,,
+r1-10-153,yes,,
+r1-10-154,no,ταγός,
+r1-10-155,yes,,χαρίζομαι
+r1-10-156,yes,,
+r1-10-157,no,σύ,τοι = σοι
+r1-10-158,no,χρῖμα,

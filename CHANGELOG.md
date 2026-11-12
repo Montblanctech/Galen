@@ -5,6 +5,13 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased]
 
+## [3.3.0] — 2026-11-11
+
+### Changed
+- **LSJ-Gold 1.0, the stable release** (`release/lsj-gold-1.0/`, `pipeline/lsjgold/grind.py`, `release_1_0.py`, record in `data/qc/lsjgold/grind/`): 70,033 loci over 54 authors. Every locus with a reason for doubt was read blind by two readers (Claude Opus and Sonnet) with salted anchors and near-miss plants, a third reader deciding splits, under rules committed before any answer: the loci every system misses (894: 303 wrong golds), the loci where only Dilemma matches (1,031: 30), the tokens gold under two headwords, and everything 0.1.2 had dropped or set aside (sheet 3 re-read with LSJ's filing conventions stated: 116 of 163 back). 3,249 loci in two rounds; every gate passed. The strata not read in full were sampled (900 loci): about 400 wrong golds may remain (95% range 123–1,330), about 0.6%. Frozen: later corrections are numbered errata. Every system rescored: Stoicheia 93.1, Dilemma 93.0, Stanza-Perseus 85.1, odyCy 82.8, Stanza-PROIEL 79.9.
+- Audit kit 0.4.0 packages LSJ-Gold 1.0; leaderboard, failure catalogue, medical gap and coverage rebuilt on it.
+- Facts check: a posted text that names the version its figures belong to is listed as superseded, not stale.
+
 ## [3.2.0] — 2026-11-11
 
 ### Changed
