@@ -114,9 +114,11 @@ def compute() -> dict[str, dict]:
     ls = _json(REPO / "docs" / "ls-gold" / "leaderboard.json")
     put("lsgold.loci", ls["n_loci"], "docs/ls-gold/leaderboard.json", "int", "LS-Gold loci", "loci")
     put("lsgold.authors", len(ls["loci_per_author"]), "docs/ls-gold/leaderboard.json", "count", "LS-Gold authors", "authors")
-    put("lsgold.quoted", ls["relocation"]["located_quoted"], "docs/ls-gold/leaderboard.json", "int", "LS-Gold loci by quoted form")
-    hw = {r["headword_key"] for r in _rows(GDM / "data" / "qc" / "lsgold" / "ls_gold_v0.csv")}
-    put("lsgold.headwords", len(hw), "data/qc/lsgold/ls_gold_v0.csv", "int", "LS-Gold headwords", "headwords")
+    lsq = GDM / "data" / "qc" / "lsgold"
+    lsfile = next(lsq / f for f in ("ls_gold_v1_0.csv", "ls_gold_v0.csv") if (lsq / f).exists())   # the newest LS-Gold
+    lsrows = _rows(lsfile)
+    put("lsgold.quoted", sum(r["validation"] == "quoted" for r in lsrows), f"data/qc/lsgold/{lsfile.name}", "int", "LS-Gold loci by quoted form")
+    put("lsgold.headwords", len({r["headword_key"] for r in lsrows}), f"data/qc/lsgold/{lsfile.name}", "int", "LS-Gold headwords", "headwords")
     for r in ls["rows"]:
         put(f"lsgold.score.{r['system']}", round(r["blind_pct"], 1), "docs/ls-gold/leaderboard.json", "pct", f"LS-Gold {r['label']}")
 

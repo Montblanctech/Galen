@@ -1,0 +1,23 @@
+LS-GOLD READING SHEET (Latin)
+
+Each row shows a headword from Lewis & Short's Latin Dictionary and a Latin token in [brackets] inside its context (the
+edition's text as a token stream, punctuation removed). Decide whether the bracketed token is a form of that headword, as
+Lewis & Short files words.
+
+Answer is_instance:
+  yes     the token is a form of the headword: any inflection; spelling variants (u/v, i/j, assimilated prefixes such as
+          adf-/aff-, inl-/ill-, archaic spellings); an enclitic -que, -ne, -ve, -ce on the token does not matter. Count as
+          yes what Lewis & Short files under the headword:
+            - a headword stands for every word spelled the same: cum covers the preposition and the conjunction, est
+              under sum or edo is judged by the spelling shown, not by the homograph;
+            - a participle under its verb, a comparative or superlative under its positive;
+            - an adverb under its adjective when it is formed from it (-e, -iter, -ter).
+  no      the token is a different word: a compound or simple form of it, a derivative (a noun under its verb, a verb
+          under its noun), a proper name under a common noun or the reverse, or an unrelated word.
+  unsure  the context does not let you decide.
+If no, give the headword the token really belongs to.
+
+Use only this sheet and your own knowledge of Latin: no lemmatizer, no dictionary file, no web search, no other file.
+Answer every row. Some rows are controls placed at unmarked positions.
+
+Write your answers as CSV with exactly these columns: row_id,is_instance,right_headword_if_no,note
