@@ -1,0 +1,578 @@
+headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface,validation,quoted_form,lsj_part,entry_key,status,why,readers_headword
+ἄγνυμι,agnumi,tlg0012,tlg001,perseus-grc1,16,16:832,74598,ἄξειν,morpheus,ἵπποι ἄξαντ' ἐν πρώτῳ ῥυμῷ λίπον ἅρματα,grc.lsj.perseus-eng1.xml,a)/gnumi,located,read in the grind (allmiss): no/no/-,ἄγω
+ἀγωνάρχης,agwnarxhs,tlg0012,tlg001,perseus-grc1,24:1,24:1,105894,ἀγών,quoted,ἀγών,grc.lsj.perseus-eng1.xml,a)gwna/rxhs,located,read in the grind (conflict): no/no/-,ἀγών
+ʼαθήναιον,aqhnaion,tlg0012,tlg001,perseus-grc1,2:551,2:551,8360,Ἀθηναίων,morpheus,"-αῖος, α, ον",grc.lsj.perseus-eng1.xml,*)aqh/naion,located,read in the grind (allmiss): no/no/-,Ἀθηναῖος
+ἀπούρας,apouras,tlg0012,tlg001,perseus-grc1,1:430,1:430,3194,ἀπηύρων,quoted,ἀπηύρων,grc.lsj.perseus-eng1.xml,a)pou/ras,located,read in the grind (split): no/yes/no,ἀπαυράω
+ἀχεύω,axeuw,tlg0012,tlg001,perseus-grc1,18:62,18:62,80718,ἄχνυται,quoted,ἄχνυται,grc.lsj.perseus-eng1.xml,a)xeu/w,located,read in the grind (sheet3): no/no/-,ἄχνυμαι
+βασιλεύς,basileus,tlg0012,tlg001,perseus-grc1,9:160,9:160,36369,βασιλεύτερός,quoted,βασιλεύτερος,grc.lsj.perseus-eng2.xml,basileu/s,located,read in the grind (split): no/yes/no,βασιλεύτερος
+βόειος,boeios,tlg0012,tlg001,perseus-grc1,16:636,16:636,73225,βοῶν,morpheus,βοέων,grc.lsj.perseus-eng2.xml,bo/eios,located,read in the grind (allmiss): no/no/-,βοῦς
+δίψος,diyos,tlg0012,tlg001,perseus-grc1,19:166,19:166,85902,δίψά,quoted,δίψα,grc.lsj.perseus-eng4.xml,di/yos,located,0.1.2: both readers answered no,
+εἰμί,eimi,tlg0012,tlg001,perseus-grc1,11:762,11:763,49876,ἦ,morpheus,ἔην,grc.lsj.perseus-eng5.xml,ei)mi/1,located,read in the grind (allmiss): no/no/-,ἦ
+εἶμι,eimi,tlg0012,tlg001,perseus-grc1,9:701,9:702,40236,ἦ,morpheus,ἴῃσι,grc.lsj.perseus-eng5.xml,ei)=mi2,located,read in the grind (allmiss): no/no/-,ἤ
+εἷς,eis,tlg0012,tlg001,perseus-grc1,9:319,9:319,37501,ἐν,morpheus,ἰῇ,grc.lsj.perseus-eng5.xml,ei(=s,located,read in the grind (allmiss): no/no/-,ἐν
+εἷς,eis,tlg0012,tlg001,perseus-grc1,11:174,11:173,45704,ἐν,morpheus,μηδεΐα,grc.lsj.perseus-eng5.xml,ei(=s,located,read in the grind (allmiss): no/no/-,ἐν
+ἔνθαπερ,enqaper,tlg0012,tlg001,perseus-grc1,13:524,13:524,57506,ἔνθά,quoted,"ἔνθα,",grc.lsj.perseus-eng5.xml,e)/nqaper,located,read in the grind (split): no/no/-,ἔνθα
+ἐρατύω,eratuw,tlg0012,tlg001,perseus-grc1,2:99,2:99,5220,ἐρήτυθεν,quoted,ἐρήτυθεν,grc.lsj.perseus-eng5.xml,e)ratu/w,located,read in the grind (allmiss): no/yes/no,ἐρητύω
+ἐρύω,eruw,tlg0012,tlg001,perseus-grc1,4:138,4:138,14755,ἔρυτο,quoted,ἔρυ—το,grc.lsj.perseus-eng5.xml,e)ru/w2,located,0.1.2: both readers answered no,
+ἐρύω,eruw,tlg0012,tlg001,perseus-grc1,22:507,22:507,99476,ἔρυσο,quoted,ἔρυ—σο,grc.lsj.perseus-eng5.xml,e)ru/w2,located,read in the grind (split): no/yes/no,ῥύομαι
+ἐρύω,eruw,tlg0012,tlg001,perseus-grc1,4:186,4:186,15099,εἰρύσατο,morpheus,εἰρυ^σάμην,grc.lsj.perseus-eng5.xml,e)ru/w2,located,read in the grind (sample_dm): no/yes/no,ῥύομαι
+ἐφίζω,efizw,tlg0012,tlg001,perseus-grc1,9:455,9:455,38502,ἐφέσσεσθαι,quoted,ἐφέσσεσθαι,grc.lsj.perseus-eng5.xml,e)fi/zw,located,read in the grind (split): no/no/-,ἐφέζομαι
+ἔχευα,exeua,tlg0012,tlg001,perseus-grc1,5:314,5:314,19893,ἐχεύατο,quoted,ἐχεύατο,grc.lsj.perseus-eng5.xml,e)/xeua,located,read in the grind (conflict): yes/yes/-,
+ζῷον,zwon,tlg0012,tlg001,perseus-grc1,18:407,18:407,83189,ζῳάγρια,quoted,ζῳάγρια,grc.lsj.perseus-eng7.xml,zw=|on,located,0.1.2: both readers answered no,
+θεῖος,qeios,tlg0012,tlg001,perseus-grc1,22,22:133,96725,σείων,morpheus,ʼ ́ονειρος,grc.lsj.perseus-eng9.xml,qei=os1,located,read in the grind (conflict): no/no/-,σείω
+θρύσιος,qrusios,tlg0012,tlg001,perseus-grc1,21:351,21:351,93894,θρύον,quoted,θρύον,grc.lsj.perseus-eng9.xml,qru/sios,located,read in the grind (sheet3): no/no/-,θρύον
+ἴδε,ide,tlg0012,tlg001,perseus-grc1,17:179,17:179,76165,ἴδε,morpheus,,grc.lsj.perseus-eng10.xml,i)/de1,located,read in the grind (allmiss): no/yes/no,εἶδον
+ἵημι,ihmi,tlg0012,tlg001,perseus-grc1,12:33,12:33,50739,ᾗ,morpheus,ἵεν,grc.lsj.perseus-eng10.xml,i(/hmi,located,read in the grind (allmiss): no/no/-,ὅς
+ἵστημι,isthmi,tlg0012,tlg001,perseus-grc1,1,1:144,1056,ἔστω,morpheus,ἱστός,grc.lsj.perseus-eng10.xml,i(/sthmi,located,read in the grind (ctxmiss): no/no/-,εἰμί
+κεράω,keraw,tlg0012,tlg001,perseus-grc1,4:260,4:260,15622,κέρωνται,quoted,κέρωνται,grc.lsj.perseus-eng11.xml,kera/w1,located,read in the grind (allmiss): no/yes/no,κεράννυμι
+λαμπέτης,lampeths,tlg0012,tlg001,perseus-grc1,1:104,1:104,755,λαμπετόωντι,quoted,λαμπετόωντι,grc.lsj.perseus-eng12.xml,lampe/ths,located,0.1.2: both readers answered no,
+λέχομαι,lexomai,tlg0012,tlg001,perseus-grc1,24:650,24:650,110733,λέξο,quoted,λέξο,grc.lsj.perseus-eng12.xml,le/xomai,located,read in the grind (sheet3): no/yes/no,λέγω
+λέχομαι,lexomai,tlg0012,tlg001,perseus-grc1,9:617,9:617,39638,λέξεο,quoted,λέξεο,grc.lsj.perseus-eng12.xml,le/xomai,located,read in the grind (sheet3): unsure/yes/no,λέγω
+μειδάω,meidaw,tlg0012,tlg001,perseus-grc1,7:212,7:212,29310,μειδιόων,quoted,μειδιόων,grc.lsj.perseus-eng13.xml,meida/w,located,read in the grind (sheet3): no/yes/no,μειδιάω
+μέμονα,memona,tlg0012,tlg001,perseus-grc1,5:135,5:136,18575,μένος,quoted,μένος,grc.lsj.perseus-eng13.xml,me/mona,located,read in the grind (allmiss): no/no/-,μένος
+μέμονα,memona,tlg0012,tlg001,perseus-grc1,13:337,13:337,56185,μέμασαν,quoted,μέμα^σαν,grc.lsj.perseus-eng13.xml,me/mona,located,read in the grind (ctxmiss): no/yes/no,μάω
+μέμονα,memona,tlg0012,tlg001,perseus-grc1,4:440,4:440,16880,μεμαυῖα,quoted,μεμα^υῖα,grc.lsj.perseus-eng13.xml,me/mona,located,read in the grind (ctxmiss): no/yes/no,μάω
+ὄαροι,oaroi,tlg0012,tlg001,perseus-grc1,9:327,9:327,37564,ὀάρων,quoted,ὀάρων,grc.lsj.perseus-eng16.xml,o)/aroi,located,read in the grind (split): no/yes/no,ὄαρ
+ὅστε,oste,tlg0012,tlg001,perseus-grc1,17:757,17:756,80241,ὅτε,morpheus,"ἥτε, ὅτε",grc.lsj.perseus-eng16.xml,o(/ste,located,read in the grind (allmiss): no/no/-,ὅτε
+πάλμυς,palmus,tlg0012,tlg001,perseus-grc1,13:792,13:792,59384,Πάλμύν,quoted,πάλμυν,grc.lsj.perseus-eng17.xml,pa/lmus,located,read in the grind (ctx3): no/no/-,Πάλμυς
+πόδαργος,podargos,tlg0012,tlg001,perseus-grc1,16:150,16:150,69810,Ποδάργη,quoted,"ποδάργη,",grc.lsj.perseus-eng17.xml,po/dargos,located,0.1.2: both readers answered no,
+προβαίνω,probainw,tlg0012,tlg001,perseus-grc1,12:277,12:277,52413,προβοῶντε,quoted,"προβοῶντε,",grc.lsj.perseus-eng17.xml,probai/nw,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,15:340,15:340,65882,πρώτῃ,morpheus,"πρώτῃ ἐν ὑσμίνῃ, ἐνὶ πρώτῳ ὁμάδῳ",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,6:40,6:40,24319,πρώτῳ,morpheus,ἐν π. ῥυμῷ,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,16:371,16:371,71322,πρώτῳ,morpheus,ἐν π. ῥυμῷ,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,23:265,23:265,101397,πρώτῳ,morpheus,"εἷς, ἄεθλα θῆκε . . τῷ πρώτῳ· ἀτὰρ αὖ τῷ δευτέρῳ . . , αὐτὰρ τῷ τριτάτῳ . . , κτλ",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,6:179,6:179,25305,πρῶτον,morpheus,"εἷς, ἄεθλα θῆκε . . τῷ πρώτῳ· ἀτὰρ αὖ τῷ δευτέρῳ . . , αὐτὰρ τῷ τριτάτῳ . . , κτλ",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,2:281,2:281,6510,πρῶτοί,morpheus,ὕστατος,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,10:532,10:532,44166,πρῶτος,morpheus,νέστωρ πρῶτος κτύπον ἄϊε,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,13:502,13:502,57334,πρῶτος,morpheus,"πρότερος, Αἰνείας δὲ πρῶτος ἀκόντισεν",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,23:275,23:275,101468,πρῶτα,morpheus,τὰ π. λαβών,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,5:458,5:458,20909,πρῶτα,morpheus,"κύπριδα μὲν πρῶτα . . , αὐτὰρ ἔπειτ' . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,1:50,1:50,349,πρῶτον,morpheus,"οὐρῆας μὲν π. ἐπῴχετο . . , αὐτὰρ ἔπειτα . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,4:267,4:267,15673,πρῶτον,morpheus,ὡς τὸ π. ὑπέστην καὶ κατένευσα,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,3:443,3:443,13661,πρῶτον,morpheus,τὸ πρῶτον,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,1:6,1:6,34,πρῶτα,morpheus,τὰ π,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,4:424,4:424,16762,πρῶτα,morpheus,"πόντῳ μὲν τὰ π . . . , αὐτὰρ ἔπειτα . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,20:89,20:89,88339,πρῶτα,morpheus,οὐ . . νῦν πρῶτα ποδώκεος ἄντ' Ἀχιλῆος στήσομαι,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,1:319,1:319,2370,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,19:136,19:136,85694,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,6:489,6:489,27529,πρῶτα,morpheus,μοῖραν δ' οὔ τινά φημι πεφυγμένον ἔμμεναι ἀνδρῶν . . ἐπὴν τὰ π. γένηται,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,1:235,1:235,1744,πρῶτα,morpheus,"τὸ μὲν οὔ ποτε φύλλα καὶ ὄζους φύσει, ἐπεὶ δὴ πρῶτα τομὴν ἐν ὄρεσσι λέλοιπε",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg001,perseus-grc1,19:9,19:9,84768,πρῶτα,morpheus,"ἀλλ' ἐπεὶ οὖν τὸ π. ἀνέκραγον, οὐκ ἐπικεύσω",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+τέμνω,temnw,tlg0012,tlg001,perseus-grc1,6:194,6:194,25416,τέμενος,quoted,τέμενος,grc.lsj.perseus-eng22.xml,te/mnw1,located,read in the grind (conflict): no/no/-,τέμενος
+τέρας,teras,tlg0012,tlg001,perseus-grc1,18:485,18:485,83770,τείρεα,quoted,τείρεα,grc.lsj.perseus-eng22.xml,te/ras,located,0.1.2: both readers answered no,
+τοι,toi,tlg0012,tlg001,perseus-grc1,1:419,1:419,3112,τοι,morpheus,τοῦτο δέ τοι ἐρέουσα ἔπος . . εἶμι,grc.lsj.perseus-eng22.xml,toi1,located,read in the grind (allmiss): no/yes/no,σύ
+τρέπω,trepw,tlg0012,tlg001,perseus-grc1,3:441,3:441,13646,τραπείομεν,quoted,τραπείομεν,grc.lsj.perseus-eng22.xml,tre/pw,located,read in the grind (split): no/yes/no,τέρπω
+τρίπτυχος,triptuxos,tlg0012,tlg001,perseus-grc1,11:353,11:352,46967,τρυφάλεια,quoted,τρυφάλεια,grc.lsj.perseus-eng22.xml,tri/ptuxos,located,read in the grind (sheet3): no/no/-,τρυφάλεια
+τρυφάλεια,trufaleia,tlg0012,tlg001,perseus-grc1,11:352,11:353,46968,τρίπτυχος,quoted,τρίπτυχος,grc.lsj.perseus-eng22.xml,trufa/leia,located,0.1.2: both readers answered no,
+φέρτατος,fertatos,tlg0012,tlg001,perseus-grc1,6:123,6:123,24897,φέριστε,quoted,"φέριστε,",grc.lsj.perseus-eng24.xml,fe/rtatos,located,read in the grind (split): no/no/-,φέριστος
+φέρτατος,fertatos,tlg0012,tlg001,perseus-grc1,15:247,15:247,65233,φέριστε,quoted,"φέριστε,",grc.lsj.perseus-eng24.xml,fe/rtatos,located,read in the grind (split): no/no/-,φέριστος
+φέρτατος,fertatos,tlg0012,tlg001,perseus-grc1,23:409,23:409,102436,φέριστοι,quoted,φέριστοι,grc.lsj.perseus-eng24.xml,fe/rtatos,located,read in the grind (sheet3): no/yes/no,φέριστος
+φθία,fqia,tlg0012,tlg001,perseus-grc1,13:686,13:686,58654,Φθῖοι,quoted,φθῖοι,grc.lsj.perseus-eng24.xml,fqi/a,located,0.1.2: both readers answered no,
+φυλακεύς,fulakeus,tlg0012,tlg001,perseus-grc1,7:371,7:371,30425,φυλακῆς,morpheus,φυλακῆς μνήσασθε,grc.lsj.perseus-eng24.xml,fulakeu/s,located,read in the grind (sample_dm2): no/no/-,φυλακή
+χαλκόφι^,xalkofi,tlg0012,tlg001,perseus-grc1,11:351,11:351,46960,χαλκός,quoted,"χαλκός,",grc.lsj.perseus-eng25.xml,xalko/fi^,located,read in the grind (conflict): no/no/-,χαλκός
+χέω,xew,tlg0012,tlg001,perseus-grc1,5:314,5:314,19893,ἐχεύατο,morpheus,"ἐχευάμην, χευάμην,",grc.lsj.perseus-eng25.xml,xe/w,located,read in the grind (conflict): yes/yes/-,
+χράω,xraw,tlg0012,tlg001,perseus-grc1,23:834,23:834,105436,χρεώμενος,quoted,χρεώμενος,grc.lsj.perseus-eng25.xml,xra/w2,located,read in the grind (split): no/no/-,χράομαι
+ὥσπερ,wsper,tlg0012,tlg001,perseus-grc1,5:806,5:806,23320,ὡς,quoted,ὡς,grc.lsj.perseus-eng27.xml,w(/sper,located,read in the grind (allmiss): no/no/-,ὡς
+ὥσπερ,wsper,tlg0012,tlg001,perseus-grc1,1:211,1:211,1564,ὡς,quoted,ὡς,grc.lsj.perseus-eng27.xml,w(/sper,located,read in the grind (allmiss): no/no/-,ὡς
+ὥστε,wste,tlg0012,tlg001,perseus-grc1,2:459,2:459,7744,ὥς,quoted,ὥς,grc.lsj.perseus-eng27.xml,w(/ste,located,read in the grind (allmiss): no/no/-,ὡς
+ὥστε,wste,tlg0012,tlg001,perseus-grc1,12:421,12:421,53438,ὥς,quoted,ὥς,grc.lsj.perseus-eng27.xml,w(/ste,located,read in the grind (allmiss): unsure/no/no,ὡς
+ὥστε,wste,tlg0012,tlg001,perseus-grc1,13:703,13:703,58768,ὥς,quoted,ὥς,grc.lsj.perseus-eng27.xml,w(/ste,located,read in the grind (allmiss): no/no/-,ὡς
+ἄγνυμι,agnumi,tlg0016,tlg001,perseus-grc1,7:224,7:224:1,152643,ἀξίων,morpheus,ἔηγα,grc.lsj.perseus-eng1.xml,a)/gnumi,located,read in the grind (conflict): no/no/-,ἄξιος
+αἰσχύνω,aisxunw,tlg0016,tlg001,perseus-grc1,1:10,1:10:3,1260,αἰσχύνην,morpheus,,grc.lsj.perseus-eng1.xml,ai)sxu/nw,located,read in the grind (conflict): no/no/-,αἰσχύνη
+ἄλευρον,aleuron,tlg0016,tlg001,perseus-grc1,7:119,7:119:2,140401,ἄλφιτα,quoted,ἄλφιτα,grc.lsj.perseus-eng1.xml,a)/leuron1,located,read in the grind (conflict): no/no/-,ἄλφιτον
+ἀπαίρω,apairw,tlg0016,tlg001,perseus-grc1,1:186,1:186:3,24855,ἀπαιρέεσκον,quoted,"ἀπαιρέεσκον,",grc.lsj.perseus-eng1.xml,a)pai/rw,located,read in the grind (ctxmiss): no/yes/no,ἀφαιρέω
+ἀστή,asth,tlg0016,tlg001,perseus-grc1,1:173,1:173:5,23080,ἀστὸς,quoted,"ἀστός,",grc.lsj.perseus-eng1.xml,a)sth/,located,0.1.2: both readers answered no,
+δούλιος,doulios,tlg0016,tlg001,perseus-grc1,3:14,3:14:2,55378,δουληίῃ,quoted,δουληΐῃ,grc.lsj.perseus-eng4.xml,dou/lios,located,read in the grind (split): no/yes/no,δούλειος
+ἐάω,eaw,tlg0016,tlg001,perseus-grc1,9:2,9:2:1,170226,εἴη,morpheus,ἔων,grc.lsj.perseus-eng5.xml,e)a/w,located,read in the grind (allmiss): no/no/-,εἰμί
+ἔνθαπερ,enqaper,tlg0016,tlg001,perseus-grc1,1:14,1:14:3,1745,ἔνθα,quoted,"ἔνθα,",grc.lsj.perseus-eng5.xml,e)/nqaper,located,read in the grind (allmiss): no/no/-,ἔνθα
+θυμιάω,qumiaw,tlg0016,tlg001,perseus-grc1,8:99,8:99:1,164165,θυμιήματα,quoted,θυμιήματα,grc.lsj.perseus-eng9.xml,qumia/w,located,0.1.2: both readers answered no,
+ἱστάω,istaw,tlg0016,tlg001,perseus-grc1,2:106,2:106:1,42417,ἵστα,quoted,ἵστα,grc.lsj.perseus-eng10.xml,i(sta/w,located,read in the grind (sheet3): no/yes/no,ἵστημι
+κακόω,kakow,tlg0016,tlg001,perseus-grc1,3:82,3:82:4,65479,κακοῖσι,morpheus,τὰ κοινά,grc.lsj.perseus-eng11.xml,kako/w,located,read in the grind (allmiss): no/no/-,κακός
+κάλως,kalws,tlg0016,tlg001,perseus-grc1,2:28,2:28:4,32575,κατεῖναι,quoted,κατεῖναι,grc.lsj.perseus-eng11.xml,ka/lws2,located,0.1.2: both readers answered no,
+κατάλυσις,katalusis,tlg0016,tlg001,perseus-grc1,5:52,5:52:1,103106,κάλλισται,quoted,κάλλισται,grc.lsj.perseus-eng11.xml,kata/lusis,located,0.1.2: both readers answered no,
+κλίνω,klinw,tlg0016,tlg001,perseus-grc1,9:16,9:16:1,171846,κλίνῃ,morpheus,ἐν κλίνῃ κλῖναί τινας,grc.lsj.perseus-eng11.xml,kli/nw,located,read in the grind (conflict): no/no/-,κλίνη
+κόλχος,kolxos,tlg0016,tlg001,perseus-grc1,2:105,2:105:1,42401,Κολχικὸν,morpheus,,grc.lsj.perseus-eng11.xml,*ko/lxos,located,read in the grind (allmiss): no/no/-,Κολχικός
+κομάω,komaw,tlg0016,tlg001,perseus-grc1,1:82,1:82:7,10786,κόμην,morpheus,λακεδαιμόνιοι . . οὐ γὰρ κομῶντες πρὸ τούτου ἀπὸ τούτου κομᾶν,grc.lsj.perseus-eng11.xml,koma/w,located,read in the grind (conflict): no/no/-,κόμη
+κραναός,kranaos,tlg0016,tlg001,perseus-grc1,8:44,8:44:2,158495,Κραναοί,quoted,κραναοί,grc.lsj.perseus-eng11.xml,kranao/s,located,read in the grind (split): no/yes/no,Κραναοί
+μακεδών,makedwn,tlg0016,tlg001,perseus-grc1,7:131,7:131:1,141749,Μακεδονικὸν,morpheus,,grc.lsj.perseus-eng13.xml,*makedw/n,located,read in the grind (allmiss): no/no/-,Μακεδονικός
+μάρ,mar,tlg0016,tlg001,perseus-grc1,7:79,7:79:1,136889,Μᾶρες,quoted,μᾶρες,grc.lsj.perseus-eng13.xml,*ma/r,located,0.1.2: both readers answered no,
+νέκυς,nekus,tlg0016,tlg001,perseus-grc1,3:16,3:16:2,55924,νεκρὸς,quoted,νεκρός,grc.lsj.perseus-eng14.xml,ne/kus,located,read in the grind (allmiss): no/no/-,νεκρός
+νέος,neos,tlg0016,tlg001,perseus-grc1,5:116,5:116:1,111335,νέας,morpheus,"αὖτις ἐκ νέης,",grc.lsj.perseus-eng14.xml,ne/os1,located,read in the grind (ctxmiss): no/no/-,ναῦς
+ὁμοτράπεζος,omotrapezos,tlg0016,tlg001,perseus-grc1,9:16,9:16:2,171880,ὁμόσπονδος,quoted,ὁμόσπονδος,grc.lsj.perseus-eng16.xml,o(motra/pezos,located,0.1.2: both readers answered no,
+ὁρμέω,ormew,tlg0016,tlg001,perseus-grc1,7:188,7:188:1,148900,ὁρμηθεὶς,morpheus,πρόκροσσαι ὁρμέοντο ἐς πόντον,grc.lsj.perseus-eng16.xml,o(rme/w,located,read in the grind (allmiss): no/yes/no,ὁρμάω
+ὅς,os,tlg0016,tlg001,perseus-grc1,7:36,7:36:1,132765,οἳ,morpheus,"τὰ λίνεα [ὅπλα], τοῦ τάλαντον ὁ πῆχυς εἷλκε",grc.lsj.perseus-eng16.xml,o(/s1,located,read in the grind (ctxmiss): no/no/-,ὁ
+ὅστις,ostis,tlg0016,tlg001,perseus-grc1,1:86,1:86:6,11497,ὅτι,morpheus,,grc.lsj.perseus-eng16.xml,o(/stis,located,read in the grind (allmiss): no/no/-,ὅτι
+οὐδαμός,oudamos,tlg0016,tlg001,perseus-grc1,4:114,4:114:3,87325,οὐδαμῇ,morpheus,οὐδαμὰς ἄλλας,grc.lsj.perseus-eng16.xml,ou)damo/s,located,read in the grind (conflict): no/no/-,οὐδαμῇ
+πάρος,paros,tlg0016,tlg001,perseus-grc1,3:57,3:57:4,61576,Παρίῳ,morpheus,", Πάριος λίθος",grc.lsj.perseus-eng17.xml,*pa/ros,located,read in the grind (allmiss): no/no/-,Πάριος
+πατέομαι,pateomai,tlg0016,tlg001,perseus-grc1,2:47,2:47:3,35851,πάσῃ,morpheus,,grc.lsj.perseus-eng17.xml,pate/omai,located,read in the grind (allmiss): no/no/-,πᾶς
+πάτρα—,patra,tlg0016,tlg001,perseus-grc1,8:61,8:61:1,159971,πατρὶς,quoted,πατρίς,grc.lsj.perseus-eng17.xml,pa/tra_,located,read in the grind (allmiss): no/no/-,πατρίς
+πάτραι,patrai,tlg0016,tlg001,perseus-grc1,1:145,1:145:1,19817,Πατρέες,quoted,πατρέες,grc.lsj.perseus-eng17.xml,*pa/trai,located,0.1.2: both readers answered no,
+πέργαμον,pergamon,tlg0016,tlg001,perseus-grc1,7:43,7:43:1,133787,Πέργαμον,morpheus,,grc.lsj.perseus-eng17.xml,*pe/rgamon,located,read in the grind (ctx3): no/no/-,Πέργαμος
+προσωτέρω,proswterw,tlg0016,tlg001,perseus-grc1,4:43,4:43:5,79503,προσωτάτω,morpheus,τὰ προσωτάτω,grc.lsj.perseus-eng17.xml,proswte/rw,located,read in the grind (allmiss): no/yes/no,πρόσω
+πρότερος,proteros,tlg0016,tlg001,perseus-grc1,6:100,6:100:3,122889,πρῶτα,morpheus,ἐὼν τῶν Ἐρετριέων τὰ π,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0016,tlg001,perseus-grc1,1:153,1:153:3,20593,πρώτην,morpheus,τὴν πρώτην εἶναι,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+σταθμόομαι,staqmoomai,tlg0016,tlg001,perseus-grc1,8:130,8:130:3,168014,σταθμεύμενοι,quoted,σταθμεύμενοι,grc.lsj.perseus-eng21.xml,staqmo/omai,located,read in the grind (split): yes/unsure/no,σταθμάομαι
+στέαρ,stear,tlg0016,tlg001,perseus-grc1,2:36,2:36:3,33955,σταῖς,quoted,σταῖς,grc.lsj.perseus-eng21.xml,ste/ar,located,read in the grind (conflict): no/no/-,σταῖς
+στρατόπεδον,stratopedon,tlg0016,tlg001,perseus-grc1,2:154,2:154:1,50217,Στρατόπεδα,quoted,στρατόπεδα,grc.lsj.perseus-eng21.xml,strato/pedon,located,read in the grind (sheet3): no/yes/no,Στρατόπεδα
+συγκεράννυμι,sugkerannumi,tlg0016,tlg001,perseus-grc1,9:37,9:37:4,175020,συγκεκυρημένον,quoted,συγκεκυρημένον,grc.lsj.perseus-eng21.xml,sugkera/nnumi,located,0.1.2: both readers answered no,
+σύρος,suros,tlg0016,tlg001,perseus-grc1,1:105,1:105:1,14153,Συρίῃ,morpheus,"-ιη,",grc.lsj.perseus-eng21.xml,*su/ros2,located,read in the grind (allmiss): no/no/-,Συρία
+τάσσω,tassw,tlg0016,tlg001,perseus-grc1,2:65,2:65:4,37875,τάσδε,morpheus,"τ. ζημίας, τιμωρίας",grc.lsj.perseus-eng22.xml,ta/ssw,located,read in the grind (allmiss): no/no/-,ὅδε
+τελειόω,teleiow,tlg0016,tlg001,perseus-grc1,1:120,1:120:3,16652,τελέως,morpheus,πάντα ἐτελέωσε ποιήσας,grc.lsj.perseus-eng22.xml,teleio/w,located,read in the grind (conflict): no/no/-,τέλειος
+τις,tis,tlg0016,tlg001,perseus-grc1,1:58,1:58:1,6741,τοῦ,morpheus,,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): no/no/-,ὁ
+τυφωεύς,tufweus,tlg0016,tlg001,perseus-grc1,3:5,3:5:3,54377,Τυφῶ,morpheus,τυφῶ,grc.lsj.perseus-eng22.xml,*tufweu/s,located,read in the grind (allmiss): yes/no/no,Τυφώς
+ὑποκρίνω,upokrinw,tlg0016,tlg001,perseus-grc1,1,1:116:1,15801,ὑπόκρισις,quoted,ὑπόκρισις,grc.lsj.perseus-eng23.xml,u(pokri/nw,located,0.1.2: both readers answered no,
+ὑστερέω,usterew,tlg0016,tlg001,perseus-grc1,1,1:108:4,14596,ὑστέρης,morpheus,ὑ. τῆς μάχης ἡμέραις,grc.lsj.perseus-eng23.xml,u(stere/w,located,read in the grind (conflict): no/no/-,ὕστερος
+φαίνω,fainw,tlg0016,tlg001,perseus-grc1,3:35,3:35:2,58551,φάναι,morpheus,φα^νέομαι,grc.lsj.perseus-eng24.xml,fai/nw,located,read in the grind (ctxmiss): no/no/-,φημί
+χράω,xraw,tlg0016,tlg001,perseus-grc1,3:20,3:20:1,56381,χρῆν,morpheus,,grc.lsj.perseus-eng25.xml,xra/w2,located,read in the grind (sample_ok): no/no/-,χρή
+χρύσεος,xruseos,tlg0016,tlg001,perseus-grc1,9:82,9:82:1,180202,χρυσῷ,morpheus,"κλῖναι, κρητῆρες,",grc.lsj.perseus-eng25.xml,xru/seos,located,read in the grind (allmiss): no/no/-,χρυσός
+ἄγαμαι,agamai,tlg0012,tlg002,perseus-grc1,5:129,5:129,16963,ἄγασθε,quoted,ἄγασθε,grc.lsj.perseus-eng1.xml,a)/gamai,located,read in the grind (conflict): yes/yes/-,
+ἀγάομαι,agaomai,tlg0012,tlg002,perseus-grc1,5:129,5:129,16963,ἄγασθε,quoted,ἄγασθε,grc.lsj.perseus-eng1.xml,a)ga/omai,located,read in the grind (conflict): yes/yes/-,
+ἀνά,ana,tlg0012,tlg002,perseus-grc1,22:132,22:132,77976,ἂν,morpheus,ἀν' ὀρσοθύρην ἀναβαίνειν,grc.lsj.perseus-eng1.xml,a)na/1,located,read in the grind (allmiss): no/no/-,ἄν
+ἀντάω,antaw,tlg0012,tlg002,perseus-grc1,17:44,17:45,59597,ἀντίον,morpheus,κατάλεξον ὅπως ἤντησας ὀπωπῆς,grc.lsj.perseus-eng1.xml,a)nta/w,located,read in the grind (allmiss): no/no/-,ἀντίος
+ἀχεύω,axeuw,tlg0012,tlg002,perseus-grc1,18:256,18:256,65508,ἄχομαι,quoted,ἄχομαι,grc.lsj.perseus-eng1.xml,a)xeu/w,located,read in the grind (sheet3): no/no/-,ἄχομαι
+δειδίσκομαι,deidiskomai,tlg0012,tlg002,perseus-grc1,4:59,4:59,10336,δεικνύμενος,quoted,δεικνύμενος,grc.lsj.perseus-eng4.xml,deidi/skomai,located,read in the grind (split): no/unsure/no,δείκνυμι
+δέψω,deyw,tlg0012,tlg002,perseus-grc1,12:48,12:48,41818,δεψήσας,morpheus,κηρὸν δεψήσας μελιηδέα,grc.lsj.perseus-eng4.xml,de/yw,located,read in the grind (ctxmiss): no/yes/no,δεψέω
+εἰμί,eimi,tlg0012,tlg002,perseus-grc1,21:195,21:194,75290,ἦ,morpheus,εἶτε,grc.lsj.perseus-eng5.xml,ei)mi/1,located,read in the grind (conflict): no/no/-,ἤ
+εἶμι,eimi,tlg0012,tlg002,perseus-grc1,18:257,18:257,65515,ἦ,morpheus,ᾖε,grc.lsj.perseus-eng5.xml,ei)=mi2,located,read in the grind (conflict): no/no/-,ἦ
+εἰσανάγω,eisanagw,tlg0012,tlg002,perseus-grc1,8:529,8:529,28340,εἴρερον,quoted,εἴρερον,grc.lsj.perseus-eng5.xml,ei)sana/gw,located,0.1.2: both readers answered no,
+εἴσομαι,eisomai,tlg0012,tlg002,perseus-grc1,16:313,16:313,58082,εἴσῃ,quoted,εἴσῃ,grc.lsj.perseus-eng5.xml,ei)/somai,located,read in the grind (split): yes/unsure/unsure,
+εἰσφέρω,eisferw,tlg0012,tlg002,perseus-grc1,7:6,7:6,22131,εἴσω,quoted,εἴσω,grc.lsj.perseus-eng5.xml,ei)sfe/rw,located,read in the grind (allmiss): no/no/-,εἴσω
+ἐρύω,eruw,tlg0012,tlg002,perseus-grc1,5:484,5:484,19600,ἔρυσθαι,quoted,ἔρυσθαι,grc.lsj.perseus-eng5.xml,e)ru/w2,located,read in the grind (sheet3): no/yes/no,ῥύομαι
+νικάω,nikaw,tlg0012,tlg002,perseus-grc1,11:545,11:544,40813,νίκης,morpheus,νίκης τήν μιν ἐγὼ νίκησα,grc.lsj.perseus-eng14.xml,nika/w,located,read in the grind (conflict): no/no/-,νίκη
+ξενίζω,cenizw,tlg0012,tlg002,perseus-grc1,3:355,3:355,8894,ξείνους,quoted,ξείνους,grc.lsj.perseus-eng15.xml,ceni/zw,located,0.1.2: both readers answered no,
+οἰνοχοεύω,oinoxoeuw,tlg0012,tlg002,perseus-grc1,15:141,15:141,52749,οἰνοχόει,quoted,οἰνοχόει,grc.lsj.perseus-eng16.xml,oi)noxoeu/w,located,read in the grind (sheet3): no/no/-,οἰνοχοέω
+οἰνοχοεύω,oinoxoeuw,tlg0012,tlg002,perseus-grc1,15:323,15:323,54054,οἰνοχοῆσαι,quoted,οἰνοχοῆσαι,grc.lsj.perseus-eng16.xml,oi)noxoeu/w,located,read in the grind (sheet3): no/no/-,οἰνοχοέω
+ὄρημι,orhmi,tlg0012,tlg002,perseus-grc1,14:343,14:343,50376,ὅρηαι,quoted,ὅρηαι,grc.lsj.perseus-eng16.xml,o)/rhmi,located,read in the grind (conflict): yes/no/no,ὁράω
+περιξεστός,pericestos,tlg0012,tlg002,perseus-grc1,12:79,12:79,42055,πέτρη,quoted,πέτρη,grc.lsj.perseus-eng17.xml,pericesto/s,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,13:228,13:228,46353,πρῶτα,morpheus,ἐπεί σε πρῶτα κιχάνω,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,7:53,7:53,22458,πρῶτα,morpheus,ἐπεί σε πρῶτα κιχάνω,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,23:214,23:214,82129,πρῶτον,morpheus,"οὕνεκά σ' οὐ τὸ π., ἐπεὶ ἴδον, ὧδ' ἀγάπησα",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,13:127,13:127,45615,πρῶτον,morpheus,"οὐδ' ἐνοσίχθων λήθετ' ἀπειλάων, τὰς . . Ὀδυσῆϊ π. ἐπηπείλησε",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,3:320,3:320,8633,πρῶτον,morpheus,"πρῶτον, πρῶτα",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,13:133,13:133,45664,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,11:106,11:106,37685,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,14:467,14:467,51277,πρῶτον,morpheus,"ἀλλ' ἐπεὶ οὖν τὸ π. ἀνέκραγον, οὐκ ἐπικεύσω",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,4:509,4:509,13582,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0012,tlg002,perseus-grc1,4:414,4:414,12877,πρῶτα,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+σάμος,samos,tlg0012,tlg002,perseus-grc1,1:246,1:246,1745,Σάμῃ,quoted,σάμη,grc.lsj.perseus-eng21.xml,*sa/mos,located,0.1.2: both readers answered no,
+συνέπομαι,sunepomai,tlg0012,tlg002,perseus-grc1,10:436,10:436,35982,σὺν,quoted,σύν,grc.lsj.perseus-eng21.xml,sune/pomai,located,read in the grind (allmiss): no/no/-,σύν
+τις,tis,tlg0012,tlg002,perseus-grc1,11:502,11:502,40521,τῷ,morpheus,,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): no/no/-,ὁ
+τοί,toi,tlg0012,tlg002,perseus-grc1,3:73,3:73,6866,τοί,morpheus,"ὅ,",grc.lsj.perseus-eng22.xml,toi/3,located,read in the grind (allmiss): no/no/-,ὁ
+ἀπαράσκευος,aparaskeuos,tlg0003,tlg001,perseus-grc1,3:13,3:13:2,42488,ἀπόστασις,quoted,ἀπόστασις,grc.lsj.perseus-eng1.xml,a)para/skeuos,located,read in the grind (allmiss): no/no/-,ἀπόστασις
+εἰκότως,eikotws,tlg0003,tlg001,perseus-grc1,1:37,1:37:1,5686,εἰκότως,morpheus,οὐκ εἰ.,grc.lsj.perseus-eng5.xml,ei)ko/tws,located,read in the grind (conflict): yes/yes/-,
+ἐνωμοτάρχης,enwmotarxhs,tlg0003,tlg001,perseus-grc1,5:66,5:66:3,91902,ἐνωμοτίᾳ,quoted,ἐνωμοτία,grc.lsj.perseus-eng5.xml,e)nwmota/rxhs,located,0.1.2: both readers answered no,
+ἐοικότως,eoikotws,tlg0003,tlg001,perseus-grc1,1:37,1:37:1,5686,εἰκότως,morpheus,οὐκ εἰ.,grc.lsj.perseus-eng5.xml,e)oiko/tws,located,read in the grind (conflict): yes/yes/-,
+ἐπάγω,epagw,tlg0003,tlg001,perseus-grc1,7:60,7:60:2,125750,ἐπιτήδεια,quoted,ἐπιτήδεια,grc.lsj.perseus-eng5.xml,e)pa/gw,located,read in the grind (allmiss): no/no/-,ἐπιτήδειος
+ἕπω,epw,tlg0003,tlg001,perseus-grc1,3:43,3:43:5,47405,ἐπισπόμενος,quoted,ἐπι-σπόμενος,grc.lsj.perseus-eng5.xml,e(/pw2,located,read in the grind (sheet3): no/no/-,ἐφέπω
+ἔτης,eths,tlg0003,tlg001,perseus-grc1,5:79,5:79:1,93630,ἔτη,morpheus,τὼς ἔτας καττὰ πάτρια δικάζεσθαι,grc.lsj.perseus-eng5.xml,e)/ths1,located,read in the grind (allmiss): no/no/-,ἔτος
+νικάω,nikaw,tlg0003,tlg001,perseus-grc1,6:16,6:16:2,99213,νίκης,morpheus,ἐνίκησα καὶ δεύτερος καὶ τέταρτος ἐγενόμην,grc.lsj.perseus-eng14.xml,nika/w,located,read in the grind (allmiss): no/no/-,νίκη
+νυνί,nuni,tlg0003,tlg001,perseus-grc1,1:4,1:4:1,533,νῦν,quoted,νῦν,grc.lsj.perseus-eng14.xml,nuni/,located,read in the grind (allmiss): no/no/-,νῦν
+ὀργάω,orgaw,tlg0003,tlg001,perseus-grc1,2:21,2:21:3,26160,ὀργῇ,morpheus,ὥρμητο,grc.lsj.perseus-eng16.xml,o)rga/w,located,read in the grind (allmiss): no/no/-,ὀργή
+ὀρθόω,orqow,tlg0003,tlg001,perseus-grc1,2:60,2:60:1,31692,ὀρθῶς,morpheus,,grc.lsj.perseus-eng16.xml,o)rqo/w,located,read in the grind (allmiss): no/no/-,ὀρθός
+ὅστις,ostis,tlg0003,tlg001,perseus-grc1,8:87,8:87:3,145747,ὅτι,morpheus,ᾗ τινι δή,grc.lsj.perseus-eng16.xml,o(/stis,located,read in the grind (allmiss): no/no/-,ὅτι
+πολεμόω,polemow,tlg0003,tlg001,perseus-grc1,3:82,3:82:1,53219,πολεμουμένων,morpheus,πολεμουμένων,grc.lsj.perseus-eng17.xml,polemo/w,located,read in the grind (allmiss): no/yes/no,πολεμέω
+πρότερος,proteros,tlg0003,tlg001,perseus-grc1,3:65,3:65:2,50908,πρῶτοι,morpheus,"ἀρετῇ π., οἱ π. καὶ χρήμασι καὶ γένει, πλούτῳ π. τῶν Ἑλλήνων",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0003,tlg001,perseus-grc1,3:39,3:39:2,46379,πρῶτα,morpheus,ἐς τὰ π. τιμᾶσθαι,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0003,tlg001,perseus-grc1,1:77,1:77:3,11565,πρώτης,morpheus,ἀρχῆς,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+τυραννεύω,turanneuw,tlg0003,tlg001,perseus-grc1,1:18,1:18:1,2566,τύραννοι,quoted,"τύραννοι,",grc.lsj.perseus-eng22.xml,turanneu/w,located,read in the grind (allmiss): no/no/-,τύραννος
+φόρος,foros,tlg0003,tlg001,perseus-grc1,1:96,1:96:2,14365,φορά,morpheus,,grc.lsj.perseus-eng24.xml,fo/ros2,located,read in the grind (conflict): no/no/-,φορά
+φυλακεύς,fulakeus,tlg0003,tlg001,perseus-grc1,8:39,8:39:3,137459,φυλακῆς,morpheus,τὸν πλοῦν διὰ φ. ποιησάμενοι,grc.lsj.perseus-eng24.xml,fulakeu/s,located,read in the grind (sample_dm): no/no/-,φυλακή
+φυσάω,fusaw,tlg0003,tlg001,perseus-grc1,4:100,4:100:3,74813,φύσας,morpheus,"ἀάζω,",grc.lsj.perseus-eng24.xml,fusa/w,located,read in the grind (conflict): no/no/-,φῦσα
+χειρόω,xeirow,tlg0003,tlg001,perseus-grc1,1:122,1:122:3,17945,χείρους,morpheus,,grc.lsj.perseus-eng25.xml,xeiro/w2,located,read in the grind (allmiss): no/no/-,χείρων
+χωρέω,xwrew,tlg0003,tlg001,perseus-grc1,4:120,4:120:1,77938,χωρίον,morpheus,"χώρησα,",grc.lsj.perseus-eng25.xml,xwre/w,located,read in the grind (allmiss): no/no/-,χωρίον
+διαρτάω,diartaw,tlg0543,tlg001,perseus-grc1,34:9:10,34:9:10,298546,διαττᾶσθαι,quoted,"διαττᾶσθαι,",grc.lsj.perseus-eng4.xml,diarta/w,located,0.1.2: both readers answered no,
+εἰρηνέω,eirhnew,tlg0543,tlg001,perseus-grc1,11,11:4:2,182593,εἰρήνης,morpheus,,grc.lsj.perseus-eng5.xml,ei)rhne/w,located,read in the grind (allmiss): no/no/-,εἰρήνη
+ἐξαγωγεύς,ecagwgeus,tlg0543,tlg001,perseus-grc1,28:16:8,28:16:8,271477,ἐξαγωγῆς,morpheus,"ἐ. σίτου, σιτική,",grc.lsj.perseus-eng5.xml,e)cagwgeu/s,located,read in the grind (ctxmiss): no/no/-,ἐξαγωγή
+ἐπεί,epei,tlg0543,tlg001,perseus-grc1,13:7:8,13:7:8,201879,ἐπειδὰν,quoted,ἐπειδάν,grc.lsj.perseus-eng5.xml,e)pei/1,located,read in the grind (allmiss): no/no/-,ἐπειδάν
+ἐπιφαίνω,epifainw,tlg0543,tlg001,perseus-grc1,3:113:1,3:113:2,75053,ἐπιφάνειαν,morpheus,ἀνατολῆς ἐπιφαινομένης,grc.lsj.perseus-eng5.xml,e)pifai/nw,located,read in the grind (allmiss): no/no/-,ἐπιφάνεια
+ἱερός,ieros,tlg0543,tlg001,perseus-grc1,16:1:8,16:1:8,216072,Ἱερὰν,morpheus,ἱ. κώμη,grc.lsj.perseus-eng10.xml,i(ero/s,located,read in the grind (allmiss): no/yes/no,Ἱερὰ Κώμη
+μεσοποτάμιος,mesopotamios,tlg0543,tlg001,perseus-grc1,5:44:6,5:44:6,110887,Μεσοποταμίαν,morpheus,χώρα,grc.lsj.perseus-eng13.xml,mesopota/mios,located,read in the grind (allmiss): no/no/-,Μεσοποταμία
+πάτραι,patrai,tlg0543,tlg001,perseus-grc1,4:6:9,4:6:9,78430,Πατρέων,quoted,πατρέων,grc.lsj.perseus-eng17.xml,*pa/trai,located,0.1.2: both readers answered no,
+πλέω,plew,tlg0543,tlg001,perseus-grc1,2:12:3,2:12:3,28749,πλέον,morpheus,,grc.lsj.perseus-eng17.xml,ple/w,located,read in the grind (allmiss): no/no/-,πλείων
+πυρσεία,purseia,tlg0543,tlg001,perseus-grc1,10:43:1,10:43:2,179574,πυρσοί,quoted,πυρσοί,grc.lsj.perseus-eng17.xml,pursei/a,located,read in the grind (sheet3): no/no/-,πυρσός
+χόω,xow,tlg0543,tlg001,perseus-grc1,1:19:13,1:19:12,5375,ἔχων,morpheus,χ. φορμοῖς τὰς τάφρους,grc.lsj.perseus-eng25.xml,xo/w,located,read in the grind (allmiss): no/no/-,ἔχω
+βαφή,bafh,tlg0059,tlg030,perseus-grc1,430a,429e,31407,βαφῇ,morpheus,,grc.lsj.perseus-eng2.xml,bafh/,located,read in the grind (conflict): no/yes/no,βάπτω
+βιόω,biow,tlg0059,tlg030,perseus-grc1,344e,344e,6048,βίου,morpheus,,grc.lsj.perseus-eng2.xml,bio/w,located,read in the grind (allmiss): no/no/-,βίος
+δοκέω,dokew,tlg0059,tlg030,perseus-grc1,490a,490a,49031,δόξαν,morpheus,τὰ νῦν δοκούμενα περί τινος,grc.lsj.perseus-eng4.xml,doke/w,located,read in the grind (allmiss): no/no/-,δόξα
+θεομισής,qeomishs,tlg0059,tlg030,perseus-grc1,612e,612e,85420,θεοφιλὴς,quoted,θεοφιλής,grc.lsj.perseus-eng9.xml,qeomish/s,located,0.1.2: both readers answered no,
+κτάομαι,ktaomai,tlg0059,tlg030,perseus-grc1,505b,505b,53729,κτῆσιν,morpheus,ἐκτῆσθαι,grc.lsj.perseus-eng11.xml,kta/omai,located,read in the grind (allmiss): no/no/-,κτῆσις
+λυσιτελής,lusitelhs,tlg0059,tlg030,perseus-grc1,354a,354a,9271,λυσιτελεῖ,morpheus,οὐδέποτ' . . -έστερον ἀδικία δικαιοσύνης,grc.lsj.perseus-eng12.xml,lusitelh/s,located,read in the grind (ctxmiss): no/no/-,λυσιτελέω
+ὅστις,ostis,tlg0059,tlg030,perseus-grc1,492e,492d,49831,ὅτι,morpheus,ὅσπερ,grc.lsj.perseus-eng16.xml,o(/stis,located,read in the grind (allmiss): no/no/-,ὅτι
+οὐδός,oudos,tlg0059,tlg030,perseus-grc1,328e,329a,614,οὐδὲ,morpheus,,grc.lsj.perseus-eng16.xml,ou)do/s1,located,read in the grind (conflict): no/no/-,οὐδέ
+πρότερος,proteros,tlg0059,tlg030,perseus-grc1,392e,392e,20081,πρῶτα,morpheus,τῆς Ἰλιάδος τὰ π,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+σκοτόω,skotow,tlg0059,tlg030,perseus-grc1,518a,518a,57068,σκότους,morpheus,,grc.lsj.perseus-eng21.xml,skoto/w,located,read in the grind (allmiss): no/no/-,σκότος
+τελειόω,teleiow,tlg0059,tlg030,perseus-grc1,487a,486e,48068,τελέως,morpheus,,grc.lsj.perseus-eng22.xml,teleio/w,located,read in the grind (allmiss): no/no/-,τέλειος
+τελέω,telew,tlg0059,tlg030,perseus-grc1,425e,425d,29999,τελῶν,morpheus,,grc.lsj.perseus-eng22.xml,tele/w,located,read in the grind (conflict): no/no/-,τέλος
+τροχιλεῖον,troxileion,tlg0059,tlg030,perseus-grc1,397a,397a,21511,τροχιλιῶν,quoted,τροχιλιῶν,grc.lsj.perseus-eng22.xml,troxilei=on,located,0.1.2: both readers answered no,
+φιλόνικος,filonikos,tlg0059,tlg030,perseus-grc1,582e,582e,76532,φιλότιμός,quoted,"φιλότιμος,",grc.lsj.perseus-eng24.xml,filo/nikos,located,0.1.2: both readers answered no,
+φιλόνικος,filonikos,tlg0059,tlg030,perseus-grc1,550b,550b,66576,φιλότιμος,quoted,"φιλότιμος,",grc.lsj.perseus-eng24.xml,filo/nikos,located,read in the grind (allmiss): no/no/-,φιλότιμος
+φυλακεύς,fulakeus,tlg0059,tlg030,perseus-grc1,415c,415b,27380,φύλακες,quoted,"φύλακες,",grc.lsj.perseus-eng24.xml,fulakeu/s,located,0.1.2: both readers answered no,
+φύω,fuw,tlg0059,tlg030,perseus-grc1,415c,415c,27413,φύσει,morpheus,φύω,grc.lsj.perseus-eng24.xml,fu/w,located,read in the grind (allmiss): no/no/-,φύσις
+ἀτέχνως,atexnws,tlg0059,tlg034,perseus-grc1,952e,952e,99317,ἀτεχνῶς,morpheus,ἀ. οἷον,grc.lsj.perseus-eng1.xml,a)te/xnws,located,read in the grind (sample_dm): yes/no/no,ἀτεχνῶς
+γενέσιος,genesios,tlg0059,tlg034,perseus-grc1,784d,784d,48692,γενέθλια,quoted,γενέθλια,grc.lsj.perseus-eng3.xml,gene/sios,located,0.1.2: both readers answered no,
+ἐγγυάω,egguaw,tlg0059,tlg034,perseus-grc1,953e,953e,99659,ἐγγύην,morpheus,,grc.lsj.perseus-eng5.xml,e)ggua/w,located,read in the grind (allmiss): no/no/-,ἐγγύη
+ἱερόω,ierow,tlg0059,tlg034,perseus-grc1,771b,771a,44348,ἱερῶν,morpheus,,grc.lsj.perseus-eng10.xml,i(ero/w,located,read in the grind (allmiss): no/no/-,ἱερός
+νυμφίος,numfios,tlg0059,tlg034,perseus-grc1,783e,783e,48433,νύμφῃ,quoted,"νύμφη,",grc.lsj.perseus-eng14.xml,numfi/os,located,0.1.2: both readers answered no,
+ὅριος,orios,tlg0059,tlg034,perseus-grc1,842e,842e,66045,ὅρια,morpheus,ζεὺς ὅριος,grc.lsj.perseus-eng16.xml,o(/rios,located,read in the grind (conflict): no/no/-,ὅριον
+πέρα,pera,tlg0059,tlg034,perseus-grc1,670a,670a,14300,πέραν,morpheus,τῶν πεντήκοντα π. γεγονότας,grc.lsj.perseus-eng17.xml,pe/ra1,located,read in the grind (allmiss): no/no/-,πέραν
+προαγωνιστέον,proagwnisteon,tlg0059,tlg034,perseus-grc1,796d,796d,51732,προαγῶνας,quoted,προαγῶνας,grc.lsj.perseus-eng17.xml,proagwniste/on,located,read in the grind (sheet3): no/no/-,προαγών
+πρότερος,proteros,tlg0059,tlg034,perseus-grc1,935a,935a,94421,πρῶτον,morpheus,"π. μὲν . . , . . δὲ αὖ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+τάσσω,tassw,tlg0059,tlg034,perseus-grc1,844b,844c,66581,τάξει,morpheus,,grc.lsj.perseus-eng22.xml,ta/ssw,located,read in the grind (allmiss): no/no/-,τάξις
+τιμάω,timaw,tlg0059,tlg034,perseus-grc1,917c,917d,88724,τιμῆς,morpheus,,grc.lsj.perseus-eng22.xml,tima/w,located,read in the grind (allmiss): no/no/-,τιμή
+τίνω,tinw,tlg0059,tlg034,perseus-grc1,946e,946e,97380,τίνες,morpheus,διπλῆν,grc.lsj.perseus-eng22.xml,ti/nw,located,read in the grind (allmiss): no/no/-,τίς
+τρέφω,trefw,tlg0059,tlg034,perseus-grc1,695e,696a,22116,τροφῆς,morpheus,ἐθρέψω Ξέρξην ἐν τοῖς αὐτοῖς ἤθεσιν,grc.lsj.perseus-eng22.xml,tre/fw,located,read in the grind (allmiss): no/no/-,τροφή
+ἁλή,alh,tlg0099,tlg001,perseus-grc1,12:3:39,12:3:39,191593,ἁλῶν,morpheus,ἁλαὶ τῶν ὀρυκτῶν ἁλῶν,grc.lsj.perseus-eng1.xml,a(lh/,located,read in the grind (sample_dm): no/no/-,ἅλς
+ʼαμφικτύονες,amfiktuones,tlg0099,tlg001,perseus-grc1,8:6:14,8:6:14,129331,Ἀμφικτυονία,quoted,"ἀμφικτυονία,",grc.lsj.perseus-eng1.xml,*)amfiktu/ones,located,read in the grind (allmiss): no/no/-,Ἀμφικτυονία
+ἀντιβολή,antibolh,tlg0099,tlg001,perseus-grc1,17:1:5,17:1:5,267895,ἀντιγράφων,quoted,ἀντιγράφων,grc.lsj.perseus-eng1.xml,a)ntibolh/,located,read in the grind (sheet3): no/no/-,ἀντίγραφον
+δωδώνη,dwdwnh,tlg0099,tlg001,perseus-grc1,8:5:3,8:5:3,126249,Δωδὼ,quoted,δωδώ,grc.lsj.perseus-eng4.xml,*dwdw/nh,located,0.1.2: both readers answered no,
+δωρίζω,dwrizw,tlg0099,tlg001,perseus-grc1,8:1:2,8:1:2,115930,Δωριέων,morpheus,,grc.lsj.perseus-eng4.xml,*dwri/zw,located,read in the grind (allmiss): no/no/-,Δωριεύς
+ἐξαρτάω,ecartaw,tlg0099,tlg001,perseus-grc1,7:1:3,7:1:3,97802,ἐξῆρται,quoted,ἐξῆρται,grc.lsj.perseus-eng5.xml,e)carta/w,located,read in the grind (sheet3): no/yes/no,ἐξαίρω
+καρχηδών,karxhdwn,tlg0099,tlg001,perseus-grc1,17:3:13,17:3:13,282228,Καρχηδονίων,morpheus,", κόλπος",grc.lsj.perseus-eng11.xml,*karxhdw/n,located,read in the grind (allmiss): no/no/-,Καρχηδόνιος
+κορύπτω,koruptw,tlg0099,tlg001,perseus-grc1,10:3:21,10:3:21,161663,Κορύβαντες,quoted,κορύβαντες,grc.lsj.perseus-eng11.xml,koru/ptw,located,read in the grind (allmiss): no/no/-,Κορύβας
+κώρυκος,kwrukos,tlg0099,tlg001,perseus-grc1,14:1:32,14:1:32,218662,Κωρυκαῖος,quoted,κωρυκαῖος,grc.lsj.perseus-eng11.xml,*kw/rukos,located,0.1.2: both readers answered no,
+λυσιῳδός,lusiwdos,tlg0099,tlg001,perseus-grc1,14:1:41,14:1:41,219828,Λῦσις,quoted,λῦσις,grc.lsj.perseus-eng12.xml,lusiw|do/s,located,0.1.2: both readers answered no,
+μυθάριον,muqarion,tlg0099,tlg001,perseus-grc1,13:1:69,13:1:69,209250,μῦθος,quoted,μῦθος,grc.lsj.perseus-eng13.xml,muqa/rion,located,read in the grind (allmiss): no/no/-,μῦθος
+νιτριώτης,nitriwths,tlg0099,tlg001,perseus-grc1,17:1:23,17:1:23,272289,νίτρον,quoted,νίτρον,grc.lsj.perseus-eng14.xml,nitriw/ths,located,0.1.2: both readers answered no,
+πελαργός,pelargos,tlg0099,tlg001,perseus-grc1,5:2:4,5:2:4,74915,Πελασγός,quoted,πελασγός,grc.lsj.perseus-eng17.xml,pelargo/s,located,0.1.2: both readers answered no,
+περίκλυστος,periklustos,tlg0099,tlg001,perseus-grc1,16:2:13,16:2:13,255424,πέτρα,quoted,πέτρα,grc.lsj.perseus-eng17.xml,peri/klustos,located,read in the grind (allmiss): no/no/-,πέτρα
+πολείδιον,poleidion,tlg0099,tlg001,perseus-grc1,8:3:15,8:3:16,119809,πόλις,quoted,"πόλις,",grc.lsj.perseus-eng17.xml,polei/dion,located,read in the grind (allmiss): no/no/-,πόλις
+πολυγύνης,polugunhs,tlg0099,tlg001,perseus-grc1,17:3:19,17:3:19,283448,πολυγύναικες,quoted,πολυγύναικες,grc.lsj.perseus-eng17.xml,polugu/nhs,located,0.1.2: both readers answered no,
+πολύϊχθυς,poluixqus,tlg0099,tlg001,perseus-grc1,3:3:1,3:3:1,51072,ποταμὸς,quoted,ποταμός,grc.lsj.perseus-eng17.xml,polu/i+xqus,located,read in the grind (allmiss): no/no/-,ποταμός
+πυργίον,purgion,tlg0099,tlg001,perseus-grc1,3:5:5,3:5:5,57474,πύργος,quoted,πύργος,grc.lsj.perseus-eng17.xml,purgi/on,located,read in the grind (allmiss): no/no/-,πύργος
+σύρος,suros,tlg0099,tlg001,perseus-grc1,2:1:31,2:1:31,27460,Συρίας,morpheus,ς. πύλαι,grc.lsj.perseus-eng21.xml,*su/ros2,located,read in the grind (allmiss): no/no/-,Συρία
+ἐπιμελητής,epimelhths,tlg0032,tlg007,perseus-grc1,8:1:9,8:1:9,65969,ἐπιτηδείων,quoted,ἐπιτηδείων,grc.lsj.perseus-eng5.xml,e)pimelhth/s,located,read in the grind (allmiss): no/no/-,ἐπιτήδειος
+θηράω,qhraw,tlg0032,tlg007,perseus-grc1,1:4:10,1:4:11,5071,θήραν,morpheus,,grc.lsj.perseus-eng9.xml,qhra/w,located,read in the grind (allmiss): no/no/-,θήρα
+λοχαγός,loxagos,tlg0032,tlg007,perseus-grc1,6:3:21,6:3:21,54653,λόχος,quoted,λόχος,grc.lsj.perseus-eng12.xml,loxago/s,located,read in the grind (sheet3): no/no/-,λόχος
+παρακαθίζω,parakaqizw,tlg0032,tlg007,perseus-grc1,5:5:7,5:5:7,46459,παρακαθεζόμενος,quoted,παρακαθεζόμενος,grc.lsj.perseus-eng17.xml,parakaqi/zw,located,read in the grind (split): no/yes/no,παρακαθέζομαι
+πρότερος,proteros,tlg0032,tlg007,perseus-grc1,2:1:2,2:1:2,12223,πρῶτον,morpheus,"τί π. τοι ἔπειτα, τί δ' ὑστάτιον καταλέξω",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πυρά,pura,tlg0032,tlg007,perseus-grc1,4:2:16,4:2:16,30468,πυρῶν,morpheus,ἐπιτυγχάνει πυροῖς ἐρήμοις,grc.lsj.perseus-eng17.xml,pura/1,located,read in the grind (ctxmiss): no/no/-,πῦρ
+σπουδάζω,spoudazw,tlg0032,tlg007,perseus-grc1,4:2:38,4:2:38,31592,σπουδῇ,morpheus,τὰ μάλιστα ἐσπ. σῖτα καὶ ποτά,grc.lsj.perseus-eng21.xml,spouda/zw,located,read in the grind (allmiss): no/no/-,σπουδή
+στερέω,sterew,tlg0032,tlg007,perseus-grc1,7:3:14,7:3:14,60533,στέροιτο,quoted,στεροῖτο,grc.lsj.perseus-eng21.xml,stere/w,located,read in the grind (sheet3): no/yes/no,στέρομαι
+δειλινός,deilinos,tlg0008,tlg001,perseus-grc1,1:11e,1:10,2072,Δεῖπνον,quoted,δεῖπνον,grc.lsj.perseus-eng4.xml,deilino/s,located,0.1.2: both readers answered no,
+διεῖδον,dieidon,tlg0001,tlg001,perseus-grc1,4:1360,4:1360,36044,διίδμεναι,quoted,διίδμεναι,grc.lsj.perseus-eng4.xml,diei=don,located,0.1.2: both readers answered no,
+ἐρύω,eruw,tlg0001,tlg001,perseus-grc1,2:1208,2:1208,16983,ἔρυται,quoted,ἔρυ—ται,grc.lsj.perseus-eng5.xml,e)ru/w2,located,0.1.2: both readers answered no,
+ποτέχω,potexw,tlg0001,tlg001,perseus-grc1,3:150,3:150,18522,ποτισχομένη,quoted,ποτισχομένη,grc.lsj.perseus-eng17.xml,pote/xw,located,read in the grind (sheet3): no/yes/no,προσίσχω
+ἀνά,ana,tlg0032,tlg006,perseus-grc1,50,7:7:50,56040,ἄν,morpheus,κλισίας ἀνὰ πεντήκοντα,grc.lsj.perseus-eng1.xml,a)na/1,located,read in the grind (allmiss): no/no/-,ἐάν
+ἐπίπονος,epiponos,tlg0032,tlg006,perseus-grc1,1:3:19,1:3:19,2873,ἐπικινδυνοτέρα,quoted,ἐπικινδυνοτέρα,grc.lsj.perseus-eng5.xml,e)pi/ponos,located,0.1.2: both readers answered no,
+μέλινος,melinos,tlg0032,tlg006,perseus-grc1,1:2:22,1:2:22,1705,μελίνην,morpheus,,grc.lsj.perseus-eng13.xml,me/linos1,located,read in the grind (allmiss): no/no/-,μελίνη
+νέω,new,tlg0032,tlg006,perseus-grc1,5:4:27,5:4:27,34473,νέον,morpheus,ἄρτοι νενημένοι,grc.lsj.perseus-eng14.xml,ne/w3,located,read in the grind (allmiss): no/no/-,νέος
+ὁδοποιέω,odopoiew,tlg0032,tlg006,perseus-grc1,4:8:8,4:8:8,30430,ὁδὸν,quoted,ὁδόν,grc.lsj.perseus-eng16.xml,o(dopoie/w,located,read in the grind (allmiss): no/no/-,ὁδός
+πρότερος,proteros,tlg0032,tlg006,perseus-grc1,5:6:7,5:6:7,35809,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0032,tlg006,perseus-grc1,1:2:16,1:2:16,1338,πρῶτον,morpheus,"π. μὲν . . , εἶτα δὲ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+πυρά,pura,tlg0032,tlg006,perseus-grc1,7:2:18,7:2:18,48408,πυροῖς,morpheus,ἐπιτυγχάνει πυροῖς ἐρήμοις,grc.lsj.perseus-eng17.xml,pura/1,located,read in the grind (ctxmiss): no/no/-,πῦρ
+τάσσω,tassw,tlg0032,tlg006,perseus-grc1,3:2:17,3:2:17,18840,τάξει,morpheus,σύν τινι,grc.lsj.perseus-eng22.xml,ta/ssw,located,read in the grind (allmiss): no/no/-,τάξις
+χρῖσμα,xrisma,tlg0032,tlg006,perseus-grc1,4:4:13,4:4:13,26637,χρῖμα,quoted,χρῖμα,grc.lsj.perseus-eng25.xml,xri=sma,located,0.1.2: both readers answered no,
+δίζω,dizw,tlg0005,tlg001,perseus-grc1,25:37,25:37,16711,δίζεαι,quoted,δίζεαι,grc.lsj.perseus-eng4.xml,di/zw,located,read in the grind (sample_ok2): no/yes/no,δίζημαι
+ἔνος,enos,tlg0005,tlg001,perseus-grc1,18:14,18:14,12245,ἔνας,quoted,ἔνας,grc.lsj.perseus-eng5.xml,e)/nos2,located,read in the grind (split): unsure/unsure/no,ἔνας
+ἔραμαι,eramai,tlg0005,tlg001,perseus-grc1,2:149,2:149,2307,ἐρᾶται,quoted,ἔρα—ται,grc.lsj.perseus-eng5.xml,e)/ramai,located,read in the grind (split): no/yes/no,ἐράω
+κρῆς,krhs,tlg0005,tlg001,perseus-grc1,1:6,1:6,51,κρέας,quoted,κρέας,grc.lsj.perseus-eng11.xml,krh=s,located,read in the grind (allmiss): no/no/-,κρέας
+λάτμιος,latmios,tlg0005,tlg001,perseus-grc1,20:39,20:39,12915,λάθριον,quoted,λάθριον,grc.lsj.perseus-eng12.xml,*la/tmios,located,0.1.2: both readers answered no,
+πρᾶτος,pratos,tlg0005,tlg001,perseus-grc1,1:77,1:77,587,πράτιστος,quoted,πράτιστος,grc.lsj.perseus-eng17.xml,pra=tos2,located,read in the grind (sheet3): yes/no/no,πράτιστος
+τεῖνδε,teinde,tlg0005,tlg001,perseus-grc1,5:118,5:118,4340,τεῖδέ,quoted,τεῖδε,grc.lsj.perseus-eng22.xml,tei=nde,located,read in the grind (split): yes/unsure/no,τεῖδε
+φέρτατος,fertatos,tlg0005,tlg001,perseus-grc1,7:125,7:125,5882,φέριστε,quoted,"φέριστε,",grc.lsj.perseus-eng24.xml,fe/rtatos,located,read in the grind (split): no/yes/no,φέριστος
+εἰκότως,eikotws,tlg0085,tlg005,perseus-grc1,915,915,4390,εἰκότως,morpheus,,grc.lsj.perseus-eng5.xml,ei)ko/tws,located,read in the grind (conflict): yes/yes/-,
+ἐοικότως,eoikotws,tlg0085,tlg005,perseus-grc1,915,915,4390,εἰκότως,morpheus,τινί,grc.lsj.perseus-eng5.xml,e)oiko/tws,located,read in the grind (conflict): no/yes/yes,εἰκότως
+ἐράω,eraw,tlg0085,tlg005,perseus-grc1,1599,1599,7990,ἐρῶν,morpheus,ἀπὸ σφαγὴν ἐρῶν,grc.lsj.perseus-eng5.xml,e)ra/w2,located,read in the grind (allmiss): no/no/-,ἀπεράω
+ἡβάω,hbaw,tlg0085,tlg005,perseus-grc1,584,584,2771,ἥβη,morpheus,ἀεὶ γὰρ ἡβᾷ τοῖς γέρουσιν εὖ μαθεῖν,grc.lsj.perseus-eng8.xml,h(ba/w,located,read in the grind (allmiss): no/no/-,ἥβη
+θυηλή,quhlh,tlg0085,tlg005,perseus-grc1,819,819,3858,θύελλαι,quoted,θύελλαι,grc.lsj.perseus-eng9.xml,quhlh/,located,0.1.2: both readers answered no,
+νειρός,neiros,tlg0085,tlg005,perseus-grc1,1479,1479,7447,νείρᾳ,quoted,νείρᾳ,grc.lsj.perseus-eng14.xml,neiro/s1,located,read in the grind (sheet3): unsure/unsure/unsure,
+πέρα,pera,tlg0085,tlg005,perseus-grc1,190,3:190,814,πέραν,morpheus,χαλκίδος πέραν ἔχων,grc.lsj.perseus-eng17.xml,pe/ra2,located,read in the grind (allmiss): no/yes/no,πέραν
+περιπετής,peripeths,tlg0085,tlg005,perseus-grc1,233,5:233,981,πέπλοισι,quoted,πέπλοισι,grc.lsj.perseus-eng17.xml,peripeth/s,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0085,tlg005,perseus-grc1,314,314,1423,πρῶτος,morpheus,τελευταῖος,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0085,tlg005,perseus-grc1,810,810,3806,πρῶτον,morpheus,δέ,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+στῦλος,stulos,tlg0085,tlg005,perseus-grc1,898,897,4291,στέγης,quoted,στέγης,grc.lsj.perseus-eng21.xml,stu=los,located,read in the grind (conflict): no/no/-,στέγη
+ὕμνος,umnos,tlg0085,tlg005,perseus-grc1,990,1:990,4819,ὑμνῳδεῖ,quoted,υ^μνῳδεῖ,grc.lsj.perseus-eng23.xml,u(/mnos,located,0.1.2: both readers answered no,
+ὑπέρτερος,uperteros,tlg0085,tlg005,perseus-grc1,428,2:428,1955,ὑπερβατώτερα,quoted,ὑπερβατώτερα,grc.lsj.perseus-eng23.xml,u(pe/rteros,located,0.1.2: both readers answered no,
+ψύδος,yudos,tlg0085,tlg005,perseus-grc1,999,1:999,4849,ψύθη,quoted,"ψύθη,",grc.lsj.perseus-eng26.xml,yu/dos,located,read in the grind (split): no/yes/no,ψύθος
+ἄνα,ana,tlg0033,tlg002,perseus-grc1,12:3,12:3,7254,ἄνα,morpheus,"ζεῦ ἄνα,",grc.lsj.perseus-eng1.xml,a)/na1,located,read in the grind (conflict): no/no/-,ἄναξ
+ἀπούρας,apouras,tlg0033,tlg002,perseus-grc1,4:149,4:149,3197,ἀπούραις,quoted,ἀπούραις,grc.lsj.perseus-eng1.xml,a)pou/ras,located,read in the grind (allmiss): yes/unsure/no,ἀπαυράω
+ἐπαυρέω,epaurew,tlg0033,tlg002,perseus-grc1,3:36,3:36,1623,ἐπαῦρον,quoted,ἐπαῦρον,grc.lsj.perseus-eng5.xml,e)paure/w,located,read in the grind (ctxmiss): unsure/yes/no,ἐπαυρίσκω
+περί,peri,tlg0033,tlg002,perseus-grc1,3:52,3:52,1732,περάπτων,quoted,περάπτων,grc.lsj.perseus-eng17.xml,peri/,located,0.1.2: both readers answered no,
+τυφωεύς,tufweus,tlg0033,tlg002,perseus-grc1,1:16,1:16,112,Τυφὼς,morpheus,έϊ,grc.lsj.perseus-eng22.xml,*tufweu/s,located,read in the grind (allmiss): yes/no/no,Τυφών
+φιλέω,filew,tlg0033,tlg002,perseus-grc1,1,1:60,445,φίλιον,morpheus,πεφίληκα,grc.lsj.perseus-eng24.xml,file/w,located,read in the grind (conflict): no/no/-,φίλιος
+ἐπαυρέω,epaurew,tlg0085,tlg003,perseus-grc1,28,28,271,ἐπηύρου,quoted,ἐπηύρου,grc.lsj.perseus-eng5.xml,e)paure/w,located,read in the grind (allmiss): no/yes/no,ἐπαυρίσκω
+ἐρρηέστερον,errhesteron,tlg0085,tlg003,perseus-grc1,65,65,509,ἐρρωμένως,quoted,ἐρρωμένως,grc.lsj.perseus-eng5.xml,e)rrhe/steron,located,0.1.2: both readers answered no,
+κίλιξ,kilic,tlg0085,tlg003,perseus-grc1,353,353,2094,Κιλικίων,morpheus,,grc.lsj.perseus-eng11.xml,*ki/lic,located,read in the grind (allmiss): no/yes/no,Κιλίκιος
+πρότερος,proteros,tlg0085,tlg003,perseus-grc1,447,447,2565,πρῶτα,morpheus,"πρῶτα μὲν . . , . . δὲ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+τυφωεύς,tufweus,tlg0085,tlg003,perseus-grc1,372,372,2185,Τυφὼς,morpheus,έϊ,grc.lsj.perseus-eng22.xml,*tufweu/s,located,read in the grind (allmiss): yes/no/no,τυφώς
+διατρίβω,diatribw,tlg0032,tlg001,perseus-grc1,6:5:49,6:5:49,55964,διατριβῇ,morpheus,δ. τινὰς ἡμέρας,grc.lsj.perseus-eng4.xml,diatri/bw,located,read in the grind (allmiss): no/no/-,διατριβή
+δυσπάλαιστος,duspalaistos,tlg0032,tlg001,perseus-grc1,5:2:18,5:2:17,38458,δύναμις,quoted,δύναμις,grc.lsj.perseus-eng4.xml,duspa/laistos,located,read in the grind (allmiss): no/no/-,δύναμις
+ἵημι,ihmi,tlg0032,tlg001,perseus-grc1,6:4:3,6:4:3,50448,ᾗ,morpheus,ἀφ-ίοιμι,grc.lsj.perseus-eng10.xml,i(/hmi,located,read in the grind (allmiss): no/no/-,ὅς
+οὐδαμοῖ,oudamoi,tlg0032,tlg001,perseus-grc1,5:2:8,5:2:8,37908,οὐδαμοῦ,quoted,οὐδαμοῦ,grc.lsj.perseus-eng16.xml,ou)damoi=,located,read in the grind (allmiss): no/no/-,οὐδαμοῦ
+πρότερος,proteros,tlg0032,tlg001,perseus-grc1,5:4:1,5:4:1,41729,πρῶτον,morpheus,π. οὐδ' ὑφ' ἑνὸς . . κρατηθέντες,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+ταγεία,tageia,tlg0032,tlg001,perseus-grc1,6:4:34,6:4:35,52462,ταγὸς,quoted,ταγός,grc.lsj.perseus-eng22.xml,tagei/a,located,read in the grind (allmiss): no/no/-,ταγός
+ταγεύω,tageuw,tlg0032,tlg001,perseus-grc1,6:1:19,6:1:18,46963,ταγὸς,quoted,ταγός,grc.lsj.perseus-eng22.xml,tageu/w,located,read in the grind (allmiss): no/no/-,ταγός
+χωρέω,xwrew,tlg0032,tlg001,perseus-grc1,2:4:10,2:4:9,13143,χωρίον,morpheus,τὸ ὕδωρ κατὰ τὰς τάφρους ἐχώρει,grc.lsj.perseus-eng25.xml,xwre/w,located,read in the grind (allmiss): no/no/-,χωρίον
+βλαστάνω,blastanw,tlg0011,tlg007,perseus-grc1,697,2:696,4316,βλαστὸν,morpheus,,grc.lsj.perseus-eng2.xml,blasta/nw,located,read in the grind (allmiss): no/no/-,βλαστός
+πρότερος,proteros,tlg0011,tlg007,perseus-grc1,477,477,2912,πρώτην,morpheus,στάντα πρὸς π. ἕω,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0011,tlg007,perseus-grc1,145,1:145,904,πρώτης,morpheus,μοῖρα,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+πρότερος,proteros,tlg0011,tlg007,perseus-grc1,632,632,3948,πρῶτον,morpheus,"π. μὲν . . , ἔπειτα δὲ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+τηλικόσδε,thlikosde,tlg0011,tlg007,perseus-grc1,751,751,4612,τηλικοῦτος,quoted,τηλικοῦτος,grc.lsj.perseus-eng22.xml,thliko/sde,located,read in the grind (ctxmiss): no/no/-,τηλικοῦτος
+εἰμί,eimi,tlg0011,tlg004,perseus-grc1,991,992,6259,ὦ,morpheus,τί δ' ἐστί . . φέρον,grc.lsj.perseus-eng5.xml,ei)mi/1,located,read in the grind (allmiss): no/no/-,ὦ
+ἐμός,emos,tlg0011,tlg004,perseus-grc1,969,970,6098,ἐμοῦ,morpheus,τὠμῷ πόθῳ,grc.lsj.perseus-eng5.xml,e)mo/s,located,read in the grind (allmiss): no/yes/no,ἐγώ
+ἐρύω,eruw,tlg0011,tlg004,perseus-grc1,1351,2:1351,8528,ἔρυτο,quoted,ἔρυ—το,grc.lsj.perseus-eng5.xml,e)ru/w2,located,read in the grind (split): no/yes/no,ῥύομαι
+βοή,boh,tlg0011,tlg003,perseus-grc1,335,335,1888,βοᾷ,morpheus,"βοὴν θωΰσσειν, ἀϋτεῖν",grc.lsj.perseus-eng2.xml,boh/,located,read in the grind (allmiss): no/no/-,βοάω
+εἶμι,eimi,tlg0011,tlg003,perseus-grc1,304,303,1707,ὲν,morpheus,φρονείτω μεῖζον ἢ κατ' ἄνδρ' ἰών,grc.lsj.perseus-eng5.xml,ei)=mi2,located,read in the grind (ctxmiss): no/no/-,ἐν
+εὔρινος,eurinos,tlg0011,tlg003,perseus-grc1,8,8,47,εὔρινος,morpheus,,grc.lsj.perseus-eng5.xml,eu)/rinos1,located,read in the grind (conflict): yes/yes/-,
+εὔρις,euris,tlg0011,tlg003,perseus-grc1,8,8,47,εὔρινος,morpheus,κυνὸς . . ὥς τις εὔρινος βάσις,grc.lsj.perseus-eng5.xml,eu)/ris,located,read in the grind (conflict): yes/yes/-,
+οὐ,ou,tlg0011,tlg003,perseus-grc1,1242,1243,7189,οὗ,morpheus,εἰ,grc.lsj.perseus-eng16.xml,ou)1,located,read in the grind (allmiss): no/no/-,ὅς
+ἔπειμι,epeimi,tlg0033,tlg001,perseus-grc1,13:99,13:98,5654,ἔπει,morpheus,"-έσσομαι,",grc.lsj.perseus-eng5.xml,e)/peimi1,located,read in the grind (conflict): no/no/-,ἔπος
+λιτός,litos,tlg0033,tlg001,perseus-grc1,6:78,6:78,2458,λιταῖς,morpheus,θυσίαι,grc.lsj.perseus-eng12.xml,lito/s3,located,read in the grind (allmiss): no/no/-,λιτή
+μέμονα,memona,tlg0033,tlg001,perseus-grc1,1:89,1:89,509,μεμαότας,quoted,μεμα—ότας,grc.lsj.perseus-eng13.xml,me/mona,located,read in the grind (ctxmiss): yes/no/no,μάω
+ἐξελκέω,ecelkew,tlg0011,tlg002,perseus-grc1,1036,1036,5899,ἐξημπόλημαι,quoted,ἐξημπόλημαι,grc.lsj.perseus-eng5.xml,e)celke/w,located,read in the grind (sheet3): no/no/-,ἐξεμπολάω
+θῆβαι,qhbai,tlg0011,tlg002,perseus-grc1,1135,1:1135,6477,Θηβαΐας,quoted,θηβαΐας,grc.lsj.perseus-eng9.xml,*qh=bai,located,read in the grind (sheet3): no/no/-,Θηβαῖος
+κοπίς,kopis,tlg0011,tlg002,perseus-grc1,602,1:602,3582,κόνις,quoted,κόνις,grc.lsj.perseus-eng11.xml,kopi/s2,located,read in the grind (allmiss): no/no/-,κόνις
+σός,sos,tlg0011,tlg002,perseus-grc1,635,634,3725,σοὶ,morpheus,"πάτερ, σός εἰμι",grc.lsj.perseus-eng21.xml,so/s,located,read in the grind (allmiss): no/no/-,σύ
+φρενόω,frenow,tlg0011,tlg002,perseus-grc1,754,754,4522,φρενῶν,morpheus,,grc.lsj.perseus-eng24.xml,freno/w,located,read in the grind (conflict): no/no/-,φρήν
+ἀναβρύω,anabruw,tlg2045,tlg001,perseus-grc1,7:346,7:346,20907,ἄνθεα,quoted,ἄνθεα,grc.lsj.perseus-eng1.xml,a)nabru/w,located,0.1.2: both readers answered no,
+δεξιά,decia,tlg0011,tlg006,perseus-grc1,1254,1254a,7782,δεξιὰν,morpheus,χείρ,grc.lsj.perseus-eng4.xml,decia/,located,read in the grind (allmiss): no/yes/no,δεξιός
+πέρνημι,pernhmi,tlg0011,tlg006,perseus-grc1,978,978,6152,πέπραμαι,quoted,πέπρα—μαι,grc.lsj.perseus-eng17.xml,pe/rnhmi,located,read in the grind (split): no/yes/no,πιπράσκω
+πρότερος,proteros,tlg0011,tlg006,perseus-grc1,919,919,5729,πρῶτα,morpheus,"πρῶτα μὲν . . , ἔπειτα δὲ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+καταλύσιμος,katalusimos,tlg0011,tlg005,perseus-grc1,1247,1:1250,7439,κακόν,quoted,κακόν,grc.lsj.perseus-eng11.xml,katalu/simos,located,read in the grind (allmiss): no/no/-,κακός
+κυκλέω,kuklew,tlg0011,tlg005,perseus-grc1,1365,1365,8157,κυκλοῦνται,quoted,κυκλοῦνται,grc.lsj.perseus-eng11.xml,kukle/w,located,read in the grind (split): unsure/yes/no,κυκλόω
+ὀρθόω,orqow,tlg0011,tlg005,perseus-grc1,742,742,4321,ὀρθῶν,morpheus,ὠρθοῦθ' ὁ τλήμων ὀρθὸς ἐξ ὀρθῶν δίφρων,grc.lsj.perseus-eng16.xml,o)rqo/w,located,read in the grind (allmiss): no/no/-,ὀρθός
+τηλικόσδε,thlikosde,tlg0011,tlg005,perseus-grc1,614,614,3523,τηλικοῦτος,quoted,τηλικοῦτος,grc.lsj.perseus-eng22.xml,thliko/sde,located,read in the grind (ctxmiss): no/no/-,τηλικοῦτος
+δεξιά,decia,tlg0019,tlg003,perseus-grc1,81,81,517,δεξιάν,morpheus,δεξιὰν διδόναι,grc.lsj.perseus-eng4.xml,decia/,located,read in the grind (allmiss): no/yes/no,δεξιός
+κόρις,koris,tlg0019,tlg003,perseus-grc1,710,710,4891,Κορίνθιοι,quoted,κορίνθιοι,grc.lsj.perseus-eng11.xml,ko/ris,located,0.1.2: both readers answered no,
+τις,tis,tlg0019,tlg003,perseus-grc1,1223,1223,8334,τοῦ,morpheus,,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): unsure/no/no,ὁ
+τις,tis,tlg0019,tlg003,perseus-grc1,1270,1270,8672,τὰ,morpheus,τὰ ποῖα ταῦτα χρήματα,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): no/no/-,ὁ
+ψευδής,yeudhs,tlg0019,tlg003,perseus-grc1,446,446,3225,ψευδῶν,morpheus,ψευδῶν συγκολλητής,grc.lsj.perseus-eng26.xml,yeudh/s,located,read in the grind (ctxmiss): no/no/-,ψεῦδος
+ἐξωμιδοποιΐα,ecwmidopoiia,tlg0032,tlg002,perseus-grc1,2:7:6,2:7:5,15389,ἐξωμίδες,quoted,"ἐξωμίδες,",grc.lsj.perseus-eng5.xml,e)cwmidopoii/+a,located,0.1.2: both readers answered no,
+ὀρθόω,orqow,tlg0032,tlg002,perseus-grc1,3:10:15,3:10:15,24187,ὀρθῶς,morpheus,,grc.lsj.perseus-eng16.xml,o)rqo/w,located,read in the grind (allmiss): no/no/-,ὀρθός
+ὀψοποιέω,oyopoiew,tlg0032,tlg002,perseus-grc1,3:14:5,3:14:5,26300,ὀψοποιῶν,morpheus,ὀ. λόγον,grc.lsj.perseus-eng16.xml,o)yopoie/w,located,read in the grind (allmiss): no/no/-,ὀψοποιός
+προσίημι,prosihmi,tlg0032,tlg002,perseus-grc1,4:2:17,4:2:17,28027,προσιέναι,morpheus,π. φάρμακον,grc.lsj.perseus-eng17.xml,prosi/hmi,located,read in the grind (allmiss): no/no/-,πρόσειμι
+πρότερος,proteros,tlg0032,tlg002,perseus-grc1,1:2:1,1:2:1,1134,πρῶτον,morpheus,"π. μὲν . . , εἶτα . . , ἔτι δὲ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+σπουδαῖος,spoudaios,tlg0032,tlg002,perseus-grc1,4:4:23,4:4:23,32320,σπέρματα,quoted,σπέρματα,grc.lsj.perseus-eng21.xml,spoudai=os,located,read in the grind (allmiss): no/no/-,σπέρμα
+σταθμόν,staqmon,tlg0032,tlg002,perseus-grc1,3:10:10,3:10:10,23909,σταθμῷ,morpheus,,grc.lsj.perseus-eng21.xml,staqmo/n,located,read in the grind (allmiss): unsure/yes/unsure,
+χλαμυδοποιία,xlamudopoiia,tlg0032,tlg002,perseus-grc1,2:7:6,2:7:5,15387,χλαμύδες,quoted,"χλαμύδες,",grc.lsj.perseus-eng25.xml,xlamudopoii/a,located,0.1.2: both readers answered no,
+εὔβοια,euboia,tlg0011,tlg001,perseus-grc1,74,74,465,Εὐβοΐδα,quoted,εὐβοῖδα,grc.lsj.perseus-eng5.xml,*eu)/boia,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0011,tlg001,perseus-grc1,616,616,3720,πρῶτα,morpheus,"πρῶτα μὲν . . , ἔπειτα . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+τις,tis,tlg0011,tlg001,perseus-grc1,984,984,5751,τοῖσι,morpheus,τοῖσι,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): no/no/-,ὁ
+αἴ,ai,tlg0085,tlg004,perseus-grc1,787,5:787,4058,αἰαῖ,quoted,αἰαῖ,grc.lsj.perseus-eng1.xml,ai)/2,located,read in the grind (ctxmiss): no/no/-,αἰαῖ
+ἅτε,ate,tlg0085,tlg004,perseus-grc1,140,1:140,744,ἅτ᾽,morpheus,ἅ. γένους προμάτωρ,grc.lsj.perseus-eng1.xml,a(/te1,located,read in the grind (allmiss): no/yes/no,ὅς
+πορθέω,porqew,tlg0085,tlg004,perseus-grc1,583,3:582,3031,πόλιν,quoted,πόλιν,grc.lsj.perseus-eng17.xml,porqe/w,located,read in the grind (allmiss): no/no/-,πόλις
+πρέμνοθεν,premnoqen,tlg0085,tlg004,perseus-grc1,71,71,486,πρυμνόθεν,quoted,"πρυμνόθεν,",grc.lsj.perseus-eng17.xml,pre/mnoqen,located,read in the grind (conflict): no/no/-,πρυμνόθεν
+πρέμνοθεν,premnoqen,tlg0085,tlg004,perseus-grc1,1061,1061,5315,πρυμνόθεν,quoted,"πρυμνόθεν,",grc.lsj.perseus-eng17.xml,pre/mnoqen,located,read in the grind (conflict): no/no/-,πρυμνόθεν
+τευχηστήρ,teuxhsthr,tlg0085,tlg004,perseus-grc1,644,644,3367,τευχηστὴν,morpheus,", ἀνήρ",grc.lsj.perseus-eng22.xml,teuxhsth/r,located,read in the grind (ctxmiss): no/yes/no,τευχηστής
+τυφωεύς,tufweus,tlg0085,tlg004,perseus-grc1,517,2:517,2676,Τυφῶ,morpheus,τυφῶ,grc.lsj.perseus-eng22.xml,*tufweu/s,located,read in the grind (allmiss): yes/no/no,Τυφώς
+ἀφράδμων,afradmwn,tlg0085,tlg002,perseus-grc1,417,417,2175,ἀφρασμόνως,quoted,ἀφρασμόνως,grc.lsj.perseus-eng1.xml,a)fra/dmwn,located,0.1.2: both readers answered no,
+ἰωά,iwa,tlg0085,tlg002,perseus-grc1,1070,1070,5384,ἰώ,quoted,ἰώ,grc.lsj.perseus-eng10.xml,i)wa/,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0085,tlg002,perseus-grc1,412,412,2141,πρῶτα,morpheus,"τὰ π. μὲν . . , ὡς δὲ . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+τοί,toi,tlg0085,tlg002,perseus-grc1,424,424,2209,τοὶ,morpheus,"ὅ,",grc.lsj.perseus-eng22.xml,toi/3,located,read in the grind (conflict): no/no/-,ὁ
+ἀγοράζω,agorazw,tlg0019,tlg002,perseus-grc1,1373,1373,9200,ἀγορᾷ,morpheus,ἀγορά,grc.lsj.perseus-eng1.xml,a)gora/zw,located,read in the grind (allmiss): no/no/-,ἀγορά
+προτεραῖος,proteraios,tlg0019,tlg002,perseus-grc1,1165,1164,7730,πρότερος,quoted,πρότερος,grc.lsj.perseus-eng17.xml,proterai=os,located,read in the grind (allmiss): no/no/-,πρότερος
+σπένδω,spendw,tlg0019,tlg002,perseus-grc1,106,106,683,σπονδήν,quoted,σπονδήν,grc.lsj.perseus-eng21.xml,spe/ndw,located,0.1.2: both readers answered no,
+διαδύνω,diadunw,tlg0019,tlg004,perseus-grc1,396,396,2642,διαδύεται,morpheus,μῶν ὁ γέρων πῃ διαδύεται;,grc.lsj.perseus-eng4.xml,diadu/nw,located,read in the grind (ctxmiss): no/no/-,διαδύω
+ποῖ,poi,tlg0019,tlg004,perseus-grc1,1369,1369b,9292,ποίαν,quoted,ποίαν,grc.lsj.perseus-eng17.xml,poi=,located,read in the grind (conflict): no/no/-,ποῖος
+ἀμπέχω,ampexw,tlg0019,tlg006,perseus-grc1,1090,1:1090,7404,ἀμπισχνοῦνται,quoted,ἀμπισχνοῦνται,grc.lsj.perseus-eng1.xml,a)mpe/xw,located,read in the grind (split): no/yes/no,ἀμπισχνέομαι
+ἐπεί,epei,tlg0019,tlg006,perseus-grc1,983,983,6703,ἐπὴν,quoted,ἐπήν,grc.lsj.perseus-eng5.xml,e)pei/1,located,read in the grind (allmiss): no/yes/no,ἐπήν
+ὀρειβάτης,oreibaths,tlg0019,tlg006,perseus-grc1,276,276,1864,ὄρνις,quoted,ὄρνις,grc.lsj.perseus-eng16.xml,o)reiba/ths,located,read in the grind (allmiss): no/no/-,ὄρνις
+τοροτίξ,torotic,tlg0019,tlg006,perseus-grc1,262,262,1744,τοροτοροτοροτορολιλιλίξ,quoted,τοροτοροτοροτορολιλιλίξ,grc.lsj.perseus-eng22.xml,toroti/c,located,read in the grind (split): unsure/no/no,τοροτοροτοροτορολιλιλίξ
+ἀνταλλάσσω,antallassw,tlg0085,tlg006,perseus-grc1,133,133,678,ἄνδρα,quoted,ἄνδρα,grc.lsj.perseus-eng1.xml,a)ntalla/ssw,located,read in the grind (allmiss): no/no/-,ἀνήρ
+εὔβολος,eubolos,tlg0085,tlg006,perseus-grc1,696,696,3565,εὐβούλως,quoted,εὐβούλως,grc.lsj.perseus-eng5.xml,eu)/bolos,located,read in the grind (sheet3): no/no/-,εὔβουλος
+ἤρα,hra,tlg0019,tlg001,perseus-grc1,913,913,5756,ἤρα,morpheus,αἴρω,grc.lsj.perseus-eng8.xml,h)/ra1,located,read in the grind (allmiss): no/no/-,αἴρω
+πρεσβεύς,presbeus,tlg0019,tlg001,perseus-grc1,93,93,584,πρέσβεως,quoted,πρέσβεως,grc.lsj.perseus-eng17.xml,presbeu/s,located,read in the grind (conflict): no/no/-,πρέσβυς
+πρέσβις,presbis,tlg0019,tlg001,perseus-grc1,93,93,584,πρέσβεως,quoted,πρέσβεως,grc.lsj.perseus-eng17.xml,pre/sbis1,located,read in the grind (conflict): no/no/-,πρέσβυς
+διασκοπέω,diaskopew,tlg0019,tlg009,perseus-grc1,836,836,5317,διέσκεμμαι,quoted,διέσκεμμαι,grc.lsj.perseus-eng4.xml,diaskope/w,located,read in the grind (allmiss): yes/no/no,διασκέπτομαι
+διεῖδον,dieidon,tlg0019,tlg009,perseus-grc1,975,975,6283,διειδέναι,quoted,"διειδέναι,",grc.lsj.perseus-eng4.xml,diei=don,located,read in the grind (split): no/no/-,διοῖδα
+ἱστότονος,istotonos,tlg0019,tlg009,perseus-grc1,1315,1315,8569,ἱστόπονα,quoted,ἱστόπονα,grc.lsj.perseus-eng10.xml,i(sto/tonos,located,0.1.2: both readers answered no,
+δελφοί,delfoi,tlg0085,tlg007,perseus-grc1,16,16,161,Δελφός,quoted,"δελφός,",grc.lsj.perseus-eng4.xml,*delfoi/,located,0.1.2: both readers answered no,
+λάππειν,lappein,tlg0085,tlg007,perseus-grc1,387,4:387,2089,λάμπᾳ,quoted,λάμπᾳ,grc.lsj.perseus-eng12.xml,la/ppein,located,read in the grind (sheet3): no/no/-,λάμπη
+ἡβάω,hbaw,tlg0020,tlg002,perseus-grc1,132,132,920,ἥβης,morpheus,ἡβάσω [α—,grc.lsj.perseus-eng8.xml,h(ba/w,located,read in the grind (allmiss): no/no/-,ἥβη
+πρότερος,proteros,tlg0020,tlg002,perseus-grc1,598,598,4238,πρῶτα,morpheus,δινέμεν εὖτ' ἂν πρῶτα φανῇ σθένος Ὠαρίωνος,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+χάλκεος,xalkeos,tlg0020,tlg002,perseus-grc1,150,151,1048,χαλκῷ,morpheus,,grc.lsj.perseus-eng25.xml,xa/lkeos,located,read in the grind (conflict): no/no/-,χαλκός
+ἔπειτε,epeite,tlg0033,tlg003,perseus-grc1,3:54,3:54,937,ἔπειτεν,quoted,ἔπειτεν,grc.lsj.perseus-eng5.xml,e)/peite2,located,read in the grind (split): no/yes/no,ἔπειτα
+κόνιος,konios,tlg0033,tlg003,perseus-grc1,9:43,9:43,3876,κονίᾳ,morpheus,χέρσος,grc.lsj.perseus-eng11.xml,ko/nios,located,read in the grind (allmiss): no/no/-,κονία
+περί,peri,tlg0033,tlg003,perseus-grc1,11:40,11:40,4922,περόδοις,quoted,περόδοις,grc.lsj.perseus-eng17.xml,peri/,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0033,tlg003,perseus-grc1,3:49,3:49,900,πρῶτον,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+σκάμμα,skamma,tlg0033,tlg003,perseus-grc1,11:3,11:4,4698,σκάπτῳ,quoted,σκάπτω,grc.lsj.perseus-eng21.xml,ska/mma,located,0.1.2: both readers answered no,
+τροία,troia,tlg0033,tlg003,perseus-grc1,7:41,7:41,2696,Τρωΐαθεν,quoted,τρωΐα—θεν,grc.lsj.perseus-eng22.xml,*troi/a,located,read in the grind (sheet3): no/yes/no,Τροίηθεν
+πρότερος,proteros,tlg0019,tlg011,perseus-grc1,728,728,5377,πρῶτα,morpheus,δέ,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+συκόβιος,sukobios,tlg0019,tlg011,perseus-grc1,874,873,6352,συκοφάντης,quoted,συκοφάντης,grc.lsj.perseus-eng21.xml,suko/bios,located,read in the grind (allmiss): no/no/-,συκοφάντης
+τις,tis,tlg0019,tlg011,perseus-grc1,9,8,52,τῷ,morpheus,ὃς,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): no/no/-,ὁ
+ἄνανδρος,anandros,tlg0059,tlg006,perseus-grc1,177b,177b,11796,ἀνδρικῶς,quoted,"ἀνδρικῶς,",grc.lsj.perseus-eng1.xml,a)/nandros,located,0.1.2: both readers answered no,
+ἀνδρικός,andrikos,tlg0059,tlg006,perseus-grc1,177b,177b,11802,ἀνάνδρως,quoted,"ἀνάνδρως,",grc.lsj.perseus-eng1.xml,a)ndriko/s,located,read in the grind (sheet3): no/no/-,ἄνανδρος
+ἐκμάσσω,ekmassw,tlg0059,tlg006,perseus-grc1,191d,191c,16627,ἐκμαγεῖον,quoted,ἐκμαγεῖον,grc.lsj.perseus-eng5.xml,e)kma/ssw,located,read in the grind (conflict): no/no/-,ἐκμαγεῖον
+εἰκότως,eikotws,tlg0085,tlg001,perseus-grc1,403,3:403,2001,εἰκότως,morpheus,,grc.lsj.perseus-eng5.xml,ei)ko/tws,located,read in the grind (conflict): yes/yes/-,
+ἐοικότως,eoikotws,tlg0085,tlg001,perseus-grc1,403,3:403,2001,εἰκότως,morpheus,,grc.lsj.perseus-eng5.xml,e)oiko/tws,located,read in the grind (conflict): no/yes/yes,εἰκότως
+ἴδε,ide,tlg0085,tlg001,perseus-grc1,350,1:350,1709,ἴδε,morpheus,ὅτι,grc.lsj.perseus-eng10.xml,i)/de1,located,read in the grind (allmiss): yes/no/no,εἶδον
+πέρα,pera,tlg0085,tlg001,perseus-grc1,262,262,1185,πέρας,morpheus,,grc.lsj.perseus-eng17.xml,pe/ra2,located,read in the grind (allmiss): unsure/no/yes,πέρας
+προμηθεύς,promhqeus,tlg0085,tlg001,perseus-grc1,700,4:700,3388,προμαθὶς,quoted,προμα—θίς,grc.lsj.perseus-eng17.xml,promhqeu/s,located,0.1.2: both readers answered no,
+στολή,stolh,tlg0085,tlg001,perseus-grc1,764,764,3741,στρατοῦ,quoted,στρατοῦ,grc.lsj.perseus-eng21.xml,stolh/,located,read in the grind (allmiss): no/no/-,στρατός
+τέλος,telos,tlg0085,tlg001,perseus-grc1,525,1:525,2692,τελέων,morpheus,"τελέων τελειότατον κράτος, ὄλβιε Ζεῦ",grc.lsj.perseus-eng22.xml,te/los,located,read in the grind (conflict): no/yes/no,τέλειος
+τυφωεύς,tufweus,tlg0085,tlg001,perseus-grc1,560,3:560,2824,Τυφῶ,morpheus,,grc.lsj.perseus-eng22.xml,*tufweu/s,located,read in the grind (allmiss): unsure/yes/no,τυφώς
+φρύγιος,frugios,tlg0085,tlg001,perseus-grc1,548,2:548,2781,Φρυγίας,morpheus,δι' αἴας . . Φρυγίας,grc.lsj.perseus-eng24.xml,fru/gios2,located,read in the grind (allmiss): no/no/-,Φρυγία
+ἐγγίων,eggiwn,tlg0014,tlg018,perseus-grc1,165,165,11737,ἔγγιστα,morpheus,τοὺς ἔγγιστα τῆς Ἀττικῆς τόπους,grc.lsj.perseus-eng5.xml,e)ggi/wn,located,read in the grind (allmiss): no/yes/no,ἐγγύς
+σύμβουλος,sumboulos,tlg0014,tlg018,perseus-grc1,189,189,13503,συκοφάντης,quoted,συκοφάντης,grc.lsj.perseus-eng21.xml,su/mboulos,located,read in the grind (allmiss): no/no/-,συκοφάντης
+ἐγγυάω,egguaw,tlg0059,tlg004,perseus-grc1,115d,115d,21447,ἐγγύην,morpheus,ἐγγύην ἐγγυᾶσθαί τινα πρός τινα,grc.lsj.perseus-eng5.xml,e)ggua/w,located,read in the grind (allmiss): no/no/-,ἐγγύη
+ἐπεί,epei,tlg0059,tlg004,perseus-grc1,77d,77d,7447,ἐπειδή,morpheus,ἐπειδή γε,grc.lsj.perseus-eng5.xml,e)pei/1,located,read in the grind (allmiss): no/no/-,ἐπειδή
+μειδάω,meidaw,tlg0059,tlg004,perseus-grc1,86d,86d,10759,μειδιάσας,quoted,μειδιάσας,grc.lsj.perseus-eng13.xml,meida/w,located,read in the grind (ctxmiss): no/yes/no,μειδιάω
+μελετάω,meletaw,tlg0059,tlg004,perseus-grc1,81a,81a,8709,μελέτη,morpheus,"μ. ἀποθνῄσκειν, τεθνάναι",grc.lsj.perseus-eng13.xml,meleta/w,located,read in the grind (conflict): no/no/-,μελέτη
+πρότερος,proteros,tlg0059,tlg004,perseus-grc1,89a,89a,11606,πρῶτον,morpheus,"π. μὲν . . , ἔπειτα . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+καλλίρροος,kallirroos,tlg0020,tlg001,perseus-grc1,288,288,1969,Καλλιρόῃ,quoted,καλλιρόη,grc.lsj.perseus-eng11.xml,kalli/rroos,located,0.1.2: both readers answered no,
+μέδω,medw,tlg0020,tlg001,perseus-grc1,276,276,1885,Μέδουσά,quoted,μέδουσα,grc.lsj.perseus-eng13.xml,me/dw,located,read in the grind (sheet3): no/no/-,Μέδουσα
+περί,peri,tlg0020,tlg001,perseus-grc1,678,678,4633,περίαχε,quoted,περίαχε,grc.lsj.perseus-eng17.xml,peri/,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0020,tlg001,perseus-grc1,156,156,1064,πρῶτα,morpheus,ὅπως τις πρῶτα γένοιτο πάντας ἀποκρύπτεσκε,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+τράφω,trafw,tlg0020,tlg001,perseus-grc1,480,480,3303,τραφέμεν,quoted,τραφέμεν,grc.lsj.perseus-eng22.xml,tra/fw,located,read in the grind (sheet3): no/no/-,τρέφω
+τεκνόω,teknow,tlg0006,tlg015,perseus-grc1,19,18,106,τέκνων,morpheus,,grc.lsj.perseus-eng22.xml,tekno/w,located,read in the grind (allmiss): no/no/-,τέκνον
+τιμάω,timaw,tlg0006,tlg015,perseus-grc1,550,551,3121,τίμιον,morpheus,τί τὴν τυραννίδα τιμᾷς ὑπέρφευ,grc.lsj.perseus-eng22.xml,tima/w,located,read in the grind (allmiss): no/no/-,τίμιος
+ἀγκή,agkh,tlg0023,tlg001,perseus-grc1,2:315,2:315,7320,ἀγκάσιν,quoted,ἀγκάσιν,grc.lsj.perseus-eng1.xml,a)gkh/,located,read in the grind (split): unsure/no/no,ἀγκάς
+ἀντροφυής,antrofuhs,tlg0023,tlg001,perseus-grc1,3:212,3:211,11099,ἀνθίαι,quoted,ἀνθίαι,grc.lsj.perseus-eng1.xml,a)ntrofuh/s,located,read in the grind (sheet3): no/no/-,ἀνθίας
+θυστάς,qustas,tlg0023,tlg001,perseus-grc1,5:417,5:417,21047,θυτὴρ,quoted,θυτήρ,grc.lsj.perseus-eng9.xml,qusta/s,located,0.1.2: both readers answered no,
+περικρεμής,perikremhs,tlg0023,tlg001,perseus-grc1,4:541,4:541,17431,περικρατὲς,quoted,περικρατές,grc.lsj.perseus-eng17.xml,perikremh/s,located,0.1.2: both readers answered no,
+φερέπτερος,ferepteros,tlg0023,tlg001,perseus-grc1,2:482,2:482,8394,φερεπτερύγων,quoted,φερεπτερύγων,grc.lsj.perseus-eng24.xml,fere/pteros,located,read in the grind (sheet3): no/no/-,φερεπτέρυξ
+εὐπάξ,eupac,tlg0006,tlg016,perseus-grc1,1428,1428,8848,εὐπαγεῖ,quoted,εὐπαγεῖ,grc.lsj.perseus-eng5.xml,eu)pa/c,located,0.1.2: both readers answered no,
+προσκυνέω,proskunew,tlg0006,tlg016,perseus-grc1,1507,1507,9279,προσπίτνων,quoted,προσπίτνων,grc.lsj.perseus-eng17.xml,proskune/w,located,0.1.2: both readers answered no,
+διεσπασμένως,diespasmenws,tlg0627,tlg006,perseus-grc1,1:1,1:1,45,διεσπαρμένως,quoted,διεσπαρμένως,grc.lsj.perseus-eng4.xml,diespasme/nws,located,read in the grind (sheet3): no/no/-,διεσπαρμένως
+κωματίζομαι,kwmatizomai,tlg0627,tlg006,perseus-grc1,7:11,7:11,33796,κῶμα,quoted,κῶμα,grc.lsj.perseus-eng11.xml,kwmati/zomai,located,read in the grind (allmiss): no/no/-,κῶμα
+λευκόν,leukon,tlg0627,tlg006,perseus-grc1,4:22,4:22,17839,λευκοῖς,morpheus,τὰ λ.,grc.lsj.perseus-eng12.xml,leuko/n,located,read in the grind (allmiss): no/yes/no,λευκός
+πρόσμακρος,prosmakros,tlg0627,tlg006,perseus-grc1,6:7:2,6:7:2,30055,πρόμακρος,quoted,πρόμακρος,grc.lsj.perseus-eng17.xml,pro/smakros,located,read in the grind (conflict): no/no/-,πρόμακρος
+σπαραγμώδης,sparagmwdhs,tlg0627,tlg006,perseus-grc1,7:18,7:18,34338,σπασμώδης,quoted,σπασμώδης,grc.lsj.perseus-eng21.xml,sparagmw/dhs,located,0.1.2: both readers answered no,
+συβριάζω,subriazw,tlg0019,tlg005,perseus-grc1,344,344,2293,συβαρίζειν,quoted,συ—βα^ρίζειν,grc.lsj.perseus-eng21.xml,subria/zw,located,0.1.2: both readers answered no,
+ʼ ́αλτις,altis,tlg0525,tlg001,perseus-grc1,5:10:1,5:10:1,93199,ἄλσος,quoted,"ἄλσος,",grc.lsj.perseus-eng1.xml,*)/altis,located,read in the grind (allmiss): no/no/-,ἄλσος
+ἐφηβεύω,efhbeuw,tlg0525,tlg001,perseus-grc1,7:27:5,7:27:5,142146,ἐφήβων,morpheus,ἔφηβος,grc.lsj.perseus-eng5.xml,e)fhbeu/w,located,read in the grind (allmiss): no/no/-,ἔφηβος
+λίθιον,liqion,tlg0525,tlg001,perseus-grc1,2:25:8,2:25:8,40393,λίθος,quoted,λίθος,grc.lsj.perseus-eng12.xml,li/qion,located,read in the grind (allmiss): no/no/-,λίθος
+μάχομαι,maxomai,tlg0525,tlg001,perseus-grc1,5:4:9,5:4:8,90006,μάχῃ,morpheus,,grc.lsj.perseus-eng13.xml,ma/xomai,located,read in the grind (ctxmiss): no/no/-,μάχη
+μοιραγέτης,moirageths,tlg0525,tlg001,perseus-grc1,5:15:5,5:15:5,97388,Μοῖραι,quoted,μοῖραι,grc.lsj.perseus-eng13.xml,moirage/ths,located,read in the grind (allmiss): no/no/-,μοῖρα
+μοιραγέτης,moirageths,tlg0525,tlg001,perseus-grc1,8:37:1,8:37:1,162045,Μοῖραι,quoted,μοῖραι,grc.lsj.perseus-eng13.xml,moirage/ths,located,read in the grind (allmiss): no/no/-,μοῖρα
+ποικίλος,poikilos,tlg0525,tlg001,perseus-grc1,5:11:6,5:11:6,94459,Ποικίλῃ,quoted,ποικίλη,grc.lsj.perseus-eng17.xml,poiki/los,located,read in the grind (sheet3): no/no/-,Ποικίλη
+ὕσγη,usgh,tlg0525,tlg001,perseus-grc1,10:36:1,10:36:1,215497,ὗς,quoted,ὗς,grc.lsj.perseus-eng23.xml,u(/sgh,located,read in the grind (allmiss): unsure/no/no,ὗς
+ἀσκέω,askew,tlg0006,tlg017,perseus-grc1,476,476,2557,ἀσέβειαν,quoted,ἀσέβειαν,grc.lsj.perseus-eng1.xml,a)ske/w,located,0.1.2: both readers answered no,
+στεφανόω,stefanow,tlg0006,tlg017,perseus-grc1,101,1:102,518,στεφάνοις,quoted,στεφάνοις,grc.lsj.perseus-eng21.xml,stefano/w,located,read in the grind (conflict): no/no/-,στέφανος
+σύρος,suros,tlg0006,tlg017,perseus-grc1,144,144,677,Συρίας,morpheus,,grc.lsj.perseus-eng21.xml,*su/ros2,located,read in the grind (allmiss): no/no/-,Σύριος
+χέω,xew,tlg0006,tlg017,perseus-grc1,456,457,2423,ἔχεις,morpheus,πλόκαμος γένυν παρ' αὐτὴν κεχυμένος,grc.lsj.perseus-eng25.xml,xe/w,located,read in the grind (allmiss): no/no/-,ἔχω
+εἰμί,eimi,tlg0006,tlg005,perseus-grc1,1169,1169,6800,ὦ,morpheus,ὡς ἄρ' ἦσθ' ἐμὸς πατὴρ ὀρθῶς,grc.lsj.perseus-eng5.xml,ei)mi/1,located,read in the grind (allmiss): no/no/-,ὦ
+δεξιά,decia,tlg0006,tlg003,perseus-grc1,496,496,2831,δεξιὰ,morpheus,φεῦ δ. χείρ,grc.lsj.perseus-eng4.xml,decia/,located,read in the grind (allmiss): no/yes/no,δεξιός
+δεξιά,decia,tlg0006,tlg003,perseus-grc1,899,899,5195,δεξιᾶς,morpheus,χειρὸς δ.,grc.lsj.perseus-eng4.xml,decia/,located,read in the grind (allmiss): no/yes/no,δεξιός
+δέρος,deros,tlg0006,tlg003,perseus-grc1,480,480,2730,δέρας,quoted,δέρας,grc.lsj.perseus-eng4.xml,de/ros,located,read in the grind (split): no/yes/no,δέρας
+πρότερος,proteros,tlg0006,tlg003,perseus-grc1,548,548,3161,πρῶτα,morpheus,"πρῶτα μὲν . . , ἔπειτα . . , εἶτα . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+τηλοτάτω,thlotatw,tlg0627,tlg010,perseus-grc1,53,53,13457,τηλοτέρω,morpheus,ἀπεῖναι,grc.lsj.perseus-eng22.xml,thlota/tw,located,read in the grind (allmiss): no/no/-,τῆλε
+ἀνεκτέος,anekteos,tlg0019,tlg007,perseus-grc1,477,1:477,3253,ἀνεκτὰ,quoted,ἀνεκτά,grc.lsj.perseus-eng1.xml,a)nekte/os,located,read in the grind (allmiss): no/no/-,ἀνεκτός
+ἐπεί,epei,tlg0019,tlg007,perseus-grc1,1175,1175,8010,ἐπὴν,quoted,ἐπήν,grc.lsj.perseus-eng5.xml,e)pei/1,located,read in the grind (allmiss): no/yes/no,ἐπήν
+ὄρημι,orhmi,tlg0019,tlg007,perseus-grc1,1077,1077,7370,ὁρῆν,quoted,ὁρῆν,grc.lsj.perseus-eng16.xml,o)/rhmi,located,read in the grind (sheet3): no/no/-,ὁράω
+πανταχοῦ,pantaxou,tlg0019,tlg007,perseus-grc1,1230,1230,8328,πανταχοῖ,quoted,πανταχοῖ,grc.lsj.perseus-eng17.xml,pantaxou=,located,0.1.2: both readers answered no,
+εὔσχημος,eusxhmos,tlg0006,tlg007,perseus-grc1,569,569,3188,εὐσχήμων,morpheus,ῥυθμοί,grc.lsj.perseus-eng5.xml,eu)/sxhmos,located,read in the grind (allmiss): no/yes/no,εὐσχήμων
+πρότερος,proteros,tlg0006,tlg007,perseus-grc1,304,304,1601,πρώτῳ,morpheus,,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+τις,tis,tlg0006,tlg007,perseus-grc1,300,299,1567,τῷ,morpheus,,grc.lsj.perseus-eng22.xml,tis,located,read in the grind (allmiss): no/no/-,ὁ
+ψόγος,yogos,tlg0006,tlg010,perseus-grc1,630,630,3806,ψόφους,quoted,ψόφους,grc.lsj.perseus-eng26.xml,yo/gos,located,read in the grind (allmiss): no/no/-,ψόφος
+καπηλίς,kaphlis,tlg0019,tlg008,perseus-grc1,347,347,2221,κάπηλος,quoted,κάπηλος,grc.lsj.perseus-eng11.xml,kaphli/s,located,read in the grind (conflict): no/no/-,κάπηλος
+πρότερος,proteros,tlg0019,tlg008,perseus-grc1,662,662,4325,πρώτην,morpheus,"ὥραν, ὁδόν",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/yes/no,πρῶτος
+ἀμπέχω,ampexw,tlg0006,tlg014,perseus-grc1,422,422,2450,ἀμπίσχομαι,quoted,ἀμπίσχομαι,grc.lsj.perseus-eng1.xml,a)mpe/xw,located,read in the grind (allmiss): no/yes/no,ἀμπίσχω
+πολύς,polus,tlg0006,tlg014,perseus-grc1,1332,1:1332,8345,πόλεων,morpheus,πολέων,grc.lsj.perseus-eng17.xml,polu/s,located,read in the grind (sheet3): no/no/-,πόλις
+ῥιπτέω,riptew,tlg0006,tlg014,perseus-grc1,1325,1:1325,8317,ῥίπτει,morpheus,"ῥίπτων, ῥίπτει",grc.lsj.perseus-eng20.xml,r(ipte/w,located,read in the grind (conflict): no/yes/no,ῥίπτω
+ἐάω,eaw,tlg0014,tlg021,perseus-grc1,122,121,8596,εἴη,morpheus,ἐῶ γὰρ εἰ φίλον,grc.lsj.perseus-eng5.xml,e)a/w,located,read in the grind (allmiss): no/no/-,εἰμί
+εἷς,eis,tlg0014,tlg021,perseus-grc1,142,143,10091,ἐν,morpheus,καθ' ἕν' ἡμῶν ἕκαστον ἀποστερεῖν,grc.lsj.perseus-eng5.xml,ei(=s,located,read in the grind (allmiss): no/no/-,ἐν
+στεφανόω,stefanow,tlg0014,tlg021,perseus-grc1,17,16,1181,στεφάνους,morpheus,ὁ ἐστεφανωμένος ἄρχων,grc.lsj.perseus-eng21.xml,stefano/w,located,read in the grind (allmiss): no/no/-,στέφανος
+βουλεύω,bouleuw,tlg0059,tlg008,perseus-grc1,298b,298b,13786,βουλήν,quoted,βουλήν,grc.lsj.perseus-eng2.xml,bouleu/w,located,read in the grind (allmiss): no/no/-,βουλή
+δωρεά,dwrea,tlg0059,tlg008,perseus-grc1,290c,290d,11175,δωρεῖσθαι,quoted,δωρεῖσθαι,grc.lsj.perseus-eng4.xml,dwrea/,located,read in the grind (sheet3): no/no/-,δωρέομαι
+πρότερος,proteros,tlg0059,tlg008,perseus-grc1,292b,292b,11722,πρώτας,morpheus,κατὰ πρώτας,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+ἔγρω,egrw,tlg0024,tlg001,perseus-grc1,3:421,3:421,9941,ἔγρετο,quoted,ἔγρετο,grc.lsj.perseus-eng5.xml,e)/grw,located,read in the grind (split): no/no/-,ἐγείρω
+ἰξυόθεν,icuoqen,tlg0024,tlg001,perseus-grc1,2:6,2:6,3350,ἰξυόφιν,quoted,ἰξυόφιν,grc.lsj.perseus-eng10.xml,i)cuo/qen,located,0.1.2: both readers answered no,
+κυμαίνω,kumainw,tlg0024,tlg001,perseus-grc1,4:443,4:443,13398,κυστίδα,quoted,κύστιδα,grc.lsj.perseus-eng11.xml,kumai/nw,located,0.1.2: both readers answered no,
+ὠπάζομαι,wpazomai,tlg0024,tlg001,perseus-grc1,3:160,3:160,8265,ὠπήσασθαι,quoted,ὠπήσασθαι,grc.lsj.perseus-eng27.xml,w)pa/zomai,located,read in the grind (split): no/unsure/unsure,ὠπέω
+ἀμπέχω,ampexw,tlg0006,tlg018,perseus-grc1,1439,1438,8754,ἀμπίσχῃ,quoted,ἀμπίσχῃ,grc.lsj.perseus-eng1.xml,a)mpe/xw,located,read in the grind (allmiss): no/yes/no,ἀμπίσχω
+μελλοδειπνικός,mellodeipnikos,tlg0019,tlg010,perseus-grc1,1153,1153,8255,μέλος,quoted,μέλος,grc.lsj.perseus-eng13.xml,mellodeipniko/s,located,read in the grind (allmiss): no/no/-,μέλος
+πρότερος,proteros,tlg0019,tlg010,perseus-grc1,1079,2:1079,7737,πρῶτον,morpheus,ἢν . . πρῶτον ἀπόλωμαι κακῶς,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+παιδεύω,paideuw,tlg0006,tlg008,perseus-grc1,917,917,5540,παῖδας,quoted,παῖδας,grc.lsj.perseus-eng17.xml,paideu/w,located,read in the grind (allmiss): no/no/-,παῖς
+ἐπικαίνυμαι,epikainumai,tlg2046,tlg001,perseus-grc1,12:145,12:145,48645,ἐπικίνυται,quoted,ἐπικίνυται,grc.lsj.perseus-eng5.xml,e)pikai/numai,located,read in the grind (split): no/unsure/no,ἐπικίνυμαι
+μεδέων,medewn,tlg2046,tlg001,perseus-grc1,5:525,5:525,23106,μεδέουσι,quoted,μεδέουσι,grc.lsj.perseus-eng13.xml,mede/wn,located,read in the grind (ctxmiss): no/no/-,μέδω
+σφαγεύς,sfageus,tlg0006,tlg006,perseus-grc1,1134,1134,6734,σφαγῆς,morpheus,ὁ σφαγεὺς ἕστηκε,grc.lsj.perseus-eng21.xml,sfageu/s,located,read in the grind (allmiss): no/no/-,σφαγή
+ὅστις,ostis,tlg0032,tlg003,perseus-grc1,3:2,3:3,2194,ὅτι,morpheus,,grc.lsj.perseus-eng16.xml,o(/stis,located,read in the grind (allmiss): no/no/-,ὅτι
+εὐάν,euan,tlg0006,tlg011,perseus-grc1,326,326,1688,εὐοἵ,quoted,εὐοῖ,grc.lsj.perseus-eng5.xml,eu)a/n,located,read in the grind (sheet3): no/no/-,εὐοῖ
+εὐθαλής,euqalhs,tlg0006,tlg011,perseus-grc1,217,2:217,1130,εὐκαρπείᾳ,quoted,εὐκάρπεια,grc.lsj.perseus-eng5.xml,eu)qalh/s2,located,0.1.2: both readers answered no,
+ῥιπτέω,riptew,tlg0006,tlg011,perseus-grc1,734,3:734,4083,ῥίπτειν,quoted,ῥιπτεῖν,grc.lsj.perseus-eng20.xml,r(ipte/w,located,read in the grind (allmiss): no/yes/no,ῥίπτω
+πυθοῖ,puqoi,tlg0033,tlg004,perseus-grc1,7,7:51,2411,Πυθόϊ,quoted,πυθόϊ,grc.lsj.perseus-eng17.xml,*puqoi=,located,read in the grind (split): yes/no/no,Πυθώ
+ἐπιδαπαντικός,epidapantikos,tlg0059,tlg007,perseus-grc1,224b,224b,2448,ἐπιδεικτικὴ,quoted,ἐπιδεικτική,grc.lsj.perseus-eng5.xml,e)pidapantiko/s,located,read in the grind (sheet3): no/no/-,ἐπιδεικτικός
+μεθημερινός,meqhmerinos,tlg0059,tlg007,perseus-grc1,220d,220c,1359,μέρος,quoted,μέρος,grc.lsj.perseus-eng13.xml,meqhmerino/s,located,read in the grind (allmiss): no/no/-,μέρος
+φωνέω,fwnew,tlg0059,tlg007,perseus-grc1,262c,262d,14788,φωνῆς,morpheus,τὰ φωνηθέντα,grc.lsj.perseus-eng24.xml,fwne/w,located,read in the grind (allmiss): no/no/-,φωνή
+εὐφεροσύνη,euferosunh,tlg0059,tlg005,perseus-grc1,419d,419d,11478,εὐφροσύνη,quoted,εὐφροσύνη,grc.lsj.perseus-eng5.xml,eu)ferosu/nh,located,0.1.2: both readers answered no,
+ἵημι,ihmi,tlg0059,tlg005,perseus-grc1,420a,420a,11608,οὗ,morpheus,ἱέμενος ῥεῖ,grc.lsj.perseus-eng10.xml,i(/hmi,located,read in the grind (allmiss): no/no/-,ὅς
+κιείνησις,kieinhsis,tlg0059,tlg005,perseus-grc1,426d,426c,13753,κίνησις,quoted,κίνησις,grc.lsj.perseus-eng11.xml,kiei/nhsis,located,read in the grind (conflict): no/no/-,κίνησις
+κίω,kiw,tlg0059,tlg005,perseus-grc1,426c,426c,13753,κίνησις,quoted,κίνησις,grc.lsj.perseus-eng11.xml,ki/w,located,read in the grind (conflict): no/no/-,κίνησις
+οἰόνους,oionous,tlg0059,tlg005,perseus-grc1,406c,406c,7287,οἶνος,quoted,"οἶνος,",grc.lsj.perseus-eng16.xml,oi)o/nous,located,read in the grind (allmiss): no/no/-,οἶνος
+πρότερος,proteros,tlg0059,tlg005,perseus-grc1,421d,421d,12139,πρῶτα,morpheus,τὰ π. τῶν ὀνομάτων,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+σκληρότηρ,sklhrothr,tlg0059,tlg005,perseus-grc1,434c,434c,16548,σκληρότης,quoted,σκληρότης,grc.lsj.perseus-eng21.xml,sklhro/thr,located,0.1.2: both readers answered no,
+εἰσβλέπω,eisblepw,tlg0032,tlg014,perseus-grc1,10:12,10:12,6920,εἰς,quoted,"εἰς,",grc.lsj.perseus-eng5.xml,ei)sble/pw,located,read in the grind (allmiss): no/no/-,εἰς
+δημαρχέω,dhmarxew,tlg0551,tlg017,perseus-grc1,1:2,1:2:14,2527,δήμαρχος,quoted,δήμαρχος,grc.lsj.perseus-eng4.xml,dhmarxe/w,located,0.1.2: both readers answered no,
+χαλέπτω,xaleptw,tlg0551,tlg017,perseus-grc1,3:7,3:7:44,59640,χαλεπῆναι,morpheus,χαλεψάμενός τινί τινος,grc.lsj.perseus-eng25.xml,xale/ptw,located,read in the grind (allmiss): no/no/-,χαλεπαίνω
+βιόω,biow,tlg0026,tlg003,perseus-grc1,174,173,12414,βίον,morpheus,,grc.lsj.perseus-eng2.xml,bio/w,located,read in the grind (allmiss): no/no/-,βίος
+ἀφαντόω,afantow,tlg0653,tlg001,perseus-grc1,899,900,6125,ἄφαντος,quoted,"ἄφαντος,",grc.lsj.perseus-eng1.xml,a)fanto/w,located,0.1.2: both readers answered no,
+καταχθής,kataxqhs,tlg0653,tlg001,perseus-grc1,1044,1044,7050,καρποῖο,quoted,καρποῖο,grc.lsj.perseus-eng11.xml,kataxqh/s,located,read in the grind (sheet3): no/no/-,καρπός
+οἴοθεν,oioqen,tlg0653,tlg001,perseus-grc1,55,55,384,οἶος,quoted,"οἶος,",grc.lsj.perseus-eng16.xml,oi)/oqen,located,read in the grind (allmiss): no/no/-,οἶος
+ὀχεά,oxea,tlg0653,tlg001,perseus-grc1,956,956,6490,ὀχῆς,quoted,ὀχῆς,grc.lsj.perseus-eng16.xml,o)xea/,located,read in the grind (split): unsure/yes/no,ὀχή
+τηλοτάτω,thlotatw,tlg0653,tlg001,perseus-grc1,1050,1050,7088,τηλοτέρω,morpheus,,grc.lsj.perseus-eng22.xml,thlota/tw,located,read in the grind (allmiss): no/no/-,τηλοῦ
+προδίωξις,prodiwcis,tlg0020,tlg003,perseus-grc1,154,154,1032,Προΐωξίς,quoted,"προΐωξις,",grc.lsj.perseus-eng17.xml,prodi/wcis,located,read in the grind (split): no/yes/no,προΐωξις
+τυφώνιος,tufwnios,tlg0020,tlg003,perseus-grc1,32,32,218,Τυφαόνιον,quoted,τυ^φα—όνιον,grc.lsj.perseus-eng22.xml,*tufw/nios,located,read in the grind (split): no/no/-,Τυφαόνιον
+ἐκκλησιαστής,ekklhsiasths,tlg0059,tlg002,perseus-grc1,25a,25a,2711,ἐκκλησίᾳ,quoted,"ἐκκλησία,",grc.lsj.perseus-eng5.xml,e)kklhsiasth/s,located,0.1.2: both readers answered no,
+ποιμαίνω,poimainw,tlg0006,tlg001,perseus-grc1,26,26,144,ποίμνας,quoted,ποίμνας,grc.lsj.perseus-eng17.xml,poimai/nw,located,read in the grind (allmiss): no/no/-,ποίμνη
+πρότερος,proteros,tlg0031,tlg005,perseus-grc1,28:7,28:7,17928,πρώτῳ,morpheus,ὁ π. τῆς νήσου,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+τέρτα,terta,tlg0031,tlg005,perseus-grc1,24:1,24:2,15491,Τέρτυλλος,quoted,τέρτυλλος,grc.lsj.perseus-eng22.xml,te/rta,located,0.1.2: both readers answered no,
+ὀδυνάω,odunaw,tlg0719,tlg002,perseus-grc1,2:4,2:4,10995,ὀδύνη,morpheus,,grc.lsj.perseus-eng16.xml,o)duna/w,located,read in the grind (allmiss): no/no/-,ὀδύνη
+ἀκριβόω,akribow,tlg0031,tlg001,perseus-grc1,2:7,2:8,560,ἀκριβῶς,morpheus,τὸν χρόνον,grc.lsj.perseus-eng1.xml,a)kribo/w,located,read in the grind (allmiss): no/no/-,ἀκριβής
+φυλακεύς,fulakeus,tlg0031,tlg001,perseus-grc1,14:3,14:3,8081,φυλακῇ,morpheus,,grc.lsj.perseus-eng24.xml,fulakeu/s,located,read in the grind (sample_dm): no/no/-,φυλακή
+εἰσβλέπω,eisblepw,tlg0032,tlg004,perseus-grc1,4:3,4:2,2882,εἰς,quoted,"εἰς,",grc.lsj.perseus-eng5.xml,ei)sble/pw,located,read in the grind (allmiss): no/no/-,εἰς
+ἡδυγνώμων,hdugnwmwn,tlg0032,tlg004,perseus-grc1,8:30,8:30,8586,ἡδυσώματος,quoted,ἡδυσώματος,grc.lsj.perseus-eng8.xml,h(dugnw/mwn,located,0.1.2: both readers answered no,
+ἡδυσώματος,hduswmatos,tlg0032,tlg004,perseus-grc1,8:30,8:30,8591,ἡδυγνώμων,quoted,ἡδυγνώμων,grc.lsj.perseus-eng8.xml,h(dusw/matos,located,read in the grind (sheet3): no/no/-,ἡδυγνώμων
+χρῖσμα,xrisma,tlg0032,tlg004,perseus-grc1,2:4,2:4,985,χρῖμα,quoted,χρῖμα,grc.lsj.perseus-eng25.xml,xri=sma,located,read in the grind (sheet3): no/yes/no,χρῖμα
+γέννησις,gennhsis,tlg0031,tlg003,perseus-grc1,1:14,1:13,182,γεννήσει,morpheus,,grc.lsj.perseus-eng3.xml,ge/nnhsis,located,read in the grind (allmiss): no/no/-,γεννάω
+κερατία,keratia,tlg0031,tlg003,perseus-grc1,15:16,15:16,12512,κερατίων,morpheus,,grc.lsj.perseus-eng11.xml,kerati/a,located,read in the grind (allmiss): no/yes/no,κεράτιον
+ἐκπαλέω,ekpalew,tlg0627,tlg009,perseus-grc1,42,42,10288,ἐκπαλήσει,morpheus,,grc.lsj.perseus-eng5.xml,e)kpale/w,located,read in the grind (allmiss): no/no/-,ἐκπάλησις
+κηρόω,khrow,tlg0058,tlg001,perseus-grc1,22:25,22:25,7447,κηροῦ,morpheus,κεκηρῶσθαι τὰ ἔσωθεν [τῆς κλεψύδρας,grc.lsj.perseus-eng11.xml,khro/w,located,read in the grind (allmiss): no/no/-,κηρός
+στελεά,stelea,tlg0058,tlg001,perseus-grc1,18:10,18:10,5713,στυρακίου,quoted,στυρακίου,grc.lsj.perseus-eng21.xml,stelea/,located,read in the grind (sheet3): no/no/-,στυράκιον
+περαίνω,perainw,tlg0013,tlg004,perseus-grc1,48,48,308,πειρήνας,quoted,πειρήνας,grc.lsj.perseus-eng17.xml,perai/nw,located,read in the grind (ctxmiss): no/yes/no,πειραίνω
+ἀσθένεια,asqeneia,tlg0627,tlg001,perseus-grc1,12,12,2206,ἀσθενέων,quoted,ἀσθενέων,grc.lsj.perseus-eng1.xml,a)sqe/neia,located,read in the grind (sheet3): no/no/-,ἀσθενέω
+καλλίρροος,kallirroos,tlg0013,tlg002,perseus-grc1,419,419,2777,Καλλιρόη,quoted,καλλιρόη,grc.lsj.perseus-eng11.xml,kalli/rroos,located,0.1.2: both readers answered no,
+πρότερος,proteros,tlg0010,tlg021,perseus-grc1,180,180,10561,πρώτης,morpheus,τάξεως,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): yes/no/no,πρῶτος
+ἀνθέω,anqew,tlg0013,tlg003,perseus-grc1,139,139,972,ἄνθεσιν,quoted,ἄνθεσιν,grc.lsj.perseus-eng1.xml,a)nqe/w,located,read in the grind (allmiss): no/no/-,ἄνθος
+σάμος,samos,tlg0013,tlg003,perseus-grc1,429,429,2953,Σάμη,quoted,σάμη,grc.lsj.perseus-eng21.xml,*sa/mos,located,read in the grind (split): no/no/-,Σάμη
+στρατηγέω,strathgew,tlg0648,tlg001,perseus-grc1,13:3,13:2,5480,στρατηγοῦ,morpheus,τῷ σχήματι τοῦ προσώπου στρατηγεῖν τὴν τοῦ πλήθους εὐθυμίαν,grc.lsj.perseus-eng21.xml,strathge/w,located,read in the grind (allmiss): no/no/-,στρατηγός
+ἵημι,ihmi,tlg0032,tlg009,perseus-grc1,1:25,1:26,1200,ᾗ,morpheus,στοίχων,grc.lsj.perseus-eng10.xml,i(/hmi,located,read in the grind (allmiss): no/no/-,ὅς
+κομάω,komaw,tlg0031,tlg007,perseus-grc1,11:14,11:15,4074,κόμη,morpheus,"ἀνὴρ μὲν ἐὰν κομᾷ, ἀτιμία αὐτῷ ἐστι· γυνὴ δὲ ἐὰν κομᾷ, δόξα αὐτῇ ἐστιν",grc.lsj.perseus-eng11.xml,koma/w,located,read in the grind (allmiss): no/no/-,κόμη
+εἰσφέρω,eisferw,tlg0028,tlg002,perseus-grc1,2:12,2:12,1178,εἰσφορὰς,quoted,εἰσφοράς,grc.lsj.perseus-eng5.xml,ei)sfe/rw,located,0.1.2: both readers answered no,
+βιόω,biow,tlg0010,tlg019,perseus-grc1,7,6,348,βίον,morpheus,τὰ σοὶ κἀμοὶ βεβιωμένα,grc.lsj.perseus-eng2.xml,bio/w,located,read in the grind (allmiss): no/no/-,βίος
+αἰσχύνω,aisxunw,tlg0014,tlg004,perseus-grc1,42,42,2665,αἰσχύνην,morpheus,,grc.lsj.perseus-eng1.xml,ai)sxu/nw,located,read in the grind (allmiss): no/no/-,αἰσχύνη
+ἱκανόω,ikanow,tlg0031,tlg008,perseus-grc1,3:6,3:5,848,ἱκανοί,morpheus,,grc.lsj.perseus-eng10.xml,i(kano/w,located,read in the grind (allmiss): no/no/-,ἱκανός
+κατατραγῳδέω,katatragwdew,tlg0532,tlg001,perseus-grc1,6:4,6:4:4,28781,κάλλος,quoted,κάλλος,grc.lsj.perseus-eng11.xml,katatragw|de/w,located,read in the grind (allmiss): no/no/-,κάλλος
+κενογάμιον,kenogamion,tlg0532,tlg001,perseus-grc1,5:14,5:14:4,24606,Κενοτάφιον,quoted,κενοτάφιον,grc.lsj.perseus-eng11.xml,kenoga/mion,located,read in the grind (sheet3): no/no/-,κενοτάφιον
+πρότερος,proteros,tlg0031,tlg004,perseus-grc1,1:15,1:15,206,πρῶτός,morpheus,πρῶτός μου ἦν,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+πρότερος,proteros,tlg0031,tlg004,perseus-grc1,15:18,15:18,11575,πρῶτον,morpheus,πρῶτος,grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+ἀποδέχομαι,apodexomai,tlg0028,tlg003,perseus-grc1,2:2,2:2,227,ἀπολογίαν,quoted,ἀπολογίαν,grc.lsj.perseus-eng1.xml,a)pode/xomai,located,read in the grind (allmiss): no/no/-,ἀπολογία
+θεάομαι,qeaomai,tlg0028,tlg003,perseus-grc1,3:7,3:8,1258,θεοῦ,morpheus,οἱ θεώμενοι,grc.lsj.perseus-eng9.xml,qea/omai,located,read in the grind (allmiss): no/no/-,θεός
+ὁμογάλακτες,omogalaktes,tlg0561,tlg001,perseus-grc1,4:9,4:9:3,15789,ὁμογάλακτος,quoted,ὁμογάλακτος,grc.lsj.perseus-eng16.xml,o(moga/laktes,located,read in the grind (split): unsure/yes/no,ὁμογάλακτος
+σκιρός,skiros,tlg0561,tlg001,perseus-grc1,2:14,2:14:4,6728,σκληροὶ,quoted,σκληροὶ,grc.lsj.perseus-eng21.xml,skiro/s1,located,0.1.2: both readers answered no,
+θεομισής,qeomishs,tlg0059,tlg001,perseus-grc1,7a,7a,1808,θεοφιλὴς,quoted,θεοφιλής,grc.lsj.perseus-eng9.xml,qeomish/s,located,0.1.2: both readers answered no,
+βλάπτω,blaptw,tlg0010,tlg007,perseus-grc1,25,24,1292,βλάβης,morpheus,βλα^βήσομαι,grc.lsj.perseus-eng2.xml,bla/ptw,located,read in the grind (allmiss): no/no/-,βλάβη
+περίλυπος,perilupos,tlg0010,tlg007,perseus-grc1,42,42,2296,περιχαρὴς,quoted,περιχαρής,grc.lsj.perseus-eng17.xml,peri/lupos,located,0.1.2: both readers answered no,
+φιλαίτιος,filaitios,tlg0010,tlg007,perseus-grc1,31,31,1737,φιλεπιτιμητής,quoted,φιλεπιτιμητής,grc.lsj.perseus-eng24.xml,filai/tios,located,read in the grind (sheet3): no/no/-,φιλεπιτιμητής
+βιόω,biow,tlg0010,tlg015,perseus-grc1,71,71,3971,βίον,morpheus,ὀβίων,grc.lsj.perseus-eng2.xml,bio/w,located,read in the grind (allmiss): no/no/-,βίος
+στρατηγέω,strathgew,tlg0540,tlg013,perseus-grc1,62,62,2957,στρατηγοῖς,morpheus,,grc.lsj.perseus-eng21.xml,strathge/w,located,read in the grind (allmiss): no/no/-,στρατηγός
+χέω,xew,tlg0028,tlg001,perseus-grc1,19,20,1121,ἔχει,morpheus,"ἐν-έχει, ἐν-έχεις, ἐξ-έχει,",grc.lsj.perseus-eng25.xml,xe/w,located,read in the grind (allmiss): no/no/-,ἔχω
+κοινόω,koinow,tlg0032,tlg011,perseus-grc1,4:32,4:33,2440,κοινοῦ,morpheus,τὴν τύχην,grc.lsj.perseus-eng11.xml,koino/w,located,read in the grind (allmiss): no/no/-,κοινός
+γελάω,gelaw,tlg0014,tlg002,perseus-grc1,19,19,1209,γελοίων,morpheus,εἵνεκα τοῦ γελασθῆι αι,grc.lsj.perseus-eng3.xml,gela/w,located,read in the grind (allmiss): no/no/-,γέλοιος
+πριόω,priow,tlg0627,tlg007,perseus-grc1,20,21,4754,πρίων,morpheus,πεπριωμένος,grc.lsj.perseus-eng17.xml,prio/w,located,read in the grind (allmiss): no/no/-,πρίων
+πύθων,puqwn,tlg0548,tlg001,perseus-grc1,1:4:1,1:4:1,1148,Πυθὼ,quoted,πυθώ,grc.lsj.perseus-eng17.xml,*pu/qwn1,located,read in the grind (allmiss): no/no/-,Πυθώ
+ἀέλλοπος,aellopos,tlg0013,tlg005,perseus-grc1,217,217,1515,ἀελλοπόδεσσιν,quoted,ἀελλοπόδεσσιν,grc.lsj.perseus-eng1.xml,a)e/llopos,located,read in the grind (ctxmiss): no/no/-,ἀελλόπους
+βιόω,biow,tlg0014,tlg022,perseus-grc1,78,78,5625,βίον,morpheus,ἐπιτηδευμάτων οἷα τούτῳ βεβίωται,grc.lsj.perseus-eng2.xml,bio/w,located,read in the grind (allmiss): no/no/-,βίος
+διατετραίνω,diatetrainw,tlg0551,tlg009,perseus-grc1,122,18:122,22257,διετίτρη,quoted,διετίτρη,grc.lsj.perseus-eng4.xml,diatetrai/nw,located,read in the grind (allmiss): yes/no/no,διατιτράω
+πανταχοῖ,pantaxoi,tlg0014,tlg008,perseus-grc1,76,76,4170,πανταχοῦ,quoted,πανταχοῦ,grc.lsj.perseus-eng17.xml,pantaxoi=,located,read in the grind (allmiss): no/no/-,πανταχοῦ
+διπλόω,diplow,tlg0031,tlg027,perseus-grc1,18:6,18:6,7369,διπλοῦν,morpheus,δ. διπλᾶ κατὰ τὰ ἔργα αὐτῆς,grc.lsj.perseus-eng4.xml,diplo/w,located,read in the grind (allmiss): no/no/-,διπλόος
+συλάω,sulaw,tlg0014,tlg035,perseus-grc1,26,26,1545,συλῶν,morpheus,σεσυλήμεθα τὰ ἡμέτερα ὑπὸ τούτων,grc.lsj.perseus-eng21.xml,sula/w,located,read in the grind (conflict): no/yes/no,σύλη
+ταπεινόω,tapeinow,tlg0031,tlg021,perseus-grc1,5:6,5:5,1539,ταπεινοῖς,morpheus,,grc.lsj.perseus-eng22.xml,tapeino/w,located,read in the grind (allmiss): no/no/-,ταπεινός
+καθαιρέω,kaqairew,tlg0627,tlg028,perseus-grc1,14,14,1864,καθαίρει,morpheus,καθαίρει,grc.lsj.perseus-eng11.xml,kaqaire/w,located,read in the grind (allmiss): no/no/-,καθαίρω
+διατετραίνω,diatetrainw,tlg0551,tlg007,perseus-grc1,77,13:77,11901,διετίτρων,quoted,διετίτρων,grc.lsj.perseus-eng4.xml,diatetrai/nw,located,read in the grind (allmiss): yes/no/no,διατιτράω
+ὀψία,oyia,tlg0014,tlg057,perseus-grc1,9,9,586,ὀψίας,morpheus,δείλης ὀ.,grc.lsj.perseus-eng16.xml,o)yi/a,located,read in the grind (ctxmiss): no/yes/no,ὄψιος
+τελέω,telew,tlg0014,tlg057,perseus-grc1,34,34,2119,τέλη,morpheus,ξενικά,grc.lsj.perseus-eng22.xml,tele/w,located,read in the grind (allmiss): no/no/-,τέλος
+πεντηκονταρχέω,penthkontarxew,tlg0014,tlg050,perseus-grc1,25,24,1726,πεντηκόνταρχος,quoted,πεντηκόνταρχος,grc.lsj.perseus-eng17.xml,penthkontarxe/w,located,0.1.2: both readers answered no,
+χρήστης,xrhsths,tlg0014,tlg036,perseus-grc1,6,6,339,χρημάτων,quoted,χρημάτων,grc.lsj.perseus-eng25.xml,xrh/sths,located,read in the grind (allmiss): no/no/-,χρῆμα
+καθά,kaqa,tlg0014,tlg037,perseus-grc1,16,16,1029,καθάπερ,morpheus,,grc.lsj.perseus-eng11.xml,kaqa/,located,read in the grind (sample_dm2): no/no/-,καθάπερ
+ἐξαγωγεύς,ecagwgeus,tlg0017,tlg003,perseus-grc1,22,22,1162,ἐξαγωγῆς,morpheus,,grc.lsj.perseus-eng5.xml,e)cagwgeu/s,located,read in the grind (ctxmiss): no/no/-,ἐξαγωγή
+ἐξαγωγεύς,ecagwgeus,tlg0014,tlg044,perseus-grc1,34,34,2102,ἐξαγωγῆς,morpheus,,grc.lsj.perseus-eng5.xml,e)cagwgeu/s,located,read in the grind (ctxmiss): no/no/-,ἐξαγωγή
+πρότερος,proteros,tlg0014,tlg044,perseus-grc1,57,57,3536,πρῶτον,morpheus,"π. μὲν . . , ἔτι τοίνυν . .",grc.lsj.perseus-eng17.xml,pro/teros,located,read in the grind (allmiss): no/no/-,πρῶτος
+δαπανάω,dapanaw,tlg0017,tlg007,perseus-grc1,38,39,2429,δαπάνας,morpheus,δ. ἐκ τῶν αὑτοῦ,grc.lsj.perseus-eng4.xml,dapana/w,located,read in the grind (allmiss): no/no/-,δαπάνη
+ἄγω,agw,tlg0010,tlg006,perseus-grc1,10,9,416,ἀξίων,morpheus,"θυσίαν, θεωρίαν",grc.lsj.perseus-eng1.xml,a)/gw,located,read in the grind (allmiss): no/no/-,ἄξιος
+πενθέω,penqew,tlg0014,tlg060,perseus-grc1,33,32,2263,πένθει,morpheus,,grc.lsj.perseus-eng17.xml,penqe/w,located,read in the grind (allmiss): no/no/-,πένθος
+δαπανάω,dapanaw,tlg0540,tlg021,perseus-grc1,3,3,102,δαπάνας,morpheus,τοσαύτας δαπάνας δαπανώμενος,grc.lsj.perseus-eng4.xml,dapana/w,located,read in the grind (allmiss): no/no/-,δαπάνη
+πλέω,plew,tlg0540,tlg021,perseus-grc1,6,5,200,πλέον,morpheus,ἡ ναῦς ἄριστά μοι ἔπλει,grc.lsj.perseus-eng17.xml,ple/w,located,read in the grind (allmiss): no/no/-,πολύς
+διαδύνω,diadunw,tlg0014,tlg042,perseus-grc1,23,23,1536,διαδύεσθαι,morpheus,,grc.lsj.perseus-eng4.xml,diadu/nw,located,read in the grind (ctxmiss): yes/no/no,διαδύω
+στρατηγέω,strathgew,tlg0014,tlg013,perseus-grc1,21,21,1374,στρατηγοῖς,morpheus,"ναυμαχίαν, πόλεμον",grc.lsj.perseus-eng21.xml,strathge/w,located,read in the grind (allmiss): no/no/-,στρατηγός
+πεντάπλοκος,pentaplokos,tlg0627,tlg030,perseus-grc1,4,4,350,πεντάπλουν,quoted,πεντάπλουν,grc.lsj.perseus-eng17.xml,penta/plokos,located,0.1.2: both readers answered no,

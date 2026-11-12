@@ -44,21 +44,21 @@
    ]
   },
   "lsjgold.version": {
-   "value": "0.1.2",
+   "value": "1.0",
    "kind": "text",
    "label": "LSJ-Gold version",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": []
   },
   "lsjgold.loci": {
-   "value": 70198,
+   "value": 70033,
    "kind": "int",
    "label": "LSJ-Gold loci",
    "source": "docs/lsj-gold/leaderboard.json",
    "noun": "loci",
    "display": [
-    "70,198",
-    "70198 loci"
+    "70,033",
+    "70033 loci"
    ]
   },
   "lsjgold.authors": {
@@ -72,104 +72,104 @@
    ]
   },
   "lsjgold.neural_loci": {
-   "value": 67639,
+   "value": 67479,
    "kind": "int",
    "label": "loci scored for every neural system",
    "source": "docs/lsj-gold/leaderboard.json",
    "noun": "loci",
    "display": [
-    "67,639",
-    "67639 loci"
+    "67,479",
+    "67479 loci"
    ]
   },
   "lsjgold.score.stoicheia": {
-   "value": 92.8,
+   "value": 93.1,
    "kind": "pct",
    "label": "LSJ-Gold Stoicheia tagger-parser (2026)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "92.8%"
+    "93.1%"
    ]
   },
   "lsjgold.once.stoicheia": {
-   "value": 78.4,
+   "value": 79.0,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Stoicheia tagger-parser (2026)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "78.4%"
+    "79.0%"
    ]
   },
   "lsjgold.score.dilemma": {
-   "value": 92.8,
+   "value": 93.0,
    "kind": "pct",
    "label": "LSJ-Gold Dilemma 1.3.15 (Open Greek, lsj convention)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "92.8%"
+    "93.0%"
    ]
   },
   "lsjgold.once.dilemma": {
-   "value": 92.3,
+   "value": 92.9,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Dilemma 1.3.15 (Open Greek, lsj convention)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "92.3%"
+    "92.9%"
    ]
   },
   "lsjgold.score.stanza_perseus": {
-   "value": 84.8,
+   "value": 85.1,
    "kind": "pct",
    "label": "LSJ-Gold Stanza 1.14 grc-perseus",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "84.8%"
+    "85.1%"
    ]
   },
   "lsjgold.once.stanza_perseus": {
-   "value": 60.0,
+   "value": 60.4,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Stanza 1.14 grc-perseus",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "60.0%"
+    "60.4%"
    ]
   },
   "lsjgold.score.odycy": {
-   "value": 82.5,
+   "value": 82.8,
    "kind": "pct",
    "label": "LSJ-Gold odyCy 0.7.0 (grc_odycy_joint_trf)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "82.5%"
+    "82.8%"
    ]
   },
   "lsjgold.once.odycy": {
-   "value": 59.7,
+   "value": 60.2,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, odyCy 0.7.0 (grc_odycy_joint_trf)",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "59.7%"
+    "60.2%"
    ]
   },
   "lsjgold.score.stanza_proiel": {
-   "value": 79.6,
+   "value": 79.9,
    "kind": "pct",
    "label": "LSJ-Gold Stanza 1.14 grc-proiel",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "79.6%"
+    "79.9%"
    ]
   },
   "lsjgold.once.stanza_proiel": {
-   "value": 60.0,
+   "value": 60.5,
    "kind": "pct",
    "label": "LSJ-Gold once-cited headwords, Stanza 1.14 grc-proiel",
    "source": "docs/lsj-gold/leaderboard.json",
    "display": [
-    "60.0%"
+    "60.5%"
    ]
   },
   "lsgold.loci": {
@@ -481,6 +481,14 @@
      "71,974",
      "71974 loci"
     ]
+   },
+   {
+    "value": 70198,
+    "until": "2026-11-11",
+    "display": [
+     "70,198",
+     "70198 loci"
+    ]
    }
   ],
   "lsjgold.neural_loci": [
@@ -500,6 +508,14 @@
      "69,339",
      "69339 loci"
     ]
+   },
+   {
+    "value": 67639,
+    "until": "2026-11-11",
+    "display": [
+     "67,639",
+     "67639 loci"
+    ]
    }
   ],
   "lsjgold.score.dilemma": [
@@ -516,6 +532,13 @@
     "until": "2026-11-11",
     "display": [
      "92.3%"
+    ]
+   },
+   {
+    "value": 92.8,
+    "until": "2026-11-11",
+    "display": [
+     "92.8%"
     ]
    }
   ],
@@ -534,6 +557,13 @@
     "display": [
      "92.3%"
     ]
+   },
+   {
+    "value": 92.8,
+    "until": "2026-11-11",
+    "display": [
+     "92.8%"
+    ]
    }
   ],
   "lsjgold.score.stanza_perseus": [
@@ -550,6 +580,13 @@
     "until": "2026-11-11",
     "display": [
      "84.3%"
+    ]
+   },
+   {
+    "value": 84.8,
+    "until": "2026-11-11",
+    "display": [
+     "84.8%"
     ]
    }
   ],
@@ -568,6 +605,13 @@
     "display": [
      "82.0%"
     ]
+   },
+   {
+    "value": 82.5,
+    "until": "2026-11-11",
+    "display": [
+     "82.5%"
+    ]
    }
   ],
   "lsjgold.score.stanza_proiel": [
@@ -584,6 +628,13 @@
     "until": "2026-11-11",
     "display": [
      "79.1%"
+    ]
+   },
+   {
+    "value": 79.6,
+    "until": "2026-11-11",
+    "display": [
+     "79.6%"
     ]
    }
   ],
@@ -602,6 +653,13 @@
     "display": [
      "89.0%"
     ]
+   },
+   {
+    "value": 92.3,
+    "until": "2026-11-11",
+    "display": [
+     "92.3%"
+    ]
    }
   ],
   "lsjgold.once.stoicheia": [
@@ -618,6 +676,13 @@
     "until": "2026-11-11",
     "display": [
      "75.9%"
+    ]
+   },
+   {
+    "value": 78.4,
+    "until": "2026-11-11",
+    "display": [
+     "78.4%"
     ]
    }
   ],
@@ -653,6 +718,11 @@
     "value": "0.1.1",
     "until": "2026-11-11",
     "display": []
+   },
+   {
+    "value": "0.1.2",
+    "until": "2026-11-11",
+    "display": []
    }
   ],
   "lsjgold.once.stanza_perseus": [
@@ -661,6 +731,13 @@
     "until": "2026-11-11",
     "display": [
      "58.0%"
+    ]
+   },
+   {
+    "value": 60.0,
+    "until": "2026-11-11",
+    "display": [
+     "60.0%"
     ]
    }
   ],
@@ -671,6 +748,13 @@
     "display": [
      "57.8%"
     ]
+   },
+   {
+    "value": 59.7,
+    "until": "2026-11-11",
+    "display": [
+     "59.7%"
+    ]
    }
   ],
   "lsjgold.once.stanza_proiel": [
@@ -679,6 +763,13 @@
     "until": "2026-11-11",
     "display": [
      "58.1%"
+    ]
+   },
+   {
+    "value": 60.0,
+    "until": "2026-11-11",
+    "display": [
+     "60.0%"
     ]
    }
   ]

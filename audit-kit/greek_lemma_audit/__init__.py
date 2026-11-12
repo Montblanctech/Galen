@@ -5,5 +5,5 @@ author-stratified, and emits a bounded accuracy range, a disagreement worklist
 and a blind reviewer sheet as a citable JSON. Report-only: never patches input.
 """
 
-__version__ = "0.3.2"
+__version__ = "0.4.0"
 KIT_NAME = "greek-lemma-audit"

@@ -24,3 +24,6 @@ galen-density-map/data/qc/lsjgold/README.md	96,462 loci over 54 authors	## v0.3 
 galen-density-map/outputs/firstdrafts/comp-per-genera/reference/README_upstream.md	two works of Galen	Code and data for evaluating LLM translations	upstream project's own README (Zainaldin et al.), not our count
 galen-density-map/pipeline/lsjgold/erratum_0_1_1.py	93,926	data/qc/lsjgold/lsj_gold_v0.csv (0.1, 93,926 loci)	the erratum script names its 0.1 input
 audit-kit/README.md	71,974	0.3.1 (2026-11-10): packaged gold is LSJ-Gold 0.1.1 (71,974 loci	version history of the kit
+audit-kit/README.md	70,198	0.3.2 (2026-11-11): packaged gold is LSJ-Gold 0.1.2 (70,198 loci	version history of the kit
+galen-density-map/pipeline/lsjgold/leaderboard.py	70,198	set aside. 70,198 loci remain	0.1.2 corrections note, shown only for that version
+galen-density-map/data/qc/lsgold/v01_quote_anchor_spec.md	59.7%	59.7% of these citations carry a	a share of Latin citations, not an LSJ-Gold score

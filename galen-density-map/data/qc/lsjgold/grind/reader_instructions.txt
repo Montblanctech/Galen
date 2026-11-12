@@ -1,0 +1,22 @@
+LSJ-GOLD READING SHEET
+
+Each row shows a headword from the Liddell-Scott-Jones lexicon (LSJ) and a Greek token in [brackets] inside its context
+(the edition's text as a token stream, punctuation removed). Decide whether the bracketed token is a form of that
+headword, as LSJ files words.
+
+Answer is_instance:
+  yes     the token is a form of the headword: any inflection, dialect form, accent or breathing variant, elided or
+          crasis form. Count as yes what LSJ files under the headword:
+            - headwords are compared without accents or breathings: τις covers both τις and τίς, ὁ covers ὅ, etc.
+            - an adverb under its adjective (σαφῶς under σαφής), a comparative or superlative under its positive,
+              a participle under its verb;
+            - a form with an enclitic particle under the simple word (ὅπουπερ under ὅπου, ἔγωγε under ἐγώ).
+  no      the token is a different word: a compound or a simple form of it, a derivative (a noun under its verb, a
+          verb under its noun), a proper name under a common noun or the reverse, or an unrelated word.
+  unsure  the context does not let you decide.
+If no, give the headword the token really belongs to.
+
+Use only this sheet and your own knowledge of Greek: no lemmatizer, no dictionary file, no web search, no other file.
+Answer every row. Some rows are controls placed at unmarked positions.
+
+Write your answers as CSV with exactly these columns: row_id,is_instance,right_headword_if_no,note
