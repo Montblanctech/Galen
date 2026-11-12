@@ -173,14 +173,14 @@
    ]
   },
   "lsgold.loci": {
-   "value": 161032,
+   "value": 157855,
    "kind": "int",
    "label": "LS-Gold loci",
    "source": "docs/ls-gold/leaderboard.json",
    "noun": "loci",
    "display": [
-    "161,032",
-    "161032 loci"
+    "157,855",
+    "157855 loci"
    ]
   },
   "lsgold.authors": {
@@ -194,92 +194,92 @@
    ]
   },
   "lsgold.quoted": {
-   "value": 480,
+   "value": 439,
    "kind": "int",
    "label": "LS-Gold loci by quoted form",
-   "source": "docs/ls-gold/leaderboard.json",
+   "source": "data/qc/lsgold/ls_gold_v1_0.csv",
    "display": []
   },
   "lsgold.headwords": {
-   "value": 20830,
+   "value": 20782,
    "kind": "int",
    "label": "LS-Gold headwords",
-   "source": "data/qc/lsgold/ls_gold_v0.csv",
+   "source": "data/qc/lsgold/ls_gold_v1_0.csv",
    "noun": "headwords",
    "display": [
-    "20,830"
+    "20,782"
    ]
   },
   "lsgold.score.latincy_lg": {
-   "value": 84.9,
+   "value": 85.3,
    "kind": "pct",
    "label": "LS-Gold LatinCy la_core_web_lg",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "84.9%"
+    "85.3%"
    ]
   },
   "lsgold.score.cltk": {
-   "value": 84.0,
+   "value": 84.4,
    "kind": "pct",
    "label": "LS-Gold CLTK 1.5 Latin backoff lemmatizer",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "84.0%"
+    "84.4%"
    ]
   },
   "lsgold.score.stanza_proiel": {
-   "value": 75.5,
+   "value": 75.9,
    "kind": "pct",
    "label": "LS-Gold Stanza 1.15 la-proiel",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "75.5%"
+    "75.9%"
    ]
   },
   "lsgold.score.stanza_perseus": {
-   "value": 65.5,
+   "value": 65.8,
    "kind": "pct",
    "label": "LS-Gold Stanza 1.15 la-perseus",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "65.5%"
+    "65.8%"
    ]
   },
   "lsgold.score.stanza_ittb": {
-   "value": 65.3,
+   "value": 65.6,
    "kind": "pct",
    "label": "LS-Gold Stanza 1.15 la-ittb",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "65.3%"
+    "65.6%"
    ]
   },
   "lsgold.score.stanza_llct": {
-   "value": 44.4,
+   "value": 44.6,
    "kind": "pct",
    "label": "LS-Gold Stanza 1.15 la-llct",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "44.4%"
+    "44.6%"
    ]
   },
   "lsgold.score.collatinus_first": {
-   "value": 82.3,
+   "value": 82.5,
    "kind": "pct",
    "label": "LS-Gold Collatinus, first analysis (baseline)",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "82.3%"
+    "82.5%"
    ]
   },
   "lsgold.score.whitaker_first": {
-   "value": 81.4,
+   "value": 81.7,
    "kind": "pct",
    "label": "LS-Gold Whitaker's Words, first analysis (baseline)",
    "source": "docs/ls-gold/leaderboard.json",
    "display": [
-    "81.4%"
+    "81.7%"
    ]
   },
   "lexicon.version": {
@@ -711,6 +711,13 @@
     "display": [
      "21,110"
     ]
+   },
+   {
+    "value": 20830,
+    "until": "2026-11-11",
+    "display": [
+     "20,830"
+    ]
    }
   ],
   "lsjgold.version": [
@@ -770,6 +777,95 @@
     "until": "2026-11-11",
     "display": [
      "60.0%"
+    ]
+   }
+  ],
+  "lsgold.loci": [
+   {
+    "value": 161032,
+    "until": "2026-11-11",
+    "display": [
+     "161,032",
+     "161032 loci"
+    ]
+   }
+  ],
+  "lsgold.quoted": [
+   {
+    "value": 480,
+    "until": "2026-11-11",
+    "display": []
+   }
+  ],
+  "lsgold.score.latincy_lg": [
+   {
+    "value": 84.9,
+    "until": "2026-11-11",
+    "display": [
+     "84.9%"
+    ]
+   }
+  ],
+  "lsgold.score.cltk": [
+   {
+    "value": 84.0,
+    "until": "2026-11-11",
+    "display": [
+     "84.0%"
+    ]
+   }
+  ],
+  "lsgold.score.stanza_proiel": [
+   {
+    "value": 75.5,
+    "until": "2026-11-11",
+    "display": [
+     "75.5%"
+    ]
+   }
+  ],
+  "lsgold.score.stanza_perseus": [
+   {
+    "value": 65.5,
+    "until": "2026-11-11",
+    "display": [
+     "65.5%"
+    ]
+   }
+  ],
+  "lsgold.score.stanza_ittb": [
+   {
+    "value": 65.3,
+    "until": "2026-11-11",
+    "display": [
+     "65.3%"
+    ]
+   }
+  ],
+  "lsgold.score.stanza_llct": [
+   {
+    "value": 44.4,
+    "until": "2026-11-11",
+    "display": [
+     "44.4%"
+    ]
+   }
+  ],
+  "lsgold.score.collatinus_first": [
+   {
+    "value": 82.3,
+    "until": "2026-11-11",
+    "display": [
+     "82.3%"
+    ]
+   }
+  ],
+  "lsgold.score.whitaker_first": [
+   {
+    "value": 81.4,
+    "until": "2026-11-11",
+    "display": [
+     "81.4%"
     ]
    }
   ]

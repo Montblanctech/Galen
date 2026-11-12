@@ -1,5 +1,7 @@
 # LS-Gold — the Latin twin of LSJ-Gold (v0, 2026-11-08)
 
+> **The current release is LS-Gold 1.0** (157,855 loci over 33 authors; `ls_gold_v1_0.csv`), the stable release: every doubtful locus read blind and decided, the rest sampled. See [`release/ls-gold-1.0/README.md`](../../../../release/ls-gold-1.0/README.md) and the reading record in [`grind/`](grind/). The text below is the v0 build log; its numbers are as of v0.
+
 Lemmatizer accuracy on the **dictionary-cited stratum of Latin**: the tokens that Lewis & Short (1879) cites for a headword, relocated into the Perseus canonical-latinLit editions and validated by two independent offline morphological analysers. Same question as LSJ-Gold (`../lsjgold/`), same protocol, same honesty rules (report, never patch; every figure traces to a row; negative results ship). Built in one day from the Greek pipeline; the feasibility study that preceded it is `../../latin_feasibility/REPORT.md`.
 
 ## Sources and licences

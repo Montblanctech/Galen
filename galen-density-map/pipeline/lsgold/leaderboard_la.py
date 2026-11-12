@@ -32,9 +32,11 @@ def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     scores = json.load((QC / "ls_gold_scores.json").open(encoding="utf-8"))
     stats = json.load((QC / "relocation_stats.json").open(encoding="utf-8"))
-    n_gold = sum(1 for _ in csv.DictReader((QC / "ls_gold_v0.csv").open(encoding="utf-8")))
+    gold_file = scores.get("gold", "ls_gold_v0.csv")   # the gold score_la.py was run on
+    n_gold = sum(1 for _ in csv.DictReader((QC / gold_file).open(encoding="utf-8")))
     names = author_names()
-    version = f"v0 ({n_gold} loci, {scores['date']})"
+    label = {"ls_gold_v0.csv": "v0", "ls_gold_v1_0.csv": "1.0"}.get(gold_file, gold_file)
+    version = f"{label} ({n_gold} loci, {scores['date']})"
     authors = [a for a in sorted(scores["loci_per_author"], key=lambda a: -scores["loci_per_author"][a]) if scores["loci_per_author"][a] >= 100]
     rows = []
     for name, b in sorted(scores["systems"].items(), key=lambda kv: (kv[1].get("baseline", False), -(kv[1]["match_blind"]["pct"] or 0))):

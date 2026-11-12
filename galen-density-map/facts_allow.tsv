@@ -27,3 +27,8 @@ audit-kit/README.md	71,974	0.3.1 (2026-11-10): packaged gold is LSJ-Gold 0.1.1 (
 audit-kit/README.md	70,198	0.3.2 (2026-11-11): packaged gold is LSJ-Gold 0.1.2 (70,198 loci	version history of the kit
 galen-density-map/pipeline/lsjgold/leaderboard.py	70,198	set aside. 70,198 loci remain	0.1.2 corrections note, shown only for that version
 galen-density-map/data/qc/lsgold/v01_quote_anchor_spec.md	59.7%	59.7% of these citations carry a	a share of Latin citations, not an LSJ-Gold score
+firstdrafts_sample_read_2026-11-11.md	161,032	480 of its 161,032 loci are validated only by a word	dated sample-read record about LS-Gold v0
+galen-density-map/data/qc/lsgold/README.md	161,032	of 253,107 L&S citations into the 162 held works	v0 build log (relocation count)
+galen-density-map/data/qc/lsgold/README.md	20,830	of 253,107 L&S citations into the 162 held works	v0 build log (relocation count)
+galen-density-map/data/qc/lsgold/README.md	161,032	every cache complete over the 173 editions, all non-baseline rows on the same 161,032	v0 build log (scores)
+galen-density-map/data/qc/lsgold/README.md	161,032	480 of the 161,032 loci are validated only by the form	v0 build log (quoted route)

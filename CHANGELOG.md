@@ -5,6 +5,11 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased]
 
+## [3.4.0] — 2026-11-11
+
+### Changed
+- **LS-Gold 1.0, the stable Latin release** (`release/ls-gold-1.0/`, `pipeline/lsgold/grind_la.py`, `release_ls_1_0.py`, record in `data/qc/lsgold/grind/`): 157,855 loci over 33 authors (v0: 161,032 rows). A locus repeated in Lewis & Short counts once (2,433 rows). Every locus with a reason for doubt was read blind by two readers (Claude Opus and Sonnet) with salted anchors and near-miss plants, a third deciding splits, under rules committed before reading: the loci every system misses (1,338: 307 wrong golds), the quoted-route loci (467: 30), the tokens gold under two headwords, and, after a pre-registered trigger fired, all 2,353 loci where only the lexicon baselines match (276 wrong, homographs the context rules out). 5,098 loci in two rounds; every gate passed. The rest was sampled: about 420 wrong golds may remain (about 0.3%). Frozen. Every system rescored: LatinCy 85.3, CLTK 84.4, Stanza la-proiel 75.9; order unchanged.
+
 ## [3.3.0] — 2026-11-11
 
 ### Changed

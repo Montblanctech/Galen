@@ -1,0 +1,70 @@
+{
+ "pools": {
+  "allmiss": {
+   "drop": 307,
+   "keep": 1031
+  },
+  "conflict": {
+   "drop": 103,
+   "keep": 37
+  },
+  "lexonly": {
+   "keep": 2077,
+   "drop": 276
+  },
+  "lexonly_s": {
+   "keep": 275,
+   "drop": 25
+  },
+  "quoted": {
+   "keep": 437,
+   "drop": 30
+  },
+  "sample_ok": {
+   "keep": 399,
+   "drop": 1
+  },
+  "sample_wh": {
+   "keep": 98,
+   "drop": 2
+  }
+ },
+ "ledger_loci": 5098,
+ "residual": {
+  "bulk (analyser-validated, some system matches)": {
+   "sampled": 400,
+   "dropped": 1,
+   "rate": 0.0025,
+   "wilson95": [
+    0.0004,
+    0.014
+   ],
+   "unread_loci": 151472,
+   "expected_wrong": [
+    67,
+    379,
+    2124
+   ]
+  },
+  "validated by Whitaker's Words only": {
+   "sampled": 100,
+   "dropped": 2,
+   "rate": 0.02,
+   "wilson95": [
+    0.0055,
+    0.07
+   ],
+   "unread_loci": 2119,
+   "expected_wrong": [
+    12,
+    42,
+    148
+   ]
+  }
+ },
+ "residual_total_expected_wrong": [
+  79,
+  421,
+  2273
+ ]
+}
