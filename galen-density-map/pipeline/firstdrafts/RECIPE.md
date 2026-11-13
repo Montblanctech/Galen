@@ -205,7 +205,7 @@ Pages: all 13 published works rebuilt into scratch with their published build da
 share tags) are set aside, and the old and new `page.py` give identical files when run side by side. The drafts index
 under `docs/` is rewritten by `landing.py`, not page.py's output, so it is not compared.
 
-**Fix found by the Latin dry run.** In the ecc0e24 front end the Latin stream index (`odycy_start`/`odycy_end`) was the
+**Fix found by the Latin dry run.** In the first version of the front end the Latin stream index (`odycy_start`/`odycy_end`) was the
 TEI word number, while `tagged.jsonl` holds only the words with Latin letters, so every numeral or Greek word shifted
 the slice that check (a) reads (book 3: ids ran to 4,058 over 4,024 stream rows; an echo back-translation scored
 content recall 0.885). It is now the stream position: all 29 slices equal their units' Latin words and the echo
