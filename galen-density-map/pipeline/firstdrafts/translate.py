@@ -31,7 +31,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from common import REPO, WORKS, out_dir, read_jsonl, sha256, write_jsonl
+from common import LANG, REPO, marker_re, out_dir, read_jsonl, sha256, work_config, write_jsonl
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "mt2026"))
 from score_consistency import norm  # noqa: E402
@@ -39,37 +39,70 @@ from score_consistency import norm  # noqa: E402
 MODELS = {"fable-5-1": "claude-fable-5-1", "opus-5-5": "claude-opus-5-5"}
 MEMORY_MAX_RENDERINGS = 3  # distinct prior renderings shown per lemma
 
-SYSTEM = (
-    "You are translating Galen from Ancient Greek into English for a scholarly first draft. "
-    "Translate the passage marked TRANSLATE completely and faithfully, in a scholarly register, keeping technical "
-    "terms technical (do not paraphrase around a term, do not modernise a medical concept into a modern diagnosis), "
-    "and keeping the order of the argument. Do not add notes, headings or commentary. Keep every bracketed page "
-    "marker such as [197] in the English at the place corresponding to the Greek. The text is Kühn's 1829 edition "
-    "and may be corrupt in places: translate what is there as best you can and name the Greek words you are "
-    "unsure of. The passages marked CONTEXT are for understanding only; do not translate them. "
-    "A TERM MEMORY block, when present, lists how earlier passages of this same work rendered some of the target "
-    "words; it is information about consistency, not an instruction: use the same rendering where the sense is the "
-    "same, and a different one where this context requires it. "
-    "Answer with one JSON object and nothing else: "
-    '{"translation": "<the English of the TRANSLATE passage>", '
-    '"renderings": [{"target_no": <int>, "surface": "<Greek word as given>", "english": "<the English word or short phrase you used for it in your translation>", "uncertain": "y|n"}], '
-    '"uncertain_greek": ["<Greek words of the passage you are unsure how to translate>"]}. '
-    "The renderings list must contain exactly one entry for every target listed, in the order given; if a target "
-    "is not rendered by any single word (for example it was absorbed into a construction), give the phrase that "
-    "carries it."
-)
+def system_prompt(author: str, lang_name: str, src: str, marker_kind: str, marker_example: str, edition: str) -> str:
+    """The translator's system prompt. One neutral wording for every language (2026-11-12): only the author, the
+    source language, the citation marker and the edition change. Galen's values give the cycle 1-4 prompt exactly
+    (tests/test_firstdrafts_backend.py pins its SHA-256)."""
+    unc = f"uncertain_{src.lower()}"   # uncertain_greek (Galen) / uncertain_latin = common.LANG[...]["uncertain_key"]
+    return (
+        f"You are translating {author} from {lang_name} into English for a scholarly first draft. "
+        "Translate the passage marked TRANSLATE completely and faithfully, in a scholarly register, keeping technical "
+        "terms technical (do not paraphrase around a term, do not modernise a medical concept into a modern diagnosis), "
+        f"and keeping the order of the argument. Do not add notes, headings or commentary. Keep every bracketed {marker_kind} "
+        f"marker such as {marker_example} in the English at the place corresponding to the {src}. The text is {edition} "
+        f"and may be corrupt in places: translate what is there as best you can and name the {src} words you are "
+        "unsure of. The passages marked CONTEXT are for understanding only; do not translate them. "
+        "A TERM MEMORY block, when present, lists how earlier passages of this same work rendered some of the target "
+        "words; it is information about consistency, not an instruction: use the same rendering where the sense is the "
+        "same, and a different one where this context requires it. "
+        "Answer with one JSON object and nothing else: "
+        '{"translation": "<the English of the TRANSLATE passage>", '
+        '"renderings": [{"target_no": <int>, "surface": "<' + src + ' word as given>", "english": "<the English word or short phrase you used for it in your translation>", "uncertain": "y|n"}], '
+        '"' + unc + '": ["<' + src + ' words of the passage you are unsure how to translate>"]}. '
+        "The renderings list must contain exactly one entry for every target listed, in the order given; if a target "
+        "is not rendered by any single word (for example it was absorbed into a construction), give the phrase that "
+        "carries it."
+    )
+
+
+SYSTEM = system_prompt("Galen", "Ancient Greek", "Greek", "page", "[197]", "Kühn's 1829 edition")   # every Galen work
+
+
+def first_marker_example(work: dict) -> str:
+    """A real marker of the work for the prompt's example: the first unit's first reference."""
+    import os
+    root = Path(os.environ["FIRSTDRAFTS_OUT"]) if os.environ.get("FIRSTDRAFTS_OUT") else REPO / "galen-density-map" / "outputs" / "firstdrafts"
+    p = root / work["slug"] / "units.jsonl"   # read only: out_dir() would create the folder
+    if p.exists():
+        with p.open(encoding="utf-8") as fh:
+            first = json.loads(fh.readline())
+        return f"[{first['pages'][0]}]"
+    return "[1.1.1]"
+
+
+def system_for(work: dict) -> str:
+    if work.get("galen", True):
+        return SYSTEM
+    L = LANG[work["lang"]]
+    return system_prompt(work["author"], L["name"], L["adj"], work.get("marker_label", "section"), first_marker_example(work), work["edition_desc"])
 
 
 def build_user(unit: dict, prev: dict | None, nxt: dict | None, targets: list[dict], work: dict) -> str:
     chap = ", ".join(unit.get("chapters") or []) or "?"
-    parts = [f"Work: Galen, {work['title_lat']} ({work['title_eng']}), Kühn vol. {work['kuhn_vol']}. Unit {unit['unit_id']}, locus {unit['locus']}, chapter(s) {chap}."]
+    galen = work.get("galen", True)   # a bare WORKS entry (no 'galen' key) is a Galen work too
+    if galen:
+        head = f"Work: Galen, {work['title_lat']} ({work['title_eng']}), Kühn vol. {work['kuhn_vol']}."
+    else:
+        head = f"Work: {work['author']}, {work['title_lat']} ({work['title_eng']}), {work['citation']}."
+    kind = "page" if galen else work.get("marker_label", "section")
+    parts = [f"{head} Unit {unit['unit_id']}, locus {unit['locus']}, chapter(s) {chap}."]
     if prev:
         parts.append(f"CONTEXT (preceding, do not translate):\n{prev['greek']}")
     parts.append(f"TRANSLATE (unit {unit['unit_id']}):\n{unit['greek']}")
     if nxt:
         parts.append(f"CONTEXT (following, do not translate):\n{nxt['greek']}")
     if targets:
-        parts.append("TARGETS (report the English you used for each; target_no is the word's position in the TRANSLATE passage, counting words from 0 and skipping the bracketed page markers):\n" + "\n".join(f"{t['target_no']}\t{t['surface']}" for t in targets))
+        parts.append(f"TARGETS (report the English you used for each; target_no is the word's position in the TRANSLATE passage, counting words from 0 and skipping the bracketed {kind} markers):\n" + "\n".join(f"{t['target_no']}\t{t['surface']}" for t in targets))
     else:
         parts.append("TARGETS: none for this unit (return an empty renderings list).")
     return "\n\n".join(parts)
@@ -100,14 +133,15 @@ def load_targets(out: Path) -> dict[str, list[dict]]:
 
 def cmd_build(slug: str) -> None:
     out = out_dir(slug)
-    work = WORKS[slug]
+    work = work_config(slug)
+    system = system_for(work)
     units = read_jsonl(out / "units.jsonl")
     tg = load_targets(out)
     reqs = []
     for i, u in enumerate(units):
         t = [{"target_no": x["target_no"], "surface": x["surface"]} for x in tg.get(u["unit_id"], [])]
         user = build_user(u, units[i - 1] if i else None, units[i + 1] if i + 1 < len(units) else None, t, work)
-        reqs.append({"unit_id": u["unit_id"], "system": SYSTEM, "user": user, "prompt_sha256": sha256(SYSTEM + "\n\n" + user), "n_targets": len(t), "targets": t})
+        reqs.append({"unit_id": u["unit_id"], "system": system, "user": user, "prompt_sha256": sha256(system + "\n\n" + user), "n_targets": len(t), "targets": t})
     write_jsonl(out / "requests.jsonl", reqs)
     (out / "requests_README.md").write_text(
         "# Translator requests (base prompts; the api subcommand adds the TERM MEMORY block at send time)\n\n"
@@ -171,6 +205,7 @@ def cmd_api(slug: str, short: str, a) -> None:
 
     out = out_dir(slug)
     model = MODELS[short]
+    system = system_for(work_config(slug))
     units = read_jsonl(out / "units.jsonl")
     reqs = {r["unit_id"]: r for r in read_jsonl(out / "requests.jsonl")}
     if set(reqs) != {u["unit_id"] for u in units}:
@@ -189,7 +224,23 @@ def cmd_api(slug: str, short: str, a) -> None:
         done = [r for r in read_jsonl(out_path) if r.get("ok")]
         mem = build_memory(uid, tg, done)
         user = with_memory(reqs[uid]["user"], mem)
-        return SYSTEM, user, {"base_prompt_sha256": reqs[uid]["prompt_sha256"], "term_memory": mem, "n_memory_terms": len(mem)}
+        return system, user, {"base_prompt_sha256": reqs[uid]["prompt_sha256"], "term_memory": mem, "n_memory_terms": len(mem)}
+
+    if a.dry_run:   # no key, no client, no call. The prompts in send order, each with the term memory built from the
+        # renderings on disk of units EARLIER in that order (what a one-unit-per-packet run would send); a fresh work
+        # has no renderings, so its dry-run prompts carry no memory. Written to dryrun_translate_<model>.jsonl.
+        from api_backend import dry_run_stage
+
+        order = unit_order(out, units, a.subset)
+        have = {r["unit_id"]: r for r in read_jsonl(out_path) if r.get("ok")}
+
+        def make_dry(uid: str):
+            earlier = [have[u] for u in order[:order.index(uid)] if u in have]
+            mem = build_memory(uid, tg, earlier)
+            return system, with_memory(reqs[uid]["user"], mem), {"n_memory_terms": len(mem)}
+
+        dry_run_stage(stage=f"translate_{short}", ids=order, make_request=make_dry, out_dir=out, limit=a.limit)
+        return
 
     run_stage(stage=f"translate_{short}", work=slug, model=model, ids=unit_order(out, units, a.subset), make_request=make_request, out_path=out_path,
               usage_path=out / "usage.jsonl", id_field="unit_id", budget=a.budget, mode=a.mode, packet_size=a.packet_size or (8 if a.mode == "direct" else 50),
@@ -197,7 +248,15 @@ def cmd_api(slug: str, short: str, a) -> None:
     report_renderings(out, short, reqs)
 
 
+def marker_count(text: str, work: dict) -> int:
+    """Galen: every '[' counts, as in cycles 1-4. Other works: only reference markers (English supplied words are
+    bracketed too)."""
+    import re
+    return text.count("[") if work.get("galen", True) else len(re.findall(marker_re(work), text))
+
+
 def report_renderings(out: Path, short: str, reqs: dict) -> dict:
+    work = work_config(out.name)
     rows = read_jsonl(out / f"renderings_{short}.jsonl")
     problems = []
     for r in rows:
@@ -210,7 +269,7 @@ def report_renderings(out: Path, short: str, reqs: dict) -> dict:
         want = [t["target_no"] for t in q["targets"]]
         if got != want:
             problems.append(f"{r['unit_id']}: renderings {got} != targets {want}")
-        if body["translation"].count("[") != q["user"].split("TRANSLATE (unit")[1].split("CONTEXT")[0].count("["):
+        if marker_count(body["translation"], work) != marker_count(q["user"].split("TRANSLATE (unit")[1].split("CONTEXT")[0], work):
             problems.append(f"{r['unit_id']}: page-marker count differs")
     report = {"model": short, "n_units": len(reqs), "n_responses": len(rows), "n_ok": sum(1 for r in rows if r.get("ok")),
               "missing_units": sorted(set(reqs) - {r["unit_id"] for r in rows}), "refusals": [r["unit_id"] for r in rows if r.get("stop_reason") == "refusal"],
@@ -261,6 +320,8 @@ def main() -> None:
     ap.add_argument("--subset", choices=["calibration"], default=None, help="api: send only the calibration units")
     add_api_args(ap)
     a = ap.parse_args()
+    if a.dry_run and a.cmd != "api":
+        sys.exit("--dry-run goes with the api subcommand")
     if a.cmd == "build":
         cmd_build(a.work)
     elif a.cmd == "api":

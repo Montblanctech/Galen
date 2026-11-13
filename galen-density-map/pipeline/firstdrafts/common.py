@@ -221,6 +221,53 @@ WORKS = {
     },
 }
 
+CONFIGS = HERE / "configs"
+
+# Language and lexicon profiles for the config-driven stages (2026-11-12). A Galen work never reads these: its
+# prompts, keys and page text are the frozen Galen ones.
+LANG = {
+    "grc": {"name": "Ancient Greek", "adj": "Greek", "term_word": "ancient Greek", "bt_key": "greek", "uncertain_key": "uncertain_greek"},
+    "lat": {"name": "Latin", "adj": "Latin", "term_word": "Latin", "bt_key": "latin", "uncertain_key": "uncertain_latin"},
+}
+LEXICA = {
+    "lsj": {"short": "LSJ", "full": "LSJ (Liddell-Scott-Jones)", "link": "https://logeion.uchicago.edu/{hw}", "missing": "no Perseus-LSJ entry"},
+    # the lsgold code links no dictionary site; Logeion (which carries Lewis & Short) is the site the Greek pages use
+    "ls": {"short": "Lewis & Short", "full": "Lewis & Short (A Latin Dictionary, 1879)", "link": "https://logeion.uchicago.edu/{hw}", "missing": "no Perseus Lewis & Short entry"},
+}
+GENERIC_MARKER = r"\[(\d+(?:\.[A-Za-z0-9]+)*)\]"   # [197], [3.pr.1]; never an English supplied word such as [the]
+
+
+def work_config(slug: str) -> dict:
+    """The one work loader for every stage. A Galen slug resolves through WORKS, as before: the WORKS entry plus
+    slug, galen=True, lang grc, lexicon lsj. Any other slug resolves to configs/<slug>.json (generic.load_config
+    defaults applied), galen=False. Callers keep the Galen path byte-identical by branching on w['galen']."""
+    if slug in WORKS:
+        return {**WORKS[slug], "slug": slug, "galen": True, "lang": "grc", "lexicon": {"name": "lsj"}}
+    p = CONFIGS / f"{slug}.json"
+    if not p.exists():
+        raise SystemExit(f"unknown work {slug!r}: not in common.WORKS and no {p}")
+    from generic import load_config  # noqa: E402  (generic imports common)
+
+    cfg = load_config(p)
+    if cfg["slug"] != slug:
+        raise SystemExit(f"{p} has slug {cfg['slug']!r}")
+    return {**cfg, "galen": False}
+
+
+def lemma_key_fn(lang: str):
+    """The accent/spelling-blind comparison key of a language: Beta Code key for Greek, latnorm.key for Latin."""
+    if lang == "lat":
+        from lsgold.latnorm import key  # noqa: E402
+        return key
+    from lib.beta_keys import lemma_to_lookup_key  # noqa: E402
+    return lemma_to_lookup_key
+
+
+def marker_re(w: dict) -> str:
+    """Regex (one group: the reference) of the inline unit-reference markers in a work's text and renderings."""
+    return r"\[(\d+)\]" if w.get("galen") else (w.get("unit", {}).get("marker_re") or GENERIC_MARKER)
+
+
 PUNCT_RE = re.compile(r"[\.\,\;\:\·\!\?\(\)\[\]«»“”\"'’‘]")
 SENTENCE_END = (".", ";")  # Greek full stop and question mark; the raised dot is a colon
 

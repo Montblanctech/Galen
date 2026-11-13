@@ -1,0 +1,109 @@
+{
+ "slug": "vitruvius-3",
+ "lang": "lat",
+ "author": "Vitruvius",
+ "title_lat": "De architectura, liber III",
+ "title_eng": "On Architecture, Book 3",
+ "edition_desc": "Krohn's 1912 Teubner edition",
+ "edition_short": "Krohn",
+ "citation": "ed. F. Krohn (Teubner 1912), cited by book, chapter and section",
+ "marker_label": "section",
+ "bt_style": "classical Latin technical prose, 1st century BC",
+ "text_credit": "Latin text CC BY-SA 4.0 (Perseus Digital Library, canonical-latinLit)",
+ "prior_translations": "",
+ "claim": "A test of the First Drafts method on a Latin text, not a new translation: Vitruvius already has complete English translations. Scored against M. H. Morgan's 1914 translation, the two renderings agree with him on 64% and 66% of the key terms, about the same as the Galen drafts against their human reference (63.5% and 66.4%).",
+ "tei": "data/latin_corpus/raw_xml/phi1056.phi001.perseus-lat2.xml",
+ "urn": "urn:cts:latinLit:phi1056.phi001.perseus-lat2",
+ "source_note": "Perseus canonical-latinLit phi1056.phi001.perseus-lat2 (Vitruvius, De architectura, ed. F. Krohn, Teubner 1912; book 3 only), CC BY-SA 4.0",
+ "text": {
+  "normalize": "nfc",
+  "skip": [
+   "note",
+   "app",
+   "rdg",
+   "teiHeader",
+   "del",
+   "bibl"
+  ]
+ },
+ "unit": {
+  "break": {
+   "tag": "div",
+   "match": {
+    "subtype": "section"
+   },
+   "attr": "n",
+   "ref": "{book}.{chapter}.{n}"
+  },
+  "levels": [
+   {
+    "name": "book",
+    "tag": "div",
+    "match": {
+     "subtype": "book"
+    },
+    "attr": "n"
+   },
+   {
+    "name": "chapter",
+    "tag": "div",
+    "match": {
+     "subtype": "chapter"
+    },
+    "attr": "n"
+   }
+  ],
+  "reset_ref_on_level": true,
+  "sentence_end": [
+   ".",
+   "?",
+   "!"
+  ],
+  "sentence_end_strip": ")]\"'”’»",
+  "not_sentence_end_re": "^(?:[A-Z]|Cn|Sp|Ti|Tib|Ser|Sex|App|Kal|Non|Id|cf)\\.$",
+  "min_tokens": 100,
+  "ref_sort": "doc",
+  "chapter_sort": "doc",
+  "book_sort": "doc",
+  "id": {
+   "prefix": "Vitr.",
+   "range": "-"
+  },
+  "locus": {
+   "prefix": "Vitr. ",
+   "range": "–"
+  },
+  "keep": {
+   "level": "book",
+   "values": [
+    "3"
+   ]
+  },
+  "extra": {},
+  "marker_re": "\\[(\\d+\\.[A-Za-z0-9]+\\.\\d+)\\]"
+ },
+ "tagger": {
+  "name": "latincy",
+  "model": "la_core_web_lg",
+  "python": ".venv-lat/Scripts/python.exe"
+ },
+ "lexicon": {
+  "name": "ls"
+ },
+ "targets": {
+  "rule": "lexicon_rarity",
+  "pos": [
+   "NOUN",
+   "ADJ"
+  ],
+  "cap": 8,
+  "thin_max_senses": 1,
+  "freq_top_n": 5000,
+  "freq": {
+   "dir": "data/latin_corpus/caches/latincy_lg",
+   "exclude_prefix": "phi1056.phi001"
+  }
+ },
+ "spec": "firstdrafts_v02_spec.md (the Galen thresholds, unchanged)",
+ "description": "Vitruvius, On Architecture, Book 3: a machine first draft in English with the Latin beside it, a test of the First Drafts method scored against Morgan's 1914 translation. Unverified."
+}

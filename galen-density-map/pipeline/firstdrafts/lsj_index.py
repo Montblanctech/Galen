@@ -7,6 +7,8 @@ lsj_entry_text (plain, Beta Code Greek rendered as Unicode, WHOLE entry, v0.2: n
 lsj_senses (the text of every <sense>, in order), lsj_first_sense_gloss (v0.2 anchor source), lsj_part}. The lookup is the one
 stage 06 and stage 11 use; when several entries share a key the one with more senses wins (stage 06 rule).
 Usage: .venv/Scripts/python -X utf8 pipeline/firstdrafts/lsj_index.py --work adversus-lycum
+A work whose config names the Lewis & Short lexicon (lexicon.name = "ls") gets the same file from the Perseus L&S XML
+(build_ls; keys lsgold.latnorm.key; anchor gloss = the first italic English of the first sense).
 """
 from __future__ import annotations
 
@@ -18,7 +20,7 @@ import re
 import beta_code
 from lxml import etree
 
-from common import GDM, nfc, out_dir
+from common import GDM, nfc, out_dir, work_config
 
 from lib.beta_keys import betacode_headword_to_unicode, lemma_to_lookup_key, normalize_betacode_key  # noqa: E402
 
@@ -73,11 +75,64 @@ def first_sense_gloss(senses: list[str], entry_txt: str) -> str:
     return ""
 
 
+def ls_gloss(entry, senses: list[str], entry_txt: str) -> str:
+    """Lewis & Short anchor gloss: the first italic run (<hi rend="ital">, where L&S prints its English sense) of the
+    first <sense>, trimmed of trailing punctuation; falls back to first_sense_gloss."""
+    for sense in entry.iter("{*}sense", "sense"):
+        for hi in sense.iter("{*}hi", "hi"):
+            t = re.sub(r"\s+", " ", "".join(hi.itertext())).strip(" ;,:.")
+            if re.search(r"[a-z]{3}", t):
+                return t
+        break
+    return first_sense_gloss(senses, entry_txt)
+
+
+def build_ls(out) -> None:
+    """lsj_entries.json for a Latin work: the same fields as the LSJ index, from the Perseus Lewis & Short XML
+    (data/latin_feasibility/lat.ls.perseus-eng2.xml), keyed by lsgold.latnorm.key; when several entries share a key
+    the one with more senses wins (the LSJ rule)."""
+    from lsgold.latnorm import key as lkey  # noqa: E402
+
+    wanted: dict[str, set[str]] = {}
+    for r in csv.DictReader((out / "targets.csv").open(encoding="utf-8")):
+        for lem in (r["dilemma_lemma"], r["odycy_lemma"]):
+            if lem and lkey(lem):
+                wanted.setdefault(lkey(lem), set()).add(nfc(lem))
+    path = GDM / "data" / "latin_feasibility" / "lat.ls.perseus-eng2.xml"
+    found: dict[str, dict] = {}
+    n_scanned = 0
+    for _, el in etree.iterparse(str(path), events=("end",), tag=("{*}entryFree", "entryFree"), recover=True, huge_tree=True):
+        n_scanned += 1
+        key_attr = el.get("key") or ""
+        orths = [o.text for o in el.iter("{*}orth", "orth") if o.text]
+        senses = len(list(el.iter("{*}sense", "sense")))
+        for hw in [key_attr] + orths:
+            k = lkey(re.sub(r"\d+$", "", hw))
+            if k in wanted and (k not in found or senses > found[k]["lsj_sense_count"]):
+                txt = entry_text(el)
+                sts = sense_texts(el)
+                found[k] = {"lsj_entry_id": el.get("id") or "", "lsj_key": key_attr, "lsj_headword": (orths[0] if orths else key_attr).strip(),
+                            "lsj_sense_count": senses, "lsj_entry_text": txt, "lsj_entry_chars": len(txt), "lsj_senses": sts,
+                            "lsj_first_sense_gloss": ls_gloss(el, sts, txt), "lsj_part": path.name, "lemmas": sorted(wanted[k])}
+        el.clear()
+        while el.getprevious() is not None:
+            del el.getparent()[0]
+    print(f"{path.name}: {n_scanned} entries, {len(found)}/{len(wanted)} keys resolved", flush=True)
+    (out / "lsj_entries.json").write_text(json.dumps(found, ensure_ascii=False, indent=1), encoding="utf-8")
+    missing = sorted(k for k in wanted if k not in found)
+    (out / "lsj_entries_missing.json").write_text(json.dumps({k: sorted(wanted[k]) for k in missing}, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"resolved {len(found)} of {len(wanted)} lemma keys; missing {len(missing)}")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", default="adversus-lycum")
     a = ap.parse_args()
     out = out_dir(a.work)
+    lexicon = work_config(a.work)["lexicon"]["name"]   # lsj (Galen and Greek configs) or ls (Lewis & Short)
+    if lexicon == "ls":
+        build_ls(out)
+        return
     wanted: dict[str, set[str]] = {}
     for r in csv.DictReader((out / "targets.csv").open(encoding="utf-8")):
         for lem in (r["dilemma_lemma"], r["odycy_lemma"]):
