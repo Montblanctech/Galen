@@ -1,0 +1,46 @@
+{
+ "work": "vitruvius-3",
+ "urn": "urn:cts:latinLit:phi1056.phi001.perseus-lat2",
+ "source": "Perseus canonical-latinLit phi1056.phi001.perseus-lat2 (Vitruvius, De architectura, ed. F. Krohn, Teubner 1912; book 3 only), CC BY-SA 4.0",
+ "n_units": 29,
+ "n_tei_words": 57772,
+ "n_odycy_tokens": 4024,
+ "alignment_loss": null,
+ "n_targets": 209,
+ "targets_by_class": {
+  "freq:outside_top5000+lex:thin": 130,
+  "freq:outside_top5000": 76,
+  "freq:outside_top5000+lex:absent": 3
+ },
+ "density_terciles": [
+  4.0,
+  6.63
+ ],
+ "units_per_tier": {
+  "low": 10,
+  "mid": 10,
+  "high": 9
+ },
+ "n_books": 1,
+ "n_chapters": 6,
+ "pages_per_unit": {
+  "1": 9,
+  "2": 15,
+  "3": 5
+ },
+ "lang": "lat",
+ "tagger": "latincy",
+ "tagger_stream": "tagged.jsonl",
+ "lexicon": "Perseus Lewis & Short, data/latin_feasibility/lat.ls.perseus-eng2.xml (CC BY-SA 4.0); key = lsgold.latnorm.key",
+ "lexicon_version": "Lewis & Short perseus-eng2",
+ "target_rule": "lexicon_rarity",
+ "n_drafted_words": 4059,
+ "reference_frequency": "LatinCy la_core_web_lg caches data/latin_corpus/caches/latincy_lg (172 editions, 5407868 tokens; excluded prefix 'phi1056.phi001')",
+ "freq_top_n": 5000,
+ "freq_top_n_cutoff_count": 88,
+ "lexicon_tier_of_noun_adj_tokens": {
+  "rich": 1397,
+  "thin": 216,
+  "absent": 28
+ }
+}

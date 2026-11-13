@@ -6,6 +6,11 @@ docs/first-drafts/<slug>/data.json (the same data for reuse) and docs/first-draf
 Greek beside both English renderings, page markers kept, target terms highlighted (green = the two
 renderings agree, red = they differ), term table per unit, difficulty from the density map, the three
 check marks and the unit verdict, the banner, and a link to the issue template. No model involved.
+
+2026-11-12: a work that is not in common.WORKS is read from configs/<slug>.json (common.work_config); its titles,
+citation labels, source language and dictionary links come from the config (page_text). A Galen page is unchanged.
+  --dest DIR          write the pages under DIR instead of docs/first-drafts (the landing page is then not rebuilt)
+  --build-date DATE   the date printed on the page (default today), for reproducing a published page
 """
 from __future__ import annotations
 
@@ -14,10 +19,12 @@ import csv
 import html
 import json
 import re
+import sys
 from collections import Counter
+from pathlib import Path
 from datetime import date
 
-from common import REPO, WORKS, draft_words, out_dir, read_jsonl
+from common import LANG, LEXICA, REPO, WORKS, draft_words, marker_re, out_dir, read_jsonl, work_config
 
 RENDERINGS = {"A": "fable-5-1", "B": "opus-5-5"}
 ISSUE_URL = "https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml"
@@ -28,11 +35,11 @@ def esc(s: str) -> str:
     return html.escape(s or "", quote=False)
 
 
-def mark_pages(s: str) -> str:
-    return MARK.sub(r'<span class=pb title="Kühn page">\1</span>', esc(s))
+def mark_pages(s: str, mark=MARK, label: str = "Kühn page") -> str:
+    return mark.sub(r'<span class=pb title="' + label + r'">\1</span>', esc(s))
 
 
-def highlight(text: str, spans: list[tuple[str, str, str]]) -> str:
+def highlight(text: str, spans: list[tuple[str, str, str]], mark=MARK, label: str = "Kühn page") -> str:
     """Wrap the first not-yet-used case-insensitive occurrence of each phrase; spans = (phrase, css_class, title).
     Positions are found in the escaped plain text first and assembled afterwards, so a mark can never land
     inside another mark's attributes."""
@@ -53,7 +60,7 @@ def highlight(text: str, spans: list[tuple[str, str, str]]) -> str:
         out.append(f'<mark class="{cls}" title="{esc(title).replace(chr(34), "&quot;")}">{base[a:b]}</mark>')
         pos = b
     out.append(base[pos:])
-    return MARK.sub(r'<span class=pb title="Kühn page">\1</span>', "".join(out))
+    return mark.sub(r'<span class=pb title="' + label + r'">\1</span>', "".join(out))
 
 
 SPLIT_OVER = 120  # units; above this a work is published one page per book
@@ -75,12 +82,51 @@ def clean_headword(h: str) -> str:
     return unicodedata.normalize("NFC", h)
 
 
+CYRILLIC_LOOKALIKES = str.maketrans("аеорсухіјѕАЕОРСУХІЈЅ", "aeopcyxijsAEOPCYXIJS")
+
+
+def link_headword(h: str) -> str:
+    """A Lewis & Short headword for a dictionary link: quantity marks and the prefix hyphen off (com-mŏdŭlātĭo -> commodulatio)."""
+    import unicodedata
+    h = unicodedata.normalize("NFD", (h or "").replace("^", "").replace("_", "").replace("-", "").strip())
+    h = h.translate(CYRILLIC_LOOKALIKES)  # Perseus L&S has Cyrillic letters in a few headwords (hexastўlos); after NFD, so ў = у + breve is caught
+    return unicodedata.normalize("NFC", "".join(c for c in h if not unicodedata.combining(c)))
+
+
+def page_text(w: dict, galen: bool) -> dict:
+    """Every work-specific phrase of the page. The Galen values are the cycle 1-4 page text, unchanged."""
+    if galen:
+        return {"author": "Galen", "adj": "Greek", "lat_line": f"{w['title_lat']} · Kühn {w['kuhn_vol']} {w['kuhn_pages']}",
+                "cite_tail": f"Kühn {w['kuhn_vol']} {w['kuhn_pages']}", "markers": "The small grey numbers are the pages of Kühn's Greek edition.",
+                "col": "Greek (Kühn)", "label": "Kühn page", "lex": LEXICA["lsj"], "lemma_th": "Dilemma lemma", "tagger": "odyCy",
+                "uncertain_key": "uncertain_greek", "difficulty": "punch-list density per 100 tokens from the terminology density map",
+                "credit": "Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin).", "series": "Galen First Drafts", "tier_prefix": "punch",
+                "doi": "concept DOI 10.5281/zenodo.21561962"}
+    L, lx = LANG[w["lang"]], LEXICA[w["lexicon"]["name"]]
+    return {"author": w["author"], "adj": L["adj"], "lat_line": f"{w['title_lat']} · {w['citation']}", "cite_tail": w["citation"],
+            "markers": f"The small grey numbers are the {w.get('marker_label', 'section')}s of {w['edition_desc']}.",
+            "col": f"{L['adj']} ({w.get('edition_short', w['edition_desc'])})", "label": w.get("marker_label", "section"), "lex": lx,
+            "lemma_th": f"{lx['short']} lemma", "tagger": {"latincy": "LatinCy", "odycy_precomputed": "odyCy"}.get(w["tagger"]["name"], w["tagger"]["name"]),
+            "uncertain_key": L["uncertain_key"],
+            "difficulty": f"density per 100 tokens of words outside the reference frequency list that {lx['short']} covers with at most one sense or not at all",
+            "credit": w.get("text_credit", ""), "series": "First Drafts", "tier_prefix": "lex",
+            "doi": f"DOI {w['doi']}" if w.get("doi") else "DOI not yet assigned"}
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", default="adversus-lycum")
+    ap.add_argument("--dest", default=None, help="root for the pages (default docs/first-drafts); the landing page is rebuilt only for the default")
+    ap.add_argument("--build-date", default=None, help="YYYY-MM-DD printed on the page (default today)")
     a = ap.parse_args()
     slug = a.work
-    w = WORKS[slug]
+    W = work_config(slug)
+    galen = W["galen"]
+    w = WORKS[slug] if galen else W
+    T = page_text(w, galen)
+    mk = MARK if galen else re.compile(marker_re(W))
+    built = date.fromisoformat(a.build_date) if a.build_date else date.today()
+    root = Path(a.dest).resolve() if a.dest else REPO / "docs" / "first-drafts"
     out = out_dir(slug)
     units = read_jsonl(out / "units.jsonl")
     rend = {t: {r["unit_id"]: r for r in read_jsonl(out / f"renderings_{s}.jsonl")} for t, s in RENDERINGS.items()}
@@ -107,7 +153,7 @@ def main() -> None:
 
     parts = []
     parts.append(f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>
-<title>Galen, {esc(w['title_eng'])} — machine first draft v0.1</title>
+<title>{esc(T['author'])}, {esc(w['title_eng'])} — machine first draft v0.1</title>{'' if galen or not w.get('description') else '<meta name=description content="' + esc(w['description']) + '">'}
 <style>
 body{{font:15px/1.5 Georgia,serif;max-width:1400px;margin:0 auto;padding:0 1rem 3rem;color:#222;background:#fff}}
 .banner{{background:#7a1f1f;color:#fff;padding:.6rem 1rem;font-size:.95em;position:sticky;top:0;z-index:5}}
@@ -156,20 +202,20 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 </style></head><body class=read>
 <script>try{{if(localStorage.getItem('gfd-view')==='scholar')document.body.className='scholar'}}catch(e){{}}</script>
 <div class=banner><strong>Machine first draft, unverified, v0.1.</strong> Two language models translated this text independently; no scholar has checked it. Red marks show where the machine checks fail. The apparatus says where to look, not that the text is right. <a href="{ISSUE_URL}">Report a correction</a> · <a href="../../">project pages</a></div>
-<div class=modebar><button type=button data-v=read>Read</button><button type=button data-v=scholar>Scholar view</button><span>Read shows one English rendering. Scholar view adds the Greek, the second rendering, the term marks and the checks.</span></div>
+<div class=modebar><button type=button data-v=read>Read</button><button type=button data-v=scholar>Scholar view</button><span>Read shows one English rendering. Scholar view adds the {T['adj']}, the second rendering, the term marks and the checks.</span></div>
 <script>(function(){{var bs=document.querySelectorAll('.modebar button');function set(v){{document.body.className=v;bs.forEach(function(b){{b.setAttribute('aria-pressed',b.dataset.v===v)}});try{{localStorage.setItem('gfd-view',v)}}catch(e){{}}}}bs.forEach(function(b){{b.onclick=function(){{set(b.dataset.v)}}}});set(document.body.className==='scholar'?'scholar':'read')}})()</script>
-<header class=rhead><div class=kicker>Galen · machine first draft</div><h1 class=rt>{esc(w['title_eng'])}</h1><div class=lat>{esc(w['title_lat'])} · Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</div>
-<p class=note>{esc(w.get('claim', 'The first complete English translation we know of.'))} {esc(w.get('prior_translations', ''))} This is rendering A, made by a language model and not yet checked by a scholar. The small grey numbers are the pages of Kühn's Greek edition. Passages with a red rule failed the machine checks; those checks are automated agreement tests, not a reading of the Greek, so a passage without the rule is not checked either. Words in square brackets were supplied by the model for the sense; Greek in parentheses gives the original word; any remark about a doubtful or corrupt reading is the model's, not a scholar's.</p></header>
-<h1 class=st>Galen, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), Kühn {esc(w['kuhn_vol'])} {esc(w['kuhn_pages'])}</h1>
-<p class="small meth">Greek: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {date.today().isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/master/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the Greek lemma and the other rendering. Unit difficulty = punch-list density per 100 tokens from the terminology density map (tercile within this work).</p>
+<header class=rhead><div class=kicker>{esc(T['author'])} · machine first draft</div><h1 class=rt>{esc(w['title_eng'])}</h1><div class=lat>{esc(T['lat_line'])}</div>
+<p class=note>{esc(w.get('claim', 'The first complete English translation we know of.'))} {esc(w.get('prior_translations', ''))} This is rendering A, made by a language model and not yet checked by a scholar. {esc(T['markers'])} Passages with a red rule failed the machine checks; those checks are automated agreement tests, not a reading of the {T['adj']}, so a passage without the rule is not checked either. Words in square brackets were supplied by the model for the sense; {T['adj']} in parentheses gives the original word; any remark about a doubtful or corrupt reading is the model's, not a scholar's.</p></header>
+<h1 class=st>{esc(T['author'])}, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), {esc(T['cite_tail'])}</h1>
+<p class="small meth">{T['adj']}: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {built.isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/master/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the {T['adj']} lemma and the other rendering. Unit difficulty = {T['difficulty']} (tercile within this work).</p>
 """)
     # summary table
-    parts.append("<table class=sum><tr><th>units</th><th>Greek words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) LSJ judge pass</th><th>units failing ≥2 checks</th></tr>")
+    parts.append(f"<table class=sum><tr><th>units</th><th>{T['adj']} words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) {T['lex']['short']} judge pass</th><th>units failing ≥2 checks</th></tr>")
     def rs(k):
         v = s.get(k) or {}
         return f"{v.get('pass', '–')}/{(v.get('pass') or 0) + (v.get('fail') or 0)}" if v else "not run"
     parts.append(f"<tr><td>{len(units)}</td><td>{sum(int(u.get('n_tokens', 0)) for u in units)}</td><td>{meta.get('n_targets', '')}</td><td>{rs('a')}</td><td>{rs('b')} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td><td>{rs('c')}{' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else ''}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td></tr></table>")
-    parts.append("<p class=\"small meth\">Check (a): the English back-translated into Greek by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the LSJ entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
+    parts.append(f"<p class=\"small meth\">Check (a): the English back-translated into {T['adj']} by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the {T['lex']['short']} entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
 
     head_len = len(parts)
     unit_starts = []  # (parts index, book) per unit, for the split by book (v0.2.1)
@@ -192,29 +238,31 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
             if r["rendering_B"]:
                 spans_b.append((r["rendering_B"], cls, f"{r['surface']} ({lemma}) · A: {r['rendering_A'] or '—'}"))
         a_ck, b_ck, c_ck = ck.get("a", {}), ck.get("b", {}), ck.get("c", {})
+        uk = T["uncertain_key"]
         parts.append(f"""<div class="unit {'fail' if verdict == 'fail' else ''}" id="{esc(uid)}">
 <div class=uh><span class=id><a href="#{esc(uid)}">{esc(uid)}</a></span><span>{esc(u['locus'])}, ch. {esc(', '.join(u['chapters']))}</span>
 <span class="tier-{u['difficulty_tier']}">difficulty {esc(u['difficulty_tier'])} ({u['punch_density_per100']}/100; thin {u['n_punch_thin']}, absent {u['n_punch_absent']})</span>
 <span>(a) {mark(a_ck.get('verdict', 'not_run'))} (b) {mark(b_ck.get('verdict', 'n/a'))}{' ' + str(b_ck.get('agree')) + '/' + str(b_ck.get('n')) if b_ck.get('n') else ''} (c) {mark(c_ck.get('verdict', 'not_run'))}{' ' + str(c_ck.get('in_range')) + '/' + str(c_ck.get('n')) if c_ck.get('n') and c_ck.get('in_range') is not None else ''}
 <span class=verdict>unit: {mark(verdict)}</span></span></div>
 <div class=cols>
-<div class="col grc"><h4>Greek (Kühn)</h4>{highlight(u['greek'], spans_g)}</div>
-<div class="col eng a"><h4>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get('uncertain_greek', []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get('uncertain_greek') else ''}</h4>{highlight(a_eng, spans_a) if a_eng else '<em class=small>no rendering</em>'}</div>
-<div class="col eng b"><h4>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get('uncertain_greek', []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get('uncertain_greek') else ''}</h4>{highlight(b_eng, spans_b) if b_eng else '<em class=small>no rendering</em>'}</div>
+<div class="col grc"><h4>{esc(T['col'])}</h4>{highlight(u['greek'], spans_g, mk, T['label'])}</div>
+<div class="col eng a"><h4>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get(uk) else ''}</h4>{highlight(a_eng, spans_a, mk, T['label']) if a_eng else '<em class=small>no rendering</em>'}</div>
+<div class="col eng b"><h4>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get(uk) else ''}</h4>{highlight(b_eng, spans_b, mk, T['label']) if b_eng else '<em class=small>no rendering</em>'}</div>
 </div>""")
         if rows:
-            parts.append(f"<details><summary>Term table ({len(rows)} targets)</summary><table class=tt><tr><th>Greek</th><th>Dilemma lemma</th><th>LSJ</th><th>tier</th><th>A</th><th>B</th><th>agree</th><th>judge A / B</th></tr>")
+            parts.append(f"<details><summary>Term table ({len(rows)} targets)</summary><table class=tt><tr><th>{T['adj']}</th><th>{T['lemma_th']}</th><th>{T['lex']['short']}</th><th>tier</th><th>A</th><th>B</th><th>agree</th><th>judge A / B</th></tr>")
             for r in rows:
-                hw = clean_headword(r["lsj_headword"])
-                lsj = f'<a class=lsj href="https://logeion.uchicago.edu/{esc(hw)}">{esc(hw)}</a> <span class=lsj>{esc(r["lsj_entry_id"])}, {esc(r["lsj_sense_count"])} sense(s)</span>' if r["lsj_entry_id"] else '<span class=lsj>no Perseus-LSJ entry</span>'
-                tier = " ".join(x for x in (r["punch_tier"] and f"punch:{r['punch_tier']}", r["tier_v3"] and f"v3:{r['tier_v3']}", r["fourway"] and f"4w:{r['fourway']}") if x)
-                parts.append(f"<tr><td>{esc(r['surface'])}</td><td>{esc(r['dilemma_lemma'])}<br><span class=lsj>odyCy {esc(r['odycy_lemma'])}</span></td><td>{lsj}</td><td class=small>{esc(tier)}</td>"
+                hw = clean_headword(r["lsj_headword"]) if galen else r["lsj_headword"]
+                lk = hw if galen else link_headword(hw)
+                lsj = f'<a class=lsj href="{T["lex"]["link"].format(hw=esc(lk))}">{esc(hw)}</a> <span class=lsj>{esc(r["lsj_entry_id"])}, {esc(r["lsj_sense_count"])} sense(s)</span>' if r["lsj_entry_id"] else f'<span class=lsj>{T["lex"]["missing"]}</span>'
+                tier = " ".join(x for x in (r["punch_tier"] and f"{T['tier_prefix']}:{r['punch_tier']}", r["tier_v3"] and f"v3:{r['tier_v3']}", r["fourway"] and f"4w:{r['fourway']}") if x)
+                parts.append(f"<tr><td>{esc(r['surface'])}</td><td>{esc(r['dilemma_lemma'])}<br><span class=lsj>{T['tagger']} {esc(r['odycy_lemma'])}</span></td><td>{lsj}</td><td class=small>{esc(tier)}</td>"
                              f"<td>{esc(r['rendering_A'])}{' <span class=unc>unsure</span>' if r['uncertain_A'] == 'y' else ''}</td><td>{esc(r['rendering_B'])}{' <span class=unc>unsure</span>' if r['uncertain_B'] == 'y' else ''}</td>"
                              f"<td>{esc(r['agree'])}</td><td class=small>{esc(r.get('judge_A', ''))} / {esc(r.get('judge_B', ''))}</td></tr>")
             parts.append("</table></details>")
         parts.append("</div>")
-    parts.append(f"<h2>Licence and citation</h2><p class=\"small lic\">Greek text CC BY-SA 4.0 (First1KGreek / Open Greek and Latin). The renderings and apparatus are machine output published as a draft under CC BY-SA 4.0 (a translation of a CC BY-SA text) by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({date.today().year}). <i>Galen First Drafts</i>: Galen, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, concept DOI 10.5281/zenodo.21561962; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
-    dest = REPO / "docs" / "first-drafts" / slug
+    parts.append(f"<h2>Licence and citation</h2><p class=\"small lic\">{esc(T['credit'])} The renderings and apparatus are machine output published as a draft under CC BY-SA 4.0 (a translation of a CC BY-SA text) by William Pepperman (Galen Density Project, Montblanc Tech LLC); cite as: Pepperman, W. ({built.year}). <i>{T['series']}</i>: {esc(T['author'])}, <i>{esc(w['title_lat'])}</i> ({esc(w['title_eng'])}), machine first draft v0.1, github.com/Montblanctech/Galen, {T['doi']}; and say that it is an unverified machine draft. Corrections: <a href=\"{ISSUE_URL}\">issue template</a>.</p></body></html>")
+    dest = root / slug
     dest.mkdir(parents=True, exist_ok=True)
     # Long works are split into one page per book so a phone can open them (v0.2.1, 2026-11-09: the 697-unit
     # Composition of Drugs by Kind made a 7 MB page). The work's index then carries the header, the summary and a book list.
@@ -237,10 +285,13 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
     else:
         (dest / "index.html").write_text("\n".join(parts), encoding="utf-8")
     (dest / "data.json").write_text(json.dumps({"work": w, "units": units, "term_table": tt, "checks": checks, "renderings": {t: [{"unit_id": k, "model": v["model"], "backend": v["backend"], "translation": ((v.get("response") or {}).get("translation", ""))} for k, v in rend[t].items()] for t in RENDERINGS}}, ensure_ascii=False), encoding="utf-8")
+    print(f"wrote {dest / 'index.html'} ({(dest / 'index.html').stat().st_size:,} bytes), {len(units)} units, verdicts {dict(Counter(checks['units'].get(u['unit_id'], {}).get('verdict', 'none') for u in units))}")
+    if not galen:   # the drafts index lists the Galen series only
+        return
     # index of drafts: every work in WORKS whose page exists, in WORKS order (cycle 3 added eight works)
     items = []
     for sl, ww in WORKS.items():
-        pdir = REPO / "docs" / "first-drafts" / sl
+        pdir = root / sl
         odir = out_dir(sl)
         if not (pdir / "index.html").exists() or not (odir / "units_meta.json").exists():
             continue
@@ -248,7 +299,7 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
         ss = (json.loads((odir / "checks.json").read_text(encoding="utf-8")).get("summary", {}) if (odir / "checks.json").exists() else {})
         items.append(f'<li><a href="{sl}/">{esc(ww["title_lat"])} ({esc(ww["title_eng"])})</a>, Kühn {esc(ww["kuhn_vol"])} {esc(ww["kuhn_pages"])}: '
                      f'{mm.get("n_units")} units, {draft_words(sl):,} Greek words, {(ss.get("unit_verdicts") or {}).get("fail", 0) if ss else "–"} units failing two or more checks.</li>')
-    idx = REPO / "docs" / "first-drafts" / "index.html"
+    idx = root / "index.html"
     idx.write_text(f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Galen First Drafts</title>
 <style>body{{font:16px/1.5 Georgia,serif;max-width:760px;margin:2rem auto;padding:0 1rem;color:#222}}.small{{color:#555;font-size:.9em}}</style></head><body>
 <h1>Galen First Drafts — machine first translations, unverified (v0.1)</h1>
@@ -256,10 +307,10 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 <p class=small>Works of Galen with no complete English translation that we know of; each work's page names the earlier partial and other-language translations (status and sources per work: <code>phase1/README_translation_status.md</code>), rendered twice by two language-model families with the same neutral prompt, aligned to the Greek, every technical term tied to its LSJ entry, three machine checks per unit, failures marked and kept. These are drafts for scholars to correct, not translations to quote. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3).</p>
 <ul>{"".join(items)}</ul>
 <p class=small><a href="../">All project pages</a> · <a href="{ISSUE_URL}">Report a correction</a></p></body></html>""", encoding="utf-8")
-    print(f"wrote {dest / 'index.html'} ({(dest / 'index.html').stat().st_size:,} bytes), {len(units)} units, verdicts {dict(Counter(checks['units'].get(u['unit_id'], {}).get('verdict', 'none') for u in units))}")
 
 
 if __name__ == "__main__":
     main()
-    import landing  # the front page and the drafts index are rebuilt from every work's data (2026-11-10)
-    landing.main()
+    if "--dest" not in sys.argv:   # a page written elsewhere (scratch) never rebuilds the public landing page
+        import landing  # the front page and the drafts index are rebuilt from every work's data (2026-11-10)
+        landing.main()

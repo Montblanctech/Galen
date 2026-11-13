@@ -1,0 +1,81 @@
+{
+ "slug": "adversus-lycum",
+ "lang": "grc",
+ "profile": "galen",
+ "tei": "data/raw_xml/urn_cts_greekLit_tlg0057.tlg093.1st1K-grc1.xml",
+ "urn": "urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1",
+ "source_note": "First1KGreek tlg0057.tlg093.1st1K-grc1 (Kühn 1829, vol. 18.1 pp. 196-245; keyboarded by Digital Divide Data for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
+ "text": {
+  "normalize": "greek",
+  "skip": [
+   "note",
+   "app",
+   "rdg",
+   "teiHeader"
+  ]
+ },
+ "unit": {
+  "break": {
+   "tag": "pb",
+   "attr": "n",
+   "ref": "{n}"
+  },
+  "levels": [
+   {
+    "name": "book",
+    "tag": "div",
+    "match": {
+     "subtype": "book"
+    },
+    "attr": "n"
+   },
+   {
+    "name": "chapter",
+    "tag": "div",
+    "match": {
+     "subtype": "chapter"
+    },
+    "attr": "n"
+   }
+  ],
+  "reset_ref_on_level": false,
+  "sentence_end": [
+   ".",
+   ";"
+  ],
+  "sentence_end_strip": "",
+  "not_sentence_end_re": null,
+  "min_tokens": 25,
+  "ref_sort": "int",
+  "chapter_sort": "key",
+  "book_sort": "int",
+  "id": {
+   "prefix": "K18a.",
+   "range": "-"
+  },
+  "locus": {
+   "prefix": "K. XVIIIA ",
+   "range": "–"
+  },
+  "keep": null,
+  "extra": {
+   "kuhn_vol": "XVIIIA"
+  }
+ },
+ "tagger": {
+  "name": "odycy_precomputed",
+  "path": "data/lemmatized/galen_nonmedical/urn_cts_greekLit_tlg0057.tlg093.1st1K-grc1.jsonl",
+  "align_window": 12
+ },
+ "lexicon": {
+  "name": "lsj"
+ },
+ "targets": {
+  "rule": "galen",
+  "pos": [
+   "NOUN",
+   "ADJ"
+  ],
+  "cap": 8
+ }
+}

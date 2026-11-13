@@ -1,0 +1,2097 @@
+{
+ "abacus": {
+  "lsj_entry_id": "n11",
+  "lsj_key": "abacus",
+  "lsj_headword": "ăbăcus",
+  "lsj_sense_count": 7,
+  "lsj_entry_text": "ăbăcus, i (according to Prisc. 752 P. also ăbax, ăcis; cf. id. p. 688), m.,=ἄβαξ, α^κος, prop. a square tablet; hence, in partic., A sideboard, the top of which was made of marble, sometimes of silver, gold, or other precious material, chiefly used for the display of gold and silver vessels, Cic. Verr. 2, 4, 16, § 35; 2, 4, 25, § 57; id. Tusc. 5, 21, 61; Varr. L. L. 9, § 46 Mūll.; Plin. 37, 2, 6, § 14; Juv. 3, 2-0-4: perh. also called mensae Delphicae, Cic. Verr. 2, 4, 59 init. Zumpt; Mart. 12, 67. Accord. to Liv. 39, 6, 7, and Plin. 34, 3, 8, § 14, Cn. Manlius Vulso first brought them from Asia to Rome, B.C. 187, in his triumph over the Galatae; cf. Becker, Gall. 2, p. 258 (2d edit.).— A gaming-board, divided into compurtments, for playing with dice or counters, Suet. Ner. 22; Macr. S. 1, 5.— A counting-table, covered with sand or dust, and used for arithmetical computation, Pers. 1, 131; App. Mag. p. 284; cf. Becker, Gall. 2, p. 65. — A wooden tray, Cato, R. R. 10, 4.— A painted panel or square compartment in the wall or ceiling of a chamber, Vitr. 7, 3, 10; Plin. 33, 12, 56, § 159; 35, 1, 1, § 3, and 35, 6, 13, § 32.— In architecture, a fiat, square stone on the top of a column, immediately under the architrave, Vitr. 3, 5, 5 sq.; 4, 1, 11 sq.",
+  "lsj_entry_chars": 1266,
+  "lsj_senses": [
+   "a square tablet; hence, in partic.,",
+   "A sideboard, the top of which was made of marble, sometimes of silver, gold, or other precious material, chiefly used for the display of gold and silver vessels, Cic. Verr. 2, 4, 16, § 35; 2, 4, 25, § 57; id. Tusc. 5, 21, 61; Varr. L. L. 9, § 46 Mūll.; Plin. 37, 2, 6, § 14; Juv. 3, 2-0-4: perh. also called mensae Delphicae, Cic. Verr. 2, 4, 59 init. Zumpt; Mart. 12, 67. Accord. to Liv. 39, 6, 7, and Plin. 34, 3, 8, § 14, Cn. Manlius Vulso first brought them from Asia to Rome, B.C. 187, in his triumph over the Galatae; cf. Becker, Gall. 2, p. 258 (2d edit.).—",
+   "A gaming-board, divided into compurtments, for playing with dice or counters, Suet. Ner. 22; Macr. S. 1, 5.—",
+   "A counting-table, covered with sand or dust, and used for arithmetical computation, Pers. 1, 131; App. Mag. p. 284; cf. Becker, Gall. 2, p. 65. —",
+   "A wooden tray, Cato, R. R. 10, 4.—",
+   "A painted panel or square compartment in the wall or ceiling of a chamber, Vitr. 7, 3, 10; Plin. 33, 12, 56, § 159; 35, 1, 1, § 3, and 35, 6, 13, § 32.—",
+   "In architecture, a fiat, square stone on the top of a column, immediately under the architrave, Vitr. 3, 5, 5 sq.; 4, 1, 11 sq."
+  ],
+  "lsj_first_sense_gloss": "a square tablet",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "abacus"
+  ]
+ },
+ "acroteria": {
+  "lsj_entry_id": "n599",
+  "lsj_key": "acroteria",
+  "lsj_headword": "ăcrōtērĭa",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "ăcrōtērĭa, ōrum, n., = ἀκρωτήρια, the projecting or extreme part of a thing. Of a harbor, Vitr. 5, 12.— In architecture, the projecting parts of a pediment, serving as a support for figures or statues, Vitr. 3, 5, 12 sq.; cf. Müll. Arch. § 284.",
+  "lsj_entry_chars": 244,
+  "lsj_senses": [
+   "the projecting or extreme part of a thing.",
+   "Of a harbor, Vitr. 5, 12.—",
+   "In architecture, the projecting parts of a pediment, serving as a support for figures or statues, Vitr. 3, 5, 12 sq.; cf. Müll. Arch. § 284."
+  ],
+  "lsj_first_sense_gloss": "the projecting",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "acroteria"
+  ]
+ },
+ "adiectio": {
+  "lsj_entry_id": "n832",
+  "lsj_key": "adjectio",
+  "lsj_headword": "adjectĭo",
+  "lsj_sense_count": 8,
+  "lsj_entry_text": "adjectĭo, ōnis, f. id., an adding to, addition, annexation. In gen.: Romana res adjectione populi Albani aucta, Liv. 1, 30: illiberalis, a small addition, id. 38, 14 ext.: caloris, Sen. Ep. 189: litterarum, Quint. 1, 5, 16; also the permission of adding, etc. (cf.: accessus, aditus): Hispalensibus familiarum adjectiones dedit, he granted to them the right of settling new families, Tac. II. 1, 78.—More freq., Esp., as t. t. In archit. A projection in the pedestal of columns, the cornice of the pedestal, Vitr. 3, 2.— In medicine, a strengthening, invigorating remedy: quae (i. e. diseases) non detractionibus, sed adjectionibus curantur, Vitr. 1, 6, 3.— In rhet., the repetition of the same word, e. g. occidi, occidi, Quint. 9, 3, 28 (in Cic., adjunctio, q. v.).— In auctions, the addition to a bid, Dig. 18, 2, 17 al.; cf. adjicio.",
+  "lsj_entry_chars": 837,
+  "lsj_senses": [
+   "an adding to, addition, annexation.",
+   "In gen.: Romana res adjectione populi Albani aucta, Liv. 1, 30: illiberalis, a small addition, id. 38, 14 ext.: caloris, Sen. Ep. 189: litterarum, Quint. 1, 5, 16; also the permission of adding, etc. (cf.: accessus, aditus): Hispalensibus familiarum adjectiones dedit, he granted to them the right of settling new families, Tac. II. 1, 78.—More freq.,",
+   "Esp., as t. t.",
+   "In archit.",
+   "A projection in the pedestal of columns, the cornice of the pedestal, Vitr. 3, 2.—",
+   "In medicine, a strengthening, invigorating remedy: quae (i. e. diseases) non detractionibus, sed adjectionibus curantur, Vitr. 1, 6, 3.—",
+   "In rhet., the repetition of the same word, e. g. occidi, occidi, Quint. 9, 3, 28 (in Cic., adjunctio, q. v.).—",
+   "In auctions, the addition to a bid, Dig. 18, 2, 17 al.; cf. adjicio."
+  ],
+  "lsj_first_sense_gloss": "an adding to",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "adiectio",
+   "adjectio"
+  ]
+ },
+ "alneus": {
+  "lsj_entry_id": "n1976",
+  "lsj_key": "alneus",
+  "lsj_headword": "alnĕus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "alnĕus, a, um, adj. alnus, of or made of alder: palus, Vitr. 5, 12; 3, 3.",
+  "lsj_entry_chars": 73,
+  "lsj_senses": [
+   "of or made of alder: palus, Vitr. 5, 12; 3, 3."
+  ],
+  "lsj_first_sense_gloss": "made of alder",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "alneus"
+  ]
+ },
+ "amphiprostylos": {
+  "lsj_entry_id": "n2329",
+  "lsj_key": "amphiprostylos",
+  "lsj_headword": "amphĭprostȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "amphĭprostȳlos, i, m., = ἀμφιπρόστυλος (with pillars before and behind), a temple which had pillars in front and rear, but not at the sides, Vitr. 3, 1.",
+  "lsj_entry_chars": 152,
+  "lsj_senses": [
+   "a temple which had pillars in front and rear, but not at the sides, Vitr. 3, 1."
+  ],
+  "lsj_first_sense_gloss": "a temple which had pillars in front and rear",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "amphiprostylos"
+  ]
+ },
+ "ancon": {
+  "lsj_entry_id": "n2497",
+  "lsj_key": "ancon1",
+  "lsj_headword": "ancōn",
+  "lsj_sense_count": 6,
+  "lsj_entry_text": "ancōn, ōnis, m. v. ango, = ἀγκών (the bend of the arm), t. t., for the pure Lat. cubitum. The arm of a workman's square, Vitr. 3, 3 fin.; 8, 6.— A stone in a wall, which projects above more than below, and supports something; a console or volute, Vitr. 4, 6.— The knobbed bars of a hydraulic engine, Vitr. 10, 13.— Forked poles for spreading nets (pure Lat., ames, Hor. Epod. 2, 33), Grat. Cyn. 87.— The arm of a chair, Cael. Aur. Tard. 2, 1.— A kind of drinking-vessel in an alehouse, Dig. 33, 7, 13.",
+  "lsj_entry_chars": 501,
+  "lsj_senses": [
+   "The arm of a workman's square, Vitr. 3, 3 fin.; 8, 6.—",
+   "A stone in a wall, which projects above more than below, and supports something; a console or volute, Vitr. 4, 6.—",
+   "The knobbed bars of a hydraulic engine, Vitr. 10, 13.—",
+   "Forked poles for spreading nets (pure Lat., ames, Hor. Epod. 2, 33), Grat. Cyn. 87.—",
+   "The arm of a chair, Cael. Aur. Tard. 2, 1.—",
+   "A kind of drinking-vessel in an alehouse, Dig. 33, 7, 13."
+  ],
+  "lsj_first_sense_gloss": "The arm of a workman's square",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "ancon"
+  ]
+ },
+ "angulo": {
+  "lsj_entry_id": "n2579",
+  "lsj_key": "angulo",
+  "lsj_headword": "angŭlo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "angŭlo, āre, v. a. id., to make angular or cornered, Ambros. Ep. 42.—Hence, * angŭlātus, a, um, P. a., made angular; with angles, angular: corpuscula, Cic. N. D. 1, 24.",
+  "lsj_entry_chars": 168,
+  "lsj_senses": [
+   "to make angular or cornered, Ambros. Ep. 42.—Hence, * angŭlātus, a, um, P. a., made angular; with angles, angular: corpuscula, Cic. N. D. 1, 24."
+  ],
+  "lsj_first_sense_gloss": "to make angular",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "angulo"
+  ]
+ },
+ "antae": {
+  "lsj_entry_id": "n2721",
+  "lsj_key": "antae",
+  "lsj_headword": "antae",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "antae, ārum, f. perh. ante, q. v., pillars or pilasters on each side of (i.e. opposite sides of) doors or at the corners of buildings, Vitr. 3, 1; 4, 4.—Hence, aedes in antis, a temple with pilasters on the corners, Vitr. 4, 7.",
+  "lsj_entry_chars": 227,
+  "lsj_senses": [
+   "pillars or pilasters on each side of (i.e. opposite sides of) doors or at the corners of buildings, Vitr. 3, 1; 4, 4.—Hence, aedes in antis, a temple with pilasters on the corners, Vitr. 4, 7."
+  ],
+  "lsj_first_sense_gloss": "pillars",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "antae"
+  ]
+ },
+ "antes": {
+  "lsj_entry_id": "n2798",
+  "lsj_key": "antes",
+  "lsj_headword": "antes",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "antes, ium, m. etym. unc., perh. from ante, as before, over against, one another, rows, e. g. of vines, Verg. G. 2, 417, cf. Paul. ex. Fest. p. 16 Müll.—Also of plants, Col. 10, 376.—Of ranks of soldiers, Cato ap. Philarg. ad Verg. G. 2, 417.",
+  "lsj_entry_chars": 242,
+  "lsj_senses": [
+   "rows, e. g. of vines, Verg. G. 2, 417, cf. Paul. ex. Fest. p. 16 Müll.—Also of plants, Col. 10, 376.—Of ranks of soldiers, Cato ap. Philarg. ad Verg. G. 2, 417."
+  ],
+  "lsj_first_sense_gloss": "rows",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "antes"
+  ]
+ },
+ "apparentia": {
+  "lsj_entry_id": "n3119",
+  "lsj_key": "apparentia",
+  "lsj_headword": "appārentĭa",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "appārentĭa (adp-), ae, f. appareo, a becoming visible, appearing, appearance (only late Lat.): Christi, Tert. adv. Marc. 1, 19.—Trop., the external appearance: bona, Firm. Math. 5, 8.",
+  "lsj_entry_chars": 183,
+  "lsj_senses": [
+   "a becoming visible, appearing, appearance (only late Lat.): Christi, Tert. adv. Marc. 1, 19.—Trop., the external appearance: bona, Firm. Math. 5, 8."
+  ],
+  "lsj_first_sense_gloss": "a becoming visible",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "apparentia"
+  ]
+ },
+ "araeostylos": {
+  "lsj_entry_id": "n3327",
+  "lsj_key": "araeostylos",
+  "lsj_headword": "ăraeostўlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "ăraeostўlos, on, adj., = ἀραιόστυλος, with columns standing for apart, areostyle, Vitr. 3, 2 and 3.",
+  "lsj_entry_chars": 99,
+  "lsj_senses": [
+   "with columns standing for apart, areostyle, Vitr. 3, 2 and 3."
+  ],
+  "lsj_first_sense_gloss": "with columns standing for apart",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "araeostylos"
+  ]
+ },
+ "architectura": {
+  "lsj_entry_id": "n3447",
+  "lsj_key": "architectura",
+  "lsj_headword": "archĭtectūra",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "archĭtectūra, ae, f. id., the art of building, architecture, = ἀρχιτεκτονία. Lit., * Cic. Off. 1, 42, 151; Vitr. 1, 1; 1, 3.— Trop., of historical representation: Specus ipsa quā concameratur architecturā! Plin. 11, 24, 28, § 82.",
+  "lsj_entry_chars": 229,
+  "lsj_senses": [
+   "the art of building, architecture, = ἀρχιτεκτονία.",
+   "Lit., * Cic. Off. 1, 42, 151; Vitr. 1, 1; 1, 3.—",
+   "Trop., of historical representation: Specus ipsa quā concameratur architecturā! Plin. 11, 24, 28, § 82."
+  ],
+  "lsj_first_sense_gloss": "the art of building",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "architectura"
+  ]
+ },
+ "architectus": {
+  "lsj_entry_id": "n3448",
+  "lsj_key": "architectus",
+  "lsj_headword": "archĭtectus",
+  "lsj_sense_count": 6,
+  "lsj_entry_text": "archĭtectus, i, m., = ἀρχιτέκτων (the usual form, while † archĭtecton, ŏnis, is rare). Form architectus. A master-builder, architect: fabri architectique, Plaut. Mil. 3, 3, 45: Philo architectus, Cic. de Or. 1, 14, 62; so id. Fam. 9, 2; Vitr. 1, 1; Plin. 34, 14, 42, § 148; Vulg. Eccli. 38, 28; ib. Isa. 3, 3; ib. 2 Macc. 2, 30: ut sapiens architectus, ib. 1 Cor. 3, 10 al.— Trop., an inventor, deviser, contriver, author, maker: bene factis Juppiter architectus, Plaut. Am. prol. 45 ( = auctor atque opifex, Lambin.): inventor veritatis et quasi architectus beatae vitae Epicurus, Cic. Fin. 1, 10, 32 (cf. id. ib. 2, 16, 52: architectari voluptates): princeps atque architectus sceleris, id. Clu. 22: Stoici architecti paene verborum, id. Brut. 31, 118.—Hence, archĭtecta, ae, f., a female architect: natura architecta vis, Plin. 10, 71, 91, § 196.— Form architecton. A master-builder, architect, etc.: nam sibi laudavisse hasce ait architectonem, Nescio quem, esse aedificatas has sane bene, Plaut. Most. 3, 2, 73; Sen. Ep. 90; Sol. 32 fin.— Trop., a master in cunning, a crafty man: me quoque dolis jam superat architectonem, Plaut. Poen. 5, 2, 150.",
+  "lsj_entry_chars": 1152,
+  "lsj_senses": [
+   "Form architectus.",
+   "A master-builder, architect: fabri architectique, Plaut. Mil. 3, 3, 45: Philo architectus, Cic. de Or. 1, 14, 62; so id. Fam. 9, 2; Vitr. 1, 1; Plin. 34, 14, 42, § 148; Vulg. Eccli. 38, 28; ib. Isa. 3, 3; ib. 2 Macc. 2, 30: ut sapiens architectus, ib. 1 Cor. 3, 10 al.—",
+   "Trop., an inventor, deviser, contriver, author, maker: bene factis Juppiter architectus, Plaut. Am. prol. 45 ( = auctor atque opifex, Lambin.): inventor veritatis et quasi architectus beatae vitae Epicurus, Cic. Fin. 1, 10, 32 (cf. id. ib. 2, 16, 52: architectari voluptates): princeps atque architectus sceleris, id. Clu. 22: Stoici architecti paene verborum, id. Brut. 31, 118.—Hence, archĭtecta, ae, f., a female architect: natura architecta vis, Plin. 10, 71, 91, § 196.—",
+   "Form architecton.",
+   "A master-builder, architect, etc.: nam sibi laudavisse hasce ait architectonem, Nescio quem, esse aedificatas has sane bene, Plaut. Most. 3, 2, 73; Sen. Ep. 90; Sol. 32 fin.—",
+   "Trop., a master in cunning, a crafty man: me quoque dolis jam superat architectonem, Plaut. Poen. 5, 2, 150."
+  ],
+  "lsj_first_sense_gloss": "orm architectus",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "architectus"
+  ]
+ },
+ "asso": {
+  "lsj_entry_id": "n4085",
+  "lsj_key": "asso",
+  "lsj_headword": "asso",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "asso, āvi, 1, v. a. assus, to roast, broil (late Lat.): assari, App. M. 2, p. 119, 12: assaverunt Phase super ignem, Vulg. 2 Par. 35, 13: assavit carnes ejus, ib. Tob. 6, 6: jecur, Apic. 2, 1.",
+  "lsj_entry_chars": 192,
+  "lsj_senses": [
+   "to roast, broil (late Lat.): assari, App. M. 2, p. 119, 12: assaverunt Phase super ignem, Vulg. 2 Par. 35, 13: assavit carnes ejus, ib. Tob. 6, 6: jecur, Apic. 2, 1."
+  ],
+  "lsj_first_sense_gloss": "to roast",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "asso"
+  ]
+ },
+ "astragalus": {
+  "lsj_entry_id": "n4155",
+  "lsj_key": "astragalus",
+  "lsj_headword": "astrăgălus",
+  "lsj_sense_count": 4,
+  "lsj_entry_text": "astrăgălus, i, m., = ἀστράγαλος (the ankle-bone). In arch. A little round moulding in the form of a ring, which encircles the upper part of a column, an astragal, Vitr. 3, 3.— Lesbius, a sort of moulding carved to represent a string of pearls, a festoon, a stem with seeds of grain or olives, Vitr. 4, 6.— A leguminous plant, Spanish tragacanth: Astragalus Baeticus, Linn.; Plin. 26, 8, 29, § 46.",
+  "lsj_entry_chars": 396,
+  "lsj_senses": [
+   "In arch.",
+   "A little round moulding in the form of a ring, which encircles the upper part of a column, an astragal, Vitr. 3, 3.—",
+   "Lesbius, a sort of moulding carved to represent a string of pearls, a festoon, a stem with seeds of grain or olives, Vitr. 4, 6.—",
+   "A leguminous plant, Spanish tragacanth: Astragalus Baeticus, Linn.; Plin. 26, 8, 29, § 46."
+  ],
+  "lsj_first_sense_gloss": "arch",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "astragalus"
+  ]
+ },
+ "barycephalus": {
+  "lsj_entry_id": "n4993",
+  "lsj_key": "barycephalus",
+  "lsj_headword": "bărўcĕphălus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "bărўcĕphălus, a, um, = βαρνκέφαλος, or bărўcus, a, um, adj [βαρύς], in archit., top-heavy, with low walls and broad roofs, Vitr. 3, 3, 5.",
+  "lsj_entry_chars": 137,
+  "lsj_senses": [
+   "adj [βαρύς], in archit., top-heavy, with low walls and broad roofs, Vitr. 3, 3, 5."
+  ],
+  "lsj_first_sense_gloss": "adj",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "barycephalus"
+  ]
+ },
+ "bes": {
+  "lsj_entry_id": "n5224",
+  "lsj_key": "bes",
+  "lsj_headword": "bes",
+  "lsj_sense_count": 13,
+  "lsj_entry_text": "bes, bessis, m. (nom. bessis, Paul. ex Fest. p. 33 Müll.; Prisc. Ponder. p. 1348 P.) [be-is = binae partes assis]. Two thirds of a unit (the as); eight unciae, or twelfths (cf. as): bessis octo sunt unciae (8/12 = 2/3), triens quattuor, Paul. ex Fest. l. l. As a coin: fenus ex triente Idib. Quint. factum erat bessibus, i. e. instead of the previous monthly interest of 1/3 %, 2/3 % was now reckoned; thus, acc. to the present mode of calculating, for the year, the interest advanced from 4 % (12X1/3) to 8 % (12X2/3), * Cic. Att. 4, 15, 7.— In gen., two thirds of any whole. Of shares in a partnership: Nerva constituit, ut tu ex triente socius esses, ego ex besse, Dig. 17, 2, 76.— Of a sum of money: exsolvere bessem pretii, Dig. 17, 1, 12.— Of a tract of land: emere bessem fundi, Dig. 16, 21, 2, § 39: bisque novem, Nemeaee, dabis, bessemque (i. e. eight months) sub illis, Manil. 3, 367.— Of a jugerum: partes duae tertiae pedes decem novem milia et ducentos, hoc est bes, in quo sunt scripula CXCII., Col. 5, 1, 11.— Of a measure of capacity: bes sextarii, Scrib. Comp. 126.— Of a pound, = 8 ounces: in binos semodios farinae satis esse bessem fermenti, Plin. 18, 11, 26, § 102; Scrib. Comp. 157.— Of an inheritance: heres ex besse, Plin. Ep. 7, 24, 2.— Meton. for eight: quincunces et sex cyathos bessemque bibamus, Caïus ut fiat Julius et Proculus (i. e. so many letters were comprised in these names; cf. 1. bibo, 2. e.), Mart. 11, 36, 7 and 8.— Bes alter = (12+8)/12 = 1 2/3, Fest. s. v. triens, p. 363 Müll.— In mathematics, where the cardinal number is six (cf. as !*?), bes = 4, Gr. δίμοιρος, Vitr. 3, 1, p. 61 Rod. and bes alter = (6+4)/6 = 1 2/3, Gr. ἐπιδίμοιρος, id. ib.",
+  "lsj_entry_chars": 1688,
+  "lsj_senses": [
+   "Two thirds of a unit (the as); eight unciae, or twelfths (cf. as): bessis octo sunt unciae (8/12 = 2/3), triens quattuor, Paul. ex Fest. l. l.",
+   "As a coin: fenus ex triente Idib. Quint. factum erat bessibus, i. e. instead of the previous monthly interest of 1/3 %, 2/3 % was now reckoned; thus, acc. to the present mode of calculating, for the year, the interest advanced from 4 % (12X1/3) to 8 % (12X2/3), * Cic. Att. 4, 15, 7.—",
+   "In gen., two thirds of any whole.",
+   "Of shares in a partnership: Nerva constituit, ut tu ex triente socius esses, ego ex besse, Dig. 17, 2, 76.—",
+   "Of a sum of money: exsolvere bessem pretii, Dig. 17, 1, 12.—",
+   "Of a tract of land: emere bessem fundi, Dig. 16, 21, 2, § 39: bisque novem, Nemeaee, dabis, bessemque (i. e. eight months) sub illis, Manil. 3, 367.—",
+   "Of a jugerum: partes duae tertiae pedes decem novem milia et ducentos, hoc est bes, in quo sunt scripula CXCII., Col. 5, 1, 11.—",
+   "Of a measure of capacity: bes sextarii, Scrib. Comp. 126.—",
+   "Of a pound, = 8 ounces: in binos semodios farinae satis esse bessem fermenti, Plin. 18, 11, 26, § 102; Scrib. Comp. 157.—",
+   "Of an inheritance: heres ex besse, Plin. Ep. 7, 24, 2.—",
+   "Meton. for eight: quincunces et sex cyathos bessemque bibamus, Caïus ut fiat Julius et Proculus (i. e. so many letters were comprised in these names; cf. 1. bibo, 2. e.), Mart. 11, 36, 7 and 8.—",
+   "Bes alter = (12+8)/12 = 1 2/3, Fest. s. v. triens, p. 363 Müll.—",
+   "In mathematics, where the cardinal number is six (cf. as !*?), bes = 4, Gr. δίμοιρος, Vitr. 3, 1, p. 61 Rod. and bes alter = (6+4)/6 = 1 2/3, Gr. ἐπιδίμοιρος, id. ib."
+  ],
+  "lsj_first_sense_gloss": "Two thirds of a unit",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "bes"
+  ]
+ },
+ "bipedalis": {
+  "lsj_entry_id": "n5379",
+  "lsj_key": "bipedalis",
+  "lsj_headword": "bĭpĕdālis",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "bĭpĕdālis, e, adj. id., two feet long, broad, or thick (class. in prose and poetry): fenestrae, Cato, R. R. 14, 2: trabes, two feet thick, Caes. B. G. 4, 17: materia, id. B. C. 2, 10: sol huic (Epicuro) bipedalis fortasse videtur, * Cic. Fin. 1, 6, 20: adulescentulus bipedali minor, * Suet. Aug. 43: tegulae, Vitr. 7, 1 fin.: modulus, Hor. S. 2, 3, 309: hiatus, Plin. 16, 12, 23, § 57: latitudo, Col. 8, 3, 7.— Subst.: bĭpĕdāle, is, n., a tile or flag-stone two feet long, Inscr. Fabr. p. 500, 39.",
+  "lsj_entry_chars": 498,
+  "lsj_senses": [
+   "two feet long, broad, or thick (class. in prose and poetry): fenestrae, Cato, R. R. 14, 2: trabes, two feet thick, Caes. B. G. 4, 17: materia, id. B. C. 2, 10: sol huic (Epicuro) bipedalis fortasse videtur, * Cic. Fin. 1, 6, 20: adulescentulus bipedali minor, * Suet. Aug. 43: tegulae, Vitr. 7, 1 fin.: modulus, Hor. S. 2, 3, 309: hiatus, Plin. 16, 12, 23, § 57: latitudo, Col. 8, 3, 7.—",
+   "Subst.: bĭpĕdāle, is, n., a tile or flag-stone two feet long, Inscr. Fabr. p. 500, 39."
+  ],
+  "lsj_first_sense_gloss": "two feet long",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "bipedalis"
+  ]
+ },
+ "canalis": {
+  "lsj_entry_id": "n6438",
+  "lsj_key": "canalis",
+  "lsj_headword": "cănālis",
+  "lsj_sense_count": 8,
+  "lsj_entry_text": "cănālis, is, m. (rarely ante- and postclass., f., Cato, R. R. 18, 6; Varr. R. R. 3, 5, 2; 3, 7, 8; 3, 11, 2; Auct. Aetn. 127 and 149; cf. the dim. canaliculus, etc., Rudd. I. p. 25, n. 35) [kindr. with Sanscr. root khan, fodere, perfodere; Gr. χαίνω, χανῶ; Germ. gähnen, to yawn; or cf. canna, a pipe, reed; Fr. canale; Engl. canal; Sp. cañon]. In gen., a pipe, groove, channel, whether open or closed, esp. a water-pipe or channel, a conduit, a canal, Cato, R. R. l. l.; Varr. R. R. l. l.; Verg. G. 3, 330; Caes. B. C. 2, 10; Verg. G. 4, 265; Liv. 23, 31, 9; Suet. Claud. 20; Vitr. 8, 7; Plin. 6, 22, 24, § 82; Stat. S. 1, 2, 205; Auct. Aetn. 127 al.—Of a channel or trench in mines, Plin. 33, 4, 21, § 69.—Of the windpipe: animae, Plin. 8, 10, 10, § 29. —Of the cervix vulvae, Cels. 4, 1, § 38.—Of a sewer running to the cloaca: (fore) in medio propter canalem, Plaut. Curc. 4, 1, 15; cf. canalicolae.— Trop. (not in Cic.), of vision: (pupillae) angustiae non sinunt vagari incertam aciem ac velut canali dirigunt, Plin. 11, 37, 55, § 148; cf.: cujus limine transmeato... jam canale directo perges ad regiam, App. M. 6, p. 180, 19.—And of the flow of speech: pleniore canali fluere, Quint. 11, 3, 167: certo canali cuncta decurrere, Gallicanus ap. Non. p. 198, 5.— Esp. In architecture, the groove or fluting upon Ionic capitals, Vitr. 3, 5, 7.— — The channel for missiles in a catapult, Vitr. 10, 13, 7.— In surgery, a splint for holding broken bones together, Cels. 8, 10, § 65 sq.— A household utensil of unknown form and use, Dig. 33, 7, 12, § 21.— A musical instrument, the reed-pipe, Calp. Ecl. 4, 76.",
+  "lsj_entry_chars": 1609,
+  "lsj_senses": [
+   "In gen., a pipe, groove, channel, whether open or closed, esp. a water-pipe or channel, a conduit, a canal, Cato, R. R. l. l.; Varr. R. R. l. l.; Verg. G. 3, 330; Caes. B. C. 2, 10; Verg. G. 4, 265; Liv. 23, 31, 9; Suet. Claud. 20; Vitr. 8, 7; Plin. 6, 22, 24, § 82; Stat. S. 1, 2, 205; Auct. Aetn. 127 al.—Of a channel or trench in mines, Plin. 33, 4, 21, § 69.—Of the windpipe: animae, Plin. 8, 10, 10, § 29. —Of the cervix vulvae, Cels. 4, 1, § 38.—Of a sewer running to the cloaca: (fore) in medio propter canalem, Plaut. Curc. 4, 1, 15; cf. canalicolae.—",
+   "Trop. (not in Cic.), of vision: (pupillae) angustiae non sinunt vagari incertam aciem ac velut canali dirigunt, Plin. 11, 37, 55, § 148; cf.: cujus limine transmeato... jam canale directo perges ad regiam, App. M. 6, p. 180, 19.—And of the flow of speech: pleniore canali fluere, Quint. 11, 3, 167: certo canali cuncta decurrere, Gallicanus ap. Non. p. 198, 5.—",
+   "Esp.",
+   "In architecture, the groove or fluting upon Ionic capitals, Vitr. 3, 5, 7.— —",
+   "The channel for missiles in a catapult, Vitr. 10, 13, 7.—",
+   "In surgery, a splint for holding broken bones together, Cels. 8, 10, § 65 sq.—",
+   "A household utensil of unknown form and use, Dig. 33, 7, 12, § 21.—",
+   "A musical instrument, the reed-pipe, Calp. Ecl. 4, 76."
+  ],
+  "lsj_first_sense_gloss": "a pipe",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "canalis"
+  ]
+ },
+ "centrum": {
+  "lsj_entry_id": "n7425",
+  "lsj_key": "centrum",
+  "lsj_headword": "centrum",
+  "lsj_sense_count": 4,
+  "lsj_entry_text": "centrum, i, n., = κέντρον (a prickle, sharp point). Centrum circini, the stationary foot of the compasses, around which the other is carried in making a circle, Vitr. 3, 1; 9, 5.—Hence, Meton. The middle point of a circle, the centre, Vitr. 3, 1; 9, 1; Plin. 2, 15, 13, § 63; 2, 19, 17, § 81 et saep.—In plur.: solis terraeque centra, Plin. 18, 29, 69, § 281 (in Cic. Tusc. 1, 17, 40, used as a Greek word).— A kernel, a hard knot in the interior of wood, precious stones, etc., Plin. 16, 39, 76, § 198; 37, 2, 10, § 28; 37, 9, 39, § 120 al.",
+  "lsj_entry_chars": 541,
+  "lsj_senses": [
+   "Centrum circini, the stationary foot of the compasses, around which the other is carried in making a circle, Vitr. 3, 1; 9, 5.—Hence,",
+   "Meton.",
+   "The middle point of a circle, the centre, Vitr. 3, 1; 9, 1; Plin. 2, 15, 13, § 63; 2, 19, 17, § 81 et saep.—In plur.: solis terraeque centra, Plin. 18, 29, 69, § 281 (in Cic. Tusc. 1, 17, 40, used as a Greek word).—",
+   "A kernel, a hard knot in the interior of wood, precious stones, etc., Plin. 16, 39, 76, § 198; 37, 2, 10, § 28; 37, 9, 39, § 120 al."
+  ],
+  "lsj_first_sense_gloss": "the stationary foot of the compasses",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "centrum"
+  ]
+ },
+ "certatio": {
+  "lsj_entry_id": "n7581",
+  "lsj_key": "certatio",
+  "lsj_headword": "certātĭo",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "certātĭo, ōnis, f. 2. certo, a contending, striving, a combat, strife, contest, etc. (in good prose, most freq. in Cic.). Lit. In gen.: jam ludi publici sint corporum certatione, cursu, etc., Cic. Leg. 2, 15, 38; cf. id. ib. 2, 9, 22; Ter. Ad. 2, 2, 4: certationes xysticorum, Suet. Aug. 45.— Esp., a military contest, a fight (very rare), Sisenn. ap. Non. p. 196, 1.— Trop.: Medea nequaquam istuc istac ibit: magna inest certatio, Enn. ap. Cic. N. D. 3, 25, 65 (Trag. Rel. v. 304 Vahl.): relinquitur non mihi cum Torquato sed virtuti cum voluptate certatio, Cic. Fin. 2, 14, 44: haec inter eos (amicos) fit honesta certatio, id. Lael. 9, 32: ingenia exercere certationibus, Vitr. 2, 1, 3.—Of a judicial contest: haec est iniqua certatio, Cic. Quint. 22, 73: non par, id. ib. 21, 68; hence: per populum multae poenae certatio esto, Lex ap. Cic. Leg. 3, 3, 6; Liv. 25, 4, 8.—So in the lang. of political life: certatio multae, a public discussion concerning a punishment to be inflicted, Cic. Leg. 3, 3, 6; Liv. 25, 4, 8 (cf. id. 25, 3, 13).",
+  "lsj_entry_chars": 1040,
+  "lsj_senses": [
+   "a contending, striving, a combat, strife, contest, etc. (in good prose, most freq. in Cic.).",
+   "Lit.",
+   "In gen.: jam ludi publici sint corporum certatione, cursu, etc., Cic. Leg. 2, 15, 38; cf. id. ib. 2, 9, 22; Ter. Ad. 2, 2, 4: certationes xysticorum, Suet. Aug. 45.—",
+   "Esp., a military contest, a fight (very rare), Sisenn. ap. Non. p. 196, 1.—",
+   "Trop.: Medea nequaquam istuc istac ibit: magna inest certatio, Enn. ap. Cic. N. D. 3, 25, 65 (Trag. Rel. v. 304 Vahl.): relinquitur non mihi cum Torquato sed virtuti cum voluptate certatio, Cic. Fin. 2, 14, 44: haec inter eos (amicos) fit honesta certatio, id. Lael. 9, 32: ingenia exercere certationibus, Vitr. 2, 1, 3.—Of a judicial contest: haec est iniqua certatio, Cic. Quint. 22, 73: non par, id. ib. 21, 68; hence: per populum multae poenae certatio esto, Lex ap. Cic. Leg. 3, 3, 6; Liv. 25, 4, 8.—So in the lang. of political life: certatio multae, a public discussion concerning a punishment to be inflicted, Cic. Leg. 3, 3, 6; Liv. 25, 4, 8 (cf. id. 25, 3, 13)."
+  ],
+  "lsj_first_sense_gloss": "a contending",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "certatio"
+  ]
+ },
+ "circinatio": {
+  "lsj_entry_id": "n8097",
+  "lsj_key": "circinatio",
+  "lsj_headword": "circĭnātĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "circĭnātĭo, ōnis, f. circino (lit. the describing of a circle; hence, concrete), the circumference of a circle, a circle (a word of Vitr.): linea circinationis, Vitr. 1, 6, 6: circuli, id. 9, 7, 2; 3, 3; 10, 10 al.—Of the circular path of the planets, Vitr. 9, 4, pp. 264, 266 Bip.",
+  "lsj_entry_chars": 281,
+  "lsj_senses": [
+   "the circumference of a circle, a circle (a word of Vitr.): linea circinationis, Vitr. 1, 6, 6: circuli, id. 9, 7, 2; 3, 3; 10, 10 al.—Of the circular path of the planets, Vitr. 9, 4, pp. 264, 266 Bip."
+  ],
+  "lsj_first_sense_gloss": "the circumference of a circle",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "circinatio"
+  ]
+ },
+ "circinus": {
+  "lsj_entry_id": "n8099",
+  "lsj_key": "circinus",
+  "lsj_headword": "circĭnus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "circĭnus, i, m.. = κίρκινος, a pair of compasses' flumen Dubis. ut circino circumductum, paene totum oppidum cingit, Caes. B. G. 1, 38: diducere, Vitr. 9, 7, 2: circino spatia dimetiri, id ib.; id. 10, 4, 1: ratio circini, Plin. 2, 15, 13, § 63.",
+  "lsj_entry_chars": 245,
+  "lsj_senses": [
+   "m.. = κίρκινος, a pair of compasses' flumen Dubis. ut circino circumductum, paene totum oppidum cingit, Caes. B. G. 1, 38: diducere, Vitr. 9, 7, 2: circino spatia dimetiri, id ib.; id. 10, 4, 1: ratio circini, Plin. 2, 15, 13, § 63."
+  ],
+  "lsj_first_sense_gloss": "a pair of compasses",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "circinus"
+  ]
+ },
+ "commetior": {
+  "lsj_entry_id": "n9362",
+  "lsj_key": "commetior",
+  "lsj_headword": "com-mētĭor",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "com-mētĭor (con-m-), mensus, 4, v. dep., to measure (very rare): omnes porticus, Plaut. Most. 3, 3, 8: agros, Col. 5, 1, 2: siderum ambitus inter se numero, Cic. Univ. 9.—* Trop., to measure with or by something, to proportion: negotium cum tempore, Cic. Inv. 1, 26, 39.",
+  "lsj_entry_chars": 270,
+  "lsj_senses": [
+   "to measure (very rare): omnes porticus, Plaut. Most. 3, 3, 8: agros, Col. 5, 1, 2: siderum ambitus inter se numero, Cic. Univ. 9.—*",
+   "Trop., to measure with or by something, to proportion: negotium cum tempore, Cic. Inv. 1, 26, 39."
+  ],
+  "lsj_first_sense_gloss": "to measure",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "commetior"
+  ]
+ },
+ "commodulatio": {
+  "lsj_entry_id": "n9422",
+  "lsj_key": "commodulatio",
+  "lsj_headword": "com-mŏdŭlātĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "com-mŏdŭlātĭo, ōnis, f., regularity, proportion, symmetry, Vitr. 3, 1, 1.",
+  "lsj_entry_chars": 73,
+  "lsj_senses": [
+   "regularity, proportion, symmetry, Vitr. 3, 1, 1."
+  ],
+  "lsj_first_sense_gloss": "regularity",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "commodulatio"
+  ]
+ },
+ "consideratio": {
+  "lsj_entry_id": "n10500",
+  "lsj_key": "consideratio",
+  "lsj_headword": "consīdĕrātĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "consīdĕrātĭo, ōnis, f. considero, II., contemplation, consideration, reflection (rare; not in Quint.): consideratio contemplatioque naturae, Cic. Ac. 2, 41, 127: accurata, id. ib. 2, 11, 36; id. Inv. 2, 33, 103: subtilior verborum, Gell. 13, 29 (28), 6.",
+  "lsj_entry_chars": 253,
+  "lsj_senses": [
+   "contemplation, consideration, reflection (rare; not in Quint.): consideratio contemplatioque naturae, Cic. Ac. 2, 41, 127: accurata, id. ib. 2, 11, 36; id. Inv. 2, 33, 103: subtilior verborum, Gell. 13, 29 (28), 6."
+  ],
+  "lsj_first_sense_gloss": "contemplation, consideration, reflection",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "consideratio"
+  ]
+ },
+ "crebritas": {
+  "lsj_entry_id": "n11515",
+  "lsj_key": "crebritas",
+  "lsj_headword": "crēbrĭtas",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "crēbrĭtas, ātis, f. creber, thickness, closeness, frequency: spissae venarum, Vitr. 2, 10, 2: caeli, id. 9, 8, 3: fluctuum, Sall. H. Fragm. ap. Serv. ad Verg. A. 1, 116 (3, 42 Dietsch): litterarum, Cic. Att. 13, 18 init.: crebritas et magnitudo officiorum, id. Fam. 3, 1, 1: sententiarum (with concinnitas), id. Brut. 95, 327.",
+  "lsj_entry_chars": 326,
+  "lsj_senses": [
+   "thickness, closeness, frequency: spissae venarum, Vitr. 2, 10, 2: caeli, id. 9, 8, 3: fluctuum, Sall. H. Fragm. ap. Serv. ad Verg. A. 1, 116 (3, 42 Dietsch): litterarum, Cic. Att. 13, 18 init.: crebritas et magnitudo officiorum, id. Fam. 3, 1, 1: sententiarum (with concinnitas), id. Brut. 95, 327."
+  ],
+  "lsj_first_sense_gloss": "thickness, closeness, frequency",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "crebritas"
+  ]
+ },
+ "cubito": {
+  "lsj_entry_id": "n11776",
+  "lsj_key": "cubito",
+  "lsj_headword": "cŭbĭto",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "cŭbĭto, āvi, 1, v. freq. n. [cubo], to lie down often, to be accustomed to lie down (rare): anus hic solet cubitare, Plaut. Curc. 1, 1, 76; Cic. Cael. 15, 36: humi (pavones), Col. 8, 11 fin.: super pedes cubitantis reclinis, Tac. A. 14, 5.—Of sexual intercourse: cum aliquā (aliquo), Plaut. Curc. 1, 1, 57; id. Stich. 4, 1, 41; Quint. 8, 3, 22.",
+  "lsj_entry_chars": 344,
+  "lsj_senses": [
+   "v. freq. n. [cubo], to lie down often, to be accustomed to lie down (rare): anus hic solet cubitare, Plaut. Curc. 1, 1, 76; Cic. Cael. 15, 36: humi (pavones), Col. 8, 11 fin.: super pedes cubitantis reclinis, Tac. A. 14, 5.—Of sexual intercourse: cum aliquā (aliquo), Plaut. Curc. 1, 1, 57; id. Stich. 4, 1, 41; Quint. 8, 3, 22."
+  ],
+  "lsj_first_sense_gloss": "to lie down often, to be accustomed to lie down",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "cubito"
+  ]
+ },
+ "cubitum": {
+  "lsj_entry_id": "n11779",
+  "lsj_key": "cubitum",
+  "lsj_headword": "cŭbĭtum",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "cŭbĭtum, i, n. (cŭbĭtus, i, m., Cels. 8, 1; 8, 16; Non. p. 201, 16) [id.], the elbow (serving for leaning upon). Prop., Cels. 1. 1.; Plin. 11, 45, 102, § 249; Plaut. Stich. 2, 1, 13; Verg. A. 4, 690; Ov. M. 7, 343; Hor. C. 1, 27, 8; id. S. 2, 4, 39; Quint. 11, 3, 93 al.— Meton. The bending, curvature of a shore: orae, Plin. 3, 13, 18, § 111. — As a measure of length, the distance from the elbow to the end of the middle finger, an ell, a cubit, Lucil. ap. Non. p. 201, 18; Plaut. Poen. 4, 2, 15; Cic. Leg. 2, 26, 66; id. Att. 13, 12, 3; Plin. 7, 2, 2, § 22; Suet. Aug. 43 al.—Prov.: assiduo cursu cubitum nullum procedere, Cic. Att. 13, 12, 3; cf.: cursitare ac ne cubiti quidem mensuram progredi, Suet. Tib. 38.—Hence, Ital. cubito; Fr. coude.",
+  "lsj_entry_chars": 747,
+  "lsj_senses": [
+   "the elbow (serving for leaning upon).",
+   "Prop., Cels. 1. 1.; Plin. 11, 45, 102, § 249; Plaut. Stich. 2, 1, 13; Verg. A. 4, 690; Ov. M. 7, 343; Hor. C. 1, 27, 8; id. S. 2, 4, 39; Quint. 11, 3, 93 al.—",
+   "Meton.",
+   "The bending, curvature of a shore: orae, Plin. 3, 13, 18, § 111. —",
+   "As a measure of length, the distance from the elbow to the end of the middle finger, an ell, a cubit, Lucil. ap. Non. p. 201, 18; Plaut. Poen. 4, 2, 15; Cic. Leg. 2, 26, 66; id. Att. 13, 12, 3; Plin. 7, 2, 2, § 22; Suet. Aug. 43 al.—Prov.: assiduo cursu cubitum nullum procedere, Cic. Att. 13, 12, 3; cf.: cursitare ac ne cubiti quidem mensuram progredi, Suet. Tib. 38.—Hence, Ital. cubito; Fr. coude."
+  ],
+  "lsj_first_sense_gloss": "the elbow",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "cubitum"
+  ]
+ },
+ "cymatium": {
+  "lsj_entry_id": "n12128",
+  "lsj_key": "cymatium",
+  "lsj_headword": "cȳmătĭum",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "cȳmătĭum (cūm-) or -on, ii, n., = κυμάτιον (a small wave); in architecture, The volute of an Ionic column, Vitr. 3, 5, 7; 4, 1, 7.— A channel, a waved moulding, an ogee, Vitr. 3, 5, 10; 4, 3, 6; 4, 3, 8; 4, 6, 2; Tert. Idol. 8.",
+  "lsj_entry_chars": 227,
+  "lsj_senses": [
+   "The volute of an Ionic column, Vitr. 3, 5, 7; 4, 1, 7.—",
+   "A channel, a waved moulding, an ogee, Vitr. 3, 5, 10; 4, 3, 6; 4, 3, 8; 4, 6, 2; Tert. Idol. 8."
+  ],
+  "lsj_first_sense_gloss": "The volute of an Ionic column",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "cymatium"
+  ]
+ },
+ "decastylos": {
+  "lsj_entry_id": "n12426",
+  "lsj_key": "decastylos",
+  "lsj_headword": "dĕcastўlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "dĕcastўlos, i, m., adj., = δεκάστυλος, having ten columns, decastyle, Vitr. 3, 1 fin.",
+  "lsj_entry_chars": 85,
+  "lsj_senses": [
+   "having ten columns, decastyle, Vitr. 3, 1 fin."
+  ],
+  "lsj_first_sense_gloss": "having ten columns, decastyle",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "decastylos"
+  ]
+ },
+ "deformatio": {
+  "lsj_entry_id": "n12727",
+  "lsj_key": "deformatio1",
+  "lsj_headword": "dēformātĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "dēformātĭo, ōnis, f. 1. deformo, a representation, delineation, Vitr. 1, 1; 3, praef. fin.",
+  "lsj_entry_chars": 90,
+  "lsj_senses": [
+   "a representation, delineation, Vitr. 1, 1; 3, praef. fin."
+  ],
+  "lsj_first_sense_gloss": "a representation, delineation",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "deformatio"
+  ]
+ },
+ "demonstratio": {
+  "lsj_entry_id": "n13042",
+  "lsj_key": "demonstratio",
+  "lsj_headword": "dēmonstrātĭo",
+  "lsj_sense_count": 8,
+  "lsj_entry_text": "dēmonstrātĭo, ōnis, f. id., a showing or pointing out, as with the finger, an indication, description, designation. In gen. (good prose): gestus universam rem et sententiam non demonstratione sed significatione declarans, Cic. de Or. 3, 59: conversam habere, Cic. Verr. 2, 4, 59: hujus generis demonstratio est, et doctrina ipsa vulgaris, id. de Or. 3, 55, 209: temporum horum, Plin. 4, 13, 27, § 93.—In plur., Cic. Fin. 4, 5, 13.— In partic. In rhetor. The demonstrative or laudatory kind of oratory, i. q. demonstrativum genus, Cic. Inv. 1, 9, 12; Quint. 3, 4, 13; 11, 3, 115.— A vivid delineation, picturesque presentation, Gr. διατύπωσις ἐνέργεια, Auct. Her. 4, 55, 68; cf. Quint. 9, 2, 40.— In jurisprud., a clear and complete declaration of one's will, Dig. 35, tit. 1: de condicionibus et demonstrationibus, Gai. ib. 17; ib. 30, 1, 74.— The bounding or limiting of a place, Dig. 8, 1, 13; 10, 1, 12.",
+  "lsj_entry_chars": 906,
+  "lsj_senses": [
+   "a showing or pointing out, as with the finger, an indication, description, designation.",
+   "In gen. (good prose): gestus universam rem et sententiam non demonstratione sed significatione declarans, Cic. de Or. 3, 59: conversam habere, Cic. Verr. 2, 4, 59: hujus generis demonstratio est, et doctrina ipsa vulgaris, id. de Or. 3, 55, 209: temporum horum, Plin. 4, 13, 27, § 93.—In plur., Cic. Fin. 4, 5, 13.—",
+   "In partic.",
+   "In rhetor.",
+   "The demonstrative or laudatory kind of oratory, i. q. demonstrativum genus, Cic. Inv. 1, 9, 12; Quint. 3, 4, 13; 11, 3, 115.—",
+   "A vivid delineation, picturesque presentation, Gr. διατύπωσις ἐνέργεια, Auct. Her. 4, 55, 68; cf. Quint. 9, 2, 40.—",
+   "In jurisprud., a clear and complete declaration of one's will, Dig. 35, tit. 1: de condicionibus et demonstrationibus, Gai. ib. 17; ib. 30, 1, 74.—",
+   "The bounding or limiting of a place, Dig. 8, 1, 13; 10, 1, 12."
+  ],
+  "lsj_first_sense_gloss": "a showing",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "demonstratio"
+  ]
+ },
+ "designatio": {
+  "lsj_entry_id": "n13380",
+  "lsj_key": "designatio",
+  "lsj_headword": "dēsignātĭo",
+  "lsj_sense_count": 4,
+  "lsj_entry_text": "dēsignātĭo or dissignātio (the latter form better in sense II. Brambach s. v. Lex Jul. Munic. ap. Corp. Inscr. Lat. p. 206), ōnis, f. id.. A marking out, describing, designating: cellarum, Vitr. 5, 5: undarum, id. 5, 3: quadrata, id. 3, 1, 3. —Transf., a specification: personarum et temporum, Cic. de Or. 1, 31, 138; Lact. 4, 15, 5.— A disposition, arrangement: totius operis, Cic. N. D. 1, 8 fin.: librorum meorum, id. Att. 4, 46.— The selection, designation to a public office; of consuls: annua designatio, Tac. A. 2, 36 fin.: consulatus, Suet. Caes. 9.",
+  "lsj_entry_chars": 557,
+  "lsj_senses": [
+   "s. v. Lex Jul. Munic. ap. Corp. Inscr. Lat. p. 206), ōnis, f. id..",
+   "A marking out, describing, designating: cellarum, Vitr. 5, 5: undarum, id. 5, 3: quadrata, id. 3, 1, 3. —Transf., a specification: personarum et temporum, Cic. de Or. 1, 31, 138; Lact. 4, 15, 5.—",
+   "A disposition, arrangement: totius operis, Cic. N. D. 1, 8 fin.: librorum meorum, id. Att. 4, 46.—",
+   "The selection, designation to a public office; of consuls: annua designatio, Tac. A. 2, 36 fin.: consulatus, Suet. Caes. 9."
+  ],
+  "lsj_first_sense_gloss": "ap",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "designatio"
+  ]
+ },
+ "diametros": {
+  "lsj_entry_id": "n13727",
+  "lsj_key": "diametros",
+  "lsj_headword": "dĭămē^tros",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "dĭămē^tros, i, f., = διάμετρος, a diameter, Col. 5, 2, 7; Vitr. 10, 14; Macr. Somn. Scip. 1, 20 sq. al.— Adj., central: radiatio, Firm. Math. 4, 1 med.",
+  "lsj_entry_chars": 151,
+  "lsj_senses": [
+   "a diameter, Col. 5, 2, 7; Vitr. 10, 14; Macr. Somn. Scip. 1, 20 sq. al.—",
+   "Adj., central: radiatio, Firm. Math. 4, 1 med."
+  ],
+  "lsj_first_sense_gloss": "a diameter",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "diametros"
+  ]
+ },
+ "diastylos": {
+  "lsj_entry_id": "n13755",
+  "lsj_key": "diastylos",
+  "lsj_headword": "dĭastȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "dĭastȳlos, on, adj., = διάστυλος, having columns far apart, diastyle: species aedium, Vitr. 3, 3, 1 sq.",
+  "lsj_entry_chars": 103,
+  "lsj_senses": [
+   "having columns far apart, diastyle: species aedium, Vitr. 3, 3, 1 sq."
+  ],
+  "lsj_first_sense_gloss": "having columns far apart, diastyle",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "diastylos"
+  ]
+ },
+ "dichalcum": {
+  "lsj_entry_id": "n13793",
+  "lsj_key": "dichalcum",
+  "lsj_headword": "dĭchalcum",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "dĭchalcum, i, n., = δίχαλκον, a small coin, the fourth (acc. to others, the fifth) part of an obolus, Vitr. 3, 1; cf. Plin. 21, 34, 109, § 185.",
+  "lsj_entry_chars": 143,
+  "lsj_senses": [
+   "a small coin, the fourth (acc. to others, the fifth) part of an obolus, Vitr. 3, 1; cf. Plin. 21, 34, 109, § 185."
+  ],
+  "lsj_first_sense_gloss": "a small coin, the fourth",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "dichalcum"
+  ]
+ },
+ "dimidio": {
+  "lsj_entry_id": "n14019",
+  "lsj_key": "dimidio",
+  "lsj_headword": "dīmĭdĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "dīmĭdĭo, no perf., ātum, 1, v. a. dimidius, to divide into two equal parts, to halve (as a finite verb, very rare): quid dimidias Christum? Tert. de Carn. Chr. 5.— Trop.: viri dolosi non dimidiabunt dies suos, i. e. shall not live half the life of men, Vulg. Psa. 54, 23; cf. also, id. Job, 21, 21; but freq. and class. in the perf. part. dīmĭ-dĭātus, halved, half (acc. to Varr. ap. Gell. 3, 14, 19, applied to a whole, which is divided into halves; whereas dimidius is applied to a half; or, as Gellius rightly explains it, dimidiatum nisi ipsum, quod divisum est, dici haud convenit; dimidium vero est, non quod ipsum dimidiatum est, sed quae ex dimidiato pars altera est; cf. however, dimidius, I.): homines dimidiati, Cato ap. Gell. l. l.; cf. id. R. R. 151, 3; and comic.: procellunt sese in mensam dimidiati (with half the body), dum appetunt, Plaut. Mil. 3, 1, 165; cf. also, transf.: dies quidem jam ad umbilicum est dimidiatus mortuus, id. Men. 1, 2, 45: luna, Cato ap. Plin. 16, 39, 75, § 194; cf. mensis, Cic. Verr. 2, 2, 52; id. Tusc. 2, 16: vas vini, Enn. ap. Gell. l. l.: porcus, Lucil. ib.; cf. Suet. Tib. 34: solea, Lucil. ap. Gell. l. l.: librum, fabulam legi, Varr. ib.; cf.: exesis posterioribus partibus versiculorum, dimidiatis fere, Cic. Tusc. 5, 23, 66; so the comic verse respecting Terence: tu quoque, tu in summis, o dimidiate Menander, etc., Caes. ap. Suet. Vita Ter. fin.",
+  "lsj_entry_chars": 1400,
+  "lsj_senses": [
+   "perf., ātum, 1, v. a. dimidius, to divide into two equal parts, to halve (as a finite verb, very rare): quid dimidias Christum? Tert. de Carn. Chr. 5.— Trop.: viri dolosi non dimidiabunt dies suos, i. e. shall not live half the life of men, Vulg. Psa. 54, 23; cf. also, id. Job, 21, 21; but freq. and class. in the perf. part. dīmĭ-dĭātus, halved, half (acc. to Varr. ap. Gell. 3, 14, 19, applied to a whole, which is divided into halves; whereas dimidius is applied to a half; or, as Gellius rightly explains it, dimidiatum nisi ipsum, quod divisum est, dici haud convenit; dimidium vero est, non quod ipsum dimidiatum est, sed quae ex dimidiato pars altera est; cf. however, dimidius, I.): homines dimidiati, Cato ap. Gell. l. l.; cf. id. R. R. 151, 3; and comic.: procellunt sese in mensam dimidiati (with half the body), dum appetunt, Plaut. Mil. 3, 1, 165; cf. also, transf.: dies quidem jam ad umbilicum est dimidiatus mortuus, id. Men. 1, 2, 45: luna, Cato ap. Plin. 16, 39, 75, § 194; cf. mensis, Cic. Verr. 2, 2, 52; id. Tusc. 2, 16: vas vini, Enn. ap. Gell. l. l.: porcus, Lucil. ib.; cf. Suet. Tib. 34: solea, Lucil. ap. Gell. l. l.: librum, fabulam legi, Varr. ib.; cf.: exesis posterioribus partibus versiculorum, dimidiatis fere, Cic. Tusc. 5, 23, 66; so the comic verse respecting Terence: tu quoque, tu in summis, o dimidiate Menander, etc., Caes. ap. Suet. Vita Ter. fin."
+  ],
+  "lsj_first_sense_gloss": "perf",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "dimidio"
+  ]
+ },
+ "dipteros": {
+  "lsj_entry_id": "n14094",
+  "lsj_key": "dipteros",
+  "lsj_headword": "diptĕros",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "diptĕros, on, adj., = δίπτερος, with two wings: aedes, Vitr. 3, 1, 7 praef.",
+  "lsj_entry_chars": 75,
+  "lsj_senses": [
+   "with two wings: aedes, Vitr. 3, 1, 7 praef."
+  ],
+  "lsj_first_sense_gloss": "with two wings",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "dipteros"
+  ]
+ },
+ "dispositio": {
+  "lsj_entry_id": "n14342",
+  "lsj_key": "dispositio",
+  "lsj_headword": "dispŏsĭtĭo",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "dispŏsĭtĭo, ōnis, f. dispono. A regular disposition, arrangement, in oratory, Cic. Inv. 1, 7, 9; id. de Or. 2, 42, 179; Auct. Her. 1, 2, 3; 3, 10, 18; Quint. 3, 3, 1 sq. et saep.; in arch., Vitr. 1, 2; in painting, Plin. 35, 10, 36, § 80; in milit., Veg. A. M. 3, 26; Amm. 24, 6.— In post-class. lang., management, ordering, direction, Capitol. Maxim. 9; Sid. Ep. 3, 6 fin.: ultima, testamentary disposition, Cod. 6, 23, 28 prooem.",
+  "lsj_entry_chars": 431,
+  "lsj_senses": [
+   "A regular disposition, arrangement, in oratory, Cic. Inv. 1, 7, 9; id. de Or. 2, 42, 179; Auct. Her. 1, 2, 3; 3, 10, 18; Quint. 3, 3, 1 sq. et saep.; in arch., Vitr. 1, 2; in painting, Plin. 35, 10, 36, § 80; in milit., Veg. A. M. 3, 26; Amm. 24, 6.—",
+   "In post-class. lang., management, ordering, direction, Capitol. Maxim. 9; Sid. Ep. 3, 6 fin.: ultima, testamentary disposition, Cod. 6, 23, 28 prooem."
+  ],
+  "lsj_first_sense_gloss": "A regular disposition, arrangement",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "dispositio"
+  ]
+ },
+ "distributio": {
+  "lsj_entry_id": "n14487",
+  "lsj_key": "distributio",
+  "lsj_headword": "distrĭbūtĭo",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "distrĭbūtĭo, ōnis, f. distribuo, a division, distribution. In gen.: caeli, Cic. Div. 2, 20: invidiae et criminum, id. Clu. 1: utilis rerum ac partium in locos, Quint. 7, 1, 1.—In plur., Cic. Part. 2, 7.— Esp. As a fig. of speech, the resolution of a statement or idea into several, Cic. de Or. 3, 53, 203; Auct. Her. 4, 35, 47.— In arch., Vitr. 1, 2 fin.",
+  "lsj_entry_chars": 354,
+  "lsj_senses": [
+   "a division, distribution.",
+   "In gen.: caeli, Cic. Div. 2, 20: invidiae et criminum, id. Clu. 1: utilis rerum ac partium in locos, Quint. 7, 1, 1.—In plur., Cic. Part. 2, 7.—",
+   "Esp.",
+   "As a fig. of speech, the resolution of a statement or idea into several, Cic. de Or. 3, 53, 203; Auct. Her. 4, 35, 47.—",
+   "In arch., Vitr. 1, 2 fin."
+  ],
+  "lsj_first_sense_gloss": "a division",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "distributio"
+  ]
+ },
+ "dodrans": {
+  "lsj_entry_id": "n14631",
+  "lsj_key": "dodrans",
+  "lsj_headword": "dōdrans",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "dōdrans, antis, m., nine twelfths or three fourths of any thing (v. as, I.). In gen.: alicujus aedificii reliquum dodrantem emere, Cic. Att. 1, 14 fin.; cf.: solvere dodrantem, Mart. 8, 9: heres ex dodrante, Nep. Att. 5, 2; Suet. Caes. 83: jugeri, Col. 5, 1, 11; Liv. 8, 11: operae, Col. 2, 4, 8: dodrantes semuncias horarum, Plin. 2, 14, 11, § 58: pondo dodrans, Scrib. Comp. 45 et saep.— Esp. As a measure of length, nine inches, Plin. 36, 9, 14, § 71; Suet. Aug. 79; Front. Aquaed. 65.— As a measure of time, three quarters of an hour, Plin. 18, 25, 58, § 219; 2, 14, 11, § 58.",
+  "lsj_entry_chars": 580,
+  "lsj_senses": [
+   "nine twelfths or three fourths of any thing (v. as, I.).",
+   "In gen.: alicujus aedificii reliquum dodrantem emere, Cic. Att. 1, 14 fin.; cf.: solvere dodrantem, Mart. 8, 9: heres ex dodrante, Nep. Att. 5, 2; Suet. Caes. 83: jugeri, Col. 5, 1, 11; Liv. 8, 11: operae, Col. 2, 4, 8: dodrantes semuncias horarum, Plin. 2, 14, 11, § 58: pondo dodrans, Scrib. Comp. 45 et saep.—",
+   "Esp.",
+   "As a measure of length, nine inches, Plin. 36, 9, 14, § 71; Suet. Aug. 79; Front. Aquaed. 65.—",
+   "As a measure of time, three quarters of an hour, Plin. 18, 25, 58, § 219; 2, 14, 11, § 58."
+  ],
+  "lsj_first_sense_gloss": "nine twelfths",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "dodrans"
+  ]
+ },
+ "duodecimus": {
+  "lsj_entry_id": "n14921",
+  "lsj_key": "duodecimus",
+  "lsj_headword": "dŭŏ-dĕcĭmus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "dŭŏ-dĕcĭmus, a, um, ord. num., the twelfth (a common word in Caes.): legio, Caes. B. G. 2, 23, 4; 2, 25, 1; 3, 1, 1; 7, 62, 4; id. B. C. 3, 34, 3.—Adv.: dŭŏdĕcĭmo, for the twelfth time: consul, Capitol. Anton. Pius, 1, § 8.",
+  "lsj_entry_chars": 223,
+  "lsj_senses": [
+   "ord. num., the twelfth (a common word in Caes.): legio, Caes. B. G. 2, 23, 4; 2, 25, 1; 3, 1, 1; 7, 62, 4; id. B. C. 3, 34, 3.—Adv.: dŭŏdĕcĭmo, for the twelfth time: consul, Capitol. Anton. Pius, 1, § 8."
+  ],
+  "lsj_first_sense_gloss": "ord. num",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "duodecimus"
+  ]
+ },
+ "duplicatio": {
+  "lsj_entry_id": "n14951",
+  "lsj_key": "duplicatio",
+  "lsj_headword": "dū^plĭcātĭo",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "dū^plĭcātĭo, ōnis, f. duplico, a doubling (post-Aug.): radiorum, i. e. reflection, Sen. Q. N. 4, 8; Dig. 9, 4, 31: temporis, ib. 48, 19, 8.— Esp., As arithm. t. t., a doubling, multiplication by two, Mart. Cap. 7, § 750.— As jurid. t. t., the answering of one objection by another, turning an objection upon an adversary, Gai. 4, 127.— As rhet. fig., = ἀναδίπλωσις, the repetition of a word in beginning a clause, Ruf. Schem. Lex. § 8.",
+  "lsj_entry_chars": 435,
+  "lsj_senses": [
+   "a doubling (post-Aug.): radiorum, i. e. reflection, Sen. Q. N. 4, 8; Dig. 9, 4, 31: temporis, ib. 48, 19, 8.—",
+   "Esp.,",
+   "As arithm. t. t., a doubling, multiplication by two, Mart. Cap. 7, § 750.—",
+   "As jurid. t. t., the answering of one objection by another, turning an objection upon an adversary, Gai. 4, 127.—",
+   "As rhet. fig., = ἀναδίπλωσις, the repetition of a word in beginning a clause, Ruf. Schem. Lex. § 8."
+  ],
+  "lsj_first_sense_gloss": "a doubling",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "duplicatio"
+  ]
+ },
+ "ecphora": {
+  "lsj_entry_id": "n15114",
+  "lsj_key": "ecphora",
+  "lsj_headword": "ecphŏra",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "ecphŏra, ae, f., = ἐκφορά, a projection in buildings (pure Lat. projectura), Vitr. 3, 3, 16; 6, 2, 2.",
+  "lsj_entry_chars": 101,
+  "lsj_senses": [
+   "a projection in buildings (pure Lat. projectura), Vitr. 3, 3, 16; 6, 2, 2."
+  ],
+  "lsj_first_sense_gloss": "a projection in buildings",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "ecphora"
+  ]
+ },
+ "epistylium": {
+  "lsj_entry_id": "n15998",
+  "lsj_key": "epistylium",
+  "lsj_headword": "ĕpistȳlĭum",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "ĕpistȳlĭum, ii, n., = ἐπιστύλιον, in arch., the cross-beam that rests on the columns, the architrave, Vitr. 3, 1 sq.; 4, 3; 5, 1; Varr. R. R. 3, 5, 11; Plin. 36, 14, 21, § 96; cf. Paul. ex Fest. p. 82, 11 Müll. Isid. Orig. 15, 8, 15; 19, 10, 24; Vulg. 3 Reg. 7, 6 al.",
+  "lsj_entry_chars": 267,
+  "lsj_senses": [
+   "the cross-beam that rests on the columns, the architrave, Vitr. 3, 1 sq.; 4, 3; 5, 1; Varr. R. R. 3, 5, 11; Plin. 36, 14, 21, § 96; cf. Paul. ex Fest. p. 82, 11 Müll. Isid. Orig. 15, 8, 15; 19, 10, 24; Vulg. 3 Reg. 7, 6 al."
+  ],
+  "lsj_first_sense_gloss": "the cross-beam that rests on the columns",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "epistylium"
+  ]
+ },
+ "eustylos": {
+  "lsj_entry_id": "n16412",
+  "lsj_key": "eustylos",
+  "lsj_headword": "eustȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "eustȳlos, on, adj., = εὔστυλος, with pillars evenly arranged, Vitr. 3, 2.",
+  "lsj_entry_chars": 73,
+  "lsj_senses": [
+   "with pillars evenly arranged, Vitr. 3, 2."
+  ],
+  "lsj_first_sense_gloss": "with pillars evenly arranged",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "eustylos"
+  ]
+ },
+ "exactio": {
+  "lsj_entry_id": "n16530",
+  "lsj_key": "exactio",
+  "lsj_headword": "exactĭo",
+  "lsj_sense_count": 6,
+  "lsj_entry_text": "exactĭo, ōnis, f. exigo. * A driving out, expelling: (regum), Cic. de Or. 1, 9, 37 (perh. only on account of the preceding exactis regibus).— A demanding, exacting, requisition. In gen.: in exhibendis operariis, Lact. Mort. Pers. 7, 8: quotidiana, operis, Col. 11, 1, 26.—Hence, the supervision, conduct of a public work; cf. exactor, II. A.: operum publicorum, Cic. Dom. 20, 51.—Far more freq., In partic., a calling in, collecting of debts, Cic. Att. 5, 1; id. Leg. 2, 20, 51; Liv. 38, 38; Dig. 42, 8, 24: vectigalium, Vulg. 2 Macc. 4, 28 et saep.— Transf., a tax, tribute, impost: acerbissima capitum atque ostiorum, poll and hearth tax, Cic. Fam. 3, 8, 5: publicae, Asin. Pol. ap. Cic. Fam. 10, 32; cf. illicitae, Tac. A. 13, 51; and: exactionum coactor (pater Horatii), Suet. Vita Hor.— A finishing, completion, Vitr. 3, 1; 6, 11; Aus. Idyll. 11, 5.",
+  "lsj_entry_chars": 854,
+  "lsj_senses": [
+   "A driving out, expelling: (regum), Cic. de Or. 1, 9, 37 (perh. only on account of the preceding exactis regibus).—",
+   "A demanding, exacting, requisition.",
+   "In gen.: in exhibendis operariis, Lact. Mort. Pers. 7, 8: quotidiana, operis, Col. 11, 1, 26.—Hence, the supervision, conduct of a public work; cf. exactor, II. A.: operum publicorum, Cic. Dom. 20, 51.—Far more freq.,",
+   "In partic., a calling in, collecting of debts, Cic. Att. 5, 1; id. Leg. 2, 20, 51; Liv. 38, 38; Dig. 42, 8, 24: vectigalium, Vulg. 2 Macc. 4, 28 et saep.—",
+   "Transf., a tax, tribute, impost: acerbissima capitum atque ostiorum, poll and hearth tax, Cic. Fam. 3, 8, 5: publicae, Asin. Pol. ap. Cic. Fam. 10, 32; cf. illicitae, Tac. A. 13, 51; and: exactionum coactor (pater Horatii), Suet. Vita Hor.—",
+   "A finishing, completion, Vitr. 3, 1; 6, 11; Aus. Idyll. 11, 5."
+  ],
+  "lsj_first_sense_gloss": "A driving out",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "exactio"
+  ]
+ },
+ "exiguitas": {
+  "lsj_entry_id": "n16875",
+  "lsj_key": "exiguitas",
+  "lsj_headword": "exĭgŭĭtas",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "exĭgŭĭtas, ātis, f. exiguus, scantiness in measure or number, smallness, littleness, shortness, scarcity (class.). With gen.: cum paucitatem militum ex castrorum exiguitate cognoscerent, Caes. B. G. 4, 30, 1: pellium, id. ib. 4, 1 fin.: itaque in quibus (voluptatibus) propter earum exiguitatem obscuratio consequitur, Cic. Fin. 4, 12, 29: copiarum, Cael. ap. Cic. Fam. 8, 6, 1; cf. in the follg.: congiariorum, Quint. 6, 3, 52: cibi, Col. 7, 5, 5: fisci, Suet. Claud. 28: fructuum, Dig. 19, 2, 15, § 5: temporis tanta fuit exiguitas, ut, etc., Caes. B. G. 2, 21, 5; 2, 33, 2; Liv. 24, 17, 4 al.— Absol.: ubi Crassus animadvertit, suas copias propter exiguitatem non facile diduci, Caes. B. G. 3, 23, 7.",
+  "lsj_entry_chars": 703,
+  "lsj_senses": [
+   "scantiness in measure or number, smallness, littleness, shortness, scarcity (class.).",
+   "With gen.: cum paucitatem militum ex castrorum exiguitate cognoscerent, Caes. B. G. 4, 30, 1: pellium, id. ib. 4, 1 fin.: itaque in quibus (voluptatibus) propter earum exiguitatem obscuratio consequitur, Cic. Fin. 4, 12, 29: copiarum, Cael. ap. Cic. Fam. 8, 6, 1; cf. in the follg.: congiariorum, Quint. 6, 3, 52: cibi, Col. 7, 5, 5: fisci, Suet. Claud. 28: fructuum, Dig. 19, 2, 15, § 5: temporis tanta fuit exiguitas, ut, etc., Caes. B. G. 2, 21, 5; 2, 33, 2; Liv. 24, 17, 4 al.—",
+   "Absol.: ubi Crassus animadvertit, suas copias propter exiguitatem non facile diduci, Caes. B. G. 3, 23, 7."
+  ],
+  "lsj_first_sense_gloss": "scantiness",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "exiguitas"
+  ]
+ },
+ "fascio": {
+  "lsj_entry_id": "n17748",
+  "lsj_key": "fascio",
+  "lsj_headword": "fascĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "fascĭo, no perf., ātum, 1, v. a. fascia, to envelop with bands, to swathe (post-Aug. and very rare): fasciato trunco, Mart. 12, 57, 12; Capitol. Anton. 13.—Pass., Vulg. Ezech. 30, 21.",
+  "lsj_entry_chars": 183,
+  "lsj_senses": [
+   "perf., ātum, 1, v. a. fascia, to envelop with bands, to swathe (post-Aug. and very rare): fasciato trunco, Mart. 12, 57, 12; Capitol. Anton. 13.—Pass., Vulg. Ezech. 30, 21."
+  ],
+  "lsj_first_sense_gloss": "perf",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "fascio"
+  ]
+ },
+ "figuratio": {
+  "lsj_entry_id": "n18165",
+  "lsj_key": "figuratio",
+  "lsj_headword": "fĭgūrātĭo",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "fĭgūrātĭo, ōnis, f. figuro (post-Aug.). A forming, fashioning; shape, form, figure: nervi hic teretes, illic lati, ut in uno quoque poscit figuratio, Plin. 11, 37, 88, § 217: zona duodecim signis conformata exprimit depictam a natura figurationem, Vitr. 9, 4: Apollinis, App. Dogm. Plat. 1.— Trop. Imagination, fancy: si spei figuratione tardius cadit, Quint. Decl. 12, 27; vanae, id. ib. 6, 4.— Form of a word: (diurnare) ex ea figuratione est, qua dicimus perennare, Gell. 17, 2, 16.— Figurative mode of speaking: quisquam illorum his figurationibus uteretur, quae Graeci schemata vocant? Fronto, Ep. ad Anton. 1, 2; Lact. 1, 11, 24; 30.",
+  "lsj_entry_chars": 639,
+  "lsj_senses": [
+   "A forming, fashioning; shape, form, figure: nervi hic teretes, illic lati, ut in uno quoque poscit figuratio, Plin. 11, 37, 88, § 217: zona duodecim signis conformata exprimit depictam a natura figurationem, Vitr. 9, 4: Apollinis, App. Dogm. Plat. 1.—",
+   "Trop.",
+   "Imagination, fancy: si spei figuratione tardius cadit, Quint. Decl. 12, 27; vanae, id. ib. 6, 4.—",
+   "Form of a word: (diurnare) ex ea figuratione est, qua dicimus perennare, Gell. 17, 2, 16.—",
+   "Figurative mode of speaking: quisquam illorum his figurationibus uteretur, quae Graeci schemata vocant? Fronto, Ep. ad Anton. 1, 2; Lact. 1, 11, 24; 30."
+  ],
+  "lsj_first_sense_gloss": "A forming",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "figuratio"
+  ]
+ },
+ "fundatio": {
+  "lsj_entry_id": "n19038",
+  "lsj_key": "fundatio",
+  "lsj_headword": "fundātĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "fundātĭo, ōnis, f. 2. fundo, a founding, foundation (very rare): fundationes aedium, Vitr. 5, 3: substructionis fodere, id. 3, 3; Hil. Trin. 11, 37.",
+  "lsj_entry_chars": 148,
+  "lsj_senses": [
+   "a founding, foundation (very rare): fundationes aedium, Vitr. 5, 3: substructionis fodere, id. 3, 3; Hil. Trin. 11, 37."
+  ],
+  "lsj_first_sense_gloss": "a founding",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "fundatio"
+  ]
+ },
+ "grammicus": {
+  "lsj_entry_id": "n19847",
+  "lsj_key": "grammicus",
+  "lsj_headword": "grammĭcus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "grammĭcus, a, um, adj., = γραμμικός, of or belonging to (geometrical) lines, geometrical: rationes, Vitr. 9, 1: deformationes, draughts, sketches, id. 3 praef. fin.",
+  "lsj_entry_chars": 164,
+  "lsj_senses": [
+   "of or belonging to (geometrical) lines, geometrical: rationes, Vitr. 9, 1: deformationes, draughts, sketches, id. 3 praef. fin."
+  ],
+  "lsj_first_sense_gloss": "belonging to",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "grammicus"
+  ]
+ },
+ "hexastylos": {
+  "lsj_entry_id": "n20622",
+  "lsj_key": "hexastylos",
+  "lsj_headword": "hexastўlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "hexastўlos, on, adj., = ἑξάστυλος, having six columns, Vitr. 3, 2, 7.",
+  "lsj_entry_chars": 69,
+  "lsj_senses": [
+   "having six columns, Vitr. 3, 2, 7."
+  ],
+  "lsj_first_sense_gloss": "having six columns",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "hexastylos"
+  ]
+ },
+ "hypotrachelium": {
+  "lsj_entry_id": "n21226",
+  "lsj_key": "hypotrachelium",
+  "lsj_headword": "hўpŏtrăchēlĭum",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "hўpŏtrăchēlĭum, ĭi, n., = ὑποτραχήλιον, in archit., the neck of a column below the capital, Vitr. 3, 2 sq.; 4, 3; 7.",
+  "lsj_entry_chars": 116,
+  "lsj_senses": [
+   "the neck of a column below the capital, Vitr. 3, 2 sq.; 4, 3; 7."
+  ],
+  "lsj_first_sense_gloss": "the neck of a column below the capital",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "hypotrachelium"
+  ]
+ },
+ "impeditio": {
+  "lsj_entry_id": "n21833",
+  "lsj_key": "impeditio",
+  "lsj_headword": "impĕdītĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "impĕdītĭo (inp-), ōnis, f. impedio, a hinderance, obstruction (rare but class.): sine impeditione praeterire, Vitr. 1, 5: animus in somniis liber est sensibus et omni impeditione curarum, etc., Cic. Div. 1, 51, 115; Arn. 2, 52.",
+  "lsj_entry_chars": 227,
+  "lsj_senses": [
+   "a hinderance, obstruction (rare but class.): sine impeditione praeterire, Vitr. 1, 5: animus in somniis liber est sensibus et omni impeditione curarum, etc., Cic. Div. 1, 51, 115; Arn. 2, 52."
+  ],
+  "lsj_first_sense_gloss": "a hinderance",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "impeditio"
+  ]
+ },
+ "intercolumnium": {
+  "lsj_entry_id": "n24203",
+  "lsj_key": "intercolumnium",
+  "lsj_headword": "inter-cŏlumnĭum",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "inter-cŏlumnĭum, i, n. columna, the space between two columns, intercolumniation: ambulationis, Cic. Q. Fr. 3, 1, 2, § 5: signa omnibus intercolumniis disposita, Cic. Verr. 2, 1, 19; Vitr. 3, 1; 4, 3; Vulg. 1 Reg. 7, 31.",
+  "lsj_entry_chars": 220,
+  "lsj_senses": [
+   "the space between two columns, intercolumniation: ambulationis, Cic. Q. Fr. 3, 1, 2, § 5: signa omnibus intercolumniis disposita, Cic. Verr. 2, 1, 19; Vitr. 3, 1; 4, 3; Vulg. 1 Reg. 7, 31."
+  ],
+  "lsj_first_sense_gloss": "the space between two columns",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "intercolumnium"
+  ]
+ },
+ "intersectio": {
+  "lsj_entry_id": "n24460",
+  "lsj_key": "intersectio",
+  "lsj_headword": "intersectĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "intersectĭo, ōnis, f. interseco, an intersection; in archit., the part cut out between two teeth in indented work: intersectio, quae Graece μετοχή dicitur, Vitr. 3, 3.",
+  "lsj_entry_chars": 167,
+  "lsj_senses": [
+   "an intersection; in archit., the part cut out between two teeth in indented work: intersectio, quae Graece μετοχή dicitur, Vitr. 3, 3."
+  ],
+  "lsj_first_sense_gloss": "an intersection",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "intersectio"
+  ]
+ },
+ "inuenustus": {
+  "lsj_entry_id": "n24727",
+  "lsj_key": "invenustus",
+  "lsj_headword": "in-vĕnustus",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "in-vĕnustus, a, um, adj. Not elegant or graceful, ungraceful, not beautiful, unattractive: scortillum, Cat. 10, 4: non invenustus actor, Cic. Brut. 67, 237: res, Cat. 12, 5: arbustum, Col. 5, 6, 37. — (Without Venus, i. e.) Unfortunate in love: invenustae sine munditia et sumptu, Plaut. Poen. 1, 2, 37: homo invenustus aut infelix, Ter. And. 1, 5, 10 Don. ad loc.—Adv.: in-vĕnustē, not elegantly, ungracefully (postAug.): non invenuste dici videtur, Quint. 1, 6, 27: ludere, Gell. 17, 12, 3; App. de Mundo, p. 70.",
+  "lsj_entry_chars": 514,
+  "lsj_senses": [
+   "Not elegant or graceful, ungraceful, not beautiful, unattractive: scortillum, Cat. 10, 4: non invenustus actor, Cic. Brut. 67, 237: res, Cat. 12, 5: arbustum, Col. 5, 6, 37. —",
+   "(Without Venus, i. e.) Unfortunate in love: invenustae sine munditia et sumptu, Plaut. Poen. 1, 2, 37: homo invenustus aut infelix, Ter. And. 1, 5, 10 Don. ad loc.—Adv.: in-vĕnustē, not elegantly, ungracefully (postAug.): non invenuste dici videtur, Quint. 1, 6, 27: ludere, Gell. 17, 12, 3; App. de Mundo, p. 70."
+  ],
+  "lsj_first_sense_gloss": "Not elegant",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "invenustus"
+  ]
+ },
+ "lapideus": {
+  "lsj_entry_id": "n25838",
+  "lsj_key": "lapideus",
+  "lsj_headword": "lăpĭdĕus",
+  "lsj_sense_count": 4,
+  "lsj_entry_text": "lăpĭdĕus, a, um, adj. id.. Of stone, consisting of stones, stone-. Lit. (class.): flumen marginibus lapideis, Varr. R. R. 3, 5, 9; Cic. Leg. 2, 18, 45: imber, a shower of stones, id. Div. 2, 28, 60; so, pluit lapideo imbri, Liv. 30, 38, 8: murus, id. 1, 38 fin.: in lapideo mortario terere, Plin. 34, 18, 50, § 169: duritia, id. 27, 11, 74, § 98: suggestus, Col. 9, 7, 1.— Trop. (ante-class.): lapideo sunt corde multi, quos non miseret neminis, Enn. ap. Fest. p. 162 Müll. (Trag. v. 174 Vahl.): lapideus sum, I am petrified: commovere me miser non audeo, Plaut. Truc. 4, 3, 44.— For lapidosus, full of stones, stony (post-Aug.): lapidei campi, Plin. 3, 4, 5, § 34; 21, 10, 31, § 57: litus, Mel. 2, 5, 4.",
+  "lsj_entry_chars": 704,
+  "lsj_senses": [
+   "Of stone, consisting of stones, stone-.",
+   "Lit. (class.): flumen marginibus lapideis, Varr. R. R. 3, 5, 9; Cic. Leg. 2, 18, 45: imber, a shower of stones, id. Div. 2, 28, 60; so, pluit lapideo imbri, Liv. 30, 38, 8: murus, id. 1, 38 fin.: in lapideo mortario terere, Plin. 34, 18, 50, § 169: duritia, id. 27, 11, 74, § 98: suggestus, Col. 9, 7, 1.—",
+   "Trop. (ante-class.): lapideo sunt corde multi, quos non miseret neminis, Enn. ap. Fest. p. 162 Müll. (Trag. v. 174 Vahl.): lapideus sum, I am petrified: commovere me miser non audeo, Plaut. Truc. 4, 3, 44.—",
+   "For lapidosus, full of stones, stony (post-Aug.): lapidei campi, Plin. 3, 4, 5, § 34; 21, 10, 31, § 57: litus, Mel. 2, 5, 4."
+  ],
+  "lsj_first_sense_gloss": "Of stone, consisting of stones, stone-",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "lapideus"
+  ]
+ },
+ "laxamentum": {
+  "lsj_entry_id": "n26113",
+  "lsj_key": "laxamentum",
+  "lsj_headword": "laxāmentum",
+  "lsj_sense_count": 4,
+  "lsj_entry_text": "laxāmentum, i, n. laxo, an extending, widening. Lit. (post-Aug.): ventus laxamentum sibi parat, Sen. Q. N. 6, 18, 3: cellae, Vitr. 4, 7 fin.: ventris, an evacuating, purging, Macr. S. 7, 11.— Transf. (in concr.), a wide space, room: choragia laxamentum habeant, ad chorum parandum, Vitr. 5, 9, 1.— Trop., a relaxation, mitigation, alleviation, respite (not freq. till after the Aug. per.): si quid laxamenti a bello Samnitium esset, Liv. 9, 41: eo laxamento cogitationibus dato, id. 7, 38 fin.: ut minus laxamenti daretur iis ad auxilia Hannibali submittenda, id. 22, 37; 10, 39: nactus in navigatione pusillum laxamenti, Trebon. ap. Cic. Fam. 12, 16, 3: dare laxamentum legi, laxity, indulgence, Cic. Clu. 33, 89; so, leges rem surdam, inexorabilem esse ... nihil laxamenti nec veniae habere, Liv. 2, 3.",
+  "lsj_entry_chars": 804,
+  "lsj_senses": [
+   "an extending, widening.",
+   "Lit. (post-Aug.): ventus laxamentum sibi parat, Sen. Q. N. 6, 18, 3: cellae, Vitr. 4, 7 fin.: ventris, an evacuating, purging, Macr. S. 7, 11.—",
+   "Transf. (in concr.), a wide space, room: choragia laxamentum habeant, ad chorum parandum, Vitr. 5, 9, 1.—",
+   "Trop., a relaxation, mitigation, alleviation, respite (not freq. till after the Aug. per.): si quid laxamenti a bello Samnitium esset, Liv. 9, 41: eo laxamento cogitationibus dato, id. 7, 38 fin.: ut minus laxamenti daretur iis ad auxilia Hannibali submittenda, id. 22, 37; 10, 39: nactus in navigatione pusillum laxamenti, Trebon. ap. Cic. Fam. 12, 16, 3: dare laxamentum legi, laxity, indulgence, Cic. Clu. 33, 89; so, leges rem surdam, inexorabilem esse ... nihil laxamenti nec veniae habere, Liv. 2, 3."
+  ],
+  "lsj_first_sense_gloss": "an extending, widening",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "laxamentum"
+  ]
+ },
+ "leoninus": {
+  "lsj_entry_id": "n26273",
+  "lsj_key": "leoninus1",
+  "lsj_headword": "lĕōnīnus",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "lĕōnīnus, a, um, adj. 2. leo, of or belonging to a lion, a lion's. Lit.: concede audacter ab leonino cavo, Plaut. Men. 1, 2, 47: species, a lion-like appearance, Varr. R. R. 2, 9, 3: pellis, Plin. 37, 10, 54, § 142: jubae, id. ib.: adeps, id. 24, 17, 102, § 165.—* Trop.: leonina societas, a lion's partnership, i. e. in which one party gets all the profit and the other all the loss: Aristo refert: Cassium respondisse, societatem talem coiri non posse, ut alter lucrum tantum, alter damnum sentiret, et hanc societatem leoninam solitum appellare, Dig. 17, 2, 29, § 2.",
+  "lsj_entry_chars": 569,
+  "lsj_senses": [
+   "of or belonging to a lion, a lion's.",
+   "Lit.: concede audacter ab leonino cavo, Plaut. Men. 1, 2, 47: species, a lion-like appearance, Varr. R. R. 2, 9, 3: pellis, Plin. 37, 10, 54, § 142: jubae, id. ib.: adeps, id. 24, 17, 102, § 165.—*",
+   "Trop.: leonina societas, a lion's partnership, i. e. in which one party gets all the profit and the other all the loss: Aristo refert: Cassium respondisse, societatem talem coiri non posse, ut alter lucrum tantum, alter damnum sentiret, et hanc societatem leoninam solitum appellare, Dig. 17, 2, 29, § 2."
+  ],
+  "lsj_first_sense_gloss": "belonging to a lion, a lion's",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "leoninus"
+  ]
+ },
+ "libella": {
+  "lsj_entry_id": "n26453",
+  "lsj_key": "libella",
+  "lsj_headword": "lībella",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "lībella, ae, f. dim. libra. An as, a small silver coin, the tenth part of a denarius: nummi denarii decuma libella, quod libram pondo aeris valebat, et erat ex argento parva, Varr. L. L. 5, § 174 Müll.: librales, unde etiam nunc libella dicitur et dupondius, appendebantur asses, Plin. 33, 3, 13, § 42; Cato, R. R. 15, 1: sunt enim in sestertio libellae decem, singulae viginti, teruncii quadraginta, Volus. Maec. 66.— In gen. Prov. for a very small sum of money, as with us a farthing, groat, cent: una libella liber possum fieri, Plaut. Cas. 2, 5, 8; cf. id. Capt. 5, 1, 27: tibi libellam argenti numquam credam, id. Ps. 2, 2, 34: quoi neque libellai spes sit usquam gentium, id. ib. 1, 1, 96: quom libella nusquamst, nisi, etc., id. ib. 4, 7, 47: quis Volcatio unam libellam dedisset? Cic. Verr. 2, 2, 10, § 26.—Hence, ad libellam, i. q. ad assem, to a farthing, to a cent, exactly, Cic. Rosc. Com. 4, 11.— In inheritances: ex libella, i. q. ex asse, sole heir: Curius fecit palam te ex libella, me ex teruncio, Cic. Att. 7, 2, 3.— An instrument for detecting any variation from a perfectly horizontal surface, a level, water-level, plummetline: libella aliqua si ex parti claudicat hilum, Lucr. 4, 515: collocare et expolire aliquid ad regulam et libellam, Vitr. 1, 6, 6; cf. Plin. 36, 25, 63, § 188: structuram (parietis) ad normam et libellam fieri, et ad perpendiculum respondere oportet, id. 36, 22, 51, § 172: locus qui est ad libellam aequus, quite, perfectly level, Varr. R. R. 1, 6 fin.",
+  "lsj_entry_chars": 1498,
+  "lsj_senses": [
+   "An as, a small silver coin, the tenth part of a denarius: nummi denarii decuma libella, quod libram pondo aeris valebat, et erat ex argento parva, Varr. L. L. 5, § 174 Müll.: librales, unde etiam nunc libella dicitur et dupondius, appendebantur asses, Plin. 33, 3, 13, § 42; Cato, R. R. 15, 1: sunt enim in sestertio libellae decem, singulae viginti, teruncii quadraginta, Volus. Maec. 66.—",
+   "In gen.",
+   "Prov. for a very small sum of money, as with us a farthing, groat, cent: una libella liber possum fieri, Plaut. Cas. 2, 5, 8; cf. id. Capt. 5, 1, 27: tibi libellam argenti numquam credam, id. Ps. 2, 2, 34: quoi neque libellai spes sit usquam gentium, id. ib. 1, 1, 96: quom libella nusquamst, nisi, etc., id. ib. 4, 7, 47: quis Volcatio unam libellam dedisset? Cic. Verr. 2, 2, 10, § 26.—Hence, ad libellam, i. q. ad assem, to a farthing, to a cent, exactly, Cic. Rosc. Com. 4, 11.—",
+   "In inheritances: ex libella, i. q. ex asse, sole heir: Curius fecit palam te ex libella, me ex teruncio, Cic. Att. 7, 2, 3.—",
+   "An instrument for detecting any variation from a perfectly horizontal surface, a level, water-level, plummetline: libella aliqua si ex parti claudicat hilum, Lucr. 4, 515: collocare et expolire aliquid ad regulam et libellam, Vitr. 1, 6, 6; cf. Plin. 36, 25, 63, § 188: structuram (parietis) ad normam et libellam fieri, et ad perpendiculum respondere oportet, id. 36, 22, 51, § 172: locus qui est ad libellam aequus, quite, perfectly level, Varr. R. R. 1, 6 fin."
+  ],
+  "lsj_first_sense_gloss": "a small silver coin, the tenth part of a",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "libella"
+  ]
+ },
+ "mathematicus": {
+  "lsj_entry_id": "n28200",
+  "lsj_key": "mathematicus",
+  "lsj_headword": "măthēmătĭcus",
+  "lsj_sense_count": 9,
+  "lsj_entry_text": "măthēmătĭcus, a, um, adj., = μαθηματικός, of or belonging to mathematics, mathematical (class.). Adj.: mathematica nota, Vitr. 1, 1: artes, Plin. 30, 1, 1, § 2: cogitatio, Macr. Somn. Scip. 2, 2: disciplinae, i. e. geometry, arithmetic, astronomy, music, geography, optics, Gell. 1, 9, 6.— Subst. Măthēmătĭcus, i, m. A mathematician, Cic. de Or 1, 3, 10; id. Ac. 2, 36, 116; id. Tusc. 1, 2, 5; Sen. Ep. 88, 26.— An astrologer (post-Aug.): mathematici, genus hominum potentibus infidum, sperantibus fallax, quod in civitate nostra et vetabitur semper et retinebitur, Tac. H. 1, 22: nota mathematicis genesis tua, Juv. 14, 248; Tert. Apol. 43: qui de salute principis ... mathematicos consulit, cum eo qui responderit, capite punitur, Paul. Sent. 5, 21, 3.— Măthēmătĭca, ae, f. Mathematics, Sen. Ep. 88, 23; v. l. mă-thēmătĭcē ( = μαθηματική, sc. τέχνη).— Astrology: addictus mathematicae, persuasionisque plenus, cuncta fato agi, Suet. Tib. 69.",
+  "lsj_entry_chars": 943,
+  "lsj_senses": [
+   "of or belonging to mathematics, mathematical (class.).",
+   "Adj.: mathematica nota, Vitr. 1, 1: artes, Plin. 30, 1, 1, § 2: cogitatio, Macr. Somn. Scip. 2, 2: disciplinae, i. e. geometry, arithmetic, astronomy, music, geography, optics, Gell. 1, 9, 6.—",
+   "Subst.",
+   "Măthēmătĭcus, i, m.",
+   "A mathematician, Cic. de Or 1, 3, 10; id. Ac. 2, 36, 116; id. Tusc. 1, 2, 5; Sen. Ep. 88, 26.—",
+   "An astrologer (post-Aug.): mathematici, genus hominum potentibus infidum, sperantibus fallax, quod in civitate nostra et vetabitur semper et retinebitur, Tac. H. 1, 22: nota mathematicis genesis tua, Juv. 14, 248; Tert. Apol. 43: qui de salute principis ... mathematicos consulit, cum eo qui responderit, capite punitur, Paul. Sent. 5, 21, 3.—",
+   "Măthēmătĭca, ae, f.",
+   "Mathematics, Sen. Ep. 88, 23; v. l. mă-thēmătĭcē ( = μαθηματική, sc. τέχνη).—",
+   "Astrology: addictus mathematicae, persuasionisque plenus, cuncta fato agi, Suet. Tib. 69."
+  ],
+  "lsj_first_sense_gloss": "belonging to mathematics, mathematical",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "mathematicus"
+  ]
+ },
+ "medianus": {
+  "lsj_entry_id": "n28306",
+  "lsj_key": "medianus",
+  "lsj_headword": "mĕdĭānus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "mĕdĭānus, a, um, adj. medius, that is in the middle, middle (except Vitr., only post-class.): columnae, Vitr. 3, 2, 6: acroteria, id. 3, 5, 12: capita leonina, id. 3, 5, 15: digitus, Veg. Vet. 2, 40, 3: filius, Hier. Ep. 73, 3: porta, Inscr. Fabr. 463, 95.— Subst.: mĕdĭānum, i, n., the middle part, the middle: ex mediano coenaculi, Dig. 9, 3, 5, § 2.—Plur.: mediana malvarum, Apic. 4, 2, 133.",
+  "lsj_entry_chars": 394,
+  "lsj_senses": [
+   "that is in the middle, middle (except Vitr., only post-class.): columnae, Vitr. 3, 2, 6: acroteria, id. 3, 5, 12: capita leonina, id. 3, 5, 15: digitus, Veg. Vet. 2, 40, 3: filius, Hier. Ep. 73, 3: porta, Inscr. Fabr. 463, 95.— Subst.: mĕdĭānum, i, n., the middle part, the middle: ex mediano coenaculi, Dig. 9, 3, 5, § 2.—Plur.: mediana malvarum, Apic. 4, 2, 133."
+  ],
+  "lsj_first_sense_gloss": "that is in the middle, middle",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "medianus"
+  ]
+ },
+ "mensuro": {
+  "lsj_entry_id": "n28717",
+  "lsj_key": "mensuro",
+  "lsj_headword": "mensūro",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "mensūro, 1, v. a. mensura, to measure (post-class.): fossa mensuratur, Veg. Mil. 1, 25; Gromat. Vet. p. 232, 9: fines, Hilar. in Psa. 15, 8: longitudinem, Vulg. Ezech. 45, 3; 48, 30 al.— Trop., to measure, estimate: suas opes viresque suorum, Coripp. Laud. Just. 3, 372.—Hence, mensūratē, adv., by measurement, Cassiod. in Psa. 69, 5.",
+  "lsj_entry_chars": 334,
+  "lsj_senses": [
+   "to measure (post-class.): fossa mensuratur, Veg. Mil. 1, 25; Gromat. Vet. p. 232, 9: fines, Hilar. in Psa. 15, 8: longitudinem, Vulg. Ezech. 45, 3; 48, 30 al.—",
+   "Trop., to measure, estimate: suas opes viresque suorum, Coripp. Laud. Just. 3, 372.—Hence, mensūratē, adv., by measurement, Cassiod. in Psa. 69, 5."
+  ],
+  "lsj_first_sense_gloss": "to measure",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "mensuro"
+  ]
+ },
+ "modulus": {
+  "lsj_entry_id": "n29399",
+  "lsj_key": "modulus",
+  "lsj_headword": "mŏdŭlus",
+  "lsj_sense_count": 6,
+  "lsj_entry_text": "mŏdŭlus, i, m. dim. modus, a small measure, a measure (not in Cic. or Cæs.). Lit.: relinquitur de numero, quem faciunt alii majorem, alii minorem, nulli enim hujus moduli naturales, Varr. R. R. 2, 2, 20: ab imo Ad summum moduli bipedalis, two feet high, Hor. S. 2, 3, 309.—Prov.: metiri se quemque suo modulo ac pede, i. e. to be content with his own condition, Hor. Ep. 1, 7, 98.— In archit., a module: si Dorici generis erunt columnae, dimetiantur earum altitudines cum capitulis in partes quindecim, et ex eis partibus una constituatur, et fiat modulus, Vitr. 5, 9, 3; 3, 3, 7; 4, 3, 3 sq.— In aqueducts, a watermeter: est autem calix modulus aeneus, qui rivo, vel castello induitur: huic fistulae applicantur, Front. Aquaed. 36.— Rhythmical measure, rhythm, music, time, metre, mode, melody: moduli Lydii, Dorii, Phrygii, Plin. 7, 56, 57, § 204: verborum, Gell. 5, 1, 1: tibiarum modulis in proeliis uti, id. 1, 11, 1.— Trop.: cur non ponderibus modulisque suis ratio utitur? Hor. S. 1, 3, 78: ganeones, quibus modulus est vitae culina, measure, Varr. ap. Non. 119, 11.",
+  "lsj_entry_chars": 1073,
+  "lsj_senses": [
+   "a small measure, a measure (not in Cic. or Cæs.).",
+   "Lit.: relinquitur de numero, quem faciunt alii majorem, alii minorem, nulli enim hujus moduli naturales, Varr. R. R. 2, 2, 20: ab imo Ad summum moduli bipedalis, two feet high, Hor. S. 2, 3, 309.—Prov.: metiri se quemque suo modulo ac pede, i. e. to be content with his own condition, Hor. Ep. 1, 7, 98.—",
+   "In archit., a module: si Dorici generis erunt columnae, dimetiantur earum altitudines cum capitulis in partes quindecim, et ex eis partibus una constituatur, et fiat modulus, Vitr. 5, 9, 3; 3, 3, 7; 4, 3, 3 sq.—",
+   "In aqueducts, a watermeter: est autem calix modulus aeneus, qui rivo, vel castello induitur: huic fistulae applicantur, Front. Aquaed. 36.—",
+   "Rhythmical measure, rhythm, music, time, metre, mode, melody: moduli Lydii, Dorii, Phrygii, Plin. 7, 56, 57, § 204: verborum, Gell. 5, 1, 1: tibiarum modulis in proeliis uti, id. 1, 11, 1.—",
+   "Trop.: cur non ponderibus modulisque suis ratio utitur? Hor. S. 1, 3, 78: ganeones, quibus modulus est vitae culina, measure, Varr. ap. Non. 119, 11."
+  ],
+  "lsj_first_sense_gloss": "a small measure, a measure",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "modulus"
+  ]
+ },
+ "normo": {
+  "lsj_entry_id": "n31204",
+  "lsj_key": "normo",
+  "lsj_headword": "normo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "normo, āvi, ātum, 1, v. a. id., to square, to set by the square: basis ad perpendiculum normata, Col. 3, 13, 12.",
+  "lsj_entry_chars": 112,
+  "lsj_senses": [
+   "to square, to set by the square: basis ad perpendiculum normata, Col. 3, 13, 12."
+  ],
+  "lsj_first_sense_gloss": "to square, to set by the square",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "normo"
+  ]
+ },
+ "octastylos": {
+  "lsj_entry_id": "n32180",
+  "lsj_key": "octastylos",
+  "lsj_headword": "octă-stȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "octă-stȳlos, on, adj., = ὀκτάστυλος, having eight columns, octostyle, Vitr. 3, 2, 1.",
+  "lsj_entry_chars": 84,
+  "lsj_senses": [
+   "having eight columns, octostyle, Vitr. 3, 2, 1."
+  ],
+  "lsj_first_sense_gloss": "having eight columns",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "octastylos"
+  ]
+ },
+ "palmus": {
+  "lsj_entry_id": "n33516",
+  "lsj_key": "palmus",
+  "lsj_headword": "palmus",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "palmus, i, m. 1. palma, the palm of the hand. Lit.: manūs palmum, Vitr. 2, 3: Graeci antiqui doron palmum vocabant: et ideo dora munera, quia manu darentur, Plin. 35, 14, 49, § 171.— Transf., as a measure of length, a span, or twelve digits, Varr. R. R. 3, 7: amomum frutex myrtuosus, palmi altitudine, Plin. 12, 13, 28, § 48: minor, a smaller measure, a palm, or four digits, acc. to Vitr. 3, 1, 5.",
+  "lsj_entry_chars": 399,
+  "lsj_senses": [
+   "the palm of the hand.",
+   "Lit.: manūs palmum, Vitr. 2, 3: Graeci antiqui doron palmum vocabant: et ideo dora munera, quia manu darentur, Plin. 35, 14, 49, § 171.—",
+   "Transf., as a measure of length, a span, or twelve digits, Varr. R. R. 3, 7: amomum frutex myrtuosus, palmi altitudine, Plin. 12, 13, 28, § 48: minor, a smaller measure, a palm, or four digits, acc. to Vitr. 3, 1, 5."
+  ],
+  "lsj_first_sense_gloss": "the palm",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "palmus"
+  ]
+ },
+ "perfectio": {
+  "lsj_entry_id": "n34895",
+  "lsj_key": "perfectio",
+  "lsj_headword": "perfectĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "perfectĭo, ōnis, f. perficio, a finishing, completing, perfecting; perfection (class.): hanc absolutionem perfectionemque in oratore desiderans, Cic. de Or. 1, 28, 130: perfectio atque absolutio optimi, id. Brut. 36, 137: ad cumulum perfectionis accedere, Greg. M. Ep. 7, 10 fin.; Cic. Or. 29, 103; id. Fin. 3, 9, 32; Vulg. Num. 6, 21.—Plur.: operum perfectiones, Vitr. 3, 1, 4.",
+  "lsj_entry_chars": 378,
+  "lsj_senses": [
+   "a finishing, completing, perfecting; perfection (class.): hanc absolutionem perfectionemque in oratore desiderans, Cic. de Or. 1, 28, 130: perfectio atque absolutio optimi, id. Brut. 36, 137: ad cumulum perfectionis accedere, Greg. M. Ep. 7, 10 fin.; Cic. Or. 29, 103; id. Fin. 3, 9, 32; Vulg. Num. 6, 21.—Plur.: operum perfectiones, Vitr. 3, 1, 4."
+  ],
+  "lsj_first_sense_gloss": "a finishing",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "perfectio"
+  ]
+ },
+ "peripteros": {
+  "lsj_entry_id": "n35104",
+  "lsj_key": "peripteros",
+  "lsj_headword": "pĕriptĕros",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "pĕriptĕros, on, adj., = περίπτερος, surrounded with a row of columns on the outside: aedes, Vitr. 3, 1; 4, 7.",
+  "lsj_entry_chars": 109,
+  "lsj_senses": [
+   "surrounded with a row of columns on the outside: aedes, Vitr. 3, 1; 4, 7."
+  ],
+  "lsj_first_sense_gloss": "surrounded with a row of columns on the outside",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "peripteros"
+  ]
+ },
+ "peristylium": {
+  "lsj_entry_id": "n35116",
+  "lsj_key": "peristylium",
+  "lsj_headword": "pĕristȳlĭum",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "pĕristȳlĭum, ii, n., = περιστύλιον, a place surrounded with columns on the inside, a peristyle, Vitr. 3, 1; 5, 11; Plin. Ep. 10, 70, 3; 10, 71, 1; Suet. Aug. 82; cf. peristylum.",
+  "lsj_entry_chars": 177,
+  "lsj_senses": [
+   "a place surrounded with columns on the inside, a peristyle, Vitr. 3, 1; 5, 11; Plin. Ep. 10, 70, 3; 10, 71, 1; Suet. Aug. 82; cf. peristylum."
+  ],
+  "lsj_first_sense_gloss": "a place surrounded with columns on the inside",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "peristylium"
+  ]
+ },
+ "perpendiculum": {
+  "lsj_entry_id": "n35342",
+  "lsj_key": "perpendiculum",
+  "lsj_headword": "perpendĭcŭlum",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "perpendĭcŭlum, i, n. perpendo, a plummet, plumb-line. Lit.: non egeremus perpendiculis, non normis, non regulis, Cic. Fragm. ap. Non. 163, 3: ad perpendiculum columnas exigere, to examine by a plumb-line, id. Verr. 2, 1, 51, § 133: ad perpendiculum, perpendicular, perpendicularly, id. Fat. 10, 22: tigna non directa ad perpendiculum, sed prona et fastigiata, Caes. B. G. 4, 17: perpendiculo respondere (opp. habere proclinationes), Vitr. 6, 11; Plin. 35, 14, 49, § 172; Vulg. Zach. 1, 16.— Trop.: ad perpendiculum seque suosque habuit, Aus. Parent. 5: honestatem lenium morum velut ad perpendiculum librans, Amm. 29, 2, 16; cf. id. 21, 16, 3: velut ad perpendiculum aemulae urbes, on a strict equality, id. 14, 8, 11.",
+  "lsj_entry_chars": 718,
+  "lsj_senses": [
+   "a plummet, plumb-line.",
+   "Lit.: non egeremus perpendiculis, non normis, non regulis, Cic. Fragm. ap. Non. 163, 3: ad perpendiculum columnas exigere, to examine by a plumb-line, id. Verr. 2, 1, 51, § 133: ad perpendiculum, perpendicular, perpendicularly, id. Fat. 10, 22: tigna non directa ad perpendiculum, sed prona et fastigiata, Caes. B. G. 4, 17: perpendiculo respondere (opp. habere proclinationes), Vitr. 6, 11; Plin. 35, 14, 49, § 172; Vulg. Zach. 1, 16.—",
+   "Trop.: ad perpendiculum seque suosque habuit, Aus. Parent. 5: honestatem lenium morum velut ad perpendiculum librans, Amm. 29, 2, 16; cf. id. 21, 16, 3: velut ad perpendiculum aemulae urbes, on a strict equality, id. 14, 8, 11."
+  ],
+  "lsj_first_sense_gloss": "a plummet",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "perpendiculum"
+  ]
+ },
+ "platea": {
+  "lsj_entry_id": "n36596",
+  "lsj_key": "platea1",
+  "lsj_headword": "plătēa",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "plătēa (plătĕa, Cat. 15, 7; Hor. Ep. 2, 2, 71), ae, f., = πλατεῖα. A broad way in a city, a street (class.): quis hic est qui in plateam ingreditur? Plaut. Trin. 4, 1, 21: in hac habitasse plateă dictum est Chrysidem, Ter. And. 4, 5, 1; Caes. B. C. 1, 27: purae sunt plateae, Hor. Ep. 2, 2, 71.— An open space in a house, an area, court-yard (post-class.), Lampr. Elag. 24.",
+  "lsj_entry_chars": 373,
+  "lsj_senses": [
+   "A broad way in a city, a street (class.): quis hic est qui in plateam ingreditur? Plaut. Trin. 4, 1, 21: in hac habitasse plateă dictum est Chrysidem, Ter. And. 4, 5, 1; Caes. B. C. 1, 27: purae sunt plateae, Hor. Ep. 2, 2, 71.—",
+   "An open space in a house, an area, court-yard (post-class.), Lampr. Elag. 24."
+  ],
+  "lsj_first_sense_gloss": "A broad way in a city",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "platea"
+  ]
+ },
+ "plinthis": {
+  "lsj_entry_id": "n36679",
+  "lsj_key": "plinthis",
+  "lsj_headword": "plinthis",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "plinthis, ĭdis, f., = πλινθίς (a square tile). A square; in architect., a square base, a plinth, for plinthus, Vitr. 3, 3, 2; in land-surveying, for plinthus, Hyg. Condit. Agror. p. 210 Goes.— Plur.: plinthĭ-des, a register in the hydraulic organ, Vitr. 10, 8, 8; v. pleuritis.",
+  "lsj_entry_chars": 277,
+  "lsj_senses": [
+   "A square; in architect., a square base, a plinth, for plinthus, Vitr. 3, 3, 2; in land-surveying, for plinthus, Hyg. Condit. Agror. p. 210 Goes.—",
+   "Plur.: plinthĭ-des, a register in the hydraulic organ, Vitr. 10, 8, 8; v. pleuritis."
+  ],
+  "lsj_first_sense_gloss": "A square",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "plinthis"
+  ]
+ },
+ "plinthus": {
+  "lsj_entry_id": "n36681",
+  "lsj_key": "plinthus",
+  "lsj_headword": "plinthus",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "plinthus (-os), i, m. and f., = πλίνθος (a tile). In archit., the large flat member under the inferior moulding of a column, the base, plinth, Vitr. 3, 3; 4, 7, 3.— In land-surveying, a tile-shaped figure, containing a hundred acres of land: quae centuriae nunc appellantur plinthi, id est laterculi, Hyg. Condit. Agror. p. 205 Goes.",
+  "lsj_entry_chars": 333,
+  "lsj_senses": [
+   "In archit., the large flat member under the inferior moulding of a column, the base, plinth, Vitr. 3, 3; 4, 7, 3.—",
+   "In land-surveying, a tile-shaped figure, containing a hundred acres of land: quae centuriae nunc appellantur plinthi, id est laterculi, Hyg. Condit. Agror. p. 205 Goes."
+  ],
+  "lsj_first_sense_gloss": "the large flat member under the inferior moulding of a column",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "plinthus"
+  ]
+ },
+ "podium": {
+  "lsj_entry_id": "n36781",
+  "lsj_key": "podium",
+  "lsj_headword": "pŏdĭum",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "pŏdĭum, ii, n., = πόδιον, an elevated place, a height. In gen. (post-class.): podia ternis alta pedibus fabricantur, Pall. 1, 38.— In partic. A projection in a building, a jutty, balcony, podium (postAug.), Plin. Ep. 5, 6, 22; Vitr. 3, 3; 5, 7; 7, 4, 4; Dig. 33, 7, 12, § 22.— A projecting part in the circus or amphitheatre, a parapet or balcony next to the arena, where the emperor and other distinguished persons sat, Suet. Ner. 12; cf. Plin. 37, 3, 11, § 45: omnes ad podium spectantes, Juv. 2, 147.",
+  "lsj_entry_chars": 503,
+  "lsj_senses": [
+   "an elevated place, a height.",
+   "In gen. (post-class.): podia ternis alta pedibus fabricantur, Pall. 1, 38.—",
+   "In partic.",
+   "A projection in a building, a jutty, balcony, podium (postAug.), Plin. Ep. 5, 6, 22; Vitr. 3, 3; 5, 7; 7, 4, 4; Dig. 33, 7, 12, § 22.—",
+   "A projecting part in the circus or amphitheatre, a parapet or balcony next to the arena, where the emperor and other distinguished persons sat, Suet. Ner. 12; cf. Plin. 37, 3, 11, § 45: omnes ad podium spectantes, Juv. 2, 147."
+  ],
+  "lsj_first_sense_gloss": "an elevated place",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "podium"
+  ]
+ },
+ "posticus": {
+  "lsj_entry_id": "n37225",
+  "lsj_key": "posticus",
+  "lsj_headword": "postīcus",
+  "lsj_sense_count": 8,
+  "lsj_entry_text": "postīcus, a, um, adj. post; like anticus from ante. That is behind, hinder, back-, posterior (class., but not in Cic. or Cæs.): est etiam hic ostium aliud posticum nostrarum aedium, backdoor, Plaut. Stich. 3, 1, 40; cf.: posticum ostium dicitur in posteriore parte aedium. Ceterum antiqui etiam vicinum habitantem ad posteriorem partem aedium sic appellarunt, Paul. ex Fest. p. 220 Müll.: locus erat posticis aedium partibus, Liv. 23, 8: perrexit in interiores partes domuis posticae, of the backbuilding, out - house, Varr. ap. Non. 217, 7: domo posticā egressus, Val. Max. 5, 7, 3: muri, Varr. L. L. 5, § 42 Müll.: vicinus, v. Paul. ex Fest. l. l.: non peperit, verum posticā parte profudit, with the posteriors, Lucil. ap. Non. 217, 17: sannae, made behind the back, Pers. 1, 62: pedes, hind feet, Sol. 26: pars palatii, Suet. Oth. 6: posticam lineam in agris dividendis Serv. Sulpicius appellavit, ab exoriente sole ad occidentem quae spectabat, Fest. p. 233 Müll.: quae ante nos sunt, antica: et quae post nos sunt, postica dicuntur: et dextram anticam, sinistram posticam dicimus. Sic etiam ea caeli pars, quae sole illustratur ad meridiem, antica nominatur, quae ad septentrionem postica, Paul. ex Fest. p. 220 Müll.; cf.: ejus templi partes quattuor dicuntur: sinistra ab oriente, dextra ab occasu, antica ad meridiem, postica ad septentrionem, Varr. L. L. 7, § 7 Müll.— Subst. postīca, ae, f., a backdoor (post-class.), App. M. 9, p. 217, 25; Dig. 7, 1, 13.— postīcum, i, n. A backdoor (the prevailing form for this signif.): per posticum se conferre, Plaut. Most. 3, 3, 27: atria servantem postico falle clientem, Hor. Ep. 1, 5, 31; Vulg. Dan. 13, 18.— The back part of a building, the rear front, Titin. ap. Non. 217, 19: in pronao, et postico, Vitr. 3, 1.— A backhouse, privy (anteclass.), Lucil. ap. Non. 217, 20.— The posteriors, the fundament (ante- and postclass.): retrimenta cibi, quae exierunt per posticum, Varr. ap. Non. 217, 24; also in plur., Arn. 2, 54.",
+  "lsj_entry_chars": 1977,
+  "lsj_senses": [
+   "That is behind, hinder, back-, posterior (class., but not in Cic. or Cæs.): est etiam hic ostium aliud posticum nostrarum aedium, backdoor, Plaut. Stich. 3, 1, 40; cf.: posticum ostium dicitur in posteriore parte aedium. Ceterum antiqui etiam vicinum habitantem ad posteriorem partem aedium sic appellarunt, Paul. ex Fest. p. 220 Müll.: locus erat posticis aedium partibus, Liv. 23, 8: perrexit in interiores partes domuis posticae, of the backbuilding, out - house, Varr. ap. Non. 217, 7: domo posticā egressus, Val. Max. 5, 7, 3: muri, Varr. L. L. 5, § 42 Müll.: vicinus, v. Paul. ex Fest. l. l.: non peperit, verum posticā parte profudit, with the posteriors, Lucil. ap. Non. 217, 17: sannae, made behind the back, Pers. 1, 62: pedes, hind feet, Sol. 26: pars palatii, Suet. Oth. 6: posticam lineam in agris dividendis Serv. Sulpicius appellavit, ab exoriente sole ad occidentem quae spectabat, Fest. p. 233 Müll.: quae ante nos sunt, antica: et quae post nos sunt, postica dicuntur: et dextram anticam, sinistram posticam dicimus. Sic etiam ea caeli pars, quae sole illustratur ad meridiem, antica nominatur, quae ad septentrionem postica, Paul. ex Fest. p. 220 Müll.; cf.: ejus templi partes quattuor dicuntur: sinistra ab oriente, dextra ab occasu, antica ad meridiem, postica ad septentrionem, Varr. L. L. 7, § 7 Müll.—",
+   "Subst.",
+   "postīca, ae, f., a backdoor (post-class.), App. M. 9, p. 217, 25; Dig. 7, 1, 13.—",
+   "postīcum, i, n.",
+   "A backdoor (the prevailing form for this signif.): per posticum se conferre, Plaut. Most. 3, 3, 27: atria servantem postico falle clientem, Hor. Ep. 1, 5, 31; Vulg. Dan. 13, 18.—",
+   "The back part of a building, the rear front, Titin. ap. Non. 217, 19: in pronao, et postico, Vitr. 3, 1.—",
+   "A backhouse, privy (anteclass.), Lucil. ap. Non. 217, 20.—",
+   "The posteriors, the fundament (ante- and postclass.): retrimenta cibi, quae exierunt per posticum, Varr. ap. Non. 217, 24; also in plur., Arn. 2, 54."
+  ],
+  "lsj_first_sense_gloss": "That is behind",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "posticus"
+  ]
+ },
+ "proiectura": {
+  "lsj_entry_id": "n38698",
+  "lsj_key": "projectura",
+  "lsj_headword": "prōjectūra",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "prōjectūra, ae, f. proicio, a jutty, projecture in buildings, Vitr. 3, 2; 3.",
+  "lsj_entry_chars": 76,
+  "lsj_senses": [
+   "a jutty, projecture in buildings, Vitr. 3, 2; 3."
+  ],
+  "lsj_first_sense_gloss": "a jutty",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "proiectura",
+   "projectura"
+  ]
+ },
+ "pronaos": {
+  "lsj_entry_id": "n38817",
+  "lsj_key": "pronaos",
+  "lsj_headword": "prŏnāos",
+  "lsj_sense_count": 0,
+  "lsj_entry_text": "prŏnāos, i, v. pronaus.",
+  "lsj_entry_chars": 23,
+  "lsj_senses": [],
+  "lsj_first_sense_gloss": "prŏnāos",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "pronaos"
+  ]
+ },
+ "proportio": {
+  "lsj_entry_id": "n38933",
+  "lsj_key": "proportio",
+  "lsj_headword": "prō-portĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "prō-portĭo, ōnis, f., comparative relation, proportion, symmetry, analogy, likeness (class.): proportio, quod dicunt ἀνάλογον, Varr. L. L. 10, § 2 Müll.; Cic. Univ. 5: Penatis singulariter Labeo Antistius posse dici putat, quia pluraliter Penates dicantur: cum patiatur proportio etiam Penas dici, ut optimas, primas, Antias, Fest. s. v. penatis, p. 253 Müll.: id optime assequitur quae Graece ἀναλογία, Latine (audendum est enim, quoniam haec primum a nobis novantur) comparatio, proportiove dici potest, Cic. Univ. 4; Quint. 1, 6, 3 and 9: uti proportione, Varr. R. R. 1, 18, 3; Cic. Verr. 2, 4, 21, § 46.",
+  "lsj_entry_chars": 607,
+  "lsj_senses": [
+   "comparative relation, proportion, symmetry, analogy, likeness (class.): proportio, quod dicunt ἀνάλογον, Varr. L. L. 10, § 2 Müll.; Cic. Univ. 5: Penatis singulariter Labeo Antistius posse dici putat, quia pluraliter Penates dicantur: cum patiatur proportio etiam Penas dici, ut optimas, primas, Antias, Fest. s. v. penatis, p. 253 Müll.: id optime assequitur quae Graece ἀναλογία, Latine (audendum est enim, quoniam haec primum a nobis novantur) comparatio, proportiove dici potest, Cic. Univ. 4; Quint. 1, 6, 3 and 9: uti proportione, Varr. R. R. 1, 18, 3; Cic. Verr. 2, 4, 21, § 46."
+  ],
+  "lsj_first_sense_gloss": "comparative relation",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "proportio"
+  ]
+ },
+ "prostylos": {
+  "lsj_entry_id": "n39102",
+  "lsj_key": "prostylos",
+  "lsj_headword": "prostȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "prostȳlos, on, adj., = πρόστυλος, having pillars in front: aedes, Vitr. 3, 1; 7 praef. fin.",
+  "lsj_entry_chars": 91,
+  "lsj_senses": [
+   "having pillars in front: aedes, Vitr. 3, 1; 7 praef. fin."
+  ],
+  "lsj_first_sense_gloss": "having pillars in front",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "prostylos"
+  ]
+ },
+ "pseudodipteros": {
+  "lsj_entry_id": "n39306",
+  "lsj_key": "pseudodipteros",
+  "lsj_headword": "pseudŏdiptĕros",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "pseudŏdiptĕros, on, adj., = ψευδοδίπτερος, that appears to have two rows of columns, pseudodipteral: aedes, Vitr. 3, 1; 2.",
+  "lsj_entry_chars": 122,
+  "lsj_senses": [
+   "that appears to have two rows of columns, pseudodipteral: aedes, Vitr. 3, 1; 2."
+  ],
+  "lsj_first_sense_gloss": "that appears to have two rows of columns",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "pseudodipteros"
+  ]
+ },
+ "pycnostylos": {
+  "lsj_entry_id": "n39726",
+  "lsj_key": "pycnostylos",
+  "lsj_headword": "pycnostȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "pycnostȳlos, on, adj., = πυκνόστυλος, close-columned, having the columns close together, pycnostyle, Vitr. 3, 2, 1; 3, 4, 3.",
+  "lsj_entry_chars": 124,
+  "lsj_senses": [
+   "close-columned, having the columns close together, pycnostyle, Vitr. 3, 2, 1; 3, 4, 3."
+  ],
+  "lsj_first_sense_gloss": "close-columned",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "pycnostylos"
+  ]
+ },
+ "quantitas": {
+  "lsj_entry_id": "n39999",
+  "lsj_key": "quantitas",
+  "lsj_headword": "quantĭtas",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "quantĭtas, ātis, f. quantus. In gen., greatness, extent, quantity (perh. only post-Aug.): quantitas est modulorum ex ipsius operis sumptione, singulisque membrorum partibus, universi operis conveniens effectus, Vitr. 1, 2: umoris, Plin. 17, 24, 37, § 219: modi seu numeri, Quint. 7, 4, 3: vocis, strength, id. 11, 3, 14: quantitas et qualitas, id. 7, 2, 6: pretii, App. Mag. p. 239, 11.— In partic. A sum, amount (post-class.): si non corpus sit legatum, sed quantitas, Dig. 30, 1, 34, § 3; 12, 1, 6.— A sum of money, Dig. 16, 2, 11; 49, 14, 47; 45, 1, 65.— In logic: quantitas propositionis, the quantity or extent of a proposition, which is either universal or particular, App. Dogm. Plat. 3, p. 29 fin.; Mart. Cap. 4, §§ 342, 371 sqq.",
+  "lsj_entry_chars": 737,
+  "lsj_senses": [
+   "In gen., greatness, extent, quantity (perh. only post-Aug.): quantitas est modulorum ex ipsius operis sumptione, singulisque membrorum partibus, universi operis conveniens effectus, Vitr. 1, 2: umoris, Plin. 17, 24, 37, § 219: modi seu numeri, Quint. 7, 4, 3: vocis, strength, id. 11, 3, 14: quantitas et qualitas, id. 7, 2, 6: pretii, App. Mag. p. 239, 11.—",
+   "In partic.",
+   "A sum, amount (post-class.): si non corpus sit legatum, sed quantitas, Dig. 30, 1, 34, § 3; 12, 1, 6.—",
+   "A sum of money, Dig. 16, 2, 11; 49, 14, 47; 45, 1, 65.—",
+   "In logic: quantitas propositionis, the quantity or extent of a proposition, which is either universal or particular, App. Dogm. Plat. 3, p. 29 fin.; Mart. Cap. 4, §§ 342, 371 sqq."
+  ],
+  "lsj_first_sense_gloss": "greatness",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "quantitas"
+  ]
+ },
+ "quintarius": {
+  "lsj_entry_id": "n40209",
+  "lsj_key": "quintarius",
+  "lsj_headword": "quintārĭus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "quintārĭus, a, um, adj. id., of or belonging to five, containing five: quintarius numerus, i. e. five sixths, taking the number six as a whole, Vitr. 3, 1: limes, that encloses five centuriae, Hyg. Limit. p. 158 Goes.",
+  "lsj_entry_chars": 217,
+  "lsj_senses": [
+   "of or belonging to five, containing five: quintarius numerus, i. e. five sixths, taking the number six as a whole, Vitr. 3, 1: limes, that encloses five centuriae, Hyg. Limit. p. 158 Goes."
+  ],
+  "lsj_first_sense_gloss": "belonging to five",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "quintarius"
+  ]
+ },
+ "ratiocinatio": {
+  "lsj_entry_id": "n40451",
+  "lsj_key": "ratiocinatio",
+  "lsj_headword": "rătĭōcĭnātĭo",
+  "lsj_sense_count": 5,
+  "lsj_entry_text": "rătĭōcĭnātĭo, ōnis, f. id., a rhet. and archit. t. t. In rhet. An exercise of the reasoning powers, calm reasoning, ratiocination (opp. impulsio, a passionate feeling, impulse; cf. argumentatio): ratiocinatio est diligens et considerata faciendi aliquid aut non faciendi excogitatio, Cic. Inv. 2, 5, 18: etiam sapientiae studiosos maxime medicos esse, si ratiocinatio hoc faceret, Cels. 1, praef. § 49.— A certain form of reasoning, a syllogism: ratiocinatio est oratio ex ipsā re probabile aliquid eliciens, quod expositum et per se cognitum, suā se vi et ratione confirmet, Cic. Inv. 1, 34, 57; cf.: si ex alio colligitur aliud, nec improprium nec inusitatum nomen est ratiocinationis, Quint. 8, 4, 16; Cic. Inv. 2, 50, 152; Quint. 5, 10, 6; 3, 6, 15; 5, 14, 5 al.— A rhet. figure, reasoning in an interrogative form: ratiocinatio est, per quam ipsi a nobis rationem poscimus, quare quidque dicamus, etc., Auct. Her. 4, 16, 23.— In archit., theory (opp.: fabrica, practice): ratiocinatio est, quae res fabricatas solertiā ac ratione proportionis demonstrare atque explicare potest, Vitr. 1, 1, 1; 15.",
+  "lsj_entry_chars": 1102,
+  "lsj_senses": [
+   "In rhet.",
+   "An exercise of the reasoning powers, calm reasoning, ratiocination (opp. impulsio, a passionate feeling, impulse; cf. argumentatio): ratiocinatio est diligens et considerata faciendi aliquid aut non faciendi excogitatio, Cic. Inv. 2, 5, 18: etiam sapientiae studiosos maxime medicos esse, si ratiocinatio hoc faceret, Cels. 1, praef. § 49.—",
+   "A certain form of reasoning, a syllogism: ratiocinatio est oratio ex ipsā re probabile aliquid eliciens, quod expositum et per se cognitum, suā se vi et ratione confirmet, Cic. Inv. 1, 34, 57; cf.: si ex alio colligitur aliud, nec improprium nec inusitatum nomen est ratiocinationis, Quint. 8, 4, 16; Cic. Inv. 2, 50, 152; Quint. 5, 10, 6; 3, 6, 15; 5, 14, 5 al.—",
+   "A rhet. figure, reasoning in an interrogative form: ratiocinatio est, per quam ipsi a nobis rationem poscimus, quare quidque dicamus, etc., Auct. Her. 4, 16, 23.—",
+   "In archit., theory (opp.: fabrica, practice): ratiocinatio est, quae res fabricatas solertiā ac ratione proportionis demonstrare atque explicare potest, Vitr. 1, 1, 1; 15."
+  ],
+  "lsj_first_sense_gloss": "rhet",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "ratiocinatio"
+  ]
+ },
+ "retractio": {
+  "lsj_entry_id": "n41513",
+  "lsj_key": "retractio",
+  "lsj_headword": "rē^tractĭo",
+  "lsj_sense_count": 4,
+  "lsj_entry_text": "rē^tractĭo, ōnis, f. retraho. A drawing back, retreating: graduum, i. e. the breadth, Vitr. 3, 4, 4.— Trop. A diminishing: dierum (opp. auctio), Macr. S. 1, 14.— Hesitation, refusal: sine ullā retractione, Arn. 5, 162.",
+  "lsj_entry_chars": 218,
+  "lsj_senses": [
+   "A drawing back, retreating: graduum, i. e. the breadth, Vitr. 3, 4, 4.—",
+   "Trop.",
+   "A diminishing: dierum (opp. auctio), Macr. S. 1, 14.—",
+   "Hesitation, refusal: sine ullā retractione, Arn. 5, 162."
+  ],
+  "lsj_first_sense_gloss": "A drawing back",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "retractio"
+  ]
+ },
+ "robusteus": {
+  "lsj_entry_id": "n41826",
+  "lsj_key": "robusteus",
+  "lsj_headword": "rōbustĕus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "rōbustĕus, a, um, adj. robur, of oak or other hard wood: scandulae, Vitr. 2, 1: pali, id. 3, 3; 5, 12.",
+  "lsj_entry_chars": 102,
+  "lsj_senses": [
+   "of oak or other hard wood: scandulae, Vitr. 2, 1: pali, id. 3, 3; 5, 12."
+  ],
+  "lsj_first_sense_gloss": "of oak",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "robusteus"
+  ]
+ },
+ "rotundatio": {
+  "lsj_entry_id": "n41894",
+  "lsj_key": "rotundatio",
+  "lsj_headword": "rŏtundātĭo",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "rŏtundātĭo, ōnis, f. rotundo, a making round, a rounding: linea rotundationis, i. e. the circumference, Vitr. 1, 6 fin.; 3, 1; 10, 11.",
+  "lsj_entry_chars": 134,
+  "lsj_senses": [
+   "a making round, a rounding: linea rotundationis, i. e. the circumference, Vitr. 1, 6 fin.; 3, 1; 10, 11."
+  ],
+  "lsj_first_sense_gloss": "a making round",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "rotundatio"
+  ]
+ },
+ "ructus": {
+  "lsj_entry_id": "n41944",
+  "lsj_key": "ructus",
+  "lsj_headword": "ructus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "ructus, ūs, m. rugo, whence also ructo and erugo, a belching, eructation, rising of the stomach (class. in sing. and plur.): exhalas acidos ex pectore ructus, Lucil. ap. Non. 164, 33: suavis ructus mihist, Plaut. Ps. 5, 2, 9; Cic. Fam. 9, 22, 5; Cels. 4, 5 fin.: foedi pestilentesque ructus, Sen. Ep. 95, 25; Plin. 20, 12, 48, § 122; 20, 17, 66, § 174; Mart. 1, 88, 4 al.",
+  "lsj_entry_chars": 371,
+  "lsj_senses": [
+   "a belching, eructation, rising of the stomach (class. in sing. and plur.): exhalas acidos ex pectore ructus, Lucil. ap. Non. 164, 33: suavis ructus mihist, Plaut. Ps. 5, 2, 9; Cic. Fam. 9, 22, 5; Cels. 4, 5 fin.: foedi pestilentesque ructus, Sen. Ep. 95, 25; Plin. 20, 12, 48, § 122; 20, 17, 66, § 174; Mart. 1, 88, 4 al."
+  ],
+  "lsj_first_sense_gloss": "a belching",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "ructus"
+  ]
+ },
+ "scamillus": {
+  "lsj_entry_id": "n42846",
+  "lsj_key": "scamillus",
+  "lsj_headword": "scămillus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "scămillus, i, m. (acc. to Prisc. p. 615 P., scămellum, i, n.) dim. scamnum, a little bench or stool: impares, i. e. unequal projections or steps on the pedestals of columns, Vitr. 3, 4, 5; 5, 9, 4; App. 615 P.",
+  "lsj_entry_chars": 209,
+  "lsj_senses": [
+   "a little bench or stool: impares, i. e. unequal projections or steps on the pedestals of columns, Vitr. 3, 4, 5; 5, 9, 4; App. 615 P."
+  ],
+  "lsj_first_sense_gloss": "a little bench",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "scamillus"
+  ]
+ },
+ "scapus": {
+  "lsj_entry_id": "n42885",
+  "lsj_key": "scapus",
+  "lsj_headword": "scapus",
+  "lsj_sense_count": 12,
+  "lsj_entry_text": "scapus, i, m. root skap-; Gr. σκήπτω, to prop, σκῆπτρον; Doric, σκᾶπος; cf.: scipio, scamnum, scopus; Engl. shaft, a shaft, stem, stalk, trunk, etc. In gen., Varr. R. R. 1, 31, 5; Col. 9, 4, 4; Plin. 18, 10, 21, § 95; Sen. Ep. 86, 17.— In partic. A cylinder on which sheets of paper or leaves of papyrus were rolled, Plin. 13, 12, 23, § 77.— A sheet of paper: aliquid papyri illinere scapo, Varr. ap. Non. 168, 14.— A weaver's yarn-beam, Lucr. 5, 1353.— The shaft of a column, Vitr. 3, 2 sq.— The shank of a candlestick, Plin. 34, 3, 6, § 11.— The post or newel of a circular staircase, Vitr. 9, 2 fin.— The main stile of a door on which it hinged, Vitr. 4, 6.— The beam of a balance, Vitr. 10, 8; Fest. s. v. agina, p. 10 Müll.; and s. v. librile, p. 116 ib.— = membrum virile, Aug. Civ. Dei, 7, 24 fin.; Veg. 5, 14, 17.",
+  "lsj_entry_chars": 821,
+  "lsj_senses": [
+   "a shaft, stem, stalk, trunk, etc.",
+   "In gen., Varr. R. R. 1, 31, 5; Col. 9, 4, 4; Plin. 18, 10, 21, § 95; Sen. Ep. 86, 17.—",
+   "In partic.",
+   "A cylinder on which sheets of paper or leaves of papyrus were rolled, Plin. 13, 12, 23, § 77.—",
+   "A sheet of paper: aliquid papyri illinere scapo, Varr. ap. Non. 168, 14.—",
+   "A weaver's yarn-beam, Lucr. 5, 1353.—",
+   "The shaft of a column, Vitr. 3, 2 sq.—",
+   "The shank of a candlestick, Plin. 34, 3, 6, § 11.—",
+   "The post or newel of a circular staircase, Vitr. 9, 2 fin.—",
+   "The main stile of a door on which it hinged, Vitr. 4, 6.—",
+   "The beam of a balance, Vitr. 10, 8; Fest. s. v. agina, p. 10 Müll.; and s. v. librile, p. 116 ib.—",
+   "= membrum virile, Aug. Civ. Dei, 7, 24 fin.; Veg. 5, 14, 17."
+  ],
+  "lsj_first_sense_gloss": "a shaft",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "scapus"
+  ]
+ },
+ "schema": {
+  "lsj_entry_id": "n42934",
+  "lsj_key": "schema",
+  "lsj_headword": "schēma",
+  "lsj_sense_count": 6,
+  "lsj_entry_text": "schēma, ae, f. (cf.: diadema, dogma, etc., Prisc. p. 679 P.), and (mostly post-Aug.) ătis, n. (dat. and abl. plur. schemasin, Varr. ap. Charis. p. 38; but schematibus, Lampr. Heliog. 19), = σχῆμα. In gen., a shape, figure, form, fashion, manner, posture, attitude, etc. (so mostly ante-class.; not in Cic.). Fem.: quod processi huc cum servili schemā, Plaut. Am. prol. 117; cf. Caecil. ap. Prisc. p. 679 P.: Tiara ut lepidam lepide condecorat schemam, Plaut. Pers. 4, 2, 2 Ritschl; cf. Prisc. l. l.; also Pompon. ap. Non. 225, 1: exemplar imperatae schemae, Suet. Tib. 43.— Neutr.: pergite thyrsigerae Bacchae modo Bacchico cum schemate, Naev. ap. Non. 225, 2: schema antiquom retinere, Lucil. ib. 225, 3: Aristippus naufragio cum ejectus ad Rhodiensium litus animadvertisset geometrica schemata descripta, Vitr. 6 praef.: vasa schematibus libidinosissimis inquinata, Lampr. Heliog. 19.— In partic., as in rhet., a figure of speech, rhetorical figure (pure Lat. figura; freq. in Quint.; in Cic. written as Greek), Sen. Contr. 1, praef. § 23 sq.; 1, 1, 25; Quint. 9, 1, 1 sq.; and repeatedly in the first three chapters of the ninth book; cf. also id. 1, 5, 52 sq.; 4, 1, 49; 4, 5, 4; 5, 10, 70.— In geometry, a figure, outline: geometrica schemata, Vitr. 6, praef. 1: sphaeroides, id. 8, 6, 3 et saep.",
+  "lsj_entry_chars": 1301,
+  "lsj_senses": [
+   "diadema, dogma, etc., Prisc. p. 679 P.), and (mostly post-Aug.) ătis, n. (dat. and abl. plur. schemasin, Varr. ap. Charis. p. 38; but schematibus, Lampr. Heliog. 19), = σχῆμα.",
+   "In gen., a shape, figure, form, fashion, manner, posture, attitude, etc. (so mostly ante-class.; not in Cic.).",
+   "Fem.: quod processi huc cum servili schemā, Plaut. Am. prol. 117; cf. Caecil. ap. Prisc. p. 679 P.: Tiara ut lepidam lepide condecorat schemam, Plaut. Pers. 4, 2, 2 Ritschl; cf. Prisc. l. l.; also Pompon. ap. Non. 225, 1: exemplar imperatae schemae, Suet. Tib. 43.—",
+   "Neutr.: pergite thyrsigerae Bacchae modo Bacchico cum schemate, Naev. ap. Non. 225, 2: schema antiquom retinere, Lucil. ib. 225, 3: Aristippus naufragio cum ejectus ad Rhodiensium litus animadvertisset geometrica schemata descripta, Vitr. 6 praef.: vasa schematibus libidinosissimis inquinata, Lampr. Heliog. 19.—",
+   "In partic., as in rhet., a figure of speech, rhetorical figure (pure Lat. figura; freq. in Quint.; in Cic. written as Greek), Sen. Contr. 1, praef. § 23 sq.; 1, 1, 25; Quint. 9, 1, 1 sq.; and repeatedly in the first three chapters of the ninth book; cf. also id. 1, 5, 52 sq.; 4, 1, 49; 4, 5, 4; 5, 10, 70.—",
+   "In geometry, a figure, outline: geometrica schemata, Vitr. 6, praef. 1: sphaeroides, id. 8, 6, 3 et saep."
+  ],
+  "lsj_first_sense_gloss": "abl. plur",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "schema"
+  ]
+ },
+ "semis": {
+  "lsj_entry_id": "n43555",
+  "lsj_key": "semis",
+  "lsj_headword": "sēmis",
+  "lsj_sense_count": 12,
+  "lsj_entry_text": "sēmis, issis (in Vitr., Front., and Pall. indecl., e.g. duo semis pedes, Pall. Febr. 9, 10: duobus semis pedibus, id. Jan. 10, 3; 13, 7: diametros octo semis, Vitr. 4, 1: passuum milium et semis, Front. Aquaed. 7; cf.: habere duos et semis cubitos, Vulg. Exod. 25, 10 al.), m. cf. semi-; Gr. ἡμι-, ἥμισυ, a half, half-unity, a semi-unit (v. as, I.). In gen. (very rare for the usual dimidium): sex domini semissem Africae possidebant, Plin. 18, 6, 7, § 35: patrimonii, Dig. 36, 1, 78, § 7: e libertorum defunctorum bonis, Suet. Ner. 32: cum alter semissem, alter universa fratre excluso (sibi vindicaret), Quint. 7, 1, 62: panem semissem ponebat supra torum, Petr. 64, 6.— In partic. (freq. and class.). As a coin, Half an as, a semi-as, Varr. L. L. 5, § 171 Müll.; cf. Prisc. p. 708 P.; Plin. 33, 3, 13, § 44: lex frumentaria de semissibus et trientibus, Auct. Her. 1, 12, 21; Cic. Sest. 25, 55; Liv. Epit. 60; Ascon. ap. Cic. Pis. 4, p. 9 Orell.; hence, non semissis homo, not worth a groat, i. e. good for nothing, worthless, Vatin. ap. Cic. Fam. 5, 10 a, 1: quid fit! Semis, Hor. A. P. 330.— In the times of the later emperors, as a gold coin, a half aureus (containing 59.8 grains of gold, or the present value of 10s. 6 3/4d. sterling), Lampr. Alex. Sev. 39.— As a rate of interest, one half per cent. a month, or, acc. to our mode of computation, six per cent. a year (cf.: bes, triens, etc.): semissibus magna copia (pecuniae) est, Cic. Fam. 5, 6, 2: usura multiplicata semissibus, Plin. 14, 4, 6, § 56: usura semissium, Col. 3, 3, 9 sq.; for which also, reversely: semisses usurarum, id. 3, 3, 9; and in apposition: semisses usuras promisit, Dig. 22, 1, 13; 22, 45, 134; 46, 3, 102 fin.— As a measure of dimension. Half a juger of land: bina jugera et semisses agri assignati, Liv. 6, 16 fin.; cf. Col. 5, 1, 11; Plin. 18, 19, 49, § 178.— A half-foot, half a foot: interesse sesquipedes inter bina semina in latitudinem, in longitudinem semisses, Plin. 17, 21, 35, § 160: campestris locus alte duos pedes et semissem infodiendus est, Col. 3, 13, 8; Vitr. 4, 1; Front. Aquaed. 7; Pall. Jan. 10, 2; 10, 4; 13, 7; id. Febr. 9, 10 et saep.; Veg. 5, 40, 3; 3, 11, 4.— Half a cubit: cubitum ac semissem, Vulg. Exod. 25, 17.— Among mathematicians, the number three, Vitr. 3, 1, 6; cf. as fin.",
+  "lsj_entry_chars": 2294,
+  "lsj_senses": [
+   "duobus semis pedibus, id. Jan. 10, 3; 13, 7: diametros octo semis, Vitr. 4, 1: passuum milium et semis, Front. Aquaed. 7; cf.: habere duos et semis cubitos, Vulg. Exod. 25, 10 al.), m. cf. semi-; Gr. ἡμι-, ἥμισυ, a half, half-unity, a semi-unit (v. as, I.).",
+   "In gen. (very rare for the usual dimidium): sex domini semissem Africae possidebant, Plin. 18, 6, 7, § 35: patrimonii, Dig. 36, 1, 78, § 7: e libertorum defunctorum bonis, Suet. Ner. 32: cum alter semissem, alter universa fratre excluso (sibi vindicaret), Quint. 7, 1, 62: panem semissem ponebat supra torum, Petr. 64, 6.—",
+   "In partic. (freq. and class.).",
+   "As a coin,",
+   "Half an as, a semi-as, Varr. L. L. 5, § 171 Müll.; cf. Prisc. p. 708 P.; Plin. 33, 3, 13, § 44: lex frumentaria de semissibus et trientibus, Auct. Her. 1, 12, 21; Cic. Sest. 25, 55; Liv. Epit. 60; Ascon. ap. Cic. Pis. 4, p. 9 Orell.; hence, non semissis homo, not worth a groat, i. e. good for nothing, worthless, Vatin. ap. Cic. Fam. 5, 10 a, 1: quid fit! Semis, Hor. A. P. 330.—",
+   "In the times of the later emperors, as a gold coin, a half aureus (containing 59.8 grains of gold, or the present value of 10s. 6 3/4d. sterling), Lampr. Alex. Sev. 39.—",
+   "As a rate of interest, one half per cent. a month, or, acc. to our mode of computation, six per cent. a year (cf.: bes, triens, etc.): semissibus magna copia (pecuniae) est, Cic. Fam. 5, 6, 2: usura multiplicata semissibus, Plin. 14, 4, 6, § 56: usura semissium, Col. 3, 3, 9 sq.; for which also, reversely: semisses usurarum, id. 3, 3, 9; and in apposition: semisses usuras promisit, Dig. 22, 1, 13; 22, 45, 134; 46, 3, 102 fin.—",
+   "As a measure of dimension.",
+   "Half a juger of land: bina jugera et semisses agri assignati, Liv. 6, 16 fin.; cf. Col. 5, 1, 11; Plin. 18, 19, 49, § 178.—",
+   "A half-foot, half a foot: interesse sesquipedes inter bina semina in latitudinem, in longitudinem semisses, Plin. 17, 21, 35, § 160: campestris locus alte duos pedes et semissem infodiendus est, Col. 3, 13, 8; Vitr. 4, 1; Front. Aquaed. 7; Pall. Jan. 10, 2; 10, 4; 13, 7; id. Febr. 9, 10 et saep.; Veg. 5, 40, 3; 3, 11, 4.—",
+   "Half a cubit: cubitum ac semissem, Vulg. Exod. 25, 17.—",
+   "Among mathematicians, the number three, Vitr. 3, 1, 6; cf. as fin."
+  ],
+  "lsj_first_sense_gloss": "a half",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "semis"
+  ]
+ },
+ "sesquialter": {
+  "lsj_entry_id": "n43979",
+  "lsj_key": "sesquialter",
+  "lsj_headword": "sesquĭ-alter",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "sesquĭ-alter, ĕra, ĕrum, adj., once and a half (ἐπιδεύτερος), Cic. Univ. 7, 20 sqq.; Vitr. 3, 1 med.; App. Mag. p. 330 med.",
+  "lsj_entry_chars": 123,
+  "lsj_senses": [
+   "once and a half (ἐπιδεύτερος), Cic. Univ. 7, 20 sqq.; Vitr. 3, 1 med.; App. Mag. p. 330 med."
+  ],
+  "lsj_first_sense_gloss": "once and a half",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "sesquialter"
+  ]
+ },
+ "sesquipedalis": {
+  "lsj_entry_id": "n43994",
+  "lsj_key": "sesquipedalis",
+  "lsj_headword": "sesquĭ-pĕdālis",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "sesquĭ-pĕdālis, e, adj. Of a foot and a half; one foot and a half in length, breadth, or diameter, Cato, R. R. 15, 2: tigna, Caes. B. G. 4, 17: talea, Col. 5, 9, 3: mensura, id. 9, 15, 4; 11, 2, 18; 11, 3, 48; Vitr. 5, 10; 10, 15, 4.— Poet. transf., to denote excessive length, half a yard long: dentes, Cat. 97, 5: verba, Hor. A. P. 97; Mart. 7, 14, 10.",
+  "lsj_entry_chars": 354,
+  "lsj_senses": [
+   "Of a foot and a half; one foot and a half in length, breadth, or diameter, Cato, R. R. 15, 2: tigna, Caes. B. G. 4, 17: talea, Col. 5, 9, 3: mensura, id. 9, 15, 4; 11, 2, 18; 11, 3, 48; Vitr. 5, 10; 10, 15, 4.—",
+   "Poet. transf., to denote excessive length, half a yard long: dentes, Cat. 97, 5: verba, Hor. A. P. 97; Mart. 7, 14, 10."
+  ],
+  "lsj_first_sense_gloss": "Of a foot and a half; one foot and a half",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "sesquipedalis"
+  ]
+ },
+ "sextans": {
+  "lsj_entry_id": "n44077",
+  "lsj_key": "sextans",
+  "lsj_headword": "sextans",
+  "lsj_sense_count": 8,
+  "lsj_entry_text": "sextans, antis, m. sex. A sixth part of an as (v. as): sextans ab eo quod sexta pars assis, ut quadrans quod quarta et triens quod tertia pars, Varr. L. L. 5, § 171 Müll.: heredes in sextante, Cic. Fam. 13, 29, 4: ex sextante heres institutus, Dig. 44, 2, 30; Cod. Th. 9, 42, 8 pr.— In partic. As a coin: extulit eum plebs sextantibus collatis in capita, Liv. 2, 33 fin.; Plin. 33, 10, 48, § 138; hence, servus sextantis, i. e. of very trifling value, worthless, Laber. ap. Gell. 16, 9, 4.— In weighing, Plin. 26, 11, 74, § 121; Ov. Med. Fac. 65; Mart. 8, 71, 9; (with pondo) Scrib. Larg. 4; 42 al.— As a measure of land, the sixth part of a juger, Varr. R. R. 1, 10, 2; Col. 5, 1, 10.— As a liquid measure, the sixth part of a sextarius, or two cyathi, Col. 12, 23, 1; Mart. 5, 64, 1; Suet. Aug. 77.— As a lineal measure, Plin. 13, 15, 29, § 94.— Among mathematicians, the sixth part of the number six, as of the numerus perfectus (v. as), i. e. unity, one, Vitr. 3, 1, 6.",
+  "lsj_entry_chars": 973,
+  "lsj_senses": [
+   "A sixth part of an as (v. as): sextans ab eo quod sexta pars assis, ut quadrans quod quarta et triens quod tertia pars, Varr. L. L. 5, § 171 Müll.: heredes in sextante, Cic. Fam. 13, 29, 4: ex sextante heres institutus, Dig. 44, 2, 30; Cod. Th. 9, 42, 8 pr.—",
+   "In partic.",
+   "As a coin: extulit eum plebs sextantibus collatis in capita, Liv. 2, 33 fin.; Plin. 33, 10, 48, § 138; hence, servus sextantis, i. e. of very trifling value, worthless, Laber. ap. Gell. 16, 9, 4.—",
+   "In weighing, Plin. 26, 11, 74, § 121; Ov. Med. Fac. 65; Mart. 8, 71, 9; (with pondo) Scrib. Larg. 4; 42 al.—",
+   "As a measure of land, the sixth part of a juger, Varr. R. R. 1, 10, 2; Col. 5, 1, 10.—",
+   "As a liquid measure, the sixth part of a sextarius, or two cyathi, Col. 12, 23, 1; Mart. 5, 64, 1; Suet. Aug. 77.—",
+   "As a lineal measure, Plin. 13, 15, 29, § 94.—",
+   "Among mathematicians, the sixth part of the number six, as of the numerus perfectus (v. as), i. e. unity, one, Vitr. 3, 1, 6."
+  ],
+  "lsj_first_sense_gloss": "A sixth part of an",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "sextans"
+  ]
+ },
+ "sigillo": {
+  "lsj_entry_id": "n44197",
+  "lsj_key": "sigillo",
+  "lsj_headword": "sĭgillo",
+  "lsj_sense_count": 0,
+  "lsj_entry_text": "sĭgillo, σφραγίζω, Gloss. Lat. Gr.",
+  "lsj_entry_chars": 34,
+  "lsj_senses": [],
+  "lsj_first_sense_gloss": "gillo",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "sigillo"
+  ]
+ },
+ "statuarius": {
+  "lsj_entry_id": "n45286",
+  "lsj_key": "statuarius",
+  "lsj_headword": "stătŭārĭus",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "stătŭārĭus, a, um, adj. id., of or belonging to statues (post-Aug.): ars, the art of making statues, statuary, Plin. 34, 7, 16, § 33; 36, 5, 4, § 37: temperatura (aeris), id. 34, 9, 20, § 97.—As substt. stătŭ-ārĭa, ae, f., the art of statuary, Plin. 35, 12, 45, § 156; 36, 5, 4, § 15 (= ars fingendi). — stătŭārĭus, ii, m., a maker of statues, a statuary (syn. sculptor), Quint. 2, 21, 1; Sen. Ep. 88, 15; Plin. 35, 8, 34, § 54.",
+  "lsj_entry_chars": 428,
+  "lsj_senses": [
+   "of or belonging to statues (post-Aug.): ars, the art of making statues, statuary, Plin. 34, 7, 16, § 33; 36, 5, 4, § 37: temperatura (aeris), id. 34, 9, 20, § 97.—As substt.",
+   "stătŭ-ārĭa, ae, f., the art of statuary, Plin. 35, 12, 45, § 156; 36, 5, 4, § 15 (= ars fingendi). —",
+   "stătŭārĭus, ii, m., a maker of statues, a statuary (syn. sculptor), Quint. 2, 21, 1; Sen. Ep. 88, 15; Plin. 35, 8, 34, § 54."
+  ],
+  "lsj_first_sense_gloss": "belonging to statues",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "statuarius"
+  ]
+ },
+ "striga": {
+  "lsj_entry_id": "n45581",
+  "lsj_key": "striga1",
+  "lsj_headword": "strĭga",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "strĭga, ae, f. stringo. A row of grain or hay cut down, a swath, windrow, Col. 2, 18, 2; cf. Fest. s. h. v. pp. 314 and 315. — A furrow drawn lengthwise of the field, Jul. Front. Agr. p. 38.—In a camp, the spaces between the squadrons, Charis. 1, p. 85 P.",
+  "lsj_entry_chars": 255,
+  "lsj_senses": [
+   "A row of grain or hay cut down, a swath, windrow, Col. 2, 18, 2; cf. Fest. s. h. v. pp. 314 and 315. —",
+   "A furrow drawn lengthwise of the field, Jul. Front. Agr. p. 38.—In a camp, the spaces between the squadrons, Charis. 1, p. 85 P."
+  ],
+  "lsj_first_sense_gloss": "A row of grain",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "striga"
+  ]
+ },
+ "structura": {
+  "lsj_entry_id": "n45624",
+  "lsj_key": "structura",
+  "lsj_headword": "structūra",
+  "lsj_sense_count": 7,
+  "lsj_entry_text": "structūra, ae, f. struo, a fitting together, adaptation, adjustment. Lit. In gen. (post-Aug. and very rare): ossa in manu oblonga omnia et triangula, structurā quādam inter se conectuntur, Cels. 8, 1 med.: membranarum, Plin. 13, 19, 34, § 112: togae, Macr. S. 2, 9.— In partic., an architectural fitting together, a building or erecting. In abstr. (class.): parietum, the mode of building, construction, * Caes. B. C. 2, 9; cf.: structurae antiquae genus, Liv. 21, 11; and: reticulata structura, Plin. 36, 22, 51, § 172: (silex) globosus sed structurae infidelis, for building, id. 36, 22, 49, § 169: in structurā saxorum rudium, Quint. 9, 4, 27.—Plur.: in structuris lapidum impolitorum, Quint. 8, 6, 63.— In concr., a building, erection, edifice, structure, Front. Aquaed. 123; Vitr. 5, 12: subterraneae, Plin. 36, 22, 50, § 170: aerariae structurae, i. e. mining works, mines, Caes. B. G. 3, 21 fin. (al. structuraeque).— Trop., of language, an arrangement, order, structure (in Cic. only as a figure of speech, with quasi or quaedam; later in gen.): verborum quasi structura, Cic. Brut. 8, 33: quasi structura quaedam, id. Or. 44, 149: et verborum est structura quaedam, id. Opt. Gen. 2, 5: proprietates verborum exigit, et structuram et argumentationes, Sen. Ep. 89, 9: mei carminis, Ov. P. 4, 13, 4; Quint. 1, 10, 23; 8, 5, 27; 8, 6, 67; 9, 4, 45; Tac. Or. 22 fin.",
+  "lsj_entry_chars": 1370,
+  "lsj_senses": [
+   "a fitting together, adaptation, adjustment.",
+   "Lit.",
+   "In gen. (post-Aug. and very rare): ossa in manu oblonga omnia et triangula, structurā quādam inter se conectuntur, Cels. 8, 1 med.: membranarum, Plin. 13, 19, 34, § 112: togae, Macr. S. 2, 9.—",
+   "In partic., an architectural fitting together, a building or erecting.",
+   "In abstr. (class.): parietum, the mode of building, construction, * Caes. B. C. 2, 9; cf.: structurae antiquae genus, Liv. 21, 11; and: reticulata structura, Plin. 36, 22, 51, § 172: (silex) globosus sed structurae infidelis, for building, id. 36, 22, 49, § 169: in structurā saxorum rudium, Quint. 9, 4, 27.—Plur.: in structuris lapidum impolitorum, Quint. 8, 6, 63.—",
+   "In concr., a building, erection, edifice, structure, Front. Aquaed. 123; Vitr. 5, 12: subterraneae, Plin. 36, 22, 50, § 170: aerariae structurae, i. e. mining works, mines, Caes. B. G. 3, 21 fin. (al. structuraeque).—",
+   "Trop., of language, an arrangement, order, structure (in Cic. only as a figure of speech, with quasi or quaedam; later in gen.): verborum quasi structura, Cic. Brut. 8, 33: quasi structura quaedam, id. Or. 44, 149: et verborum est structura quaedam, id. Opt. Gen. 2, 5: proprietates verborum exigit, et structuram et argumentationes, Sen. Ep. 89, 9: mei carminis, Ov. P. 4, 13, 4; Quint. 1, 10, 23; 8, 5, 27; 8, 6, 67; 9, 4, 45; Tac. Or. 22 fin."
+  ],
+  "lsj_first_sense_gloss": "a fitting together",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "structura"
+  ]
+ },
+ "stylobates": {
+  "lsj_entry_id": "n45690",
+  "lsj_key": "stylobates",
+  "lsj_headword": "stўlŏbătes",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "stўlŏbătes, is, or stўlŏbăta, ae, m., = στυλοβάτης, the pedestal of a column or row of columns, a stylobate, Vitr. 3, 3; Varr. R. R. 3, 5, 11 sq.; 1, 13, 3.",
+  "lsj_entry_chars": 156,
+  "lsj_senses": [
+   "the pedestal of a column or row of columns, a stylobate, Vitr. 3, 3; Varr. R. R. 3, 5, 11 sq.; 1, 13, 3."
+  ],
+  "lsj_first_sense_gloss": "the pedestal of a column",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "stylobates"
+  ]
+ },
+ "superatio": {
+  "lsj_entry_id": "n46637",
+  "lsj_key": "superatio",
+  "lsj_headword": "sŭpĕrātĭo",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "sŭpĕrātĭo, ōnis, f. supero, an overcoming, conquering, Vitr. 3 praef. med.— An excess: fervoris, Theod. Prisc. 4, 2.",
+  "lsj_entry_chars": 116,
+  "lsj_senses": [
+   "an overcoming, conquering, Vitr. 3 praef. med.—",
+   "An excess: fervoris, Theod. Prisc. 4, 2."
+  ],
+  "lsj_first_sense_gloss": "an overcoming",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "superatio"
+  ]
+ },
+ "symmetria": {
+  "lsj_entry_id": "n47216",
+  "lsj_key": "symmetria",
+  "lsj_headword": "symmē^trĭa",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "symmē^trĭa, ae, f., = συμμετρία, proportion, symmetry (cf. congruentia), Vitr. 1, 2; Plin. 34, 8, 19, §§ 58 and 65; 35, 10, 36, § 67.—Plur., Vitr. 1, 3 fin.",
+  "lsj_entry_chars": 156,
+  "lsj_senses": [
+   "proportion, symmetry (cf. congruentia), Vitr. 1, 2; Plin. 34, 8, 19, §§ 58 and 65; 35, 10, 36, § 67.—Plur., Vitr. 1, 3 fin."
+  ],
+  "lsj_first_sense_gloss": "proportion",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "symmetria"
+  ]
+ },
+ "systylos": {
+  "lsj_entry_id": "n47315",
+  "lsj_key": "systylos",
+  "lsj_headword": "systȳlos",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "systȳlos, i, m., = σύστυλος (closecolumned); in architecture, an arrangement of columns at a distance from each other of twice their thickness, a systyle, Vitr. 3, 2.",
+  "lsj_entry_chars": 166,
+  "lsj_senses": [
+   "in architecture, an arrangement of columns at a distance from each other of twice their thickness, a systyle, Vitr. 3, 2."
+  ],
+  "lsj_first_sense_gloss": "in architecture",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "systylos"
+  ]
+ },
+ "tegulae": {
+  "lsj_entry_id": "n47641",
+  "lsj_key": "tegulae",
+  "lsj_headword": "tēgŭlae",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "tēgŭlae, ārum (less freq. and mostly poet., also in sing.: tēgŭla, ae; v. the foll.), f. tego, tiles, roof-tiles, a tiled roof (class.; cf. imbrex). Plur.: tempestas venit, confringit tegulas imbricesque, Plaut. Most. 1, 2, 28; so, with imbrices, id. Mil. 2, 6, 24; with tectum, id. Rud. prol. 78: heus, quid agis tu inquam in tegulis? id. Mil. 2, 2, 22; so, in tegulis, id. ib. 2, 2, 1; 2, 2, 5; 2, 3, 13; 2, 3, 37: anguis per impluvium decidit de tegulis, Ter. Phorm. 4, 4, 26: per alienas tegulas Venisse, id. Eun. 3, 5, 40: per tegulas demitti, Cic. Phil. 2, 18, 45: demptis tegulis, Cic. Verr. 2, 3, 50, § 119: per scalas pervenisse in tegulas, Liv. 36, 37, 2: habitare sub tegulis, Suet. Gram. 9: columbaria qui in tegulis habent, Varr. R. R. 3, 7 fin.; Dig. 19, 1, 58; 39, 2, 24: TEGVLAS AENEAS AVRATAS D. S. D., Inscr. Orell. 3272 et saep.— Sing.: promitto tibi, si valebit, tegulam illum in Italiā nullam relicturum, not a tile, Cic. Att. 9, 7, 5: cum solem nondum prohibebat et imbrem Tegula, Ov. A. A. 2, 622; id. F. 6, 316; id. Ib. 304; Bibacul. ap. Suet. Gram. 11; Mart. 7, 36, 4; Juv. 3, 201 (but the true read., Sen. Ep. 12, 5, is regula, Haase).",
+  "lsj_entry_chars": 1161,
+  "lsj_senses": [
+   "v. the foll.), f. tego, tiles, roof-tiles, a tiled roof (class.; cf. imbrex).",
+   "Plur.: tempestas venit, confringit tegulas imbricesque, Plaut. Most. 1, 2, 28; so, with imbrices, id. Mil. 2, 6, 24; with tectum, id. Rud. prol. 78: heus, quid agis tu inquam in tegulis? id. Mil. 2, 2, 22; so, in tegulis, id. ib. 2, 2, 1; 2, 2, 5; 2, 3, 13; 2, 3, 37: anguis per impluvium decidit de tegulis, Ter. Phorm. 4, 4, 26: per alienas tegulas Venisse, id. Eun. 3, 5, 40: per tegulas demitti, Cic. Phil. 2, 18, 45: demptis tegulis, Cic. Verr. 2, 3, 50, § 119: per scalas pervenisse in tegulas, Liv. 36, 37, 2: habitare sub tegulis, Suet. Gram. 9: columbaria qui in tegulis habent, Varr. R. R. 3, 7 fin.; Dig. 19, 1, 58; 39, 2, 24: TEGVLAS AENEAS AVRATAS D. S. D., Inscr. Orell. 3272 et saep.—",
+   "Sing.: promitto tibi, si valebit, tegulam illum in Italiā nullam relicturum, not a tile, Cic. Att. 9, 7, 5: cum solem nondum prohibebat et imbrem Tegula, Ov. A. A. 2, 622; id. F. 6, 316; id. Ib. 304; Bibacul. ap. Suet. Gram. 11; Mart. 7, 36, 4; Juv. 3, 201 (but the true read., Sen. Ep. 12, 5, is regula, Haase)."
+  ],
+  "lsj_first_sense_gloss": "tiles",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "tegulae"
+  ]
+ },
+ "tegula": {
+  "lsj_entry_id": "n47641",
+  "lsj_key": "tegulae",
+  "lsj_headword": "tēgŭlae",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "tēgŭlae, ārum (less freq. and mostly poet., also in sing.: tēgŭla, ae; v. the foll.), f. tego, tiles, roof-tiles, a tiled roof (class.; cf. imbrex). Plur.: tempestas venit, confringit tegulas imbricesque, Plaut. Most. 1, 2, 28; so, with imbrices, id. Mil. 2, 6, 24; with tectum, id. Rud. prol. 78: heus, quid agis tu inquam in tegulis? id. Mil. 2, 2, 22; so, in tegulis, id. ib. 2, 2, 1; 2, 2, 5; 2, 3, 13; 2, 3, 37: anguis per impluvium decidit de tegulis, Ter. Phorm. 4, 4, 26: per alienas tegulas Venisse, id. Eun. 3, 5, 40: per tegulas demitti, Cic. Phil. 2, 18, 45: demptis tegulis, Cic. Verr. 2, 3, 50, § 119: per scalas pervenisse in tegulas, Liv. 36, 37, 2: habitare sub tegulis, Suet. Gram. 9: columbaria qui in tegulis habent, Varr. R. R. 3, 7 fin.; Dig. 19, 1, 58; 39, 2, 24: TEGVLAS AENEAS AVRATAS D. S. D., Inscr. Orell. 3272 et saep.— Sing.: promitto tibi, si valebit, tegulam illum in Italiā nullam relicturum, not a tile, Cic. Att. 9, 7, 5: cum solem nondum prohibebat et imbrem Tegula, Ov. A. A. 2, 622; id. F. 6, 316; id. Ib. 304; Bibacul. ap. Suet. Gram. 11; Mart. 7, 36, 4; Juv. 3, 201 (but the true read., Sen. Ep. 12, 5, is regula, Haase).",
+  "lsj_entry_chars": 1161,
+  "lsj_senses": [
+   "v. the foll.), f. tego, tiles, roof-tiles, a tiled roof (class.; cf. imbrex).",
+   "Plur.: tempestas venit, confringit tegulas imbricesque, Plaut. Most. 1, 2, 28; so, with imbrices, id. Mil. 2, 6, 24; with tectum, id. Rud. prol. 78: heus, quid agis tu inquam in tegulis? id. Mil. 2, 2, 22; so, in tegulis, id. ib. 2, 2, 1; 2, 2, 5; 2, 3, 13; 2, 3, 37: anguis per impluvium decidit de tegulis, Ter. Phorm. 4, 4, 26: per alienas tegulas Venisse, id. Eun. 3, 5, 40: per tegulas demitti, Cic. Phil. 2, 18, 45: demptis tegulis, Cic. Verr. 2, 3, 50, § 119: per scalas pervenisse in tegulas, Liv. 36, 37, 2: habitare sub tegulis, Suet. Gram. 9: columbaria qui in tegulis habent, Varr. R. R. 3, 7 fin.; Dig. 19, 1, 58; 39, 2, 24: TEGVLAS AENEAS AVRATAS D. S. D., Inscr. Orell. 3272 et saep.—",
+   "Sing.: promitto tibi, si valebit, tegulam illum in Italiā nullam relicturum, not a tile, Cic. Att. 9, 7, 5: cum solem nondum prohibebat et imbrem Tegula, Ov. A. A. 2, 622; id. F. 6, 316; id. Ib. 304; Bibacul. ap. Suet. Gram. 11; Mart. 7, 36, 4; Juv. 3, 201 (but the true read., Sen. Ep. 12, 5, is regula, Haase)."
+  ],
+  "lsj_first_sense_gloss": "tiles",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "tegula"
+  ]
+ },
+ "temperatio": {
+  "lsj_entry_id": "n47710",
+  "lsj_key": "temperatio",
+  "lsj_headword": "tempĕrātĭo",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "tempĕrātĭo, ōnis, f. tempero. Lit., a due mingling or tempering of ingredients, fit proportion or combination, symmetry, constitution, temperament (class.; esp. freq. in Cic.); ut enim corporis temperatio cum ea congruunt inter se, e quibus constamus, sanitas: sic animi dicitur, cum ejus judicia opinionesque concordant: eaque animi est virtus, quam alii ipsam temperantiam dicunt esse, alii obtemperantem temperantiae praeceptis, Cic. Tusc 4, 13, 30: corporum, id. ib. 1, 28, 68; 1, 10, 21: aeris temperatio, composition, temper, id. Verr 2, 4, 44, § 98; cf. id. Ac. 2, 26, 85: caerulei temperationes Alexandriae primum sunt inventae, Vitr. 7, 11; quae a luna ceterisque sideribus caeli temperatio fit, Cic. Div. 2, 45, 94; so, caeli, id. N. D. 2, 5, 13: temperatio lunae caelique moderatio efficit hoc, id. Div. 2, 45, 94: semina temperatione caloris et oriri et augescere, id. N. D. 2, 10, 26: mensium temperatio, id. Leg. 2, 7, 16: disciplina ac temperatio civitatis, organization, constitution. id. Tusc. 4, 1, 1: rei publicae, id. Leg. 3, 5, 12: ordinum, Liv. 9, 46, 15: temperatio juris, cum potestas in populo, auctoritas in senatu sit, Cic. Leg. 3, 12, 28: sed praesto est hujus vitii temperatio, quod senatus lege nostra confirmatur auctoritas, a means of moderating, qualifying, or tempering, id. ib. § 27.— Transf.: sol dux et princeps et moderator luminum reliquorum, mens mundi et temperatio, the organizing or ordering principle, Cic. Rep. 6, 17, 17 (Somn. Scip. 4, 10).",
+  "lsj_entry_chars": 1486,
+  "lsj_senses": [
+   "Lit., a due mingling or tempering of ingredients, fit proportion or combination, symmetry, constitution, temperament (class.; esp. freq. in Cic.); ut enim corporis temperatio cum ea congruunt inter se, e quibus constamus, sanitas: sic animi dicitur, cum ejus judicia opinionesque concordant: eaque animi est virtus, quam alii ipsam temperantiam dicunt esse, alii obtemperantem temperantiae praeceptis, Cic. Tusc 4, 13, 30: corporum, id. ib. 1, 28, 68; 1, 10, 21: aeris temperatio, composition, temper, id. Verr 2, 4, 44, § 98; cf. id. Ac. 2, 26, 85: caerulei temperationes Alexandriae primum sunt inventae, Vitr. 7, 11; quae a luna ceterisque sideribus caeli temperatio fit, Cic. Div. 2, 45, 94; so, caeli, id. N. D. 2, 5, 13: temperatio lunae caelique moderatio efficit hoc, id. Div. 2, 45, 94: semina temperatione caloris et oriri et augescere, id. N. D. 2, 10, 26: mensium temperatio, id. Leg. 2, 7, 16: disciplina ac temperatio civitatis, organization, constitution. id. Tusc. 4, 1, 1: rei publicae, id. Leg. 3, 5, 12: ordinum, Liv. 9, 46, 15: temperatio juris, cum potestas in populo, auctoritas in senatu sit, Cic. Leg. 3, 12, 28: sed praesto est hujus vitii temperatio, quod senatus lege nostra confirmatur auctoritas, a means of moderating, qualifying, or tempering, id. ib. § 27.—",
+   "Transf.: sol dux et princeps et moderator luminum reliquorum, mens mundi et temperatio, the organizing or ordering principle, Cic. Rep. 6, 17, 17 (Somn. Scip. 4, 10)."
+  ],
+  "lsj_first_sense_gloss": "a due mingling",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "temperatio"
+  ]
+ },
+ "tertiarius": {
+  "lsj_entry_id": "n47936",
+  "lsj_key": "tertiarius",
+  "lsj_headword": "tertĭārĭus",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "tertĭārĭus, a, um, adj. id., containing a third part. Adj.: stannum, that contains one part of white and two of black lead, Plin. 34, 17, 48, § 160. — Subst.: tertĭārĭum, ii, n., a third part, a third, Cato, R. R. 95, 1; Vitr. 4, 7, 5.",
+  "lsj_entry_chars": 235,
+  "lsj_senses": [
+   "containing a third part.",
+   "Adj.: stannum, that contains one part of white and two of black lead, Plin. 34, 17, 48, § 160. —",
+   "Subst.: tertĭārĭum, ii, n., a third part, a third, Cato, R. R. 95, 1; Vitr. 4, 7, 5."
+  ],
+  "lsj_first_sense_gloss": "containing a third part",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "tertiarius"
+  ]
+ },
+ "tetrastylos": {
+  "lsj_entry_id": "n48027",
+  "lsj_key": "tetrastylos",
+  "lsj_headword": "tē^trastȳlos",
+  "lsj_sense_count": 3,
+  "lsj_entry_text": "tē^trastȳlos, on, adj., = τετράστυλος, having four columns. Adj.: frons loci, Vitr. 3, 2: cava aedium, id. 6, 3.— Subst.: tē^trastȳlon, i, n., a building with four columns, a tetrastyle, Capitol. Gord. 32; Inscr. Orell. 2270.",
+  "lsj_entry_chars": 225,
+  "lsj_senses": [
+   "having four columns.",
+   "Adj.: frons loci, Vitr. 3, 2: cava aedium, id. 6, 3.—",
+   "Subst.: tē^trastȳlon, i, n., a building with four columns, a tetrastyle, Capitol. Gord. 32; Inscr. Orell. 2270."
+  ],
+  "lsj_first_sense_gloss": "having four columns",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "tetrastylos"
+  ]
+ },
+ "trichalcon": {
+  "lsj_entry_id": "n49026",
+  "lsj_key": "trichalcon",
+  "lsj_headword": "trĭchalcon",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "trĭchalcon, i, n., = τρίχαλκον, a coin of the value of three chalci, Vitr. 3, 1 med.",
+  "lsj_entry_chars": 84,
+  "lsj_senses": [
+   "a coin of the value of three chalci, Vitr. 3, 1 med."
+  ],
+  "lsj_first_sense_gloss": "a coin of the value of three",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "trichalcon"
+  ]
+ },
+ "trochilus": {
+  "lsj_entry_id": "n49260",
+  "lsj_key": "trochilus",
+  "lsj_headword": "trŏchĭlus",
+  "lsj_sense_count": 2,
+  "lsj_entry_text": "trŏchĭlus, i, m., = τρόχιλος. A very small bird, perh. the golden-crested wren, trochil, Plin. 10, 74, 95, § 203; 8, 25, 37, § 90.— In architecture, a semicircular hollow running round the base of a column, a casement, scotia, trochil, Vitr. 3, 3 med.",
+  "lsj_entry_chars": 251,
+  "lsj_senses": [
+   "A very small bird, perh. the golden-crested wren, trochil, Plin. 10, 74, 95, § 203; 8, 25, 37, § 90.—",
+   "In architecture, a semicircular hollow running round the base of a column, a casement, scotia, trochil, Vitr. 3, 3 med."
+  ],
+  "lsj_first_sense_gloss": "A very small bird",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "trochilus"
+  ]
+ },
+ "undeni": {
+  "lsj_entry_id": "n49774",
+  "lsj_key": "undeni",
+  "lsj_headword": "un-dēni",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "un-dēni, ae, a, num. distrib. adj. [unus], eleven each, eleven distributively: pariuntur undeni, Plin. 11, 25, 30, § 91: cubitis, id. 36, 8, 14, § 65 Sillig N. cr.: Musa per undenos emodulanda pedes, i. e. with a hexameter and pentameter, elegiac verse, Ov. Am. 1, 1, 30: me quater undenos sciat implevisse Decembres, i. e. forty-four years, Hor. Ep. 1, 20, 27.—In sing.: bisque undena pars, Manil. 4, 451.",
+  "lsj_entry_chars": 406,
+  "lsj_senses": [
+   "num. distrib. adj. [unus], eleven each, eleven distributively: pariuntur undeni, Plin. 11, 25, 30, § 91: cubitis, id. 36, 8, 14, § 65 Sillig N. cr.: Musa per undenos emodulanda pedes, i. e. with a hexameter and pentameter, elegiac verse, Ov. Am. 1, 1, 30: me quater undenos sciat implevisse Decembres, i. e. forty-four years, Hor. Ep. 1, 20, 27.—In sing.: bisque undena pars, Manil. 4, 451."
+  ],
+  "lsj_first_sense_gloss": "num. distrib. adj",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "undeni"
+  ]
+ },
+ "ualua": {
+  "lsj_entry_id": "n50149",
+  "lsj_key": "valva",
+  "lsj_headword": "valva",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "valva, ae, f., the leaf of a door, a folding-door; sing. rare, Pompon. ap. Non. 19, 23; Petr. 96; Sen. Herc. Fur. 999.—Mostly plur.: valvae, ārum, the leaves, folds, or valves of a door, a folding-door, Cic. Div. 1, 34, 74; Cic. Verr. 2, 4, 43, § 94; 2, 4, 56, § 124; Caes. B. C. 3, 105; Juv. 4, 63; Prop. 4 (5), 8, 51; Ov. M. 1, 172; 2, 4; Hor. S. 2, 6, 112; Plin. Ep. 2, 17, 5; 5, 6, 19; 5, 6, 38.",
+  "lsj_entry_chars": 399,
+  "lsj_senses": [
+   "the leaf of a door, a folding-door; sing. rare, Pompon. ap. Non. 19, 23; Petr. 96; Sen. Herc. Fur. 999.—Mostly plur.: valvae, ārum, the leaves, folds, or valves of a door, a folding-door, Cic. Div. 1, 34, 74; Cic. Verr. 2, 4, 43, § 94; 2, 4, 56, § 124; Caes. B. C. 3, 105; Juv. 4, 63; Prop. 4 (5), 8, 51; Ov. M. 1, 172; 2, 4; Hor. S. 2, 6, 112; Plin. Ep. 2, 17, 5; 5, 6, 19; 5, 6, 38."
+  ],
+  "lsj_first_sense_gloss": "the leaf of a door",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "valva"
+  ]
+ },
+ "uaricus": {
+  "lsj_entry_id": "n50210",
+  "lsj_key": "varicus1",
+  "lsj_headword": "vārĭcus",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "vārĭcus, a, um, adj. 1. varus, with feet spread apart, straddling: illa ambulat varica, Ov. A. A. 3, 304.",
+  "lsj_entry_chars": 105,
+  "lsj_senses": [
+   "with feet spread apart, straddling: illa ambulat varica, Ov. A. A. 3, 304."
+  ],
+  "lsj_first_sense_gloss": "with feet spread apart",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "varicus"
+  ]
+ },
+ "uoluta": {
+  "lsj_entry_id": "n51352",
+  "lsj_key": "voluta",
+  "lsj_headword": "vŏlūta",
+  "lsj_sense_count": 1,
+  "lsj_entry_text": "vŏlūta, ae, f. volvo, a volute or spiral scroll, as an ornament on the capitals of columns, Vitr. 4, 1; 3, 3; 7, 5.",
+  "lsj_entry_chars": 115,
+  "lsj_senses": [
+   "a volute or spiral scroll, as an ornament on the capitals of columns, Vitr. 4, 1; 3, 3; 7, 5."
+  ],
+  "lsj_first_sense_gloss": "a volute",
+  "lsj_part": "lat.ls.perseus-eng2.xml",
+  "lemmas": [
+   "voluta"
+  ]
+ }
+}

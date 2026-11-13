@@ -36,7 +36,7 @@ import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from common import GDM, PIPE, WORKS, nfc, out_dir, read_jsonl, sha256, strip_punct, write_jsonl
+from common import GDM, LANG, LEXICA, PIPE, lemma_key_fn, marker_re, nfc, out_dir, read_jsonl, sha256, strip_punct, work_config, write_jsonl
 
 sys.path.insert(0, str(PIPE / "mt2026"))
 from score_consistency import STOP, norm  # noqa: E402
@@ -55,17 +55,53 @@ CONTENT_POS = {"NOUN", "VERB", "ADJ", "ADV"}
 MARK = re.compile(r"\s*\[\d+\]\s*")
 JUDGE_GROUP = 10
 
-BT_SYSTEM = ("Translate the English passage into Ancient Greek prose of the kind Galen writes (Attic-Koine, 2nd century AD). "
-             "Keep technical terms technical; render each term with the standard ancient Greek word. Do not add notes. "
-             'Answer with one JSON object and nothing else: {"greek": "<the Greek>"}.')
+def bt_system(author: str, lang_name: str, style: str, term_word: str, key: str, src: str) -> str:
+    """Back-translation system prompt; Galen's values give the cycle 1-4 prompt exactly."""
+    return (f"Translate the English passage into {lang_name} prose of the kind {author} writes ({style}). "
+            f"Keep technical terms technical; render each term with the standard {term_word} word. Do not add notes. "
+            'Answer with one JSON object and nothing else: {"' + key + '": "<the ' + src + '>"}.')
 
-JUDGE_SYSTEM = ("You are checking whether an English rendering of one Greek word falls within the range of senses that the LSJ (Liddell-Scott-Jones) entry "
-                "for that word gives. For every item you see the Greek sentence, the target word as it appears, its lemma, the complete LSJ entry text (plain text) "
-                "and one English rendering taken from a translation of the sentence. Answer in_range if the English is a translation equivalent covered "
-                "by some sense in the entry in this context (LSJ's exact wording is not required; a cognate, a contextual equivalent or an idiomatic phrase counts "
-                "when the entry's senses cover it); out_of_range if it corresponds to none of the entry's senses; unsure if you cannot tell from what is shown. "
-                "Some items are quality-control items; you are not told which; judge every item on its merits. "
-                'Answer for every item with one JSON object per line and nothing else: {"item_id": "<id>", "verdict": "in_range|out_of_range|unsure", "note": "<at most 15 words>"}.')
+
+def judge_system(src: str, lex_short: str, lex_full: str) -> str:
+    """Judge system prompt; Galen's values (Greek, LSJ) give the cycle 1-4 prompt exactly."""
+    return (f"You are checking whether an English rendering of one {src} word falls within the range of senses that the {lex_full} entry "
+            f"for that word gives. For every item you see the {src} sentence, the target word as it appears, its lemma, the complete {lex_short} entry text (plain text) "
+            "and one English rendering taken from a translation of the sentence. Answer in_range if the English is a translation equivalent covered "
+            f"by some sense in the entry in this context ({lex_short}'s exact wording is not required; a cognate, a contextual equivalent or an idiomatic phrase counts "
+            "when the entry's senses cover it); out_of_range if it corresponds to none of the entry's senses; unsure if you cannot tell from what is shown. "
+            "Some items are quality-control items; you are not told which; judge every item on its merits. "
+            'Answer for every item with one JSON object per line and nothing else: {"item_id": "<id>", "verdict": "in_range|out_of_range|unsure", "note": "<at most 15 words>"}.')
+
+
+BT_SYSTEM = bt_system("Galen", "Ancient Greek", "Attic-Koine, 2nd century AD", "ancient Greek", "greek", "Greek")
+JUDGE_SYSTEM = judge_system("Greek", "LSJ", "LSJ (Liddell-Scott-Jones)")
+
+
+def is_galen(work: dict | None) -> bool:
+    return work is None or work.get("galen", True)
+
+
+def bt_system_for(work: dict | None) -> str:
+    if is_galen(work):
+        return BT_SYSTEM
+    L = LANG[work["lang"]]
+    return bt_system(work["author"], L["name"], work["bt_style"], L["term_word"], L["bt_key"], L["adj"])
+
+
+def judge_system_for(work: dict | None) -> str:
+    if is_galen(work):
+        return JUDGE_SYSTEM
+    lx = LEXICA[work["lexicon"]["name"]]
+    return judge_system(LANG[work["lang"]]["adj"], lx["short"], lx["full"])
+
+
+def bt_key(work: dict | None) -> str:
+    return "greek" if is_galen(work) else LANG[work["lang"]]["bt_key"]
+
+
+def mark_re(work: dict | None):
+    return MARK if is_galen(work) else re.compile(r"\s*" + marker_re(work) + r"\s*")
+
 
 # anchor validation (v0.2): a gloss must be an English phrase of real words, not a fragment, label or function word
 GLOSS_LABELS = {"in", "also", "the", "of", "to", "a", "an", "and", "or", "with", "for", "by", "at", "on", "as", "is", "are", "be", "later", "older", "form", "poet",
@@ -131,24 +167,26 @@ def restrict(units: list[dict], out: Path, subset: str | None) -> list[dict]:
 
 
 # ---------------------------------------------------------------- (a)
-def bt_requests(out: Path, units: list[dict], tag: str) -> list[dict]:
+def bt_requests(out: Path, units: list[dict], tag: str, work: dict | None = None) -> list[dict]:
     rend = {r["unit_id"]: r for r in read_jsonl(out / f"renderings_{RENDERINGS[tag]}.jsonl")}
+    system, mk = bt_system_for(work), mark_re(work)
     reqs = []
     for u in units:
         body = (rend.get(u["unit_id"]) or {}).get("response") or {}
-        eng = MARK.sub(" ", body.get("translation", "")).strip() if isinstance(body, dict) else ""
+        eng = mk.sub(" ", body.get("translation", "")).strip() if isinstance(body, dict) else ""
         if not eng:
             continue
         user = f"Unit {u['unit_id']} ({u['locus']}). ENGLISH:\n{eng}"
-        reqs.append({"unit_id": u["unit_id"], "rendering": tag, "system": BT_SYSTEM, "user": user, "prompt_sha256": sha256(BT_SYSTEM + "\n\n" + user)})
+        reqs.append({"unit_id": u["unit_id"], "rendering": tag, "system": system, "user": user, "prompt_sha256": sha256(system + "\n\n" + user)})
     return reqs
 
 
 def cmd_build_bt(slug: str, subset: str | None) -> None:
     out = out_dir(slug)
     units = restrict(read_jsonl(out / "units.jsonl"), out, subset)
+    work = work_config(slug)
     for tag in RENDERINGS:
-        reqs = bt_requests(out, units, tag)
+        reqs = bt_requests(out, units, tag, work)
         write_jsonl(out / f"bt_requests_{tag}.jsonl", reqs)
         print(tag, len(reqs), "back-translation requests")
 
@@ -158,7 +196,12 @@ def cmd_api_bt(slug: str, tag: str, a) -> None:
 
     out = out_dir(slug)
     units = restrict(read_jsonl(out / "units.jsonl"), out, a.subset)
-    reqs = {r["unit_id"]: r for r in bt_requests(out, units, tag)}
+    reqs = {r["unit_id"]: r for r in bt_requests(out, units, tag, work_config(slug))}
+    if a.dry_run:
+        from api_backend import dry_run_stage
+
+        dry_run_stage(stage=f"backtranslate_{tag}", ids=list(reqs), make_request=lambda i: (reqs[i]["system"], reqs[i]["user"], {"rendering": tag}), out_dir=out, limit=a.limit)
+        return
     write_jsonl(out / f"bt_requests_{tag}.jsonl", list(reqs.values()))
     est = None
     cp = out / "cost_estimate.json"
@@ -175,6 +218,7 @@ def cmd_api_bt(slug: str, tag: str, a) -> None:
 def cmd_ingest_bt(slug: str, tag: str, paths: list[str]) -> None:
     out = out_dir(slug)
     reqs = {r["unit_id"]: r for r in read_jsonl(out / f"bt_requests_{tag}.jsonl")}
+    k = bt_key(work_config(slug))
     rows = []
     for p in paths:
         for r in read_jsonl(Path(p)):
@@ -186,23 +230,26 @@ def cmd_ingest_bt(slug: str, tag: str, paths: list[str]) -> None:
                 try:
                     body = json.loads(body)
                 except Exception:
-                    body = {"greek": body}
+                    body = {k: body}
             rows.append({"unit_id": r["unit_id"], "rendering": tag, "model": r.get("model", ""), "backend": "claude_code_session", "prompt_sha256": q["prompt_sha256"],
                          "started_utc": r.get("started_utc", ""), "finished_utc": r.get("finished_utc", ""), "timestamps_scope": "packet",
-                         "response": body if isinstance(body, dict) else None, "ok": isinstance(body, dict) and bool(body.get("greek"))})
+                         "response": body if isinstance(body, dict) else None, "ok": isinstance(body, dict) and bool(body.get(k))})
     rows.sort(key=lambda r: list(reqs).index(r["unit_id"]))
     write_jsonl(out / f"backtranslation_{tag}.jsonl", rows)
     print(tag, len(rows), "of", len(reqs), "back-translations ingested; missing", sorted(set(reqs) - {r["unit_id"] for r in rows}))
 
 
-def bt_greek(row: dict) -> str:
-    if row.get("greek"):
-        return row["greek"]
+def bt_greek(row: dict, key: str = "greek") -> str:
+    """The back-translated source text of a row (key 'greek' for Greek works, 'latin' for Latin)."""
+    if row.get(key):
+        return row[key]
     body = row.get("response")
-    return body.get("greek", "") if isinstance(body, dict) else ""
+    return body.get(key, "") if isinstance(body, dict) else ""
 
 
-def score_a(out: Path, units: list[dict], targets_by_unit: dict) -> dict:
+def score_a(out: Path, units: list[dict], targets_by_unit: dict, work: dict | None = None) -> dict:
+    if not is_galen(work):
+        return score_a_generic(out, units, targets_by_unit, work)
     from dilemma import Dilemma  # type: ignore
 
     dil = Dilemma(lang="grc", convention="lsj")
@@ -219,7 +266,7 @@ def score_a(out: Path, units: list[dict], targets_by_unit: dict) -> dict:
                 memo[w] = lemma_to_lookup_key(w)
         return memo[w]
 
-    work = WORKS[units[0]["work"]]
+    work = work_config(units[0]["work"])
     ody = [json.loads(l) for l in (GDM / "data" / "lemmatized" / work["lemmatized_dir"] / f"{work['stem']}.jsonl").open(encoding="utf-8") if l.strip()]
     res = {}
     for tag in RENDERINGS:
@@ -248,17 +295,90 @@ def score_a(out: Path, units: list[dict], targets_by_unit: dict) -> dict:
     return res
 
 
+def tagger_stream(work: dict, out: Path) -> list[dict]:
+    """The lemma + POS stream units.jsonl's odycy_start/odycy_end index: the frozen odyCy file of the config, or the
+    tagged.jsonl the generic front end wrote beside the units."""
+    t = work.get("tagger", {})
+    p = GDM / t["path"] if t.get("name") == "odycy_precomputed" else out / "tagged.jsonl"
+    return [json.loads(l) for l in p.open(encoding="utf-8") if l.strip()]
+
+
+def score_a_generic(out: Path, units: list[dict], targets_by_unit: dict, work: dict) -> dict:
+    """Check (a) for a config work: the back-translation's words are lemmatized with the config's tagger family
+    (Dilemma for grc, LatinCy via latin_tagger.py for lat), keyed with the language's comparison key; the unit's term
+    keys are its targets' lexicon lemmas; content keys come from the tagger stream (tagged.jsonl). Same thresholds."""
+    key = lemma_key_fn(work["lang"])
+    bk = bt_key(work)
+    bts = {tag: {r["unit_id"]: bt_greek(r, bk) for r in read_jsonl(out / f"backtranslation_{tag}.jsonl")} for tag in RENDERINGS}
+    order = [(tag, u["unit_id"]) for tag in RENDERINGS for u in units]
+    if work["lang"] == "lat":
+        # LatinCy over each back-translation in context (as the source stream was tagged), plus the surface and
+        # Collatinus' first lemma per word: the Latin twin of Galen's Dilemma lemma + surface. On an echo (the source
+        # itself as the back-translation) this recovers 0.978 of the target terms (RECIPE.md, Vitruvius 3).
+        from generic import latin_lemmas_in_context  # noqa: E402
+
+        lem = latin_lemmas_in_context([bts[t].get(uid, "") for t, uid in order], work["tagger"])
+        keysets = {o: {key(l) for _, l, _ in ws} | {key(w) for w, _, _ in ws} | {c.get("first", "") for _, _, c in ws} for o, ws in zip(order, lem)}
+    else:
+        from dilemma import Dilemma  # type: ignore
+
+        dil = Dilemma(lang="grc", convention="lsj")
+        memo: dict[str, str] = {}
+
+        def dl(w: str) -> str:
+            if w not in memo:
+                try:
+                    memo[w] = nfc(dil.lemmatize(w, guess=True) or w)
+                except Exception:
+                    memo[w] = w
+            return memo[w]
+
+        keysets = {}
+        for o in order:
+            ws = [strip_punct(w) for w in bts[o[0]].get(o[1], "").split() if strip_punct(w)]
+            keysets[o] = {key(dl(w)) for w in ws} | {key(w) for w in ws}
+    stream = tagger_stream(work, out)
+    res = {}
+    for tag in RENDERINGS:
+        for u in units:
+            g = bts[tag].get(u["unit_id"], "")
+            bt_keys = keysets[(tag, u["unit_id"])]
+            bt_keys.discard("")
+            term_keys = {key(t["dilemma_lemma"] or t["odycy_lemma"]) for t in targets_by_unit.get(u["unit_id"], [])}
+            term_keys.discard("")
+            content = ({key(nfc(t["lemma"])) for t in stream[u["odycy_start"]:u["odycy_end"] + 1] if t.get("pos") in CONTENT_POS}
+                       if u["odycy_start"] is not None else set())
+            content.discard("")
+            tr = len(term_keys & bt_keys) / len(term_keys) if term_keys else None
+            cr = len(content & bt_keys) / len(content) if content else None
+            if not g:
+                verdict = "missing"
+            elif term_keys:
+                verdict = "pass" if tr >= THRESHOLDS["a_term_recall_min"] else "fail"
+            else:
+                verdict = "pass" if (cr or 0) >= THRESHOLDS["a_content_recall_min_when_no_targets"] else "fail"
+            res[(u["unit_id"], tag)] = {"term_recall": None if tr is None else round(tr, 3), "n_terms": len(term_keys), "content_recall": None if cr is None else round(cr, 3),
+                                         "n_content": len(content), "bt_tokens": len(g.split()), "verdict": verdict}
+    return res
+
+
 # ---------------------------------------------------------------- (c)
-def judge_user(items: list[dict]) -> str:
+def judge_user(items: list[dict], work: dict | None = None) -> str:
+    if is_galen(work):
+        src, lex = "GREEK", "LSJ"
+    else:
+        src, lex = LANG[work["lang"]]["adj"].upper(), LEXICA[work["lexicon"]["name"]]["short"]
     parts = []
     for it in items:
-        parts.append(f"ITEM {it['item_id']}\nGREEK SENTENCE: {it['greek_sentence']}\nTARGET: {it['surface']} (lemma {it['lemma']}; LSJ headword {it['lsj_headword']})\n"
-                     f"LSJ ENTRY: {it['lsj_entry']}\nENGLISH RENDERING: {it['english']}")
+        parts.append(f"ITEM {it['item_id']}\n{src} SENTENCE: {it['greek_sentence']}\nTARGET: {it['surface']} (lemma {it['lemma']}; {lex} headword {it['lsj_headword']})\n"
+                     f"{lex.upper()} ENTRY: {it['lsj_entry']}\nENGLISH RENDERING: {it['english']}")
     return f"{len(items)} items. Answer with exactly {len(items)} JSON lines, one per item, in this order.\n\n" + "\n\n".join(parts)
 
 
 def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None, anchors_rule: str = "v03") -> None:
     out = out_dir(slug)
+    work = work_config(slug)
+    jsys = judge_system_for(work)
     rows = load_term_table(out)
     if subset == "calibration":
         cal = set(calibration_units(out))
@@ -333,8 +453,8 @@ def cmd_build_judge(slug: str, key_out: Path, seed: int, subset: str | None, anc
     groups = []
     for g0 in range(0, len(items), JUDGE_GROUP):
         grp = items[g0:g0 + JUDGE_GROUP]
-        user = judge_user(grp)
-        groups.append({"group_id": f"G{g0 // JUDGE_GROUP + 1:05d}", "item_ids": [it["item_id"] for it in grp], "system": JUDGE_SYSTEM, "user": user, "prompt_sha256": sha256(JUDGE_SYSTEM + "\n\n" + user)})
+        user = judge_user(grp, work)
+        groups.append({"group_id": f"G{g0 // JUDGE_GROUP + 1:05d}", "item_ids": [it["item_id"] for it in grp], "system": jsys, "user": user, "prompt_sha256": sha256(jsys + "\n\n" + user)})
     write_jsonl(out / "judge_requests.jsonl", groups)
     key_out.parent.mkdir(parents=True, exist_ok=True)
     with key_out.open("w", encoding="utf-8", newline="") as fh:
@@ -373,7 +493,13 @@ def cmd_api_judge(slug: str, a) -> None:
     from api_backend import run_stage
 
     out = out_dir(slug)
+    work = work_config(slug)
     groups = {g["group_id"]: g for g in read_jsonl(out / "judge_requests.jsonl")}
+    if a.dry_run:
+        from api_backend import dry_run_stage
+
+        dry_run_stage(stage="judge", ids=list(groups), make_request=lambda i: (groups[i]["system"], groups[i]["user"], {"item_ids": groups[i]["item_ids"]}), out_dir=out, limit=a.limit)
+        return
     est = None
     cp = out / "cost_estimate.json"
     if cp.exists():
@@ -391,8 +517,8 @@ def cmd_api_judge(slug: str, a) -> None:
         re_groups = {}
         for g0 in range(0, len(missing), JUDGE_GROUP):
             grp = [items[i] for i in missing[g0:g0 + JUDGE_GROUP]]
-            user = judge_user(grp)
-            re_groups[f"R{g0 // JUDGE_GROUP + 1:05d}"] = {"system": JUDGE_SYSTEM, "user": user, "item_ids": [it["item_id"] for it in grp]}
+            user = judge_user(grp, work)
+            re_groups[f"R{g0 // JUDGE_GROUP + 1:05d}"] = {"system": judge_system_for(work), "user": user, "item_ids": [it["item_id"] for it in grp]}
         print(len(missing), "items unanswered; re-asking them in", len(re_groups), "groups")
         run_stage(stage="judge_reask", work=slug, model="claude-sonnet-5-5", ids=list(re_groups),
                   make_request=lambda i: (re_groups[i]["system"], re_groups[i]["user"], {"item_ids": re_groups[i]["item_ids"]}),
@@ -499,7 +625,7 @@ def cmd_score(slug: str, key_path: Path | None, subset: str | None) -> None:
 
     # (a)
     have_bt = all((out / f"backtranslation_{t}.jsonl").exists() for t in RENDERINGS)
-    a_res = score_a(out, units, targets_by_unit) if have_bt else {}
+    a_res = score_a(out, units, targets_by_unit, work_config(slug)) if have_bt else {}
 
     # (c)
     c = {u["unit_id"]: {"verdict": "not_run"} for u in units}
@@ -640,6 +766,8 @@ def main() -> None:
     ap.add_argument("--anchors", choices=["v02", "v03"], default="v03", help="build-judge: anchor rule (v0.3 default, 2026-11-10)")
     add_api_args(ap)
     a = ap.parse_args()
+    if a.dry_run and a.cmd not in ("api-bt", "api-judge"):
+        sys.exit("--dry-run goes with api-bt or api-judge")
     if a.cmd == "build-bt":
         cmd_build_bt(a.work, a.subset)
     elif a.cmd == "api-bt":

@@ -342,7 +342,23 @@ def _run_batch(client, stage, work, model, reqs, out_path, usage_path, id_field,
     print(f"  {stage}: batch {batch.id} ended: {n_ok}/{len(requests)} parsed ok; work total ${usage_total(usage_path):.2f}", flush=True)
 
 
+def dry_run_stage(*, stage: str, ids: list[str], make_request: Callable[[str], tuple[str, str, dict]], out_dir: Path, limit: int | None = None) -> Path:
+    """--dry-run (2026-11-12): build every request exactly as run_stage would, for every id in order (resume is
+    ignored, so the whole stage is shown), and write them to <out_dir>/dryrun_<stage>.jsonl. No key is read, no
+    client is made, nothing is sent."""
+    todo = ids[:limit] if limit is not None else list(ids)
+    rows = []
+    for i in todo:
+        system, user, meta = make_request(i)
+        rows.append({"id": i, "system": system, "user": user, "prompt_sha256": sha256(system + "\n\n" + user), "meta": meta})
+    p = Path(out_dir) / f"dryrun_{stage}.jsonl"
+    write_jsonl(p, rows)
+    print(f"[{stage}] DRY RUN: {len(rows)} requests built, none sent -> {p} ({sum(len(r['system']) + len(r['user']) for r in rows):,} prompt chars)", flush=True)
+    return p
+
+
 def add_api_args(ap) -> None:
+    ap.add_argument("--dry-run", action="store_true", help="build the requests the api stage would send and write them to dryrun_<stage>.jsonl; no key, no call")
     ap.add_argument("--budget", type=float, default=None, help="USD cap for the whole work (read back from usage.jsonl before every packet)")
     ap.add_argument("--mode", choices=["direct", "batch"], default="direct", help="direct = streaming calls, per-item timestamps; batch = Message Batches, half price")
     ap.add_argument("--packet-size", type=int, default=None)

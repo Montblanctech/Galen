@@ -304,12 +304,14 @@ def main() -> None:
 <h2>All {N_W}, with their numbers</h2>
 <ul class=tools>{"".join(rows)}</ul>
 <p class=warn>A sample read (2026-11-11): 39 passages, three from each work chosen at random, were read against the Greek by a model reader, not a scholar. 35 were faithful, 4 had minor slips (in the two Hippocratic commentaries, e.g. the midday meal given as "the morning meal"), none was seriously wrong. The check marks did not predict the slips. The full record, with the corrections it led to: <a href="https://github.com/Montblanctech/Galen/blob/master/firstdrafts_sample_read_2026-11-11.md">firstdrafts_sample_read_2026-11-11.md</a>.</p>
+<p class=warn>The same method on a Latin text, scored against an existing English translation: <a href="../method/">the method on other texts</a>.</p>
 <p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). How the drafts were made and checked: <a href="https://doi.org/10.5281/zenodo.24146103">the methods note</a> (doi:10.5281/zenodo.24146103). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
 </div></section>
 <footer><div class=wrap><a href="../">All project pages</a></div></footer>
 </body></html>
 """
     (FD / "index.html").write_text(idx, encoding="utf-8")
+    method_index()
     print("front page and drafts index written;", total_words, "Greek words;", {"thin": thin, "none": none_, "artifact": art, "total": total})
     sitemap()
     print("phone fixes added to", add_mobile(), "pages")
@@ -317,6 +319,44 @@ def main() -> None:
     import share
     n_find = F["findings.items"]
     print("share tags added to", share.apply(N_WORKS, total_words, n_find, NOT_PUBLIC), "pages")
+
+
+# Tests of the method on texts that already have a human English translation (2026-11-12). Kept out of docs/first-drafts/
+# so they never count as First Drafts works; numbers read from the outputs.
+METHOD_EXAMPLES = [("vitruvius-3", "checks_reference_morgan1914.json", "M. H. Morgan's 1914 translation")]
+
+
+def method_index() -> str:
+    from common import work_config
+    d_gal = json.loads((out_dir("comp-per-genera") / "checks.json").read_text(encoding="utf-8"))["summary"]["d_reference_agreement"]["per_rendering"]
+    items = []
+    for slug, ref_file, ref_name in METHOD_EXAMPLES:
+        w = work_config(slug)
+        m = json.loads((out_dir(slug) / "units_meta.json").read_text(encoding="utf-8"))
+        c = json.loads((out_dir(slug) / "checks.json").read_text(encoding="utf-8"))["summary"]
+        d = json.loads((out_dir(slug) / ref_file).read_text(encoding="utf-8"))["per_rendering"]
+        n_words = sum(int(u.get("n_tokens", 0)) for u in map(json.loads, (out_dir(slug) / "units.jsonl").read_text(encoding="utf-8").splitlines()))
+        items.append(f'<li><a class=t href="{slug}/">{esc(w["author"])}, {esc(w["title_eng"])}</a> <span class=sans style="color:var(--muted);font-size:15px">· <em>{esc(w["title_lat"])}</em> · '
+                     f'{m["n_units"]} passages, {n_words:,} Latin words, {(c.get("unit_verdicts") or {}).get("fail", 0)} failing two or more checks · '
+                     f'agreement with {esc(ref_name)} on the key terms: {d["A"]["pct"]:.1f}% and {d["B"]["pct"]:.1f}%</span></li>')
+    page = (f"<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>"
+            f"<title>The First Drafts method on other texts</title><meta name=description content=\"Tests of the Galen First Drafts method on texts that already have a human English translation, scored against it.\">"
+            f"<link rel=stylesheet href=\"../site.css\"></head><body>" + f"""
+<header class=hero style="padding:3.2rem 0 2.2rem"><div class=wrap>
+<div class=kicker><a href="../" style="text-decoration:none">Galen Density Project</a></div>
+<h1 style="font-size:clamp(2rem,4.5vw,3rem)">The method on other texts</h1>
+<p class=lede>The pipeline that made Galen First Drafts runs on any Greek or Latin text that has a digital edition and a dictionary. These pages test it on texts that already have a complete human English translation, so the machine drafts can be scored against a person's. They are not new translations.</p>
+</div></header>
+<section><div class=wrap>
+<ul class=tools>{"".join(items)}</ul>
+<p class=warn>For comparison, the Galen drafts of <em>Composition of Drugs by Kind</em> agree with their human reference on {d_gal["A"]["pct"]:.1f}% and {d_gal["B"]["pct"]:.1f}% of the key terms. The same two models, the same prompt wording, and the same checks and thresholds are used throughout. How it works, and how to run it on another text: <a href="https://github.com/Montblanctech/Galen/blob/master/galen-density-map/pipeline/firstdrafts/RECIPE.md">RECIPE.md</a>. <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
+</div></section>
+<footer><div class=wrap><a href="../">All project pages</a> · <a href="../first-drafts/">Galen First Drafts</a></div></footer>
+</body></html>
+""")
+    (DOCS / "method").mkdir(exist_ok=True)
+    (DOCS / "method" / "index.html").write_text(page, encoding="utf-8")
+    return page
 
 
 SITE = "https://montblanctech.github.io/Galen/"

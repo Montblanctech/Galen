@@ -25,7 +25,7 @@ import re
 import sys
 from collections import Counter
 
-from common import PIPE, SENTENCE_END, nfc, out_dir, read_jsonl, strip_punct
+from common import PIPE, SENTENCE_END, lemma_key_fn, marker_re, nfc, out_dir, read_jsonl, strip_punct, work_config
 
 sys.path.insert(0, str(PIPE / "mt2026"))
 from score_consistency import norm  # noqa: E402
@@ -36,15 +36,21 @@ RENDERINGS = {"A": "fable-5-1", "B": "opus-5-5"}
 MARK = re.compile(r"\[(\d+)\]")
 
 
-def split_greek(display: str) -> list[dict]:
-    """Sentences of the display Greek; each keeps its marker-free token span (start, end) for target lookup."""
+def galen_end(t: str) -> bool:
+    return t.endswith(SENTENCE_END)
+
+
+def split_greek(display: str, mark=MARK, is_end=galen_end) -> list[dict]:
+    """Sentences of the display source text; each keeps its marker-free token span (start, end) for target lookup.
+    Galen: split at '.' and ';' (the Greek question mark). A config work: its front end's sentence-end rule (Latin:
+    '.', '?', '!' only, never ';', with closing quotes stripped and abbreviations excluded)."""
     toks = display.split()
     sents, cur, start_plain, n_plain = [], [], 0, 0
     for t in toks:
         cur.append(t)
-        if not MARK.fullmatch(t):
+        if not mark.fullmatch(t):
             n_plain += 1
-            if t.endswith(SENTENCE_END):
+            if is_end(t):
                 sents.append({"text": " ".join(cur), "start": start_plain, "end": n_plain})
                 cur, start_plain = [], n_plain
     if cur:
@@ -60,11 +66,11 @@ def split_english(text: str) -> list[str]:
     return [p.strip() for p in parts if p.strip()]
 
 
-def segments(items: list[str], key=lambda s: s) -> list[tuple[list[str], list[str]]]:
+def segments(items: list[str], key=lambda s: s, mark=MARK) -> list[tuple[list[str], list[str]]]:
     """Split a sentence list into (markers_seen, sentences) segments at page markers (a marker starts a new segment)."""
     segs, cur, marks = [], [], []
     for s in items:
-        ms = MARK.findall(key(s))
+        ms = mark.findall(key(s))
         if ms and cur:
             segs.append((marks, cur))
             cur, marks = [], []
@@ -74,10 +80,10 @@ def segments(items: list[str], key=lambda s: s) -> list[tuple[list[str], list[st
     return segs
 
 
-def gale_church(g: list[str], e: list[str]) -> list[tuple[list[int], list[int]]]:
+def gale_church(g: list[str], e: list[str], mark=MARK) -> list[tuple[list[int], list[int]]]:
     """Beads over sentence index lists; cost = squared normalised length difference, plus a penalty per non-1:1 bead."""
-    lg = [len(MARK.sub("", s)) for s in g]
-    le = [len(MARK.sub("", s)) for s in e]
+    lg = [len(mark.sub("", s)) for s in g]
+    le = [len(mark.sub("", s)) for s in e]
     r = (sum(le) / sum(lg)) if sum(lg) else 1.0
     n, m = len(g), len(e)
     INF = float("inf")
@@ -111,27 +117,27 @@ def gale_church(g: list[str], e: list[str]) -> list[tuple[list[int], list[int]]]
     return beads[::-1]
 
 
-def align_unit(greek_display: str, english: str) -> tuple[list[dict], dict]:
-    gs = split_greek(greek_display)
+def align_unit(greek_display: str, english: str, mark=MARK, is_end=galen_end) -> tuple[list[dict], dict]:
+    gs = split_greek(greek_display, mark, is_end)
     es = split_english(english)
-    g_marks = MARK.findall(greek_display)
-    e_marks = MARK.findall(english or "")
+    g_marks = mark.findall(greek_display)
+    e_marks = mark.findall(english or "")
     anchored = bool(g_marks) and g_marks == e_marks
     beads_out = []
     if anchored:
-        gseg = segments([s["text"] for s in gs])
-        eseg = segments(es)
+        gseg = segments([s["text"] for s in gs], mark=mark)
+        eseg = segments(es, mark=mark)
         if len(gseg) != len(eseg):
             anchored = False
     if anchored:
         goff = eoff = 0
         for (_, gl), (_, el) in zip(gseg, eseg):
-            for gi, ei in gale_church(gl, el):
+            for gi, ei in gale_church(gl, el, mark):
                 beads_out.append({"g": [goff + x for x in gi], "e": [eoff + y for y in ei]})
             goff += len(gl)
             eoff += len(el)
     else:
-        for gi, ei in gale_church([s["text"] for s in gs], es):
+        for gi, ei in gale_church([s["text"] for s in gs], es, mark):
             beads_out.append({"g": gi, "e": ei})
     stats = {"n_greek_sentences": len(gs), "n_english_sentences": len(es), "markers_match": g_marks == e_marks, "anchored": anchored,
              "beads": Counter(f"{len(b['g'])}:{len(b['e'])}" for b in beads_out)}
@@ -146,6 +152,13 @@ def main() -> None:
     ap.add_argument("--work", default="adversus-lycum")
     a = ap.parse_args()
     out = out_dir(a.work)
+    work = work_config(a.work)
+    if work["galen"]:
+        mark, is_end, lkey = MARK, galen_end, lemma_to_lookup_key
+    else:
+        from generic import sentence_end_fn  # noqa: E402
+
+        mark, is_end, lkey = re.compile(marker_re(work)), sentence_end_fn(work["unit"]), lemma_key_fn(work["lang"])
     units = read_jsonl(out / "units.jsonl")
     targets = list(csv.DictReader((out / "targets.csv").open(encoding="utf-8")))
     lsj = json.loads((out / "lsj_entries.json").read_text(encoding="utf-8")) if (out / "lsj_entries.json").exists() else {}
@@ -161,7 +174,7 @@ def main() -> None:
             r = rend[tag].get(u["unit_id"])
             eng = (r or {}).get("response", {}) or {}
             eng = eng.get("translation", "") if isinstance(eng, dict) else ""
-            beads, info = align_unit(u["greek"], eng)
+            beads, info = align_unit(u["greek"], eng, mark, is_end)
             alignment_tag[u["unit_id"]] = {"beads": beads, "greek_sentences": [s["text"] for s in info["sentences"]], "english_sentences": info["english_sentences"],
                                            "sentence_spans": [[s["start"], s["end"]] for s in info["sentences"]], "anchored": info["anchored"], "markers_match": info["markers_match"]}
             st["units_with_translation"] += bool(eng)
@@ -179,7 +192,7 @@ def main() -> None:
     for t in targets:
         uid, tno = t["unit_id"], int(t["target_no"])
         row = {k: t[k] for k in ("unit_id", "target_no", "surface", "dilemma_lemma", "odycy_lemma", "pos", "punch_tier", "tier_v3", "fourway", "class", "page")}
-        ent = lsj.get(lemma_to_lookup_key(t["dilemma_lemma"])) or lsj.get(lemma_to_lookup_key(t["odycy_lemma"])) or {}
+        ent = lsj.get(lkey(t["dilemma_lemma"])) or lsj.get(lkey(t["odycy_lemma"])) or {}
         row.update({"lsj_entry_id": ent.get("lsj_entry_id", ""), "lsj_key": ent.get("lsj_key", ""), "lsj_headword": ent.get("lsj_headword", ""),
                     "lsj_sense_count": ent.get("lsj_sense_count", ""), "lsj_entry_text": ent.get("lsj_entry_text", ""),
                     "lsj_first_sense_gloss": ent.get("lsj_first_sense_gloss", "")})

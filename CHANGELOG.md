@@ -5,6 +5,10 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased]
 
+### Added
+- **The First Drafts pipeline runs on any Greek or Latin text** (`pipeline/firstdrafts/generic.py`, work configs in `configs/`, `RECIPE.md`): every stage reads a work config (edition, citation system, language, lexicon) instead of Galen's facts. Latin uses LatinCy with Collatinus as fallback and Lewis & Short as the lexicon; target words for a new text are chosen by lexicon rarity. The Galen path is unchanged: units, targets, prompts and pages of all published works regenerate byte for byte.
+- **The method on other texts** (`docs/method/`): Vitruvius, *De architectura* book 3 (Krohn's Teubner text, 29 passages, 4,059 Latin words), drafted by the same two models with the same checks and thresholds. (a) 27 of 29 units pass; (b) 77.5% term agreement; (c) the salted Lewis & Short judge passed its 20/20 gate; (d) against M. H. Morgan's 1914 translation (public domain; 51 of 54 sections scored; loci and counts only, the text is not copied): 64.0% and 66.0%, beside the Galen calibration's 63.5% and 66.4%. 6 units fail two or more checks; all are kept and marked. A test of the method, not a new translation; it does not count among the First Drafts works. Outputs in `outputs/firstdrafts/vitruvius-3/`.
+
 ## [3.4.0] — 2026-11-11
 
 ### Changed
