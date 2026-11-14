@@ -151,9 +151,17 @@ def main() -> None:
         cls = {"pass": "ok", "fail": "bad", "n/a": "na", "not_run": "na", "missing": "na", "judge_failed_gate": "na", "mixed": "mixed", "insufficient": "na"}.get(v, "na")
         return f'<span class="chk {cls}" title="{esc(v)}">{esc(v)}</span>'
 
+    # the original-language column is marked as such, so a screen reader reads it with the right voice (2026-11-13 audit)
+    src_lang = {"grc": "grc", "lat": "la"}.get(W.get("lang", "grc"), "grc")
     parts = []
+    # every page carries its own description (2026-11-13 site audit: the Galen pages had none, so search results and
+    # link previews fell back to a generic line); a work config may give its own
+    desc = w.get("description") or (f"{T['author']}, {w['title_eng']} ({w['title_lat']}): a machine first draft in English with the {T['adj']} beside it, "
+                                     f"two independent renderings and the machine checks. Unverified; for reading and correcting.")
+    title_html = f"<title>{esc(T['author'])}, {esc(w['title_eng'])} — machine first draft v0.1</title>"
+    desc_html = '<meta name=description content="' + esc(desc) + '">'
     parts.append(f"""<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>
-<title>{esc(T['author'])}, {esc(w['title_eng'])} — machine first draft v0.1</title>{'' if galen or not w.get('description') else '<meta name=description content="' + esc(w['description']) + '">'}
+{title_html}{desc_html}
 <style>
 body{{font:15px/1.5 Georgia,serif;max-width:1400px;margin:0 auto;padding:0 1rem 3rem;color:#222;background:#fff}}
 .banner{{background:#7a1f1f;color:#fff;padding:.6rem 1rem;font-size:.95em;position:sticky;top:0;z-index:5}}
@@ -164,11 +172,11 @@ table.sum{{border-collapse:collapse;margin:.5rem 0}} table.sum td,table.sum th{{
 .unit{{margin:1.2rem 0;padding:.4rem 0}} .unit.fail{{border-left:6px solid #a33;padding-left:.6rem}}
 .uh{{display:flex;flex-wrap:wrap;gap:.8rem;align-items:baseline}} .uh .id{{font-weight:bold}}
 .cols{{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem}} @media(max-width:900px){{.cols{{grid-template-columns:1fr}}}}
-.grc{{font-size:1.02em}} .eng{{}} .col h4{{margin:.3rem 0;font-size:.85em;color:#555;font-weight:normal}}
+.grc{{font-size:1.02em}} .eng{{}} .col .ch{{margin:.3rem 0;font-size:.85em;color:#555;font-weight:normal}}
 .pb{{display:inline-block;background:#eee;border:1px solid #bbb;border-radius:.3em;padding:0 .3em;font-size:.75em;color:#333;vertical-align:super;margin:0 .15em}}
 mark.agree{{background:#dff3df}} mark.differ{{background:#f9d6d6}} mark.one{{background:#eee}}
 .chk{{display:inline-block;border-radius:.4em;padding:0 .45em;font-size:.8em;border:1px solid #999}} .chk.ok{{background:#dff3df;border-color:#7a7}} .chk.bad{{background:#f9d6d6;border-color:#a33}} .chk.na{{background:#eee}} .chk.mixed{{background:#fbefc9;border-color:#c90}}
-.tier-low{{color:#363}} .tier-mid{{color:#b60}} .tier-high{{color:#a33}}
+.tier-low{{color:#363}} .tier-mid{{color:#975200}} .tier-high{{color:#a33}}
 details{{margin:.4rem 0}} summary{{cursor:pointer;color:#444;font-size:.9em}}
 table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,table.tt td{{border-bottom:1px solid #e5e5e5;padding:.15rem .4rem;text-align:left;vertical-align:top}}
 .unc{{color:#a33;font-size:.8em}} .lsj{{color:#555;font-size:.85em}}
@@ -189,16 +197,16 @@ body.read .modebar{{max-width:38rem;margin:.8rem auto 0}}
 body.read .unit{{max-width:38rem;margin:0 auto;padding:0}}
 body.read .unit.fail{{border-left:3px solid #c98a8a;padding-left:.9rem;margin-left:auto}}
 body.read .cols{{display:block}}
-body.read .col.grc,body.read .col.b,body.read .col h4{{display:none}}
+body.read .col.grc,body.read .col.b,body.read .col .ch{{display:none}}
 body.read .col.a{{font-size:19px;line-height:1.75;margin:0 0 1.1rem}}
 body.read mark{{background:none;color:inherit}}
-body.read .uh{{font:12px/1.4 system-ui,"Segoe UI",sans-serif;color:#a39a8e;gap:.5rem}}
-body.read .uh .id a{{color:#a39a8e;font-weight:normal;text-decoration:none}}
+body.read .uh{{font:12px/1.4 system-ui,"Segoe UI",sans-serif;color:#766d62;gap:.5rem}}
+body.read .uh .id a{{color:#766d62;font-weight:normal;text-decoration:none}}
 body.read .uh>span:nth-child(n+3){{display:none}}
 body.read .unit.fail .uh::after{{content:"the machine checks flag this passage";color:#a33}}
-body.read .pb{{background:none;border:none;color:#b3aa9d;font-family:system-ui,sans-serif}}
+body.read .pb{{background:none;border:none;color:#766d62;font-family:system-ui,sans-serif}}
 body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-left:auto;margin-right:auto}}
-@media(prefers-color-scheme:dark){{body.read{{background:#16130f;color:#e9e2d6}} body.read .rhead .lat,body.read .rhead .note{{color:#a39a8e}} body.read a{{color:#e2b0a0}}}}
+@media(prefers-color-scheme:dark){{body.read{{background:#16130f;color:#e9e2d6}} body.read .rhead .lat,body.read .rhead .note{{color:#a39a8e}} body.read a{{color:#e2b0a0}} body.read .rhead .kicker{{color:#e2b0a0}} body.read .uh,body.read .uh .id a,body.read .pb,body.read .modebar,body.read .small{{color:#a39a8e}} body.read .unit.fail .uh::after{{color:#e2867a}}}}
 </style></head><body class=read>
 <script>try{{if(localStorage.getItem('gfd-view')==='scholar')document.body.className='scholar'}}catch(e){{}}</script>
 <div class=banner><strong>Machine first draft, unverified, v0.1.</strong> Two language models translated this text independently; no scholar has checked it. Red marks show where the machine checks fail. The apparatus says where to look, not that the text is right. <a href="{ISSUE_URL}">Report a correction</a> · <a href="../../">project pages</a></div>
@@ -245,9 +253,9 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 <span>(a) {mark(a_ck.get('verdict', 'not_run'))} (b) {mark(b_ck.get('verdict', 'n/a'))}{' ' + str(b_ck.get('agree')) + '/' + str(b_ck.get('n')) if b_ck.get('n') else ''} (c) {mark(c_ck.get('verdict', 'not_run'))}{' ' + str(c_ck.get('in_range')) + '/' + str(c_ck.get('n')) if c_ck.get('n') and c_ck.get('in_range') is not None else ''}
 <span class=verdict>unit: {mark(verdict)}</span></span></div>
 <div class=cols>
-<div class="col grc"><h4>{esc(T['col'])}</h4>{highlight(u['greek'], spans_g, mk, T['label'])}</div>
-<div class="col eng a"><h4>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get(uk) else ''}</h4>{highlight(a_eng, spans_a, mk, T['label']) if a_eng else '<em class=small>no rendering</em>'}</div>
-<div class="col eng b"><h4>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get(uk) else ''}</h4>{highlight(b_eng, spans_b, mk, T['label']) if b_eng else '<em class=small>no rendering</em>'}</div>
+<div class="col grc" lang={src_lang}><div class=ch>{esc(T['col'])}</div>{highlight(u['greek'], spans_g, mk, T['label'])}</div>
+<div class="col eng a"><div class=ch>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get(uk) else ''}</div>{highlight(a_eng, spans_a, mk, T['label']) if a_eng else '<em class=small>no rendering</em>'}</div>
+<div class="col eng b"><div class=ch>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get(uk) else ''}</div>{highlight(b_eng, spans_b, mk, T['label']) if b_eng else '<em class=small>no rendering</em>'}</div>
 </div>""")
         if rows:
             parts.append(f"<details><summary>Term table ({len(rows)} targets)</summary><table class=tt><tr><th>{T['adj']}</th><th>{T['lemma_th']}</th><th>{T['lex']['short']}</th><th>tier</th><th>A</th><th>B</th><th>agree</th><th>judge A / B</th></tr>")
@@ -279,7 +287,10 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
     if len(units) > SPLIT_OVER and len(books) > 1:
         nav = "<p class=\"small nav\">" + " · ".join(f'<a href="book-{bk}.html">Book {bk}</a>' for bk, *_ in books) + ' · <a href="./">contents</a></p>'
         for bk, a, b, n in books:
-            (dest / f"book-{bk}.html").write_text("\n".join(parts[:head_len] + [f"<h2>Book {bk} ({n} units)</h2>", nav] + parts[a:b] + [nav, parts[foot_start]]), encoding="utf-8")
+            # each book page gets its own title and description (they all carried the work's, 2026-11-13 audit)
+            head0 = parts[0].replace(title_html, title_html.replace("<title>", f"<title>Book {bk} · ", 1), 1)
+            head0 = head0.replace(desc_html, '<meta name=description content="' + esc(f"Book {bk} of {desc}") + '">', 1)
+            (dest / f"book-{bk}.html").write_text("\n".join([head0] + parts[1:head_len] +[f"<h2>Book {bk} ({n} units)</h2>", nav] + parts[a:b] + [nav, parts[foot_start]]), encoding="utf-8")
         toc = ["<h2>Books</h2><ul>"] + [f'<li><a href="book-{bk}.html">Book {bk}</a>: {n} units</li>' for bk, a, b, n in books] + ["</ul>"]
         (dest / "index.html").write_text("\n".join(parts[:head_len] + toc + [parts[foot_start]]), encoding="utf-8")
     else:

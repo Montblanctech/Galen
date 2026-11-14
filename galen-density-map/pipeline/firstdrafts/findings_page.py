@@ -119,13 +119,13 @@ def main() -> None:
 .controls select,.controls input{{font:15px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;padding:.5rem .6rem;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink);min-width:0}}
 .controls input{{flex:1 1 14rem}}
 .item{{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:1rem 1.1rem;margin:.8rem 0}}
-.item h3{{font-size:1.08rem;margin:0 0 .3rem;line-height:1.35}}
+.item h2{{font-size:1.08rem;margin:0 0 .3rem;line-height:1.35}}
 .item .meta{{font:13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted);margin-bottom:.5rem}}
 .item blockquote{{margin:.5rem 0;padding-left:.8rem;border-left:3px solid var(--accent);font-size:.98rem}}
 .item .gk{{font-size:.95rem;color:var(--muted)}}
 .item .note{{font:14px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted);margin-top:.4rem}}
 .tag{{display:inline-block;font:600 11px/1 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-right:.5rem}}
-.warnflag{{color:#a33}}
+.warnflag{{color:var(--none)}}
 #count{{font:14px/1.4 system-ui,sans-serif;color:var(--muted)}}
 </style></head><body>
 <header class=hero><div class=fwrap>
@@ -135,7 +135,7 @@ def main() -> None:
 <p class=warn>How this was made: model readers went through every passage of the machine drafts and noted what a researcher would want. A script then checked that every quotation is word for word in the draft and every Greek word is in that passage's Greek. Nothing else was checked. The summaries are the readers' and have not been read by a scholar, and the drafts themselves are unverified. Much of this has been read by specialists in the Greek; what is new is that it can now be read in English. Treat each item as a pointer to the passage, not as a finding to cite. Every item about a lost author or book, or about Galen's own works, was then checked by model researchers (not a specialist) against Fichtner's catalogue of Galen's works (2023), the standard fragment collections and the web: none was shown to be unknown to scholarship, a few could not be placed, and each such item says what was found and where. One, Galen's lost <em>On the Innate Heat</em>, seems to be known only from the passage shown here. A reading of 40 items chosen at random against the Greek (2026-11-11) found one summary that misstated the passage; it and the other problems that reading found are corrected and marked. <a href="{ISSUE_URL}">Report a correction</a>.</p>
 </div></header>
 <section><div class=fwrap>
-<div class=controls><select id=only><option value="5">Highlights</option><option value="">Everything, most interesting first</option></select><select id=cat><option value="">All kinds ({len(rows):,})</option>{cat_opts}</select><select id=work><option value="">All works</option>{work_opts}</select><input id=q type=search placeholder="Search: a name, a drug, a word"></div>
+<div class=controls><select id=only aria-label="Show"><option value="5">Highlights</option><option value="">Everything, most interesting first</option></select><select id=cat aria-label="Kind of item"><option value="">All kinds ({len(rows):,})</option>{cat_opts}</select><select id=work aria-label="Work"><option value="">All works</option>{work_opts}</select><input id=q type=search aria-label="Search the items" placeholder="Search: a name, a drug, a word"></div>
 <div id=count></div><div id=list></div>
 <p class=small><a href="../">Galen First Drafts</a> · <a href="../first-drafts/">All drafts</a> · <a href="findings.json">findings.json</a></p>
 </div></section>
@@ -147,7 +147,7 @@ function show(){{
   const o=document.getElementById('only').value, c=document.getElementById('cat').value, w=document.getElementById('work').value, q=document.getElementById('q').value.trim().toLowerCase();
   const R=D.filter(r=>(!o||r.r>=+o)&&(!c||r.c===c)&&(!w||r.w===w)&&(!q||(r.t+' '+r.s+' '+r.q+' '+r.g+' '+r.n+' '+r.wt).toLowerCase().includes(q)));
   document.getElementById('count').textContent=R.length+' of '+D.length+' items';
-  document.getElementById('list').innerHTML=R.slice(0,400).map(r=>`<div class=item><div class=meta><span class=tag>${{e(L[r.c]||r.c)}}</span>${{e(r.wt)}} · <a href="${{e(r.h)}}">${{e(r.l)}}</a>${{r.k&&r.k!=='pass'?` · <span class=warnflag>passage checks: ${{e(r.k)}}</span>`:''}} · reader's confidence ${{e(r.f)}}${{r.x?` · <span class=warnflag>${{e(r.x)}}</span>`:''}}</div><h3>${{e(r.t)}}</h3><div>${{e(r.s)}}</div><blockquote>“${{e(r.q)}}”</blockquote><div class=gk>${{e(r.g)}}</div>${{r.n?`<div class=note>${{e(r.n)}}</div>`:''}}${{r.a?`<div class=note><b>${{e(r.a)}}.</b> ${{e(r.e)}}</div>`:''}}</div>`).join('')+(R.length>400?'<p class=small>Showing the first 400; narrow the filter to see the rest.</p>':'');
+  document.getElementById('list').innerHTML=R.slice(0,400).map(r=>`<div class=item><div class=meta><span class=tag>${{e(L[r.c]||r.c)}}</span>${{e(r.wt)}} · <a href="${{e(r.h)}}">${{e(r.l)}}</a>${{r.k&&r.k!=='pass'?` · <span class=warnflag>passage checks: ${{e(r.k)}}</span>`:''}} · reader's confidence ${{e(r.f)}}${{r.x?` · <span class=warnflag>${{e(r.x)}}</span>`:''}}</div><h2>${{e(r.t)}}</h2><div>${{e(r.s)}}</div><blockquote>“${{e(r.q)}}”</blockquote><div class=gk>${{e(r.g)}}</div>${{r.n?`<div class=note>${{e(r.n)}}</div>`:''}}${{r.a?`<div class=note><b>${{e(r.a)}}.</b> ${{e(r.e)}}</div>`:''}}</div>`).join('')+(R.length>400?'<p class=small>Showing the first 400; narrow the filter to see the rest.</p>':'');
 }}
 fetch('findings.json').then(r=>r.json()).then(d=>{{D=d;show();}});
 ['only','cat','work','q'].forEach(id=>document.getElementById(id).addEventListener('input',show));

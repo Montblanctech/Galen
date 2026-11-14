@@ -73,7 +73,7 @@ def v3_tiers() -> dict[str, int]:
 
 CSS = """
 :root{--bg:#faf7f0;--ink:#1f1b16;--muted:#6b6257;--rule:#e4ddd0;--card:#fffdf8;--accent:#7a1f1f;--accent-ink:#fff;--thin:#c98a2b;--none:#a33}
-@media(prefers-color-scheme:dark){:root{--bg:#16130f;--ink:#e9e2d6;--muted:#a39a8e;--rule:#3a332b;--card:#1e1a15;--accent:#c4574a;--accent-ink:#fff}}
+@media(prefers-color-scheme:dark){:root{--bg:#16130f;--ink:#e9e2d6;--muted:#a39a8e;--rule:#3a332b;--card:#1e1a15;--accent:#d9705f;--accent-ink:#16130f;--none:#e2867a}}
 *{box-sizing:border-box}
 html{background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 Georgia,"Iowan Old Style","Palatino Linotype",serif}
@@ -120,6 +120,7 @@ section .intro{max-width:40rem;color:var(--muted);margin:0 0 2rem}
 .tools a.t{font-weight:600}
 footer{padding:2.2rem 0 3rem;font:14px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted)}
 code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px;overflow-wrap:anywhere}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 """
 
 
@@ -161,7 +162,7 @@ def highlights(n: int = 6) -> str:
     return (f"""<section><div class=wrap>
 <div class=kicker>Inside the drafts</div>
 <h2>What the drafts say</h2>
-<p class=intro>{len(rows):,} items catalogued from the thirteen works: people, lost books, recipes, cases, prices and measures, each linked to its passage. A few of the most striking are below. They were found by model readers in unverified drafts, so treat each as a pointer to the passage, not a finding to cite.</p>
+<p class=intro>{len(rows):,} items catalogued from the {N_W} works: people, lost books, recipes, cases, prices and measures, each linked to its passage. A few of the most striking are below. They were found by model readers in unverified drafts, so treat each as a pointer to the passage, not a finding to cite.</p>
 <div class=grid>{cards_}</div>
 <div class=btns style="margin-top:1.4rem"><a class="btn primary" href="findings/">All {len(rows):,} items</a></div>
 </div></section>
@@ -210,6 +211,48 @@ def add_mobile() -> int:
             add += "<style>" + MOBILE.split("<style>")[1]
         if add:
             f.write_text(t.replace("</head>", add + "</head>", 1), encoding="utf-8")
+            n += 1
+    return n
+
+
+def _public_pages():
+    for f in DOCS.rglob("*.html"):
+        rel = f.relative_to(DOCS).as_posix()
+        if rel.split("/")[0] in NOT_PUBLIC or rel.startswith("google") or rel == "index.html":
+            continue
+        yield f, rel
+
+
+def add_home_link() -> int:
+    """Pages with no link back to the front page (the LSJ-Gold, LS-Gold and Term Explorer pages, which their own
+    generators write): add one line at the top. A reader who arrives from a shared link has no other way to the rest
+    of the site (2026-11-13 site audit). Idempotent: a page that already links to the front page is left alone."""
+    n = 0
+    for f, rel in _public_pages():
+        up = "../" * rel.count("/")
+        t = f.read_text(encoding="utf-8")
+        if re.search(r"""href=["']?""" + re.escape(up) + r"""(?:index\.html)?(?=["'\s>#])""", t):
+            continue
+        m = re.search(r"<body[^>]*>", t)
+        if not m:
+            continue
+        nav = (f'<nav style="font:14px/1.4 system-ui,-apple-system,sans-serif;margin:.8rem 0">'
+               f'<a href="{up}">&larr; Galen Density Project: all pages</a></nav>')
+        f.write_text(t[:m.end()] + nav + t[m.end():], encoding="utf-8")
+        n += 1
+    return n
+
+
+def add_labels() -> int:
+    """Search boxes with no label (the Term Explorer pages): a screen reader announced them only as "edit text".
+    Give each an aria-label (2026-11-13 site audit). Idempotent."""
+    n = 0
+    for f, rel in _public_pages():
+        t = f.read_text(encoding="utf-8")
+        new = re.sub(r"<input (?![^>]*aria-label)([^>]*type=search[^>]*|[^>]*placeholder=[^>]*)>",
+                     lambda m: f'<input aria-label="Search" {m.group(1)}>', t)
+        if new != t:
+            f.write_text(new, encoding="utf-8")
             n += 1
     return n
 
@@ -297,6 +340,7 @@ def main() -> None:
 <p class=lede>{N_W.capitalize()} works of Galen with no complete English translation that we know of, {N_NONE_W} of them with no complete translation in any modern language (each work's page names the earlier ones), put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
 </div></header>
 <section><div class=wrap>
+<h2 class=vh>The works</h2>
 {cards("")}
 </div></section>
 <section><div class=wrap>
@@ -305,6 +349,7 @@ def main() -> None:
 <ul class=tools>{"".join(rows)}</ul>
 <p class=warn>A sample read (2026-11-11): 39 passages, three from each work chosen at random, were read against the Greek by a model reader, not a scholar. 35 were faithful, 4 had minor slips (in the two Hippocratic commentaries, e.g. the midday meal given as "the morning meal"), none was seriously wrong. The check marks did not predict the slips. The full record, with the corrections it led to: <a href="https://github.com/Montblanctech/Galen/blob/master/firstdrafts_sample_read_2026-11-11.md">firstdrafts_sample_read_2026-11-11.md</a>.</p>
 <p class=warn>The same method on a Latin text, scored against an existing English translation: <a href="../method/">the method on other texts</a>.</p>
+<p class=warn>Every key term across the {N_W} works, with how each draft rendered it and where the renderings differ between works: <a href="terms/">the term index</a>.</p>
 <p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). How the drafts were made and checked: <a href="https://doi.org/10.5281/zenodo.24146103">the methods note</a> (doi:10.5281/zenodo.24146103). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>
 </div></section>
 <footer><div class=wrap><a href="../">All project pages</a></div></footer>
@@ -315,10 +360,11 @@ def main() -> None:
     print("front page and drafts index written;", total_words, "Greek words;", {"thin": thin, "none": none_, "artifact": art, "total": total})
     sitemap()
     print("phone fixes added to", add_mobile(), "pages")
+    print("home links added to", add_home_link(), "pages; labels added to", add_labels(), "pages")
     print("analytics beacon added to", add_beacon(), "pages")
     import share
     n_find = F["findings.items"]
-    print("share tags added to", share.apply(N_WORKS, total_words, n_find, NOT_PUBLIC), "pages")
+    print("share tags added to", share.apply(N_WORKS, total_words, n_find, NOT_PUBLIC, F), "pages")
 
 
 # Tests of the method on texts that already have a human English translation (2026-11-12). Kept out of docs/first-drafts/

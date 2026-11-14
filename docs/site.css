@@ -1,5 +1,5 @@
 :root{--bg:#faf7f0;--ink:#1f1b16;--muted:#6b6257;--rule:#e4ddd0;--card:#fffdf8;--accent:#7a1f1f;--accent-ink:#fff;--thin:#c98a2b;--none:#a33}
-@media(prefers-color-scheme:dark){:root{--bg:#16130f;--ink:#e9e2d6;--muted:#a39a8e;--rule:#3a332b;--card:#1e1a15;--accent:#c4574a;--accent-ink:#fff}}
+@media(prefers-color-scheme:dark){:root{--bg:#16130f;--ink:#e9e2d6;--muted:#a39a8e;--rule:#3a332b;--card:#1e1a15;--accent:#d9705f;--accent-ink:#16130f;--none:#e2867a}}
 *{box-sizing:border-box}
 html{background:var(--bg)}
 body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.65 Georgia,"Iowan Old Style","Palatino Linotype",serif}
@@ -46,3 +46,4 @@ section .intro{max-width:40rem;color:var(--muted);margin:0 0 2rem}
 .tools a.t{font-weight:600}
 footer{padding:2.2rem 0 3rem;font:14px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted)}
 code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px;overflow-wrap:anywhere}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}

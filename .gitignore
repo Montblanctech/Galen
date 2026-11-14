@@ -64,6 +64,10 @@ galen-density-map/data/latin_feasibility/*.xml
 # Galen First Drafts outputs are deliverables (auditable)
 !galen-density-map/outputs/firstdrafts/
 !galen-density-map/outputs/firstdrafts/**
+# Review worksheets for a scholar read (pipeline/review_sheets.py); the key stays out
+!galen-density-map/outputs/review_sheets/
+!galen-density-map/outputs/review_sheets/**
+galen-density-map/outputs/review_sheets/key/
 
 # never public: API usage and cost records (2026-11-10)
 galen-density-map/outputs/firstdrafts/*/usage.jsonl
