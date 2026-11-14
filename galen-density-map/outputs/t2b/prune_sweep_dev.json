@@ -1,0 +1,344 @@
+{
+ "full": {
+  "size": null,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.9556,
+    "boundary_R": 0.9879,
+    "boundary_F1": 0.9715,
+    "word_recovery_R": 0.9376,
+    "word_recovery_P": 0.9115,
+    "line_top1": 0.7133,
+    "line_top5": 0.7867,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.7133,
+    "recoverable_top5": 0.7867,
+    "seconds": 9.0
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.9006,
+    "boundary_R": 0.9637,
+    "boundary_F1": 0.9311,
+    "word_recovery_R": 0.8415,
+    "word_recovery_P": 0.7952,
+    "line_top1": 0.4067,
+    "line_top5": 0.5067,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.61,
+    "recoverable_top5": 0.76,
+    "seconds": 6.4
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8239,
+    "boundary_R": 0.9166,
+    "boundary_F1": 0.8678,
+    "word_recovery_R": 0.7331,
+    "word_recovery_P": 0.6701,
+    "line_top1": 0.2067,
+    "line_top5": 0.2467,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.6,
+    "recoverable_top5": 0.72,
+    "seconds": 7.2
+   }
+  }
+ },
+ "bigram_min_1": {
+  "size": 17142978,
+  "forms": 313788,
+  "bigrams": 6165907,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.9556,
+    "boundary_R": 0.9879,
+    "boundary_F1": 0.9715,
+    "word_recovery_R": 0.9376,
+    "word_recovery_P": 0.9115,
+    "line_top1": 0.7133,
+    "line_top5": 0.7867,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.7133,
+    "recoverable_top5": 0.7867,
+    "seconds": 9.0
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.9006,
+    "boundary_R": 0.9637,
+    "boundary_F1": 0.9311,
+    "word_recovery_R": 0.8415,
+    "word_recovery_P": 0.7952,
+    "line_top1": 0.4067,
+    "line_top5": 0.5067,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.61,
+    "recoverable_top5": 0.76,
+    "seconds": 6.4
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8239,
+    "boundary_R": 0.9166,
+    "boundary_F1": 0.8678,
+    "word_recovery_R": 0.7331,
+    "word_recovery_P": 0.6701,
+    "line_top1": 0.2067,
+    "line_top5": 0.2467,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.6,
+    "recoverable_top5": 0.72,
+    "seconds": 7.2
+   }
+  }
+ },
+ "bigram_min_2": {
+  "size": 6641911,
+  "forms": 313788,
+  "bigrams": 1779469,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.9512,
+    "boundary_R": 0.9879,
+    "boundary_F1": 0.9692,
+    "word_recovery_R": 0.9325,
+    "word_recovery_P": 0.903,
+    "line_top1": 0.7,
+    "line_top5": 0.7667,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.7,
+    "recoverable_top5": 0.7667,
+    "seconds": 8.0
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.8993,
+    "boundary_R": 0.9613,
+    "boundary_F1": 0.9293,
+    "word_recovery_R": 0.8323,
+    "word_recovery_P": 0.7872,
+    "line_top1": 0.3933,
+    "line_top5": 0.48,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.59,
+    "recoverable_top5": 0.72,
+    "seconds": 5.5
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8266,
+    "boundary_R": 0.9166,
+    "boundary_F1": 0.8693,
+    "word_recovery_R": 0.727,
+    "word_recovery_P": 0.6664,
+    "line_top1": 0.2,
+    "line_top5": 0.2467,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.58,
+    "recoverable_top5": 0.72,
+    "seconds": 6.3
+   }
+  }
+ },
+ "bigram_min_3": {
+  "size": 4520477,
+  "forms": 313788,
+  "bigrams": 880416,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.949,
+    "boundary_R": 0.9879,
+    "boundary_F1": 0.968,
+    "word_recovery_R": 0.9305,
+    "word_recovery_P": 0.8992,
+    "line_top1": 0.6933,
+    "line_top5": 0.7667,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.6933,
+    "recoverable_top5": 0.7667,
+    "seconds": 7.6
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.8981,
+    "boundary_R": 0.9589,
+    "boundary_F1": 0.9275,
+    "word_recovery_R": 0.8313,
+    "word_recovery_P": 0.787,
+    "line_top1": 0.3933,
+    "line_top5": 0.4733,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.59,
+    "recoverable_top5": 0.71,
+    "seconds": 5.1
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8219,
+    "boundary_R": 0.9154,
+    "boundary_F1": 0.8661,
+    "word_recovery_R": 0.7239,
+    "word_recovery_P": 0.6611,
+    "line_top1": 0.2,
+    "line_top5": 0.24,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.58,
+    "recoverable_top5": 0.7,
+    "seconds": 5.9
+   }
+  }
+ },
+ "bigram_min_4": {
+  "size": 3862228,
+  "forms": 313788,
+  "bigrams": 587290,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.9478,
+    "boundary_R": 0.9867,
+    "boundary_F1": 0.9669,
+    "word_recovery_R": 0.9294,
+    "word_recovery_P": 0.8982,
+    "line_top1": 0.6933,
+    "line_top5": 0.7667,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.6933,
+    "recoverable_top5": 0.7667,
+    "seconds": 7.4
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.9001,
+    "boundary_R": 0.9589,
+    "boundary_F1": 0.9286,
+    "word_recovery_R": 0.8323,
+    "word_recovery_P": 0.7895,
+    "line_top1": 0.3933,
+    "line_top5": 0.48,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.59,
+    "recoverable_top5": 0.72,
+    "seconds": 5.0
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8208,
+    "boundary_R": 0.9141,
+    "boundary_F1": 0.865,
+    "word_recovery_R": 0.7198,
+    "word_recovery_P": 0.6573,
+    "line_top1": 0.1867,
+    "line_top5": 0.24,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.56,
+    "recoverable_top5": 0.72,
+    "seconds": 5.9
+   }
+  }
+ },
+ "bigram_min_5": {
+  "size": 3534179,
+  "forms": 313788,
+  "bigrams": 438696,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.9488,
+    "boundary_R": 0.9855,
+    "boundary_F1": 0.9668,
+    "word_recovery_R": 0.9294,
+    "word_recovery_P": 0.9,
+    "line_top1": 0.6933,
+    "line_top5": 0.7667,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.6933,
+    "recoverable_top5": 0.7667,
+    "seconds": 7.3
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.9023,
+    "boundary_R": 0.9601,
+    "boundary_F1": 0.9303,
+    "word_recovery_R": 0.8354,
+    "word_recovery_P": 0.7932,
+    "line_top1": 0.3867,
+    "line_top5": 0.4867,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.58,
+    "recoverable_top5": 0.73,
+    "seconds": 4.8
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8212,
+    "boundary_R": 0.9105,
+    "boundary_F1": 0.8635,
+    "word_recovery_R": 0.7178,
+    "word_recovery_P": 0.6579,
+    "line_top1": 0.1867,
+    "line_top5": 0.24,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.56,
+    "recoverable_top5": 0.72,
+    "seconds": 5.8
+   }
+  }
+ },
+ "bigram_min_8": {
+  "size": 3122977,
+  "forms": 313788,
+  "bigrams": 249059,
+  "results": {
+   "clean": {
+    "lines": 150,
+    "boundary_P": 0.9455,
+    "boundary_R": 0.9855,
+    "boundary_F1": 0.9651,
+    "word_recovery_R": 0.9274,
+    "word_recovery_P": 0.8954,
+    "line_top1": 0.68,
+    "line_top5": 0.7733,
+    "recoverable_lines": 150,
+    "recoverable_top1": 0.68,
+    "recoverable_top5": 0.7733,
+    "seconds": 7.2
+   },
+   "light": {
+    "lines": 150,
+    "boundary_P": 0.9012,
+    "boundary_R": 0.9601,
+    "boundary_F1": 0.9297,
+    "word_recovery_R": 0.8323,
+    "word_recovery_P": 0.7895,
+    "line_top1": 0.3667,
+    "line_top5": 0.5,
+    "recoverable_lines": 100,
+    "recoverable_top1": 0.55,
+    "recoverable_top5": 0.75,
+    "seconds": 4.6
+   },
+   "heavy": {
+    "lines": 150,
+    "boundary_P": 0.8295,
+    "boundary_R": 0.9117,
+    "boundary_F1": 0.8687,
+    "word_recovery_R": 0.7188,
+    "word_recovery_P": 0.6638,
+    "line_top1": 0.18,
+    "line_top5": 0.24,
+    "recoverable_lines": 50,
+    "recoverable_top1": 0.54,
+    "recoverable_top5": 0.72,
+    "seconds": 5.4
+   }
+  }
+ },
+ "pick": "bigram_min 2 (none within tolerance; smallest threshold that fits)"
+}

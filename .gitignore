@@ -76,3 +76,8 @@ galen-density-map/outputs/firstdrafts/*/cost_projection.json
 
 # MCP server dev/test venvs
 .venv-*/
+
+# T2b scorer: results are deliverables; the counts cache is not
+!galen-density-map/outputs/t2b/
+!galen-density-map/outputs/t2b/**
+galen-density-map/data/t2b_cache/

@@ -1,0 +1,23 @@
+[package]
+name = "t2b"
+version = "0.1.0"
+edition = "2024"
+description = "T2b transcription plausibility scorer (ancient Greek autocorrect for papyrus HTR output), port of galen-density-map/pipeline/t2b_scorer.py"
+license = "MIT"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "t2b-cli"
+path = "src/bin/t2b-cli.rs"
+
+[dependencies]
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

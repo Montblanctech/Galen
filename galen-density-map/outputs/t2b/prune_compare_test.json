@@ -1,0 +1,97 @@
+{
+ "model": "docs/tools/autocorrect/model.bin",
+ "size": 6641911,
+ "meta": {
+  "n_tokens_ours": 21560737,
+  "form_min": 2,
+  "bigram_min": 2
+ },
+ "full": {
+  "clean": {
+   "lines": 480,
+   "boundary_P": 0.9654,
+   "boundary_R": 0.9886,
+   "boundary_F1": 0.9768,
+   "word_recovery_R": 0.9584,
+   "word_recovery_P": 0.9394,
+   "line_top1": 0.8167,
+   "line_top5": 0.8812,
+   "recoverable_lines": 480,
+   "recoverable_top1": 0.8167,
+   "recoverable_top5": 0.8812,
+   "seconds": 28.0
+  },
+  "light": {
+   "lines": 480,
+   "boundary_P": 0.8944,
+   "boundary_R": 0.9688,
+   "boundary_F1": 0.9301,
+   "word_recovery_R": 0.8631,
+   "word_recovery_P": 0.8064,
+   "line_top1": 0.4583,
+   "line_top5": 0.5208,
+   "recoverable_lines": 295,
+   "recoverable_top1": 0.7458,
+   "recoverable_top5": 0.8441,
+   "seconds": 26.8
+  },
+  "heavy": {
+   "lines": 480,
+   "boundary_P": 0.8216,
+   "boundary_R": 0.9191,
+   "boundary_F1": 0.8676,
+   "word_recovery_R": 0.7307,
+   "word_recovery_P": 0.6647,
+   "line_top1": 0.1896,
+   "line_top5": 0.2604,
+   "recoverable_lines": 151,
+   "recoverable_top1": 0.6026,
+   "recoverable_top5": 0.8278,
+   "seconds": 26.9
+  }
+ },
+ "pruned": {
+  "clean": {
+   "lines": 480,
+   "boundary_P": 0.9654,
+   "boundary_R": 0.9878,
+   "boundary_F1": 0.9765,
+   "word_recovery_R": 0.9575,
+   "word_recovery_P": 0.939,
+   "line_top1": 0.8125,
+   "line_top5": 0.8771,
+   "recoverable_lines": 480,
+   "recoverable_top1": 0.8125,
+   "recoverable_top5": 0.8771,
+   "seconds": 25.2
+  },
+  "light": {
+   "lines": 480,
+   "boundary_P": 0.8931,
+   "boundary_R": 0.968,
+   "boundary_F1": 0.929,
+   "word_recovery_R": 0.8599,
+   "word_recovery_P": 0.8029,
+   "line_top1": 0.4458,
+   "line_top5": 0.5208,
+   "recoverable_lines": 295,
+   "recoverable_top1": 0.7254,
+   "recoverable_top5": 0.8441,
+   "seconds": 23.7
+  },
+  "heavy": {
+   "lines": 480,
+   "boundary_P": 0.8208,
+   "boundary_R": 0.9157,
+   "boundary_F1": 0.8656,
+   "word_recovery_R": 0.7265,
+   "word_recovery_P": 0.6625,
+   "line_top1": 0.1854,
+   "line_top5": 0.2604,
+   "recoverable_lines": 151,
+   "recoverable_top1": 0.5894,
+   "recoverable_top5": 0.8278,
+   "seconds": 24.4
+  }
+ }
+}

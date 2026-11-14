@@ -315,6 +315,8 @@ def main() -> None:
 <ul class=tools>
 <li><a class=t href="lsj-gold/">LSJ-Gold leaderboard</a> — lemmatizer accuracy on the dictionary-cited stratum of Ancient Greek (LSJ-Gold {F['lsjgold.version']}: {F['lsjgold.loci']:,} relocated loci over {F['lsjgold.authors']} authors, CC BY 4.0). <a href="lsj-gold/leaderboard.json">JSON</a>.</li>
 <li><a class=t href="ls-gold/">LS-Gold leaderboard</a> — the Latin twin: lemmatizer accuracy on the words Lewis &amp; Short cites ({F['lsgold.loci']:,} relocated loci over {F['lsgold.authors']} authors, validated by Collatinus and Whitaker's Words, {F['lsgold.quoted']:,} of them by the form Lewis &amp; Short quotes, CC BY-SA 4.0). <a href="ls-gold/leaderboard.json">JSON</a>.</li>
+<li><a class=t href="tools/autocorrect/">Ancient Greek autocorrect</a> — paste a papyrus reading as letters in a row; it proposes word breaks and points out letters that look misread. Runs in your browser; a plausibility check from word counts, not an edition.</li>
+<li><a class=t href="first-drafts/terms/">Term index of the drafts</a> — every key term across the thirteen drafts and how each rendering gave it.</li>
 <li><a class=t href="galen-terms/">Galen Term Explorer</a> — any Galenic word: keyness, LSJ tier, Dilemma headword, punch-list label, contexts, Kühn loci.</li>
 <li><a class=t href="terms/">Term Explorer for further authors</a> — Diophantus, John Philoponus, Philodemus.</li>
 <li><a class=t href="first-drafts/">The drafts index</a> — all {N_W} works with unit counts and check failures.</li>

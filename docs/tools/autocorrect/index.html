@@ -1,0 +1,208 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'><title>Ancient Greek autocorrect for papyrus readings</title><meta name=description content="Paste a line of Greek as a handwriting-recognition model or a reader transcribed it. The page splits it into words and proposes the most plausible readings from word counts in public Greek corpora. Runs in your browser."><link rel=stylesheet href="../../site.css"><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f9fe8afc1b6944d1b3d77d259e01d445"}'></script><!-- End Cloudflare Web Analytics -->
+<style>
+.ac-in{width:100%;min-height:7.5rem;font:20px/1.5 Georgia,"Iowan Old Style","Palatino Linotype",serif;padding:.8rem .9rem;border:1px solid var(--rule);border-radius:12px;background:var(--card);color:var(--ink);resize:vertical}
+.ac-in:focus{outline:2px solid var(--accent);outline-offset:1px}
+.ac-row{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center;margin:.8rem 0 0;font:15px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}
+.ac-row select{font:inherit;padding:.45rem .5rem;border:1px solid var(--rule);border-radius:8px;background:var(--card);color:var(--ink)}
+.ac-row .btn{cursor:pointer}
+.ac-row .btn[disabled]{opacity:.5;cursor:wait}
+.ex{font:14px/1 system-ui,-apple-system,"Segoe UI",sans-serif;background:none;border:1px dashed var(--rule);color:var(--accent);border-radius:999px;padding:.45rem .8rem;cursor:pointer}
+#status{font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted);margin:.9rem 0 0;min-height:1.5em}
+.line{background:var(--card);border:1px solid var(--rule);border-radius:14px;padding:1rem 1.1rem 1.1rem;margin:1.2rem 0 0}
+.line .meta{font:13px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted);overflow-wrap:anywhere}
+.best{font-size:1.35rem;line-height:2.1;margin:.4rem 0 .2rem;display:flex;flex-wrap:wrap;gap:.1rem .55rem}
+.w{border-radius:6px;padding:0 .15rem;white-space:nowrap}
+.w.fix{background:color-mix(in srgb,var(--thin) 22%,transparent);box-shadow:inset 0 -2px 0 var(--thin)}
+.w.unk{background:color-mix(in srgb,var(--none) 16%,transparent);box-shadow:inset 0 -2px 0 var(--none);font-style:italic}
+.w.flag{box-shadow:inset 0 -2px 0 var(--accent)}
+.w b.chg{font-weight:700;color:var(--accent)}
+.notes{list-style:none;padding:0;margin:.5rem 0 0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+.notes li{margin:.35rem 0;padding-left:1rem;text-indent:-1rem}
+.notes .g{font-family:Georgia,serif;font-size:1.05em}
+.notes i.k{font-style:normal;font:600 11px/1 system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;padding:.2rem .4rem;border-radius:4px;margin-right:.35rem;vertical-align:1px}
+.k.fix{background:color-mix(in srgb,var(--thin) 28%,transparent)}
+.k.unk{background:color-mix(in srgb,var(--none) 22%,transparent)}
+.k.flag{background:color-mix(in srgb,var(--accent) 18%,transparent)}
+details.alts{margin:.7rem 0 0;font:15px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+details.alts summary{cursor:pointer;color:var(--accent)}
+details.alts ol{margin:.4rem 0 0;padding-left:1.6rem}
+details.alts li{margin:.25rem 0}
+details.alts .g{font-family:Georgia,serif;font-size:1.05rem}
+details.alts .d{color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.legend2{display:flex;flex-wrap:wrap;gap:.5rem 1.2rem;font:14px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--muted);margin:1rem 0 0}
+.about p,.about li{max-width:44rem}
+.about ul{padding-left:1.2rem}
+table.nums{border-collapse:collapse;font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;margin:.6rem 0 0}
+table.nums th,table.nums td{border-bottom:1px solid var(--rule);padding:.3rem .7rem .3rem 0;text-align:left;font-variant-numeric:tabular-nums}
+table.nums th{color:var(--muted);font-weight:500}
+.scroll{overflow-x:auto}
+#json{display:none}
+</style><style>table{display:block;max-width:100%;overflow-x:auto}code,pre{overflow-wrap:anywhere}</style><!-- share tags --><meta property="og:type" content="website"><meta property="og:site_name" content="Galen in English"><meta property="og:title" content="Ancient Greek autocorrect for papyrus readings"><meta property="og:description" content="Paste a line of Greek as a handwriting-recognition model or a reader transcribed it. The page splits it into words and proposes the most plausible readings from word counts in public Greek corpora. Runs in your browser."><meta property="og:url" content="https://montblanctech.github.io/Galen/tools/autocorrect/"><meta property="og:image" content="https://montblanctech.github.io/Galen/og-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Ancient Greek autocorrect for papyrus readings"><meta name="twitter:description" content="Paste a line of Greek as a handwriting-recognition model or a reader transcribed it. The page splits it into words and proposes the most plausible readings from word counts in public Greek corpora. Runs in your browser."><meta name="twitter:image" content="https://montblanctech.github.io/Galen/og-card.png"><link rel="canonical" href="https://montblanctech.github.io/Galen/tools/autocorrect/"></head><body>
+<header class=hero style="padding:3.2rem 0 2.2rem"><div class=wrap>
+<div class=kicker><a href="../../" style="text-decoration:none">Galen Density Project</a></div>
+<h1 style="font-size:clamp(2rem,4.5vw,3rem)">Ancient Greek autocorrect</h1>
+<p class=lede>Paste a line of Greek as a handwriting-recognition model, or a reader, transcribed it from a papyrus: letters in a row, without word breaks. The page splits it into words and proposes the most plausible readings. It points out letters that look misread and letters it cannot explain.</p>
+<p class=warn style="margin-top:0"><strong>A plausibility check from word counts in public Greek corpora; not an edition; no scholar has reviewed it.</strong> It knows which word forms occur and which follow each other, nothing more. It runs in your browser, and what you paste is not sent anywhere.</p>
+</div></header>
+<section style="padding-top:2.2rem"><div class=wrap>
+<label for=in class=sans style="font-size:15px;color:var(--muted)">One or more lines of a reading. Capitals or lower case, with or without accents and spaces: everything is reduced to plain capitals first, as on the papyrus.</label>
+<textarea id=in class=ac-in lang=grc spellcheck=false autocomplete=off autocapitalize=off placeholder="ΡΩΜΗΝΕΑΝΓΑΡΑΜΛΠΑΝΙΑΣΥΝΕΛΘΟΤΤΔΕΙΡΗΜΕΝΑ"></textarea>
+<div class=ac-row>
+<button class="btn primary" id=go disabled>Check</button>
+<label>Readings to show <select id=k><option>1<option>3<option selected>5<option>10</select></label>
+<span style="color:var(--muted)">Try:</span>
+<button class=ex data-ex="ΡΩΜΗΝΕΑΝΓΑΡΑΜΛΠΑΝΙΑΣΥΝΕΛΘΟΤΤΔΕΙΡΗΜΕΝΑ">a noisy line</button>
+<button class=ex data-ex="ΟΥΝΕΙΩΘΕΝΗΦΥΣΙΣΕΙΣΤΗΤΩΝΑΚΥΡΩΤΕΡΩΝ">a lost letter</button>
+<button class=ex data-ex="οὖν εἴωθεν ἡ φύσις&#10;καὶ τὸν λόγον">accented text</button>
+</div>
+<p id=status aria-live=polite>Loading the word counts (6.6 MB, once)…</p>
+<div class=legend2><span><span class="w fix">ΤΑ</span> corrected through a confusable letter or a lost letter</span><span><span class="w unk">ΞΨ</span> unknown: no attested word fits</span><span><span class="w flag">ΤΟΝ</span> flagged: kept as written, but doubtful</span></div>
+<div id=out></div>
+<pre id=json></pre>
+</div></section>
+<section class=about><div class=wrap>
+<h2>What it does</h2>
+<ul>
+<li><b>Word division.</b> Papyri are written in <em>scriptio continua</em>, without spaces. The page tries every way of cutting the line into word forms that occur in the counted texts, and scores each cut by how often the words occur and how often each follows the one before it (a bigram language model with absolute discounting).</li>
+<li><b>Corrections, from a small declared list.</b> It may read a letter as another one of the same shape class, the confusions a handwriting model typically makes: Α/Λ/Δ, Ε/Θ/Ο/Σ (lunate sigma, C), Η/Ν and Ι/Τ. It may restore at most one lost letter per word. Each correction costs: about 3% per letter for a confusion, 1% for a lost letter. Any other misreading it cannot undo.</li>
+<li><b>Unknown stretches.</b> Letters that no attested form explains are left as written and marked unknown.</li>
+<li><b>Flags.</b> Each word of the best cut is also checked as written. It is flagged when it is unattested, or when a reading through the same channel fits its neighbours better by more than 4 nats (about 55 times more likely).</li>
+</ul>
+<h2>What it is not</h2>
+<ul>
+<li>Not an edition and not a reading of the papyrus: it never sees the image, only the letters you give it.</li>
+<li>Not reviewed by a papyrologist or any scholar. Its preferences are word frequencies, so it can "correct" a rare but right form toward a common neighbour, and it does not know grammar, metre, the document type or the hand.</li>
+<li>Its counts come from literary texts (and Galen), not from documentary papyri, so their spellings and formulae are under-represented.</li>
+</ul>
+<h2>How well it does</h2>
+<p>Tested on 480 lines of 20 to 40 letters from 12 works that were left out of the counts, with HTR-like errors injected at random. The error rates are assumptions, not measured HTR rates. "Line right" means the whole line's words came out exactly. These are the numbers for the trimmed word counts this page uses; the full counts score at most 0.021 better on any of them.</p>
+<div class=scroll><table class=nums>
+<tr><th>errors injected</th><th>word breaks right (F1)</th><th>line right, first reading</th><th>line right, in first five</th></tr>
+<tr><td>none</td><td>0.977</td><td>0.812</td><td>0.877</td></tr>
+<tr><td>light (4.8% of letters)</td><td>0.929</td><td>0.446</td><td>0.521</td></tr>
+<tr><td>heavy (12.4% of letters)</td><td>0.866</td><td>0.185</td><td>0.260</td></tr>
+</table></div>
+<p class=warn>On the noisy lines whose errors are all of the kinds it can undo, the first reading is right for 0.725 (light) and 0.589 (heavy) of lines, and the first five contain it for 0.844 and 0.828.</p>
+<h2>Sources and licences</h2>
+<p>Word and word-pair counts: the Greek texts of <a href="https://github.com/OpenGreekAndLatin/First1KGreek">First1KGreek</a> (Open Greek and Latin project), CC BY-SA 4.0, the corpus used across this project, including its Galen texts. 21.6 million words, after 19 works were held out for testing. The page uses 313,788 forms seen at least twice and 1.78 million word pairs seen at least twice; that table (<code>model.bin</code>) is derived from those texts and shared under CC BY-SA 4.0. The scorer is plain counting and five hand-set constants; nothing is trained. Code: MIT. Language model: interpolated absolute discounting (Ney, Essen and Kneser 1994).</p>
+<p class=warn id=sizes>The engine is 160 KB of WebAssembly and the counts are 6.6 MB (about 3.5 MB as sent). After the first visit it works offline.</p>
+</div></section>
+<footer><div class=wrap><a href="../../">All project pages</a> · Galen Density Project. Repository: <a href="https://github.com/Montblanctech/Galen">github.com/Montblanctech/Galen</a>. Visits are counted with Cloudflare Web Analytics, which sets no cookies and collects no personal data. The text you check stays in your browser.</div></footer>
+<script src="glue.js"></script>
+<script>
+(function () {
+  'use strict';
+  var $ = function (id) { return document.getElementById(id); };
+  var inp = $('in'), go = $('go'), kSel = $('k'), status = $('status'), out = $('out');
+  var scorer = null, pending = false;
+  // the text lives after '#', which browsers never send to a server (nor to the visit counter)
+  var params = new URLSearchParams(location.hash.slice(1) || location.search);
+  if (params.get('text')) inp.value = params.get('text');
+  if (params.get('k')) kSel.value = params.get('k');
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function nats(x) { return (Math.round(x * 10) / 10).toFixed(1); }
+  function times(x) { var t = Math.exp(x); return t >= 1e6 ? 'over a million' : Math.round(t).toLocaleString('en'); }
+
+  /* the corrected form with its changed letters marked; changes are in observed coordinates */
+  function markForm(g) {
+    var form = Array.from(g.form), hot = {};
+    var lost = g.changes.filter(function (c) { return c.lost; })[0];
+    g.changes.forEach(function (c) {
+      if (c.lost) hot[c.at] = 1;
+      else hot[lost && c.at >= lost.at ? c.at + 1 : c.at] = 1;
+    });
+    return form.map(function (ch, i) { return hot[i] ? '<b class=chg>' + ch + '</b>' : ch; }).join('');
+  }
+  function describe(g) {
+    var subs = g.changes.filter(function (c) { return !c.lost; }).map(function (c) { return c.from + ' as ' + c.to; });
+    var lost = g.changes.filter(function (c) { return c.lost; }).map(function (c) { return 'a lost ' + c.lost + ' restored'; });
+    var parts = [];
+    if (subs.length) parts.push('read ' + subs.join(', '));
+    if (lost.length) parts.push(lost.join(', '));
+    return parts.join('; ');
+  }
+
+  function renderLine(n, res, ms) {
+    var r0 = res.readings[0], segs = r0.segments;
+    var flagBy = {};
+    r0.flags.forEach(function (f) { flagBy[f.segment] = f; });
+    var words = [], notes = [];
+    segs.forEach(function (g, i) {
+      var f = flagBy[i], cls = g.unknown ? 'unk' : g.corrected ? 'fix' : f ? 'flag' : '';
+      var shown = g.unknown ? esc(g.observed) : g.corrected ? markForm(g) : esc(g.form);
+      var title = g.unknown ? 'unknown: left as written' : g.corrected ? 'written ' + g.observed + '; ' + describe(g) : f ? 'flagged' : 'attested ' + g.count.toLocaleString('en') + ' times';
+      words.push('<span class="w ' + cls + '" title="' + esc(title) + '">' + shown + '</span>');
+      var bits = [];
+      if (g.unknown) bits.push('<i class="k unk">unknown</i><span class=g>' + esc(g.observed) + '</span>: no attested word fits these letters, so they are left as written.');
+      else if (g.corrected) bits.push('<i class="k fix">corrected</i><span class=g>' + esc(g.observed) + ' → ' + esc(g.form) + '</span>: ' + esc(describe(g)) + '. ' + esc(g.form) + ' occurs ' + g.count.toLocaleString('en') + ' times in the counts.');
+      var altBetter = f && f.alternative && f.margin !== null && f.margin > 4;
+      if (f && !(g.unknown && !altBetter)) {
+        var s = g.unknown || g.corrected ? '' : '<i class="k flag">flagged</i>';
+        var asw = '<span class=g>' + esc(f.observed) + '</span>';
+        if (f.kind.indexOf('unattested') === 0) s += 'As written, ' + asw + ' is not attested (fewer than 2 occurrences).';
+        else s += 'As written, ' + asw + ' occurs ' + f.count.toLocaleString('en') + ' times.';
+        if (f.alternative && f.margin !== null && f.margin > 4) {
+          var ch = f.alt_changes.map(function (c) { return c.lost ? 'lost ' + c.lost : c.from + '→' + c.to; }).join(', ');
+          var better = ' fits its neighbours better by ' + nats(f.margin) + ' nats, about ' + times(f.margin) + ' times more likely.';
+          if (g.corrected && f.alternative === g.form) s += ' The correction' + better;
+          else s += ' <span class=g>' + esc(f.alternative) + '</span> (' + esc(ch) + ')' + better;
+        }
+        bits.push(s);
+      }
+      if (bits.length) notes.push('<li>' + bits.join(' ') + '</li>');
+    });
+    var alts = res.readings.map(function (r, i) {
+      var d = i ? '−' + nats(r0.score - r.score) + ' nats' : 'best';
+      var fixes = r.segments.filter(function (g) { return g.corrected; }).length, unk = r.segments.filter(function (g) { return g.unknown; }).length;
+      var extra = [fixes ? fixes + ' corrected' : '', unk ? unk + ' unknown' : ''].filter(Boolean).join(', ');
+      var ws = r.segments.map(function (g) { return g.unknown ? '<span class="w unk">' + esc(g.observed) + '</span>' : g.corrected ? '<span class="w fix">' + esc(g.form) + '</span>' : esc(g.form); }).join(' ');
+      return '<li><span class=g>' + ws + '</span> <span class=d>' + d + (extra ? ' · ' + extra : '') + '</span></li>';
+    }).join('');
+    return '<article class=line data-best="' + esc(r0.text) + '"><div class=meta>Line ' + n + ' · ' + Array.from(res.input).length + ' letters as read: ' +
+      esc(res.input) + ' · ' + ms.toFixed(1) + ' ms</div><p class=best lang=grc>' + (words.join(' ') || '<span class=w>(no Greek letters)</span>') + '</p>' +
+      (notes.length ? '<ul class=notes>' + notes.join('') + '</ul>' : '<ul class=notes><li>Every word is attested as written, and nothing in the channel fits better.</li></ul>') +
+      (res.readings.length > 1 ? '<details class=alts' + (res.readings.length <= 3 ? ' open' : '') + '><summary>' + res.readings.length + ' readings, best first (score difference in nats)</summary><ol>' + alts + '</ol></details>' : '') + '</article>';
+  }
+
+  function run() {
+    if (!scorer) { pending = true; return; }
+    var lines = inp.value.split(/\r?\n/).filter(function (l) { return l.trim(); });
+    var k = +kSel.value || 5, html = [], all = [], total = 0;
+    lines.forEach(function (line, i) {
+      var t = performance.now();
+      var res = scorer.segment(line, k);
+      var ms = performance.now() - t;
+      total += ms;
+      all.push({ ms: ms, result: res });
+      html.push(renderLine(i + 1, res, ms));
+    });
+    out.innerHTML = html.join('');
+    $('json').textContent = JSON.stringify(all);
+    status.textContent = lines.length ? lines.length + (lines.length > 1 ? ' lines' : ' line') + ' checked in ' + total.toFixed(1) + ' ms, in this browser.' : 'Type or paste a line first.';
+    document.body.setAttribute('data-done', String(lines.length));
+    try { var h = new URLSearchParams(); h.set('text', inp.value); h.set('k', kSel.value); history.replaceState(null, '', location.pathname + (inp.value.length < 1500 ? '#' + h.toString() : '')); } catch (e) {}
+  }
+
+  go.addEventListener('click', run);
+  inp.addEventListener('keydown', function (e) { if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); run(); } });
+  document.querySelectorAll('[data-ex]').forEach(function (b) { b.addEventListener('click', function () { inp.value = b.getAttribute('data-ex'); run(); }); });
+
+  var t0 = performance.now();
+  T2B.load('t2b.wasm', 'model.bin', function (got, total) {
+    status.textContent = 'Loading the word counts… ' + (got / 1e6).toFixed(1) + (total ? ' of ' + (total / 1e6).toFixed(1) : '') + ' MB';
+  }).then(function (sc) {
+    scorer = sc;
+    go.disabled = false;
+    var loadMs = performance.now() - t0;
+    status.textContent = 'Ready: ' + sc.info.forms.toLocaleString('en') + ' word forms, ' + sc.info.bigrams.toLocaleString('en') + ' word pairs, loaded in ' + (loadMs / 1000).toFixed(1) + ' s.';
+    document.body.setAttribute('data-load-ms', loadMs.toFixed(0));
+    if (pending || inp.value.trim()) run();
+  }).catch(function (e) {
+    status.textContent = 'Could not load the scorer: ' + e.message;
+    document.body.setAttribute('data-error', e.message);
+  });
+  if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(function () {});
+})();
+</script>
+</body></html>
