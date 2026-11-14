@@ -1,0 +1,519 @@
+{
+ "works": [
+  {
+   "slug": "adversus-lycum",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "Adversus Lycum",
+   "title_eng": "Against Lycus",
+   "authorship": "",
+   "prior_translations": "No earlier English translation found. A Spanish translation appeared in 2023 (M. Cerezo Magán, Lleida).",
+   "n_units": 50,
+   "n_terms": 350,
+   "first_unit": "K18a.196",
+   "last_unit": "K18a.244-245",
+   "unit_verdicts": {
+    "pass": 47,
+    "fail": 3
+   },
+   "checks_pass_pct": {
+    "a": 88.0,
+    "b": 74.0,
+    "c": 90.0
+   },
+   "b_term_agree_pct": 78.86,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "XVIIIA",
+   "vol": "18a",
+   "page_first": 196,
+   "page_last": 245
+  },
+  {
+   "slug": "adversus-typos",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "Adversus eos qui de typis scripserunt vel de circuitibus",
+   "title_eng": "Against Those Who Wrote on Types or on Periods (of Fever)",
+   "authorship": "",
+   "prior_translations": "No English translation found. Spanish: E. García Sola 2010.",
+   "n_units": 38,
+   "n_terms": 273,
+   "first_unit": "K7.475",
+   "last_unit": "K7.511-512",
+   "unit_verdicts": {
+    "pass": 28,
+    "mixed": 7,
+    "fail": 1,
+    "insufficient": 2
+   },
+   "checks_pass_pct": {
+    "a": 97.2,
+    "b": 78.9,
+    "c": null
+   },
+   "b_term_agree_pct": 79.49,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "VII",
+   "vol": "7",
+   "page_first": 475,
+   "page_last": 512
+  },
+  {
+   "slug": "comp-per-genera",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De compositione medicamentorum per genera",
+   "title_eng": "On the Composition of Drugs by Kind",
+   "authorship": "",
+   "prior_translations": "No complete translation in any modern language. Parts exist in English: G. Baker 1574 (book 3, from a French epitome), M. Marai 2023 (substantial excerpts, Warwick PhD thesis) and ten reference passages (galen_project, 2026).",
+   "n_units": 697,
+   "n_terms": 5476,
+   "first_unit": "K13.362",
+   "last_unit": "K13.1057-1058",
+   "unit_verdicts": {
+    "pass": 661,
+    "fail": 35,
+    "mixed": 1
+   },
+   "checks_pass_pct": {
+    "a": 95.8,
+    "b": 72.0,
+    "c": 92.7
+   },
+   "b_term_agree_pct": 77.78,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "book_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "kuhn_vol": "XIII",
+   "vol": "13",
+   "page_first": 362,
+   "page_last": 1058
+  },
+  {
+   "slug": "de-comate",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De comate secundum Hippocratem",
+   "title_eng": "On Coma according to Hippocrates",
+   "authorship": "",
+   "prior_translations": "No English translation found. Spanish: J. M. Nieto Ibáñez 2005.",
+   "n_units": 23,
+   "n_terms": 175,
+   "first_unit": "K7.643",
+   "last_unit": "K7.664-665",
+   "unit_verdicts": {
+    "pass": 14,
+    "mixed": 8,
+    "fail": 1
+   },
+   "checks_pass_pct": {
+    "a": 95.7,
+    "b": 60.9,
+    "c": null
+   },
+   "b_term_agree_pct": 74.86,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "VII",
+   "vol": "7",
+   "page_first": 643,
+   "page_last": 665
+  },
+  {
+   "slug": "de-humero",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De humero iis modis prolapso quos Hippocrates non vidit",
+   "title_eng": "On the Shoulder Dislocated in Ways Hippocrates Did Not See",
+   "authorship": "",
+   "prior_translations": "No complete English translation found; R. Meiggs translated a short passage (Kühn XVIIIA 347–348). The text is part of Galen's commentary on the Hippocratic Joints, which M. Abballe translated into Italian (1972).",
+   "n_units": 77,
+   "n_terms": 473,
+   "first_unit": "K18a.346",
+   "last_unit": "K18a.422-423",
+   "unit_verdicts": {
+    "fail": 4,
+    "pass": 73
+   },
+   "checks_pass_pct": {
+    "a": 89.6,
+    "b": 50.6,
+    "c": 93.5
+   },
+   "b_term_agree_pct": 68.5,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "XVIIIA",
+   "vol": "18a",
+   "page_first": 346,
+   "page_last": 423
+  },
+  {
+   "slug": "de-plenitudine",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De plenitudine",
+   "title_eng": "On Plethora",
+   "authorship": "",
+   "prior_translations": "No English translation found. German: C. Otte 2001 (edition with translation).",
+   "n_units": 71,
+   "n_terms": 525,
+   "first_unit": "K7.513",
+   "last_unit": "K7.582-583",
+   "unit_verdicts": {
+    "insufficient": 1,
+    "pass": 66,
+    "fail": 4
+   },
+   "checks_pass_pct": {
+    "a": 77.1,
+    "b": 78.6,
+    "c": 94.3
+   },
+   "b_term_agree_pct": 79.24,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "VII",
+   "vol": "7",
+   "page_first": 513,
+   "page_last": 583
+  },
+  {
+   "slug": "difficultate-respirationis",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De difficultate respirationis",
+   "title_eng": "On Difficulty of Breathing",
+   "authorship": "",
+   "prior_translations": "No complete translation in any modern language. One paragraph (Kühn VII 781–782) is in English in A. A. Long 2021.",
+   "n_units": 207,
+   "n_terms": 1541,
+   "first_unit": "K7.753",
+   "last_unit": "K7.959-960",
+   "unit_verdicts": {
+    "pass": 191,
+    "fail": 15,
+    "mixed": 1
+   },
+   "checks_pass_pct": {
+    "a": 90.8,
+    "b": 57.5,
+    "c": 91.3
+   },
+   "b_term_agree_pct": 72.29,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [
+    "1",
+    "2",
+    "3"
+   ],
+   "book_pages": [
+    1,
+    2,
+    3
+   ],
+   "kuhn_vol": "VII",
+   "vol": "7",
+   "page_first": 753,
+   "page_last": 960
+  },
+  {
+   "slug": "hirudinibus",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De hirudinibus, revulsione, cucurbitula, incisione et scarificatione",
+   "title_eng": "On Leeches, Revulsion, Cupping, Incision and Scarification",
+   "authorship": "Transmitted among Galen's works; probably a late-antique compilation (Ecca 2021).",
+   "prior_translations": "No earlier English translation found. Italian: G. Ecca 2021 (complete). French: Bussemaker and Daremberg 1854, for the passages of Oribasius it is compiled from.",
+   "n_units": 6,
+   "n_terms": 42,
+   "first_unit": "K11.317",
+   "last_unit": "K11.321-322",
+   "unit_verdicts": {
+    "pass": 6
+   },
+   "checks_pass_pct": {
+    "a": 100.0,
+    "b": 83.3,
+    "c": 100.0
+   },
+   "b_term_agree_pct": 88.1,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "XI",
+   "vol": "11",
+   "page_first": 317,
+   "page_last": 322
+  },
+  {
+   "slug": "in-hipp-acut",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "In Hippocratis De victu acutorum commentaria, libri II–IV",
+   "title_eng": "Commentary on Hippocrates' Regimen in Acute Diseases, Books II–IV",
+   "authorship": "",
+   "prior_translations": "No English translation of books II–IV found. Book I: French, J. Pietrobelli 2019 (Les Belles Lettres). Book II chapters 20–23: German excerpt, W. Müri 1979.",
+   "n_units": 405,
+   "n_terms": 2820,
+   "first_unit": "K15.514-515",
+   "last_unit": "K15.918-919",
+   "unit_verdicts": {
+    "pass": 366,
+    "fail": 37,
+    "mixed": 1,
+    "insufficient": 1
+   },
+   "checks_pass_pct": {
+    "a": 83.4,
+    "b": 72.5,
+    "c": 93.6
+   },
+   "b_term_agree_pct": 78.12,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [
+    "2",
+    "3",
+    "4"
+   ],
+   "book_pages": [
+    2,
+    3,
+    4
+   ],
+   "kuhn_vol": "XV",
+   "vol": "15",
+   "page_first": 514,
+   "page_last": 919
+  },
+  {
+   "slug": "in-hipp-salubri",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "In Hippocratis vel Polybi opus De salubri victus ratione privatorum commentarius",
+   "title_eng": "Commentary on Hippocrates' (or Polybus') Regimen in Health for Private Persons",
+   "authorship": "",
+   "prior_translations": "No translation in any modern language found.",
+   "n_units": 51,
+   "n_terms": 311,
+   "first_unit": "K15.174",
+   "last_unit": "K15.222-223",
+   "unit_verdicts": {
+    "pass": 47,
+    "fail": 4
+   },
+   "checks_pass_pct": {
+    "a": 88.2,
+    "b": 70.6,
+    "c": 88.2
+   },
+   "b_term_agree_pct": 77.49,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "XV",
+   "vol": "15",
+   "page_first": 174,
+   "page_last": 223
+  },
+  {
+   "slug": "morbi-temporibus",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De totius morbi temporibus",
+   "title_eng": "On the Periods of the Whole Disease",
+   "authorship": "",
+   "prior_translations": "No translation in any modern language found.",
+   "n_units": 23,
+   "n_terms": 166,
+   "first_unit": "K7.440",
+   "last_unit": "K7.461-462",
+   "unit_verdicts": {
+    "pass": 23
+   },
+   "checks_pass_pct": {
+    "a": 95.7,
+    "b": 69.6,
+    "c": 91.3
+   },
+   "b_term_agree_pct": 78.92,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "VII",
+   "vol": "7",
+   "page_first": 440,
+   "page_last": 462
+  },
+  {
+   "slug": "purgantium-facultate",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "De purgantium medicamentorum facultate",
+   "title_eng": "On the Power of Purgative Drugs",
+   "authorship": "",
+   "prior_translations": "No translation in any modern language found.",
+   "n_units": 20,
+   "n_terms": 158,
+   "first_unit": "K11.323",
+   "last_unit": "K11.341-342",
+   "unit_verdicts": {
+    "pass": 19,
+    "fail": 1
+   },
+   "checks_pass_pct": {
+    "a": 95.0,
+    "b": 45.0,
+    "c": 95.0
+   },
+   "b_term_agree_pct": 70.25,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "XI",
+   "vol": "11",
+   "page_first": 323,
+   "page_last": 342
+  },
+  {
+   "slug": "quos-quibus",
+   "kind": "galen",
+   "lang": "grc",
+   "author": "Galen",
+   "title_lat": "Quos quibus catharticis medicamentis et quando purgare oporteat",
+   "title_eng": "Whom to Purge, with Which Cathartic Drugs, and When",
+   "authorship": "",
+   "prior_translations": "No earlier English translation found. French: Bussemaker and Daremberg 1854, in their Oribasius (book VII 23).",
+   "n_units": 14,
+   "n_terms": 101,
+   "first_unit": "K11.343",
+   "last_unit": "K11.355-356",
+   "unit_verdicts": {
+    "fail": 4,
+    "pass": 10
+   },
+   "checks_pass_pct": {
+    "a": 78.6,
+    "b": 78.6,
+    "c": 71.4
+   },
+   "b_term_agree_pct": 82.18,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [],
+   "book_pages": [],
+   "kuhn_vol": "XI",
+   "vol": "11",
+   "page_first": 343,
+   "page_last": 356
+  },
+  {
+   "slug": "vitruvius-3",
+   "kind": "method",
+   "lang": "lat",
+   "author": "Vitruvius",
+   "title_lat": "De architectura, liber III",
+   "title_eng": "On Architecture, Book 3",
+   "authorship": "",
+   "prior_translations": "",
+   "n_units": 29,
+   "n_terms": 209,
+   "first_unit": "Vitr.3.pr.1",
+   "last_unit": "Vitr.3.5.15",
+   "unit_verdicts": {
+    "pass": 23,
+    "fail": 6
+   },
+   "checks_pass_pct": {
+    "a": 93.1,
+    "b": 65.5,
+    "c": 72.4
+   },
+   "b_term_agree_pct": 77.51,
+   "models": {
+    "A": "claude-fable-5-1",
+    "B": "claude-opus-5-5"
+   },
+   "books": [
+    "3"
+   ],
+   "book_pages": [],
+   "citation": "ed. F. Krohn (Teubner 1912), cited by book, chapter and section",
+   "text_credit": "Latin text CC BY-SA 4.0 (Perseus Digital Library, canonical-latinLit)",
+   "claim": "A test of the First Drafts method on a Latin text, not a new translation: Vitruvius already has complete English translations. Scored against M. H. Morgan's 1914 translation, the two renderings agree with him on 64% and 66% of the key terms, about the same as the Galen drafts against their human reference (63.5% and 66.4%)."
+  }
+ ]
+}

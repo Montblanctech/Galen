@@ -1,0 +1,30 @@
+headword,headword_key,author,work,cited_edition,locator,edition_stem,unit,token_index,surface,validation,quoted_form,entry_key,entry_id,status
+abacus,abacus,phi0978,phi001,,34:14,phi0978.phi001.perseus-lat2,34:14,362448,abacosque,collatinus,,abacus,n11,located
+abacus,abacus,phi0978,phi001,,35:3,phi0978.phi001.perseus-lat2,35:3,371674,abaci,collatinus,,abacus,n11,located
+ab-dico,abdico,phi0978,phi001,,10:16,phi0978.phi001.perseus-lat2,10:16,112816,abdicavit,collatinus,"ea (signa) in totum,",abdico1,n47,located
+ab-dico,abdico,phi0978,phi001,,33:6,phi0978.phi001.perseus-lat2,33:6,352779,abdicari,collatinus,"utinam posset e vita in totum abdicari (aurum),",abdico1,n47,located
+abacus,abacus,phi0914,phi001,,39:6:7,phi0914.phi001.perseus-lat2,39:6:7,431604,abacos,collatinus,,abacus,n11,located
+ab-dico,abdico,phi0914,phi001,,4:15:4,phi0914.phi001.perseus-lat2,4:15:4,61400,abdicare,collatinus,,abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,2:31:10,phi0914.phi001.perseus-lat2,2:31:10,26900,abdicavit,collatinus,,abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,9:26:18,phi0914.phi001.perseus-lat2,9:26:18,140100,abdico,collatinus,,abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,2:2:10,phi0914.phi001.perseus-lat2,2:2:10,18913,abdicavit,collatinus,"sc consulatu,",abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,39:39:9,phi0914.phi001.perseus-lat2,39:39:9,440855,abdicaturum,collatinus,"se aedilitate,",abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,2:28,phi0914.phi001.perseus-lat2,2:28:9,25931,abdicare,collatinus,"(patres) abdicare consulatum jubentes et deponere imperium,",abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,6:18:4,phi0914.phi001.perseus-lat2,6:18:4,95743,abdicando,collatinus,"abdicando dictaturam,",abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,6:39,phi0914.phi001.perseus-lat2,6:39:1,102306,abdicatam,collatinus,"inter priorem dictaturam abdicatam novamque a Manlio initam,",abdico1,n47,located
+ab-dico,abdico,phi0914,phi001,,5:49,phi0914.phi001.perseus-lat2,5:49:9,88570,abdicandae,collatinus,"causa non abdicandae dictaturae,",abdico1,n47,located
+ab-dico,abdico,phi1002,phi001,,7:1:14,phi1002.phi001.perseus-lat2,7:1:14,87197,abdicare,collatinus,"minus dicto audientem fllium,",abdico1,n47,located
+ab-dico,abdico,phi1002,phi001,,11:1:82,phi1002.phi001.perseus-lat2,11:1:82,147184,abdicat,collatinus,"ex meretrice natum,",abdico1,n47,located
+ab-dico,abdico,phi1002,phi001,,7:4:11,phi1002.phi001.perseus-lat2,7:4:11,94686,abdicatorum,collatinus,"quae in scholis abdicatorum, haee in foro exheredatorum a parcntibus ratio cst,",abdico1,n47,located
+ab-dico,abdico,phi1002,phi001,,11:1:59,phi1002.phi001.perseus-lat2,11:1:59,146036,abdicantem,collatinus,"pater abdicans,",abdico1,n47,located
+ab-dico,abdico,phi0474,phi057,perseus-lat1,6:1:4,phi0474.phi057.perseus-lat2,6:1:4,38558,abdicare,collatinus,"se tutelā,",abdico1,n47,located
+abacus,abacus,phi0474,phi005,perseus-lat1,2:4:35,phi0474.phi005.perseus-lat2,2:4:35,67807,abaci,collatinus,,abacus,n11,located
+abacus,abacus,phi0474,phi049,perseus-lat1,5:21:61,phi0474.phi049.perseus-lat2,5:61,41878,abacosque,collatinus,,abacus,n11,located
+ab-dico,abdico,phi0448,phi002,,3:2,phi0448.phi002.perseus-lat2,3:2:1,17451,abdicat,collatinus,"se dictatu. rā,",abdico1,n47,located
+ab-dico,abdico,phi0474,phi035,perseus-lat1,3:5:12,phi0474.phi035.perseus-lat2,3:12,16167,abdicavit,collatinus,"eo die (Antonius) se non modo consulatu, sed etiam libertate abdicavit,",abdico1,n47,located
+ab-dico,abdico,phi0860,phi001,,4:10:3,phi0860.phi001.perseus-lat2,4:10:3,14493,abdicari,collatinus,,abdico1,n47,located
+ab-dico,abdico,phi0474,phi053,perseus-lat2,2:35:74,phi0474.phi053.perseus-lat3,2:74,20835,abdicaverunt,collatinus,"deponere magistratum): consules magistratu se abdicaverunt,",abdico1,n47,located
+ab-dico,abdico,phi0474,phi053,perseus-lat2,1:17:31,phi0474.phi053.perseus-lat3,1:31,3507,abdixissent,collatinus,"cum tres partes (vineae) aves abdixissent,",abdico2,n48,located
+ab-dico,abdico,phi0631,phi001,perseus-lat2,47:3,phi0631.phi001.perseus-lat3,47:3,6629,abdicato,collatinus,"abdicato magistratu,",abdico1,n47,located
+ab-dico,abdico,phi0474,phi013,perseus-lat1,3:6:14,phi0474.phi013.perseus-lat2,3:14,7943,abdicasset,collatinus,"se praeturā,",abdico1,n47,located
+abacus,abacus,phi0969,phi001,perseus-lat1,1:131,phi0969.phi001.perseus-lat2,1:131,987,abaco,collatinus,,abacus,n11,located

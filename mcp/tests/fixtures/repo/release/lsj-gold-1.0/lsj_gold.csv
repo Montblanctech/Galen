@@ -1,0 +1,61 @@
+headword,headword_key,author,work,cited_edition,locator,unit,token_index,surface,validation,quoted_form,lsj_part,entry_key,status
+ἀάω,aaw,tlg0012,tlg001,perseus-grc1,19:91,19:91,85368,ἀᾶται,quoted,ἀᾶται,grc.lsj.perseus-eng1.xml,a)a/w,located
+ἀάω,aaw,tlg0012,tlg001,perseus-grc1,9:116,9:116,36061,ἀασάμην,quoted,ἀασάμην,grc.lsj.perseus-eng1.xml,a)a/w,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,1:275,1:275,2039,ἀγαθός,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,13:664,13:664,58493,ἀγαθός,morpheus,ἀφνειός τ' ἀ. τε,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,1:131,1:131,950,ἀγαθός,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,3:179,3:179,11816,ἀγαθὸς,morpheus,ἀ. βασιλεύς,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,16:165,16:165,69905,ἀγαθὸν,morpheus,θεράπων,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,17:388,17:388,77606,ἀγαθὸν,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,13:314,13:314,56013,ἀγαθὸς,morpheus,ἀ. ἐν ὑσμίνῃ,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,2:408,2:408,7408,ἀγαθὸς,morpheus,βοὴν ἀ.,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,6:478,6:478,27438,ἀγαθόν,morpheus,βίην,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,9:102,9:102,35957,ἀγαθόν,morpheus,εἰπεῖν εἰς ἀγαθόν,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,11:789,11:789,50075,ἀγαθόν,morpheus,ὁ δὲ πείσεται εἰς ἀ. περ,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,2:204,2:204,5949,ἀγαθὸν,morpheus,οὐκ ἀγαθὸν πολυκοιρανίη,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,7:282,7:282,29797,ἀγαθὸν,morpheus,ἀγαθόν [ἐστι,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg001,perseus-grc1,24:130,24:130,106853,ἀγαθὸν,morpheus,ἀγαθόν [ἐστι,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0016,tlg001,perseus-grc1,5:109,5:109:3,110761,ἀγαθούς,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0016,tlg001,perseus-grc1,9:122,9:122:3,184920,ἀγαθοὺς,morpheus,"τὰ πολέμια, τὰ πολιτικά,",grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0016,tlg001,perseus-grc1,1:136,1:136:1,18693,ἀγαθόν,morpheus,ἀ. μάχεσθαι,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0016,tlg001,perseus-grc1,1:79,1:79:3,10224,ἀγαθοί,morpheus,ἱππεύεσθαι,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0016,tlg001,perseus-grc1,2:172,2:172:3,52376,ἀγαθὰ,morpheus,"ἀγαθά, τά,",grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ὄνυξ,onuc,tlg0016,tlg001,perseus-grc1,3:108,3:108:4,68387,ὄνυχας,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ὄνυξ,onuc,tlg0016,tlg001,perseus-grc1,2:68,2:68:4,38313,ὄνυχας,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ὄνυξ,onuc,tlg0016,tlg001,perseus-grc1,4:64,4:64:3,81835,ὄνυξι,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ἀάω,aaw,tlg0012,tlg002,perseus-grc1,21:297,21:297,76039,ἄασεν,morpheus,φρένας ἄασε οἴνῳ,grc.lsj.perseus-eng1.xml,a)a/w,located
+ἀγαθός,agaqos,tlg0012,tlg002,perseus-grc1,18:276,18:276,65656,ἀγαθήν,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg002,perseus-grc1,11:300,11:300,39073,ἀγαθὸν,morpheus,πύξ,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg002,perseus-grc1,9:27,9:27,28954,ἀγαθὴ,morpheus,ʼιθάκη . . ἀ. κουροτρόφος,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0012,tlg002,perseus-grc1,3:196,3:196,7733,ἀγαθὸν,morpheus,ἀγαθόν [ἐστι,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0003,tlg001,perseus-grc1,5:27,5:27:2,85076,ἀγαθῷ,morpheus,ἐπ' ἀγαθῷ τινος,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0003,tlg001,perseus-grc1,1:131,1:131:1,19366,ἀγαθῷ,morpheus,οὐκ ἐπ' ἀ.,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0059,tlg030,perseus-grc1,407e,408a,25013,ἀγαθοὶ,morpheus,πρός τι,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0059,tlg034,perseus-grc1,899b,899b,83360,ἀγαθαὶ,morpheus,πᾶσαν ἀρετήν,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0032,tlg007,perseus-grc1,5:3:20,5:3:20,41905,ἀγαθὸν,morpheus,ὦ μέγα ἀ. σὺ τοῖς φίλοις,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0085,tlg005,perseus-grc1,795,795,3737,ἀγαθὸς,morpheus,προβατογνώμων,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0033,tlg002,perseus-grc1,3:71,3:71,1859,ἀγαθοῖς,morpheus,"πραῢς ἀστοῖς, οὐ φθονέων ἀγαθοῖς",grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0033,tlg002,perseus-grc1,2:96,2:96,1402,ἀγαθοῖς,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0033,tlg002,perseus-grc1,4:285,4:285,4136,ἀγαθοῖς,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0032,tlg001,perseus-grc1,5:2:35,5:2:35,39529,ἀγαθῷ,morpheus,ἐπ' οὐδενὶ ἀ. τῆς Ἑλλάδος,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0011,tlg004,perseus-grc1,687,1:687,4319,ἀγαθὸς,morpheus,γνώμην,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0011,tlg002,perseus-grc1,31,31,194,ἀγαθὸν,morpheus,τὸν ἀ. Κρέοντα,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0011,tlg005,perseus-grc1,1082,2:1081,6362,ἀγαθῶν,morpheus,τίς ἂν εὔπατρις ὧδε βλάστοι; οὐδεὶς τῶν ἀ. κτλ.,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0032,tlg002,perseus-grc1,1:2:63,1:2:63,4357,ἀγαθῶν,morpheus,"ἀγαθά, τά,",grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0019,tlg006,perseus-grc1,1706,1706,11211,ἀγαθὰ,morpheus,ἀγαθὰ πράττειν,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ὄνυξ,onuc,tlg0019,tlg006,perseus-grc1,1180,1180,7979,ὄνυχας,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ὄνυξ,onuc,tlg0019,tlg006,perseus-grc1,8,8,50,ὄνυχας,morpheus,τοὺς ὄνυχας τῶν δακτύλων,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ἀγαθός,agaqos,tlg0019,tlg001,perseus-grc1,873,873b,5498,ἀγαθὰ,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0019,tlg009,perseus-grc1,74,74,575,ἀγαθόν,morpheus,"ἀγαθόν, τό,",grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ὄνυξ,onuc,tlg0033,tlg003,perseus-grc1,4:63,4:63,1453,ὄνυχας,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ὄνυξ,onuc,tlg0006,tlg012,perseus-grc1,471,2:471,2742,ὄνυξιν,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ὄνυξ,onuc,tlg0006,tlg012,perseus-grc1,840,840,5028,ὄνυχας,morpheus,ὄνυχας ἐπ' ἄκρους στάς,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ἀγαθός,agaqos,tlg0032,tlg003,perseus-grc1,4:15,4:15,3623,ἀγαθοὺς,morpheus,ἀ. πολέμῳ,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ὄνυξ,onuc,tlg0020,tlg003,perseus-grc1,266,266,1809,ὄνυχες,morpheus,,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ἀγαθός,agaqos,tlg0059,tlg002,perseus-grc1,41d,41d,8497,ἀγαθῷ,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ὄνυξ,onuc,tlg0006,tlg001,perseus-grc1,159,159,945,ὄνυχας,morpheus,ὁ οἶνος,grc.lsj.perseus-eng16.xml,o)/nuc,located
+ἀγαθός,agaqos,tlg0031,tlg006,perseus-grc1,2:7,2:7,657,ἀγαθοῦ,morpheus,,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0627,tlg003,perseus-grc1,1,1,161,ἀγαθὸς,morpheus,ἰητρός,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0540,tlg013,perseus-grc1,2,2,80,ἀγαθοὺς,morpheus,ἄνδρες ἀ. περὶ τὸ πλῆθος,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0010,tlg017,perseus-grc1,32,32,1815,ἀγαθοῖς,morpheus,"τοῖς ἀ., οἷς ἔχομεν ἐν τῇ ψυχῇ",grc.lsj.perseus-eng1.xml,a)gaqo/s,located
+ἀγαθός,agaqos,tlg0627,tlg008,perseus-grc1,9,8,626,Ἀγαθὰ,morpheus,ἀγαθῶς,grc.lsj.perseus-eng1.xml,a)gaqo/s,located
