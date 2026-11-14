@@ -1,0 +1,29 @@
+{
+ "seed": 2026,
+ "test": [
+  "tlg0018.tlg010",
+  "tlg0057.tlg032",
+  "tlg0057.tlg064",
+  "tlg0552.tlg001",
+  "tlg0616.tlg002",
+  "tlg0627.tlg032",
+  "tlg0627.tlg033",
+  "tlg1205.tlg001",
+  "tlg1272.tlg001",
+  "tlg2042.tlg019",
+  "tlg4015.tlg007",
+  "tlg9019.tlg001"
+ ],
+ "dev": [
+  "tlg0057.tlg099",
+  "tlg0087.tlg026",
+  "tlg0530.tlg043",
+  "tlg2586.tlg002",
+  "tlg4034.tlg003"
+ ],
+ "real": [
+  "tlg1595.tlg221",
+  "tlg1595.tlg370"
+ ],
+ "rule": "First1K reference works of 100 KB - 1.5 MB (+ Galen works of the same size), seeded shuffle; every edition of a held-out work is excluded from the counts"
+}

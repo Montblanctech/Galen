@@ -1,0 +1,29 @@
+{
+ "inputs": 2520,
+ "identical": 2520,
+ "native_lines": 2520,
+ "wasm_lines": 2520,
+ "native_timing": [
+  "load 112.3 ms; {\"forms\":313788,\"bigrams\":1779469,\"tokens\":21560737,\"form_min\":2,\"bigram_min\":2,\"max_len\":23}",
+  "2520 lines: mean 10.66 ms, median 10.62 ms, p95 16.19 ms, max 20.61 ms"
+ ],
+ "wasm_node_timing": {
+  "imports": 0,
+  "load_ms": 160.3,
+  "lines": 2520,
+  "mean_ms": 24.13,
+  "median_ms": 23.99,
+  "p95_ms": 37.04,
+  "max_ms": 49.17,
+  "info": {
+   "forms": 313788,
+   "bigrams": 1779469,
+   "tokens": 21560737,
+   "form_min": 2,
+   "bigram_min": 2,
+   "max_len": 23
+  }
+ },
+ "wasm_bytes": 163053,
+ "model_bytes": 6641911
+}
