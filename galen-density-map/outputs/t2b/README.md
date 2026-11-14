@@ -158,22 +158,27 @@ is P(w | prev) + P(next | w) + channel cost.
 Words where the editor's supplement meets read letters are flagged at about twice the rate of read
 words. This is where restorations and the digital text are most fragile.
 
-**Correction (2026-11-14).** The first run of the flagger looked up word pairs with 32-bit ids on Windows, so ids above 255 overflowed and many context scores used the wrong word pairs. The counts above are from the corrected rerun. The hand-read below was made on the first run; it is kept for the record and needs redoing on the corrected flags.
+**Correction (2026-11-14).** The first run of the flagger looked up word pairs with 32-bit ids on Windows, so ids above 255 overflowed and many context scores used the wrong word pairs. The counts above and the hand-read below are from the corrected rerun.
 
-**My hand-read of the top 30 flags by margin (first run).** I am not a papyrologist, and none of these are
-checked against the editions or images, so all are unverified:
+**My hand-read of the top 30 flags by margin (corrected run, 2026-11-14).** I am not a papyrologist, and none
+of these are checked against the editions or images, so all are unverified. Corpus counts are from the 21.6M-token
+reference corpus.
 
 | category | n | examples |
 |---|---|---|
-| probable slip in the digital text or the restoration | 4 | δύν[αιν] → ΔΥΝΑΜΙΝ; ῥῆορικὴν → ΡΗΤΟΡΙΚΗΝ; παραλεξάμενοι → ΠΑΡΑΔΕΞΑΜΕΝΟΙ (Λ/Δ); οὐτῇ (αὐτῇ?, the scorer's own suggestion is wrong) |
-| genuine Herculanean / variant spelling (rare, so flagged, but not an error) | 8 | ποη- for ποιη- ×6 (ποητικήν, ἐποήθη, ποημάτων); τυπάνων (τύπανον); ὅτις (epic) |
-| word split across a line end without a hyphen | 5 | παι γνίων, ὑποκεί μένον, στεφανοπο ϊκήν, ἀηδ ῆ, συμβαίν |
-| adscript policy: papyri.py keeps final -αι | 3 | συνηθείαι ×2, γυμνασίαι (= -ᾳ) |
-| false alarm (a frequent neighbour wins: movable ν, case form, rare verb) | 10 | παρρησία → -ν, ἀποδέδειχε → -ν, αὐλήσει, ἄδοντα, διήκει, παρεθῇ |
+| Herculanean spelling ποη- for ποιη- (sound, but unattested in the reference corpus) | 13 | ποητικόν, ποητὰς, πόημα, ποημάτων, ποητὴς (×5) |
+| other sound spelling or rare word | 5 | τυ[πά]νων (τύπανον, count 2); παγίων ×2 (πάγιος "firm"; other forms attested, e.g. παγίως 70; the scorer's πλαγίων is wrong); κεινεῖν (ει for ι, = κινεῖν; the scorer's κτείνειν is wrong); πάλι (count 62) |
+| probable slip in the digital text or the restoration | 5 | δύν[αιν] → δύναμιν; μουσκὴν → μουσικήν; μόνο → μόνον (οὐ … μόνο ἀλλὰ καί); ὅοι → ὅσοι (the scorer's σοι is wrong); τ᾿εἰς (a missing space in a corrupt stretch) |
+| word split across a line end without a hyphen | 4 | συμβαίν, στεφανοπο ϊκήν, ῥυ θμῶν, ἀ ρετήν |
+| stray letters from a broken stretch that the skip rules missed | 2 | λ (οὐ λ αὔτ᾿), ἐναντίο νον |
+| false alarm (a frequent neighbour wins) | 1 | θεατοῦ (θεατής "spectator", next to θεάτρου) |
 
-The unarticulated-string rule has a cost. Before it, διαθ[σ]εις → ΔΙΑΘΕΣΕΙΣ was flag no. 11, a
-probable slip. The digital text gives that word no accent, so the rule now drops it. Joining split
-words across line ends is the next fix: it would remove a sixth of the top 30.
+Against the first run (made on the faulty flags, 2026-11-13), false alarms fell from 10 of 30 to 1: the
+wrong word pairs were what made frequent neighbours win. Of the 5 probable slips the scorer's own suggestion
+is right for 3. The three adscript cases of the first run (συνηθείαι, γυμνασίαι) are no longer in the top 30.
+Most of the top 30 (18) are now sound words the reference corpus does not spell that way. An allowance
+for known papyrus spellings (ποη-/ποιη-, ει/ι) before the attestation check is the next fix, ahead of
+joining words across line ends.
 
 **Fixes found on the way.** `papyri.normalize_token` misses final adscript after a breathing (ὧι, ἧι).
 `t2b_flag.adscript_left` handles that case. It is worth adding to `papyri.ADSCRIPT` (not edited here).
@@ -185,8 +190,10 @@ words across line ends is the next fix: it would remove a sixth of the top 30.
   letters with probabilities) instead of the fixed classes. This is the real input format of the
   Ancient Lives / Kentucky / Anagnostes HTR, and it should also remove most clean-text
   over-correction.
+- **Flagger: papyrus spellings.** Accept known orthographic variants (ποη- for ποιη-, ει for ι) before
+  the attestation check (18 of the top 30 are sound words spelled this way or rare).
 - **Flagger: line ends.** Join a word across a line end when the next line starts mid-word without a
-  hyphen (5 of the top 30). Also make the unarticulated-string rule spare words that a supplement
+  hyphen (4 of the top 30). Also make the unarticulated-string rule spare words that a supplement
   touches.
 - **A documentary test.** Philodemus is literary. The next real case is a documentary papyrus from
   DDbDP / papyri.info (CC BY). It is not downloaded here.

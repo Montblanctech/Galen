@@ -5,6 +5,8 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased]
 
+## [3.5.0] — 2026-11-14
+
 ### Added
 - **Ancient Greek autocorrect** (`docs/tools/autocorrect/`, engine in `t2b-wasm/`, reference in `pipeline/t2b_scorer.py`, results in `outputs/t2b/`): paste a papyrus reading as letters in a row and the page proposes word breaks, alternative readings, and letters that look misread (the shape classes Α/Λ/Δ, Ε/Θ/Ο/Σ, Η/Ν, Ι/Τ, or one lost letter per word). It is a plausibility check from word and word-pair counts in First1KGreek, not an edition, and it runs entirely in the browser (WebAssembly; the text never leaves the page). Tested on 480 held-out lines with injected errors; the Rust engine gives the same best reading as the Python reference on all 2,520 test inputs.
 - **An MCP server for the drafts** (`mcp/`): any MCP-capable assistant (Claude Desktop, Claude Code, Cursor) can list the works, search the terms, get a term's renderings across works, get a passage by Kühn citation with both renderings and the checks, and look up a form in LSJ-Gold or LS-Gold. It runs on the user's own machine, installs from this repository, and reads only the published data (cached after first use). Answers are short by default and carry the page link to cite.
@@ -16,6 +18,9 @@ dated on release and each gets a Zenodo DOI.
 
 ### Changed
 - **Site fixes from an audit**: a meta description on every page, column labels no longer use heading tags out of order, the source column carries its language, and three text colours were darkened to pass the contrast minimum. No draft text or check result changed.
+
+### Fixed
+- **Philodemus flags** (`pipeline/t2b_flag.py`, `outputs/t2b/`): word-pair lookups used 32-bit ids on Windows, which overflowed, so many context scores used the wrong pairs. Rerun: 697 of 18,194 words flagged (3.8%; the first run gave 781). The hand-read of the top 30 is redone on the corrected run: 18 are sound words, rare or spelled otherwise (13 of them the Herculanean ποη- for ποιη-), 5 probable slips in the digital text, 4 words split across a line end, 2 stray letters, 1 false alarm (10 on the first run).
 
 ## [3.4.0] — 2026-11-11
 
