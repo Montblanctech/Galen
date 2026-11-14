@@ -444,6 +444,20 @@ class Galen:
         more = _more(offset + len(page), len(hits), f"pass offset={offset + len(page)} or narrow the query.")
         if more:
             out.append(more)
+        # One clear winner (a single match, or the only exact Greek / LSJ-key match): answer it in this call,
+        # so the agent does not need a second hop to get_term.
+        top = None
+        if offset == 0:
+            if len(hits) == 1:
+                top = hits[0][2]
+            elif hits[0][0] >= 95 and hits[1][0] < 95:
+                top = hits[0][2]
+        if top is not None:
+            out.append(f"Terms page: {self.terms_url(q)}")
+            out.append("Top match in full (same as get_term):")
+            body = self.get_term(top["key"])
+            out.append(body if body.endswith(HONESTY) else body + "\n" + HONESTY)
+            return "\n".join(out)
         out.append(f'Open one with get_term("{page[0][2]["lemma"]}"). Terms page: {self.terms_url(q)}')
         out.append(HONESTY)
         return "\n".join(out)
