@@ -1,23 +1,24 @@
 {
  "margin_nats": 4.0,
+ "spelling": true,
  "works": {
   "tlg1595.tlg221": {
    "file": "urn_cts_greekLit_tlg1595.tlg221.1st1K-grc1.txt",
-   "words": 11385,
-   "fragments_or_elided_not_scored": 2395,
-   "scored": 8990,
-   "flagged": 371,
+   "words": 11368,
+   "fragments_or_elided_not_scored": 2116,
+   "scored": 9252,
+   "flagged": 335,
    "by_kind": {
-    "unattested": 350,
-    "alternative": 6,
-    "unattested+alt": 15
+    "unattested": 326,
+    "unattested+alt": 5,
+    "alternative": 4
    },
    "word_division_check": {
     "lines": 453,
-    "boundary_P": 0.9074,
-    "boundary_R": 0.9634,
-    "boundary_F1": 0.9346,
-    "line_division_exact": 0.6556,
+    "boundary_P": 0.914,
+    "boundary_R": 0.9647,
+    "boundary_F1": 0.9387,
+    "line_division_exact": 0.6667,
     "disagreements_sample": [
      {
       "line": "γὰρ ἄν ἐκεῖναί γε ἐξαμάρτοιέν ποτε τοσοῦτον, ὥστε ῥήματα",
@@ -218,15 +219,6 @@
       ]
      },
      {
-      "line": "τὸ παραδεξόμενον",
-      "editor": "ΤΟ ΠΑΡΑΔΕΞΟΜΕΝΟΝ",
-      "scorer": "ΤΟ ΠΑΡΑ ΔΕΞΟΜΕΝΟΝ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
       "line": "γητικῶς, ἀρκέσει δὲ τὴν συγ-",
       "editor": "ΓΗΤΙΚΩΣ ΑΡΚΕΣΕΙ ΔΕ ΤΗΝ ΣΥΓ",
       "scorer": "ΓΗ ΤΙΚΩΣ ΑΡΚΕΣΕΙ ΔΕ ΤΗΝ ΣΥΓ",
@@ -288,49 +280,115 @@
        true,
        false
       ]
+     },
+     {
+      "line": "οἷς ἐνκωμιάζουσι μέλεσι καὶ",
+      "editor": "ΟΙΣ ΕΝΚΩΜΙΑΖΟΥΣΙ ΜΕΛΕΣΙ ΚΑΙ",
+      "scorer": "ΟΙΣ ΕΓΚΩΜΙΑ ΖΟΥΣΙ ΜΕΛΕΣΙ ΚΑΙ",
+      "edge_partial": [
+       false,
+       false
+      ]
      }
     ]
    },
+   "split_words_joined": 17,
+   "flags_unattested_attested_stem": 134,
+   "flags_alternative_is_spelling": 1,
+   "spellings_accepted": 52,
+   "spellings_rejected": 21,
+   "spelling_profile": [
+    {
+     "label": "ΟΙ written Ο before a vowel",
+     "words": 23
+    },
+    {
+     "label": "Ι written ΕΙ before a consonant",
+     "words": 18
+    },
+    {
+     "label": "Ο written Ω before a consonant",
+     "words": 2
+    },
+    {
+     "label": "Γ written Ν before a consonant",
+     "words": 2
+    },
+    {
+     "label": "Μ written Ν before a consonant",
+     "words": 2
+    },
+    {
+     "label": "ΕΙ written Η at the word end",
+     "words": 1
+    },
+    {
+     "label": "Κ written Χ at the word end",
+     "words": 1
+    },
+    {
+     "label": "Ι written ΕΙ before a vowel",
+     "words": 1
+    },
+    {
+     "label": "ΕΙ written Ι before a consonant",
+     "words": 1
+    },
+    {
+     "label": "Ζ written Σ before a vowel",
+     "words": 1
+    }
+   ],
+   "habits": [
+    {
+     "rule": 33,
+     "label": "ΟΙ written Ο before a vowel",
+     "uses": 23,
+     "opportunities": 192,
+     "corpus_rate": 0.012426,
+     "text_rate": 0.1097
+    }
+   ],
    "flag_rate_by_class": {
     "read": {
-     "words": 5082,
-     "flagged": 163,
-     "rate": 0.0321
+     "words": 5192,
+     "flagged": 144,
+     "rate": 0.0277
     },
     "partly_restored": {
-     "words": 1940,
-     "flagged": 147,
-     "rate": 0.0758
+     "words": 2043,
+     "flagged": 137,
+     "rate": 0.0671
     },
     "restored": {
-     "words": 1968,
-     "flagged": 61,
-     "rate": 0.031
+     "words": 2017,
+     "flagged": 54,
+     "rate": 0.0268
     }
    }
   },
   "tlg1595.tlg370": {
    "file": "urn_cts_greekLit_tlg1595.tlg370.1st1K-grc1.txt",
-   "words": 9695,
-   "fragments_or_elided_not_scored": 491,
-   "scored": 9204,
-   "flagged": 326,
+   "words": 9674,
+   "fragments_or_elided_not_scored": 334,
+   "scored": 9340,
+   "flagged": 289,
    "by_kind": {
-    "unattested": 320,
-    "alternative": 3,
+    "unattested": 282,
+    "alternative": 4,
     "unattested+alt": 3
    },
    "word_division_check": {
     "lines": 1092,
-    "boundary_P": 0.9343,
-    "boundary_R": 0.9821,
-    "boundary_F1": 0.9576,
-    "line_division_exact": 0.6566,
+    "boundary_P": 0.9494,
+    "boundary_R": 0.982,
+    "boundary_F1": 0.9654,
+    "line_division_exact": 0.7189,
     "disagreements_sample": [
      {
       "line": "καὶ ἐπιγείνεσθαι διὰ συνασκήσεως ὀλίγον, αἱ δὲ διʼ",
       "editor": "ΚΑΙ ΕΠΙΓΕΙΝΕΣΘΑΙ ΔΙΑ ΣΥΝΑΣΚΗΣΕΩΣ ΟΛΙΓΟΝ ΑΙ ΔΕ ΔΙ",
-      "scorer": "ΚΑΙ ΕΠΙ ΓΕ ΓΙΝΕΣΘΑΙ ΔΙΑ ΣΥΝΑΣΚΗΣΕΩΣ ΟΛΙΓΟΝ ΑΙ ΔΕ ΔΙ",
+      "scorer": "ΚΑΙ ΕΠΙ ΓΙΝΕΣΘΑΙ ΔΙΑ ΣΥΝΑΣΚΗΣΕΩΣ ΟΛΙΓΟΝ ΑΙ ΔΕ ΔΙ",
       "edge_partial": [
        false,
        false
@@ -349,24 +407,6 @@
       "line": "συνασκήσεως, ἀλλὰ φύσεως ὁμοειδοῦς ἀξιολόγως ἐπιθλιβομένης",
       "editor": "ΣΥΝΑΣΚΗΣΕΩΣ ΑΛΛΑ ΦΥΣΕΩΣ ΟΜΟΕΙΔΟΥΣ ΑΞΙΟΛΟΓΩΣ ΕΠΙΘΛΙΒΟΜΕΝΗΣ",
       "scorer": "ΣΥΝΑΣΚΗΣΕΩΣ ΑΛΛΑ ΦΥΣΕΩΣ ΟΜΟΕΙΔΟΥΣ ΑΞΙΟΛΟΓΩΣ ΕΠΙ ΘΛΙΒΟΜΕΝΗΣ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
-      "line": "πείπτει τῶν γε κατὰ μέρος καὶ ἀξιόλογά γε οὐ μόνον",
-      "editor": "ΠΕΙΠΤΕΙ ΤΩΝ ΓΕ ΚΑΤΑ ΜΕΡΟΣ ΚΑΙ ΑΞΙΟΛΟΓΑ ΓΕ ΟΥ ΜΟΝΟΝ",
-      "scorer": "ΠΕ ΠΙΠΤΕΙ ΤΩΝ ΓΕ ΚΑΤΑ ΜΕΡΟΣ ΚΑΙ ΑΞΙΟΛΟΓΑ ΓΕ ΟΥ ΜΟΝΟΝ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
-      "line": "εἰς τοὺς τεχνείτας ἀλλὰ καὶ εἰς τοὺς ἀνεπιστήμονας,",
-      "editor": "ΕΙΣ ΤΟΥΣ ΤΕΧΝΕΙΤΑΣ ΑΛΛΑ ΚΑΙ ΕΙΣ ΤΟΥΣ ΑΝΕΠΙΣΤΗΜΟΝΑΣ",
-      "scorer": "ΕΙΣ ΤΟΥΣ ΤΕΧΝΟΙ ΤΑΣ ΑΛΛΑ ΚΑΙ ΕΙΣ ΤΟΥΣ ΑΝΕΠΙΣΤΗΜΟΝΑΣ",
       "edge_partial": [
        false,
        false
@@ -418,15 +458,6 @@
       ]
      },
      {
-      "line": "ἑκάτερον, ἐν ὄχλωι τῆς διαθέσεως τοῦ λόγου γεινομένης·",
-      "editor": "ΕΚΑΤΕΡΟΝ ΕΝ ΟΧΛΩΙ ΤΗΣ ΔΙΑΘΕΣΕΩΣ ΤΟΥ ΛΟΓΟΥ ΓΕΙΝΟΜΕΝΗΣ",
-      "scorer": "ΕΚΑΤΕΡΟΝ ΕΝ ΟΧΛΩ Ι ΤΗΣ ΔΙΑΘΕΣΕΩΣ ΤΟΥ ΛΟΓΟΥ ΓΕ ΓΙΝΟΜΕΝΗΣ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
       "line": "οἴεταί τινα, διὰ τῶν αὐτῶν πορευομένοις ἐξῇ καὶ",
       "editor": "ΟΙΕΤΑΙ ΤΙΝΑ ΔΙΑ ΤΩΝ ΑΥΤΩΝ ΠΟΡΕΥΟΜΕΝΟΙΣ ΕΞΗ ΚΑΙ",
       "scorer": "ΟΙΕΤΑΙ ΤΙΝΑ ΔΙΑ ΤΩΝ ΑΥΤΩΝ ΠΟΡΕΥΟΜΕΝΟΙΣ ΕΞ Η ΚΑΙ",
@@ -439,15 +470,6 @@
       "line": "τἀληθὲς ἢ τὸ φαινόμενον ἀληθὲς τῶι συντιθέντι τὴν",
       "editor": "ΤΑΛΗΘΕΣ Η ΤΟ ΦΑΙΝΟΜΕΝΟΝ ΑΛΗΘΕΣ ΤΩΙ ΣΥΝΤΙΘΕΝΤΙ ΤΗΝ",
       "scorer": "ΤΑΛΗΘΕΣ Η ΤΟ ΦΑΙΝΟΜΕΝΟΝ ΑΛΗΘΕΣ ΤΩ Ι ΣΥΝΤΙΘΕΝΤΙ ΤΗΝ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
-      "line": "στάσεως προισταμένους εἶναί τινα τέλειον τεχνείτην,",
-      "editor": "ΣΤΑΣΕΩΣ ΠΡΟΙΣΤΑΜΕΝΟΥΣ ΕΙΝΑΙ ΤΙΝΑ ΤΕΛΕΙΟΝ ΤΕΧΝΕΙΤΗΝ",
-      "scorer": "ΣΤΑΣΕΩΣ ΠΡΟΙΣΤΑΜΕΝΟΥΣ ΕΙΝΑΙ ΤΙΝΑ ΤΕΛΕΙΟΝ ΤΕΧΝΟΙ ΤΗΝ",
       "edge_partial": [
        false,
        false
@@ -481,6 +503,15 @@
       ]
      },
      {
+      "line": "καὶ τῶν οὐ ῥητόρων, οὐ μὴν τέλος τοῦτο τῆς ῥητορικῆς",
+      "editor": "ΚΑΙ ΤΩΝ ΟΥ ΡΗΤΟΡΩΝ ΟΥ ΜΗΝ ΤΕΛΟΣ ΤΟΥΤΟ ΤΗΣ ΡΗΤΟΡΙΚΗΣ",
+      "scorer": "ΚΑΙ ΤΩΝ ΟΥΡΗΤΗΡΩΝ ΟΥ ΜΗΝ ΤΕΛΟΣ ΤΟΥΤΟ ΤΗΣ ΡΗΤΟΡΙΚΗΣ",
+      "edge_partial": [
+       false,
+       false
+      ]
+     },
+     {
       "line": "πολλὴν ἀπειρολογίαν καταγνώσεται τῶν τὰ κάλλη καὶ",
       "editor": "ΠΟΛΛΗΝ ΑΠΕΙΡΟΛΟΓΙΑΝ ΚΑΤΑΓΝΩΣΕΤΑΙ ΤΩΝ ΤΑ ΚΑΛΛΗ ΚΑΙ",
       "scorer": "ΠΟΛΛΗΝ ΑΠΕΙΡΟΝ ΛΟΓΙΑΝ ΚΑΤΑΓΝΩΣΕΤΑΙ ΤΩΝ ΤΑ ΚΑΛΛΗ ΚΑΙ",
@@ -490,18 +521,9 @@
       ]
      },
      {
-      "line": "ἰδιώτας, ἀλλά οὐχ, ὅτι γε βέλτειον τῶν τεχνειτῶν,",
-      "editor": "ΙΔΙΩΤΑΣ ΑΛΛΑ ΟΥΧ ΟΤΙ ΓΕ ΒΕΛΤΕΙΟΝ ΤΩΝ ΤΕΧΝΕΙΤΩΝ",
-      "scorer": "ΙΔΙΩΤΑΣ ΑΛΛΑ ΟΥΧ ΟΤΙ ΓΕ ΒΕΛΤΙΣΤΟΝ ΤΩΝ ΤΕΧΝΗ ΕΙ ΤΩΝ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
       "line": "χωρὶς τῶν προεπισεσημασμένων ἀδιαληψιῶν,",
       "editor": "ΧΩΡΙΣ ΤΩΝ ΠΡΟΕΠΙΣΕΣΗΜΑΣΜΕΝΩΝ ΑΔΙΑΛΗΨΙΩΝ",
-      "scorer": "ΧΩΡΙΣ ΤΩΝ ΠΡΟ ΕΠΙΘΕΣ ΗΜΑΣ ΜΕΝΩΝΑ ΔΙΑΛΗΨΙΝ ΩΝ",
+      "scorer": "ΧΩΡΙΣ ΤΩΝ ΠΡΟ ΕΠΙΘΕΣ ΗΜΑΣ ΜΕΝΩΝΑ ΔΙΑΛΗΨΕΙ ΩΝ",
       "edge_partial": [
        false,
        false
@@ -562,15 +584,6 @@
       ]
      },
      {
-      "line": "λόχους καὶ συνχωρουμένων τῶν λημμάτων οὐ συνάξειν,",
-      "editor": "ΛΟΧΟΥΣ ΚΑΙ ΣΥΝΧΩΡΟΥΜΕΝΩΝ ΤΩΝ ΛΗΜΜΑΤΩΝ ΟΥ ΣΥΝΑΞΕΙΝ",
-      "scorer": "ΛΟΧΟΥΣ ΚΑΙ ΣΥΝΕΧΩΡΟΥΜΕΝ ΩΝ ΤΩΝ ΛΗΜΜΑΤΩΝ ΟΥ ΣΥΝΑΞΕΙΝ",
-      "edge_partial": [
-       false,
-       false
-      ]
-     },
-     {
       "line": "ὃ θέλουσιν οἱ κατασκευάζοντες, καὶ μάλιστα, ἐὰν ἐρωτῶνται",
       "editor": "Ο ΘΕΛΟΥΣΙΝ ΟΙ ΚΑΤΑΣΚΕΥΑΖΟΝΤΕΣ ΚΑΙ ΜΑΛΙΣΤΑ ΕΑΝ ΕΡΩΤΩΝΤΑΙ",
       "scorer": "ΕΘΕΛΟΥΣΙΝ ΟΙ ΚΑΤΑΣΚΕΥΑΖΟΝΤΕΣ ΚΑΙ ΜΑΛΙΣΤΑ ΕΑΝ ΕΡΩΤΩΝΤΑΙ",
@@ -580,18 +593,63 @@
       ]
      },
      {
-      "line": "τέχνην, ἀλλά εἴπερ ἄρα τὸ μὴ περιγείνεσθαι διʼ αὐτῆς",
-      "editor": "ΤΕΧΝΗΝ ΑΛΛΑ ΕΙΠΕΡ ΑΡΑ ΤΟ ΜΗ ΠΕΡΙΓΕΙΝΕΣΘΑΙ ΔΙ ΑΥΤΗΣ",
-      "scorer": "ΤΕΧΝΗΝ ΑΛΛΑ ΕΙΠΕΡ ΑΡΑ ΤΟ ΜΗ ΠΕΡΙ ΓΕ ΓΙΝΕΣΘΑΙ ΔΙ ΑΥΤΗΣ",
+      "line": "δὴ μουσικὴ τὸ γράφειν καὶ ἀναγινώσκειν οὐ περιποιεῖ,",
+      "editor": "ΔΗ ΜΟΥΣΙΚΗ ΤΟ ΓΡΑΦΕΙΝ ΚΑΙ ΑΝΑΓΙΝΩΣΚΕΙΝ ΟΥ ΠΕΡΙΠΟΙΕΙ",
+      "scorer": "Δ Η ΜΟΥΣΙΚΗ ΤΟ ΓΡΑΦΕΙΝ ΚΑΙ ΑΝΑΓΙΝΩΣΚΕΙΝ ΟΥ ΠΕΡΙΠΟΙΕΙ",
       "edge_partial": [
        false,
        false
       ]
      },
      {
-      "line": "τὴν πολειτικὴν καὶ τὴν ἔμπρακτον ῥητορικήν, οὐκ, εἰ",
-      "editor": "ΤΗΝ ΠΟΛΕΙΤΙΚΗΝ ΚΑΙ ΤΗΝ ΕΜΠΡΑΚΤΟΝ ΡΗΤΟΡΙΚΗΝ ΟΥΚ ΕΙ",
-      "scorer": "ΤΗΝ ΠΟΛΕΙ ΤΙΚΗΝ ΚΑΙ ΤΗΝ ΕΜΠΡΑΚΤΟΝ ΡΗΤΟΡΙΚΗΝ ΟΥΚ ΕΙ",
+      "line": "μενοι πολλοὶ τὸ μὴ διὰ τῆς σοφιστικῆς αὐτὴν περιγείνεσθαι",
+      "editor": "ΜΕΝΟΙ ΠΟΛΛΟΙ ΤΟ ΜΗ ΔΙΑ ΤΗΣ ΣΟΦΙΣΤΙΚΗΣ ΑΥΤΗΝ ΠΕΡΙΓΕΙΝΕΣΘΑΙ",
+      "scorer": "ΜΕΝ ΟΙ ΠΟΛΛΟΙ ΤΟ ΜΗ ΔΙΑ ΤΗΣ ΣΟΦΙΣΤΙΚΗΣ ΑΥΤΗΝ ΠΕΡΙΓΙΝΕΣΘΑΙ",
+      "edge_partial": [
+       false,
+       false
+      ]
+     },
+     {
+      "line": "ἀλλά οὔτε πρὸς ὄνηα τὴν προσκαρτέρησιν ποιεῖσθαι",
+      "editor": "ΑΛΛΑ ΟΥΤΕ ΠΡΟΣ ΟΝΗΑ ΤΗΝ ΠΡΟΣΚΑΡΤΕΡΗΣΙΝ ΠΟΙΕΙΣΘΑΙ",
+      "scorer": "ΑΛΛΑ ΟΥΤΕ ΠΡΟΣ ΟΝΗΛΑΤΗΝ ΠΡΟΣΚΑΡΤΕΡΗ ΣΙΝ ΠΟΙΕΙΣΘΑΙ",
+      "edge_partial": [
+       false,
+       false
+      ]
+     },
+     {
+      "line": "οὐκ εἶναι τέχνην διλήφασι καὶ τούτου συστικοὺς",
+      "editor": "ΟΥΚ ΕΙΝΑΙ ΤΕΧΝΗΝ ΔΙΛΗΦΑΣΙ ΚΑΙ ΤΟΥΤΟΥ ΣΥΣΤΙΚΟΥΣ",
+      "scorer": "ΟΥΚ ΕΙΝΑΙ ΤΕΧΝΗΝ Δ ΕΙΛΗΦΑΣΙ ΚΑΙ ΤΟΥ ΤΟΥΣ ΜΥΣΤΙΚΟΥΣ",
+      "edge_partial": [
+       false,
+       false
+      ]
+     },
+     {
+      "line": "ἔτι δέ Ἕρμαρος ἀποφαίνονται τέχνην πάρχειν",
+      "editor": "ΕΤΙ ΔΕ ΕΡΜΑΡΟΣ ΑΠΟΦΑΙΝΟΝΤΑΙ ΤΕΧΝΗΝ ΠΑΡΧΕΙΝ",
+      "scorer": "ΕΤΙ ΔΕ ΕΡΜΑ ΠΡΟΣ ΑΠΟΦΑΙΝΟΝΤΑΙ ΤΕΧΝΗΝ ΥΠΑΡΧΕΙΝ",
+      "edge_partial": [
+       false,
+       false
+      ]
+     },
+     {
+      "line": "τὴν τοιαύτην, ὡς ἐνιοῖς ἑξῆς ὑπομνήσομεν, τούτοις",
+      "editor": "ΤΗΝ ΤΟΙΑΥΤΗΝ ΩΣ ΕΝΙΟΙΣ ΕΞΗΣ ΥΠΟΜΝΗΣΟΜΕΝ ΤΟΥΤΟΙΣ",
+      "scorer": "ΤΗΝ ΤΟΙΑΥΤΗΝ ΩΣ ΕΝ ΤΟΙΣ ΕΞΗΣ ΥΠΟΜΝΗΣΟΜΕΝ ΤΟΥΤΟΙΣ",
+      "edge_partial": [
+       false,
+       false
+      ]
+     },
+     {
+      "line": "ἀντιγράφοντες οὐ πνυ τι μακρὰν τῆς τῶν ποτραλοιῶν",
+      "editor": "ΑΝΤΙΓΡΑΦΟΝΤΕΣ ΟΥ ΠΝΥ ΤΙ ΜΑΚΡΑΝ ΤΗΣ ΤΩΝ ΠΟΤΡΑΛΟΙΩΝ",
+      "scorer": "ΑΝΤΙ ΓΡΑΦΟΝΤΕΣ ΟΥ ΠΑΝΥ ΤΙ ΜΑΚΡΑΝ ΤΗΣ ΤΩΝ ΠΕΤΡΑ Λ ΟΙΩΝ",
       "edge_partial": [
        false,
        false
@@ -599,11 +657,76 @@
      }
     ]
    },
+   "split_words_joined": 21,
+   "flags_unattested_attested_stem": 123,
+   "flags_alternative_is_spelling": 1,
+   "spellings_accepted": 62,
+   "spellings_rejected": 20,
+   "spelling_profile": [
+    {
+     "label": "Ι written ΕΙ before a consonant",
+     "words": 29
+    },
+    {
+     "label": "Γ written Ν before a consonant",
+     "words": 13
+    },
+    {
+     "label": "Μ written Ν before a consonant",
+     "words": 6
+    },
+    {
+     "label": "ΟΙ written Ο before a vowel",
+     "words": 5
+    },
+    {
+     "label": "Κ written Γ before a consonant",
+     "words": 4
+    },
+    {
+     "label": "Ω written Ο before a consonant",
+     "words": 3
+    },
+    {
+     "label": "ΕΙ written Η before a vowel",
+     "words": 1
+    },
+    {
+     "label": "ΡΡ written Ρ before a vowel",
+     "words": 1
+    }
+   ],
+   "habits": [
+    {
+     "rule": 12,
+     "label": "Γ written Ν before a consonant",
+     "uses": 13,
+     "opportunities": 180,
+     "corpus_rate": 0.011917,
+     "text_rate": 0.0662
+    },
+    {
+     "rule": 30,
+     "label": "Μ written Ν before a consonant",
+     "uses": 6,
+     "opportunities": 119,
+     "corpus_rate": 0.006131,
+     "text_rate": 0.044
+    },
+    {
+     "rule": 47,
+     "label": "Κ written Γ before a consonant",
+     "uses": 4,
+     "opportunities": 122,
+     "corpus_rate": 0.002462,
+     "text_rate": 0.0285
+    }
+   ],
    "flag_rate_by_class": {
     "read": {
-     "words": 9204,
-     "flagged": 326,
-     "rate": 0.0354
+     "words": 9340,
+     "flagged": 289,
+     "rate": 0.0309
     },
     "partly_restored": {
      "words": 0,

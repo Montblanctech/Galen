@@ -1,0 +1,298 @@
+{
+ "source": "papyri.info DDbDP + DCLP test documents (1 in 10 by a seeded hash), not used to learn the rules",
+ "n_rules": 253,
+ "words": {
+  "pairs": 9775,
+  "written_attested_skipped": 3396,
+  "regularized_not_in_counts": 2196,
+  "asked": 4183,
+  "best_is_regularized_spelling": 0.5582,
+  "best_is_regularized_htr_only": 0.23,
+  "accepted_as_spelling": 0.3952,
+  "regularized_reachable_by_one_rule": 0.4961,
+  "by_kind": {
+   "vowel": {
+    "pairs": 2799,
+    "best_is_regularized": 0.7228
+   },
+   "two or more changes": {
+    "pairs": 552,
+    "best_is_regularized": 0.0072
+   },
+   "not a spelling rule": {
+    "pairs": 282,
+    "best_is_regularized": 0.156
+   },
+   "consonant": {
+    "pairs": 220,
+    "best_is_regularized": 0.7636
+   },
+   "not alignable": {
+    "pairs": 174,
+    "best_is_regularized": 0.0
+   },
+   "double consonant": {
+    "pairs": 98,
+    "best_is_regularized": 0.6735
+   },
+   "nasal before consonant": {
+    "pairs": 29,
+    "best_is_regularized": 0.7586
+   },
+   "final nu": {
+    "pairs": 28,
+    "best_is_regularized": 0.25
+   },
+   "double letter": {
+    "pairs": 1,
+    "best_is_regularized": 1.0
+   }
+  },
+  "misses_sample": [
+   {
+    "written": "ΛΑΜΠΡΕΙΝΕΤΑΙ",
+    "regularized": "ΛΑΜΠΡΥΝΕΤΑΙ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΓΕΩΡΓΙΩΙ",
+    "regularized": "ΓΕΩΡΓΙΟΥ",
+    "best": "ΓΕΩΡΓΙΩ",
+    "best_edit": "var:10"
+   },
+   {
+    "written": "ΣΥΝΕΙΩΝ",
+    "regularized": "ΣΥΝΙΩΝ",
+    "best": "ΣΥΝΕΤΩΝ",
+    "best_edit": "sub1"
+   },
+   {
+    "written": "ΠΛΥΟΝ",
+    "regularized": "ΠΛΟΙΟΝ",
+    "best": "ΠΛΥΝΟΝ",
+    "best_edit": "lost:Ν@3"
+   },
+   {
+    "written": "ΕΣΤΕΣΕ",
+    "regularized": "ΕΣΤΑΙ",
+    "best": "ΕΣΤΗΣΕ",
+    "best_edit": "var:25"
+   },
+   {
+    "written": "ΕΡΜΟΥΣ",
+    "regularized": "ΕΡΜΟΥ",
+    "best": "ΕΡΗΜΟΥΣ",
+    "best_edit": "lost:Η@2"
+   },
+   {
+    "written": "ΖΙΝΚΙΒΕΡΕΩΣ",
+    "regularized": "ΖΙΓΓΙΒΕΡΕΩΣ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΖΙΝΚΙΒΕΡΕΩΣ",
+    "regularized": "ΖΙΓΓΙΒΕΡΕΩΣ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΜΕΤΑΒΑΛΛΕΤΕ",
+    "regularized": "ΜΕΤΑΒΑΛΛΕΤΑΙ",
+    "best": "ΜΕΤΑΒΑΛΛΕΙΣ",
+    "best_edit": "sub2"
+   },
+   {
+    "written": "ΑΙΨΕΙΣ",
+    "regularized": "ΕΨΕΙΣ",
+    "best": "ΘΛΙΨΕΙΣ",
+    "best_edit": "lost:Θ@0+sub1"
+   },
+   {
+    "written": "ΛΙΟΝΥΠΟΣ",
+    "regularized": "ΔΙΟΝΥΣΙΟΣ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΠΥΘΩΙ",
+    "regularized": "ΠΥΘΟΙ",
+    "best": "ΠΥΘΩ",
+    "best_edit": "var:10"
+   },
+   {
+    "written": "ΦΩΣΑΣ",
+    "regularized": "ΦΩΞΑΣ",
+    "best": "ΦΩΚΕΑΣ",
+    "best_edit": "lost:Κ@2+sub1"
+   },
+   {
+    "written": "ΡΩΙΣΤΙΚΟΥ",
+    "regularized": "ΡΩΜΑΙΚΟΥ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΚΑΝΘΕΥΘΕΝ",
+    "regularized": "ΚΑΝΤΕΥΘΕΝ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΠΕΣΙΝ",
+    "regularized": "ΠΑΙΣΙΝ",
+    "best": "ΠΟΣΙΝ",
+    "best_edit": "sub1"
+   },
+   {
+    "written": "ΤΟΥΤΟΝΕΙ",
+    "regularized": "ΤΟΥΤΟΝΙ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΟΥΤΟΣΕΙ",
+    "regularized": "ΟΥΤΩΣΙ",
+    "best": "ΕΥΤΕΛΕΣΙ",
+    "best_edit": "lost:Λ@4+sub4"
+   },
+   {
+    "written": "ΤΡΟΙΣΟΝ",
+    "regularized": "ΤΡΟΠΟΝ",
+    "best": "ΤΡΟΤΕΡΟΝ",
+    "best_edit": "lost:Ρ@5+sub2"
+   },
+   {
+    "written": "ΠΝΝΑΤΑΙ",
+    "regularized": "ΓΕΝΝΑΤΑΙ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΣΥΝΛΑΒΩΝ",
+    "regularized": "ΣΥΛΛΑΒΩΝ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΠΟΛΤΓΙΚΑ",
+    "regularized": "ΠΟΛΙΤΙΚΑ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΓΡΑΛΙΜΑΤΙΚΗΝ",
+    "regularized": "ΓΡΑΜΜΑΤΙΚΗΝ",
+    "best": null,
+    "best_edit": null
+   },
+   {
+    "written": "ΧΡΙΟΙ",
+    "regularized": "ΧΡΕΙΟΙ",
+    "best": "ΧΡΙΕΙ",
+    "best_edit": "sub1"
+   },
+   {
+    "written": "ΤΕΛΕΙΕΣΣΑΣ",
+    "regularized": "ΤΕΛΗΕΣΣΑΣ",
+    "best": null,
+    "best_edit": null
+   }
+  ]
+ },
+ "slips": {
+  "slips": 545,
+  "unattested_as_written": 89,
+  "excused_as_spelling": 11,
+  "excused_share_of_unattested": 0.1236,
+  "excused_sample": [
+   {
+    "written": "ΜΕΛΛΩΝΤΩΝ",
+    "editor": "ΜΕΛΛΟΝΤΩΝ",
+    "read_as": "ΜΕΛΛΟΝΤΩΝ",
+    "rule": "Ο written Ω before a consonant"
+   },
+   {
+    "written": "ΓΕΛΟ",
+    "editor": "ΤΕΛΕ",
+    "read_as": "ΓΕΛΩ",
+    "rule": "Ω written Ο at the word end"
+   },
+   {
+    "written": "ΚΡΑΦΟ",
+    "editor": "ΓΡΑΦΟ",
+    "read_as": "ΓΡΑΦΟ",
+    "rule": "Γ written Κ before a consonant"
+   },
+   {
+    "written": "ΚΟΡΥΒΟΝ",
+    "editor": "ΚΟΡΟΙΒΟΝ",
+    "read_as": "ΚΟΡΟΙΒΟΝ",
+    "rule": "ΟΙ written Υ before a consonant"
+   },
+   {
+    "written": "ΤΡΑΦΗΙ",
+    "editor": "ΕΤΡΑΦΗ",
+    "read_as": "ΤΡΑΦΗ",
+    "rule": "Η written ΗΙ at the word end"
+   },
+   {
+    "written": "ΩΝΟΜΑΣΘΗΙ",
+    "editor": "ΩΝΟΜΑΣΘΗ",
+    "read_as": "ΩΝΟΜΑΣΘΗ",
+    "rule": "Η written ΗΙ at the word end"
+   },
+   {
+    "written": "ΚΙΝΤΥΝΩ",
+    "editor": "ΚΙΝΔΥΝΩ",
+    "read_as": "ΚΙΝΔΥΝΩ",
+    "rule": "Δ written Τ before a vowel"
+   },
+   {
+    "written": "ΕΠΕΙΔΕΙΞΕΙ",
+    "editor": "ΕΠΙΔΕΙΞΕΙ",
+    "read_as": "ΕΠΙΔΕΙΞΕΙ",
+    "rule": "Ι written ΕΙ before a consonant"
+   },
+   {
+    "written": "ΚΑΘΟΣΙΩΜΕΝΟΥΣ",
+    "editor": "ΚΑΘΩΣΙΩΜΕΝΟΥΣ",
+    "read_as": "ΚΑΘΩΣΙΩΜΕΝΟΥΣ",
+    "rule": "Ω written Ο before a consonant"
+   },
+   {
+    "written": "ΚΙΝΤΥΝΟΝ",
+    "editor": "ΚΙΝΔΥΝΟΝ",
+    "read_as": "ΚΙΝΔΥΝΟΝ",
+    "rule": "Δ written Τ before a vowel"
+   },
+   {
+    "written": "ΟΦΙΛΟΝΤΑ",
+    "editor": "ΟΦΕΙΛΟΝΤΑ",
+    "read_as": "ΟΦΕΙΛΟΝΤΑ",
+    "rule": "ΕΙ written Ι before a consonant"
+   }
+  ]
+ },
+ "lines": {
+  "without spelling rules": {
+   "windows": 600,
+   "boundary_P": 0.7089,
+   "boundary_R": 0.9317,
+   "boundary_F1": 0.8052,
+   "misspelled_words": 703,
+   "read_as_regularized": 0.1024,
+   "seconds": 23.2
+  },
+  "with spelling rules": {
+   "windows": 600,
+   "boundary_P": 0.7508,
+   "boundary_R": 0.9363,
+   "boundary_F1": 0.8333,
+   "misspelled_words": 703,
+   "read_as_regularized": 0.2432,
+   "seconds": 31.6
+  }
+ }
+}

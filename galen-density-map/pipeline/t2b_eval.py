@@ -207,6 +207,8 @@ def systems(root: Path, which: list[str], min_count: int):
             out[name] = T.Segmenter(T.Lexicon(base, min_count=min_count, channel=False)).segment
         elif name == "bigram":
             out[name] = T.Segmenter(T.Lexicon(base, min_count=min_count)).segment
+        elif name == "bigram_spelling":
+            out[name] = T.Segmenter(T.Lexicon(base, min_count=min_count, spelling=T.load_spelling())).segment
     return out
 
 

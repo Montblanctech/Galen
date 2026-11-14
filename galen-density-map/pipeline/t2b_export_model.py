@@ -237,8 +237,8 @@ def load_lines(split: str) -> list[dict]:
     return [json.loads(x) for x in path.read_text(encoding="utf-8").splitlines() if x.strip()]
 
 
-def run_eval(counts: T.Counts, lines: list[dict], levels=("clean", "light", "heavy")) -> dict:
-    seg = T.Segmenter(T.Lexicon(counts, min_count=T.MIN_COUNT))
+def run_eval(counts: T.Counts, lines: list[dict], levels=("clean", "light", "heavy"), spelling: bool = False) -> dict:
+    seg = T.Segmenter(T.Lexicon(counts, min_count=T.MIN_COUNT, spelling=T.load_spelling() if spelling else None))
     out = {}
     for lv in levels:
         r = E.evaluate(lines, lv, seg.segment)
@@ -299,6 +299,7 @@ def main(argv=None):
     co = sub.add_parser("compare")
     co.add_argument("--split", default="test")
     co.add_argument("--model", default=str(MODEL))
+    co.add_argument("--spelling", action="store_true", help="both sides with the spelling rules")
     a = ap.parse_args(argv)
     t0 = time.time()
     full = T.load_counts(Path(a.counts))
@@ -340,14 +341,20 @@ def main(argv=None):
         lines = load_lines(a.split)
         p = read_model(Path(a.model))
         size = Path(a.model).stat().st_size
-        rf = run_eval(full, lines)
-        rp = run_eval(p, lines)
+        rf = run_eval(full, lines, spelling=a.spelling)
+        rp = run_eval(p, lines, spelling=a.spelling)
+        suffix = "_spelling" if a.spelling else ""
         rows = [HEAD] + fmt_row("full counts.npz", None, rf) + fmt_row(
             f"model.bin (bigram >= {p.meta['bigram_min']})", size, rp)
-        (out_dir / f"prune_compare_{a.split}.json").write_text(json.dumps(
-            {"model": str(a.model), "size": size, "meta": p.meta, "full": rf, "pruned": rp}, indent=1),
-            encoding="utf-8")
-        (out_dir / f"prune_compare_{a.split}.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
+        model_rel = Path(a.model).resolve()
+        try:
+            model_rel = model_rel.relative_to(T.PROJECT.parent)
+        except ValueError:
+            pass
+        (out_dir / f"prune_compare_{a.split}{suffix}.json").write_text(json.dumps(
+            {"model": model_rel.as_posix(), "size": size, "meta": p.meta, "spelling": a.spelling, "full": rf,
+             "pruned": rp}, indent=1), encoding="utf-8")
+        (out_dir / f"prune_compare_{a.split}{suffix}.md").write_text("\n".join(rows) + "\n", encoding="utf-8")
         print("\n".join(rows))
 
 

@@ -5,6 +5,14 @@ dated on release and each gets a Zenodo DOI.
 
 ## [Unreleased]
 
+### Added
+- **Ancient spellings in the autocorrect and the flagger** (`pipeline/t2b_spelling_data.py`, `t2b_spelling.py`, `t2b_spelling_eval.py`; rules in `outputs/t2b/spelling_rules.json`; built into `t2b-wasm`): scribes spelled by ear (ει for ι, ο for ω, ν for γ before κ, ο for οι before a vowel), and a word spelled that way is not an error. 253 spelling rules and their rates were learned from the regularizations the editors of papyri.info (DDbDP and DCLP, CC BY 3.0) recorded beside what the scribe wrote: 87,605 word pairs from the train documents, only sound changes kept (grammar and abbreviations left out). A word unattested as written that one rule turns into an attested word is kept as written and its usual form and spelling are named; an attested word is read as written; a rule that would change a common ending is not used. On held-out papyri a misspelled word's first reading is the editor's form 56% of the time (23% before), and word division of lines as written rises from 0.805 to 0.833 F1. On the literary test set the change is within one line in 480.
+- **The writer's habits**: a text that uses a spelling far more often than the papyri do (Poisson test at 1 in 1,000) has it accepted as that writer's habit, and the page lists the habits above the lines (Philodemus: ποη- for ποιη- 23 times, 11% against 1.2% in the papyri; assimilated nasals in the *Rhetoric*).
+- Flags say when a proposed correction is also a known spelling of the word, and when an unattested word is a regular ending on an attested stem.
+
+### Fixed
+- **Philodemus flagger**: a full stop after a word was read as a Leiden dot (an unread letter), so 486 words were never checked; words split by a line end or a stray bracket in the digital text are joined (38); a lone letter that is not a word is skipped. With the spelling layer, flags fall from 697 to 624 of 18,592 words, and the probable slips among the 30 strongest double, from 5 to 10, in a non-specialist's reading.
+
 ## [3.5.0] — 2026-11-14
 
 ### Added

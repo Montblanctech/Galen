@@ -1,6 +1,7 @@
 /* T2b autocorrect: JS glue for t2b.wasm (plain C ABI, no wasm-bindgen).
    Strings go in as UTF-8 through t2b_alloc / t2b_free; results come back as JSON at t2b_out_ptr / t2b_out_len.
-   Browser: T2B.load('t2b.wasm', 'model.bin', onProgress) -> Promise<scorer>; scorer.segment(text, k) -> object.
+   Browser: T2B.load('t2b.wasm', 'model.bin', onProgress) -> Promise<scorer>; scorer.segment(text, k) -> object;
+   scorer.segmentText(text, k) -> {lines, habits}.
    Node:    require('./glue.js').create(wasmBytes, modelBytes). */
 (function (root) {
   'use strict';
@@ -27,6 +28,16 @@
     return s;
   };
   Scorer.prototype.segment = function (text, k) { return JSON.parse(this.segmentJSON(text, k)); };
+  /* a whole text (one reading per non-empty line), read with the writer's habits: {lines: [...], habits: [...]} */
+  Scorer.prototype.segmentText = function (text, k) {
+    var b = enc.encode(String(text));
+    var p = this._put(b);
+    var r = this.ex.t2b_segment_text(p, b.length, k || 5);
+    this.ex.t2b_free(p, b.length);
+    var s = this._out();
+    if (r < 0) throw new Error(s);
+    return JSON.parse(s);
+  };
 
   function create(wasmBytes, modelBytes) {
     return WebAssembly.instantiate(wasmBytes, {}).then(function (res) {

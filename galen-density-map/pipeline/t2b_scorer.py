@@ -64,6 +64,8 @@ EPS_DEL = 0.01        # per-letter rate of a lost letter
 DISCOUNT = 0.75       # absolute discount for the bigram LM
 P_UNK = 1e-4          # prior for an unknown segment, then 1/24 per letter
 MIN_COUNT = 2         # a form must be attested at least this often to be proposed
+ENDING_LEN = 3        # spelling rules: the last letters of a word, where an inflection lives
+ENDING_MIN_SHARE = 1e-4  # an ending is common if attested words ending in it make up this share of the tokens
 
 _MARKS = re.compile(r"[̀-ͯ]")
 _NONLETTER = re.compile(r"[^Α-ΩΣ]+")
@@ -299,8 +301,9 @@ LOG_DEL = math.log(EPS_DEL)
 
 class Lexicon:
     def __init__(self, counts: Counts, min_count: int = MIN_COUNT, deletions: bool = True,
-                 channel: bool = True, max_len: int = 24):
+                 channel: bool = True, max_len: int = 24, spelling=None):
         self.c = counts
+        self.spelling = spelling if channel else None   # t2b_spelling.SpellingRules or None
         self.min_count = min_count
         self.channel = channel
         self.max_len = max_len
@@ -319,6 +322,53 @@ class Lexicon:
                 self.by_fold.setdefault(fold(f), []).append(i)
         self.max_len = max((len(f) for f in self.exact), default=1)
         self._cache: dict[str, list] = {}
+        self.endings: dict[str, float] = {}
+        self.sorted_forms: list[str] = []
+        if self.spelling is not None:
+            for f, i in self.exact.items():
+                if len(f) > ENDING_LEN:
+                    self.endings[f[-ENDING_LEN:]] = self.endings.get(f[-ENDING_LEN:], 0.0) + float(counts.uni[i])
+            self.sorted_forms = sorted(self.exact)
+            self.n_tokens_int = int(round(N))
+
+    def common_ending(self, w: str) -> bool:
+        """w's last ENDING_LEN letters end attested words that make up at least ENDING_MIN_SHARE of the tokens
+        (integer test: count * 10_000 >= tokens)."""
+        return len(w) > ENDING_LEN and int(self.endings.get(w[-ENDING_LEN:], 0.0)) * 10_000 >= self.n_tokens_int
+
+    def spelling_rewrites(self, obs: str):
+        """The spelling rewrites of an unattested `obs` that the channel uses: a rewrite that touches the last
+        ENDING_LEN letters is skipped when obs ends in a common ending (it would be another inflection of the word,
+        not another spelling of it)."""
+        gate = self.common_ending(obs)
+        n = len(obs)
+        for reg, k, cost, i, L in self.spelling.rewrites(obs, positions=True):
+            if gate and i + L > n - ENDING_LEN:
+                continue
+            yield reg, k, cost
+
+    def stem_attested(self, w: str, need: int = 3) -> bool:
+        """w (at least 6 letters, ending in a common ending) shares all but its last ENDING_LEN letters with at
+        least `need` attested forms: an unattested form of an attested stem."""
+        if len(w) < 6 or not self.common_ending(w):
+            return False
+        import bisect
+        stem = w[:-ENDING_LEN]
+        j = bisect.bisect_left(self.sorted_forms, stem)
+        n = 0
+        while j < len(self.sorted_forms) and self.sorted_forms[j].startswith(stem):
+            n += 1
+            if n >= need:
+                return True
+            j += 1
+        return False
+
+    def set_spelling_costs(self, costs: list[float] | None) -> None:
+        """Document-adapted rule costs (t2b_spelling.adapt_costs); None restores the corpus costs."""
+        if self.spelling is None:
+            return
+        self.spelling.costs = list(costs) if costs is not None else list(self.spelling.base)
+        self._cache.clear()
 
     def unigram_logp(self, i: int) -> float:
         return math.log(self.c.uni[i]) - self.logN
@@ -357,6 +407,13 @@ class Lexicon:
                         cost += LOG_DEL
                         if i not in out or cost > out[i][0]:
                             out[i] = (cost, f"lost:{form[p]}@{p}" + (f"+sub{n}" if n else ""))
+        if self.spelling is not None and obs not in self.exact:
+            # an ancient spelling: one learned rule, applied backwards, gives an attested regularized form (only
+            # for a form not attested as written: an attested form is read as written)
+            for reg, k, cost in self.spelling_rewrites(obs):
+                i = self.exact.get(reg)
+                if i is not None and (i not in out or cost > out[i][0]):
+                    out[i] = (cost, f"var:{k}")
         ranked = sorted(out.items(), key=lambda kv: -(self.unigram_logp(kv[0]) + kv[1][0]))[:top]
         return [(i, cost, tag) for i, (cost, tag) in ranked]
 
@@ -553,8 +610,13 @@ def cache_path(root: Path | None = None, name: str = "counts") -> Path:
     return PROJECT / "data" / CACHE_DIR_NAME / f"{name}.npz"
 
 
+def load_spelling():
+    import t2b_spelling
+    return t2b_spelling.SpellingRules.load()
+
+
 def load_model(root: Path, dilemma: bool = False, min_count: int = MIN_COUNT, channel: bool = True,
-               bigram: bool = True, log=print) -> Segmenter:
+               bigram: bool = True, log=print, spelling: bool = False) -> Segmenter:
     p = cache_path(root)
     if not p.is_file():
         raise SystemExit(f"no counts cache at {p}; run `t2b_scorer.py build` first")
@@ -565,7 +627,7 @@ def load_model(root: Path, dilemma: bool = False, min_count: int = MIN_COUNT, ch
             raise SystemExit("Dilemma form_profile.db not found (python -m dilemma download --with-attestation)")
         c = add_dilemma(c, db, log=log)
     t0 = time.time()
-    lex = Lexicon(c, min_count=min_count, channel=channel)
+    lex = Lexicon(c, min_count=min_count, channel=channel, spelling=load_spelling() if spelling else None)
     log(f"lexicon: {len(lex.exact):,} forms (count >= {min_count}), "
         f"{time.time() - t0:.0f}s")
     return Segmenter(lex, bigram=bigram)

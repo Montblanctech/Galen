@@ -1,0 +1,4067 @@
+{
+ "source": "papyri.info DDbDP + DCLP regularizations (<choice><reg>/<orig>), CC BY 3.0; train documents",
+ "min_apps": 20,
+ "min_rate": 0.0001,
+ "habit_min": 3,
+ "habit_prior": 20.0,
+ "habit_p": 0.001,
+ "pairs_seen": 87605,
+ "pairs_used": 82455,
+ "reg_words": 3462562,
+ "n_rules": 253,
+ "candidates": 407,
+ "dropped": {
+  "not a spelling (grammar, abbreviation, other)": 107,
+  "rate below MIN_RATE": 47
+ },
+ "by_kind": {
+  "vowel": 176,
+  "consonant": 38,
+  "final nu": 13,
+  "double consonant": 16,
+  "nasal before consonant": 9,
+  "double letter": 1
+ },
+ "rules": [
+  {
+   "reg": "ΕΙ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 8037,
+   "opps": 161601,
+   "rate": 0.049734,
+   "cost": -3.0011,
+   "examples": [
+    "ΕΚΙΝΟΥ for ΕΚΕΙΝΟΥ",
+    "ΠΕΣΙΝ for ΠΕΣΕΙΝ",
+    "ΜΙΡΑΚΙΟΝΤΥΧΗΝ for ΜΕΙΡΑΚΙΟΝΤΥΧΗΝ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΕΙ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 5939,
+   "opps": 788124,
+   "rate": 0.007536,
+   "cost": -4.8881,
+   "examples": [
+    "ΗΜΕΙΝ for ΗΜΙΝ",
+    "ΓΕΙΝΟΜΕΝΗ for ΓΙΝΟΜΕΝΗ",
+    "ΕΠΕΙΚΑΛΕΣΕΤΑΙ for ΕΠΙΚΑΛΕΣΕΤΑΙ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 3896,
+   "opps": 575687,
+   "rate": 0.006768,
+   "cost": -4.9956,
+   "examples": [
+    "ΤΟΝ for ΤΩΝ",
+    "ΗΒΟΝΤΩΝ for ΗΒΩΝΤΩΝ",
+    "ΕΝΔΟΞΟΝ for ΕΝΔΟΞΩΝ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Ω",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 3418,
+   "opps": 1067658,
+   "rate": 0.003201,
+   "cost": -5.7442,
+   "examples": [
+    "ΑΙΓΩΚΑΙΡΩ for ΑΙΓΟΚΕΡΩ",
+    "ΣΩΤΗΡΙΩΝ for ΣΩΤΗΡΙΟΝ",
+    "ΤΩΝ for ΤΟΝ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Ι",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 2691,
+   "opps": 39057,
+   "rate": 0.068899,
+   "cost": -2.6751,
+   "examples": [
+    "ΙΠΠΟΚΡΑΤΙΟΥ for ΙΠΠΟΚΡΑΤΕΙΟΥ",
+    "ΑΛΗΘΙΑ for ΑΛΗΘΕΙΑ",
+    "ΕΡΜΙΑΣ for ΕΡΜΕΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 2680,
+   "opps": 43274,
+   "rate": 0.061931,
+   "cost": -2.7817,
+   "examples": [
+    "ΩΣΙ for ΩΣΕΙ",
+    "ΕΧΙ for ΕΧΕΙ",
+    "ΣΟΣΙ for ΣΩΣΕΙ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΕΙ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 2082,
+   "opps": 518586,
+   "rate": 0.004015,
+   "cost": -5.5178,
+   "examples": [
+    "ΛΕΙΑΣΘΕΙΣ for ΛΙΑΣΘΕΙΣ",
+    "ΜΕΛΑΝΘΕΙΟΥ for ΜΕΛΑΝΘΙΟΥ",
+    "ΕΠΙΧΡΕΙΕ for ΕΠΙΧΡΙΕ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Ε",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 1582,
+   "opps": 321782,
+   "rate": 0.004916,
+   "cost": -5.3152,
+   "examples": [
+    "ΚΑΤΑΒΗΣΕΤΕ for ΚΑΤΑΒΗΣΕΤΑΙ",
+    "ΡΑΦΕ for ΡΑΦΑΙ",
+    "ΚΕ for ΚΑΙ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Ι",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 1260,
+   "opps": 49070,
+   "rate": 0.025678,
+   "cost": -3.6621,
+   "examples": [
+    "ΙΣΤΗΚΕΙ for ΕΙΣΤΗΚΕΙ",
+    "ΙΣ for ΕΙΣ",
+    "ΙΔΩΛΟΝ for ΕΙΔΩΛΩΝ"
+   ]
+  },
+  {
+   "reg": "ΙΟ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 1241,
+   "opps": 97572,
+   "rate": 0.012719,
+   "cost": -4.3647,
+   "examples": [
+    "ΗΛΙΣ for ΗΛΙΟΣ",
+    "ΦΑΚΑΡΙΝ for ΦΑΚΙΑΡΙΟΝ",
+    "ΘΩΡΩΚΟΠΟΙΣ for ΘΩΡΑΚΟΠΟΙΟΣ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΩΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 1131,
+   "opps": 108181,
+   "rate": 0.010455,
+   "cost": -4.5607,
+   "examples": [
+    "ΕΛΠΙΖΩΙ for ΕΛΠΙΖΩ",
+    "ΓΡΑΨΩΙ for ΓΡΑΨΩ",
+    "ΑΥΤΩΙ for ΑΥΤΩ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 996,
+   "opps": 1406079,
+   "rate": 0.000708,
+   "cost": -7.2526,
+   "examples": [
+    "ΑΝΕΒΕΒΡΩΜΕΝΑ for ΑΝΑΒΕΒΡΩΜΕΝΑ",
+    "ΤΕΣΣΕΡΑΚΟΝΤΑΕΤΗΣ for ΤΕΣΣΑΡΑΚΟΝΤΑΕΤΗΣ",
+    "ΕΦΕΤ for ΕΦΑΤ"
+   ]
+  },
+  {
+   "reg": "Γ",
+   "orig": "Ν",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 954,
+   "opps": 80052,
+   "rate": 0.011917,
+   "cost": -4.4298,
+   "examples": [
+    "ΣΥΝΓΡΑΦΕΥΣ for ΣΥΓΓΡΑΦΕΥΣ",
+    "ΑΝΑΝΚΑΖΟΜΕΝΟΣ for ΑΝΑΓΚΑΖΟΜΕΝΟΣ",
+    "ΑΝΓΕΙΛΕΙΕΝ for ΑΓΓΕΙΛΕΙΕΝ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΕΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 912,
+   "opps": 570735,
+   "rate": 0.001598,
+   "cost": -6.439,
+   "examples": [
+    "ΤΕΙ for ΤΙ",
+    "ΕΠΕΙ for ΕΠΙ",
+    "ΣΚΩΛΗΚΕΙ for ΣΚΩΛΗΚΙ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΟΥ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 807,
+   "opps": 108181,
+   "rate": 0.00746,
+   "cost": -4.8982,
+   "examples": [
+    "ΤΟΥ for ΤΩ",
+    "ΚΡΙΟΥ for ΚΡΙΩ",
+    "ΔΟΚΟΥ for ΤΟΚΩ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΑΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 743,
+   "opps": 86087,
+   "rate": 0.008631,
+   "cost": -4.7524,
+   "examples": [
+    "ΕΓΩΓΑΙ for ΕΓΩΓΕ",
+    "ΘΕΟΤΟΚΑΙ for ΘΕΟΤΟΚΕ",
+    "ΕΜΑΙ for ΕΜΕ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 740,
+   "opps": 66021,
+   "rate": 0.011209,
+   "cost": -4.4911,
+   "examples": [
+    "ΤΟΞΑΣΣΕΤΟ for ΤΟΞΑΣΣΑΙΤΟ",
+    "ΡΕΝΩ for ΡΑΙΝΩ",
+    "ΡΕΝΕΙΣ for ΡΑΙΝΕΙΣ"
+   ]
+  },
+  {
+   "reg": "Ν",
+   "orig": "Μ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 680,
+   "opps": 634964,
+   "rate": 0.001071,
+   "cost": -6.8392,
+   "examples": [
+    "ΕΜ for ΕΝ",
+    "ΝΥΜ for ΝΥΝ",
+    "ΚΕΜ for ΚΕΝ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "Ο",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 671,
+   "opps": 108181,
+   "rate": 0.006203,
+   "cost": -5.0828,
+   "examples": [
+    "ΣΤΗΤΟ for ΣΤΗΤΩ",
+    "ΠΗΛΗΙΑΔΕΟ for ΠΗΛΗΙΑΔΕΩ",
+    "ΔΥΟ for ΔΥΩ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΕΙ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 591,
+   "opps": 37236,
+   "rate": 0.015872,
+   "cost": -4.1432,
+   "examples": [
+    "ΕΙΔΗΣ for ΙΔΗΣ",
+    "ΕΙΘΥ for ΙΘΥ",
+    "ΕΙΔΟΙΣ for ΙΔΟΙΣ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Γ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 582,
+   "opps": 25676,
+   "rate": 0.022667,
+   "cost": -3.7868,
+   "examples": [
+    "ΕΓ for ΕΚ",
+    "ΟΥΓ for ΟΥΚ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 582,
+   "opps": 80875,
+   "rate": 0.007196,
+   "cost": -4.9342,
+   "examples": [
+    "ΚΥΛΙΑΣ for ΚΟΙΛΙΑΣ",
+    "ΠΑΡΥΜΙΩΔΗ for ΠΑΡΟΙΜΙΩΔΗ",
+    "ΑΝΥΓΕ for ΑΝΟΙΓΕ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "ΑΝ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 577,
+   "opps": 290149,
+   "rate": 0.001989,
+   "cost": -6.2203,
+   "examples": [
+    "ΠΟΔΑΝ for ΠΟΔΑ",
+    "ΟΥΔΕΝΑΝ for ΟΥΔΕΝΑ",
+    "ΦΑΡΑΝΓΑΝ for ΦΑΡΑΓΓΑ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Ω",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 577,
+   "opps": 110823,
+   "rate": 0.005207,
+   "cost": -5.2578,
+   "examples": [
+    "ΤΩ for ΤΟ",
+    "ΕΤΙΩΚΕΤΩ for ΕΔΙΩΚΕΤΟ",
+    "ΗΠΩ for ΥΠΟ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Ω",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 562,
+   "opps": 445353,
+   "rate": 0.001262,
+   "cost": -6.6751,
+   "examples": [
+    "ΣΥΜΒΙΩ for ΣΥΜΒΙΟΥ",
+    "ΤΩ for ΤΟΥ",
+    "ΘΕΩ for ΘΕΟΥ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 541,
+   "opps": 544867,
+   "rate": 0.000993,
+   "cost": -6.9149,
+   "examples": [
+    "ΧΑΡΙΣΕΤΑΙ for ΧΑΡΙΣΗΤΑΙ",
+    "ΑΠΕΛΠΙΣΜΕΝΩΝ for ΑΠΗΛΠΙΣΜΕΝΩΝ",
+    "ΚΑΘΕΜΕΝΟΣ for ΚΑΘΗΜΕΝΟΣ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Ε",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 521,
+   "opps": 33134,
+   "rate": 0.015724,
+   "cost": -4.1526,
+   "examples": [
+    "ΑΙΓΕΩΝΑ for ΑΙΓΑΙΩΝΑ",
+    "ΣΥΝΚΕΟΝΤΙ for ΣΥΝΚΑΙΟΝΤΙ",
+    "ΔΙΚΕΟΣΥΝΗΝ for ΔΙΚΑΙΟΣΥΝΗΝ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 499,
+   "opps": 544867,
+   "rate": 0.000916,
+   "cost": -6.9957,
+   "examples": [
+    "ΕΥΛΟΓΙΤΟΣ for ΕΥΛΟΓΗΤΟΣ",
+    "ΥΨΙΛΗΝ for ΥΨΗΛΗΝ",
+    "ΠΑΡΑΚΛΙΤΟΝ for ΠΑΡΑΚΛΗΤΟΝ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΑΙ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 463,
+   "opps": 969763,
+   "rate": 0.000477,
+   "cost": -7.6471,
+   "examples": [
+    "ΑΙΓΩΚΑΙΡΩ for ΑΙΓΟΚΕΡΩ",
+    "ΚΑΙΧΑΡΙΤΟΥΜΕΝΗ for ΚΕΧΑΡΙΤΩΜΕΝΗ",
+    "ΒΑΙΛΤΙΟΝ for ΒΕΛΤΙΟΝ"
+   ]
+  },
+  {
+   "reg": "Δ",
+   "orig": "Τ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 450,
+   "opps": 334315,
+   "rate": 0.001346,
+   "cost": -6.6106,
+   "examples": [
+    "ΟΥΤΕ for ΟΥΔΕ",
+    "ΔΕΚΑΧΟΡΤΩ for ΔΕΚΑΧΟΡΔΩ",
+    "ΙΤΙΟΝ for ΙΔΙΟΝ"
+   ]
+  },
+  {
+   "reg": "Μ",
+   "orig": "Ν",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 418,
+   "opps": 68178,
+   "rate": 0.006131,
+   "cost": -5.0944,
+   "examples": [
+    "ΕΝΦΥΣΑ for ΕΜΦΥΣΑ",
+    "ΣΥΝΠΑΝ for ΣΥΜΠΑΝ",
+    "ΣΥΝΦΥΡΕΙ for ΣΥΜΦΕΡΕΙ"
+   ]
+  },
+  {
+   "reg": "ΜΜ",
+   "orig": "Μ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 366,
+   "opps": 26268,
+   "rate": 0.013933,
+   "cost": -4.2735,
+   "examples": [
+    "ΚΟΜΕΩΣ for ΚΟΜΜΕΩΣ",
+    "ΓΡΑΜΑΙ for ΓΡΑΜΜΑΙ",
+    "ΓΡΑΜΩΝ for ΓΡΑΜΜΩΝ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΗΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 356,
+   "opps": 105079,
+   "rate": 0.003388,
+   "cost": -5.6875,
+   "examples": [
+    "ΗΔΗΙ for ΗΔΗ",
+    "ΑΥΤΗΙ for ΑΥΤΗ",
+    "ΗΡΑΣΘΗΙ for ΗΡΑΣΘΗ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Ο",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 344,
+   "opps": 27684,
+   "rate": 0.012426,
+   "cost": -4.388,
+   "examples": [
+    "ΠΟΗΣΑΣ for ΠΟΙΗΣΑΣ",
+    "ΕΥΒΟΑΝ for ΕΥΒΟΙΑΝ",
+    "ΕΠΟΗΣΑ for ΕΠΟΙΗΣΑ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 335,
+   "opps": 969763,
+   "rate": 0.000345,
+   "cost": -7.9707,
+   "examples": [
+    "ΠΕΝΤΑΝΑΙΑΝ for ΠΕΝΤΕΝΑΙΑΝ",
+    "ΑΝΑΠΕΠΕΙΣΤΟ for ΑΝΕΠΕΠΕΙΣΤΟ",
+    "ΝΙΚΗΣΑΝΤΑΣ for ΝΙΚΗΣΑΝΤΕΣ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Ω",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 325,
+   "opps": 91421,
+   "rate": 0.003555,
+   "cost": -5.6394,
+   "examples": [
+    "ΩΡΕΩΝ for ΟΡΕΩΝ",
+    "ΩΣΩΝ for ΟΣΩΝ",
+    "ΩΡΝΕΟΙΣ for ΟΡΝΕΟΙΣ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 323,
+   "opps": 969763,
+   "rate": 0.000333,
+   "cost": -8.0072,
+   "examples": [
+    "ΔΗΞΙ for ΔΕΞΗ",
+    "ΤΗΤΥΧΗΚΕΝ for ΤΕΤΥΧΗΚΕΝ",
+    "ΥΠΟΔΗΝΝΩ for ΥΠΟΔΕΝΝΩ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "Ο",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 312,
+   "opps": 47021,
+   "rate": 0.006635,
+   "cost": -5.0153,
+   "examples": [
+    "ΟΡΟΣΚΟΠΟΣ for ΩΡΟΣΚΟΠΟΣ",
+    "ΟΛΛΥΝΤΟ for ΩΛΛΥΝΤΟ",
+    "ΟΣΥ for ΩΣΕΙ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 295,
+   "opps": 236097,
+   "rate": 0.001249,
+   "cost": -6.685,
+   "examples": [
+    "ΚΑΤΕΧΟΜΕΝΟΣ for ΚΑΤΕΧΟΜΕΝΟΥΣ",
+    "ΠΡΟΣΟΣΑΝ for ΠΡΟΣΟΥΣΑΝ",
+    "ΠΡΟΣΚΡΟΥΟΣΙΝ for ΠΡΟΣΚΡΟΥΣΟΥΣΙΝ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 292,
+   "opps": 1067658,
+   "rate": 0.000273,
+   "cost": -8.2042,
+   "examples": [
+    "ΕΡΥΚΕΤΑΝ for ΕΡΥΚΕΤΟΝ",
+    "ΕΥΣΥΝΑΠΤΑ for ΕΥΣΥΝΟΠΤΑ",
+    "ΕΚΔΕΙΚΗΣΑΝ for ΕΚΔΙΚΗΣΟΝ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 288,
+   "opps": 1067658,
+   "rate": 0.00027,
+   "cost": -8.218,
+   "examples": [
+    "ΑΝΤΕΠΡΑΤΤΕΝ for ΑΝΤΕΠΡΑΤΤΟΝ",
+    "ΝΗΕΣ for ΝΗΟΣ",
+    "ΑΠΟΒΑΝΤΕΣ for ΑΠΟΒΑΝΤΟΣ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 272,
+   "opps": 788124,
+   "rate": 0.000345,
+   "cost": -7.9716,
+   "examples": [
+    "ΗΜΗΝ for ΗΜΙΝ",
+    "ΠΥΓΗΔΙΑ for ΠΥΓΙΔΙΑ",
+    "ΚΑΘΟΛΗΚΗ for ΚΑΘΟΛΙΚΗΣ"
+   ]
+  },
+  {
+   "reg": "ΡΡ",
+   "orig": "Ρ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 269,
+   "opps": 8637,
+   "rate": 0.031145,
+   "cost": -3.4691,
+   "examples": [
+    "ΕΡΙΨΑΝ for ΕΡΡΙΨΑΝ",
+    "ΧΕΡΟΝΝΗΣΟΥ for ΧΕΡΡΟΝΗΣΟΥ",
+    "ΑΝΑΡΗΞΑΝΤΕ for ΑΝΑΡΡΗΞΑΝΤΕ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Η",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 266,
+   "opps": 39057,
+   "rate": 0.006811,
+   "cost": -4.9893,
+   "examples": [
+    "ΔΑΜΗΕΤΕ for ΔΑΜΕΙΕΤΕ",
+    "ΕΝΔΗΑΝ for ΕΝΔΕΙΑΝ",
+    "ΚΑΤΜΗΑΣ for ΚΑΔΜΕΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΛΛ",
+   "orig": "Λ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 260,
+   "opps": 49118,
+   "rate": 0.005293,
+   "cost": -5.2413,
+   "examples": [
+    "ΑΛΟΙΣ for ΑΛΛΟΙΣ",
+    "ΚΑΛΕΙ for ΚΑΛΛΕΙ",
+    "ΑΛΟΙΩΘΗΣΟΜΕΝΟΙΣ for ΑΛΛΟΙΩΘΗΣΟΜΕΝΟΙΣ"
+   ]
+  },
+  {
+   "reg": "ΣΣ",
+   "orig": "Σ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 256,
+   "opps": 10003,
+   "rate": 0.025592,
+   "cost": -3.6655,
+   "examples": [
+    "ΚΑΤΑΚΛΥΣΕΙ for ΚΑΤΑΚΛΥΣΣΕΙ",
+    "ΟΣΟΙ for ΟΣΣΟΙ",
+    "ΒΕΛΕΣΙ for ΒΕΛΕΣΣΙΝ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "ΟΥ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 249,
+   "opps": 1067658,
+   "rate": 0.000233,
+   "cost": -8.3635,
+   "examples": [
+    "ΚΕΡΔΟΥΣΥΝΗ for ΚΕΡΔΟΣΥΝΗ",
+    "ΒΟΥΛΕΤΑΙ for ΒΟΛΕΤΑΙ",
+    "ΤΟΥΣ for ΤΟΣ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Γ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 241,
+   "opps": 97906,
+   "rate": 0.002462,
+   "cost": -6.007,
+   "examples": [
+    "ΕΓΔΙΚΟΣ for ΕΚΔΙΚΟΣ",
+    "ΕΓΒΗΝΑΙ for ΕΚΒΗΝΑΙ",
+    "ΕΓΛΕΚΤΟΙ for ΕΚΛΕΚΤΟΙ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 235,
+   "opps": 969763,
+   "rate": 0.000242,
+   "cost": -8.3252,
+   "examples": [
+    "ΣΚΟΠΑΣΩ for ΣΚΕΠΑΣΩ",
+    "ΕΦΥΓΟΝ for ΕΦΥΓΕΝ",
+    "ΑΡΟΤ for ΑΡΕΤ"
+   ]
+  },
+  {
+   "reg": "Θ",
+   "orig": "Τ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 234,
+   "opps": 177815,
+   "rate": 0.001316,
+   "cost": -6.6332,
+   "examples": [
+    "ΚΑΤΕΣΤΗΚΕΝ for ΚΑΘΕΣΤΗΚΕΝ",
+    "ΑΝΑΓΝΩΤΙ for ΑΝΑΓΝΩΘΙ",
+    "ΚΑΤΕΣΤΗΚΥΙΑΙ for ΚΑΘΕΣΤΗΚΥΙΑΙ"
+   ]
+  },
+  {
+   "reg": "Τ",
+   "orig": "Δ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 230,
+   "opps": 1268136,
+   "rate": 0.000181,
+   "cost": -8.615,
+   "examples": [
+    "ΣΚΥΔΑΛΙΔΕΣ for ΣΚΥΤΑΛΙΔΕΣ",
+    "ΠΑΔΕΡΑ for ΠΑΤΕΡΑ",
+    "ΑΒΡΟΧΕΙΔΩΝ for ΑΒΡΟΧΙΤΩΝ"
+   ]
+  },
+  {
+   "reg": "ΗΝ",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 228,
+   "opps": 64386,
+   "rate": 0.003541,
+   "cost": -5.6433,
+   "examples": [
+    "ΥΠΗΡΕΤΗ for ΥΠΗΡΕΤΗΝ",
+    "ΕΞΥΓΕΡΘΗ for ΕΞΗΓΕΡΘΗΝ",
+    "ΕΚΑΤΗ for ΕΚΑΤΗΝ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Υ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 224,
+   "opps": 50038,
+   "rate": 0.004477,
+   "cost": -5.4089,
+   "examples": [
+    "ΣΥ for ΣΟΙ",
+    "ΜΥ for ΜΟΙ",
+    "ΑΠΟΔΥ for ΑΠΟΔΟΙ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 216,
+   "opps": 788124,
+   "rate": 0.000274,
+   "cost": -8.2021,
+   "examples": [
+    "ΧΥΤΡΥΔΙΟΝ for ΧΥΤΡΙΔΙΟΝ",
+    "ΣΠΥΡΥΔΙΟΝ for ΣΠΥΡΙΔΙΟΝ",
+    "ΚΥΜΩΛΙΑΣ for ΚΙΜΩΛΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΑΝ",
+   "orig": "Α",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 215,
+   "opps": 46608,
+   "rate": 0.004613,
+   "cost": -5.3789,
+   "examples": [
+    "ΑΧΑΙΑ for ΑΧΑΙΑΝ",
+    "ΝΕΑ for ΝΕΑΝ",
+    "ΔΙΑ for ΔΙΑΝ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Ε",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 204,
+   "opps": 39057,
+   "rate": 0.005223,
+   "cost": -5.2547,
+   "examples": [
+    "ΕΥΘΕΑΙΣ for ΕΥΘΕΙΑΙΣ",
+    "ΑΛΗΘΕΑ for ΑΛΗΘΕΙΑ",
+    "ΛΕΟΤΡΙΒΗΣΑΣ for ΛΕΙΟΤΡΙΒΗΣΑΣ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 203,
+   "opps": 1406079,
+   "rate": 0.000144,
+   "cost": -8.8431,
+   "examples": [
+    "ΡΕΙΝΟΣ for ΡΙΝΑΣ",
+    "ΜΕΤΟΞΥ for ΜΕΤΑΞΥ",
+    "ΜΥΡΙΑΔΟΣ for ΜΥΡΙΑΔΑΣ"
+   ]
+  },
+  {
+   "reg": "Ρ",
+   "orig": "Λ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 202,
+   "opps": 823643,
+   "rate": 0.000245,
+   "cost": -8.3132,
+   "examples": [
+    "ΦΛΟΝΤΙΔΑΣ for ΦΡΟΝΤΙΔΑΣ",
+    "ΠΕΤΛΗΣ for ΠΕΤΡΗΣ",
+    "ΚΛΑΔΗ for ΚΡΑΔΗ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΕΙ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 201,
+   "opps": 544867,
+   "rate": 0.000369,
+   "cost": -7.905,
+   "examples": [
+    "ΑΝΕΙΡΗΚΑΣ for ΑΝΗΡΗΚΑΣ",
+    "ΒΡΑΒΕΙΣ for ΒΡΑΒΗΣ",
+    "ΕΒΕΙΣΑΝ for ΕΒΗΣΑΝ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "ΟΙ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 197,
+   "opps": 644325,
+   "rate": 0.000306,
+   "cost": -8.0928,
+   "examples": [
+    "ΕΠΕΜΟΙΞΑΝ for ΕΠΕΜΥΞΑΝ",
+    "ΧΟΙΔΕΩΝ for ΧΥΔΑΙΩΝ",
+    "ΠΗΧΟΙΣ for ΠΗΧΥΣ"
+   ]
+  },
+  {
+   "reg": "Γ",
+   "orig": "Κ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 185,
+   "opps": 203108,
+   "rate": 0.000911,
+   "cost": -7.0011,
+   "examples": [
+    "ΑΚΗΡΑΤΟΝ for ΑΓΗΡΑΟΝ",
+    "ΟΚΤΑΚΩΝΟΝ for ΟΚΤΑΓΩΝΟΝ",
+    "ΤΕΤΡΑΚΩΝΟΝ for ΤΕΤΡΑΓΩΝΟΝ"
+   ]
+  },
+  {
+   "reg": "Τ",
+   "orig": "Θ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 182,
+   "opps": 21506,
+   "rate": 0.008463,
+   "cost": -4.7721,
+   "examples": [
+    "ΜΕΘ for ΜΕΤ",
+    "ΚΑΘ for ΚΑΤ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 180,
+   "opps": 644325,
+   "rate": 0.000279,
+   "cost": -8.183,
+   "examples": [
+    "ΞΗΛΙΚΟΝ for ΞΥΛΙΚΟΝ",
+    "ΜΑΡΤΗΡΟΝ for ΜΑΡΤΥΡΩΝ",
+    "ΔΗΝΑΜΕΝΟΣ for ΔΥΝΑΜΕΝΟΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 177,
+   "opps": 544867,
+   "rate": 0.000325,
+   "cost": -8.0321,
+   "examples": [
+    "ΤΙΜΙΛΑΝ for ΣΜΙΛΗΝ",
+    "ΤΑΣΔΕ for ΤΗΣΔΕ",
+    "ΤΑΣ for ΤΗΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 176,
+   "opps": 105079,
+   "rate": 0.001675,
+   "cost": -6.392,
+   "examples": [
+    "ΔΗΞΙ for ΔΕΞΗ",
+    "ΑΦΡΟΔΙΤΙ for ΑΦΡΟΔΙΤΗ",
+    "ΠΑΣΙ for ΠΑΣΗ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 175,
+   "opps": 1406079,
+   "rate": 0.000124,
+   "cost": -8.9915,
+   "examples": [
+    "ΠΑΡΗΓΓΕΙΛΑΝΤΕΣ for ΠΑΡΑΓΓΕΙΛΑΝΤΕΣ",
+    "ΑΝΔΡΟΚΛΕΙΔΗΝ for ΑΝΔΡΟΚΛΕΙΔΑΝ",
+    "ΔΙΗΓΗΣΕΙ for ΔΙΑΓΗΣΕΙ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "Η",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 170,
+   "opps": 60098,
+   "rate": 0.002829,
+   "cost": -5.8679,
+   "examples": [
+    "ΗΜΩΝ for ΥΜΩΝ",
+    "ΗΠΟ for ΥΠΟ",
+    "ΗΠΩ for ΥΠΟ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Ο",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 165,
+   "opps": 445353,
+   "rate": 0.00037,
+   "cost": -7.9007,
+   "examples": [
+    "ΤΟ for ΤΟΥ",
+    "ΟΚΕΑΝΟ for ΩΚΕΑΝΟΥ",
+    "ΤΟΥΤΟ for ΤΟΥΤΟΥ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 164,
+   "opps": 644325,
+   "rate": 0.000255,
+   "cost": -8.2761,
+   "examples": [
+    "ΨΙΜΙΘΙΟΥ for ΨΙΜΥΘΙΟΥ",
+    "ΒΑΣΙΛΕΙΣ for ΒΑΣΙΛΕΥΣ",
+    "ΕΦΙΓΕΝ for ΕΦΥΓΕΝ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 162,
+   "opps": 161601,
+   "rate": 0.001002,
+   "cost": -6.9053,
+   "examples": [
+    "ΑΠΕΣΤΕΛΕΝ for ΑΠΕΣΤΕΙΛΕΝ",
+    "ΚΕΤΑΙ for ΚΕΙΤΑΙ",
+    "ΚΕΤΑΙΤΗΣ for ΚΕΙΤΑΙΤΗΣ"
+   ]
+  },
+  {
+   "reg": "Ν",
+   "orig": "Γ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 162,
+   "opps": 634964,
+   "rate": 0.000255,
+   "cost": -8.2737,
+   "examples": [
+    "ΕΓ for ΕΝ",
+    "ΠΟΛΛΩΓ for ΠΟΛΛΩΝ",
+    "ΜΕΓ for ΜΕΝ"
+   ]
+  },
+  {
+   "reg": "Δ",
+   "orig": "Τ",
+   "right": "V",
+   "start": true,
+   "kind": "consonant",
+   "apps": 161,
+   "opps": 168667,
+   "rate": 0.000955,
+   "cost": -6.9543,
+   "examples": [
+    "ΤΙΑ for ΔΙΑ",
+    "ΤΙΩΚΟΜΕΝΟΣ for ΔΙΩΚΟΜΕΝΟΣ",
+    "ΤΕΝΔΡΩΝ for ΔΕΝΔΡΟΝ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΗΝ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 158,
+   "opps": 105079,
+   "rate": 0.001504,
+   "cost": -6.4999,
+   "examples": [
+    "ΤΗΝ for ΤΗ",
+    "ΚΝΙΣΗΝ for ΚΝΙΣΗ",
+    "ΜΗΝ for ΜΗ"
+   ]
+  },
+  {
+   "reg": "Τ",
+   "orig": "Δ",
+   "right": "V",
+   "start": true,
+   "kind": "consonant",
+   "apps": 153,
+   "opps": 428603,
+   "rate": 0.000357,
+   "cost": -7.9378,
+   "examples": [
+    "ΔΕΚΟΥΣΗΣ for ΤΕΚΟΥΣΗΣ",
+    "ΔΕ for ΤΕ",
+    "ΔΟΚΟΥ for ΤΟΚΟΥ"
+   ]
+  },
+  {
+   "reg": "ΑΥ",
+   "orig": "Α",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 152,
+   "opps": 76055,
+   "rate": 0.001999,
+   "cost": -6.2153,
+   "examples": [
+    "ΑΤΑΡΟΔΥΣΣΕΥΣ for ΑΥΤΑΡΟΔΥΣΣΕΥΣ",
+    "ΑΓΟΥΣΤΩΝ for ΑΥΓΟΥΣΤΩΝ",
+    "ΑΓΟΥΣΤΟΥ for ΑΥΓΟΥΣΤΟΥ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 149,
+   "opps": 544867,
+   "rate": 0.000273,
+   "cost": -8.2044,
+   "examples": [
+    "ΠΛΥΘΝΘΗΣΟΝΤΑΙ for ΠΛΗΘΥΝΘΗΣΟΝΤΑΙ",
+    "ΕΥΘΥΣ for ΕΥΘΗΣ",
+    "ΕΞΥΓΕΡΘΗ for ΕΞΗΓΕΡΘΗΝ"
+   ]
+  },
+  {
+   "reg": "Ν",
+   "orig": "ΝΝ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 146,
+   "opps": 559935,
+   "rate": 0.000261,
+   "cost": -8.252,
+   "examples": [
+    "ΑΝΝΕΙΛΕΝ for ΑΝΕΙΛΕΝ",
+    "ΧΕΡΟΝΝΗΣΟΥ for ΧΕΡΡΟΝΗΣΟΥ",
+    "ΓΕΝΝΗΜΑΤΟΣ for ΓΕΝΗΜΑΤΟΣ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 145,
+   "opps": 788124,
+   "rate": 0.000184,
+   "cost": -8.6007,
+   "examples": [
+    "ΕΥΡΕΙΠΕΔΗΣ for ΕΥΡΙΠΙΔΗΣ",
+    "ΣΕΚΑΝΙΗΝ for ΣΙΚΑΝΙΗΝ",
+    "ΕΤΕΛΕΕΤΟ for ΕΤΕΛΕΙΤΟ"
+   ]
+  },
+  {
+   "reg": "ΕΩ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 144,
+   "opps": 64800,
+   "rate": 0.002222,
+   "cost": -6.1092,
+   "examples": [
+    "ΕΣΟΥΡΙΣ for ΕΣΟΥΡΕΩΣ",
+    "ΤΑΝΟΥΦΙΣ for ΤΑΝΟΥΦΕΩΣ",
+    "ΕΠΙΤΗΡΗΣΙΣ for ΕΠΙΤΗΡΗΣΕΩΣ"
+   ]
+  },
+  {
+   "reg": "ΡΙ",
+   "orig": "Ρ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 144,
+   "opps": 78310,
+   "rate": 0.001839,
+   "cost": -6.2986,
+   "examples": [
+    "ΜΟΡΟΝ for ΜΟΡΙΟΝ",
+    "ΔΗΜΗΤΡΟΣ for ΔΗΜΗΤΡΙΟΣ",
+    "ΟΛΟΚΛΗΡΑΣ for ΟΛΟΚΛΗΡΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΑΥ",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 142,
+   "opps": 107526,
+   "rate": 0.001321,
+   "cost": -6.6297,
+   "examples": [
+    "ΕΜΑΤΟΝ for ΕΜΑΥΤΟΝ",
+    "ΕΜΑΤΟΥ for ΕΜΑΥΤΟΥ",
+    "ΣΑΤΟΥ for ΣΕΑΥΤΟΥ"
+   ]
+  },
+  {
+   "reg": "Σ",
+   "orig": "ΣΣ",
+   "right": "C",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 142,
+   "opps": 232758,
+   "rate": 0.00061,
+   "cost": -7.4019,
+   "examples": [
+    "ΕΛΕΣΣΘΑΙ for ΕΛΕΣΘΑΙ",
+    "ΑΡΙΣΣΤΗΝ for ΑΡΙΣΤΗΝ",
+    "ΑΠΟΣΣΠΑΘΗΝΑΙ for ΑΠΟΣΠΑΘΗΝΑΙ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΑΙ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 141,
+   "opps": 319253,
+   "rate": 0.000442,
+   "cost": -7.725,
+   "examples": [
+    "ΑΙΜΕΤΟΙΣΙΝ for ΕΜΕΤΟΙΣΙΝ",
+    "ΑΙΘΟΣ for ΕΘΟΣ",
+    "ΑΙΚΦΟΡΙΩΝ for ΕΚΦΟΡΙΟΝ"
+   ]
+  },
+  {
+   "reg": "Λ",
+   "orig": "ΛΛ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 141,
+   "opps": 413940,
+   "rate": 0.000341,
+   "cost": -7.9847,
+   "examples": [
+    "ΑΧΙΛΛΗΟΣ for ΑΧΙΛΗΟΣ",
+    "ΑΠΟΛΛΟΜΕΝΟΝ for ΑΠΟΛΟΜΕΝΟΝ",
+    "ΜΑΛΛΙΣΤΑ for ΜΑΛΙΣΤΑ"
+   ]
+  },
+  {
+   "reg": "ΙΝ",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 138,
+   "opps": 63687,
+   "rate": 0.002167,
+   "cost": -6.1345,
+   "examples": [
+    "ΕΠΙΣΤΡΕΨΕΙ for ΕΠΙΣΤΡΕΨΕΙΝ",
+    "ΕΧΕΙ for ΕΧΕΙΝ",
+    "ΕΣΤΙ for ΕΣΤΙΝ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Ε",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 135,
+   "opps": 8641,
+   "rate": 0.015623,
+   "cost": -4.159,
+   "examples": [
+    "ΕΓΟΚΕΡΟΣ for ΑΙΓΟΚΕΡΩ",
+    "ΕΡΩΝ for ΑΙΡΩΝ",
+    "ΕΠΕΙΝΗ for ΑΙΠΕΙΝΗΙ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΟΥ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 133,
+   "opps": 575687,
+   "rate": 0.000231,
+   "cost": -8.373,
+   "examples": [
+    "ΚΙΒΟΥΤΕ for ΚΙΒΩΤΕ",
+    "ΚΑΙΧΑΡΙΤΟΥΜΕΝΗ for ΚΕΧΑΡΙΤΩΜΕΝΗ",
+    "ΓΗΡΟΥΣ for ΓΗΡΩΣ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 131,
+   "opps": 161601,
+   "rate": 0.000811,
+   "cost": -7.1177,
+   "examples": [
+    "ΠΟΛΗΤΑΙ for ΠΩΛΕΙΤΑΙ",
+    "ΦΟΒΗΘΗΣ for ΦΟΒΗΘΕΙΣ",
+    "ΦΩΒΗΘΗΣ for ΦΟΒΗΘΕΙΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Υ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 131,
+   "opps": 60605,
+   "rate": 0.002162,
+   "cost": -6.1369,
+   "examples": [
+    "ΥΜΩΝ for ΗΜΩΝ",
+    "ΥΛΑΣΑΝ for ΗΛΑΣΑΝ",
+    "ΥΜΕΡΑ for ΗΜΕΡΑ"
+   ]
+  },
+  {
+   "reg": "ΩΝ",
+   "orig": "Ω",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 130,
+   "opps": 231413,
+   "rate": 0.000562,
+   "cost": -7.4844,
+   "examples": [
+    "ΕΛΩ for ΕΛΩΝ",
+    "ΑΓΑΘΩ for ΑΓΑΘΩΝ",
+    "ΕΛΑΣΣΩ for ΕΛΑΣΣΩΝ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Ω",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 128,
+   "opps": 236097,
+   "rate": 0.000542,
+   "cost": -7.52,
+   "examples": [
+    "ΝΩΜΩΣ for ΝΟΜΟΥΣ",
+    "ΕΣΣΥΜΕΝΩΣ for ΕΣΣΥΜΕΝΟΥΣ",
+    "ΕΠΙΓΝΩΣ for ΕΠΙΓΝΟΥΣ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Ω",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 124,
+   "opps": 872289,
+   "rate": 0.000142,
+   "cost": -8.8586,
+   "examples": [
+    "ΑΛΚΙΝΩΟΙΟ for ΑΛΚΙΝΟΟΙΟ",
+    "ΔΙΔΩΑΣΙΝ for ΔΙΔΟΑΣΙΝ",
+    "ΑΛΑΜΗΝΩΙ for ΑΛΑΜΑΝΟΙ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Υ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 124,
+   "opps": 27684,
+   "rate": 0.004479,
+   "cost": -5.4083,
+   "examples": [
+    "ΟΜΥΟΤΗΤΟΣ for ΟΜΟΙΟΤΗΤΟΣ",
+    "ΓΛΥΟΥ for ΓΛΟΙΟΥ",
+    "ΠΥΕΙ for ΠΟΙΕΙ"
+   ]
+  },
+  {
+   "reg": "ΗΙ",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 116,
+   "opps": 11161,
+   "rate": 0.010393,
+   "cost": -4.5666,
+   "examples": [
+    "ΤΗ for ΤΗΙ",
+    "ΠΕΙΘΗ for ΠΕΙΘΗΙ",
+    "ΕΠΟΧΗ for ΕΠΟΧΗΙ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΩΙ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 113,
+   "opps": 575687,
+   "rate": 0.000196,
+   "cost": -8.5359,
+   "examples": [
+    "ΚΑΛΩΙΣ for ΚΑΛΩΣ",
+    "ΣΥΝΠΛΗΡΩΙΣΙΝ for ΣΥΜΠΛΗΡΩΣΙΝ",
+    "ΚΙΘΑΡΩΙΔΩΙ for ΚΙΘΑΡΩΔΩΙ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Η",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 112,
+   "opps": 412339,
+   "rate": 0.000272,
+   "cost": -8.2111,
+   "examples": [
+    "ΛΗΣΗΙ for ΛΗΣΕΙ",
+    "ΣΠΗΙ for ΣΠΕΙ",
+    "ΤΕΛΗΙ for ΤΕΛΕΙ"
+   ]
+  },
+  {
+   "reg": "ΝΝ",
+   "orig": "Ν",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 112,
+   "opps": 11863,
+   "rate": 0.009441,
+   "cost": -4.6627,
+   "examples": [
+    "ΕΚΧΥΝΟΜΕΝΟΝ for ΕΚΧΥΝΝΟΜΕΝΟΝ",
+    "ΕΝΟΗΜΑΤΙΚΗΣ for ΕΝΝΟΗΜΑΤΙΚΗΣ",
+    "ΒΡΕΤΑΝΙΚΟΥ for ΒΡΕΤΑΝΝΙΚΟΥ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Α",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 109,
+   "opps": 321782,
+   "rate": 0.000339,
+   "cost": -7.9903,
+   "examples": [
+    "ΕΠΙΘΥΜΙΑ for ΕΠΙΘΥΜΙΑΙ",
+    "ΠΡΟΦΟΡΑ for ΠΡΟΦΟΡΑΙ",
+    "ΑΓΩΝΙΑ for ΑΓΩΝΙΑΙ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΗΙ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 108,
+   "opps": 544867,
+   "rate": 0.000198,
+   "cost": -8.5262,
+   "examples": [
+    "ΑΘΗΝΗΙΣΙ for ΑΘΗΝΗΣΙ",
+    "ΤΗΙΜΕΡΟΝ for ΤΗΜΕΡΟΝ",
+    "ΥΠΑΡΧΗΙΤΕ for ΥΠΑΡΧΗΤΕ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΕΙ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 107,
+   "opps": 412339,
+   "rate": 0.000259,
+   "cost": -8.2568,
+   "examples": [
+    "ΔΑΣΕΙΑ for ΔΑΣΕΑ",
+    "ΘΕΙΟΙ for ΘΕΟΙ",
+    "ΠΛΕΙΟΝ for ΠΛΕΟΝ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΙΟ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 107,
+   "opps": 788124,
+   "rate": 0.000136,
+   "cost": -8.9046,
+   "examples": [
+    "ΣΕΝΝΗΣΙΟΣ for ΣΕΝΝΗΣΙΣ",
+    "ΤΑΡΕΗΣΙΟΣ for ΤΑΡΕΗΣΙΣ",
+    "ΕΥΡΗΣΙΟΛΟΓΙΑΣ for ΕΥΡΗΣΙΛΟΓΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΟΝ",
+   "orig": "Ο",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 107,
+   "opps": 136741,
+   "rate": 0.000783,
+   "cost": -7.153,
+   "examples": [
+    "ΟΣΙΟ for ΟΣΙΟΝ",
+    "ΤΟ for ΤΟΝ",
+    "ΤΟΥΤΟ for ΤΟΥΤΟΝ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "ΟΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 106,
+   "opps": 459444,
+   "rate": 0.000231,
+   "cost": -8.3743,
+   "examples": [
+    "ΣΟΙ for ΣΥ",
+    "ΠΑΝΟΙ for ΠΑΝΥ",
+    "ΜΕΤΟΞΟΙ for ΜΕΤΑΞΥ"
+   ]
+  },
+  {
+   "reg": "Σ",
+   "orig": "ΣΣ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 105,
+   "opps": 386752,
+   "rate": 0.000271,
+   "cost": -8.2116,
+   "examples": [
+    "ΔΑΜΑΣΣΕ for ΔΑΜΑΣΕ",
+    "ΑΙΘΟΥΣΣΗΣ for ΑΙΘΟΥΣΗΣ",
+    "ΝΙΣΣΟΝΤΟ for ΝΙΣΟΝΤΟ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Η",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 104,
+   "opps": 93625,
+   "rate": 0.001111,
+   "cost": -6.8027,
+   "examples": [
+    "ΗΥΡΩΝ for ΕΥΡΩΝ",
+    "ΗΩΣ for ΕΩΣ",
+    "ΗΑΥΤΟΝ for ΕΑΥΤΟΝ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 104,
+   "opps": 969763,
+   "rate": 0.000107,
+   "cost": -9.1404,
+   "examples": [
+    "ΑΙΣΑΝ for ΑΕΣΑΝ",
+    "ΕΞΑΠΕΣΤΙΛΛΕ for ΕΞΑΠΕΣΤΕΛΛΕ",
+    "ΡΗΘΗΣΙΤΑΙ for ΡΗΘΗΣΕΤΑΙ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "Υ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 103,
+   "opps": 570735,
+   "rate": 0.00018,
+   "cost": -8.62,
+   "examples": [
+    "ΜΟΥ for ΜΟΙ",
+    "ΕΙΔΕΥ for ΕΙΔΕΙ",
+    "ΩΝΟΥΜΕΝΟΥ for ΩΝΟΥΜΕΝΟΙ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 102,
+   "opps": 43274,
+   "rate": 0.002357,
+   "cost": -6.0503,
+   "examples": [
+    "ΚΡΑΣΗ for ΚΡΑΣΕΙ",
+    "ΚΑΛΗ for ΚΑΛΕΙ",
+    "ΚΕΡΔΗ for ΚΕΡΔΕΙ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ε",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 101,
+   "opps": 105079,
+   "rate": 0.000961,
+   "cost": -6.9473,
+   "examples": [
+    "ΠΑΝΑΣΠΙΛΕ for ΠΑΝΑΣΠΙΛΗ",
+    "ΜΟΝΕ for ΜΟΝΗ",
+    "ΓΟΡΕ for ΚΟΡΗ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 97,
+   "opps": 80875,
+   "rate": 0.001199,
+   "cost": -6.7259,
+   "examples": [
+    "ΛΙΜΙΚΗΝ for ΛΟΙΜΙΚΗΝ",
+    "ΠΕΠΙΘΑΤΕ for ΠΕΠΟΙΘΑΤΕ",
+    "ΚΥΜΦΑΛΙΣ for ΚΥΜΒΑΛΟΙΣ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 94,
+   "opps": 575687,
+   "rate": 0.000163,
+   "cost": -8.72,
+   "examples": [
+    "ΣΥΤΕΡ for ΣΩΤΕΡ",
+    "ΠΑΜΒΑΣΙΛΕΥΣ for ΠΑΜΒΑΣΙΛΕΩΣ",
+    "ΙΕΡΕΥΣ for ΙΕΡΕΩΣ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Γ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 93,
+   "opps": 537533,
+   "rate": 0.000173,
+   "cost": -8.6621,
+   "examples": [
+    "ΕΓΕΙΝΟΝ for ΕΚΕΙΝΟΝ",
+    "ΑΓΟΥΟΥ for ΑΚΟΥΟΥ",
+    "ΦΥΓΟΥΣ for ΦΥΚΟΥΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΕΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 92,
+   "opps": 105079,
+   "rate": 0.000876,
+   "cost": -7.0407,
+   "examples": [
+    "ΚΛΑΥΣΕΙ for ΚΛΑΥΣΗ",
+    "ΠΑΡΑΤΗΡΗΣΕΙ for ΠΑΡΑΤΗΡΗΣΗ",
+    "ΠΑΣΧΕΙ for ΠΑΣΧΗ"
+   ]
+  },
+  {
+   "reg": "ΙΓ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 92,
+   "opps": 4141,
+   "rate": 0.022217,
+   "cost": -3.8069,
+   "examples": [
+    "ΓΕΙΝΕΣΘΑΙ for ΓΙΓΝΕΣΘΑΙ",
+    "ΓΕΙΝΟΜΕΝΩΝ for ΓΙΓΝΟΜΕΝΩΝ",
+    "ΓΕΙΝΩΣΚΕΙΝ for ΓΙΓΝΩΣΚΕΙΝ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΕΙ",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 91,
+   "opps": 19748,
+   "rate": 0.004608,
+   "cost": -5.3799,
+   "examples": [
+    "ΕΙΑΧΕ for ΙΑΧΕ",
+    "ΕΙΕΡΟΝ for ΙΕΡΟΝ",
+    "ΕΙΑΤΑΙ for ΙΑΤΑΙ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "ΙΝ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 91,
+   "opps": 570735,
+   "rate": 0.000159,
+   "cost": -8.7438,
+   "examples": [
+    "ΝΟΣΦΙΝ for ΝΟΣΦΙ",
+    "ΚΕΙΝΟΙΣΙΝ for ΚΕΙΝΟΙΣΙ",
+    "ΣΦΙΝ for ΣΦΙ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΑΙ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 90,
+   "opps": 412339,
+   "rate": 0.000218,
+   "cost": -8.4298,
+   "examples": [
+    "ΠΑΡΑΙΑΣΙ for ΠΑΡΕΑΣΙ",
+    "ΜΑΛΑΙΑΝ for ΜΑΛΕΑΝ",
+    "ΕΛΑΙΟΥ for ΕΛΕΟΥ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Υ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 90,
+   "opps": 15773,
+   "rate": 0.005706,
+   "cost": -5.1662,
+   "examples": [
+    "ΥΔΑΣΙΝ for ΟΙΔΑΣΙΝ",
+    "ΥΣ for ΟΙΣ",
+    "ΥΚΟΥ for ΟΙΚΟΥ"
+   ]
+  },
+  {
+   "reg": "Χ",
+   "orig": "Κ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 89,
+   "opps": 79478,
+   "rate": 0.00112,
+   "cost": -6.7946,
+   "examples": [
+    "ΕΚΘΡΑΣ for ΕΧΘΡΑΣ",
+    "ΕΚΘΡΟΥΣ for ΕΧΘΡΟΥΣ",
+    "ΕΚΘΡΑΝ for ΕΧΘΡΑΝ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 85,
+   "opps": 66021,
+   "rate": 0.001287,
+   "cost": -6.6551,
+   "examples": [
+    "ΔΕΙΛΑΝΕΙ for ΔΕΙΛΑΙΝΕΙ",
+    "ΤΑΣ for ΤΑΙΣ",
+    "ΡΑΘΥΜΙΑΝ for ΡΑΙΘΥΜΙΑΝ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΟΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 83,
+   "opps": 86087,
+   "rate": 0.000964,
+   "cost": -6.9443,
+   "examples": [
+    "ΜΟΙ for ΜΕ",
+    "ΨΑΛΑΤΟΙ for ΨΑΛΑΤΕ",
+    "ΣΟΙ for ΣΕ"
+   ]
+  },
+  {
+   "reg": "Π",
+   "orig": "Φ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 83,
+   "opps": 513169,
+   "rate": 0.000162,
+   "cost": -8.7295,
+   "examples": [
+    "ΑΦΗΛΠΙΣΜΕΝΟΝ for ΑΠΗΛΠΙΣΜΕΝΩΝ",
+    "ΥΦΑΓΩΙ for ΥΠΑΓΩ",
+    "ΑΦΕΣΤΑΛΚΑΜΕΝ for ΑΠΕΣΤΑΛΚΑΜΕΝ"
+   ]
+  },
+  {
+   "reg": "Γ",
+   "orig": "Κ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 82,
+   "opps": 80052,
+   "rate": 0.001024,
+   "cost": -6.8837,
+   "examples": [
+    "ΠΟΔΑΚΡΟΣ for ΠΟΔΑΓΡΟΣ",
+    "ΑΠΕΝΕΚΚΑΤΟ for ΑΠΗΝΕΓΚΑΤΟ",
+    "ΑΠΗΓΕΚΚΑΤΟ for ΑΠΗΝΕΓΚΑΤΟ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "ΑΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 75,
+   "opps": 290149,
+   "rate": 0.000258,
+   "cost": -8.2607,
+   "examples": [
+    "ΑΟΛΛΙΣΣΑΣΑΙ for ΑΟΛΛΙΣΣΑΣΑ",
+    "ΕΡΜΑΙ for ΕΡΜΑ",
+    "ΤΕΙΜΩΡΙΑΙ for ΤΙΜΩΡΙΑ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ε",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 75,
+   "opps": 60605,
+   "rate": 0.001238,
+   "cost": -6.6946,
+   "examples": [
+    "ΕΛΕΥΘΕΡΩΣΕΝ for ΗΛΕΥΘΕΡΩΣΕΝ",
+    "ΕΧΩ for ΗΧΩ",
+    "ΕΓΑΓΩΝ for ΗΓΑΓΟΝ"
+   ]
+  },
+  {
+   "reg": "ΝΙ",
+   "orig": "Ν",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 71,
+   "opps": 17042,
+   "rate": 0.004166,
+   "cost": -5.4808,
+   "examples": [
+    "ΜΗΝ for ΜΗΝΙ",
+    "ΖΗΝΩΝ for ΖΗΝΩΝΙ",
+    "ΑΡΙΣΤΩΝ for ΑΡΙΣΤΩΝΙ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Η",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 68,
+   "opps": 319253,
+   "rate": 0.000213,
+   "cost": -8.4542,
+   "examples": [
+    "ΗΚΗΗΣΕΝ for ΕΚΥΗΣΕΝ",
+    "ΗΜΩΝ for ΕΜΟΝ",
+    "ΗΜΗΝ for ΕΜΗΝ"
+   ]
+  },
+  {
+   "reg": "Λ",
+   "orig": "Ρ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 68,
+   "opps": 413940,
+   "rate": 0.000164,
+   "cost": -8.714,
+   "examples": [
+    "ΤΕΘΡΑΥΣΜΕΝΟΝ for ΤΕΘΛΑΣΜΕΝΟΝ",
+    "ΓΑΓΓΡΙΟΝ for ΓΑΓΓΛΙΟΝ",
+    "ΑΝΑΒΡΕΨΑΣ for ΑΝΑΒΛΕΨΑΣ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Ε",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 67,
+   "opps": 50038,
+   "rate": 0.001339,
+   "cost": -6.6158,
+   "examples": [
+    "ΠΟΣΕ for ΠΟΣΟΙ",
+    "ΜΕ for ΜΟΙ",
+    "ΣΕ for ΣΟΙ"
+   ]
+  },
+  {
+   "reg": "ΟΟ",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 65,
+   "opps": 1082,
+   "rate": 0.060074,
+   "cost": -2.8122,
+   "examples": [
+    "ΟΓΔΟΝ for ΟΓΔΟΟΝ",
+    "ΟΚΔΟΝ for ΟΓΔΟΟΝ",
+    "ΟΟΓΔΟΝ for ΟΓΔΟΟΝ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "ΟΥ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 65,
+   "opps": 644325,
+   "rate": 0.000101,
+   "cost": -9.2016,
+   "examples": [
+    "ΘΟΥΜΟΥ for ΘΥΜΟΥ",
+    "ΖΕΟΥΣ for ΖΕΥΣ",
+    "ΛΟΥΣΕΙΕΝ for ΛΥΣΕΙΕΝ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΟΥ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 64,
+   "opps": 105079,
+   "rate": 0.000609,
+   "cost": -7.4036,
+   "examples": [
+    "ΠΕΡΣΟΥ for ΠΕΡΣΗ",
+    "ΕΠΙΦΕΡΟΜΕΝΟΥ for ΕΠΙΦΕΡΟΜΕΝΗ",
+    "ΣΤΡΑΤΙΩΤΟΥ for ΣΤΡΑΤΙΩΤΗ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 64,
+   "opps": 445353,
+   "rate": 0.000144,
+   "cost": -8.8477,
+   "examples": [
+    "ΕΥΕΡΓΕΤΗ for ΕΥΕΡΓΕΤΟΥ",
+    "ΤΗ for ΤΟΥ",
+    "ΣΤΡΑΤΙΟΤΗ for ΣΤΡΑΤΙΩΤΟΥ"
+   ]
+  },
+  {
+   "reg": "Χ",
+   "orig": "Κ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 64,
+   "opps": 155718,
+   "rate": 0.000411,
+   "cost": -7.7969,
+   "examples": [
+    "ΔΟΛΙΚΕΓΧΗ for ΔΟΛΙΧΕΓΧΗ",
+    "ΕΚΟΥΣΑΙ for ΕΧΟΥΣΑΙ",
+    "ΕΥΚΕΡΩΣ for ΕΥΧΕΡΩΣ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Χ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 63,
+   "opps": 97906,
+   "rate": 0.000643,
+   "cost": -7.3486,
+   "examples": [
+    "ΕΧΘΗΣΟΥΣΙΝ for ΕΚΘΗΣΟΥΣΙΝ",
+    "ΕΧΘΕΜΑ for ΕΚΘΕΜΑ",
+    "ΕΧΦΟΡΙΟΝ for ΕΚΦΟΡΙΟΝ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "ΟΝ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 63,
+   "opps": 110823,
+   "rate": 0.000568,
+   "cost": -7.4726,
+   "examples": [
+    "ΤΟΝ for ΤΟ",
+    "ΑΛΛΟΝ for ΑΛΛΟ",
+    "ΑΥΤΟΝ for ΑΥΤΟ"
+   ]
+  },
+  {
+   "reg": "Φ",
+   "orig": "Π",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 63,
+   "opps": 145680,
+   "rate": 0.000432,
+   "cost": -7.746,
+   "examples": [
+    "ΦΩΣΠΟΡΕ for ΦΩΣΦΟΡΕ",
+    "ΑΠΑΡΕΩΣ for ΑΦΑΡΕΩΣ",
+    "ΣΠΟΔΡΑ for ΣΦΟΔΡΑ"
+   ]
+  },
+  {
+   "reg": "ΙΕΙ",
+   "orig": "Ι",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 62,
+   "opps": 745,
+   "rate": 0.083221,
+   "cost": -2.4862,
+   "examples": [
+    "ΤΑΜΙΑ for ΤΑΜΙΕΙΑ",
+    "ΥΓΙΑΣ for ΥΓΙΕΙΑΣ",
+    "ΤΑΜΙΟΝ for ΤΑΜΙΕΙΟΝ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "ΟΥ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 62,
+   "opps": 110823,
+   "rate": 0.000559,
+   "cost": -7.4886,
+   "examples": [
+    "ΔΕΥΡΟΥ for ΔΕΥΡΟ",
+    "ΕΠΟΥ for ΥΠΟ",
+    "ΤΟΥΤΟΥ for ΤΟΥΤΟ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "ΟΥ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 62,
+   "opps": 459444,
+   "rate": 0.000135,
+   "cost": -8.9106,
+   "examples": [
+    "ΗΜΙΣΟΥΣ for ΗΜΙΣΥ",
+    "ΗΜΙΣΟΥ for ΗΜΙΣΥ",
+    "ΗΜΕΙΣΟΥ for ΗΜΙΣΥ"
+   ]
+  },
+  {
+   "reg": "ΙΑ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 61,
+   "opps": 101764,
+   "rate": 0.000599,
+   "cost": -7.4195,
+   "examples": [
+    "ΔΗΜΙΟΥΡΓΕΙΣΣ for ΔΗΜΙΟΥΡΓΕΙΑΣ",
+    "ΒΕΒΑΙΣ for ΒΕΒΑΙΑΣ",
+    "ΕΠΡΙΤΟ for ΕΠΡΙΑΤΟ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 61,
+   "opps": 459444,
+   "rate": 0.000133,
+   "cost": -8.9269,
+   "examples": [
+    "ΧΘΟΝΙΟΙ for ΧΘΟΝΙΟΥ",
+    "ΜΟΙ for ΜΟΥ",
+    "ΣΟΙ for ΣΟΥ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΩΝ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 61,
+   "opps": 108181,
+   "rate": 0.000564,
+   "cost": -7.4807,
+   "examples": [
+    "ΑΞΙΩΝ for ΑΞΙΩ",
+    "ΣΙΤΗΡΩΝ for ΣΙΔΗΡΩ",
+    "ΕΠΑΝΩΝ for ΕΠΑΝΩ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ι",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 60,
+   "opps": 60605,
+   "rate": 0.00099,
+   "cost": -6.9178,
+   "examples": [
+    "ΙΔΗ for ΗΔΗ",
+    "ΙΡΙΘΜΙΣΘΑΙ for ΗΡΙΘΜΗΣΘΑΙ",
+    "ΙΜΙΛΟΛΛΙΟΥ for ΗΜΙΚΟΛΛΙΟΥ"
+   ]
+  },
+  {
+   "reg": "ΩΙ",
+   "orig": "Ω",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 60,
+   "opps": 28844,
+   "rate": 0.00208,
+   "cost": -6.1753,
+   "examples": [
+    "ΤΩ for ΤΩΙ",
+    "ΚΑΚΩ for ΚΑΚΩΙ",
+    "ΦΟΒΩ for ΦΟΒΩΙ"
+   ]
+  },
+  {
+   "reg": "ΝΑ",
+   "orig": "Ν",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 59,
+   "opps": 23714,
+   "rate": 0.002488,
+   "cost": -5.9963,
+   "examples": [
+    "ΜΕΛΑΝ for ΜΕΛΑΝΑ",
+    "ΙΣΧΥΡΙΩΝ for ΙΣΧΥΡΙΩΝΑ",
+    "ΣΑΡΑΠΙΩΝ for ΣΑΡΑΠΙΩΝΑ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 58,
+   "opps": 80875,
+   "rate": 0.000717,
+   "cost": -7.2402,
+   "examples": [
+    "ΑΛΛΟΔΑΠΟΣΙ for ΑΛΛΟΔΑΠΟΙΣΙ",
+    "ΑΓΙΑΣΜΟΣ for ΑΓΙΑΣΜΟΙΣ",
+    "ΚΟΛΙΑΣ for ΚΟΙΛΙΑΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΑΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 57,
+   "opps": 105079,
+   "rate": 0.000542,
+   "cost": -7.5194,
+   "examples": [
+    "ΣΩΣΑΙ for ΣΩΣΗ",
+    "ΟΝΙΚΑΙ for ΟΝΙΚΗ",
+    "ΚΑΜΗΛΙΚΑΙ for ΚΑΜΗΛΙΚΗ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "Ε",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 57,
+   "opps": 518586,
+   "rate": 0.00011,
+   "cost": -9.1158,
+   "examples": [
+    "ΒΡΕΑΡΗΝ for ΒΡΙΑΡΗΝ",
+    "ΜΕΑΝ for ΜΙΑ",
+    "ΑΛΩΠΕΚΕΑΣ for ΑΛΩΠΕΚΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 57,
+   "opps": 80875,
+   "rate": 0.000705,
+   "cost": -7.2576,
+   "examples": [
+    "ΑΓΓΕΛΗΣ for ΑΓΓΕΛΟΙΣ",
+    "ΤΗΣ for ΤΟΙΣ",
+    "ΑΚΚΕΛΗΣ for ΑΓΓΕΛΟΙΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 56,
+   "opps": 544867,
+   "rate": 0.000103,
+   "cost": -9.1829,
+   "examples": [
+    "ΒΟΙΩΤΑΡΧΟΝ for ΒΟΙΩΤΑΡΧΗΝ",
+    "ΕΦΕΞΟΣ for ΕΦΕΞΗΣ",
+    "ΤΟΝ for ΤΗΝ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Χ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 56,
+   "opps": 537533,
+   "rate": 0.000104,
+   "cost": -9.1694,
+   "examples": [
+    "ΡΥΝΤΑΧΟΣ for ΡΥΝΔΑΚΟΣ",
+    "ΣΧΙΑ for ΣΚΙΑ",
+    "ΕΛΛΑΡΙΧΟΣ for ΕΛΛΑΝΙΚΟΣ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΑΙ",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 55,
+   "opps": 93625,
+   "rate": 0.000587,
+   "cost": -7.4397,
+   "examples": [
+    "ΑΙΑΝ for ΕΑΝ",
+    "ΑΙΑΥΤΗΣ for ΕΑΥΤΗΣ",
+    "ΑΙΩΝΗΤΑΙ for ΕΩΝΗΤΑΙ"
+   ]
+  },
+  {
+   "reg": "Σ",
+   "orig": "Ζ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 54,
+   "opps": 232758,
+   "rate": 0.000232,
+   "cost": -8.3688,
+   "examples": [
+    "ΚΑΤΑΖΜΙΚΡΙΖΟΝΤΑ for ΚΑΤΑΣΜΙΚΡΙΖΟΝΤΑ",
+    "ΡΑΠΙΖΜΕΝΟΣ for ΡΑΠΙΣΜΕΝΟΣ",
+    "ΚΑΤΕΨΕΥΖΜΕΝΩΝ for ΚΑΤΕΨΕΥΣΜΕΝΩΝ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Α",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 53,
+   "opps": 319253,
+   "rate": 0.000166,
+   "cost": -8.7034,
+   "examples": [
+    "ΑΤΕΡΟΙΣ for ΕΤΕΡΟΙΣ",
+    "ΑΝ for ΕΝ",
+    "ΑΠΙΤΑΓΗΝ for ΕΠΙΤΑΓΗΝ"
+   ]
+  },
+  {
+   "reg": "Χ",
+   "orig": "Κ",
+   "right": "V",
+   "start": true,
+   "kind": "consonant",
+   "apps": 53,
+   "opps": 47414,
+   "rate": 0.001118,
+   "cost": -6.7964,
+   "examples": [
+    "ΚΑΛΚΟΥ for ΧΑΛΚΟΥ",
+    "ΚΙΤΩΝ for ΧΙΤΩΝ",
+    "ΚΕΩΤΟΣ for ΧΕΩΤΟΣ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 52,
+   "opps": 86087,
+   "rate": 0.000604,
+   "cost": -7.4119,
+   "examples": [
+    "ΘΕΟΔΟΚΗ for ΘΕΟΤΟΚΕ",
+    "ΠΑΡΘΕΝΗ for ΠΑΡΘΕΝΕ",
+    "ΔΗ for ΔΕ"
+   ]
+  },
+  {
+   "reg": "ΟΝ",
+   "orig": "Ο",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 52,
+   "opps": 58316,
+   "rate": 0.000892,
+   "cost": -7.0224,
+   "examples": [
+    "ΠΕΠΟΘΑ for ΠΕΠΟΝΘΑ",
+    "ΔΙΑΠΕΠΕΠΟΘΑ for ΔΙΑΠΕΠΟΝΘΑ",
+    "ΑΠΕΔΟΤΟ for ΑΠΕΔΟΝΤΟ"
+   ]
+  },
+  {
+   "reg": "Π",
+   "orig": "Φ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 51,
+   "opps": 12897,
+   "rate": 0.003954,
+   "cost": -5.5329,
+   "examples": [
+    "ΕΦ for ΕΠ",
+    "ΥΦ for ΥΠ",
+    "ΑΦ for ΑΠ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Ε",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 50,
+   "opps": 290149,
+   "rate": 0.000172,
+   "cost": -8.6661,
+   "examples": [
+    "ΠΟΣΕ for ΠΟΣΑ",
+    "ΑΠΟΣΕ for ΠΟΣΑ",
+    "ΔΕΩΜΕΘΕ for ΔΕΟΜΕΘΑ"
+   ]
+  },
+  {
+   "reg": "ΚΚ",
+   "orig": "Κ",
+   "right": "C",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 50,
+   "opps": 873,
+   "rate": 0.057274,
+   "cost": -2.8599,
+   "examples": [
+    "ΕΚΛΗΣΙΑΣ for ΕΚΚΛΗΣΙΑΣ",
+    "ΕΚΛΗΣΙΑ for ΕΚΚΛΗΣΙΑ",
+    "ΕΚΛΗΣΕΙΑΝ for ΕΚΚΛΗΣΙΑΝ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 49,
+   "opps": 236097,
+   "rate": 0.000208,
+   "cost": -8.4802,
+   "examples": [
+    "ΑΡΚΕΥΣΗ for ΑΡΚΕΟΥΣΗ",
+    "ΕΝΟΙΚΥΝΤΕΣ for ΕΝΟΙΚΟΥΝΤΕΣ",
+    "ΜΕΤΑΜΙΣΘΥΝ for ΜΕΤΑΜΙΣΘΟΥΝ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "ΩΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 48,
+   "opps": 445353,
+   "rate": 0.000108,
+   "cost": -9.1354,
+   "examples": [
+    "ΚΡΑΝΙΩΙ for ΚΡΑΝΙΟΥ",
+    "ΝΕΧΟΥΤΩΙ for ΝΕΧΟΥΤΟΥ",
+    "ΔΕΞΙΩΙ for ΔΕΞΙΟΥ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "Ο",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 48,
+   "opps": 38746,
+   "rate": 0.001239,
+   "cost": -6.6936,
+   "examples": [
+    "ΑΥΤΟΙ for ΑΥΤΩΙ",
+    "ΔΟΙ for ΔΩΙ",
+    "ΠΑΡΑΔΟΙ for ΠΑΡΑΔΩΙ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΕΙ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 47,
+   "opps": 319253,
+   "rate": 0.000147,
+   "cost": -8.8236,
+   "examples": [
+    "ΕΙΣ for ΕΣ",
+    "ΕΙΝ for ΕΝ",
+    "ΕΙΡΓΑΣΑΙ for ΕΡΓΑΣΑΙ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Ε",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 47,
+   "opps": 49070,
+   "rate": 0.000958,
+   "cost": -6.9509,
+   "examples": [
+    "ΕΣ for ΕΙΣ",
+    "ΕΡΗΝΗΝ for ΕΙΡΗΝΗΝ",
+    "ΕΜΙ for ΕΙΜΙ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Η",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 45,
+   "opps": 49070,
+   "rate": 0.000917,
+   "cost": -6.9943,
+   "examples": [
+    "ΗΡΗΝΗΣ for ΕΙΡΗΝΗΣ",
+    "ΗΣ for ΕΙΣ",
+    "ΗΤΕ for ΕΙΤΕ"
+   ]
+  },
+  {
+   "reg": "Θ",
+   "orig": "Τ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 45,
+   "opps": 13089,
+   "rate": 0.003438,
+   "cost": -5.6729,
+   "examples": [
+    "ΑΝΤ for ΑΝΘ",
+    "ΚΑΤ for ΚΑΘ",
+    "ΜΕΤ for ΜΕΘ"
+   ]
+  },
+  {
+   "reg": "Λ",
+   "orig": "Ρ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 44,
+   "opps": 82054,
+   "rate": 0.000536,
+   "cost": -7.5309,
+   "examples": [
+    "ΑΡΜΥΡΟΝ for ΑΛΜΥΡΟΝ",
+    "ΟΦΘΑΡΜΩΝ for ΟΦΘΑΛΜΩΝ",
+    "ΔΕΡΜΑΤΙΚΗΣ for ΔΕΛΜΑΤΙΚΗΣ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Υ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 44,
+   "opps": 13098,
+   "rate": 0.003359,
+   "cost": -5.696,
+   "examples": [
+    "ΦΛΑΥΕΙΟΥ for ΦΛΑΟΥΙΟΥ",
+    "ΣΕΥΗΡΟΥ for ΣΕΟΥΗΡΟΥ",
+    "ΦΛΑΥΙΩ for ΦΛΑΟΥΙΟΥ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΟΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 44,
+   "opps": 108181,
+   "rate": 0.000407,
+   "cost": -7.8074,
+   "examples": [
+    "ΕΓΝΟΙ for ΕΓΝΩ",
+    "ΝΙΚΟΙ for ΝΙΚΩ",
+    "ΑΓΚΙΣΤΡΕΙΟΙ for ΑΓΚΙΣΤΡΙΩ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "Α",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 43,
+   "opps": 412339,
+   "rate": 0.000104,
+   "cost": -9.1684,
+   "examples": [
+    "ΚΑΙ for ΚΕΙ",
+    "ΕΠΑΙ for ΕΠΕΙ",
+    "ΝΕΜΑΗ for ΝΕΜΕΗ"
+   ]
+  },
+  {
+   "reg": "Γ",
+   "orig": "Κ",
+   "right": "V",
+   "start": true,
+   "kind": "consonant",
+   "apps": 42,
+   "opps": 78309,
+   "rate": 0.000536,
+   "cost": -7.5307,
+   "examples": [
+    "ΚΑΜΟΣ for ΓΑΜΟΣ",
+    "ΚΑΛΙΛΑΙΑ for ΓΑΛΙΛΑΙΑΣ",
+    "ΚΑΒΡΙΗΛ for ΓΑΒΡΙΗΛ"
+   ]
+  },
+  {
+   "reg": "Δ",
+   "orig": "Τ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 42,
+   "opps": 67251,
+   "rate": 0.000625,
+   "cost": -7.3785,
+   "examples": [
+    "ΝΕΥΡΟΧΟΝΤΡΩΔΗ for ΝΕΥΡΟΧΟΝΔΡΩΔΗ",
+    "ΤΕΝΤΡΟΝ for ΔΕΝΔΡΟΝ",
+    "ΚΑΤΜΗΑΣ for ΚΑΔΜΕΙΑΣ"
+   ]
+  },
+  {
+   "reg": "ΝΙ",
+   "orig": "Ν",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 42,
+   "opps": 28117,
+   "rate": 0.001494,
+   "cost": -6.5065,
+   "examples": [
+    "ΟΥΡΑΝΟΝ for ΟΥΡΑΝΙΟΝ",
+    "ΗΜΙΚΡΑΝΟΥ for ΗΜΙΚΡΑΝΙΟΥ",
+    "ΠΟΣΕΙΔΩΝΟΥ for ΠΟΣΕΙΔΩΝΙΟΥ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ε",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 41,
+   "opps": 17506,
+   "rate": 0.002342,
+   "cost": -6.0567,
+   "examples": [
+    "ΝΗΡΕΙΔΟΣ for ΝΗΡΗΙΔΟΣ",
+    "ΜΕΛΛΕΙ for ΜΕΛΛΗΙ",
+    "ΝΕΥΣΙΝ for ΝΗΥΣΙΝ"
+   ]
+  },
+  {
+   "reg": "ΤΤ",
+   "orig": "Τ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 41,
+   "opps": 2870,
+   "rate": 0.014286,
+   "cost": -4.2485,
+   "examples": [
+    "ΠΙΤΑΚΙΟΝ for ΠΙΤΤΑΚΙΟΝ",
+    "ΟΛΟΚΟΤΙΝΟΣ for ΟΛΟΚΟΤΤΙΝΟΣ",
+    "ΕΛΑΤΟΝ for ΕΛΑΤΤΟΝ"
+   ]
+  },
+  {
+   "reg": "Ζ",
+   "orig": "Σ",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 40,
+   "opps": 22742,
+   "rate": 0.001759,
+   "cost": -6.3431,
+   "examples": [
+    "ΜΩΝΑΣΟΝΤΙ for ΜΟΝΑΖΟΝΤΙ",
+    "ΠΟΤΙΣΕΤΑΙ for ΠΟΤΙΖΕΤΑΙ",
+    "ΘΥΣΙΑΣΟΝΤΕΣ for ΘΥΣΙΑΖΟΝΤΕΣ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Ε",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 39,
+   "opps": 338244,
+   "rate": 0.000115,
+   "cost": -9.068,
+   "examples": [
+    "ΕΠΙΩΝ for ΑΠΙΩΝ",
+    "ΕΦΕΣΤΗΚΟΤΑ for ΑΦΕΣΤΗΚΟΤΑ",
+    "ΕΡΣΕΝ for ΑΡΣΕΝ"
+   ]
+  },
+  {
+   "reg": "ΜΙ",
+   "orig": "Μ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 39,
+   "opps": 20192,
+   "rate": 0.001931,
+   "cost": -6.2495,
+   "examples": [
+    "ΗΜΟΛΙΟΝ for ΗΜΙΟΛΙΟΝ",
+    "ΤΑΜΕΙΟΥ for ΤΑΜΙΕΙΟΥ",
+    "ΤΑΜΕΙΟΝ for ΤΑΜΙΕΙΟΝ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "ΩΙ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 39,
+   "opps": 47021,
+   "rate": 0.000829,
+   "cost": -7.0948,
+   "examples": [
+    "ΩΙΡΩΠΟΝ for ΩΡΩΠΟΝ",
+    "ΩΙΚΟΔΟΜΗΜΕΝΗΝ for ΩΚΟΔΟΜΗΜΕΝΗΣ",
+    "ΩΙΚΟΔΟΜΗΜΕΝΗΣ for ΩΚΟΔΟΜΗΜΕΝΗΣ"
+   ]
+  },
+  {
+   "reg": "ΙΑ",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 38,
+   "opps": 69028,
+   "rate": 0.000551,
+   "cost": -7.5047,
+   "examples": [
+    "ΞΕΙΝΗΙ for ΞΕΙΝΗΙΑ",
+    "ΤΑΙΝΙ for ΤΑΙΝΙΑ",
+    "ΙΕΡΕΙ for ΙΕΡΕΙΑ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Γ",
+   "right": "V",
+   "start": true,
+   "kind": "consonant",
+   "apps": 38,
+   "opps": 310218,
+   "rate": 0.000122,
+   "cost": -9.0074,
+   "examples": [
+    "ΓΟΡΕ for ΚΟΡΗ",
+    "ΓΑΤΟΣ for ΚΑΔΟΣ",
+    "ΓΙΝΟΥΜΕΝΗΝ for ΚΙΝΟΥΜΕΝΗΝ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 38,
+   "opps": 236097,
+   "rate": 0.000161,
+   "cost": -8.7344,
+   "examples": [
+    "ΠΕΤΟΒΕΣΤΗΣ for ΠΕΤΟΒΕΣΤΟΥΣ",
+    "ΤΗΣ for ΤΟΥΣ",
+    "ΣΩΚΡΑΤΗΣ for ΣΩΚΡΑΤΟΥΣ"
+   ]
+  },
+  {
+   "reg": "ΥΝ",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 38,
+   "opps": 11630,
+   "rate": 0.003267,
+   "cost": -5.7238,
+   "examples": [
+    "ΦΙΛΟΠΟΝΟΥΤΩΝ for ΦΙΛΟΠΟΝΟΥΝΤΩΝ",
+    "ΚΑΤΟΙΚΟΥΤΑΣ for ΚΑΤΟΙΚΟΥΝΤΕΣ",
+    "ΟΜΟΛΟΓΟΥΤΩΝ for ΟΜΟΛΟΓΟΥΝΤΩΝ"
+   ]
+  },
+  {
+   "reg": "ΑΝ",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 37,
+   "opps": 65939,
+   "rate": 0.000561,
+   "cost": -7.4856,
+   "examples": [
+    "ΑΜΙΑΤΑΙ for ΑΜΙΑΝΤΕ",
+    "ΑΔΑΛΑ for ΣΑΝΔΑΛΑ",
+    "ΕΔΕΞΑΤΟ for ΕΔΕΞΑΝΤΟ"
+   ]
+  },
+  {
+   "reg": "ΗΟΥ",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 37,
+   "opps": 1678,
+   "rate": 0.02205,
+   "cost": -3.8144,
+   "examples": [
+    "ΑΤΡΗΣ for ΑΤΡΗΟΥΣ",
+    "ΤΙΘΟΗΣ for ΤΙΘΟΗΟΥΣ",
+    "ΑΠΟΤΗΣ for ΑΠΟΤΗΟΥΣ"
+   ]
+  },
+  {
+   "reg": "ΙΗ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 37,
+   "opps": 9513,
+   "rate": 0.003889,
+   "cost": -5.5495,
+   "examples": [
+    "ΠΗΟΙΣΕΙ for ΠΟΙΗΣΕΙ",
+    "ΠΟΗΙΣΑΙΣ for ΠΟΙΗΣΑΙΣ",
+    "ΕΠΟΙΣΑΝ for ΕΠΟΙΗΣΑΝ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΟΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 36,
+   "opps": 105079,
+   "rate": 0.000343,
+   "cost": -7.9789,
+   "examples": [
+    "ΜΟΙ for ΜΗ",
+    "ΟΡΟΙ for ΟΡΗ",
+    "ΣΥΜΝΟΙ for ΣΕΜΝΗ"
+   ]
+  },
+  {
+   "reg": "ΚΟ",
+   "orig": "Κ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 36,
+   "opps": 57050,
+   "rate": 0.000631,
+   "cost": -7.3682,
+   "examples": [
+    "ΑΚΛΟΥΘΩΣ for ΑΚΟΛΟΥΘΩΣ",
+    "ΚΑΤΑΚΛΟΥΘΗΣΑΣ for ΚΑΤΑΚΟΛΟΥΘΗΣ",
+    "ΕΠΑΚΛΟΥΘΗΣΑΙ for ΕΠΑΚΟΛΟΥΘΗΣΑΙ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "ΕΑ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 35,
+   "opps": 338244,
+   "rate": 0.000103,
+   "cost": -9.1762,
+   "examples": [
+    "ΕΑΝ for ΑΝ",
+    "ΕΑΓΗΣ for ΑΓΗΣ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "ΟΙ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 35,
+   "opps": 60098,
+   "rate": 0.000582,
+   "cost": -7.4484,
+   "examples": [
+    "ΟΙΠΟΓΕΓΡΑΜΜΕΝΟΙ for ΥΠΟΓΕΓΡΑΜΜΕΝΟΙ",
+    "ΟΙΓΙΑΝ for ΥΓΙΑ",
+    "ΟΙΜΝ for ΥΜΩΝ"
+   ]
+  },
+  {
+   "reg": "Ε",
+   "orig": "ΕΝ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 34,
+   "opps": 86087,
+   "rate": 0.000395,
+   "cost": -7.8368,
+   "examples": [
+    "ΕΠΕΜΨΕΝ for ΕΠΕΜΨΕ",
+    "ΣΕΝ for ΣΕ",
+    "ΔΟΞΙΕΝ for ΔΟΞΕΙΕ"
+   ]
+  },
+  {
+   "reg": "Ι",
+   "orig": "Η",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 34,
+   "opps": 37236,
+   "rate": 0.000913,
+   "cost": -6.9987,
+   "examples": [
+    "ΗΚΑΝΩΝ for ΙΚΑΝΟΝ",
+    "ΗΣΑΥΡΙΑ for ΙΣΑΥΡΙΑ",
+    "ΗΔΙΟΙΣ for ΙΔΙΟΙΣ"
+   ]
+  },
+  {
+   "reg": "ΥΝ",
+   "orig": "Υ",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 34,
+   "opps": 16271,
+   "rate": 0.00209,
+   "cost": -6.1708,
+   "examples": [
+    "ΗΜΙΜΝΟΥ for ΗΜΙΜΝΟΥΝ",
+    "ΕΦΥ for ΕΦΥΝ",
+    "ΟΥ for ΟΥΝ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 33,
+   "opps": 321782,
+   "rate": 0.000103,
+   "cost": -9.1851,
+   "examples": [
+    "ΝΗ for ΝΑΙ",
+    "ΚΡΙΝΗ for ΚΡΙΝΑΙ",
+    "ΟΥΛΗ for ΟΥΛΑΙ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Α",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 33,
+   "opps": 105079,
+   "rate": 0.000314,
+   "cost": -8.066,
+   "examples": [
+    "ΕΠΕΠΟΙΗΚΑ for ΕΠΕΠΟΙΗΚΗ",
+    "ΠΡΑΣΣΟΥΣΑ for ΠΡΑΣΣΟΥΣΗ",
+    "ΤΑ for ΤΗ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Α",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 32,
+   "opps": 33134,
+   "rate": 0.000966,
+   "cost": -6.9426,
+   "examples": [
+    "ΕΛΑΑΣ for ΕΛΑΙΑΣ",
+    "ΕΛΑΩΝΑ for ΕΛΑΙΩΝΑ",
+    "ΒΕΒΑΩΣΙ for ΒΕΒΑΙΩΣΕΙ"
+   ]
+  },
+  {
+   "reg": "ΑΟ",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 32,
+   "opps": 3220,
+   "rate": 0.009938,
+   "cost": -4.6114,
+   "examples": [
+    "ΧΡΥΣΑΡΟΣ for ΧΡΥΣΑΟΡΟΣ",
+    "ΛΑΓΡΑΦΟΙΣ for ΛΑΟΓΡΑΦΟΙΣ",
+    "ΛΑΔΙΚΗΝΟΥ for ΛΑΟΔΙΚΗΝΟΥ"
+   ]
+  },
+  {
+   "reg": "Τ",
+   "orig": "Δ",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 32,
+   "opps": 81152,
+   "rate": 0.000394,
+   "cost": -7.8383,
+   "examples": [
+    "ΕΔΡΑΝΟΣ for ΟΥΕΤΡΑΝΟΣ",
+    "ΚΑΚΟΔΡΙΧΙ for ΚΑΚΟΤΡΙΧΙΟΣ",
+    "ΔΥΟΔΡΙΑΚΟΣΤΟΥ for ΔΥΟΤΡΙΑΚΟΣΤΟΥ"
+   ]
+  },
+  {
+   "reg": "Υ",
+   "orig": "ΟΙ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 32,
+   "opps": 47531,
+   "rate": 0.000673,
+   "cost": -7.3034,
+   "examples": [
+    "ΚΟΙΑΜΟΝ for ΚΥΑΜΟΝ",
+    "ΟΜΝΟΙΩΙ for ΟΜΝΥΩ",
+    "ΚΟΙΑΜΩΙ for ΚΥΑΜΩΙ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 31,
+   "opps": 290149,
+   "rate": 0.000107,
+   "cost": -9.1442,
+   "examples": [
+    "ΛΥΣΤΡΗ for ΛΥΣΤΡΑ",
+    "ΓΕΝΕΗ for ΓΕΝΕΑ",
+    "ΑΡΟΥΡΗ for ΑΡΟΥΡΑ"
+   ]
+  },
+  {
+   "reg": "ΕΝ",
+   "orig": "Ε",
+   "right": "#",
+   "start": false,
+   "kind": "final nu",
+   "apps": 31,
+   "opps": 68657,
+   "rate": 0.000452,
+   "cost": -7.7029,
+   "examples": [
+    "ΙΔΕ for ΕΙΔΕΝ",
+    "ΓΕΓΡΑΦΑΜΕ for ΓΕΓΡΑΦΑΜΕΝ",
+    "ΩΦΙΛΕ for ΩΦΕΙΛΕΝ"
+   ]
+  },
+  {
+   "reg": "ΥΙ",
+   "orig": "Υ",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 31,
+   "opps": 8886,
+   "rate": 0.003489,
+   "cost": -5.6582,
+   "examples": [
+    "ΥΩΝ for ΥΙΩΝ",
+    "ΥΟΣ for ΥΙΟΣ",
+    "ΥΩ for ΥΙΩ"
+   ]
+  },
+  {
+   "reg": "Β",
+   "orig": "Π",
+   "right": "C",
+   "start": false,
+   "kind": "consonant",
+   "apps": 30,
+   "opps": 12524,
+   "rate": 0.002395,
+   "cost": -6.0342,
+   "examples": [
+    "ΠΟΥΠΛΙΟΥ for ΠΟΥΒΛΙΟΥ",
+    "ΤΕΠΤΥΝΕΙ for ΤΕΒΤΥΝΕΙ",
+    "ΣΥΝΠΡΟΧΙΖΟΜΕΝΩΝ for ΣΥΝΒΡΟΧΙΖΟΜΕΝΩΝ"
+   ]
+  },
+  {
+   "reg": "Ξ",
+   "orig": "ΚΣ",
+   "right": "#",
+   "start": false,
+   "kind": "double letter",
+   "apps": 30,
+   "opps": 9549,
+   "rate": 0.003142,
+   "cost": -5.763,
+   "examples": [
+    "ΕΚΣ for ΕΞ"
+   ]
+  },
+  {
+   "reg": "Ω",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 30,
+   "opps": 108181,
+   "rate": 0.000277,
+   "cost": -8.1904,
+   "examples": [
+    "ΕΑΥΤΗ for ΕΑΥΤΩ",
+    "ΑΠΟΔΗ for ΑΠΟΔΩ",
+    "ΑΥΤΗ for ΑΥΤΩ"
+   ]
+  },
+  {
+   "reg": "ΕΙ",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 29,
+   "opps": 161601,
+   "rate": 0.000179,
+   "cost": -8.6256,
+   "examples": [
+    "ΔΟΥΡΙΚΛΥΤΟΣ for ΔΟΥΡΙΚΛΕΙΤΟΣ",
+    "ΠΥΡΑΣ for ΠΕΙΡΑΣ",
+    "ΑΛΥΦΑΔΟΣ for ΑΛΕΙΦΑΤΟΣ"
+   ]
+  },
+  {
+   "reg": "ΡΑ",
+   "orig": "Ρ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 29,
+   "opps": 207973,
+   "rate": 0.000139,
+   "cost": -8.8779,
+   "examples": [
+    "ΔΡΧΜΗ for ΔΡΑΧΜΗΣ",
+    "ΥΔΑΡΓΩΓΟΣ for ΥΔΡΑΓΩΓΟΣ",
+    "ΑΡΠΟΚΡΤΟΥ for ΑΡΠΟΚΡΑΤΟΥ"
+   ]
+  },
+  {
+   "reg": "ΑΙΑ",
+   "orig": "Α",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 28,
+   "opps": 1358,
+   "rate": 0.020619,
+   "cost": -3.8816,
+   "examples": [
+    "ΔΙΚΕΑ for ΔΙΚΑΙΑ",
+    "ΚΕΦΑΛΕΑ for ΚΕΦΑΛΑΙΑ",
+    "ΜΝΑΙΑ for ΜΝΑΙΑΙΑ"
+   ]
+  },
+  {
+   "reg": "ΓΙ",
+   "orig": "Γ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 28,
+   "opps": 10655,
+   "rate": 0.002628,
+   "cost": -5.9416,
+   "examples": [
+    "ΛΟΓΕΙΝ for ΛΟΓΙΕΙΝ",
+    "ΥΓΑΙΝΕΙΝ for ΥΓΙΑΙΝΕΙΝ",
+    "ΥΓΗ for ΥΓΙΗ"
+   ]
+  },
+  {
+   "reg": "ΙΟΥ",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 28,
+   "opps": 86905,
+   "rate": 0.000322,
+   "cost": -8.0404,
+   "examples": [
+    "ΠΤΟΛΕΜΑΙ for ΠΤΟΛΕΜΑΙΟΥ",
+    "ΣΟΚΝΟΠΑΙ for ΣΟΚΝΟΠΑΙΟΥ",
+    "ΑΡΚΥΡΙ for ΑΡΓΥΡΙΟΥ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "ΩΙ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 28,
+   "opps": 110823,
+   "rate": 0.000253,
+   "cost": -8.2835,
+   "examples": [
+    "ΑΥΤΩΙ for ΑΥΤΟ",
+    "ΔΥΩΙ for ΔΥΟ",
+    "ΤΩΙ for ΤΟ"
+   ]
+  },
+  {
+   "reg": "ΠΠ",
+   "orig": "Π",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 28,
+   "opps": 4244,
+   "rate": 0.006598,
+   "cost": -5.0211,
+   "examples": [
+    "ΟΠΟΤ for ΟΠΠΟΤ",
+    "ΚΑΠΑΡΙΩΝ for ΚΑΠΠΑΡΙΩΝ",
+    "ΣΤΙΠΑΣ for ΣΤΙΠΠΑ"
+   ]
+  },
+  {
+   "reg": "ΡΟ",
+   "orig": "Ρ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 28,
+   "opps": 145660,
+   "rate": 0.000192,
+   "cost": -8.5568,
+   "examples": [
+    "ΠΟΡΣ for ΠΡΟΣ",
+    "ΚΟΡΚΟΔΙΛΩΝ for ΚΡΟΚΟΔΙΛΩΝ",
+    "ΚΟΡΚΟΔΙΛΟΥ for ΚΡΟΚΟΔΙΛΟΥ"
+   ]
+  },
+  {
+   "reg": "Χ",
+   "orig": "Κ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 28,
+   "opps": 5356,
+   "rate": 0.005228,
+   "cost": -5.2538,
+   "examples": [
+    "ΠΕΝΤΕΚΑΙΔΕΚ for ΠΕΝΤΕΚΑΙΔΕΧ",
+    "ΟΥΚ for ΟΥΧ"
+   ]
+  },
+  {
+   "reg": "ΑΓ",
+   "orig": "Α",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 27,
+   "opps": 17831,
+   "rate": 0.001514,
+   "cost": -6.4929,
+   "examples": [
+    "ΠΡΑΜΑΤΑ for ΠΡΑΓΜΑΤΟΣ",
+    "ΠΕΠΡΑΜΕΝΗΣ for ΠΕΠΡΑΓΜΕΝΗΣ",
+    "ΠΕΠΡΑΜΕΝΟΝ for ΠΕΠΡΑΓΜΕΝΟΝ"
+   ]
+  },
+  {
+   "reg": "ΕΓ",
+   "orig": "Ε",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 27,
+   "opps": 20862,
+   "rate": 0.001294,
+   "cost": -6.6498,
+   "examples": [
+    "ΓΕΡΑΜΜΕΝΟΝ for ΓΕΓΡΑΜΜΕΝΟΝ",
+    "ΣΥΝΚΑΤΕΡΑΨΑ for ΣΥΝΚΑΤΕΓΡΑΨΑ",
+    "ΕΝΕΚΕΝ for ΕΝΕΓΚΕΙΝ"
+   ]
+  },
+  {
+   "reg": "ΕΠ",
+   "orig": "Π",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 27,
+   "opps": 60993,
+   "rate": 0.000443,
+   "cost": -7.7227,
+   "examples": [
+    "ΠΕΛΘΩΝ for ΕΠΕΛΘΩΝ",
+    "ΠΕΛΘΗ for ΕΠΕΛΘΗ",
+    "ΠΙΔΕΔΩΚΑ for ΕΠΙΔΕΔΩΚΑ"
+   ]
+  },
+  {
+   "reg": "ΚΚ",
+   "orig": "Κ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 27,
+   "opps": 2012,
+   "rate": 0.013419,
+   "cost": -4.311,
+   "examples": [
+    "ΚΟΚΙΝΗΝ for ΚΟΚΚΙΝΗΝ",
+    "ΣΑΚΗΓΙΑΝ for ΣΑΚΚΗΓΙΑΝ",
+    "ΛΑΚΟΝ for ΛΑΚΚΟΝ"
+   ]
+  },
+  {
+   "reg": "ΛΛ",
+   "orig": "Λ",
+   "right": "#",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 27,
+   "opps": 2282,
+   "rate": 0.011832,
+   "cost": -4.437,
+   "examples": [
+    "ΑΛ for ΑΛΛ"
+   ]
+  },
+  {
+   "reg": "ΟΥ",
+   "orig": "Ο",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 27,
+   "opps": 28303,
+   "rate": 0.000954,
+   "cost": -6.9549,
+   "examples": [
+    "ΟΘΕΝ for ΟΥΘΕΝ",
+    "ΟΡΑΝΟΥΣ for ΟΥΡΑΝΟΥΣ",
+    "ΟΚ for ΟΥΚ"
+   ]
+  },
+  {
+   "reg": "ΡΙ",
+   "orig": "Ρ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 27,
+   "opps": 18265,
+   "rate": 0.001478,
+   "cost": -6.5169,
+   "examples": [
+    "ΘΥΓΑΤΗΡ for ΘΥΓΑΤΡΙ",
+    "ΠΕΡ for ΠΕΡΙ",
+    "ΒΙΚΤΩΡ for ΒΙΚΤΩΡΙ"
+   ]
+  },
+  {
+   "reg": "ΣΙ",
+   "orig": "Σ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 27,
+   "opps": 13255,
+   "rate": 0.002037,
+   "cost": -6.1963,
+   "examples": [
+    "ΤΟΙΣ for ΤΟΙΣΙ",
+    "ΑΓΑΝΟΙΣ for ΑΓΑΝΟΙΣΙ",
+    "ΠΡΑΚΤΟΡΕΣ for ΠΡΑΚΤΟΡΣΙ"
+   ]
+  },
+  {
+   "reg": "Φ",
+   "orig": "Π",
+   "right": "V",
+   "start": true,
+   "kind": "consonant",
+   "apps": 27,
+   "opps": 46865,
+   "rate": 0.000576,
+   "cost": -7.4592,
+   "examples": [
+    "ΠΙΛΟΤΕΚΝΟ for ΦΙΛΟΤΕΚΝΟΣ",
+    "ΠΙΛΑΔΕΠΟΣ for ΦΙΛΑΔΕΛΦΟΣ",
+    "ΠΙΛΟΛΟΣ for ΦΙΛΟΦΙΛΟΣ"
+   ]
+  },
+  {
+   "reg": "Α",
+   "orig": "Ε",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 26,
+   "opps": 93233,
+   "rate": 0.000279,
+   "cost": -8.1848,
+   "examples": [
+    "ΕΥΤΟΥ for ΑΥΤΟΥ",
+    "ΕΥΤΗΝ for ΑΥΤΗΝ",
+    "ΕΥΤΑ for ΑΥΤΑ"
+   ]
+  },
+  {
+   "reg": "ΕΥ",
+   "orig": "Ε",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 26,
+   "opps": 8403,
+   "rate": 0.003094,
+   "cost": -5.7782,
+   "examples": [
+    "ΕΝΕΔΡΕΟΥΣΙ for ΕΝΕΔΡΕΥΟΥΣΙ",
+    "ΕΠΕΩΝΙΖΟΥΣΑΣ for ΕΠΕΥΩΝΙΖΟΥΣΑΣ",
+    "ΙΚΕΤΕΩ for ΙΚΕΤΕΥΩ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "Χ",
+   "right": "#",
+   "start": false,
+   "kind": "consonant",
+   "apps": 26,
+   "opps": 25676,
+   "rate": 0.001013,
+   "cost": -6.8952,
+   "examples": [
+    "ΟΥΧ for ΟΥΚ",
+    "ΧΟΙΑΧ for ΧΟΙΑΚ",
+    "ΕΙΛΙΧ for ΕΛΙΚ"
+   ]
+  },
+  {
+   "reg": "ΛΙ",
+   "orig": "Λ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 26,
+   "opps": 34349,
+   "rate": 0.000757,
+   "cost": -7.1862,
+   "examples": [
+    "ΑΥΡΗΛΩΙ for ΑΥΡΗΛΙΩΙ",
+    "ΒΙΒΛΟΝ for ΒΙΒΛΙΟΝ",
+    "ΙΟΥΛΟΥ for ΙΟΥΛΙΟΥ"
+   ]
+  },
+  {
+   "reg": "Ο",
+   "orig": "Α",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 26,
+   "opps": 110823,
+   "rate": 0.000235,
+   "cost": -8.3576,
+   "examples": [
+    "ΤΑ for ΤΟ",
+    "ΔΙΑ for ΔΙΟ",
+    "ΑΥΤΑ for ΑΥΤΟ"
+   ]
+  },
+  {
+   "reg": "Τ",
+   "orig": "ΤΗ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 26,
+   "opps": 81152,
+   "rate": 0.00032,
+   "cost": -8.046,
+   "examples": [
+    "ΠΑΤΗΡ for ΠΑΤΡΟΣ",
+    "ΘΥΓΑΤΗΡ for ΘΥΓΑΤΡΟΣ",
+    "ΜΗΤΗΡ for ΜΗΤΡΟΣ"
+   ]
+  },
+  {
+   "reg": "ΩΙ",
+   "orig": "Ω",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 26,
+   "opps": 2158,
+   "rate": 0.012048,
+   "cost": -4.4188,
+   "examples": [
+    "ΤΡΑΓΩΔΙΟΠΟΙΟΙΣ for ΤΡΑΓΩΙΔΙΟΠΟΙΟΙΣ",
+    "ΤΡΑΓΩΔΙΑ for ΤΡΑΓΩΙΔΙΑΙ",
+    "ΚΩΜΩΔΙΑ for ΚΩΜΩΙΔΙΑΙ"
+   ]
+  },
+  {
+   "reg": "ΩΝ",
+   "orig": "Ω",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 26,
+   "opps": 6078,
+   "rate": 0.004278,
+   "cost": -5.4543,
+   "examples": [
+    "ΚΩΣΤΑΝΤΙΝΟΥ for ΚΩΝΣΤΑΝΤΙΟΥ",
+    "ΚΩΣΤΑΝΤΟΣ for ΚΩΝΣΤΑΝΤΟΣ",
+    "ΚΩΣΤΑΝΤΙΝΟΥ for ΚΩΝΣΤΑΝΤΙΝΟΥ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Α",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 25,
+   "opps": 8641,
+   "rate": 0.002893,
+   "cost": -5.8454,
+   "examples": [
+    "ΑΔΩΝ for ΑΙΔΩΝ",
+    "ΑΤΤΟΥΣΗΣ for ΑΙΤΤΟΥΣΗΣ",
+    "ΑΣΑΙ for ΑΙΣΑΙ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Ι",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 25,
+   "opps": 33134,
+   "rate": 0.000755,
+   "cost": -7.1894,
+   "examples": [
+    "ΠΑΛΙΟΝ for ΠΑΛΑΙΟΝ",
+    "ΕΠΙΚΕΦΑΛΙΟΥ for ΕΠΙΚΕΦΑΛΑΙΟΥ",
+    "ΚΕΦΑΛΙΟΥ for ΚΕΦΑΛΑΙΟΥ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Ι",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 25,
+   "opps": 27684,
+   "rate": 0.000903,
+   "cost": -7.0097,
+   "examples": [
+    "ΟΜΟΝΙΑ for ΟΜΟΝΟΙΑ",
+    "ΟΜΙΩΣ for ΟΜΟΙΩΣ",
+    "ΠΛΙΟΥ for ΠΛΟΙΟΥ"
+   ]
+  },
+  {
+   "reg": "Β",
+   "orig": "Π",
+   "right": "V",
+   "start": false,
+   "kind": "consonant",
+   "apps": 24,
+   "opps": 148555,
+   "rate": 0.000162,
+   "cost": -8.7307,
+   "examples": [
+    "ΠΟΛΥΠΟΤΕΙΡΗΙ for ΠΟΥΛΥΒΟΤΕΙΡΗΙ",
+    "ΚΑΤΑΛΑΜΠΑΝΕ for ΚΑΤΑΛΑΜΒΑΝΕ",
+    "ΕΠΙΠΑΛΛΟΝΤΑ for ΕΠΙΒΑΛΛΟΝΤΑ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "Ω",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 24,
+   "opps": 105079,
+   "rate": 0.000228,
+   "cost": -8.3844,
+   "examples": [
+    "ΑΥΤΩ for ΑΥΤΗ",
+    "ΤΩ for ΤΗ",
+    "ΜΕΜΙΣΘΩΜΕΝΩ for ΜΕΜΙΣΘΩΜΕΝΗ"
+   ]
+  },
+  {
+   "reg": "ΓΓ",
+   "orig": "Γ",
+   "right": "V",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 23,
+   "opps": 5129,
+   "rate": 0.004484,
+   "cost": -5.4072,
+   "examples": [
+    "ΚΑΤΑΓΕΛΩΜΕΝ for ΚΑΤΑΓΓΕΛΛΟΜΕΝ",
+    "ΑΝΑΓΕΙΛΑΙ for ΑΝΑΓΓΕΙΛΑΙ",
+    "ΠΑΡΑΓΕΛΛΕΤΑΙ for ΠΑΡΑΓΓΕΛΛΕΤΑΙ"
+   ]
+  },
+  {
+   "reg": "ΕΩ",
+   "orig": "ΙΟ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 23,
+   "opps": 64800,
+   "rate": 0.000355,
+   "cost": -7.9436,
+   "examples": [
+    "ΚΟΜΜΙΟΣ for ΚΟΜΜΕΩΣ",
+    "ΔΟΡΩΣΙΟΣ for ΔΟΡΩΣΕΩΣ",
+    "ΠΡΑΣΙΟΣ for ΠΡΑΣΕΩΣ"
+   ]
+  },
+  {
+   "reg": "Η",
+   "orig": "ΕΙ",
+   "right": "C",
+   "start": true,
+   "kind": "vowel",
+   "apps": 23,
+   "opps": 60605,
+   "rate": 0.00038,
+   "cost": -7.8766,
+   "examples": [
+    "ΕΙΚΩΣ for ΗΚΩΝ",
+    "ΕΙΔΕΟΣ for ΗΔΕΩΣ",
+    "ΕΙΜΙΟΙΑΝ for ΗΜΙΟΛΙΑΝ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Ι",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 23,
+   "opps": 50038,
+   "rate": 0.00046,
+   "cost": -7.685,
+   "examples": [
+    "ΣΙΤΟΛΙΓΙ for ΣΙΤΟΛΟΓΟΙ",
+    "ΣΙ for ΣΟΙ",
+    "ΔΕΔΑΝΙΣΜΕΝΙ for ΔΕΔΑΝΕΙΣΜΕΝΟΙ"
+   ]
+  },
+  {
+   "reg": "ΥΜ",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 23,
+   "opps": 7716,
+   "rate": 0.002981,
+   "cost": -5.8156,
+   "examples": [
+    "ΑΠΟΤΥΠΑΝΙΣΑΙ for ΑΠΟΤΥΜΠΑΝΙΣΑΙ",
+    "ΣΥΠΑΝΤΟΣ for ΣΥΜΠΑΝΤΟΣ",
+    "ΣΥΠΟΣΙΟΥ for ΣΥΜΠΟΣΙΩ"
+   ]
+  },
+  {
+   "reg": "ΑΙ",
+   "orig": "Η",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 22,
+   "opps": 66021,
+   "rate": 0.000333,
+   "cost": -8.0067,
+   "examples": [
+    "ΚΗΣΑΡΟΣ for ΚΑΙΣΑΡΟΣ",
+    "ΤΗΣ for ΤΑΙΣ",
+    "ΜΑΘΗΤΗΣ for ΜΑΘΗΤΑΙΣ"
+   ]
+  },
+  {
+   "reg": "ΡΕ",
+   "orig": "Ρ",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 22,
+   "opps": 22039,
+   "rate": 0.000998,
+   "cost": -6.9095,
+   "examples": [
+    "ΒΕΡΝΙΚΕΙΔΟΣ for ΒΕΡΕΝΙΚΙΔΟΣ",
+    "ΒΕΡΝΙΚΙΔΟΣ for ΒΕΡΕΝΙΚΙΔΟΣ",
+    "ΠΕΡΣΒΥΤΕΡΟΥ for ΠΡΕΣΒΥΤΕΡΟΥ"
+   ]
+  },
+  {
+   "reg": "ΣΙ",
+   "orig": "Σ",
+   "right": "V",
+   "start": false,
+   "kind": "vowel",
+   "apps": 22,
+   "opps": 35522,
+   "rate": 0.000619,
+   "cost": -7.3869,
+   "examples": [
+    "ΓΕΓΥΜΝΑΣΑΡΧΗΚΩΣ for ΓΕΓΥΜΝΑΣΙΑΡΧΗΚΩΣ",
+    "ΠΑΣΩΝ for ΠΑΣΙΩΝ",
+    "ΓΕΓΥΜΝΙΑΣΑΡΧΗΚΟΤΙ for ΓΕΓΥΜΝΑΣΙΑΡΧΗΚΟΤΙ"
+   ]
+  },
+  {
+   "reg": "ΥΓ",
+   "orig": "Υ",
+   "right": "C",
+   "start": false,
+   "kind": "nasal before consonant",
+   "apps": 22,
+   "opps": 7902,
+   "rate": 0.002784,
+   "cost": -5.8838,
+   "examples": [
+    "ΣΥΚΕΧΩΡΗΚΕΝΑΙ for ΣΥΓΚΕΧΩΡΗΚΕΝΑΙ",
+    "ΑΠΙΥΧΙΣ for ΑΠΥΓΧΙΣ",
+    "ΑΥΧΙΣ for ΑΥΓΧΙΣ"
+   ]
+  },
+  {
+   "reg": "ΙΩ",
+   "orig": "Ι",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 21,
+   "opps": 74820,
+   "rate": 0.000281,
+   "cost": -8.1783,
+   "examples": [
+    "ΔΕΞΙΝ for ΔΕΞΙΩΝ",
+    "ΚΟΡΣΙΝΗΙ for ΚΟΡΣΙΩΝ",
+    "ΟΜΟΙΣ for ΟΜΟΙΩΣ"
+   ]
+  },
+  {
+   "reg": "Κ",
+   "orig": "ΚΚ",
+   "right": "C",
+   "start": false,
+   "kind": "double consonant",
+   "apps": 21,
+   "opps": 97906,
+   "rate": 0.000214,
+   "cost": -8.4472,
+   "examples": [
+    "ΕΚΚΡΗΜΑΤΟΣ for ΕΚΡΗΓΜΑΤΟΣ",
+    "ΜΑΚΚΡΕΙΝΟΥ for ΜΑΚΡΕΙΝΟΥ",
+    "ΝΥΚΚΤΕΙ for ΝΥΚΤΙ"
+   ]
+  },
+  {
+   "reg": "ΝΙ",
+   "orig": "Ν",
+   "right": "C",
+   "start": false,
+   "kind": "vowel",
+   "apps": 21,
+   "opps": 30490,
+   "rate": 0.000689,
+   "cost": -7.2806,
+   "examples": [
+    "ΚΑΡΑΝΔΟΣ for ΚΑΡΑΝΙΔΟΣ",
+    "ΑΝΤΩΝΝΟΥ for ΑΝΤΩΝΙΝΟΥ",
+    "ΓΕΡΜΑΝΚΟΥ for ΓΕΡΜΑΝΙΚΟΥ"
+   ]
+  },
+  {
+   "reg": "ΣΕ",
+   "orig": "Σ",
+   "right": "V",
+   "start": true,
+   "kind": "vowel",
+   "apps": 21,
+   "opps": 2712,
+   "rate": 0.007743,
+   "cost": -4.8609,
+   "examples": [
+    "ΣΑΤΟΥ for ΣΕΑΥΤΟΥ",
+    "ΣΟΥΗΡΟΥ for ΣΕΟΥΗΡΟΥ",
+    "ΣΑΤΩ for ΣΕΑΥΤΩ"
+   ]
+  },
+  {
+   "reg": "ΟΙ",
+   "orig": "Η",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 20,
+   "opps": 50038,
+   "rate": 0.0004,
+   "cost": -7.8248,
+   "examples": [
+    "ΠΙΣΤΗ for ΠΙΣΤΟΙ",
+    "ΟΛΙΓΩΨΥΧΗ for ΟΛΙΓΟΨΥΧΟΙ",
+    "ΟΥΡΑΝΗ for ΟΥΡΑΝΟΙ"
+   ]
+  },
+  {
+   "reg": "ΩΙ",
+   "orig": "ΟΥ",
+   "right": "#",
+   "start": false,
+   "kind": "vowel",
+   "apps": 20,
+   "opps": 28844,
+   "rate": 0.000693,
+   "cost": -7.2739,
+   "examples": [
+    "ΑΡΧΕΜΟΡΟΥ for ΑΡΧΕΜΟΡΩΙ",
+    "ΤΟΥ for ΤΩΙ",
+    "ΧΑΛΚΟΥ for ΧΑΛΚΩΙ"
+   ]
+  }
+ ]
+}

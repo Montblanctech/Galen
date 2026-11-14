@@ -6,8 +6,8 @@
    "inputs": 630,
    "top1": 630,
    "top1_tie": 0,
-   "topk": 628,
-   "topk_tie": 2,
+   "topk": 626,
+   "topk_tie": 4,
    "seg_terms": 630,
    "flags": 630,
    "input_norm": 630
@@ -16,28 +16,28 @@
    "inputs": 630,
    "top1": 630,
    "top1_tie": 0,
-   "topk": 628,
-   "topk_tie": 2,
+   "topk": 629,
+   "topk_tie": 1,
    "seg_terms": 630,
    "flags": 630,
    "input_norm": 630
   },
   "heavy": {
    "inputs": 630,
-   "top1": 629,
-   "top1_tie": 1,
-   "topk": 625,
-   "topk_tie": 5,
-   "seg_terms": 629,
-   "flags": 629,
+   "top1": 630,
+   "top1_tie": 0,
+   "topk": 627,
+   "topk_tie": 3,
+   "seg_terms": 630,
+   "flags": 630,
    "input_norm": 630
   },
   "spaced_lower": {
    "inputs": 630,
    "top1": 630,
    "top1_tie": 0,
-   "topk": 628,
-   "topk_tie": 2,
+   "topk": 626,
+   "topk_tie": 4,
    "seg_terms": 630,
    "flags": 630,
    "input_norm": 630
@@ -45,109 +45,24 @@
  },
  "total": {
   "inputs": 2520,
-  "top1": 2519,
-  "top1_tie": 1,
-  "topk": 2509,
-  "topk_tie": 11,
-  "seg_terms": 2519,
-  "flags": 2519,
+  "top1": 2520,
+  "top1_tie": 0,
+  "topk": 2508,
+  "topk_tie": 12,
+  "seg_terms": 2520,
+  "flags": 2520,
   "input_norm": 2520
  },
- "rust_seconds": 28.4,
- "python_seconds": 111.3,
- "rust_timing": "load 125.0 ms; {\"forms\":313788,\"bigrams\":1779469,\"tokens\":21560737,\"form_min\":2,\"bigram_min\":2,\"max_len\":23}\n2520 lines: mean 11.15 ms, median 11.07 ms, p95 17.07 ms, max 36.46 ms",
- "problems": [
-  {
-   "row": {
-    "split": "test",
-    "id": "tlg2042.tlg019:12",
-    "level": "heavy",
-    "text": "ΦΡΕΝΗΣΤΝΕΙΤΕΠΙΓΤΝΕΣΘΑΤΚΔΙΗΓΟΡΗΜΑΠΟΦΡΘΝΗΣΕΩΣ"
-   },
-   "kind": "top1",
-   "py": [
-    -95.21946470279875,
-    [
-     [
-      0,
-      8,
-      "ΦΡΟΝΗΣΙΝ",
-      "sub2"
-     ],
-     [
-      8,
-      11,
-      "ΕΙΤ",
-      ""
-     ],
-     [
-      11,
-      22,
-      "ΕΠΙΓΙΝΕΣΘΑΙ",
-      "sub2"
-     ],
-     [
-      22,
-      32,
-      "ΚΑΤΗΓΟΡΗΜΑ",
-      "sub2"
-     ],
-     [
-      32,
-      34,
-      "ΑΠΟ",
-      "lost:Α@0"
-     ],
-     [
-      34,
-      43,
-      "ΦΡΟΝΗΣΕΩΣ",
-      "sub1"
-     ]
-    ]
-   ],
-   "rust": [
-    -95.21946470279875,
-    [
-     [
-      0,
-      8,
-      "ΦΡΟΝΗΣΙΝ",
-      "sub2"
-     ],
-     [
-      8,
-      11,
-      "ΕΙΤ",
-      ""
-     ],
-     [
-      11,
-      22,
-      "ΕΠΙΓΙΝΕΣΘΑΙ",
-      "sub2"
-     ],
-     [
-      22,
-      31,
-      "ΚΑΤΗΓΟΡΗΜΑ",
-      "lost:Α@9+sub2"
-     ],
-     [
-      31,
-      34,
-      "ΑΠΟ",
-      ""
-     ],
-     [
-      34,
-      43,
-      "ΦΡΟΝΗΣΕΩΣ",
-      "sub1"
-     ]
-    ]
-   ]
-  }
- ],
- "n_problems": 1
+ "rust_seconds": 34.0,
+ "python_seconds": 110.7,
+ "rust_timing": "load 129.9 ms; {\"forms\":313788,\"bigrams\":1779469,\"tokens\":21560737,\"form_min\":2,\"bigram_min\":2,\"max_len\":23,\"spelling_rules\":253}\n2520 lines: mean 13.39 ms, median 13.35 ms, p95 20.24 ms, max 26.32 ms",
+ "texts": {
+  "texts": 29,
+  "texts_with_habits": 4,
+  "habits_identical": 29,
+  "lines": 467,
+  "top1_identical": 467
+ },
+ "problems": [],
+ "n_problems": 0
 }

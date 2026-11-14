@@ -2,8 +2,8 @@
 
 A Rust port of the T2b transcription plausibility scorer, the "ancient Greek autocorrect" for papyrus HTR
 output (`galen-density-map/pipeline/t2b_scorer.py`, flags from `t2b_flag.py`; results in
-`galen-density-map/outputs/t2b/README.md`). It compiles to a 163 KB WebAssembly module with no dependencies
-and runs on a 6.6 MB pruned copy of the counts. The page is `docs/tools/autocorrect/`.
+`galen-density-map/outputs/t2b/README.md`). It compiles to a 221 KB WebAssembly module with no dependencies
+(the 253 spelling rules built in) and runs on a 6.6 MB pruned copy of the counts. The page is `docs/tools/autocorrect/`.
 
 What it does is unchanged from the Python scorer:
 
@@ -12,6 +12,10 @@ What it does is unchanged from the Python scorer:
   letter per word.
 - It scores with an interpolated absolute-discounting bigram LM (d = 0.75) and a per-letter penalty for
   unknown segments.
+- It reads ancient spellings (since 2026-11-14): a form unattested as written that one of 253 rules learned from
+  papyri.info's regularizations turns into an attested form (ΟΙ written Ο before a vowel: ΠΟΗΤΗΣ = ΠΟΙΗΤΗΣ),
+  with the ending gate and the writer's habits of `t2b_spelling.py`. The table is generated:
+  `python -I -X utf8 galen-density-map/pipeline/t2b_spelling.py export-rust` writes `src/spelling_table.rs`.
 - It flags low-plausibility words the way `t2b_flag.py` does.
 
 The constants, the candidate order, the beam (48, at most 4 per last word, top 8 candidates) and the stable
@@ -56,9 +60,10 @@ offline service worker (`sw.js`, cache-first; bump `VERSION` when a file changes
 | `src/scorer.rs` | Lexicon candidates, LM, beam segmenter, flags |
 | `src/letters.rs` | alphabet, confusion classes, constants, `to_continua` |
 | `src/continua_table.rs` | generated: the 313 code points `to_continua` keeps, and their letters |
+| `src/spelling_table.rs` | generated: the spelling rules, their rates and costs, and the habit constants |
 | `src/math.rs` | `ln` / `exp` (fdlibm algorithms) |
-| `src/lib.rs` | JSON output and the C ABI for wasm: `t2b_alloc`, `t2b_free`, `t2b_init`, `t2b_segment`, `t2b_out_ptr`, `t2b_out_len` |
-| `src/bin/t2b-cli.rs` | native CLI: one input per stdin line, one JSON object per output line |
+| `src/lib.rs` | JSON output and the C ABI for wasm: `t2b_alloc`, `t2b_free`, `t2b_init`, `t2b_segment`, `t2b_segment_text`, `t2b_out_ptr`, `t2b_out_len` |
+| `src/bin/t2b-cli.rs` | native CLI: one input per stdin line, one JSON object per output line; `--text` reads stdin as one text with the writer's habits; `--no-spelling` |
 | `tests/scorer.rs` | native tests |
 | `MODEL_FORMAT.md` | the model.bin spec |
 
@@ -66,10 +71,16 @@ The JSON for one line is `{"input", "readings": [...]}`. Each reading has `score
 `flags`.
 
 - A segment has `start`, `end`, `observed`, `form` (null if unknown), `edit` (the reference's tag: `sub1`,
-  `lost:Ν@3+sub1`, `unknown`), `corrected`, `unknown`, `count`, `lm`, `chan`, `score` and `changes` (letter
-  by letter: `{"at", "from", "to"}` or `{"at", "lost"}`).
+  `lost:Ν@3+sub1`, `var:33`, `unknown`), `spelling` (the rule, for a `var` segment), `corrected`, `unknown`,
+  `count`, `lm`, `chan`, `score` and `changes` (letter by letter: `{"at", "from", "to"}`, `{"at", "lost"}`
+  or `{"at", "written", "spelling_of"}`).
+- `spellings` lists the unattested words a spelling rule explains: `segment`, `observed`, `regularized`,
+  `rule`, `label`, `accepted` (not flagged) and `count`.
 - A flag has `segment`, `observed`, `kind` (`unattested`, `alternative`, `unattested+alt`), `count`,
+  `alt_spelling` (the rule, when the proposed correction is also a known spelling), `stem_attested`,
   `alternative`, `alt_edit`, `alt_count`, `margin` (nats) and `alt_changes`.
+- A whole text (`t2b_segment_text`, `--text`) gives `{"lines": [...], "habits": [...]}`; a habit has `rule`,
+  `label`, `uses`, `opportunities`, `corpus_rate` and `text_rate`.
 
 Flags are computed on the observed words of each reading's segmentation: `t2b_flag.flag_words` with no
 fragments and no elision, margin 4 nats, top 12 candidates.
@@ -119,27 +130,29 @@ million pairs seen once, which a count threshold cannot keep under the size targ
 `tools/parity.py` runs the native CLI and the Python reference (`t2b_scorer.Segmenter` on
 `t2b_export_model.read_model(model.bin)`), both on the pruned model. It covers every dev and test line at
 every noise level, plus each clean line re-spaced and lower-cased (`ουν ειωθεν η φυσις`, final ς included) to
-exercise `to_continua`: 2,520 inputs, k = 5. Results are in `outputs/t2b/wasm_parity.{md,json}`.
+exercise `to_continua`: 2,520 inputs, k = 5. Both sides use the spelling rules. It also reads 29 whole texts
+(Philodemus lines, 4 of them chosen so the writer's habits show) with `t2b_spelling.segment_text` against
+`t2b-cli --text`: the same habits in all 29 and the same top reading and score on all 467 lines. Results are
+in `outputs/t2b/wasm_parity.{md,json}` (2026-11-14, with the spelling layer).
 
 | inputs | level | top-1 identical | top-1 tie only | top-5 identical | top-5 up to ties | segment terms | flags identical | normalised input |
 |---|---|---|---|---|---|---|---|---|
-| 630 | clean | 630 | 0 | 628 | 630 | 630 | 630 | 630 |
-| 630 | light | 630 | 0 | 628 | 630 | 630 | 630 | 630 |
-| 630 | heavy | 629 | 1 | 625 | 630 | 629 | 629 | 630 |
-| 630 | spaced, lower case | 630 | 0 | 628 | 630 | 630 | 630 | 630 |
-| **2,520** | **all** | **2,519** | **1** | **2,509** | **2,520** | **2,519** | **2,519** | **2,520** |
+| 630 | clean | 630 | 0 | 626 | 630 | 630 | 630 | 630 |
+| 630 | light | 630 | 0 | 629 | 630 | 630 | 630 | 630 |
+| 630 | heavy | 630 | 0 | 627 | 630 | 630 | 630 | 630 |
+| 630 | spaced, lower case | 630 | 0 | 626 | 630 | 630 | 630 | 630 |
+| **2,520** | **all** | **2,520** | **0** | **2,508** | **2,520** | **2,520** | **2,520** | **2,520** |
 
-- **Top-1 reading: 2,520 of 2,520 identical words and scores.** In 2,519 the segments, spans, edit tags
-  and score (within 1e-9) are identical. The per-segment LM and channel terms and the flags (kind,
-  alternative, edit, margin) are identical in those 2,519 too.
-- **The one difference is a tied segmentation of the same reading** (test, `tlg2042.tlg019:12`, heavy).
-  Both give ΦΡΟΝΗΣΙΝ ΕΙΤ ΕΠΙΓΙΝΕΣΘΑΙ ΚΑΤΗΓΟΡΗΜΑ ΑΠΟ ΦΡΟΝΗΣΕΩΣ with score -95.21946470279875. Python
-  restores the lost Α at the start of ΑΠΟ; Rust restores it at the end of ΚΑΤΗΓΟΡΗΜΑ. The two paths add the
-  same terms in a different order, so their scores differ only in the last bits.
+- **Top-1 reading: 2,520 of 2,520 identical.** The segments, spans, edit tags and score (within 1e-9), the
+  per-segment LM and channel terms, the flags (kind, alternative, edit, margin, the spelling and stem notes)
+  and the spellings list are identical in all of them.
+- **Before the spelling layer** one top-1 differed by a tied segmentation of the same reading (test,
+  `tlg2042.tlg019:12`, heavy: a lost Α restored at the start of ΑΠΟ in Python, at the end of ΚΑΤΗΓΟΡΗΜΑ in
+  Rust, with the same score to the last bits). With the spelling layer that line no longer ties.
 - **Why ties cannot follow Python exactly.** Python picks among tied hypotheses with `np.argpartition`,
   whose order for equal values is unspecified and, in numpy 2, CPU-dependent. Rust breaks ties by a stable
   order. Its `ln`/`exp` (fdlibm) can also differ from numpy's by one ulp.
-- **Top-5: identical in 2,509; the other 11 differ only where scores tie.** These are another segmentation
+- **Top-5: identical in 2,508; the other 12 differ only where scores tie.** These are another segmentation
   of the same words, two readings with the same score in swapped order, or a tied reading cut off at rank 5;
   the harness fetches a 6th reading to check that.
 - **wasm = native, byte for byte.** `tools/wasm_vs_native.py` runs the shipped `t2b.wasm` under Node through
@@ -147,8 +160,8 @@ exercise `to_continua`: 2,520 inputs, k = 5. Results are in `outputs/t2b/wasm_pa
   (`outputs/t2b/wasm_vs_native.json`), because the crate computes `ln` and `exp` itself rather than calling
   the platform library.
 - **The page.** `tools/page_check.py` serves `docs/` with `http.server` and opens the page in headless
-  Chromium with two lines in `?text=`. It waits over the DevTools protocol until the page reports it has run,
-  and asserts that the page's JSON equals the native CLI's: it does.
+  Chromium with two lines in the address. It waits over the DevTools protocol until the page reports it has
+  run, and asserts that the page's JSON (the whole text, habits included) equals `t2b-cli --text`: it does.
 
 The flag comparison uses `t2b_flag.flag_words` itself, with ids cast to int64; see the reference notes
 below.
@@ -157,17 +170,18 @@ below.
 
 | item | bytes | gzipped (level 6) |
 |---|---|---|
-| `t2b.wasm` | 163,053 | 58,029 |
+| `t2b.wasm` | 221,455 | 79,941 |
 | `model.bin` | 6,641,911 | 3,454,761 |
-| `glue.js` | 3,253 | 1,300 |
-| `index.html` | ~19,300 | ~7,100 |
+| `glue.js` | 3,809 | 1,417 |
+| `index.html` | ~25,000 | ~8,900 |
 
-Speed per line (lines of 20 to 40 letters, k = 5, flags included):
+Speed per line (lines of 20 to 40 letters, k = 5, flags included; with the spelling layer since 2026-11-14,
+which costs about 25% more time per line; the two page rows are from before it):
 
 | where | load (decode model) | mean | median | p95 |
 |---|---|---|---|---|
-| native CLI, desktop (x86-64) | 112 ms | 10.7 ms | 10.6 ms | 16.2 ms |
-| `t2b.wasm` in Node 22 (V8), same desktop | 160 ms | 24.1 ms | 24.0 ms | 37.0 ms |
+| native CLI, desktop (x86-64) | 129 ms | 13.4 ms | 13.4 ms | 20.4 ms |
+| `t2b.wasm` in Node 22 (V8), same desktop | 182 ms | 27.5 ms | 27.6 ms | 42.2 ms |
 | the page in headless Chromium, same desktop | 170-210 ms | 40 ms for a 37-letter line, 7 ms for a 13-letter one | | |
 | the page in the desktop app's browser pane | | 41-43 ms for the 37-letter line, 28 ms for a 33-letter one | | |
 
