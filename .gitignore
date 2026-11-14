@@ -73,3 +73,6 @@ galen-density-map/outputs/review_sheets/key/
 galen-density-map/outputs/firstdrafts/*/usage.jsonl
 galen-density-map/outputs/firstdrafts/*/cost_estimate.json
 galen-density-map/outputs/firstdrafts/*/cost_projection.json
+
+# MCP server dev/test venvs
+.venv-*/
