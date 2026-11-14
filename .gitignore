@@ -81,3 +81,6 @@ galen-density-map/outputs/firstdrafts/*/cost_projection.json
 !galen-density-map/outputs/t2b/
 !galen-density-map/outputs/t2b/**
 galen-density-map/data/t2b_cache/
+
+# papyri.info idp.data (T2b spelling data); local clone only, CC BY 3.0, regenerable
+galen-density-map/data/external/

@@ -11,7 +11,13 @@ Checks
              within 1e-9
   top-k      the same k readings in the same order; where not, the score lists must agree within 1e-9 and every
              differing rank must sit inside a group of tied scores (= "up to float ties")
-  flags      same flagged segments, kinds, best alternatives, edit tags and margins (t2b_flag rounds to 2 dp)
+  flags      same flagged segments, kinds, best alternatives, edit tags and margins (t2b_flag rounds to 2 dp),
+             the same notes (alternative is also a spelling; unattested form of an attested stem), and the same
+             spellings (unattested words a spelling rule explains, accepted or not)
+  texts      whole texts read with the writer's habits (t2b_spelling.segment_text against segment_text_json,
+             t2b-cli --text): the same habits and, line by line, the same top reading and score
+Both sides use the spelling rules (outputs/t2b/spelling_rules.json; Rust: src/spelling_table.rs, generated
+from it).
 
   python -I -X utf8 t2b-wasm/tools/parity.py [--limit N]
   (build first: cargo build --release in t2b-wasm/)
@@ -36,6 +42,7 @@ sys.path.insert(0, str(PIPE))
 import t2b_scorer as T  # noqa: E402
 import t2b_export_model as X  # noqa: E402
 import t2b_flag as F  # noqa: E402
+import t2b_spelling as S  # noqa: E402
 
 CLI = REPO / "t2b-wasm" / "target" / "release" / ("t2b-cli.exe" if sys.platform == "win32" else "t2b-cli")
 OUT = T.PROJECT / "outputs" / "t2b"
@@ -92,12 +99,15 @@ class Int64Grid:
         return self.seg.lm_grid(np.asarray(prev, dtype=np.int64), np.asarray(cand, dtype=np.int64))
 
 
-def py_flags(seg_flag: T.Segmenter, rd: dict) -> list[dict]:
+def py_flags(seg_flag: T.Segmenter, rd: dict) -> tuple[list[dict], list[tuple]]:
     words = [{"raw": s["observed"], "form": s["observed"], "key": s["observed"], "n": len(s["observed"]),
               "restored": 0, "fragment": False, "elided": False} for s in rd["segments"]]
-    rows = F.flag_words(Int64Grid(seg_flag), words, margin=4.0)
-    return [{"segment": x["i"], "kind": x["kind"], "alternative": x["best_alternative"] or None,
-             "alt_edit": x["alt_edit"], "margin": x["margin_nats"]} for x in rows]
+    sps: list = []
+    rows = F.flag_words(Int64Grid(seg_flag), words, margin=4.0, spellings=sps)
+    return ([{"segment": x["i"], "kind": x["kind"], "alternative": x["best_alternative"] or None,
+              "alt_edit": x["alt_edit"], "margin": x["margin_nats"], "alt_spelling": x["alt_spelling"] or None,
+              "stem_attested": x["stem_attested"]} for x in rows],
+            [(x["i"], x["regularized"], x["rule"], x["accepted"]) for x in sps])
 
 
 def words_of(key: tuple, rd: dict) -> tuple:
@@ -120,15 +130,70 @@ def tied_ok(ps: list[float], rs: list[float], pk: list, rk: list, pw: list, rw: 
     return True
 
 
+def text_cases(n_texts: int = 12, per: int = 30) -> list[str]:
+    """Whole texts with habits to find: the Philodemus papyri (held out of the counts), lines as the editor
+    divided them, Leiden marks removed by to_continua, `per` lines to a text."""
+    out = []
+    for w in ("tlg1595.tlg221", "tlg1595.tlg370"):
+        files = [p for p in T.corpus_files(T.data_root(None)) if T.work_id(p) == w]
+        lines = [T.to_continua(x) for x in files[0].read_text(encoding="utf-8", errors="replace").splitlines()]
+        lines = [x for x in lines if len(x) >= 12]
+        for i in range(0, min(len(lines), per * n_texts // 2), per):
+            out.append("\n".join(lines[i:i + per]))
+        # texts where the writer's habits must show: the lines that carry the Herculanean ποη- for ποιη- and the
+        # assimilated nasals (συνχ-, ἐνκ-, ἐνπ-), eight to a text
+        for pat in ("ΠΟΗ", "ΣΥΝΧ", "ΕΝΚ", "ΕΝΠ"):
+            hab = [x for x in lines if pat in x]
+            for i in range(0, min(len(hab), 24), 8):
+                out.append("\n".join(hab[i:i + 8]))
+    return out
+
+
+def text_parity(seg: T.Segmenter, model: str, problems: list) -> dict:
+    texts = text_cases()
+    same_habits = same_lines = n_lines = with_habits = 0
+    for t in texts:
+        res = subprocess.run([str(CLI), model, "--text", "-k", "1"], input=t.encode("utf-8"), capture_output=True,
+                             check=True)
+        ro = json.loads(res.stdout.decode("utf-8"))
+        pr, ph = S.segment_text(seg, t, k=1)
+        rh = [(h["rule"], h["uses"], h["opportunities"]) for h in ro["habits"]]
+        phk = [(h["rule"], h["uses"], h["opportunities"]) for h in ph]
+        with_habits += bool(ph)
+        ok_h = rh == phk and all(abs(a_["text_rate"] - b_["text_rate"]) <= 1e-12 for a_, b_ in zip(ph, ro["habits"]))
+        same_habits += ok_h
+        if not ok_h:
+            problems.append({"kind": "text_habits", "py": ph, "rust": ro["habits"]})
+        for rd, line in zip(pr, ro["lines"]):
+            n_lines += 1
+            pk = tuple((g.start, g.end, g.form, g.edit) for g in rd[0].segments)
+            r0 = line["readings"][0]
+            rk = tuple((g["start"], g["end"], g["form"], g["edit"]) for g in r0["segments"])
+            ok = pk == rk and abs(rd[0].score - r0["score"]) <= TOL
+            same_lines += ok
+            if not ok:
+                problems.append({"kind": "text_line", "py": [rd[0].score, rd[0].text], "rust": [r0["score"], r0["text"]]})
+    return {"texts": len(texts), "texts_with_habits": with_habits, "habits_identical": same_habits,
+            "lines": n_lines, "top1_identical": same_lines}
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--model", default=str(X.MODEL))
     ap.add_argument("--limit", type=int, default=0, help="lines per split (0 = all)")
+    ap.add_argument("--texts-only", action="store_true", help="only the whole-text (habits) check")
     a = ap.parse_args(argv)
-    rows = inputs(a.limit)
     counts = X.read_model(Path(a.model))
-    seg = T.Segmenter(T.Lexicon(counts))
-    seg_flag = T.Segmenter(T.Lexicon(counts))
+    if a.texts_only:
+        probs: list = []
+        seg_t = T.Segmenter(T.Lexicon(counts, spelling=S.SpellingRules.load()))
+        print(json.dumps(text_parity(seg_t, a.model, probs)), len(probs))
+        for p_ in probs[:5]:
+            print(json.dumps(p_, ensure_ascii=False)[:600])
+        return
+    rows = inputs(a.limit)
+    seg = T.Segmenter(T.Lexicon(counts, spelling=S.SpellingRules.load()))
+    seg_flag = T.Segmenter(T.Lexicon(counts, spelling=S.SpellingRules.load()))
     # Rust
     with tempfile.TemporaryDirectory() as td:
         inp = Path(td) / "in.txt"
@@ -170,28 +235,32 @@ def main(argv=None):
             terms = all(abs(a_["lm"] - b_["lm"]) <= TOL and abs(a_["chan"] - b_["chan"]) <= TOL
                         for a_, b_ in zip(pr[0]["segments"], rr[0]["segments"]))
             t["seg_terms"] += terms
-            pf = py_flags(seg_flag, pr[0])
+            pf, psp = py_flags(seg_flag, pr[0])
             rf = [{"segment": f["segment"], "kind": f["kind"], "alternative": f["alternative"],
-                   "alt_edit": f["alt_edit"], "margin": f["margin"]} for f in ro["readings"][0]["flags"]]
-            same = len(pf) == len(rf) and all(
+                   "alt_edit": f["alt_edit"], "margin": f["margin"], "alt_spelling": f["alt_spelling"],
+                   "stem_attested": f["stem_attested"]} for f in ro["readings"][0]["flags"]]
+            rsp = [(x["segment"], x["regularized"], x["rule"], x["accepted"]) for x in ro["readings"][0]["spellings"]]
+            same = len(pf) == len(rf) and psp == rsp and all(
                 x["segment"] == y["segment"] and x["kind"] == y["kind"] and x["alternative"] == y["alternative"]
-                and x["alt_edit"] == y["alt_edit"]
+                and x["alt_edit"] == y["alt_edit"] and x["alt_spelling"] == y["alt_spelling"]
+                and x["stem_attested"] == y["stem_attested"]
                 and ((x["margin"] is None and y["margin"] is None)
                      or (x["margin"] is not None and y["margin"] is not None
                          and abs(x["margin"] - y["margin"]) <= 0.0051))
                 for x, y in zip(pf, rf))
             t["flags"] += same
             if not same:
-                problems.append({"row": row, "kind": "flags", "py": pf, "rust": rf})
+                problems.append({"row": row, "kind": "flags", "py": [pf, psp], "rust": [rf, rsp]})
             if not terms:
                 problems.append({"row": row, "kind": "terms"})
         else:
             problems.append({"row": row, "kind": "top1", "py": [ps[0], pk[0]], "rust": [rs[0], rk[0]]})
     py_s = time.time() - t0
+    texts = text_parity(seg, a.model, problems)
     tot = {k: sum(v[k] for v in tally.values()) for k in next(iter(tally.values()))}
     report = {"model": str(Path(a.model).relative_to(REPO)) if Path(a.model).is_relative_to(REPO) else a.model,
               "k": K, "by_level": tally, "total": tot, "rust_seconds": round(rust_s, 1),
-              "python_seconds": round(py_s, 1), "rust_timing": timing, "problems": problems[:50],
+              "python_seconds": round(py_s, 1), "rust_timing": timing, "texts": texts, "problems": problems[:50],
               "n_problems": len(problems)}
     lines = ["| inputs | level | top-1 identical | top-1 tie-only | top-k identical | top-k up to ties | segment terms "
              "(of top-1 identical) | flags identical | normalised input identical |",

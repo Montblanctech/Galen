@@ -1,0 +1,16 @@
+{
+ "source": "papyri.info idp.data (DDbDP, DCLP), CC BY 3.0",
+ "seed": "t2b-spelling-2026",
+ "test_share": "1 in 10 documents",
+ "DCLP_docs": 14850,
+ "DCLP_docs_unaligned": 12679,
+ "test_words": 397155,
+ "test_pairs": 11823,
+ "train_words": 3456057,
+ "train_pairs": 104581,
+ "train_sic_corr": 1400,
+ "test_sic_corr": 545,
+ "DDbDP_docs": 67981,
+ "DDbDP_docs_unaligned": 8366,
+ "files": 82831
+}

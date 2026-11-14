@@ -166,20 +166,18 @@ def main():
     if attrs.get("error") or attrs.get("done") != "2":
         raise SystemExit(f"page did not finish: {attrs} (browser {exe})")
     m = re.search(r'<pre id="json">(.*?)</pre>', dom, re.S)
-    got = json.loads(html.unescape(m.group(1)))
-    best = [x["result"]["readings"][0]["text"] for x in got]
+    got = json.loads(html.unescape(m.group(1)))       # the whole text: {"lines": [...], "habits": [...]}
+    best = [x["readings"][0]["text"] for x in got["lines"]]
     assert best == WANT_BEST, best
     shown = re.findall(r'<article class="line" data-best="([^"]*)"', dom)
     assert [html.unescape(s) for s in shown] == WANT_BEST, shown
-    # the page's JSON must equal the native CLI's, line by line
-    nat = subprocess.run([str(CLI), str(DOCS / "tools" / "autocorrect" / "model.bin"), "-k", "5"],
+    # the page's JSON must equal the native CLI's whole-text output (--text: the writer's habits included)
+    nat = subprocess.run([str(CLI), str(DOCS / "tools" / "autocorrect" / "model.bin"), "--text", "-k", "5"],
                          input=TEXT.encode("utf-8"), capture_output=True, check=True).stdout.decode("utf-8")
-    nat_rows = [json.loads(x) for x in nat.splitlines()]
-    assert [x["result"] for x in got] == nat_rows, "page result differs from the native CLI"
+    assert got == json.loads(nat), "page result differs from the native CLI"
     status = re.search(r'<p id="status"[^>]*>(.*?)</p>', dom, re.S).group(1)
     report = {"browser": Path(exe).name, "load_ms": int(attrs.get("load") or -1),
-              "segment_ms": [round(x["ms"], 2) for x in got], "best": best, "status": html.unescape(status),
-              "same_as_native": True}
+              "best": best, "habits": got["habits"], "status": html.unescape(status), "same_as_native": True}
     print(json.dumps(report, ensure_ascii=False, indent=1))
 
 

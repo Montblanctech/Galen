@@ -1,6 +1,6 @@
 /* Offline copy of the autocorrect page: the page, its glue, the engine and the counts, cached on first visit.
    Bump VERSION when any of them changes. */
-var VERSION = 't2b-autocorrect-v1';
+var VERSION = 't2b-autocorrect-v2';
 var FILES = ['./', 'index.html', 'glue.js', 't2b.wasm', 'model.bin', '../../site.css'];
 self.addEventListener('install', function (e) {
   e.waitUntil(caches.open(VERSION).then(function (c) { return c.addAll(FILES); }).then(function () { return self.skipWaiting(); }));

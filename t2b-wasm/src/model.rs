@@ -17,7 +17,7 @@ pub struct Model {
     row_off: Vec<u32>, // left id -> range in right / bcount
     right: Vec<u32>,
     bcount: Vec<u32>,
-    by_key: Vec<u32>,  // ids in key order
+    pub by_key: Vec<u32>,  // ids in key order
     by_fold: Vec<u32>, // ids in (folded key, id) order
 }
 

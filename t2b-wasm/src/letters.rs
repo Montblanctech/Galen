@@ -17,6 +17,18 @@ pub const FOLD: [u8; 25] = [0, 1, 2, 0, 4, 5, 6, 4, 8, 9, 0, 11, 6, 13, 4, 15, 1
 pub const CLASS_SIZE: [u8; 25] = [3, 2, 2, 3, 4, 2, 2, 4, 2, 2, 3, 2, 2, 2, 4, 2, 2, 4, 2, 2, 2, 2, 2, 2, 2];
 
 /// sorted({fold(c) for c in LETTERS})
+/// Α Ε Η Ι Ο Υ Ω (t2b_spelling.VOWELS)
+pub const VOWEL: [bool; 25] = {
+    let mut v = [false; 25];
+    v[0] = true;
+    v[4] = true;
+    v[6] = true;
+    v[8] = true;
+    v[14] = true;
+    v[19] = true;
+    v[23] = true;
+    v
+};
 pub const FOLD_ALPHABET: [u8; 17] = [0, 1, 2, 4, 5, 6, 8, 9, 11, 13, 15, 16, 19, 20, 21, 22, 23];
 
 /// The constants of t2b_scorer, with the logs taken as Python's math.log computes them (bit patterns), so the

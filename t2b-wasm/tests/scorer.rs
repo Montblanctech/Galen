@@ -272,9 +272,11 @@ fn real_model_matches_python_reference() {
 /// "fold_range(fo[:p] + ch + fo[p:])" loop finds, in the same order.
 #[test]
 fn deletion_lookup_equals_the_plain_loop() {
-    let Some(sc) = real() else {
+    let Some(mut sc) = real() else {
         return;
     };
+    sc.spelling = false; // a spelling can reach the same form at a better cost and take its place
+    let sc = sc;
     let m = &sc.m;
     let mut rng: u64 = 12345;
     let mut next = || {
@@ -327,4 +329,34 @@ fn deletion_lookup_equals_the_plain_loop() {
         checked += 1;
     }
     assert!(checked > 1000);
+}
+
+#[test]
+fn spelling_channel_reads_ancient_spellings_of_unattested_forms() {
+    let forms = [("ΚΑΙ", 500, 480, 40), ("ΠΟΙΗΤΗΣ", 80, 70, 10), ("ΚΑΛΟΣ", 50, 40, 8), ("ΚΑΛΩΣ", 60, 50, 9)];
+    let bigrams = [("ΚΑΙ", "ΠΟΙΗΤΗΣ", 20)];
+    let sc = Scorer::new(Model::from_bytes(&encode(&forms, &bigrams, 10_000, 2)).unwrap());
+    // ΠΟΗΤΗΣ: unattested; ΟΙ written Ο before a vowel gives ΠΟΙΗΤΗΣ
+    let cs = sc.candidates(&codes("ΠΟΗΤΗΣ"), 8);
+    let top = cs.first().expect("a candidate");
+    assert_eq!(key(&sc, top.id), "ΠΟΙΗΤΗΣ");
+    let Edit::Var(k) = top.edit else { panic!("expected a spelling, got {:?}", top.edit) };
+    assert_eq!(t2b::rule_label(k), "ΟΙ written Ο before a vowel");
+    // ΚΑΛΟΣ is attested as written: no spelling candidate is offered
+    assert!(sc.candidates(&codes("ΚΑΛΟΣ"), 8).iter().all(|c| !matches!(c.edit, Edit::Var(_))));
+    // the best reading keeps the spelling as a Var segment, and it is not flagged
+    let (s, rs) = sc.segment("ΚΑΙΠΟΗΤΗΣ", 1);
+    let r = &rs[0];
+    assert!(matches!(r.segments[1].edit, Edit::Var(_)));
+    let (flags, sps) = sc.flags_and_spellings(&s, r);
+    assert!(flags.is_empty());
+    assert_eq!(sps.len(), 1);
+    assert!(sps[0].accepted);
+    assert_eq!(t2b::scorer::var_position(&codes("ΠΟΗΤΗΣ"), k, &codes("ΠΟΙΗΤΗΣ")), Some(1));
+}
+
+#[test]
+fn poisson_tail_matches_closed_forms() {
+    assert!((t2b::scorer::poisson_tail(0, 2.0) - 1.0).abs() < 1e-15);
+    assert!((t2b::scorer::poisson_tail(1, 2.0) - (1.0 - (-2.0f64).exp())).abs() < 1e-12);
 }

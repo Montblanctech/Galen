@@ -5,6 +5,7 @@
 use crate::letters::*;
 use crate::math::{exp, ln};
 use crate::model::Model;
+use crate::spelling_table::RULES;
 use std::collections::HashMap;
 
 pub const BEAM: usize = 48;
@@ -13,6 +14,10 @@ pub const CAND_TOP: usize = 8;
 pub const MAX_UNK: usize = 10;
 pub const FLAG_TOP: usize = 12;
 pub const FLAG_MARGIN: f64 = 4.0;
+/// t2b_flag.SPELLING_MIN_RATE: a spelling rule rarer than this explains a word only as the writer's habit
+pub const SPELLING_MIN_COST: f64 = -6.907755278982137; // math.log(1e-3)
+/// t2b_scorer.ENDING_LEN: the last letters of a word, where an inflection lives
+pub const ENDING_LEN: usize = 3;
 
 #[derive(Clone, Copy, Debug, PartialEq)]
 pub enum Edit {
@@ -20,6 +25,8 @@ pub enum Edit {
     Sub(u32),
     /// a lost letter restored: the letter, its position in the form, and substitutions besides
     Lost { letter: u8, pos: u32, subs: u32 },
+    /// an ancient spelling: rule `k` of the spelling table, applied backwards
+    Var(u16),
     Unknown,
 }
 
@@ -36,6 +43,7 @@ impl Edit {
                 }
                 s
             }
+            Edit::Var(k) => format!("var:{k}"),
             Edit::Unknown => "unknown".into(),
         }
     }
@@ -74,6 +82,32 @@ pub struct Flag {
     pub best: Option<(u32, Edit, f64)>,
 }
 
+/// An unattested word that one spelling rule turns into an attested form (t2b_flag.flag_words `spellings`)
+#[derive(Clone, Debug)]
+pub struct Spelling {
+    pub segment: usize,
+    pub id: u32,
+    pub rule: u16,
+    pub accepted: bool,
+}
+
+/// What a flag says besides its kind: the misreading is also a known spelling; an unattested form of an
+/// attested stem
+#[derive(Clone, Debug, Default)]
+pub struct FlagNotes {
+    pub alt_spelling: Option<u16>,
+    pub stem_attested: bool,
+}
+
+/// 0 = before a vowel, 1 = before a consonant, 2 = at the word end (t2b_spelling.right_class)
+pub fn right_class(next: Option<u8>) -> u8 {
+    match next {
+        None => 2,
+        Some(c) if VOWEL[c as usize] => 0,
+        Some(_) => 1,
+    }
+}
+
 impl Flag {
     pub fn kind(&self) -> &'static str {
         match (self.unattested, self.alternative) {
@@ -91,6 +125,13 @@ pub struct Scorer {
     pu: Vec<f64>,     // exp(ulogp)
     log_pu: Vec<f64>, // log(pu)
     b_coef_n1: Vec<f64>,
+    /// the spelling channel: rule indices by their written side, the written-side lengths, current costs
+    sp_by_orig: HashMap<Vec<u8>, Vec<u16>>,
+    sp_lens: Vec<usize>,
+    pub sp_costs: Vec<f64>,
+    pub spelling: bool,
+    /// token counts of attested forms by their last ENDING_LEN letters (Lexicon.endings)
+    endings: HashMap<Vec<u8>, u64>,
 }
 
 #[derive(Clone, Copy)]
@@ -133,7 +174,81 @@ impl Scorer {
         let pu: Vec<f64> = ulogp.iter().map(|&x| exp(x)).collect();
         let log_pu: Vec<f64> = pu.iter().map(|&x| ln(x)).collect();
         let b_coef_n1 = m.n1.iter().map(|&x| DISCOUNT * x as f64).collect();
-        Scorer { m, log_n, ulogp, pu, log_pu, b_coef_n1 }
+        let mut sp_by_orig: HashMap<Vec<u8>, Vec<u16>> = HashMap::new();
+        for (k, r) in RULES.iter().enumerate() {
+            sp_by_orig.entry(r.orig.to_vec()).or_default().push(k as u16);
+        }
+        let mut sp_lens: Vec<usize> = sp_by_orig.keys().map(|o| o.len()).collect();
+        sp_lens.sort();
+        sp_lens.dedup();
+        let sp_costs = RULES.iter().map(|r| r.cost).collect();
+        let mut endings: HashMap<Vec<u8>, u64> = HashMap::new();
+        for id in 0..m.n as u32 {
+            let k = m.key(id);
+            if k.len() > ENDING_LEN {
+                *endings.entry(k[k.len() - ENDING_LEN..].to_vec()).or_insert(0) += m.uni[id as usize] as u64;
+            }
+        }
+        Scorer { m, log_n, ulogp, pu, log_pu, b_coef_n1, sp_by_orig, sp_lens, sp_costs, spelling: true, endings }
+    }
+
+    /// w ends in an ending that attested words with at least 1/10,000 of the tokens end in (Lexicon.common_ending)
+    pub fn common_ending(&self, w: &[u8]) -> bool {
+        w.len() > ENDING_LEN
+            && self.endings.get(&w[w.len() - ENDING_LEN..]).copied().unwrap_or(0) * 10_000 >= self.m.n_tokens as u64
+    }
+
+    /// at least `need` attested forms share all but the last ENDING_LEN letters of w (Lexicon.stem_attested)
+    pub fn stem_attested(&self, w: &[u8], need: usize) -> bool {
+        if w.len() < 6 || !self.common_ending(w) {
+            return false;
+        }
+        let stem = &w[..w.len() - ENDING_LEN];
+        let v = &self.m.by_key;
+        let lo = v.partition_point(|&id| self.m.key(id) < stem);
+        let mut n = 0;
+        for &id in &v[lo..] {
+            if !self.m.key(id).starts_with(stem) {
+                break;
+            }
+            n += 1;
+            if n >= need {
+                return true;
+            }
+        }
+        false
+    }
+
+    /// Document-adapted rule costs; None restores the table's costs (Lexicon.set_spelling_costs)
+    pub fn set_spelling_costs(&mut self, costs: Option<Vec<f64>>) {
+        self.sp_costs = costs.unwrap_or_else(|| RULES.iter().map(|r| r.cost).collect());
+    }
+
+    /// every single-rule rewrite of `obs` back to a regularized string: (string, rule, cost), position
+    /// ascending, then written-side length ascending, then rule index (SpellingRules.rewrites)
+    pub fn rewrites(&self, obs: &[u8], mut f: impl FnMut(&[u8], u16, f64, usize, usize)) {
+        let n = obs.len();
+        let mut buf: Vec<u8> = Vec::with_capacity(n + 3);
+        for i in 0..n {
+            for &l in &self.sp_lens {
+                if i + l > n {
+                    break;
+                }
+                let Some(ks) = self.sp_by_orig.get(&obs[i..i + l]) else { continue };
+                let rc = right_class(obs.get(i + l).copied());
+                for &k in ks {
+                    let r = &RULES[k as usize];
+                    if r.right != rc || (r.start && i != 0) {
+                        continue;
+                    }
+                    buf.clear();
+                    buf.extend_from_slice(&obs[..i]);
+                    buf.extend_from_slice(r.reg);
+                    buf.extend_from_slice(&obs[i + l..]);
+                    f(&buf, k, self.sp_costs[k as usize], i, l);
+                }
+            }
+        }
     }
 
     /// log P(w | prev) under the interpolated absolute-discounting bigram LM (Segmenter.lm_grid); prev < 0 =
@@ -215,6 +330,24 @@ impl Scorer {
                 if p < fo.len() {
                     (plo, phi) = self.m.fold_narrow(plo, phi, p, fo[p]);
                 }
+            }
+        }
+        if self.spelling && self.m.exact(obs).is_none() {
+            // Lexicon.spelling_rewrites: a rewrite touching the last ENDING_LEN letters is skipped when obs ends
+            // in a common ending
+            let gate = self.common_ending(obs);
+            let n = obs.len();
+            let mut found: Vec<Cand> = Vec::new();
+            self.rewrites(obs, |rw, k, cost, i, l| {
+                if gate && i + l + ENDING_LEN > n {
+                    return;
+                }
+                if let Some(id) = self.m.exact(rw) {
+                    found.push(Cand { id, cost, edit: Edit::Var(k) });
+                }
+            });
+            for c in found {
+                put(&mut out, c);
             }
         }
         // sorted(out.items(), key=lambda kv: -(unigram_logp + cost))[:top] -- a stable sort on the key
@@ -394,9 +527,38 @@ impl Scorer {
     /// it is unattested as written, or if a form reachable through the channel scores more than 4 nats
     /// better in context (P(w | prev) + channel + P(next | w)).
     pub fn flags(&self, s: &[u8], r: &Reading) -> Vec<Flag> {
+        self.flags_and_spellings(s, r).0
+    }
+
+    /// t2b_flag.flag_words' alt_spelling and stem_attested for one flag
+    pub fn flag_notes(&self, obs: &[u8], f: &Flag) -> FlagNotes {
+        let mut n = FlagNotes::default();
+        if !self.spelling {
+            return n;
+        }
+        if f.alternative {
+            if let Some((id, _, _)) = f.best {
+                let form = self.m.key(id);
+                let mut hit: Option<u16> = None;
+                self.rewrites(obs, |rw, k, cost, _, _| {
+                    if hit.is_none() && rw == form && cost >= SPELLING_MIN_COST {
+                        hit = Some(k);
+                    }
+                });
+                n.alt_spelling = hit;
+            }
+        }
+        n.stem_attested = f.unattested && self.stem_attested(obs, 3);
+        n
+    }
+
+    /// The flags, and the unattested words that a spelling rule explains (accepted ones are not flagged):
+    /// t2b_flag.flag_words with its `spellings` list.
+    pub fn flags_and_spellings(&self, s: &[u8], r: &Reading) -> (Vec<Flag>, Vec<Spelling>) {
         let words: Vec<&[u8]> = r.segments.iter().map(|g| &s[g.start..g.end]).collect();
         let ids: Vec<i64> = words.iter().map(|w| self.m.exact(w).map(|x| x as i64).unwrap_or(-1)).collect();
         let mut out = Vec::new();
+        let mut sps = Vec::new();
         for (i, w) in words.iter().enumerate() {
             let prev = if i > 0 { ids[i - 1] } else { -1 };
             let nxt = ids.get(i + 1).copied();
@@ -407,16 +569,34 @@ impl Scorer {
             };
             let base = self.flag_lp(prev, wid) + next_term(wid);
             let mut best: Option<(f64, u32, Edit)> = None;
+            let mut var: Option<(f64, u32, u16, f64)> = None;
             for c in self.candidates(w, FLAG_TOP) {
                 if c.id as i64 == wid {
                     continue;
                 }
                 let sc = self.flag_lp(prev, c.id as i64) + c.cost + next_term(c.id as i64);
+                if let Edit::Var(k) = c.edit {
+                    if var.map_or(true, |v| sc > v.0) {
+                        var = Some((sc, c.id, k, c.cost));
+                    }
+                    continue;
+                }
                 if best.map_or(true, |b| sc > b.0) {
                     best = Some((sc, c.id, c.edit));
                 }
             }
             let unatt = wid < 0;
+            if unatt && self.spelling {
+                if let Some((vs, vid, k, vcost)) = var {
+                    let accepted = self.sp_costs[k as usize] >= SPELLING_MIN_COST && vcost >= SPELLING_MIN_COST;
+                    let misread_better = best.is_some_and(|b| b.0 - vs > FLAG_MARGIN);
+                    let ok = accepted && !misread_better;
+                    sps.push(Spelling { segment: i, id: vid, rule: k, accepted: ok });
+                    if ok {
+                        continue;
+                    }
+                }
+            }
             let alt = best.is_some_and(|b| b.0 - base > FLAG_MARGIN);
             if unatt || alt {
                 out.push(Flag {
@@ -427,6 +607,82 @@ impl Scorer {
                 });
             }
         }
-        out
+        (out, sps)
     }
+}
+
+/// Where rule `k`, applied backwards at some position of `obs`, gives `form` (the first such position)
+pub fn var_position(obs: &[u8], k: u16, form: &[u8]) -> Option<usize> {
+    let r = &RULES[k as usize];
+    let l = r.orig.len();
+    if obs.len() < l {
+        return None;
+    }
+    for i in 0..=obs.len() - l {
+        if &obs[i..i + l] != r.orig || right_class(obs.get(i + l).copied()) != r.right || (r.start && i != 0) {
+            continue;
+        }
+        if obs[..i].iter().chain(r.reg.iter()).chain(obs[i + l..].iter()).copied().eq(form.iter().copied()) {
+            return Some(i);
+        }
+    }
+    None
+}
+
+/// How often each rule's regularized side (with its right context) occurs in `forms`
+/// (t2b_spelling.opportunities)
+pub fn opportunities(forms: &[Vec<u8>]) -> std::collections::BTreeMap<u16, u32> {
+    let mut c = std::collections::BTreeMap::new();
+    for w in forms {
+        for (k, r) in RULES.iter().enumerate() {
+            let l = r.reg.len();
+            if w.len() < l {
+                continue;
+            }
+            for i in 0..=w.len() - l {
+                if &w[i..i + l] == r.reg && right_class(w.get(i + l).copied()) == r.right && (!r.start || i == 0) {
+                    *c.entry(k as u16).or_insert(0) += 1;
+                }
+            }
+        }
+    }
+    c
+}
+
+/// The writer's habits (t2b_spelling.adapt_costs): None if no rule is used at least HABIT_MIN times
+pub fn adapt_costs(
+    uses: &std::collections::BTreeMap<u16, u32>,
+    opps: &std::collections::BTreeMap<u16, u32>,
+) -> Option<Vec<f64>> {
+    let mut out: Vec<f64> = RULES.iter().map(|r| r.cost).collect();
+    let mut changed = false;
+    for (&k, &u) in uses {
+        if u < crate::spelling_table::HABIT_MIN {
+            continue;
+        }
+        let r = &RULES[k as usize];
+        let o = opps.get(&k).copied().unwrap_or(0).max(u) as f64;
+        if poisson_tail(u, o * r.rate) >= crate::spelling_table::HABIT_P {
+            continue;
+        }
+        let prior = crate::spelling_table::HABIT_PRIOR;
+        let rate = (u as f64 + prior * r.rate) / (o + prior);
+        let c = ln(if rate < 0.5 { rate } else { 0.5 });
+        if c > out[k as usize] {
+            out[k as usize] = c;
+            changed = true;
+        }
+    }
+    if changed { Some(out) } else { None }
+}
+
+/// P(X >= u) for X ~ Poisson(lam) (t2b_spelling.poisson_tail)
+pub fn poisson_tail(u: u32, lam: f64) -> f64 {
+    let mut s = 0.0f64;
+    let mut term = exp(-lam);
+    for j in 0..u {
+        s += term;
+        term *= lam / (j as f64 + 1.0);
+    }
+    1.0 - s
 }
