@@ -1,0 +1,40 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>First Drafts review sheets</title><style>
+:root{--ink:#1d1b18;--muted:#5d5850;--rule:#c9c2b6;--tint:#f4f1ea;--diff:#8a3b12;--bg:#fffdf9}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--ink:#ece7dd;--muted:#b3ab9e;--rule:#575148;--tint:#2a2723;--diff:#f0a070;--bg:#1b1916}}
+:root[data-theme="dark"]{--ink:#ece7dd;--muted:#b3ab9e;--rule:#575148;--tint:#2a2723;--diff:#f0a070;--bg:#1b1916}
+*{box-sizing:border-box}
+body{margin:0 auto;max-width:60rem;padding:1.5rem 16px 4rem;background:var(--bg);color:var(--ink);
+ font:15px/1.5 "Gentium Plus","Gentium Book Plus","Palatino Linotype","Book Antiqua",Georgia,"Times New Roman",serif}
+h1{font-size:1.45rem;margin:.2rem 0 .3rem}h2{font-size:1.1rem;margin:0 0 .4rem}
+.small{font-size:.85rem;color:var(--muted)}
+.cover{border-bottom:2px solid var(--ink);padding-bottom:1rem;margin-bottom:1.5rem}
+.cover ol{padding-left:1.2rem}.cover li{margin:.2rem 0}
+.line{display:inline-block;min-width:14rem;border-bottom:1px solid var(--ink)}
+.unit{border-top:2px solid var(--ink);padding-top:.8rem;margin-top:2rem}
+.uh{display:flex;flex-wrap:wrap;gap:.3rem 1.2rem;align-items:baseline}
+.uh .no{font-weight:700;font-size:1.1rem}
+.grc{font-size:1.02rem;margin:.6rem 0;padding:.6rem .8rem;background:var(--tint);border-radius:3px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.cols h3{font-size:.95rem;margin:.2rem 0;letter-spacing:.03em}
+.cols p{margin:.2rem 0;text-align:left}
+.pg{color:var(--muted);font-size:.8em}
+table{border-collapse:collapse;width:100%;margin:.8rem 0;font-size:.9rem}
+th,td{border-bottom:1px solid var(--rule);padding:.25rem .4rem;text-align:left;vertical-align:top}
+th{font-weight:600}
+tr.differ td.r{color:var(--diff);font-weight:600}
+.form{border:1px solid var(--ink);padding:.6rem .8rem;margin-top:.6rem;break-inside:avoid}
+.form .q{margin:.35rem 0}.box{display:inline-block;margin-right:1.1rem;white-space:nowrap}
+.box::before{content:"";display:inline-block;width:.85em;height:.85em;border:1px solid var(--ink);margin-right:.3em;vertical-align:-.1em}
+.write{border-bottom:1px solid var(--rule);height:1.6em}
+.index li{margin:.3rem 0}
+a{color:inherit}
+@media (max-width:640px){.cols{grid-template-columns:1fr}}
+@media print{body{max-width:none;padding:0;font-size:11pt;background:#fff;color:#000}
+ .unit{break-before:page;margin-top:0;border-top:none}.grc{background:none;border:1px solid #999}
+ .noprint{display:none}a{text-decoration:none}}
+@page{margin:16mm 14mm}
+</style></head><body><h1>Galen First Drafts: review sheets</h1>
+<p>One set of sheets per work, about ten passages each, chosen by a fixed seeded rule. Each sheet shows the Greek, two machine renderings
+and the words the pipeline singled out with their LSJ first sense, and asks four short questions. Print a work's page (one passage per sheet)
+or fill in its CSV. Instructions: <code>reviewer_instructions.md</code>.</p>
+<ul class=index><li><a href="adversus-lycum.html"><i>Adversus Lycum</i></a> — Against Lycus · 10 passages · <a href="adversus-lycum.csv">CSV</a></li><li><a href="comp-per-genera.html"><i>De compositione medicamentorum per genera</i></a> — On the Composition of Drugs by Kind · 10 passages · <a href="comp-per-genera.csv">CSV</a></li><li><a href="hirudinibus.html"><i>De hirudinibus, revulsione, cucurbitula, incisione et scarificatione</i></a> — On Leeches, Revulsion, Cupping, Incision and Scarification · 6 passages · <a href="hirudinibus.csv">CSV</a></li><li><a href="quos-quibus.html"><i>Quos quibus catharticis medicamentis et quando purgare oporteat</i></a> — Whom to Purge, with Which Cathartic Drugs, and When · 10 passages · <a href="quos-quibus.csv">CSV</a></li><li><a href="purgantium-facultate.html"><i>De purgantium medicamentorum facultate</i></a> — On the Power of Purgative Drugs · 10 passages · <a href="purgantium-facultate.csv">CSV</a></li><li><a href="morbi-temporibus.html"><i>De totius morbi temporibus</i></a> — On the Periods of the Whole Disease · 10 passages · <a href="morbi-temporibus.csv">CSV</a></li><li><a href="adversus-typos.html"><i>Adversus eos qui de typis scripserunt vel de circuitibus</i></a> — Against Those Who Wrote on Types or on Periods (of Fever) · 10 passages · <a href="adversus-typos.csv">CSV</a></li><li><a href="in-hipp-acut.html"><i>In Hippocratis De victu acutorum commentaria, libri II–IV</i></a> — Commentary on Hippocrates&#x27; Regimen in Acute Diseases, Books II–IV · 10 passages · <a href="in-hipp-acut.csv">CSV</a></li><li><a href="de-plenitudine.html"><i>De plenitudine</i></a> — On Plethora · 10 passages · <a href="de-plenitudine.csv">CSV</a></li><li><a href="de-comate.html"><i>De comate secundum Hippocratem</i></a> — On Coma according to Hippocrates · 10 passages · <a href="de-comate.csv">CSV</a></li><li><a href="in-hipp-salubri.html"><i>In Hippocratis vel Polybi opus De salubri victus ratione privatorum commentarius</i></a> — Commentary on Hippocrates&#x27; (or Polybus&#x27;) Regimen in Health for Private Persons · 10 passages · <a href="in-hipp-salubri.csv">CSV</a></li><li><a href="de-humero.html"><i>De humero iis modis prolapso quos Hippocrates non vidit</i></a> — On the Shoulder Dislocated in Ways Hippocrates Did Not See · 10 passages · <a href="de-humero.csv">CSV</a></li><li><a href="difficultate-respirationis.html"><i>De difficultate respirationis</i></a> — On Difficulty of Breathing · 10 passages · <a href="difficultate-respirationis.csv">CSV</a></li></ul><p class=small>Built from <code>outputs/firstdrafts/</code> by <code>pipeline/review_sheets.py</code>; seed 20261113.</p></body></html>

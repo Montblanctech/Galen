@@ -57,12 +57,33 @@ def head_tags(rel: str, title: str, desc: str) -> str:
             f'<link rel="canonical" href="{e(url)}">')
 
 
+def descriptions(F: dict) -> dict[str, str]:
+    """Meta descriptions for the pages whose generators write none (2026-11-13 site audit). Before, these pages got the
+    work-page fallback ("a machine first draft in English, with the Greek beside it"), which is wrong for a leaderboard
+    or a term list, in link previews and search results. Numbers from facts.json."""
+    lsj = (f" (LSJ-Gold {F['lsjgold.version']}: {F['lsjgold.loci']:,} relocated loci over {F['lsjgold.authors']} authors)"
+           if all(k in F for k in ("lsjgold.version", "lsjgold.loci", "lsjgold.authors")) else "")
+    ls = (f" ({F['lsgold.loci']:,} relocated loci over {F['lsgold.authors']} authors)" if all(k in F for k in ("lsgold.loci", "lsgold.authors")) else "")
+    return {
+        "lsj-gold/index.html": f"Leaderboard of Ancient Greek lemmatizers on the words the LSJ dictionary cites{lsj}. Open data, CC BY 4.0.",
+        "lsj-gold/coverage.html": "LSJ coverage map: every work the Liddell-Scott-Jones dictionary cites, which of them have a free edition, and how many citations LSJ-Gold relocated in each.",
+        "lsj-gold/failures.html": "LSJ-Gold failure catalogue: where the Dilemma and odyCy lemmatizers miss the LSJ headword, sorted into classes by mechanical rules.",
+        "ls-gold/index.html": f"Leaderboard of Latin lemmatizers on the words Lewis & Short cites{ls}. Open data, CC BY-SA 4.0.",
+        "galen-terms/index.html": "Galen Term Explorer: every word Galen's medical works over-use against the rest of Greek, with its LSJ entry, Dilemma headword and contexts.",
+        "terms/index.html": "Term Explorer by author: the words Diophantus, John Philoponus and Philodemus over-use against the rest of Greek, with their LSJ entries.",
+        "terms/tlg1595/index.html": "Philodemus Term Explorer: the words Philodemus over-uses against the rest of Greek, with LSJ tier and Dilemma headword.",
+        "terms/tlg2039/index.html": "Diophantus Term Explorer: the words Diophantus over-uses against the rest of Greek, with LSJ tier and Dilemma headword.",
+        "terms/tlg4015/index.html": "John Philoponus Term Explorer: the words Philoponus over-uses against the rest of Greek, with LSJ tier and Dilemma headword.",
+    }
+
+
 def jsonld(obj: dict) -> str:
     return '<script type="application/ld+json">' + json.dumps(obj, ensure_ascii=False) + "</script>"
 
 
-def apply(n_works: int, n_words: int, n_findings: int, not_public: set[str]) -> int:
+def apply(n_works: int, n_words: int, n_findings: int, not_public: set[str], facts: dict | None = None) -> int:
     draw_card(n_works, n_words, n_findings)
+    known = descriptions(facts or {})
     author = {"@type": "Person", "name": "William Pepperman"}
     ld = {
         "index.html": jsonld({"@context": "https://schema.org", "@graph": [
@@ -90,8 +111,15 @@ def apply(n_works: int, n_words: int, n_findings: int, not_public: set[str]) -> 
         m = re.search(r"<title>(.*?)</title>", t, re.S)
         title = html.unescape(m.group(1)).strip() if m else "Galen in English"
         m = re.search(r'<meta name=["\']?description["\']? content="([^"]*)"', t)
-        desc = html.unescape(m.group(1)) if m else f"{title}: a machine first draft in English, with the Greek beside it. Unverified; for reading and correcting."
-        add = head_tags(rel, title, desc) + ld.get(rel, "")
+        own = ""
+        if m:
+            desc = html.unescape(m.group(1))
+        else:
+            # the page's generator wrote no description: supply one inside the share block, so a rerun replaces it
+            # (search engines read the meta description, not og:description)
+            desc = known.get(rel) or f"{title}. Galen Density Project: Galen in English, with data and tools for Ancient Greek."
+            own = f'<meta name=description content="{html.escape(desc, quote=True)}">'
+        add = head_tags(rel, title, desc).replace(MARK, MARK + own, 1) + ld.get(rel, "")
         f.write_text(t.replace("</head>", add + "</head>", 1), encoding="utf-8")
         n += 1
     return n

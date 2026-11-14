@@ -1,5 +1,5 @@
 <!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>
-<title>Galen, On Difficulty of Breathing — machine first draft v0.1</title>
+<title>Galen, On Difficulty of Breathing — machine first draft v0.1</title><meta name=description content="Galen, On Difficulty of Breathing (De difficultate respirationis): a machine first draft in English with the Greek beside it, two independent renderings and the machine checks. Unverified; for reading and correcting.">
 <style>
 body{font:15px/1.5 Georgia,serif;max-width:1400px;margin:0 auto;padding:0 1rem 3rem;color:#222;background:#fff}
 .banner{background:#7a1f1f;color:#fff;padding:.6rem 1rem;font-size:.95em;position:sticky;top:0;z-index:5}
@@ -10,11 +10,11 @@ table.sum{border-collapse:collapse;margin:.5rem 0} table.sum td,table.sum th{bor
 .unit{margin:1.2rem 0;padding:.4rem 0} .unit.fail{border-left:6px solid #a33;padding-left:.6rem}
 .uh{display:flex;flex-wrap:wrap;gap:.8rem;align-items:baseline} .uh .id{font-weight:bold}
 .cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1rem} @media(max-width:900px){.cols{grid-template-columns:1fr}}
-.grc{font-size:1.02em} .eng{} .col h4{margin:.3rem 0;font-size:.85em;color:#555;font-weight:normal}
+.grc{font-size:1.02em} .eng{} .col .ch{margin:.3rem 0;font-size:.85em;color:#555;font-weight:normal}
 .pb{display:inline-block;background:#eee;border:1px solid #bbb;border-radius:.3em;padding:0 .3em;font-size:.75em;color:#333;vertical-align:super;margin:0 .15em}
 mark.agree{background:#dff3df} mark.differ{background:#f9d6d6} mark.one{background:#eee}
 .chk{display:inline-block;border-radius:.4em;padding:0 .45em;font-size:.8em;border:1px solid #999} .chk.ok{background:#dff3df;border-color:#7a7} .chk.bad{background:#f9d6d6;border-color:#a33} .chk.na{background:#eee} .chk.mixed{background:#fbefc9;border-color:#c90}
-.tier-low{color:#363} .tier-mid{color:#b60} .tier-high{color:#a33}
+.tier-low{color:#363} .tier-mid{color:#975200} .tier-high{color:#a33}
 details{margin:.4rem 0} summary{cursor:pointer;color:#444;font-size:.9em}
 table.tt{border-collapse:collapse;width:100%;font-size:.86em} table.tt th,table.tt td{border-bottom:1px solid #e5e5e5;padding:.15rem .4rem;text-align:left;vertical-align:top}
 .unc{color:#a33;font-size:.8em} .lsj{color:#555;font-size:.85em}
@@ -35,17 +35,17 @@ body.read .modebar{max-width:38rem;margin:.8rem auto 0}
 body.read .unit{max-width:38rem;margin:0 auto;padding:0}
 body.read .unit.fail{border-left:3px solid #c98a8a;padding-left:.9rem;margin-left:auto}
 body.read .cols{display:block}
-body.read .col.grc,body.read .col.b,body.read .col h4{display:none}
+body.read .col.grc,body.read .col.b,body.read .col .ch{display:none}
 body.read .col.a{font-size:19px;line-height:1.75;margin:0 0 1.1rem}
 body.read mark{background:none;color:inherit}
-body.read .uh{font:12px/1.4 system-ui,"Segoe UI",sans-serif;color:#a39a8e;gap:.5rem}
-body.read .uh .id a{color:#a39a8e;font-weight:normal;text-decoration:none}
+body.read .uh{font:12px/1.4 system-ui,"Segoe UI",sans-serif;color:#766d62;gap:.5rem}
+body.read .uh .id a{color:#766d62;font-weight:normal;text-decoration:none}
 body.read .uh>span:nth-child(n+3){display:none}
 body.read .unit.fail .uh::after{content:"the machine checks flag this passage";color:#a33}
-body.read .pb{background:none;border:none;color:#b3aa9d;font-family:system-ui,sans-serif}
+body.read .pb{background:none;border:none;color:#766d62;font-family:system-ui,sans-serif}
 body.read h2,body.read .nav,body.read .lic,body.read ul{max-width:38rem;margin-left:auto;margin-right:auto}
-@media(prefers-color-scheme:dark){body.read{background:#16130f;color:#e9e2d6} body.read .rhead .lat,body.read .rhead .note{color:#a39a8e} body.read a{color:#e2b0a0}}
-</style><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f9fe8afc1b6944d1b3d77d259e01d445"}'></script><!-- End Cloudflare Web Analytics --><!-- share tags --><meta property="og:type" content="website"><meta property="og:site_name" content="Galen in English"><meta property="og:title" content="Galen, On Difficulty of Breathing — machine first draft v0.1"><meta property="og:description" content="Galen, On Difficulty of Breathing — machine first draft v0.1: a machine first draft in English, with the Greek beside it. Unverified; for reading and correcting."><meta property="og:url" content="https://montblanctech.github.io/Galen/first-drafts/difficultate-respirationis/"><meta property="og:image" content="https://montblanctech.github.io/Galen/og-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Galen, On Difficulty of Breathing — machine first draft v0.1"><meta name="twitter:description" content="Galen, On Difficulty of Breathing — machine first draft v0.1: a machine first draft in English, with the Greek beside it. Unverified; for reading and correcting."><meta name="twitter:image" content="https://montblanctech.github.io/Galen/og-card.png"><link rel="canonical" href="https://montblanctech.github.io/Galen/first-drafts/difficultate-respirationis/"></head><body class=read>
+@media(prefers-color-scheme:dark){body.read{background:#16130f;color:#e9e2d6} body.read .rhead .lat,body.read .rhead .note{color:#a39a8e} body.read a{color:#e2b0a0} body.read .rhead .kicker{color:#e2b0a0} body.read .uh,body.read .uh .id a,body.read .pb,body.read .modebar,body.read .small{color:#a39a8e} body.read .unit.fail .uh::after{color:#e2867a}}
+</style><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "f9fe8afc1b6944d1b3d77d259e01d445"}'></script><!-- End Cloudflare Web Analytics --><!-- share tags --><meta property="og:type" content="website"><meta property="og:site_name" content="Galen in English"><meta property="og:title" content="Galen, On Difficulty of Breathing — machine first draft v0.1"><meta property="og:description" content="Galen, On Difficulty of Breathing (De difficultate respirationis): a machine first draft in English with the Greek beside it, two independent renderings and the machine checks. Unverified; for reading and correcting."><meta property="og:url" content="https://montblanctech.github.io/Galen/first-drafts/difficultate-respirationis/"><meta property="og:image" content="https://montblanctech.github.io/Galen/og-card.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Galen, On Difficulty of Breathing — machine first draft v0.1"><meta name="twitter:description" content="Galen, On Difficulty of Breathing (De difficultate respirationis): a machine first draft in English with the Greek beside it, two independent renderings and the machine checks. Unverified; for reading and correcting."><meta name="twitter:image" content="https://montblanctech.github.io/Galen/og-card.png"><link rel="canonical" href="https://montblanctech.github.io/Galen/first-drafts/difficultate-respirationis/"></head><body class=read>
 <script>try{if(localStorage.getItem('gfd-view')==='scholar')document.body.className='scholar'}catch(e){}</script>
 <div class=banner><strong>Machine first draft, unverified, v0.1.</strong> Two language models translated this text independently; no scholar has checked it. Red marks show where the machine checks fail. The apparatus says where to look, not that the text is right. <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a> · <a href="../../">project pages</a></div>
 <div class=modebar><button type=button data-v=read>Read</button><button type=button data-v=scholar>Scholar view</button><span>Read shows one English rendering. Scholar view adds the Greek, the second rendering, the term marks and the checks.</span></div>

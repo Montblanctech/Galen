@@ -5,8 +5,9 @@ Greek, LSJ tier, punch-list status and v3 label, Dilemma's headword (artifact fl
 frequency, two attested contexts, and for punch rows the attributed concordance size and Kühn loci sample. Nothing is
 written by a model; every field is a measurement or an attribution already in the repo.
 
-Writes docs/galen-terms/terms.json (one record per key lemma, 10,6xx) and docs/galen-terms/index.html (vanilla JS,
-client-side search, no external assets). Run in the audit venv (Dilemma for the non-punch rows' headword flag).
+Writes docs/galen-terms/terms.json (one record per key lemma, 10,6xx), terms_ctx.json (their attested contexts,
+fetched after the table is shown) and docs/galen-terms/index.html (vanilla JS, client-side search, no external assets).
+`--split-existing DIR [DIR ...]` moves the contexts of pages already built into terms_ctx.json, recomputing nothing. Run in the audit venv (Dilemma for the non-punch rows' headword flag).
 """
 from __future__ import annotations
 
@@ -27,6 +28,46 @@ from lib.config import load_config  # noqa: E402
 
 DOCS = ROOT.parent / "docs" / "galen-terms"
 
+# The attested contexts are a third of terms.json and about 70% of it gzipped (Galen: 1.66 MB of 1.68 MB gzipped
+# before, 0.51 MB without them). They go in terms_ctx.json, which the page fetches after the table is up, so a phone
+# shows the table after the small file (2026-11-13 site audit). OLD_* are the strings in pages built before that.
+OLD_FETCH = "let D=[];fetch('terms.json').then(r=>r.json()).then(j=>{D=j.records;document.getElementById('n').textContent=j.n.toLocaleString();render(D.slice(0,200),j.n)});"
+NEW_FETCH = ("let D=[];fetch('terms.json').then(r=>r.json()).then(j=>{D=j.records;document.getElementById('n').textContent=j.n.toLocaleString();render(D.slice(0,200),j.n);"
+             "return j.ctx_file?fetch('terms_ctx.json'):null}).then(r=>r&&r.ok?r.json():null).then(c=>{if(!c)return;c.ctx.forEach((x,i)=>{if(D[i])D[i].ctx=x});"
+             "const q=document.getElementById('q');if(q.value.trim())q.dispatchEvent(new Event('input'));else render(D.slice(0,200),D.length)}).catch(e=>console.error(e));")
+OLD_CTX = "<td class=ctx>${r.ctx.map(c=>c).join('<br>')}</td>"
+NEW_CTX = "<td class=ctx>${(r.ctx||[]).join('<br>')}</td>"
+
+
+def write_split(dest: Path, obj: dict) -> tuple[int, int]:
+    """terms.json without the contexts, terms_ctx.json with them (same order as the records). Bytes of each."""
+    recs = obj["records"]
+    ctx = [r.get("ctx", []) for r in recs]
+    main_ = json.dumps({**obj, "ctx_file": any(ctx), "records": [{k: v for k, v in r.items() if k != "ctx"} for r in recs]}, ensure_ascii=False)
+    (dest / "terms.json").write_text(main_, encoding="utf-8")
+    side = 0
+    if any(ctx):
+        side_s = json.dumps({"ctx": ctx}, ensure_ascii=False)
+        (dest / "terms_ctx.json").write_text(side_s, encoding="utf-8")
+        side = len(side_s.encode("utf-8"))
+    elif (dest / "terms_ctx.json").exists():
+        (dest / "terms_ctx.json").unlink()
+    return len(main_.encode("utf-8")), side
+
+
+def split_existing(dest: Path) -> str:
+    """Move the contexts of an already-built page (DIR/terms.json + index.html) into terms_ctx.json without recomputing
+    anything: the records keep every other field and their order; the page's script learns to fetch the second file.
+    Idempotent. For the lab build, which can also rerun the generator."""
+    obj = json.loads((dest / "terms.json").read_text(encoding="utf-8"))
+    page = (dest / "index.html").read_text(encoding="utf-8")
+    if NEW_FETCH in page and "ctx_file" in obj:
+        return "already split"
+    assert OLD_FETCH in page and OLD_CTX in page, f"{dest}: page script not recognised"
+    sizes = write_split(dest, obj)
+    (dest / "index.html").write_text(page.replace(OLD_FETCH, NEW_FETCH, 1).replace(OLD_CTX, NEW_CTX, 1), encoding="utf-8")
+    return f"split: terms.json {sizes[0]:,} bytes, terms_ctx.json {sizes[1]:,} bytes"
+
 
 def nfc(s: str) -> str:
     return unicodedata.normalize("NFC", s or "").strip()
@@ -40,24 +81,29 @@ HTML = """<!doctype html><html lang=en><head><meta charset=utf-8><meta name=view
 <title>Galen Term Explorer</title>
 <style>body{font:15px/1.45 Georgia,serif;max-width:1100px;margin:1.5rem auto;padding:0 1rem;color:#222}input{font:inherit;width:100%;padding:.5rem;border:1px solid #999}
 table{border-collapse:collapse;width:100%;margin-top:1rem}th,td{border-bottom:1px solid #ddd;padding:.3rem .45rem;text-align:left;vertical-align:top;font-size:.93em}th{background:#f3f1ec;position:sticky;top:0}
-.g{color:#111;font-size:1.05em}.s{color:#666;font-size:.85em}.t-absent{color:#a33}.t-thin{color:#b60}.t-rich{color:#363}.flag{color:#a33}.ctx{font-size:.85em;color:#333}
+.g{color:#111;font-size:1.05em}.s{color:#666;font-size:.85em}.t-absent{color:#a33}.t-thin{color:#975200}.t-rich{color:#363}.flag{color:#a33}.ctx{font-size:.85em;color:#333}
 .pill{display:inline-block;border:1px solid #bbb;border-radius:.6em;padding:0 .4em;font-size:.8em;margin-right:.2em}</style></head><body>
+<nav style="font:14px/1.4 system-ui,-apple-system,sans-serif;margin:.8rem 0"><a href="../">&larr; Galen Density Project: all pages</a></nav>
 <h1>Galen Term Explorer</h1>
 <p class=s>Every lemma that Galen's medical works over-use against the rest of Greek (<span id=n></span> key lemmas; odyCy 0.7.0 lemmas, First1KGreek text). Type a word, a stem, or a filter: <code>tier:absent</code>, <code>punch</code>, <code>v3:real_no_perseus_lsj</code>, <code>flag:differs</code>, <code>quad:polysemy_risk</code>, <code>pos:NOUN</code>. Nothing here was written by a model: keyness, LSJ tiers, Dilemma headwords, reader verdicts and loci are measurements and attributions from the Galen Density Project (v3.0 lab build). Report, never patch.</p>
-<input id=q placeholder="search: θηριακ   or   tier:absent punch   or   flag:differs pos:NOUN" autofocus>
+<input id=q aria-label="Search" placeholder="search: θηριακ   or   tier:absent punch   or   flag:differs pos:NOUN" autofocus>
 <p class=s id=count></p><table><thead><tr><th>lemma</th><th>Galen</th><th>keyness</th><th>LSJ</th><th>Dilemma headword</th><th>punch / v3</th><th>attested contexts</th></tr></thead><tbody id=rows></tbody></table>
 <script>
-let D=[];fetch('terms.json').then(r=>r.json()).then(j=>{D=j.records;document.getElementById('n').textContent=j.n.toLocaleString();render(D.slice(0,200),j.n)});
+%%FETCH%%
 function strip(s){return s.normalize('NFD').replace(/[\\u0300-\\u036f]/g,'').toLowerCase()}
 function render(rows,total){const tb=document.getElementById('rows');tb.innerHTML='';for(const r of rows){const tr=document.createElement('tr');
-tr.innerHTML=`<td><span class=g>${r.l}</span><br><span class=s>${r.pos} · ${r.surf.join(' ')}</span></td><td>${r.n.toLocaleString()}<br><span class=s>${r.per10k}/10k · ${r.works} works</span></td><td>${r.ll}<br><span class=s>ref ${r.ref10k}/10k · ${r.quad}</span></td><td class="t-${r.tier}">${r.tier}${r.senses?` (${r.senses})`:''}<br><span class=s>${r.lsjhw||''}</span></td><td>${r.hw||'—'} ${r.hwflag==='differs'?'<span class=flag>≠</span>':''}<br><span class=s>${r.consensus?'consensus '+r.consensus:''}${r.name==='y'?' · name':''}</span></td><td>${r.punch?`<span class=pill>punch</span><br>${r.v3}${r.att?`<br><span class=s>${r.att} att. · Kühn ${r.kuhn}</span>`:''}`:''}</td><td class=ctx>${r.ctx.map(c=>c).join('<br>')}</td>`;tb.appendChild(tr)}
+tr.innerHTML=`<td><span class=g>${r.l}</span><br><span class=s>${r.pos} · ${r.surf.join(' ')}</span></td><td>${r.n.toLocaleString()}<br><span class=s>${r.per10k}/10k · ${r.works} works</span></td><td>${r.ll}<br><span class=s>ref ${r.ref10k}/10k · ${r.quad}</span></td><td class="t-${r.tier}">${r.tier}${r.senses?` (${r.senses})`:''}<br><span class=s>${r.lsjhw||''}</span></td><td>${r.hw||'—'} ${r.hwflag==='differs'?'<span class=flag>≠</span>':''}<br><span class=s>${r.consensus?'consensus '+r.consensus:''}${r.name==='y'?' · name':''}</span></td><td>${r.punch?`<span class=pill>punch</span><br>${r.v3}${r.att?`<br><span class=s>${r.att} att. · Kühn ${r.kuhn}</span>`:''}`:''}</td>%%CTX%%`;tb.appendChild(tr)}
 document.getElementById('count').textContent=`${rows.length} shown of ${total}`}
 document.getElementById('q').addEventListener('input',e=>{const parts=e.target.value.trim().split(/\\s+/).filter(Boolean);let rows=D;const text=[];for(const p of parts){const m=p.match(/^(tier|v3|flag|quad|pos):(.*)$/);if(m){const[,k,v]=m;rows=rows.filter(r=>({tier:r.tier,v3:r.v3,flag:r.hwflag,quad:r.quad,pos:r.pos})[k]===v)}else if(p==='punch'){rows=rows.filter(r=>r.punch)}else text.push(strip(p))}
 if(text.length){rows=rows.filter(r=>{const h=strip(r.l)+' '+strip(r.hw||'')+' '+strip(r.consensus||'');return text.every(t=>h.includes(t))})}render(rows.slice(0,300),rows.length)});
-</script></body></html>"""
+</script></body></html>""".replace("%%FETCH%%", NEW_FETCH).replace("%%CTX%%", NEW_CTX)
 
 
 def main() -> None:
+    if "--split-existing" in sys.argv:
+        for d in sys.argv[sys.argv.index("--split-existing") + 1:]:
+            print(d, split_existing(Path(d)))
+        return
     if "--author" in sys.argv:
         return author_main(sys.argv[sys.argv.index("--author") + 1])
     sys.stdout.reconfigure(encoding="utf-8")
@@ -135,7 +181,7 @@ def main() -> None:
             "lsjhw": hit.get("lsj_headword", "") if hit else "",
         })
     records.sort(key=lambda x: -x["ll"])
-    (DOCS / "terms.json").write_text(json.dumps({"generated": time.strftime("%Y-%m-%d"), "n": len(records), "records": records}, ensure_ascii=False), encoding="utf-8")
+    write_split(DOCS, {"generated": time.strftime("%Y-%m-%d"), "n": len(records), "records": records})
     html = HTML
 
     (DOCS / "index.html").write_text(html, encoding="utf-8")
@@ -187,13 +233,13 @@ def author_main(tlg: str) -> None:
     if len(payload.encode("utf-8")) > 8 * 1024 * 1024:
         recs, dropped = build(False), True
         payload = json.dumps({"generated": time.strftime("%Y-%m-%d"), "author": name, "tlg": tlg, "n": len(recs), "records": recs}, ensure_ascii=False)
-    (dest / "terms.json").write_text(payload, encoding="utf-8")
+    write_split(dest, json.loads(payload))
     esc = name.replace("&", "&amp;").replace("<", "&lt;")
     intro = (f"Every lemma that {esc} ({tlg}; {summ['author_tokens']:,} odyCy tokens, {summ['works']} works) over-uses against the rest of Greek "
              f"(<span id=n></span> key lemmas; LL &ge; {summ['min_log_likelihood']}, domain frequency &ge; {summ['min_domain_frequency']}; reference {summ['reference_tokens']:,} tokens; odyCy 0.7.0 lemmas, First1KGreek text). "
              "Type a word, a stem, or a filter: <code>tier:absent</code>, <code>punch</code>, <code>flag:differs</code>, <code>pos:NOUN</code>. "
              "Nothing here was written by a model: keyness, LSJ tiers and Dilemma headwords are measurements from the Galen Density Project T3 term map (v0). Report, never patch.")
-    page = HTML.replace("Galen Term Explorer", f"{esc} Term Explorer")
+    page = HTML.replace("Galen Term Explorer", f"{esc} Term Explorer").replace('<a href="../">&larr;', '<a href="../../">&larr;', 1)
     ia, ib = page.index("<p class=s>Every lemma"), page.index("</p>", page.index("<p class=s>Every lemma")) + 4
     page = page[:ia] + f"<p class=s>{intro}</p>" + page[ib:]
     page = page.replace(" · ${r.quad}", "").replace("placeholder=\"search: θηριακ   or   tier:absent punch   or   flag:differs pos:NOUN\"", "placeholder=\"search a stem, or tier:absent punch\"")
