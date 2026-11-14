@@ -55,7 +55,8 @@ def build_server(galen: Galen | None = None):
         """Find Galenic key terms by Greek (accents optional), LSJ key or gloss, or English rendering.
 
         Examples: "νεῦρον", "νευρον", "neu=ron", "sinew", "acrid", "humour". One line per lemma with
-        its usual renderings; page with offset.
+        its usual renderings; page with offset. When one match is clearly best, its full get_term answer
+        is included, so no second call is needed.
         """
         return run(g.search_terms, query, limit, offset)
 

@@ -47,7 +47,7 @@ Then use `"command": "galen-mcp"` with no `args` in the configs above. Use the f
 | tool | what it answers |
 |---|---|
 | `list_works(detail)` | the 13 works (and the Latin method test): slug, Kühn span, units, checks, page URL |
-| `search_terms(query, limit, offset)` | find key terms by Greek (accents optional), LSJ key or gloss, or English rendering |
+| `search_terms(query, limit, offset)` | find key terms by Greek (accents optional), LSJ key or gloss, or English rendering; when one match is clearly best, its full `get_term` answer comes in the same call |
 | `get_term(lemma, work, detail, offset)` | how one lemma is rendered by A and B in each work, with its Kühn loci |
 | `get_passage(citation_or_unit, work, detail)` | one unit by Kühn citation (`K15.609`, `K. XV 609`, `K18a.196`) or unit id: Greek, A, B, checks, page URL |
 | `lsj_gold_lemma(form, limit)` | the gold lemma of a Greek or Latin word form in LSJ-Gold / LS-Gold |
@@ -99,6 +99,10 @@ Maintainers can set `GALEN_MCP_SOURCE_DIR` to read a local checkout of the repo 
   covers the code, including this server.
 
 ## Response sizes
+
+### Calls per question
+
+`tests/test_agent_experience.py` walks ten typical questions through the tools by the shortest sensible path and fails if an answer needs more calls, or more tokens, than its budget. Nine of the ten take one call; the tenth ("find words about humours, then the passages for the top one") takes two by design. Run it with `pytest -s` to see the table.
 
 Typical answers, measured with `python mcp/scripts/measure.py` (tokens counted as characters / 4). Greek costs more tokens per
 character than English, so passages run somewhat higher in practice.
