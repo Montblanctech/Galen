@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-05. **Status:** SPEC + RUN (stage 1 sampled; stages 2–3 run by two model sessions and a scorer).
 
-**Question.** Zainaldin et al. (arXiv:2602.24119) found with 2025-era models that terminology rarity predicts passage-level translation quality (r = −.97) on *De temperamentis* (translated, high quality) and *De compositione medicamentorum per genera* (untranslated, low quality). The density map claims to locate the vocabulary that blocks translation. With a 2026 model, is the punch list still where translation is unstable?
+**Question.** Zainaldin et al. (arXiv:2602.24119) found with 2025-era models that terminology rarity predicts passage-level translation quality (r = −.97) on *De temperamentis* (translated, high quality) and *De compositione medicamentorum per genera* (no scholarly English translation, low quality). The density map claims to locate the vocabulary that blocks translation. With a 2026 model, is the punch list still where translation is unstable?
 
 **What we can measure without reading Greek.** Not correctness: *stability*. Two independent translators (two model sessions, different models) translate the same 40 passages blind. For every target word they record the English rendering they used. Then:
 1. **Term-level disagreement rate**: fraction of targets where the two renderings differ (after normalising case, articles, plural, and a small synonym fold applied *identically* to both classes). Compare **punch-list targets** vs **matched control targets** (NOUN/ADJ in the same passage, not on the punch list, LSJ sense count ≥ 3). Prediction if the map is right: punch > control, with a 95% CI on the difference (two-proportion z, and a per-passage paired comparison).

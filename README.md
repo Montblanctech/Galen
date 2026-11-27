@@ -14,7 +14,7 @@
 - [*On the Shoulder Dislocated in Ways Hippocrates Did Not See*](https://montblanctech.github.io/Galen/first-drafts/de-humero/) (De humero iis modis prolapso quos Hippocrates non vidit)
 - [*On Difficulty of Breathing*](https://montblanctech.github.io/Galen/first-drafts/difficultate-respirationis/) (De difficultate respirationis)
 
-Reproducible infrastructure for making the untranslated Galenic corpus legible as a problem for
+Reproducible infrastructure for making the Galenic corpus without scholarly English translation legible as a problem for
 translators and machine-translation research. Two phases, released together as of v2.0:
 
 - **Phase 1 — Digital-coverage census**: a structured, machine-readable census of the Galenic

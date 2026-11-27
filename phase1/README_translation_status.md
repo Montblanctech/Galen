@@ -16,6 +16,8 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 
 ### Works with no modern-language translation in either catalogue (`none`)
 
+These catalogues list published translations only. Since 2026 Source Library (sourcelibrary.org) has posted unreviewed machine English of several Kühn volumes, including Kühn XI.
+
 - tlg047 *De totius morbi temporibus* (Kühn VII, 3,538 words)
 - tlg072 *De purgantium medicamentorum facultate* (Kühn XI, 2,973 words)
 - tlg086 *In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius* (Kühn XV, 6,837 words)
