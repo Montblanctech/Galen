@@ -16,17 +16,19 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 
 ### Works with no modern-language translation in either catalogue (`none`)
 
+These catalogues list published translations only. Since 2026 Source Library (sourcelibrary.org) has posted unreviewed machine English of several Kühn volumes, including Kühn XI.
+
 - tlg047 *De totius morbi temporibus* (Kühn VII, 3,538 words)
 - tlg072 *De purgantium medicamentorum facultate* (Kühn XI, 2,973 words)
 - tlg086 *In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius* (Kühn XV, 6,837 words)
 
 ### `partial` (a source states that only part of the work is translated)
 
-- tlg056 *De difficultate respirationis*: No complete translation in any modern language; one English paragraph exists.
-- tlg075 *De simplicium medicamentorum temperamentis ac facultatibus I-VI*: No complete modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. The First1KGreek file carries all eleven books (Kühn XI 379-XII 377), although its catalog title says I-VI.
-- tlg076 *De compositione medicamentorum secundum locos I-VI*: Spanish of book II only; books I and III-X untranslated in any modern language.
-- tlg077 *De compositione medicamentorum per genera*: No complete translation in any modern language; English of parts exists.
-- tlg087 *In Hippocratis De victu acutorum*: No English translation of any book found; books II-IV untranslated in any modern language except the German excerpt. First Drafts cycle 4 drafts books II-IV.
+- tlg056 *De difficultate respirationis*: No complete published translation in any modern language; one English paragraph exists. Source Library (sourcelibrary.org) has an unreviewed machine English translation of a medieval Latin version (Venice 1490), posted 2026; not counted (checked 2026-11-26).
+- tlg075 *De simplicium medicamentorum temperamentis ac facultatibus I-VI*: No complete published modern translation of books I-XI; Manco thesis (bks VI-VIII, French) unpublished. Source Library (sourcelibrary.org) has an unreviewed machine English translation of Kühn XI-XII, posted 2026; not counted (checked 2026-11-26). The First1KGreek file carries all eleven books (Kühn XI 379-XII 377), although its catalog title says I-VI.
+- tlg076 *De compositione medicamentorum secundum locos I-VI*: Spanish of book II only; books I and III-X have no published translation in any modern language. Source Library (sourcelibrary.org) has an unreviewed machine English translation of Kühn XII-XIII, posted 2026; not counted (checked 2026-11-26).
+- tlg077 *De compositione medicamentorum per genera*: No complete published translation in any modern language; English of parts exists. Source Library (sourcelibrary.org) has an unreviewed machine English translation of Kühn XIII, posted 2026; not counted (checked 2026-11-26).
+- tlg087 *In Hippocratis De victu acutorum*: No published English translation of any book found; books II-IV have no published translation in any modern language except the German excerpt. Source Library (sourcelibrary.org) has an unreviewed machine English translation of a medieval Latin version (Articella 1483), posted 2026; not counted (checked 2026-11-26). First Drafts cycle 4 drafts books II-IV.
 - tlg092 *In Hippocratis Aphorismos*: Every book has some modern translation; GOHA (BBAW/HU Berlin) is editing bks I-IV with translation; P. N. Singer's English of bk I announced. Not a First Drafts candidate.
 
 ### `unknown` (the sources disagree or are silent; not a claim either way)
@@ -38,7 +40,7 @@ Three columns added to `galen_ogl_census.csv` and to every entry of `galen_ogl_c
 1. **Galenus verbatim catalogue** (Rousseau, Glorieux, Taaffe; https://galenus-verbatim.github.io/mera-galeni-folia/), fetched 2026-11-09 and parsed into `translation_sources/galenus_verbatim_catalogue_2026-11-09.json`: per work the Fichtner entry number, the Kühn locus, the critical editions and the *translationes recentiores*, each with ISO-639 language codes (e.g. `Singer, 1997 (grc;eng)`). The codes decide the status: any `eng` → `english`; any other modern language → `other_modern`; only `lat` → `latin_only`.
 2. **Fichtner, *Corpus Galenicum*** (BBAW, edition 2023/12, https://cmg.bbaw.de/fileadmin/Webdateien/Dateien/Galen-Bibliographie.pdf), text extracted from the PDF and parsed per entry into `translation_sources/fichtner_translations_2026-11-09.json`: the lines tagged `T` (translation; also `E,T`, `T,K`) joined to the work by its `TLG-ID` line, or by Fichtner's entry number via Galenus verbatim where the TLG id did not parse. Fichtner does not code the language, so a Fichtner T line alone never yields `english`/`other_modern`: a work with no GV translation and at least one Fichtner T line is `unknown`, and the lines are quoted in `translation_source` for a reader to judge. A work with no GV translation and no Fichtner T line is `none`.
 3. **Overrides** (`translation_sources/overrides.csv`), each with its citation: Johnston & Papavramidou 2024 (*Galen on the Pulses*, De Gruyter, doi:10.1515/9783110612677) for the four long pulse treatises (GV lists it under tlg059 only); the partial translations named in the research pass `drafts/untranslated_galen_research.md` (Simples bk I ch. 1–3 French; Composition by Place bk II Spanish; Victu acutorum bk I French; Aphorisms commentary bk VI Italian); Composition by Kind confirmed `none` by Fichtner entry 82 and Zainaldin et al. 2026 (arXiv:2602.24119).
-4. Kühn's own facing Latin (present for every Kühn work) and the medieval Arabic, Syriac, Hebrew and Latin versions Fichtner lists under *Übers.* are not counted as translations. `partial` is assigned only where a source states partial coverage; the catalogues do not code completeness, so an `english`/`other_modern` listing may in fact be a selection (the note says so on every such row).
+4. Kühn's own facing Latin (present for every Kühn work) and the medieval Arabic, Syriac, Hebrew and Latin versions Fichtner lists under *Übers.* are not counted as translations. Nor are machine translations: Source Library (sourcelibrary.org) posted unreviewed machine English translations of Kühn XI-XIV and of several Latin editions of Galen during 2026 (checked 2026-11-26); the notes name them where they cover a work. `partial` is assigned only where a source states partial coverage; the catalogues do not code completeness, so an `english`/`other_modern` listing may in fact be a selection (the note says so on every such row).
 5. Works in the census but in neither catalogue, and pseudo-Galenic works (tlg0530, JSON only) with no catalogue data, are `unknown`.
 
 ## Known limits

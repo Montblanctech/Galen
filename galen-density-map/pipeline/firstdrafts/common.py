@@ -16,7 +16,7 @@ sys.path.insert(0, str(PIPE))
 
 WORKS = {
     "adversus-lycum": {
-        "prior_translations": 'No earlier English translation found. A Spanish translation appeared in 2023 (M. Cerezo Magán, Lleida).',
+        "prior_translations": 'No published translation into English by a scholar that we know of. An unreviewed machine translation into English of the volume of the Giunta edition of Galen (Venice 1565) that contains a Latin version of this work was posted at Source Library (sourcelibrary.org) between June and November 2026. A Spanish translation appeared in 2023 (M. Cerezo Magán, Lleida).',
         "tlg": "tlg093",
         "urn": "urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg093.1st1K-grc1",
@@ -29,7 +29,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg093.1st1K-grc1 (Kühn 1829, vol. 18.1 pp. 196-245; keyboarded by Digital Divide Data for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "comp-per-genera": {
-        "prior_translations": 'No complete translation in any modern language. Parts exist in English: G. Baker 1574 (book 3, from a French epitome), M. Marai 2023 (substantial excerpts, Warwick PhD thesis) and ten reference passages (galen_project, 2026).',
+        "prior_translations": 'No complete published translation by a scholar in any modern language that we know of. Parts exist in English: G. Baker 1574 (book 3, from a French epitome), M. Marai 2023 (substantial excerpts, Warwick PhD thesis) and ten reference passages (galen_project, 2026). An unreviewed machine translation into English of the volume containing this work (Kühn XIII) was posted at Source Library (sourcelibrary.org) between March and October 2026.',
         "tlg": "tlg077",
         "urn": "urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg077.1st1K-grc1",
@@ -50,8 +50,8 @@ WORKS = {
     # cycle 3 (firstdrafts_v02_cycle3_note.md): the eight remaining works with translation_status = none in phase1/galen_ogl_census.csv
     "hirudinibus": {
         "authorship": "Transmitted among Galen's works; probably a late-antique compilation (Ecca 2021).",
-        "claim": "Transmitted among Galen's works; G. Ecca (2021) treats it as pseudo-Galenic, a late-antique compilation of four pieces with parallels in Oribasius. The first complete English translation we know of.",
-        "prior_translations": 'No earlier English translation found. Italian: G. Ecca 2021 (complete). French: Bussemaker and Daremberg 1854, for the passages of Oribasius it is compiled from.',
+        "claim": "Transmitted among Galen's works; G. Ecca (2021) treats it as pseudo-Galenic, a late-antique compilation of four pieces with parallels in Oribasius.",
+        "prior_translations": 'No published translation into English by a scholar that we know of. An unreviewed machine translation into English of the volume containing this work (Kühn XI) has been online at Source Library (sourcelibrary.org) since April 2026. Italian: G. Ecca 2021 (complete). French: Bussemaker and Daremberg 1854, for the passages of Oribasius it is compiled from.',
         "tlg": "tlg071",
         "urn": "urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg071.1st1K-grc1",
@@ -65,7 +65,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg071.1st1K-grc1 (Kühn 1826, vol. 11 pp. 317-322; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "quos-quibus": {
-        "prior_translations": 'No earlier English translation found. French: Bussemaker and Daremberg 1854, in their Oribasius (book VII 23).',
+        "prior_translations": 'No published translation into English by a scholar that we know of. An unreviewed machine translation into English of the volume containing this work (Kühn XI) has been online at Source Library (sourcelibrary.org) since April 2026. French: Bussemaker and Daremberg 1854, in their Oribasius (book VII 23).',
         "tlg": "tlg073",
         "urn": "urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg073.1st1K-grc1",
@@ -79,7 +79,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg073.1st1K-grc1 (Kühn 1826, vol. 11 pp. 343-356; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0; First1KGreek also has tlg073.1st1K-grc2, the Oribasius excerpt of the same work (Kühn XI 343-356 ap. Oribasium, with Latin and German), not used here",
     },
     "purgantium-facultate": {
-        "prior_translations": 'No translation in any modern language found.',
+        "prior_translations": 'No published translation into English or any other modern language by a scholar that we know of. An unreviewed machine translation into English of the volume containing this work (Kühn XI) has been online at Source Library (sourcelibrary.org) since April 2026.',
         "tlg": "tlg072",
         "urn": "urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg072.1st1K-grc1",
@@ -93,7 +93,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg072.1st1K-grc1 (Kühn 1826, vol. 11 pp. 323-342; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "morbi-temporibus": {
-        "prior_translations": 'No translation in any modern language found.',
+        "prior_translations": "No published translation into English or any other modern language that we know of. Source Library (sourcelibrary.org) has an unreviewed machine translation into English of the Venice 1490 edition of Galen's works, whose contents list a Latin version of this work; we have not confirmed that the text itself is there (checked 2026-11-26).",
         "tlg": "tlg047",
         "urn": "urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg047.1st1K-grc1",
@@ -107,7 +107,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg047.1st1K-grc1 (Kühn 1824, vol. 7 pp. 440-462; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "adversus-typos": {
-        "prior_translations": "No English translation found. Spanish: E. García Sola 2010.",
+        "prior_translations": 'No published English translation that we know of (checked 2026-11-26, including Source Library). Spanish: E. García Sola 2010.',
         "tlg": "tlg049",
         "urn": "urn:cts:greekLit:tlg0057.tlg049.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg049.1st1K-grc1",
@@ -121,8 +121,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg049.1st1K-grc1 (Kühn 1824, vol. 7 pp. 475-512; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "in-hipp-acut": {
-        "claim": "The first English translation of books II–IV that we know of.",
-        "prior_translations": "No English translation of books II\u2013IV found. Book I: French, J. Pietrobelli 2019 (Les Belles Lettres). Book II chapters 20\u201323: German excerpt, W. M\u00fcri 1979.",
+        "prior_translations": "No published translation of books II–IV into English by a scholar that we know of. An unreviewed machine translation into English of the Articella (Venice 1483), which contains a medieval Latin version of this commentary, has been online at Source Library (sourcelibrary.org) since April 2026. Book I: French, J. Pietrobelli 2019 (Les Belles Lettres). Book II chapters 20\u201323: German excerpt, W. M\u00fcri 1979.",
         "tlg": "tlg087",
         "urn": "urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg087.1st1K-grc1",
@@ -137,7 +136,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg087.1st1K-grc1 (K\u00fchn 1828, vol. 15 pp. 418-919, four books; this draft: books II-IV, pp. 515-919; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "de-plenitudine": {
-        "prior_translations": "No English translation found. German: C. Otte 2001 (edition with translation).",
+        "prior_translations": 'No published English translation that we know of (checked 2026-11-26, including Source Library). German: C. Otte 2001 (edition with translation).',
         "tlg": "tlg050",
         "urn": "urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg050.1st1K-grc1",
@@ -151,7 +150,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg050.1st1K-grc1 (K\u00fchn 1824, vol. 7 pp. 513-583; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "de-comate": {
-        "prior_translations": "No English translation found. Spanish: J. M. Nieto Ib\u00e1\u00f1ez 2005.",
+        "prior_translations": "No published translation into English by a scholar that we know of. An unreviewed machine translation into English of the Venice 1490 edition of Galen's works, which contains Niccolò da Reggio's medieval Latin version of this work, has been online at Source Library (sourcelibrary.org) since June 2026. Spanish: J. M. Nieto Ibáñez 2005.",
         "tlg": "tlg052",
         "urn": "urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg052.1st1K-grc1",
@@ -165,7 +164,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg052.1st1K-grc1 (K\u00fchn 1824, vol. 7 pp. 643-665; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "in-hipp-salubri": {
-        "prior_translations": 'No translation in any modern language found.',
+        "prior_translations": 'No published English translation that we know of (checked 2026-11-26, including Source Library). No translation in any other modern language found.',
         "tlg": "tlg086",
         "urn": "urn:cts:greekLit:tlg0057.tlg086.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg086.1st1K-grc1",
@@ -179,7 +178,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg086.1st1K-grc1 (Kühn 1828, vol. 15 pp. 174-223; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "de-humero": {
-        "prior_translations": "No complete English translation found; R. Meiggs translated a short passage (Kühn XVIIIA 347–348). The text is part of Galen's commentary on the Hippocratic Joints, which M. Abballe translated into Italian (1972).",
+        "prior_translations": "No published complete English translation that we know of (checked 2026-11-26, including Source Library); R. Meiggs translated a short passage (Kühn XVIIIA 347–348). The text is part of Galen's commentary on the Hippocratic Joints, which M. Abballe translated into Italian (1972).",
         "tlg": "tlg096",
         "urn": "urn:cts:greekLit:tlg0057.tlg096.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg096.1st1K-grc1",
@@ -206,7 +205,7 @@ WORKS = {
         "source_note": "First1KGreek tlg0057.tlg085.1st1K-grc1 (Kühn 1828, vol. 15 pp. 1-173; keyboarded for the Digital Corpus for Graeco-Arabic Studies), CC BY-SA 4.0",
     },
     "difficultate-respirationis": {
-        "prior_translations": 'No complete translation in any modern language. One paragraph (Kühn VII 781–782) is in English in A. A. Long 2021.',
+        "prior_translations": "No complete published translation by a scholar in any modern language that we know of. One paragraph (Kühn VII 781–782) is in English in A. A. Long 2021. An unreviewed machine translation into English of the Venice 1490 edition of Galen's works, which contains a medieval Latin version of this work, has been online at Source Library (sourcelibrary.org) since June 2026; we have not checked whether that version is complete.",
         "tlg": "tlg056",
         "urn": "urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1",
         "stem": "urn_cts_greekLit_tlg0057.tlg056.1st1K-grc1",

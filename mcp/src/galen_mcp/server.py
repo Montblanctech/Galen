@@ -19,7 +19,7 @@ from .store import DataUnavailable, Store
 
 INSTRUCTIONS = (
     "Galen First Drafts: machine first-draft English translations (two independent renderings, A and B, "
-    "with automatic checks) of 13 Galen works never before translated into English, keyed by Kühn "
+    "with automatic checks) of 13 Galen works with no complete published English translation by a scholar, keyed by Kühn "
     "citation. No scholar has reviewed them; say so when quoting, and cite the page URL each answer gives. "
     "Start with list_works, get_passage('K15.609'), or search_terms('nerve')."
 )

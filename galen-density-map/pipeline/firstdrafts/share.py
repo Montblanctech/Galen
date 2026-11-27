@@ -36,10 +36,10 @@ def draw_card(n_works: int, n_words: int, n_findings: int) -> None:
     accent = (122, 31, 31)
     d.rectangle([0, 0, W, 14], fill=accent)
     d.text((80, 80), "GALEN DENSITY PROJECT", font=sans(26), fill=accent)
-    d.text((80, 130), "Galen in English", font=serif_b(84), fill=(31, 27, 22))
-    d.text((80, 230), "for the first time", font=serif_b(84), fill=(31, 27, 22))
-    d.text((80, 360), f"{n_works} works never before published in full in English,", font=serif(34), fill=(60, 54, 46))
-    d.text((80, 408), f"{n_words:,} words of Greek, machine first drafts with the Greek beside them.", font=serif(34), fill=(60, 54, 46))
+    d.text((80, 130), "Galen in English:", font=serif_b(84), fill=(31, 27, 22))
+    d.text((80, 230), "machine first drafts", font=serif_b(84), fill=(31, 27, 22))
+    d.text((80, 360), f"{n_works} works with no complete English translation by a scholar,", font=serif(34), fill=(60, 54, 46))
+    d.text((80, 408), f"{n_words:,} words of Greek, unverified, with the Greek beside them.", font=serif(34), fill=(60, 54, 46))
     d.text((80, 470), f"Plus {n_findings} things the drafts say: people, lost books, recipes, cases.", font=serif(34), fill=(60, 54, 46))
     d.text((80, 548), "montblanctech.github.io/Galen", font=sans(30), fill=accent)
     img.save(DOCS / CARD, optimize=True)
@@ -89,7 +89,7 @@ def apply(n_works: int, n_words: int, n_findings: int, not_public: set[str], fac
         "index.html": jsonld({"@context": "https://schema.org", "@graph": [
             {"@type": "WebSite", "name": "Galen in English", "url": SITE},
             {"@type": "Dataset", "name": "Galen First Drafts", "url": SITE + "first-drafts/", "creator": author,
-             "description": f"Machine first-draft English translations of {n_works} works of Galen with no complete English translation, "
+             "description": f"Machine first-draft English translations of {n_works} works of Galen with no complete published English translation by a scholar that we know of, "
                             f"{n_words:,} words of Greek, each with two independent renderings, the Greek, and machine checks.",
              "license": "https://creativecommons.org/licenses/by-sa/4.0/", "inLanguage": ["en", "grc"],
              "isAccessibleForFree": True, "keywords": ["Galen", "ancient medicine", "Ancient Greek", "translation", "history of medicine"]}]}),

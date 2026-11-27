@@ -1,9 +1,11 @@
 # Galen First Drafts — cycle 4: three works (pre-registered note)
 
 **Date:** 2026-11-11. Written and committed on the lab branch before any model call for these works. The spec is `firstdrafts_v02_spec.md` (thresholds unchanged), with check (c) under judge v0.3 (`firstdrafts_v03_judge_note.md`). Translators, prompts, alignment, back-translation and scoring are exactly as in cycles 2 and 3.
+
+**Correction (2026-11-26).** The claim wording below ("the first complete English translation we know of") is withdrawn. Source Library (sourcelibrary.org) posted unreviewed machine translations into English during 2026 that include the medieval Latin versions of *De comate* (Venice 1490) and of the commentary on *Regimen in Acute Diseases* (Articella 1483); no Source Library text of *De plenitudine* or *Adversus typos* was found. The pages now say "No published translation into English by a scholar that we know of" and name Source Library where it covers a work (CHANGELOG, 2026-11-26).
 
 ## Why these three
-In the census and in a literature check made on 2026-11-11 (catalogues, publishers, theses and in-preparation lists, by a research agent told to falsify), each of these works has no English translation and no announced English translation. The same check ruled out five other candidates:
+In the census and in a literature check made on 2026-11-11 (catalogues, publishers, theses and in-preparation lists, by a research agent told to falsify), each of these works has no English translation and no announced English translation. (Correction, 2026-11-26: the check missed Source Library (sourcelibrary.org), which has unreviewed machine English of the printed volumes containing several of these works online since 2026. No translation by a scholar is known.) The same check ruled out five other candidates:
 - *De differentiis febrium*: complete English in Ware's 1928 Edinburgh thesis.
 - The pulse *Synopsis*: complete English in Johnston & Papavramidou 2024.
 - *De crisibus*: Cooper's English of the Arabic version is announced.
@@ -30,4 +32,4 @@ Book I of the commentary is left out because it already has a modern translation
 - **Before publishing.** Nothing goes public until Will says so. Before that, the scrub scripts run and the public diff is read.
 
 ## Addendum (2026-11-11, written before any call for this work): a fourth work
-`adversus-typos`: *Adversus eos qui de typis scripserunt vel de circuitibus* (Against Those Who Wrote on Types or on Periods of fever), tlg0057.tlg049, Kühn VII 475–512. It has 38 units, 5,611 Greek words and 273 targets. The same literature check found no English translation and none announced; Spanish: García Sola 2010. Its companion *De typis* is not drafted, because Fichtner gives it no CMG abbreviation and its authenticity is in doubt. The mode, order rule, checks and claim wording are as above.
+`adversus-typos`: *Adversus eos qui de typis scripserunt vel de circuitibus* (Against Those Who Wrote on Types or on Periods of fever), tlg0057.tlg049, Kühn VII 475–512. It has 38 units, 5,611 Greek words and 273 targets. The same literature check found no English translation and none announced (checked again 2026-11-26, including Source Library: none there either); Spanish: García Sola 2010. Its companion *De typis* is not drafted, because Fichtner gives it no CMG abbreviation and its authenticity is in doubt. The mode, order rule, checks and claim wording are as above.
