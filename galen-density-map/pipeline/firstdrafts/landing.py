@@ -126,7 +126,7 @@ code{font-size:.9em;background:var(--rule);padding:0 .3em;border-radius:4px;over
 
 def head(title: str, prefix: str) -> str:
     return (f"<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content='width=device-width,initial-scale=1'>"
-            f"<title>{esc(title)}</title><meta name=description content=\"{N_W.capitalize()} works of Galen never before published in full in English, as machine first drafts with the Greek beside them.\">"
+            f"<title>{esc(title)}</title><meta name=description content=\"{N_W.capitalize()} works of Galen with no complete published English translation by a scholar that we know of, as machine first drafts with the Greek beside them.\">"
             f"<link rel=stylesheet href=\"{prefix}site.css\"></head><body>")
 
 
@@ -271,13 +271,13 @@ def main() -> None:
     none_, thin, art, total = F["punchlist_v3.no_entry"], F["punchlist_v3.thin_all"], F["punchlist_v3.artifact_suspect"], F["punchlist_v3.total"]
     seg = lambda n, c: f'<div style="width:{100 * n / total:.2f}%;background:{c}" title="{n}"></div>'
 
-    page = head("Galen in English for the first time", "") + f"""
+    page = head("Galen in English: machine first drafts", "") + f"""
 <header class=hero><div class=wrap>
 <div class=kicker>Galen Density Project</div>
-<h1>Galen in English for the first time</h1>
-<p class=lede>Galen of Pergamon was a doctor in second-century Rome, and more of his writing survives than of any other ancient Greek author. Much of it has never been translated into English in full. Here are {N_W} such works, put into English by machine: rough, unchecked by any scholar, and readable today.</p>
+<h1>Galen in English: machine first drafts</h1>
+<p class=lede>Galen of Pergamon was a doctor in second-century Rome, and more of his writing survives than of any other ancient Greek author. Much of it has never been translated into English in full by a scholar. Here are {N_W} such works, put into English by machine: rough, unchecked by any scholar, and readable today. Several of them also have an unreviewed machine translation into English at Source Library (sourcelibrary.org), posted during 2026; each work's page says which.</p>
 <div class=btns><a class="btn primary" href="first-drafts/">Start reading</a><a class="btn ghost" href="#how">How they were made</a></div>
-<ul class=facts><li><b>{N_WORKS}</b><span>works never before fully in English</span></li><li><b>{total_words:,}</b><span>words of Greek</span></li><li><b>2</b><span>independent machine translations of each passage</span></li></ul>
+<ul class=facts><li><b>{N_WORKS}</b><span>works with no complete English translation by a scholar</span></li><li><b>{total_words:,}</b><span>words of Greek</span></li><li><b>2</b><span>independent machine translations of each passage</span></li></ul>
 </div></header>
 
 <section><div class=wrap>
@@ -339,7 +339,7 @@ def main() -> None:
 <header class=hero style="padding:3.2rem 0 2.2rem"><div class=wrap>
 <div class=kicker><a href="../" style="text-decoration:none">Galen Density Project</a></div>
 <h1 style="font-size:clamp(2rem,4.5vw,3rem)">Galen First Drafts</h1>
-<p class=lede>{N_W.capitalize()} works of Galen with no complete English translation that we know of, {N_NONE_W} of them with no complete translation in any modern language (each work's page names the earlier ones), put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
+<p class=lede>{N_W.capitalize()} works of Galen with no complete published English translation by a scholar that we know of, {N_NONE_W} of them with no complete published translation in any modern language (each work's page names the earlier ones, and the unreviewed machine translations into English that Source Library, sourcelibrary.org, posted during 2026), put into English by two language models and checked by machine. Drafts for reading and for scholars to correct, not translations to quote.</p>
 </div></header>
 <section><div class=wrap>
 <h2 class=vh>The works</h2>

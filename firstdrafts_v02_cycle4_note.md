@@ -1,6 +1,8 @@
 # Galen First Drafts — cycle 4: three works (pre-registered note)
 
 **Date:** 2026-11-11. Written and committed on the lab branch before any model call for these works. The spec is `firstdrafts_v02_spec.md` (thresholds unchanged), with check (c) under judge v0.3 (`firstdrafts_v03_judge_note.md`). Translators, prompts, alignment, back-translation and scoring are exactly as in cycles 2 and 3.
+
+**Correction (2026-11-26).** The claim wording below ("the first complete English translation we know of") is withdrawn. Source Library (sourcelibrary.org) posted unreviewed machine translations into English during 2026 that include the medieval Latin versions of *De comate* (Venice 1490) and of the commentary on *Regimen in Acute Diseases* (Articella 1483); no Source Library text of *De plenitudine* or *Adversus typos* was found. The pages now say "No published translation into English by a scholar that we know of" and name Source Library where it covers a work (CHANGELOG, 2026-11-26).
 
 ## Why these three
 In the census and in a literature check made on 2026-11-11 (catalogues, publishers, theses and in-preparation lists, by a research agent told to falsify), each of these works has no English translation and no announced English translation. The same check ruled out five other candidates:

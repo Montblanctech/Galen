@@ -60,7 +60,7 @@ Answers are short plain text. `detail="full"` gives more: key-term tables, every
 1. "What does Galen say at Kühn XV 609, and do the two drafts agree on the key terms?"
 2. "How do the drafts translate δριμύς across the works: acrid or pungent?"
 3. "Where is νεῦρον rendered 'sinews' rather than 'nerves'? Show me the Greek."
-4. "Which of these works had no English translation before, and which units failed the checks?"
+4. "Which earlier translations of these works exist, and which units failed the checks?"
 5. "Which LSJ headword does LSJ-Gold give for ἀᾶται, and where is it cited?"
 
 ## Data, cache and privacy

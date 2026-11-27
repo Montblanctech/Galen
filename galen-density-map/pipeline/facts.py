@@ -239,7 +239,7 @@ def stale_displays(data: dict) -> dict[str, list[tuple[str, str]]]:
 ANCHORS = [
     ("words of Greek", re.compile(r"(\d[\d,]{4,}) words of Greek"), [("first_drafts.greek_words",)]),
     ("works of Galen", re.compile(r"\b([A-Za-z]+|\d+) works of Galen\b"), [("first_drafts.works",)]),
-    ("works with no complete English", re.compile(r"\b([A-Za-z]+|\d+) (?:Galenic )?works (?:of Galen )?with no complete English"), [("first_drafts.works",)]),
+    ("works with no complete English", re.compile(r"\b([A-Za-z]+|\d+) (?:Galenic )?works (?:of Galen )?with no complete (?:published )?English"), [("first_drafts.works",)]),
     ("loci over N authors", re.compile(r"(\d[\d,]{4,}) (?:relocated )?loci over (\d+) authors"),
      [("lsjgold.loci", "lsjgold.authors"), ("lsgold.loci", "lsgold.authors")]),
     ("findings items", re.compile(r"(?:catalogue of|[Pp]lus) (\d+) (?:items|things)"), [("findings.items",)]),

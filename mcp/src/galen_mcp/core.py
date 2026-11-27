@@ -155,7 +155,7 @@ class Galen:
         full = _detail(detail)
         g = [w for w in self.catalog.values() if w["kind"] == "galen"]
         m = [w for w in self.catalog.values() if w["kind"] != "galen"]
-        out = [f"Galen First Drafts: {len(g)} Galen works never before translated into English (and "
+        out = [f"Galen First Drafts: {len(g)} Galen works with no complete published English translation by a scholar (and "
                f"{len(m)} method test). Each unit has two independent English renderings (A, B) and "
                "automatic checks. Greek and drafts CC BY-SA 4.0. Index: " + PAGES_URL + "first-drafts/",
                "Machine first drafts; no scholar has reviewed them."]
