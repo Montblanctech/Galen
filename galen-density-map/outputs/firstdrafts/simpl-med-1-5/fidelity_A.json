@@ -1,0 +1,593 @@
+{
+ "work": "simpl-med-1-5",
+ "rendering": "A",
+ "units": 410,
+ "pairs": 2273,
+ "pairs_skipped_misaligned": 17,
+ "flags": 68,
+ "by_check": {
+  "more/less: counts differ": 5,
+  "more/less: greek less, english more": 2,
+  "more/less: greek more, english less": 1,
+  "negation: added": 10,
+  "negation: fewer than the greek": 10,
+  "negation: missing": 10,
+  "negation: more than the greek": 6,
+  "numbers: added": 16,
+  "numbers: missing": 8
+ },
+ "items": [
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "One must melt wax, as pure as possible, in oil and make a moist cerate; then, having cooled and scraped it, knead it in a mortar with the hands while pouring on cold water, to the extent that the cerate is able to take it up and the water does not at all run off.",
+   "unit_id": "K11.390-391",
+   "bead": 5,
+   "greek": "καθαρὸν ὡς ἔνι μάλιστα κηρὸν ἐλαίῳ χρὴ τήξαντας ὑγρὰν ποιῆσαι κηρωτὴν, ἔπειτα ψύξαντάς τε καὶ ξύσαντας ἐν θυείᾳ μαλάττειν διὰ τῶν χειρῶν ὕδωρ ψυχρὸν παραχέοντας, εἰς ὅσον ἂν ἡ κηρωτὴ δύνηται δέχεσθαι καὶ μήπως περιῤῥέῃ τὸ ὕδωρ."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "φαίνεται δὲ ἐναργῶς μηδὲν τῶν παχυμερῶν, πρὶν ἀκριβῶς καταθραυσθῆναί τε καὶ λεπτυνθῆναι, μήτ’ αὐτὸ πάσχειν ὑπὸ τοῦ σώματος ἡμῶν μήτ’ ἀντιδρᾶσαί τι δυναμένου.",
+   "english": "And it appears clearly that none of the coarse-particled things, before it has been thoroughly broken down and thinned, is either itself affected by our body or able to act back upon it in any way.",
+   "unit_id": "K11.404",
+   "bead": 1
+  },
+  {
+   "check": "more/less",
+   "kind": "counts differ",
+   "unit_id": "K11.409-410",
+   "bead": 5,
+   "greek": "εἰ δ’ ἤτοι πλέον ψυχρότερον εἴη θάτερον, ἢ παχυμερέστερον τὸ λοιπὸν, ἢ ἔμπαλιν ἧττον ψυχρότερον τὸ ἕτερον αὐτῶν, παχυμερέστερον δὲ τὸ λοιπὸν, οὐκ ἔτ’ ἐν ἴσῳ χρόνῳ πήγνυσθαι τούτοις δυνατὸν, ἀλλὰ τὸ μὲν πλέον ψυχρότερον ἢ παχυμερέστερον θάτερον, ἐν ἐλάττονι χρόνῳ, τὸ δ’ ἧττον ψυχρότερον ἢ παχυμερέστερον τὸ λοιπὸν ἐν πλείονι.",
+   "english": "But if either the one is colder by more than the other is more coarse-particled, or, conversely, one of them is colder by less while the other is more coarse-particled, it is no longer possible for these to congeal in an equal time; rather, that which is colder by more than the other is more coarse-particled congeals in a shorter time, and that which is colder by less than the other is more coarse-particled, in a longer one."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "K11.416-417",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "K11.418-419",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "οὐδέτερον δέ πως ἑκάτερον αὐτῶν ἀναγκαῖον εἶναι.",
+   "unit_id": "K11.420-421",
+   "bead": 7,
+   "english": "And each of them must in some way be neuter."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.421-422",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "τριχῶς δὲ τῶν οὐδετέρων λεγομένων, ὥσπερ καὶ Ἡρόφιλος διῃρεῖτο, τῶν μὲν τῷ μετέχειν ἴσον ἀμφοτέρων τῶν ἄκρων, τῶν δὲ τῷ μηδετέρου, τῶν δὲ νῦν μὲν τοῦδε, νῦν δὲ τοῦδε, πάντως που καὶ ταῦτα ἢ κατά τι τῶν σημαινομένων, [422] ἤ τινα τῆς τῶν οὐδετέρων ἐστὶ φύσεως.",
+   "english": "Now since 'neutral' things are spoken of in three ways, as Herophilus too divided them — some by participating equally in both of the extremes, others by participating in neither, and others by participating now in this one, now in that — these too are surely of the nature of the neutral things, either according to one of the significations [422] or according to several of them.",
+   "unit_id": "K11.421-422",
+   "bead": 0
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "οὕτως οὖν οὐδέτερα λεχθείη ἂν καὶ ὄξος καὶ ῥόδινον.",
+   "unit_id": "K11.421-422",
+   "bead": 2,
+   "english": "In this way, then, both vinegar and rose oil might be called neutral."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For it is open to us, I think, to say that we do not know, just as with many other problems of this kind.",
+   "unit_id": "K11.435",
+   "bead": 3,
+   "greek": "ἔνεστι γὰρ, οἶμαι, λέγειν ἡμῖν ὡς ἀγνοοῦμεν, ὥσπερ καὶ ἄλλα πολλὰ τῶν τοιούτων προβλημάτων."
+  },
+  {
+   "check": "more/less",
+   "kind": "counts differ",
+   "unit_id": "K11.436-437",
+   "bead": 1,
+   "greek": "φαίνεται γὰρ ἐπὶ μὲν τῷ οἴνῳ διψωδέστερος ἀεὶ γιγνόμενος ὁ ἄνθρωπος, ἐπὶ δὲ τῇ τοῦ ὄξους πόσει ποτὲ μὲν διψωδέστερός ἐστιν, ποτὲ δὲ ἀδιψότερος, ὅτι καὶ τὸ δίψος αὐτὸ διττῶς γίνεται, τὸ μὲν ὑγρότητος ἐνδείᾳ, τὸ δὲ πλεονεξίᾳ θερμότητος· ὥστ’ οὐδὲν θαυμαστὸν εἰ τὸ μὲν πρότερον οὐκ ἰᾶται, θάτερον δ’ ἰᾶται.",
+   "english": "For upon wine the man is seen always to become thirstier, whereas upon the drinking of vinegar he is sometimes thirstier and sometimes less thirsty, because thirst itself also arises in two ways, the one through deficiency of moisture, the other through excess of heat; so that it is nothing to wonder at if it does not cure the former but does cure the latter."
+  },
+  {
+   "check": "more/less",
+   "kind": "greek less, english more",
+   "unit_id": "K11.442-443",
+   "bead": 1,
+   "greek": "Εἶτά τινες ἐξ αὐτῶν, ὥσπερ Ἡρόδοτος καὶ Διοσκουρίδης, ἐκ τοῦ φάρμακα ἄττα διαῤῥοίας τε καὶ δυσεντερίας ὠφελεῖν συλλογίζονται στύφειν αὐτὰ, καίτοι μηδ’ ἐλαχίστης μετέχοντα στύψεως, ἀλλ’ αὐτὸ τοὐναντίον ἀραιότερα τε καὶ χαλαστικὰ ταῖς δυνάμεσιν ὑπάρχοντα τῶν στυφόντων, συναγαγόντων τε καὶ πιλούντων καὶ πυκνούντων καὶ σφιγγόντων τὰ σώματα.",
+   "english": "Then some of them, like Herodotus and Dioscurides, from the fact that certain drugs benefit diarrhoeas and dysenteries, infer that these are astringent, although they share in not even the slightest astringency, but on the contrary are, in their powers, more rarefying and relaxing than the astringents, which draw together, compact, condense and constrict bodies."
+  },
+  {
+   "check": "more/less",
+   "kind": "greek more, english less",
+   "unit_id": "K11.448-449",
+   "bead": 1,
+   "greek": "πάντως γὰρ ἄν που τό γε τοσοῦτον ἐπεγίνωσκον, ὧς δεδιέναι χρὴ καὶ φυλάττεσθαι τὰς ἐν αὐτοῖς ἀπορίας καὶ ταῖς αἰσθήσεσιν ἐπιτρέπειν μᾶλλον ἢ λόγοις κιβδήλοις ὑπὲρ τῆς τῶν ἁπλῶν φαρμάκων δυνάμεως.",
+   "english": "For in any case they would surely have recognised at least this much, that one must fear and guard against the difficulties contained in these, and entrust oneself to the senses rather than to spurious arguments concerning the power of simple drugs."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For beginning from far off, and holding sense-perception in dishonour, and throwing themselves into matters that are in doubt even among the philosophers, they lose, along with the things they do not know, even those that are clearly known.",
+   "unit_id": "K11.459",
+   "bead": 2,
+   "greek": "πόῤῥωθεν γὰρ ἀρχόμενοι καὶ τὴν αἴσθησιν ἀτιμάζοντες, ἐμβάλλοντές τε σφᾶς αὑτοὺς εἰς τὰ καὶ ἐν τοῖς φιλοσόφοις ἠπορημένα, προσαπολλύουσιν οἷς ἀγνοοῦσιν καὶ τὰ σαφῶς γινωσκόμενα."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.465-466",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "οὔτε γὰρ εἰ θερμὸν, οὔτε εἰ ψυχρὸν, οὔτ’ εἰ ξηρὸν, οὔτ’ εἰ ὑγρόν ἐστιν τὴν δύναμιν, ἐξ οὐδενὸς ἔνεστι τῶν τοιούτων συλλογίσασθαι.",
+   "english": "For from none of such things is it possible to infer whether it is hot, or cold, or dry, or moist in its power.",
+   "unit_id": "K11.468-469",
+   "bead": 3
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "εἴ τις τοίνυν ἐξ ἁπάσης χρήσεως ἀποφαίνοιτο περὶ τῆς τῶν φαρμάκων δυνάμεως, οὐκ ἂν φθάνοι καὶ θερμαντικὸν ἡμῶν καὶ ψυκτικὸν οἰόμενος εἶναι τοὔλαιον, ὑγραντικόν τε καὶ ξηραντικὸν, ὥσπερ καὶ ὁ τοῦ Διοκλέους Ἀρχίδαμος, εἰ καὶ μὴ παρακολουθεῖ ταῖς ἐναντιολογίαις.",
+   "english": "If, then, someone were to make pronouncements about the power of drugs on the basis of every use, he would straightway come to think that oil is for us both heating and cooling, both moistening and drying, just as Diocles' Archidamus does too, even if he does not follow out his own contradictions.",
+   "unit_id": "K11.480-481",
+   "bead": 1
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἀλλὰ μετὰ τὴν ἔνεσιν οὐχ ὅπως παύει τὰ τοιαῦτα φάρμακα τὴν δῆξιν εὐθὺς, ἀλλὰ καὶ παροξύνει.",
+   "unit_id": "K11.487-488",
+   "bead": 5,
+   "english": "But after the injection such drugs, so far from stopping the biting at once, actually exacerbate it."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "θέασαι γὰρ ὡδί πως ἑκάτερον ἐπὶ παραδειγμάτων, ὑπόδειγμα θέμενος ἐν τῷ λόγῳ δύο τινὰς ἀνθρώπους δακνομένους μὲν ὁμοίως τὸ τῆς γαστρὸς στόμα, προσφερομένους δὲ χυλὸν πτισάνης ἢ χόνδρον ἢ ἄρτον πλυτὸν, εἶτα τῷ μὲν ἑτέρῳ παυομένην τὴν δῆξιν, αὐξανομένην δὲ θατέρῳ, πότερον οὖν ὅσον ἐφ’ ἑαυτῷ δακνώδης ἐστὶν ὁ χυλὸς τῆς πτισάνης, ἢ ὁ χόνδρος, ἢ ὁ ἄρτος, κατὰ δέ τι συμβεβηκὸς ἐπὶ θατέρου τῶν ἀνθρώπων οὐχ ὅπως ηὔξησεν, ἀλλὰ παρηγόρησεν τὴν δῆξιν;",
+   "english": "For consider each case in some such way as this by means of examples, positing in the argument as an illustration two persons who are bitten alike at the mouth of the stomach and who take the juice of ptisane or spelt-groats or washed bread, and then for the one the biting ceases, while for the other it increases. Is it, then, that so far as depends on itself the juice of ptisane, or the spelt-groats, or the bread, is biting, but by some accident in the case of one of the two men it not only did not increase but even soothed the biting?",
+   "unit_id": "K11.491-492",
+   "bead": 3
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "We, however, say that if ptisan were by nature of bad humour, it would never have soothed bitings.",
+   "unit_id": "K11.492-493",
+   "bead": 3,
+   "greek": "ἡμεῖς δὲ λέγομεν ὡς εἴπερ ἡ πτισάνη φύσει κακόχυμος ἦν, οὔποτ’ ἂν ἐπράϋνε δήξεις."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "οὐ μὲν γὰρ ἢ δι’ αἰσθήσεως, ἢ ἀπ’ αἰσθήσεως, ἢ ὅπως ἄν τις ὀνομάζειν ἐθελήσει, τὰ τοιαῦτα τῶν ἀξιωμάτων εἴληπται, πᾶν τὸ δακνῶδες καὶ κερχνῶδές ἐστι, καὶ εἴ τι δακνῶδες, τοῦτο καὶ κερχνῶδές ἐστιν, οὔτ’ εἰ πᾶν τὸ δακνῶδες καὶ κερχνῶδές ἐστιν, ἤδη καὶ τὸ κερχνῶδες [500] ἅπαν ὑπάρχει δακνῶδες, οὔτε τῷ πᾶν εἴ τι δακνῶδές ἐστιν, τοῦτο καὶ κερχνῶδες ὑπάρχειν, ἕπεται τὸ πᾶν εἴ τι κερχνῶδές ἐστιν, καὶ δακνῶδες ὑπάρχειν, ἀλλὰ τὸ μὲν εἰ μὴ κερχνῶδες οὐδὲ δακνῶδες ἀληθές.",
+   "english": "For it is not the case that, either through perception or from perception, or however one may wish to name it, axioms of the following sort have been obtained—'everything biting is also throat-roughening', and 'if something is biting, this is also throat-roughening'—nor, if everything biting is also throat-roughening, is everything throat-roughening [500] thereby also biting; nor from 'everything, if it is biting, is also throat-roughening' does it follow that 'everything, if it is throat-roughening, is also biting'.",
+   "unit_id": "K11.499-500",
+   "bead": 0
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "ἀντιστρέφει γὰρ, οὐ μὴν εἴ τι κερχνῶδες, εὐθὺς καὶ δακνῶδες· ἀναστρέφει γὰρ τοῦτο.",
+   "english": "Rather, the proposition 'if not throat-roughening, then not biting either' is true, for it converts; but not 'if something is throat-roughening, it is forthwith also biting', for this inverts.",
+   "unit_id": "K11.499-500",
+   "bead": 1
+  },
+  {
+   "check": "more/less",
+   "kind": "counts differ",
+   "unit_id": "K11.506-507",
+   "bead": 1,
+   "greek": "ἐναργὲς δήπου καὶ σαφὲς πᾶσίν ἐστιν ὡς ἡ μετ’ ἐλαίου τρίψις ἀκοπωτέρα γε πολὺ τῆς ξηρᾶς ἐστιν καὶ μαλάττει τὰ σώματα, συνέχουσα καὶ ἀποστέγουσα μᾶλλον, ὅσον ἀποῤῥεῖν πέφυκεν ἡμῶν ἐκτὸς οὐ διαφοροῦσα καὶ ξηραίνουσα.",
+   "english": "It is surely evident and clear to all that rubbing with oil is far less fatiguing than dry rubbing and softens bodies, rather holding together and keeping in whatever is of a nature to flow off from us outward, not dispersing and drying it."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "λεγόντων οὑν τῶν φιλοσόφων θερμὸν εἶναι [510] τοὔλαιον καὶ τεκμήριον τούτου τιθεμένων οὐ σμικρὸν, ὡς οἴονται, τὸ τάχος τῆς εἰς τὴν φλόγα μεταβολῆς ἀντιλέγοντες ἔνιοι τουτὶ μὲν ὑπάρχειν αὐτῷ φασιν, ὅτι λεπτόν τ’ ἐστὶ καὶ ἀερῶδες. ἐκ δὲ τοῦ πήγνυσθαι ταχέως ἐν τῷ χειμῶνι σαφῶς ἐνδείκνυσθαι τὴν ψύξιν.",
+   "english": "So when the philosophers say that olive oil is [510] hot, and set down as no small evidence of this, as they think, the speed of its change into flame, some people object and say that this indeed belongs to it because it is thin and airy, but that from its congealing quickly in winter it clearly displays its coldness; for it is more readily overcome by the cold not only than wine and vinegar, but even than water itself.",
+   "unit_id": "K11.509-510",
+   "bead": 0
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "αὐτίκα γέ τοί φασιν ἐν τοῖς ὑγιεινοῖς καὶ εὐτραφέσι σώμασιν γεννᾶσθαι πιμελὴν πολλὴν, ἃ μηδὲ μανέντα τινὰ φάναι ψυχρά. γίνεσθαι γὰρ τοιαῦτα τῆς φύσεως ἐῤῥωμένης, ἣν δὴ θερμόν τι χρῆμα πάντες ὡμολογήκασιν οἱ φυσικοὶ φιλόσοφοι.",
+   "english": "To begin with, at any rate, they say that in healthy and well-nourished bodies much soft fat is generated, bodies which no one, not even if mad, would call cold; for such bodies come about when nature is strong, and nature all the natural philosophers have agreed to be a hot thing.",
+   "unit_id": "K11.512-513",
+   "bead": 3
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    2
+   ],
+   "unit_id": "K11.515-516",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἐπὶ δὲ τῶν ὑγιαινόντων, ὅσοι μὲν ἐξ ὁδοιπορίας μακρᾶς εἰσι καὶ γυμνασίων πλειόνων, ἢ ὁπωσοῦν ἄλλως ἐξηραμμένοι τὸ σῶμα, τούτοις μὲν ἀλείφεσθαι καὶ πρὶν ἱδρῶσαι συγχωροῦσιν. ὅσοι δ’ ἠπεπτηκότες, ἢ πληθωρικὸν τὸ σῶμα ἔχοντες, τούτοις οὐδὲ λουομένοις ἐπιτρέπουσιν ἐλαίῳ χρῆσθαι.",
+   "unit_id": "K11.529-530",
+   "bead": 1,
+   "english": "And it seems to me that here too oil is in the middle between the things that moisten us and those that dry us, just as a little earlier it was shown to be between those that heat and those that cool."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.540",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ὡς ἔγωγε καὶ νῦν ἔτι δέδοικα μὴ διὰ τὸ τάχος τῆς πρὸς αὐτοὺς ἀντιλογίας ἔνια τῶν σοφισμάτων παρακρούσηται τοὺς ὁμιλοῦντας αὐτοῖς νέους.",
+   "unit_id": "K11.540-541",
+   "bead": 1,
+   "english": "For I myself even now still fear that, because of the brevity of the refutation directed against them, some of the sophisms may lead astray the young men who associate with them."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "K11.546-547",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For if they are heated up, it would rather be hot; but if they are cooled, cold — which is the same as saying that it is cooling in relation to human nature; for one must always keep this in mind, although I never cease saying it countless times, while most people mishear it, and one must pardon them, perverted as they are by sophists who talk nonsense at length.",
+   "unit_id": "K11.557-558",
+   "bead": 2,
+   "greek": "ψυχρόν. ἐν ἴσῳ τὸ ψυκτικὸν εἶναι ἀνθρώπου φύσεως, ἀεὶ γὰρ τούτου χρὴ μεμνῆσθαι, καίτοι μυριάκις μὲν ἐγὼ διατελῶ λέγων αὐτὸ, παρακούουσι δ’ οἱ πολλοὶ καὶ συγγινώσκειν αὐτοῖς χρὴ διεστραμμένοις ὑπὸ τῶν σοφιστῶν ληρούντων μακρά."
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    2
+   ],
+   "unit_id": "K11.572-573",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "καὶ εἴπερ ἦν οἷόν τε διακρῖναι τὸ καθαῖρον ἐν αὐτῇ τοῦ μὴ καθαίροντος, ὥσπερ ἐπὶ γάλακτος ἐργαζόμεθα καὶ κράμβης ἑτέρων τε παμπόλλων, οὐκέτ’ ἂν ἐθαυμάζετο.",
+   "english": "And if it were possible to separate the purging part in it from the non-purging, as we do in the case of milk and cabbage and very many others, it would no longer be wondered at.",
+   "unit_id": "K11.577-578",
+   "bead": 3
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    200
+   ],
+   "unit_id": "K11.583-584",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    6,
+    100,
+    100
+   ],
+   "unit_id": "K11.583-584",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τὰ δ’ ἐπ’ ὀλίγον μὲν στύφοντα, τὸ πλεῖστον δ’ ἐν αὐτοῖς ἔχοντα λεπτομεροῦς τε ἅμα καὶ χλιαρᾶς οὐσίας, οὐχ ὅπως οὐ κωλύεται πρὸς τῆς στύψεως ἐγκαταβαίνειν τῷ βάθει τῶν πλησιαζόντων σωμάτων, ἀλλὰ καὶ συνεργεῖται μᾶλλον ἐπωθούμενα πρὸς αὐτῆς.",
+   "unit_id": "K11.593-594",
+   "bead": 5,
+   "english": "But things that are astringent to a slight degree, while having in themselves for the most part a substance that is at once fine-particled and lukewarm, so far from being prevented by the astringency from descending into the depth of the bodies they come into contact with, are rather even assisted, being pushed onward by it."
+  },
+  {
+   "check": "more/less",
+   "kind": "greek less, english more",
+   "unit_id": "K11.609-610",
+   "bead": 0,
+   "greek": "δεῖ γὰρ, οἶμαι, παντὶ τῷ δράσοντι, κᾂν ἰσχυρότατον ᾖ, ποσοῦ τινος μεγέθους, ὅπου γε καὶ τὸ πῦρ, εἰ παντελῶς ἐλάχιστον ﻿ [610] εἴη, πρὸς τῷ μὴ καίειν οὐδὲ θερμαίνειν δύναται.",
+   "english": "For everything that is to act, I think, even if it be most powerful, requires some quantity of magnitude, seeing that even fire, if it be altogether minimal, [610] besides not burning, cannot even heat."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "The cause of the fact that the humours not proper to the purging drug are excreted at all lies in these three things: the weakness of the vessels, the width of the mouths, and the biting of the purgative.",
+   "unit_id": "K11.616-617",
+   "bead": 2,
+   "greek": "Ἡ δὲ αἰτία τοῦ μὲν ὅλως ἐκκρίνεσθαι καὶ τοὺς ἀνοικείους τῷ καθαίροντι φαρμάκῳ χυμοὺς ἐν τρισὶ τούτοις κεῖται, τῇ τε ἀῤῥωστίᾳ τῶν ἀγγείων καὶ τῇ τῶν στομάτων εὐρύτητι καὶ τῇ δήξει τοῦ καθαίροντος."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "These, then, are the causes of the humours not proper to the purgative also being evacuated; while of their being evacuated in the aforesaid order the cause is the thinness and thickness of the evacuated humours themselves, and in addition the greater or lesser affinity of each of the humours to the constitution of the animal.",
+   "unit_id": "K11.617-618",
+   "bead": 3,
+   "greek": "τοῦ μὲν δὴ κενοῦσθαι καὶ τοὺς ἀνοικείους τῷ καθαίροντι ταῦτα τὰ αἴτια· τοῦ δὲ ἐν τῇ προειρημένῃ τάξει λεπτότης τε καὶ παχύτης αὐτῶν ἐστι τῶν κενουμένων χυμῶν αἰτία, καὶ πρὸς τούτοις ἡ μᾶλλόν τε καὶ ἧττον οἰκειότης ἑκάστου τῶν χυμῶν τῇ τοῦ ζώου συστάσει."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "K11.619",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.647",
+   "bead": null
+  },
+  {
+   "check": "more/less",
+   "kind": "counts differ",
+   "unit_id": "K11.650-651",
+   "bead": 0,
+   "greek": "πάντως μέντοι καὶ αὐτὸ μετέχει γλυκύτητος, εἴπερ γε μὴ ἀκριβῶς ἐστι στρυφνὰ, καθάπερ ἡ κικίς τε καὶ ὁ ῥοῦς, οὐ μὴν ἀλλὰ καὶ διὰ ταῦτα ἤδη καὶ ὡς φαρμάκων [651] μᾶλλον ἢ τροφῆς αὐτῶν ἡ χρεία.",
+   "english": "Nevertheless, it too certainly partakes of sweetness, provided at least that they are not precisely acerbic, like the oak-gall and the sumach; yet even so, for these very reasons the use of them is now rather as drugs [651] than as food."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5,
+    0.5
+   ],
+   "unit_id": "K11.653-654",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5
+   ],
+   "unit_id": "K11.654-655",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "There is indeed, after the boiling, in some of the wines a pure sweetness, at once pleasant and proper to the nature of the juice itself, not like the earlier one, which was a kind of mixture of the proper sweetness and of that arising from the boiling of the half-concocted and watery residue; so that, if it is agreed that all wines become hotter as they grow old, and it happens to the harsh ones among them, in aging, first to take on a certain sweetness and pungency as they lay aside their astringency, next to increase in pungency while gradually ceasing from sweetness, and then again, over a longer time, to become quite pungent and to take on bitterness continually, and finally, when they thicken, to turn entirely bitter—then it is evident that the sweet is hotter than the acerbic, and the bitter hotter than the sweet.",
+   "unit_id": "K11.654-655",
+   "bead": 2,
+   "greek": "συμβαίνει δὲ τοῖς αὐστηροῖς αὐτῶν ἐν τῷ παλαιοῦσθαι πρῶτον μὲν γλυκύτητά τινα καὶ δριμύτητα προσλαμβάνειν, ἀποτιθεμένοις τὴν στύψιν, ἐφεξῆς δὲ παραύξεσθαι μὲν τῇ δριμύτητι, παύεσθαι δὲ κατὰ βραχὺ τῆς γλυκύτητος, κᾄπειτ’ αὖθις ἐν τῷ πλείονι χρόνῳ δριμεῖς θ’ ἱκανῶς γίγνεσθαι καὶ πικρότητα ἀεὶ προσλαμβάνειν καὶ τελευτῶντας, ἡνίκα παχύνονται, παντελῶς ἐκπικροῦσθαι. καὶ πρόδηλον, ὡς τὸ μὲν γλυκὺ θερμότερόν ἐστι τοῦ στρυφνοῦ, τὸ δὲ πικρὸν τοῦ γλυκέος."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5,
+    0.5
+   ],
+   "unit_id": "K11.665-666",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "οὔτε γὰρ τὸ μέλι ἐξαίφνης γίγνεται πικρὸν, ἀλλ’ εἴθ’ ἑψόμενον ἐπὶ πλέον εἴτε παλαιούμενον, εἰς πικρότητα μεταβάλλει κατὰ βραχὺ πάσχον τὸ τοιοῦτο. οὔθ’ ὅσοι τῶν καρπῶν ἀποτελοῦνται γλυκεῖς, ὥσπερ ἔνιοι τῶν σικύων τε καὶ μηλοπεπόνων, οὐδ’ αὐτοὶ τὴν ἐξ ἀρχῆς ἀθρόως ἀποβάλλουσι ποιότητα.",
+   "english": "For neither does honey become bitter all at once, but whether it is boiled for too long or grows old, it changes into bitterness little by little as it undergoes this; nor do those fruits that end up sweet, as some of the cucumbers and melons, themselves cast off all at once the quality they had from the beginning.",
+   "unit_id": "K11.670-671",
+   "bead": 1
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For the genus of these latter, so far at least as the flavours are concerned, has no name under a single designation.",
+   "unit_id": "K11.698-699",
+   "bead": 2,
+   "greek": "ἀνώνυμον γὰρ, ὅσον ἐπί γε τῶν χυμῶν ἐστιν, ἑνὶ προσρήματι τὸ τούτων γένος."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "οὐ γὰρ ἂν σφαλείης οὐδὲ ἐν τῇδε, πρὶν μέντοι τῇ πείρᾳ διαγνῶναι τὴν δύναμιν, ἡ γεῦσις ἐκδείκνυται τὰ πολλὰ, συνεπιμαρτυρούσης, ὡς εἴρηται, βραχέα καὶ τῆς ὀσμῆς.",
+   "unit_id": "K11.702-703",
+   "bead": 4,
+   "english": "Before, however, one has discerned the power by experience, taste displays most things, with smell too, as has been said, bearing some small additional witness."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    5
+   ],
+   "unit_id": "K11.704",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    5
+   ],
+   "unit_id": "K11.709-710",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.714-715",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.718-719",
+   "bead": null
+  },
+  {
+   "check": "more/less",
+   "kind": "counts differ",
+   "unit_id": "K11.730-731",
+   "bead": 5,
+   "greek": "περιέχεσθαι δὲ κᾀν ταῖς κεναῖς χώραις οὐκ ὀλίγην οὐσίαν αὐτοῦ, μᾶλλον δὲ οἷον ὕλην τινὰ βραχείας μὲν ἔτι μεταβολῆς δεομένην εἰς γένεσιν ἐμφύτου πνεύματος ἠκριβωμένου κατὰ τὰς οἰκείας ποιότητας, ἤδη μέντοι πρός γε τὰ φυσικὰ τῶν ἔργων ἱκανῶς συντελοῦσαν.",
+   "english": "And that no small substance of it is contained also in the empty spaces, or rather, as it were, a kind of matter which still needs a slight change for the generation of innate pneuma perfected in its proper qualities, yet already contributes sufficiently, at least to the natural activities."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "Ταῦτα δὲ ὁρᾶται σαφῶς πῶς ἐστι καὶ ἐπὶ τοῦ δέρματος μὲν, ὥσπερ καὶ πρὸς Ἱπποκράτους εἴρηται, δέρματος σκληροῦ μάλθαξις, συντεταμένου δὲ χάλασις, οὐ μὴν ἀλλὰ κᾀπὶ τῶν ἄρθρων πολλάκις.",
+   "unit_id": "K11.740-741",
+   "bead": 1,
+   "english": "And how these things are is clearly seen both in the case of the skin, as has also been said by Hippocrates, \"of hard skin, softening; of tensed, relaxation\", and indeed also, often, in the case of the joints."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "καὶ δὴ καὶ τῶν ἐναντίων αὐτοῖς, εἰ μέν τι συνάγει τοὺς πόρους, πυκνωτικὸν ὀνομάζουσιν, εἰ δέ τι κλείει τὸ στόμιον, ἰδίῳ μὲν οὐκέτι προσαγορεύουσιν [750] ὀνόματι, γενικωτέροις δέ τισι συνάγον τε καὶ κλεῖον καὶ σφίγγον καὶ στεγνοῦν ὀνομάζοντες, ἡ δὲ φύσις ἑκατέρων ἐστὶν τῶν μὲν ἀραιωτικῶν μετρίως θερμὴ καὶ ἥκιστα ξηραίνουσα καὶ λεπτομερὴς, τῶν δ’ ἀναστομωτικῶν παχυμερὴς, δριμεῖα καὶ δηκτική· τῶν δ’ ἐναντίων αὐτοῖς ἡ μὲν πυκνωτικὴ ψυκτικὴ μὲν, οὐ μὴν οὔτε γεώδης οὔτε ἀερώδης, ἀλλ’ ὑδατώδης μᾶλλον, ἡ δὲ τὰς ἀναστομώσεις κλείουσα παχυμερὴς, ψυχρά.",
+   "english": "And indeed, of their opposites too, if something draws the pores together, they call it condensing; but if something closes the mouth, they no longer address it by a name of its own, [750] naming it instead by certain more generic ones: contracting, closing, constricting and stopping up. The nature of each: that of the rarefying ones is moderately hot and least of all drying and fine-particled; that of the mouth-opening ones coarse-particled, pungent and biting.",
+   "unit_id": "K11.749-750",
+   "bead": 0
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Examples of these: of rarefying nature are chamomile and marsh-mallow and the oil made from them, and not least also that made from wild cucumbers.",
+   "unit_id": "K11.749-750",
+   "bead": 2,
+   "greek": "ἀλλὰ καὶ τὸ παλαιὸν καὶ τὸ κίκινον καὶ τὸ ῥαφάνινον ἔλαιον ἐκ τῆς αὐτῆς ἐστιν ἰδέας."
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    2
+   ],
+   "unit_id": "K11.757-758",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "οὐ μὴν οὐδ’ εἰ τὰς μὲν τῶν ἰοβόλων θηρίων ἰατικὰς ἀλεξητηρίους ἐθέλοι τις ὀνομάζειν, τὰς δὲ τῶν δηλητηρίων ἀλεξιφαρμάκους, ὥσπερ ἤδη τινὲς ἠξίωσαν, οὐδὲ πρὸς τούτους ἀμφισβητέον ὑπὲρ τῶν ὀνομάτων.",
+   "english": "Nor indeed, if someone should wish to name those that are curative of venomous beasts 'protective', and those that are curative of deleterious drugs 'alexipharmic', as some have already thought fit, should one dispute with these people either over the names.",
+   "unit_id": "K11.763-764",
+   "bead": 2
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    2
+   ],
+   "unit_id": "K11.767-768",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    2
+   ],
+   "unit_id": "K11.769-770",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "ὅσα δὲ ξηραίνει, τὴν ἀρχὴν οὐδ’ ἐπιτρέπει γενέσθαι τὸ σπέρμα, κᾂν θερμὰ τὴν φύσιν ὑπάρχῃ, καθάπερ τὸ πήγανον.",
+   "english": "But those which dry do not permit the seed to come into being at all, even if they are hot in nature, like rue; and if they do not heat either, much more so, like the water-lily.",
+   "unit_id": "K11.776-777",
+   "bead": 5
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "εἰ δὲ καὶ μὴ θερμαίνει, πολὺ μᾶλλον, ὡς ἡ νυμφαία. ταῦτα μέν γε καὶ κατὰ τὴν ἰδιότητα τῆς οὐσίας εὔλογον ἐναντίως ἔχειν σπέρματι.",
+   "unit_id": "K11.776-777",
+   "bead": 6,
+   "english": "These, at any rate, it is reasonable to suppose are contrary to seed also in respect of the specific property of their substance."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "δέδεικται γὰρ ἡμῖν ἐν τοῖς ἔμπροσθεν ὡς ἰδία τίς ἐστιν ἡ τῶν λεπτομερῶν φαρμάκων φύσις οὐ μόνον τοῖς θερμαίνουσιν ὑπάρχουσα.",
+   "english": "For it has been shown by us in what precedes that the nature of fine-particled drugs is a distinct one, belonging not only to those that heat; and in the same way also that of coarse-particled ones belongs not only to those that cool.",
+   "unit_id": "K11.777-778",
+   "bead": 5
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "κατὰ ταὐτὰ δὲ καὶ ἡ τῶν παχυμερῶν οὐ μόνον τοῖς ψύχουσιν· ὥσπερ δὲ καὶ ἐπὶ τῶν τοιούτων ἀναλογία τις ἐν ταῖς δυνάμεσιν ὑπάρχει, κατὰ τὸν αὐτὸν τρόπον ἐπὶ πάντων ζητεῖν, εἰ καὶ μὴ κείμενον ὄνομα τύχῃ.",
+   "english": "And just as in the case of such things there is a certain analogy in their powers, in the same way one must seek it in the case of all, even if no established name happens to exist.",
+   "unit_id": "K11.777-778",
+   "bead": 6
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "K11.786-787",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    3
+   ],
+   "unit_id": "K11.787-788",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τῆς τρίτης μέντοι τάξεως τῶν ξηραινόντων δύναταί τι καὶ μὴ καῖον εἶναι, καθάπερ ὅσα στύφει σφοδρῶς ἅπαντα, [788] ἐξ ὧν ἐστιν ὀμφάκιον καὶ ῥοῦς καὶ στυπτηρία καὶ βαλαύστιον καὶ κικὶς ἡ ὀμφακῖτις.",
+   "unit_id": "K11.787-788",
+   "bead": 0,
+   "english": "Of the third order of drying things, however, something can also be non-burning, as for instance all those things which are strongly astringent, [788] among which are omphacium and sumach and alum and balaustion and the unripe oak-gall (omphakitis)."
+  }
+ ]
+}

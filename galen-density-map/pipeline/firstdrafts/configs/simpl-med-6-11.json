@@ -1,0 +1,106 @@
+{
+ "slug": "simpl-med-6-11",
+ "lang": "grc",
+ "author": "Galen",
+ "title_lat": "De simplicium medicamentorum temperamentis ac facultatibus, libri VI-XI",
+ "title_eng": "On the Mixtures and Powers of Simple Drugs, Books 6-11",
+ "edition_desc": "Kühn's edition (vols. 11-12, 1826)",
+ "edition_short": "Kühn",
+ "citation": "ed. C. G. Kühn, vols. 11-12 (1826), cited here by book, chapter and entry",
+ "marker_label": "entry",
+ "bt_style": "Greek medical prose of the 2nd century AD (Galen), a catalogue of drugs",
+ "text_credit": "Greek text CC BY-SA 4.0 (First1KGreek, keyboarded from Kühn)",
+ "prior_translations": "",
+ "claim": "",
+ "tei": "data/raw_xml/urn_cts_greekLit_tlg0057.tlg075.1st1K-grc1.xml",
+ "urn": "urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1",
+ "source_note": "First1KGreek tlg0057.tlg075.1st1K-grc1 (Kühn 1826, vols. 11-12; books 6-11 only), CC BY-SA 4.0",
+ "text": {
+  "normalize": "greek",
+  "skip": [
+   "note",
+   "app",
+   "rdg",
+   "teiHeader"
+  ]
+ },
+ "unit": {
+  "break": {
+   "tag": "div",
+   "match": {
+    "subtype": "section"
+   },
+   "attr": "n",
+   "ref": "{book}.{chapter}.{n}"
+  },
+  "levels": [
+   {
+    "name": "book",
+    "tag": "div",
+    "match": {
+     "subtype": "book"
+    },
+    "attr": "n"
+   },
+   {
+    "name": "chapter",
+    "tag": "div",
+    "match": {
+     "subtype": "chapter"
+    },
+    "attr": "n"
+   }
+  ],
+  "reset_ref_on_level": true,
+  "sentence_end": [
+   ".",
+   ";"
+  ],
+  "sentence_end_strip": "",
+  "not_sentence_end_re": null,
+  "min_tokens": 25,
+  "ref_sort": "doc",
+  "chapter_sort": "doc",
+  "book_sort": "doc",
+  "id": {
+   "prefix": "Simp.",
+   "range": "-"
+  },
+  "locus": {
+   "prefix": "Simp. ",
+   "range": "–"
+  },
+  "keep": {
+   "level": "book",
+   "values": [
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11"
+   ]
+  },
+  "extra": {},
+  "marker_re": "\\[(\\d+\\.[A-Za-z0-9]+\\.\\d+)\\]"
+ },
+ "tagger": {
+  "name": "odycy_precomputed",
+  "path": "data/lemmatized/galen/urn_cts_greekLit_tlg0057.tlg075.1st1K-grc1.jsonl",
+  "align_window": 12
+ },
+ "lexicon": {
+  "name": "lsj"
+ },
+ "targets": {
+  "rule": "galen",
+  "pos": [
+   "NOUN",
+   "ADJ"
+  ],
+  "cap": 8
+ },
+ "spec": "firstdrafts_v02_spec.md (the Galen thresholds, unchanged); units are the catalogue's entries, not Kühn pages",
+ "description": "Galen, On the Mixtures and Powers of Simple Drugs, books 6-11 (the catalogue of plants, minerals and animal products): a machine first draft in English with the Greek beside it. Not yet run.",
+ "glossary": "galen-density-map/data/simples/glossary.tsv"
+}

@@ -1,0 +1,113 @@
+{
+ "front_end": "pipeline/firstdrafts/generic.py",
+ "config": {
+  "slug": "simpl-med-1-5",
+  "lang": "grc",
+  "author": "Galen",
+  "title_lat": "De simplicium medicamentorum temperamentis ac facultatibus, libri I-V",
+  "title_eng": "On the Mixtures and Powers of Simple Drugs, Books 1-5",
+  "edition_desc": "Kühn's edition (vol. 11, 1826)",
+  "edition_short": "Kühn",
+  "citation": "ed. C. G. Kühn, vol. 11 (1826), cited by page",
+  "marker_label": "page",
+  "bt_style": "Greek medical prose of the 2nd century AD (Galen), a theoretical treatise on drugs",
+  "text_credit": "Greek text CC BY-SA 4.0 (First1KGreek, keyboarded from Kühn)",
+  "prior_translations": "J. Wilkins, Galen, Simple Drugs I-V (Cambridge Galen Translations, forthcoming 2028)",
+  "claim": "",
+  "tei": "data/raw_xml/urn_cts_greekLit_tlg0057.tlg075.1st1K-grc1.xml",
+  "urn": "urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1",
+  "source_note": "First1KGreek tlg0057.tlg075.1st1K-grc1 (Kühn 1826, vol. 11 pp. 379-892; books 1-5 only), CC BY-SA 4.0",
+  "text": {
+   "normalize": "greek",
+   "skip": [
+    "note",
+    "app",
+    "rdg",
+    "teiHeader"
+   ]
+  },
+  "unit": {
+   "reset_ref_on_level": false,
+   "sentence_end": [
+    ".",
+    ";"
+   ],
+   "sentence_end_strip": "",
+   "not_sentence_end_re": null,
+   "min_tokens": 25,
+   "ref_sort": "doc",
+   "chapter_sort": "doc",
+   "book_sort": "doc",
+   "keep": {
+    "level": "book",
+    "values": [
+     "1",
+     "2",
+     "3",
+     "4",
+     "5"
+    ]
+   },
+   "extra": {},
+   "break": {
+    "tag": "pb",
+    "attr": "n",
+    "ref": "{n}"
+   },
+   "levels": [
+    {
+     "name": "book",
+     "tag": "div",
+     "match": {
+      "subtype": "book"
+     },
+     "attr": "n"
+    },
+    {
+     "name": "chapter",
+     "tag": "div",
+     "match": {
+      "subtype": "chapter"
+     },
+     "attr": "n"
+    }
+   ],
+   "id": {
+    "prefix": "K11.",
+    "range": "-"
+   },
+   "locus": {
+    "prefix": "K. XI ",
+    "range": "–"
+   }
+  },
+  "tagger": {
+   "name": "odycy_precomputed",
+   "path": "data/lemmatized/galen/urn_cts_greekLit_tlg0057.tlg075.1st1K-grc1.jsonl",
+   "align_window": 12
+  },
+  "lexicon": {
+   "name": "lsj"
+  },
+  "targets": {
+   "rule": "galen",
+   "pos": [
+    "NOUN",
+    "ADJ"
+   ],
+   "cap": 8,
+   "thin_max_senses": 1,
+   "freq_top_n": 5000
+  },
+  "spec": "firstdrafts_v02_spec.md (the Galen thresholds, unchanged); units are Kühn pages (books 1-5 have no entry divs)",
+  "description": "Galen, On the Mixtures and Powers of Simple Drugs, books 1-5 (the theory of drug powers): a machine first draft in English with the Greek beside it. Not yet run.",
+  "glossary": "galen-density-map/data/simples/glossary.tsv",
+  "profile": "generic"
+ },
+ "config_sha256": "8c8896148c184d3150631a17ac54a097c2d3d8532f26e083bce58923f63e490b",
+ "tei_sha256": "41a73a6e9334fc8e68a602d97b41925d9b6b568e866547828b98727681c5b183",
+ "tagger": "odycy_precomputed",
+ "tagger_versions": null,
+ "lexicon_version": "1.3.15",
+ "n_drafted_words": 62869
+}

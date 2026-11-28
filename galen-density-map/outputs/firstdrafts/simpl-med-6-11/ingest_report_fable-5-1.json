@@ -1,0 +1,12 @@
+{
+ "model": "fable-5-1",
+ "n_units": 548,
+ "n_responses": 548,
+ "n_ok": 548,
+ "missing_units": [],
+ "refusals": [],
+ "backends": {
+  "cc": 548
+ },
+ "problems": []
+}

@@ -1,0 +1,26 @@
+{
+ "slug": "simpl-med",
+ "_note": "A work published in parts (2026-11-28): page.py reads each part's outputs/firstdrafts/<part>/ and writes one work page, docs/first-drafts/simpl-med/, one page per book. Not a stage config: every stage ran on the parts' own configs.",
+ "parts": [
+  {"slug": "simpl-med-1-5", "books": "1-5", "label": "Kühn page",
+   "prompt": "same neutral prompt as the other works, no glossary, fresh context; batch API",
+   "gate": "judge gate 20/20 on the repair draw (seed 20261127); first draw 19/20, failed, kept on record",
+   "notes": ["JUDGE_REPAIR_NOTE.md"]},
+  {"slug": "simpl-med-6-11", "books": "6-11", "label": "entry",
+   "prompt": "the same prompt plus a glossary of Galen's own drug and quality terms taken from books 1-5 (glossary.tsv in its folder), fresh context; Claude Code CLI, which adds a fixed preamble of its own to every prompt",
+   "gate": "judge gate 20/20 on the repair draw (seed 20261129); first draw 19/20, failed, kept on record",
+   "notes": ["JUDGE_SEED_NOTE.md"]}
+ ],
+ "title_lat": "De simplicium medicamentorum temperamentis ac facultatibus",
+ "title_eng": "On the Mixtures and Powers of Simple Drugs",
+ "kuhn_vol": "XI-XII",
+ "kuhn_pages": "XI 379-892, XII 1-377",
+ "page_text": {
+  "lat_line": "De simplicium medicamentorum temperamentis ac facultatibus · Kühn XI 379-892 and XII 1-377 · books 1-11",
+  "cite_tail": "Kühn XI 379-892 and XII 1-377, books 1-11",
+  "markers": "The small grey numbers are the pages of Kühn's Greek edition in books 1-5 and the entry numbers (book.chapter.entry) in books 6-11."
+ },
+ "source_note": "First1KGreek tlg0057.tlg075.1st1K-grc1 (Kühn 1826, vols. 11-12; books 1-11), CC BY-SA 4.0",
+ "description": "Galen, On the Mixtures and Powers of Simple Drugs (De simplicium medicamentorum temperamentis ac facultatibus), books 1-11: a machine first draft in English with the Greek beside it, two independent renderings, the machine checks and the passages the checks flag. Unverified; for reading and correcting.",
+ "prior_translations": "No complete published translation into English by a scholar that we know of. An English translation of books 1-5 by J. Wilkins is announced in the Cambridge Galen Translations. Books 6-8: a French translation with the Greek by C. Manco (doctoral thesis, Montpellier and Bologna, 2020). The prefaces of books 6-11 and the first two entries of book 6: English by M. Coughlin (ancientmedicine.org, 2023). All eleven books: a free French version by H. Fayard (1548). An unreviewed machine translation into English of Kühn XI and XII, the volumes containing these books, was posted at Source Library (sourcelibrary.org) during 2026."
+}

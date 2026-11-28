@@ -113,6 +113,73 @@ def page_text(w: dict, galen: bool) -> dict:
             "doi": f"DOI {w['doi']}" if w.get("doi") else "DOI not yet assigned"}
 
 
+def parts_config(slug: str) -> dict | None:
+    """A Galen work published in parts (2026-11-28, Simple Drugs 1-5 and 6-11): configs/<slug>.json with a "parts" list.
+    Each part keeps its own output folder, checks and judge run; the page puts them together. None for any other work."""
+    p = Path(__file__).resolve().parent / "configs" / f"{slug}.json"
+    if slug in WORKS or not p.exists():
+        return None
+    d = json.loads(p.read_text(encoding="utf-8"))
+    return d if d.get("parts") else None
+
+
+DATA_URL = "https://github.com/Montblanctech/Galen/tree/master/galen-density-map/outputs/firstdrafts/"
+
+
+def meth_html(w: dict, T: dict, slug: str, built, P: dict | None) -> str:
+    """The scholar view's methods line. A work in parts names each part's prompt and links each part's folder."""
+    terms = (f"Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, "
+             f"<mark class=one>grey</mark> = one rendering reported. Hover a mark for the {T['adj']} lemma and the other rendering. ")
+    if not P:
+        return (f"<p class=\"small meth\">{T['adj']}: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; "
+                f"same neutral prompt, no glossary, fresh context, built {built.isoformat()}. Method, numbers and what the checks cannot catch: "
+                f"<a href=\"{DATA_URL}{slug}\">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. "
+                f"{terms}Unit difficulty = {T['difficulty']} (tercile within this work).</p>")
+    runs = " ".join(f"Books {esc(ps['books'])}: {esc(ps['prompt'])}; README and data: <a href=\"{DATA_URL}{esc(ps['slug'])}\">{esc(ps['slug'])}</a>." for ps in P["parts"])
+    return (f"<p class=\"small meth\">{T['adj']}: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>, "
+            f"built {built.isoformat()}. The two halves were drafted and checked as separate runs, each with its own judge draw and its own numbers. {runs} "
+            f"Pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v02_spec.md'))}</code> with the judge of <code>firstdrafts_v03_judge_note.md</code>. "
+            f"{terms}Unit difficulty = {T['difficulty']} (tercile within each half).</p>")
+
+
+FLAG_NOTE = "places for a reader to look, not confirmed errors"
+FLAG_CSS = """.flags{font:13px/1.45 system-ui,"Segoe UI",sans-serif;color:#7a4a00;margin:.35rem 0 0} .flags.none{color:#777} details.fl ul{margin:.2rem 0;padding-left:1.2rem;font-size:.86em} details.fl li{margin:.25rem 0}
+body.read .flags{max-width:38rem;margin:-.6rem auto 1.1rem;color:#8a6a3a} body.read .flags.none{display:none}
+@media(prefers-color-scheme:dark){body.read .flags{color:#d2b07a}}
+"""
+
+
+NAME_KIND = {"intruder": "named in the English only", "missing": "named in the Greek only"}
+
+
+def flag_kind(i: dict) -> str:
+    k = i["kind"]
+    return NAME_KIND.get(k, k) if i["check"] in ("drug names", "body parts") else k
+
+
+def flag_value(v) -> str:
+    s = str(v)
+    return f"the name of the drug of entry {s[3:]}" if s.startswith("sd:") else s
+
+
+def flags_html(fl: list[tuple[str, dict]], src_lang: str) -> str:
+    """The flags line of one passage: the fidelity checks (numbers, negation, more/less) and the names checks (drug names,
+    body parts) on each rendering, sentence pair by sentence pair. They point at places to read against the Greek."""
+    if not fl:
+        return f'<div class="flags none">Flags ({FLAG_NOTE}): none raised.</div>'
+    per = {t: Counter(f"{i['check']} {flag_kind(i)}" for tt_, i in fl if tt_ == t) for t in ("A", "B")}
+    line = "; ".join(f"{t}: " + ", ".join(f"{k} {n}" if n > 1 else k for k, n in sorted(c.items())) for t, c in per.items() if c)
+    items = []
+    for t, i in fl:
+        vals = ", ".join(flag_value(v) for v in (i.get("values") or []))
+        pair = ""
+        if i.get("greek") or i.get("english"):
+            pair = f'<br><span lang={src_lang}>{esc(i.get("greek", ""))}</span><br>{esc(i.get("english", ""))}'
+        items.append(f"<li><b>{t}</b> · {esc(i['check'])}: {esc(flag_kind(i))}{' (' + esc(vals) + ')' if vals else ''}{pair}</li>")
+    return (f'<div class=flags>Flags ({FLAG_NOTE}): {esc(line)}</div>'
+            f"<details class=fl><summary>Flagged sentences ({len(fl)})</summary><ul>{''.join(items)}</ul></details>")
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--work", default="adversus-lycum")
@@ -120,16 +187,47 @@ def main() -> None:
     ap.add_argument("--build-date", default=None, help="YYYY-MM-DD printed on the page (default today)")
     a = ap.parse_args()
     slug = a.work
-    W = work_config(slug)
+    P = parts_config(slug)
+    W = {**P, "galen": True, "lang": "grc"} if P else work_config(slug)
     galen = W["galen"]
-    w = WORKS[slug] if galen else W
+    w = P if P else (WORKS[slug] if galen else W)
     T = page_text(w, galen)
+    if P:
+        T.update(P.get("page_text", {}))
     mk = MARK if galen else re.compile(marker_re(W))
     built = date.fromisoformat(a.build_date) if a.build_date else date.today()
     root = Path(a.dest).resolve() if a.dest else REPO / "docs" / "first-drafts"
-    out = out_dir(slug)
-    units = read_jsonl(out / "units.jsonl")
-    rend = {t: {r["unit_id"]: r for r in read_jsonl(out / f"renderings_{s}.jsonl")} for t, s in RENDERINGS.items()}
+    part_of: dict[str, dict] = {}   # unit id -> its part (a work in parts only)
+    flags: dict[str, list[tuple[str, dict]]] = {}
+    if P:
+        units, rend, tt, cku, psum, n_targets = [], {t: {} for t in RENDERINGS}, [], {}, [], 0
+        for ps in P["parts"]:
+            po = out_dir(ps["slug"])
+            pw = work_config(ps["slug"])
+            ps = {**ps, "mk": re.compile(marker_re(pw))}
+            us = read_jsonl(po / "units.jsonl")
+            units += us
+            for u in us:
+                part_of[u["unit_id"]] = ps
+            for t, s_ in RENDERINGS.items():
+                rend[t].update({r["unit_id"]: r for r in read_jsonl(po / f"renderings_{s_}.jsonl")})
+            tt += list(csv.DictReader((po / "term_table.csv").open(encoding="utf-8")))
+            pck = json.loads((po / "checks.json").read_text(encoding="utf-8"))
+            cku.update(pck["units"])
+            pm = json.loads((po / "units_meta.json").read_text(encoding="utf-8"))
+            n_targets += pm.get("n_targets", 0)
+            psum.append((ps, pck.get("summary", {}), pm, us))
+            for t in ("A", "B"):
+                for f in ("fidelity", "names"):
+                    fp = po / f"{f}_{t}.json"
+                    for i in (json.loads(fp.read_text(encoding="utf-8"))["items"] if fp.exists() else []):
+                        flags.setdefault(i["unit_id"], []).append((t, i))
+        checks = {"units": cku, "summary": {}, "parts": {ps["slug"]: sm for ps, sm, _, _ in psum}}
+        meta = {"n_targets": n_targets}
+    else:
+        out = out_dir(slug)
+        units = read_jsonl(out / "units.jsonl")
+        rend = {t: {r["unit_id"]: r for r in read_jsonl(out / f"renderings_{s}.jsonl")} for t, s in RENDERINGS.items()}
     # A Kühn page marker whose number the TEI lacks comes out as "[None]" (in-hipp-salubri K15.178); it marks nothing,
     # so it is dropped from the Greek and the renderings on the page (2026-11-11). The unit files are unchanged.
     for u in units:
@@ -139,9 +237,10 @@ def main() -> None:
             resp = r.get("response") or {}
             if isinstance(resp.get("translation"), str):
                 resp["translation"] = resp["translation"].replace("[None] ", "").replace("[None]", "")
-    tt = list(csv.DictReader((out / "term_table.csv").open(encoding="utf-8")))
-    checks = json.loads((out / "checks.json").read_text(encoding="utf-8")) if (out / "checks.json").exists() else {"units": {}, "summary": {}}
-    meta = json.loads((out / "units_meta.json").read_text(encoding="utf-8"))
+    if not P:
+        tt = list(csv.DictReader((out / "term_table.csv").open(encoding="utf-8")))
+        checks = json.loads((out / "checks.json").read_text(encoding="utf-8")) if (out / "checks.json").exists() else {"units": {}, "summary": {}}
+        meta = json.loads((out / "units_meta.json").read_text(encoding="utf-8"))
     by_unit: dict[str, list[dict]] = {}
     for r in tt:
         by_unit.setdefault(r["unit_id"], []).append(r)
@@ -181,7 +280,7 @@ details{{margin:.4rem 0}} summary{{cursor:pointer;color:#444;font-size:.9em}}
 table.tt{{border-collapse:collapse;width:100%;font-size:.86em}} table.tt th,table.tt td{{border-bottom:1px solid #e5e5e5;padding:.15rem .4rem;text-align:left;vertical-align:top}}
 .unc{{color:#a33;font-size:.8em}} .lsj{{color:#555;font-size:.85em}}
 .verdict{{font-weight:bold}}
-/* reading view (2026-11-10): the English of rendering A as a book page; the scholar view is the full apparatus */
+{FLAG_CSS if P else ''}/* reading view (2026-11-10): the English of rendering A as a book page; the scholar view is the full apparatus */
 .modebar{{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:.8rem 0 .2rem;font:14px/1.4 system-ui,"Segoe UI",sans-serif;color:#555}}
 .modebar button{{font:inherit;border:1px solid #bbb;background:#fff;border-radius:999px;padding:.3rem .9rem;cursor:pointer;color:#333}}
 .modebar button[aria-pressed=true]{{background:#7a1f1f;border-color:#7a1f1f;color:#fff}}
@@ -215,15 +314,31 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 <header class=rhead><div class=kicker>{esc(T['author'])} · machine first draft</div><h1 class=rt>{esc(w['title_eng'])}</h1><div class=lat>{esc(T['lat_line'])}</div>
 <p class=note>{''.join(esc(x) + ' ' for x in (w.get('claim'), w.get('prior_translations')) if x)}This is rendering A, made by a language model and not yet checked by a scholar. {esc(T['markers'])} Passages with a red rule failed the machine checks; those checks are automated agreement tests, not a reading of the {T['adj']}, so a passage without the rule is not checked either. Words in square brackets were supplied by the model for the sense; {T['adj']} in parentheses gives the original word; any remark about a doubtful or corrupt reading is the model's, not a scholar's.</p></header>
 <h1 class=st>{esc(T['author'])}, <em>{esc(w['title_lat'])}</em> ({esc(w['title_eng'])}), {esc(T['cite_tail'])}</h1>
-<p class="small meth">{T['adj']}: {esc(w['source_note'])}. Rendering A: <code>claude-fable-5-1</code>; rendering B: <code>claude-opus-5-5</code>; same neutral prompt, no glossary, fresh context, built {built.isoformat()}. Method, numbers and what the checks cannot catch: <a href="https://github.com/Montblanctech/Galen/tree/master/galen-density-map/outputs/firstdrafts/{slug}">README and data</a>; pre-registered thresholds: <code>{esc(w.get('spec', 'firstdrafts_v0_spec.md'))}</code>. Terms: <mark class=agree>green</mark> = both renderings agree on the term (after normalisation), <mark class=differ>red</mark> = they differ, <mark class=one>grey</mark> = one rendering reported. Hover a mark for the {T['adj']} lemma and the other rendering. Unit difficulty = {T['difficulty']} (tercile within this work).</p>
+{meth_html(w, T, slug, built, P)}
 """)
     # summary table
-    parts.append(f"<table class=sum><tr><th>units</th><th>{T['adj']} words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) {T['lex']['short']} judge pass</th><th>units failing ≥2 checks</th></tr>")
-    def rs(k):
+    parts.append(f"<table class=sum><tr>{'<th>books</th>' if P else ''}<th>units</th><th>{T['adj']} words</th><th>targets</th><th>(a) back-translation pass</th><th>(b) A/B agreement pass</th><th>(c) {T['lex']['short']} judge pass</th><th>units failing ≥2 checks</th>{'<th>flags A / B</th>' if P else ''}</tr>")
+    def rs(k, s=s):
         v = s.get(k) or {}
         return f"{v.get('pass', '–')}/{(v.get('pass') or 0) + (v.get('fail') or 0)}" if v else "not run"
-    parts.append(f"<tr><td>{len(units)}</td><td>{sum(int(u.get('n_tokens', 0)) for u in units)}</td><td>{meta.get('n_targets', '')}</td><td>{rs('a')}</td><td>{rs('b')} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td><td>{rs('c')}{' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else ''}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td></tr></table>")
+    def sum_row(s, us, n_t, lead="", gate=None, tail=""):
+        g = gate if gate else (' · judge gate ' + str((s.get('c_gate') or {}).get('correct')) + '/' + str((s.get('c_gate') or {}).get('controls')) if s.get('c_gate') else '')
+        return (f"<tr>{lead}<td>{len(us)}</td><td>{sum(int(u.get('n_tokens', 0)) for u in us)}</td><td>{n_t}</td><td>{rs('a', s)}</td><td>{rs('b', s)} (term level {(s.get('b_term_level') or {}).get('pct', '–')}%)</td>"
+                f"<td>{rs('c', s)}{g}</td><td>{(s.get('unit_verdicts') or {}).get('fail', 0)}</td>{tail}</tr>")
+    if P:
+        for ps, ss, pm, us in psum:
+            ids = {u["unit_id"] for u in us}
+            nf = {t: sum(1 for k, v in flags.items() if k in ids for tt_, _ in v if tt_ == t) for t in ("A", "B")}
+            parts.append(sum_row(ss, us, pm.get("n_targets", ""), f"<td>{esc(ps['books'])}</td>", f" · {esc(ps['gate'])}", f"<td>{nf['A']} / {nf['B']}</td>"))
+        parts.append("</table>")
+    else:
+        parts.append(sum_row(s, units, meta.get('n_targets', '')) + "</table>")
     parts.append(f"<p class=\"small meth\">Check (a): the English back-translated into {T['adj']} by a third model shares at least half of the unit's term lemmas with the source. Check (b): the two renderings agree on at least 70% of the unit's target terms. Check (c): a model judge, salted with 10 planted errors and 10 anchors it had to get right, finds at least 80% of the term renderings within the {T['lex']['short']} entry's senses, with at most 2 outside. A unit fails when it fails two of three.</p>")
+    if P:
+        parts.append(f"<p class=\"small meth\">Flags, under each passage: {FLAG_NOTE}. Sentence by sentence, each rendering is compared with the Greek for numbers, negations and words of more or less, "
+                     "and for the names of drugs and parts of the body (a name in the English with none in the Greek, or a name in the Greek with none in the English). "
+                     "These are word-matching tests: a flag often comes from a sentence pair that is aligned a little off, a paraphrase or a name the model kept in Greek, "
+                     "and a passage with no flag is not checked by them either. The flags play no part in the unit verdicts.</p>")
 
     head_len = len(parts)
     unit_starts = []  # (parts index, book) per unit, for the split by book (v0.2.1)
@@ -247,6 +362,8 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
                 spans_b.append((r["rendering_B"], cls, f"{r['surface']} ({lemma}) · A: {r['rendering_A'] or '—'}"))
         a_ck, b_ck, c_ck = ck.get("a", {}), ck.get("b", {}), ck.get("c", {})
         uk = T["uncertain_key"]
+        if P:   # each half keeps its own markers: Kühn pages in books 1-5, entries in books 6-11
+            mk, T["label"] = part_of[uid]["mk"], part_of[uid]["label"]
         parts.append(f"""<div class="unit {'fail' if verdict == 'fail' else ''}" id="{esc(uid)}">
 <div class=uh><span class=id><a href="#{esc(uid)}">{esc(uid)}</a></span><span>{esc(u['locus'])}, ch. {esc(', '.join(u['chapters']))}</span>
 <span class="tier-{u['difficulty_tier']}">difficulty {esc(u['difficulty_tier'])} ({u['punch_density_per100']}/100; thin {u['n_punch_thin']}, absent {u['n_punch_absent']})</span>
@@ -257,6 +374,8 @@ body.read h2,body.read .nav,body.read .lic,body.read ul{{max-width:38rem;margin-
 <div class="col eng a"><div class=ch>Rendering A (fable-5-1){' · unsure: ' + esc(', '.join(((rend['A'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['A'].get(uid) or {}).get('response') or {}).get(uk) else ''}</div>{highlight(a_eng, spans_a, mk, T['label']) if a_eng else '<em class=small>no rendering</em>'}</div>
 <div class="col eng b"><div class=ch>Rendering B (opus-5-5){' · unsure: ' + esc(', '.join(((rend['B'].get(uid) or {}).get('response') or {}).get(uk, []) or [])) if ((rend['B'].get(uid) or {}).get('response') or {}).get(uk) else ''}</div>{highlight(b_eng, spans_b, mk, T['label']) if b_eng else '<em class=small>no rendering</em>'}</div>
 </div>""")
+        if P:
+            parts.append(flags_html(flags.get(uid, []), src_lang))
         if rows:
             parts.append(f"<details><summary>Term table ({len(rows)} targets)</summary><table class=tt><tr><th>{T['adj']}</th><th>{T['lemma_th']}</th><th>{T['lex']['short']}</th><th>tier</th><th>A</th><th>B</th><th>agree</th><th>judge A / B</th></tr>")
             for r in rows:

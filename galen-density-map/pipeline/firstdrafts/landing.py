@@ -12,11 +12,13 @@ import html
 import json
 import re
 import sys
+from pathlib import Path
 
 from common import REPO, WORKS, draft_words, out_dir
 
 DOCS = REPO / "docs"
 FD = DOCS / "first-drafts"
+GDM_OUT = REPO / "galen-density-map" / "outputs" / "firstdrafts"
 
 # (slug, unit_id, verbatim excerpt of rendering A). Order = reading order on the page.
 QUOTES = [
@@ -52,6 +54,28 @@ def unit_text(slug: str, uid: str) -> tuple[str, str]:
     a = {r["unit_id"]: r["translation"] for r in d["renderings"]["A"]}
     verdict = d["checks"]["units"].get(uid, {}).get("verdict")
     return PB.sub(" ", a[uid]).replace("  ", " "), verdict
+
+
+APART = ["simpl-med"]   # works published in parts (configs/<slug>.json "parts"); listed on the drafts index, not counted among the works above (2026-11-28)
+
+
+def apart_html() -> str:
+    out = []
+    for slug in APART:
+        p = Path(__file__).resolve().parent / "configs" / f"{slug}.json"
+        if not (FD / slug / "index.html").exists() or not p.exists():
+            continue
+        c = json.loads(p.read_text(encoding="utf-8"))
+        n_u = n_w = n_f = 0
+        for ps in c["parts"]:
+            o = GDM_OUT / ps["slug"]
+            n_u += json.loads((o / "units_meta.json").read_text(encoding="utf-8"))["n_units"]
+            n_w += sum(int(json.loads(l).get("n_tokens", 0)) for l in (o / "units.jsonl").open(encoding="utf-8") if l.strip())
+            n_f += ((json.loads((o / "checks.json").read_text(encoding="utf-8")).get("summary") or {}).get("unit_verdicts") or {}).get("fail", 0)
+        out.append(f'<p class=warn><a href="{slug}/">{esc(c["title_eng"])}</a> (<em>{esc(c["title_lat"])}</em>), books 1–11, Kühn {esc(c["kuhn_pages"])}: '
+                   f'{n_u} passages, {n_w:,} Greek words, {n_f} failing two or more checks, with a flags line on each passage. Drafted in two halves, books 1–5 and 6–11, '
+                   f'each checked as its own run; books 6–11 were drafted with a glossary of Galen\'s own terms from books 1–5. It is listed here apart and is not counted in the numbers above.</p>')
+    return "".join(out)
 
 
 def counts(slug: str) -> tuple[int, int, int]:
@@ -349,7 +373,7 @@ def main() -> None:
 <div class=kicker>Details</div>
 <h2>All {N_W}, with their numbers</h2>
 <ul class=tools>{"".join(rows)}</ul>
-<p class=warn>A sample read (2026-11-11): 39 passages, three from each work chosen at random, were read against the Greek by a model reader, not a scholar. 35 were faithful, 4 had minor slips (in the two Hippocratic commentaries, e.g. the midday meal given as "the morning meal"), none was seriously wrong. The check marks did not predict the slips. The full record, with the corrections it led to: <a href="https://github.com/Montblanctech/Galen/blob/master/firstdrafts_sample_read_2026-11-11.md">firstdrafts_sample_read_2026-11-11.md</a>.</p>
+{apart_html()}<p class=warn>A sample read (2026-11-11): 39 passages, three from each work chosen at random, were read against the Greek by a model reader, not a scholar. 35 were faithful, 4 had minor slips (in the two Hippocratic commentaries, e.g. the midday meal given as "the morning meal"), none was seriously wrong. The check marks did not predict the slips. The full record, with the corrections it led to: <a href="https://github.com/Montblanctech/Galen/blob/master/firstdrafts_sample_read_2026-11-11.md">firstdrafts_sample_read_2026-11-11.md</a>.</p>
 <p class=warn>The same method on a Latin text, scored against an existing English translation: <a href="../method/">the method on other texts</a>.</p>
 <p class=warn>Every key term across the {N_W} works, with how each draft rendered it and where the renderings differ between works: <a href="terms/">the term index</a>.</p>
 <p class=warn>Author of the drafts series: William Pepperman (Galen Density Project). How the drafts were made and checked: <a href="https://doi.org/10.5281/zenodo.24146103">the methods note</a> (doi:10.5281/zenodo.24146103). Each work carries its own citation line and version. Translation status and sources per work: <code>phase1/README_translation_status.md</code>. Spec: <code>firstdrafts_v0_spec.md</code> (cycle 1), <code>firstdrafts_v02_spec.md</code> (cycles 2 and 3). <a href="https://github.com/Montblanctech/Galen/issues/new?template=first-draft-correction.yml">Report a correction</a>.</p>

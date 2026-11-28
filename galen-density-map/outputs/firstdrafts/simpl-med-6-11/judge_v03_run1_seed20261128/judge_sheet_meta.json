@@ -1,0 +1,20 @@
+{
+ "spec": "firstdrafts_v03_judge_note.md",
+ "anchor_rule": "v03",
+ "seed": 20261128,
+ "subset": null,
+ "n_items": 6810,
+ "n_real": 6790,
+ "n_anchor": 10,
+ "n_plant": 10,
+ "n_groups": 681,
+ "group_size": 10,
+ "anchor_candidates_valid": 1888,
+ "first_sense_glosses_rejected_by_validator": 865,
+ "lsj_entry_chars": {
+  "min": 14,
+  "median": 374,
+  "max": 11674
+ },
+ "key": "outside the repository until scored"
+}
