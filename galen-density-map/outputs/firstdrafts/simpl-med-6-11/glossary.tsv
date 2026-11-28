@@ -1,0 +1,36 @@
+# Simple Drugs locked glossary v0 (2026-11-16). One English rendering per Greek term, enforced by glossary.py check.
+# stem = regex on the accent-blind Greek (final sigma = σ); english_match = regex the English must contain.
+# galen_book + galen_quote = where Galen himself names or explains the term in books 1-5 (accent-blind; glossary.py
+# verify confirms each quote is in that book). anchor = definition (he says what the word means) / usage (he uses it
+# as a technical term, no definition found yet). Choices follow the usual English of Galen scholarship; open to change
+# before the run, locked during it.
+term	stem	english	english_match	galen_book	galen_quote	anchor	note
+στύφω, στυπτικός	στυφ|στυπτ|στυψ	astringent	astring	1	ο δε καλουμεν ημεισ στυφον	definition	taste and action alike
+αὐστηρός	αυστηρ	harsh	harsh	1	ονομαζει δ αυτων τον μεν αυστηρον, τον δε στρυφνον	definition	the milder of the two astringent tastes (Plato, quoted)
+στρυφνός	στρυφν	acerbic	acerb	1	ονομαζει δ αυτων τον μεν αυστηρον, τον δε στρυφνον	definition	the stronger astringent taste
+δριμύς	δριμ	pungent	pungen	1	τινα μεν δριμεα, τινα δε οξεα	definition
+πικρός	πικρ	bitter	bitter	1	πικρα πανθ ουτωσ ωνομασται	definition
+ὀξύς (taste)	οξε[αισ]|οξυτησ	sour	sour	1	τα δ ανευ αυτησ δακνοντα καλειται μεν οξεα	definition	stem kept narrow: ὄξος (vinegar) is a different word
+ἁλυκός	αλυκ	salty	salt	1	τινα μεν αλυκα και νιτρωδη	definition
+γλυκύς	γλυκ	sweet	sweet	1	μετα μεν ηδονησ εναργουσ ψαυοντα γλυκεα	definition
+λιπαρός	λιπαρ	oily	oil	1	χωρισ δε ταυτησ λιπαρα προσαγορευεται	definition
+δάκνω, δακνώδης	δακν	biting	bit	1	τα δ ανευ αυτησ δακνοντα καλειται μεν οξεα	definition
+λεπτομερής	λεπτομερ	fine-particled	fine-part	1	λεπτομερεσ μεν καλειται το ραδιωσ εισ λεπτα καταθραυομενον	definition
+παχυμερής	παχυμερ	coarse-particled	coarse-part	1	εμφερεται τι παχυμερεσ	usage
+ῥύπτω, ῥυπτικός	ρυπτ|ρυψ	cleansing	cleans|deterg	1	τα δε τουτων ρυπτικα	definition	of surfaces (dirt, ulcers); not καθαρτικός
+διαφορέω, διαφορητικός	διαφορητ|διαφορει|διαφορουσι|διαφορησ	dispersing	dispers	4	εμπλαστικον τε και διαφορητικον	usage	διάφορος "different" is excluded by the stem
+λεπτύνω, λεπτυντικός	λεπτυν	thinning	thin	5	λεπτυντικοισ ειναι παχεων τε και γλισχρων χυμων	definition	of thick, sticky humours
+τέμνω, τμητικός	τμητικ	cutting	cut	4	περι δε των πικρων χυμων τησ δυναμεωσ αφορισαμενοι και τμητικουσ αυτουσ ειποντεσ ειναι και λεπτυντικουσ	usage	used with thinning for bitter humours; no definition found yet
+ἐμπλαστικός	εμπλαστ	clogging	clog	4	ονομαζεται δε προσ των ιατρων απαντα τα τοιαυτα των φαρμακων εμπλαστικα	definition	the opposite of cleansing; blocks the pores
+ἐκφρακτικός	εκφρακτ	unblocking	unblock	5	εκφρακτικα τε και καθαρτικα των πορων ονομαζεται	definition
+μαλακτικός	μαλακτ	softening	soften	5	και καλειται τα τοιαυτα φαρμακα μαλακτικα	definition
+κολλητικός	κολλητ	agglutinating	agglutin	1	ουδ οξοσ κολλητικον	usage	unites the lips of a wound
+σαρκωτικός	σαρκωτ	flesh-forming	flesh	1	ουδε σαρκωτικον ελκων ιοσ	usage	fills ulcers with flesh
+ἐπουλωτικός	επουλωτ	scarring	scar	5	πρωτωσ τε και κυριωσ επουλωτικα λεγεται	definition	forms a scar over a wound
+σηπτικός	σηπτ	putrefying	putref	5	τα καλουμενα φαρμακα σηπτα και σηπτικα	definition
+ἑλκτικός	ελκτικ	drawing	draw	5	των ελκτικων τε και αποκρουστικων ονομαζομενων	definition
+ἀποκρουστικός	αποκρουστ	repelling	repel	5	των ελκτικων τε και αποκρουστικων ονομαζομενων	definition
+οὐρητικός	ουρητ	diuretic	diuret	5	καλειται δ ουχ ομοιωσ τοισ προειρημενοισ, αλλα τα μεν ουρητικα	definition
+ἀερώδης	αερωδ	airy	air	2	οτι λεπτον τ εστι και αερωδεσ	usage
+ὑδατώδης	υδατωδ	watery	water	2	οιον υδατωδεστερον	usage
+γεώδης	γεωδ	earthy	earth	2	το γεωδεσ και παχυτερον	usage

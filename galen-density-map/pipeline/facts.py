@@ -84,9 +84,10 @@ def compute() -> dict[str, dict]:
 
     # Galen First Drafts: the works with a published page
     sys.path.insert(0, str(GDM / "pipeline" / "firstdrafts"))
-    from common import draft_words, out_dir   # noqa: E402
+    from common import WORKS, draft_words, out_dir   # noqa: E402
     fd = REPO / "docs" / "first-drafts"
-    slugs = sorted(p.parent.name for p in fd.glob("*/data.json"))
+    # the counted series is common.WORKS; a work published in parts (Simple Drugs 1-11, 2026-11-28) has a page but is listed apart
+    slugs = sorted(p.parent.name for p in fd.glob("*/data.json") if p.parent.name in WORKS)
     words = sum(draft_words(s) for s in slugs)
     units = sum(_json(out_dir(s) / "units_meta.json")["n_units"] for s in slugs)
     put("first_drafts.works", len(slugs), "docs/first-drafts/*/data.json", "count", "works with a First Drafts page", "works")

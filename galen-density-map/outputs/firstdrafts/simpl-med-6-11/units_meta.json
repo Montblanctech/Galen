@@ -1,0 +1,47 @@
+{
+ "work": "simpl-med-6-11",
+ "urn": "urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1",
+ "source": "First1KGreek tlg0057.tlg075.1st1K-grc1 (Kühn 1826, vols. 11-12; books 6-11 only), CC BY-SA 4.0",
+ "n_units": 548,
+ "n_tei_words": 134067,
+ "n_odycy_tokens": 133845,
+ "alignment_loss": {
+  "n_a": 134067,
+  "n_b": 133845,
+  "n_aligned": 132391,
+  "skipped_a": 1676,
+  "skipped_b": 1454,
+  "alignment_loss_a": 0.0125012120805269,
+  "flag_alignment_loss": false
+ },
+ "n_targets": 3488,
+ "targets_by_class": {
+  "punch:absent+fourway:genuinely_hard": 642,
+  "punch:thin+fourway:genuinely_hard": 776,
+  "punch:absent": 34,
+  "fourway:genuinely_hard": 1747,
+  "punch:thin": 289
+ },
+ "density_terciles": [
+  2.7,
+  4.55
+ ],
+ "units_per_tier": {
+  "low": 186,
+  "mid": 182,
+  "high": 180
+ },
+ "n_books": 6,
+ "n_chapters": 35,
+ "pages_per_unit": {
+  "1": 462,
+  "2": 86
+ },
+ "lang": "grc",
+ "tagger": "odycy_precomputed",
+ "tagger_stream": "data/lemmatized/galen/urn_cts_greekLit_tlg0057.tlg075.1st1K-grc1.jsonl",
+ "lexicon": "",
+ "lexicon_version": "1.3.15",
+ "target_rule": "galen",
+ "n_drafted_words": 69787
+}

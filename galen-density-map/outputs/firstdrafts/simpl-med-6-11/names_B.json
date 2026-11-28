@@ -1,0 +1,2361 @@
+{
+ "work": "simpl-med-6-11",
+ "rendering": "B",
+ "units": 548,
+ "pairs": 3925,
+ "flags": 212,
+ "per_1000_pairs": 54.0,
+ "by_check": {
+  "body parts: intruder": 17,
+  "body parts: missing": 17,
+  "drug names: intruder": 72,
+  "drug names: missing": 106
+ },
+ "items": [
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "wine"
+   ],
+   "unit_id": "Simp.6.1.1",
+   "bead": 21,
+   "greek": "Ἱπποκράτει μὲν οὖν ἐν ἀφορισμοῖς γράφοντι, ὀδύνας ὀφθαλμῶν ἀκρατοποσίη ἢ λουτρὸν ἢ πυρίη ἢ φλεβοτομίη ἢ φαρμακείη λύει· μὴ μέντοι προστιθέντι, ποίας μὲν οὖν ὀδύνας ἀκρατοποσία, ποίας δὲ λουτρὸν, καὶ τίνας μὲν πυρία, τίνας δὲ φλεβοτομία, τίνας δὲ φαρμακεία, συγχωρήσειεν ἄν τις, οἶμαι, διὰ τρεῖς αἰτίας.",
+   "english": "Now Hippocrates, writing in the Aphorisms, 'pains of the eyes are resolved by drinking of unmixed wine, or a bath, or a vapour-bath, or venesection, or purging', yet not adding what kind of pains drinking of unmixed wine resolves, what kind a bath, which a vapour-bath, which venesection, which purging, one would pardon, I think, for three reasons."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.3"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.1.3",
+   "bead": 1,
+   "greek": "Περὶ ἀγρώστεως.] Τῆς δὲ ἀγρώστεως ἡ μὲν ῥίζα συμμέτρως ἐστὶ ψυχρὰ καὶ ξηρὰ, ἔχουσά τι ὀλίγον δακνῶδες καὶ λεπτομερές.",
+   "english": "On agrōstis.] Of agrōstis, the root is moderately cold and dry, having a small degree of something biting and fine-particled."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.3"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.1.3",
+   "bead": 4,
+   "greek": "ἄγρωστις ἐδώδιμον ἔχει τὴν ῥίζαν, ἔστ’ ἂν ᾖ μαλακὴ, γλυκεῖα μὲν ὑδατώδης, δριμὺ δέ τι καὶ ὑπόστρυφνον ὀλίγον ἔχουσα.",
+   "english": "Agrōstis has an edible root, as long as it is soft: it is sweet [and] watery, but has something pungent and a little slightly acerbic."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.4"
+   ],
+   "unit_id": "Simp.6.1.4",
+   "bead": 1,
+   "greek": "Περὶ ἀγχούσης καὶ τεττάρων ἀγχουσῶν.] Τῆς δὲ ἀγχούσης τέταρτόν ἐστιν εἶδος, ὧν ἡ μὲν ὀνόκλεια ψύχουσαν ἱκανῶς καὶ ξηραίνουσαν ἔχει τὴν ῥίζαν, στύφουσάν τε ἅμα καὶ ὑπόπικρον, ἱκανὴν δὲ καὶ λεπτῦναι καὶ ἀποῤῥῦψαι τοὺς χολώδεις χυμοὺς καὶ πυκνῶσαι τὰ σώματα.",
+   "english": "On anchousa, and the four anchousai.] Of anchousa there are four kinds. Of these, onokleia has a root that cools and dries considerably, and is at once astringent and somewhat bitter, able to thin and to cleanse away the bilious humours and to condense bodies."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.4"
+   ],
+   "unit_id": "Simp.6.1.4",
+   "bead": 6,
+   "greek": "ἄγχουσαι δὲ οὐ τῆς αὐτῆς ἅπασαι δυνάμεως.",
+   "english": "The anchousai are not all of the same power."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.6"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.1.6-6.1.7",
+   "bead": 1,
+   "greek": "Περὶ ἀγηράτου.] Ἀγήρατόν ἐστι δυνάμεως διαφορητικῆς τε καὶ ἀτρέμα πως ἀφλεγμάντου.",
+   "english": "On agēraton.] Agēraton is of a power that is dispersing and also, in a gentle sort of way, anti-inflammatory."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.2.8"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.1.6-6.1.7",
+   "bead": 1,
+   "greek": "Περὶ ἀγηράτου.] Ἀγήρατόν ἐστι δυνάμεως διαφορητικῆς τε καὶ ἀτρέμα πως ἀφλεγμάντου.",
+   "english": "On agēraton.] Agēraton is of a power that is dispersing and also, in a gentle sort of way, anti-inflammatory."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.8"
+   ],
+   "unit_id": "Simp.6.1.8",
+   "bead": 1,
+   "greek": "Περὶ ἀειζώου.] Ἀείζωον ἑκάτερον, καὶ τὸ μικρὸν καὶ τὸ μέγα, ξηραίνει μὲν ἐπ’ ὀλίγον, ὅτι καὶ στύφει μετρίως, ἀπηλλαγμένον ἁπάσης ἄλλης ἰσχυρᾶς ποιότητος, ὡς ἐπικρατεῖν ἐν αὐτῷ τὴν ὑδατώδη μᾶλλον οὐσίαν· ἐμψύχει δὲ οὐ μετρίως.",
+   "english": "On aeizoon.] Each kind of aeizoon, both the small and the large, dries to a slight degree, because it is also moderately astringent, while being free of every other strong quality, so that in it the watery substance rather predominates; but it cools to no moderate degree."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.14"
+   ],
+   "unit_id": "Simp.6.1.15-6.1.16",
+   "bead": 4,
+   "greek": "Περὶ ἀκάνθου λευκῆς.] Ἄκανθος λευκή.",
+   "english": "On the white thorn.] White thorn."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "uvula"
+   ],
+   "unit_id": "Simp.6.1.17",
+   "bead": 4,
+   "greek": "οὗτος δὲ καὶ τὰ κατὰ τὴν σταφυλὴν καὶ τὰ καθ’ ἕδραν ἐμφυσώμενα, καὶ εἰς οὐλὴν ἄγει τὰ ἕλκη μετρίαν ἔχουσα καὶ οὐκ ἀηδῆ τὴν στύψιν.",
+   "english": "This [fruit] also [helps] the swellings (ἐμφυσώμενα) at the uvula and at the seat, and it brings ulcers to a scar, since it has a moderate and not unpleasant astringency."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.22"
+   ],
+   "unit_id": "Simp.6.1.22",
+   "bead": 1,
+   "greek": "Περὶ ἀλίμου.] Ἄλιμον.",
+   "english": "On halimon.] Halimon."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.5.10"
+   ],
+   "unit_id": "Simp.6.1.25",
+   "bead": 2,
+   "greek": "ὁμοίαν ἔχει καὶ αὕτη τὴν δύναμιν τῇ ἑλξίνῃ ψύχουσάν τε καὶ ὑγραίνουσαν.",
+   "english": "This plant too has a power similar to that of helxine, cooling and moistening."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "head"
+   ],
+   "unit_id": "Simp.6.1.29",
+   "bead": 2,
+   "greek": "ἔμμηνα οὖν ἄγει σὺν οἴνῳ ποθεῖσα ἡ κόμη καὶ θρόμβους αἵματος τήκειν πεπίστευται αὐτοὺς, οὐ τοὺς ἐν γαστρὶ μόνον, ἀλλὰ καὶ τοὺς ἐν κύστει.",
+   "english": "Accordingly its head [kómē], drunk with wine, brings on the menses, and it is believed to dissolve clots of blood themselves, not only those in the belly but also those in the bladder."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.32"
+   ],
+   "unit_id": "Simp.6.1.33-6.1.34",
+   "bead": 3,
+   "greek": "Περὶ ἀμπέλου λευκῆς.] Ἀμπέλου λευκῆς, ἣν δὴ βρυωνίαν καὶ ψίλωθρον καλοῦσιν, οἱ μὲν πρῶτοι βλαστοὶ συνήθως ὑπὸ πάντων ἐσθίονται κατὰ τὸ ἔαρ, ὡς εὐστόμαχον ἔδεσμα διὰ τὸ στύφειν, καὶ ὑπόπικρον δὲ καὶ ἀτρέμα δριμεῖαν ἔχον τὴν στύψιν· διὸ καὶ τὴν οὔρησιν κινοῦσι μετρίως.",
+   "english": "On the white vine.] Of the white vine, which they call bryōnia and psilōthron, the first shoots are customarily eaten by everyone in spring as a food good for the stomach because they are astringent; their astringency is also somewhat bitter and mildly pungent, and for this reason they also provoke urination moderately."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "grape"
+   ],
+   "unit_id": "Simp.6.1.33-6.1.34",
+   "bead": 6,
+   "greek": "ὁ δὲ βοτρυώδης αὐτῆς καρπὸς τοῖς σκυτοδέψαις ἐστὶ χρήσιμος.",
+   "english": "Its fruit, which grows in grape-like clusters, is useful to tanners."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.32"
+   ],
+   "unit_id": "Simp.6.1.35-6.1.36",
+   "bead": 1,
+   "greek": "Περὶ ἀμπέλου μελαίνης.] Ἄμπελος μέλαινα.",
+   "english": "On the black vine.] Black vine."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "bryony"
+   ],
+   "unit_id": "Simp.6.1.35-6.1.36",
+   "bead": 2,
+   "greek": "καλεῖται δὲ ἰδίως αὕτη βρυωνία, παραπλήσιός ἐστι τὰ πάντα τῇ προειρημένῃ πλὴν ἀσθενεστέρα.",
+   "english": "This is the one properly called bryōnia; it is similar in all respects to the one mentioned before, except that it is weaker."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "dates"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.1.38-6.1.39",
+   "bead": 3,
+   "greek": "Περὶ ἀναγαλλίδος.] Ἀναγαλλὶς ἑκατέρα, ἥ τε τὸ κύανον ἄνθος ἔχουσα καὶ ἡ τὸ φοινικοῦν, ῥυπτικῆς ἱκανῶς εἰσι δυνάμεως, ἔχουσαί τι καὶ ὑπόθερμον καὶ ἑλκτικὸν, ὥστε καὶ σκόλοπας ἐπισπᾶσθαι.",
+   "english": "On anagallis.] Both kinds of anagallis, the one with the dark-blue flower and the one with the crimson, are of a markedly cleansing power, and they also have something somewhat warm and drawing, so that they even draw out splinters."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.15"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.1.38-6.1.39",
+   "bead": 3,
+   "greek": "Περὶ ἀναγαλλίδος.] Ἀναγαλλὶς ἑκατέρα, ἥ τε τὸ κύανον ἄνθος ἔχουσα καὶ ἡ τὸ φοινικοῦν, ῥυπτικῆς ἱκανῶς εἰσι δυνάμεως, ἔχουσαί τι καὶ ὑπόθερμον καὶ ἑλκτικὸν, ὥστε καὶ σκόλοπας ἐπισπᾶσθαι.",
+   "english": "On anagallis.] Both kinds of anagallis, the one with the dark-blue flower and the one with the crimson, are of a markedly cleansing power, and they also have something somewhat warm and drawing, so that they even draw out splinters."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "purslane"
+   ],
+   "unit_id": "Simp.6.1.43",
+   "bead": 1,
+   "greek": "Περὶ ἀνδράχνης.] Ἀνδράχνη ψυχρά ἐστι καὶ ὑδατώδης τὴν κρᾶσιν, ὀλίγου δέ τινος αὐστηροῦ μετέχει.",
+   "english": "On purslane.] Purslane is cold and watery in its mixture, but it partakes of a small amount of something harsh."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "teeth"
+   ],
+   "unit_id": "Simp.6.1.43",
+   "bead": 4,
+   "greek": "ταῦτά τοι καὶ τοὺς καυσουμένους ὀνίνησιν εἴπερ τι ἄλλο κατά τε στόματος τῆς κοιλίας ἐπιτιθεμένη καὶ ὅλων τῶν ὑποχονδρίων, καὶ μάλιστα ἐπὶ τῶν ἑκτικῶν πυρετῶν, αἱμωδίας τέ ἐστιν ἴαμα ἐξηρασμένα ταχέως ὑπὸ τῆς τῶν ὀξέων χυμῶν ὁμιλίας αὐτὴ λειαίνουσά τε καὶ ἀναπληροῦσα, τῷ γλίσχρον ἔχειν τὴν ὑγρότητα.",
+   "english": "For these reasons it benefits those suffering from ardent fever as much as anything else, when applied over the mouth of the stomach and the whole of the hypochondria, and especially in hectic fevers. It is also a remedy for teeth set on edge (haimōdia), itself swiftly smoothing and filling up [the parts] dried out by contact with the acid juices, because it has a viscous moisture."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "dill"
+   ],
+   "unit_id": "Simp.6.1.45",
+   "bead": 6,
+   "greek": "ὑγρότερον δὲ δηλονότι καὶ ἧττον θερμόν ἐστι τὸ χλωρὸν ἔτι καὶ εὔχυμον, ὥστε πεπτικώτερον μὲν καὶ ὑπνοποιὸν ἔσται μᾶλλον τοῦ ξηροῦ, διαφορητικὸν δ’ ἧττον.",
+   "english": "The dill that is still green and full of juice is, clearly, moister and less hot, so that it will be more concoctive and more sleep-inducing than the dry, but less dispersing."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "head"
+   ],
+   "unit_id": "Simp.6.1.47",
+   "bead": 2,
+   "greek": "εἴρηται μὲν κᾀν τῷ τρίτῳ γράμματι περὶ ταύτης τῆς πόας ἐπὶ πλέον. εἰρήσεται δὲ καὶ νῦν ἐν κεφαλῇ, ὡς ξηραίνει καὶ θερμαίνει κατὰ τὴν πρώτην τάξιν.",
+   "english": "This herb has already been discussed at greater length in the third book; but it will now also be stated in summary that it dries and heats in the first order."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.49"
+   ],
+   "unit_id": "Simp.6.1.49",
+   "bead": 1,
+   "greek": "Περὶ ἀντιῤῥίνου.] Ἀντίῤῥιον ἢ ἀνάῤῥινον ὅμοιον μόσχου ῥισὶν ἔχει τὸν καρπὸν, ἄχρηστον εἰς τὰς ἰάσεις.",
+   "english": "On antirrhinon.] Antirrhion (sic) or anarrhinon has its fruit like the nostrils of a calf; it is useless for cures."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.51"
+   ],
+   "unit_id": "Simp.6.1.52",
+   "bead": 1,
+   "greek": "Περὶ ἀχράδων.] Ἀχράδες ὀνομαζόμεναι καὶ στύφουσι μᾶλλον τῶν ἄλλων ἀπίων καὶ ξηραίνουσι, καὶ διὰ τοῦτο δηλονότι καὶ κολλῶσι τραύματα μείζονα καὶ ἀποτρέπουσι ῥεύματα.",
+   "english": "On wild pears.] The so-called wild pears (achrades) are both more astringent than the other pears and more drying; and for this reason, evidently, they also agglutinate larger wounds and turn back fluxes."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "wild pear"
+   ],
+   "unit_id": "Simp.6.1.52",
+   "bead": 1,
+   "greek": "Περὶ ἀχράδων.] Ἀχράδες ὀνομαζόμεναι καὶ στύφουσι μᾶλλον τῶν ἄλλων ἀπίων καὶ ξηραίνουσι, καὶ διὰ τοῦτο δηλονότι καὶ κολλῶσι τραύματα μείζονα καὶ ἀποτρέπουσι ῥεύματα.",
+   "english": "On wild pears.] The so-called wild pears (achrades) are both more astringent than the other pears and more drying; and for this reason, evidently, they also agglutinate larger wounds and turn back fluxes."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "gums"
+   ],
+   "unit_id": "Simp.6.1.56",
+   "bead": 6,
+   "greek": "διὰ τοῦτο καὶ τὰ δι’ ἔμφραξιν ἤ τι πάχος ἀπέπτων πνευμάτων ἀλγήματα θεραπεύει μᾶλλον ἡ στρογγύλη καὶ σκόλοπας ἀνάγει καὶ σηπεδόνας ἰᾶται καὶ τὰ ῥυπαρὰ τῶν ἑλκῶν καθαίρει καὶ ὀδόντας καὶ οὐλὰς λαμπρύνει.",
+   "english": "For this reason the round one also treats better the pains that arise from obstruction or from some thickness of unconcocted pneumata. It draws out splinters, heals putrefactions, cleans foul ulcers, and brightens the teeth and gums."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "sweet root"
+   ],
+   "unit_id": "Simp.6.1.58",
+   "bead": 1,
+   "greek": "Περὶ ἀρκτίου.] Ἄρκτιον τὸ μὲν τῷ φλόμῳ παραπλήσιον, τὸ τὴν ῥίζαν ἁπαλὴν καὶ λευκὴν καὶ γλυκεῖαν ἔχον καὶ τὸν καυλὸν μακρὸν καὶ μαλακὸν καὶ τὸν καρπὸν ὅμοιον κυμίνῳ, λεπτομεροῦς μὲν ἱκανῶς ἐστι δυνάμεως, καὶ δι’ αὐτὸ τοῦτο ξηραντικῆς μέντοι καὶ ῥυπτικῆς μετρίως, ὅθεν καὶ ἡ ῥίζα καὶ ὁ καρπὸς αὐτοῦ ἀφεψόμενοι σὺν οἴνῳ πραΰνει πως ὀδόντων ἀλγήματα.",
+   "english": "On arktion.] Arktion — the one resembling phlomos, which has a tender, white and sweet root, a long and soft stem, and a fruit like cumin — is of a quite fine-particled power, and for this very reason drying, and also moderately cleansing. Hence both its root and its fruit, decocted with wine, somewhat soothe pains of the teeth."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.14"
+   ],
+   "unit_id": "Simp.6.1.72-6.1.73",
+   "bead": 1,
+   "greek": "Περὶ ἀτρακτυλίδος.] Ἀτρακτυλὶς ἢ κνίκος ἄγριος ἐκ τῶν ἀκανθῶν ἐστιν.",
+   "english": "On atractylis.] Atractylis, or wild cnicus, is one of the thorny plants."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.74"
+   ],
+   "unit_id": "Simp.6.1.74",
+   "bead": 1,
+   "greek": "Περὶ ἀφάκης.] Ἀφάκη δυνάμεώς ἐστι στυπτικῆς, ὥσπερ καὶ ὁ φακός.",
+   "english": "On aphakē.] Aphakē is of an astringent power, just as the lentil also is."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "lentils"
+   ],
+   "unit_id": "Simp.6.2.1",
+   "bead": 3,
+   "greek": "μέμικται δὲ τι καὶ στύψεως αὐτῷ καὶ διὰ τοῦτο ῥυπτικήν τε ἅμα καὶ τμητικὴν καὶ συνακτικήν τε καὶ πιλητικὴν ἔχει τὴν ἐνέργειαν, ὥστε καὶ πρὸς ἰόνθους καὶ φακοὺς ἔφηλίν τε καὶ κνῆσιν, ἤδη δὲ καὶ πρὸς ψώραν καὶ λέπραν ἁρμόττει, οὐ μὴν ἀλλὰ καὶ σπλῆνας τήκει καὶ ἧπαρ σκιῤῥούμενον.",
+   "english": "But something of astringency is also mixed in it, and for this reason it has an activity that is at once cleansing and cutting, and also contracting and condensing, so that it is suited to ionthoi, phakoi, ephelis and itching, and indeed also to psora and lepra; moreover it also melts spleens and a liver that is becoming scirrhous."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "lower belly"
+   ],
+   "unit_id": "Simp.6.2.1",
+   "bead": 5,
+   "greek": "πολλάκις δὲ καὶ διὰ τῆς κάτω κολίας ὑπάγει δαψιλῶς.",
+   "english": "Often it also purges copiously through the lower belly."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "lentils"
+   ],
+   "unit_id": "Simp.6.2.1",
+   "bead": 8,
+   "greek": "γίγνεται γὰρ δραστικὸν οὕτως, ὡς καὶ ψώρας καὶ λέπρας ἀποῤῥύπτειν, καὶ πολὺ δὴ μᾶλλον ἔτι τὰ τούτων ἐλάττω, φακοὺς, ἀλφοὺς, ἰόνθους, ἔφηλιν, ἀχώρας, ἐξανθήματα τὰ ἑλκώδη καὶ παχύχυμα πάντα.",
+   "english": "For in this way it becomes so active as to cleanse away psora and lepra, and much more still the lesser of these conditions: phakoi, alphoi, ionthoi, ephelis, achores, and all eruptions that are ulcerous and of thick humours."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "darnel"
+   ],
+   "unit_id": "Simp.6.2.1",
+   "bead": 10,
+   "greek": "ὅτι κᾀν τῷ καταπλάττειν αὐτῇ τὸν σπλῆνα κάλλιόν ἐστι μιγνύναι τι τῶν ξηραντικῶν ἀλεύρων, οἷόν ἐστιν ὀρόβινόν τε καὶ αἴρινον ἄλευρον, ἐκ τῆς περὶ συνθέσεως ἤδη φαρμάκων εἴη ἂν τοῦτο πραγματείας μᾶλλον, οὐ τῆς νῦν ἐνεστώσης, εἰρήσεται δὲ κᾀν τοῖς εὐπορίστοις.",
+   "english": "That, when applying it as a cataplasm to the spleen, it is better to mix in some one of the drying meals, such as bitter-vetch meal and darnel meal, would belong rather to the treatise on the composition of drugs, not to the present one; but it will also be stated in the work on easily procured remedies."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "spittle"
+   ],
+   "unit_id": "Simp.6.2.6",
+   "bead": 5,
+   "greek": "χρῶνται δ’ αὐτοῖς τινες, καὶ μάλιστα τῷ Ἀραβικῷ. ἐπί τε βρογχοκήλων καὶ ὑδροκήλων, ἀσίτῳ πτυέλῳ δεύοντες, ὡς ἐμπλαστρώδη σύστασιν ἔχειν.",
+   "english": "Some people use them, and especially the Arabian, for bronchoceles and hydroceles, moistening them with fasting spittle so that they have a plaster-like consistency."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.2.7"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.2.7",
+   "bead": 1,
+   "greek": "Περὶ βηχίου.] Βηχίον ὠνόμασται μὲν οὕτως ἀπὸ τοῦ πεπιστεῦσθαι βῆχάς τε καὶ ὀρθοπνοίας ὠφελεῖν, εἴ τις ἤτοι τὰ φύλλα ξηρὰ λαβὼν, ἢ τὴν ῥίζαν ἐπ’ ἀνθράκων θυμιάσας, εἰσπνέοι τὴν ἀναφερομένην λιγνύν.",
+   "english": "On bēchion.] Bēchion has been so named from its being believed to benefit coughs and orthopnoeas, if one takes either the leaves dry, or the root, burns it as a fumigation over coals, and inhales the sooty smoke that rises."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.2.7"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.6.2.7",
+   "bead": 4,
+   "greek": "τὰ γὰρ ἤδη ξηρὰ φύλλα τοῦ βηχίου δριμυτέρας ἐστὶν ἢ κατὰ τὰ φλεγμαίνοντα δυνάμεως.",
+   "english": "For the leaves of bēchion that are already dry are of a more pungent power than suits inflamed parts."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.2.14"
+   ],
+   "unit_id": "Simp.6.2.14",
+   "bead": 1,
+   "greek": "Περὶ βουφθάλμου.] Βούφθαλμον ὠνόμασται μὲν οὕτως ἀπὸ τῶν ἀνθῶν ἐοικέναι δοκούντων κατὰ τὸ σχῆμα βοὸς ὀφθαλμῷ, ἐπί τε τήν γε χρόαν τοῖς τῆς ἀνθεμίδος ἐστὶν ὁμοιότατα.",
+   "english": "On bouphthalmon.] Bouphthalmon is so named from its flowers, which seem to resemble an ox's eye in shape; and moreover in colour they are very closely similar to those of anthemis."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.34"
+   ],
+   "unit_id": "Simp.6.4.9",
+   "bead": 8,
+   "greek": "ὁ δὲ καρπὸς ἰσχυρότερος οὐ τῶν φύλλων μόνον, ἀλλὰ καὶ τῆς ῥίζης ἐστὶν, ὥστε καὶ καρκίνους καὶ πολύποδας ἐκτήκειν πεπίστευται.",
+   "english": "The fruit is stronger not only than the leaves but also than the root, so that it is believed to melt away even cancers and polyps."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.5.7"
+   ],
+   "unit_id": "Simp.6.5.7",
+   "bead": 1,
+   "greek": "Περὶ Ἐλενίου.] Ἐλενίου τῆς πόας ἡ ῥίζα ἐστὶ μάλιστα χρήσιμος, οὐκ εὐθὺς κατὰ τὴν πρώτην προσβολὴν θερμαίνουσα, καὶ διὰ τοῦτο λεκτέον αὐτὴν οὐ θερμὴν καὶ ξηρὰν ἀκριβῶς, ὥσπερ τὸ μέλαν καὶ λευκὸν πέπερι, ἀλλὰ σὺν ὑγρότητι περιττωματικῇ, καὶ διὰ τοῦτο καὶ τοῖς ἐκλείγμασι τοῖς εἰς τὰς ἀναγωγὰς τῶν γλίσχρων καὶ τῶν παχέων ἐν θώρακι καὶ πνεύμονι χυμῶν ἐπιτηδείως μίγνυται καὶ φοινίσσουσιν αὐτῇ τὰ μόρια, ψυχροῖς καὶ χρονίοις ἐνοχλούμενα πάθεσιν, ὥσπερ ἰσχιάδες τέ τινές εἰσι καὶ ἡμικρανίαι καὶ συνεχεῖς ἄρθρων τινῶν ἐκπτώσεις δι’ ὑγρότητος.",
+   "english": "It does not heat immediately at the first application, and for this reason it must be said to be not strictly hot and dry, as black and white pepper are, but hot and dry together with a residual moisture. For this reason too it is suitably mixed into the linctuses used for the bringing up of the viscid and thick humours in the chest and lung, and with it they redden the parts troubled by cold and chronic affections, such as certain cases of ischias, hemicranias, and continual dislocations of certain joints owing to moisture."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "mouth"
+   ],
+   "unit_id": "Simp.6.5.8-6.5.9",
+   "bead": 4,
+   "greek": "διὸ καὶ πρὸς ἀλφοὺς καὶ λειχῆνας καὶ ψώρας καὶ λέπρας ἁρμόττουσι, καὶ μὲν δὴ καὶ εἰς σύριγγα τετυλωμένην ὁ μέλας, καθιέμενος ἐν δύο που καὶ τρισὶν ἡμέραις ἀφίστησιν αὐτῆς τὸν τύλον, καὶ ὀδόντας δὲ σὺν ὄξει διακλυζόμενος ὀνίνησι.",
+   "english": "Moreover, the black, inserted into a callused fistula, detaches its callus in some two or three days. Used as a mouth-rinse with vinegar, it also benefits the teeth."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.5.10"
+   ],
+   "unit_id": "Simp.6.5.10",
+   "bead": 1,
+   "greek": "Περὶ ἑλξίνης.] Ἑλξίνη, ἔνιοι δὲ περδίκιον ὀνομάζουσιν, ἄλλοι δὲ παρθένιον, ἄλλοι δὲ σιδηρίτιδα, εἰσὶ δ’ οἳ Ἡρακλείαν.",
+   "english": "On helxine.] Helxine: some call it perdikion, others parthenion, others sideritis, and there are those who call it Herakleia."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.5.10"
+   ],
+   "unit_id": "Simp.6.5.11-6.5.12",
+   "bead": 1,
+   "greek": "Περὶ ἑλξίνης μελαίνης.] Ἑλξίνη, ἡ καὶ κισσάμπελος ὀνομαζομένη, δυνάμεώς ἐστι διαφορητικῆς.",
+   "english": "On black helxine.] Helxine, which is also called kissampelos, is of a dispersing power."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.34"
+   ],
+   "unit_id": "Simp.6.5.21",
+   "bead": 5,
+   "greek": "φησὶ δὲ Διοσκουρίδης ὡς καταπλαττόμενον μεθ’ ὕδατος ἢ μέλιτος ὀνίνησι τοὺς κρυπτοὺς καρκίνους.",
+   "english": "Dioscorides says that, applied as a plaster with water or honey, it helps hidden cancers."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.55"
+   ],
+   "unit_id": "Simp.6.5.24-6.5.25",
+   "bead": 4,
+   "greek": "φύλλα μὲν καὶ καυλὸν ἔχει ὅμοιον κρίνῳ, ῥίζαν δὲ μακρὰν οὐ στρογγύλην, ὥσπερ τὸ Κολχικόν.",
+   "english": "It has leaves and a stalk like the lily, but a long root, not a round one as Colchicum has."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "mouth"
+   ],
+   "unit_id": "Simp.6.5.24-6.5.25",
+   "bead": 8,
+   "greek": "καὶ γὰρ ὀδονταλγίας ἐστὶν οὐκ ἄπρακτον ἥ γε ῥίζα διάκλυσμα καὶ φυμάτων ἀναβάσεσί τε καὶ ἀκμαῖς ἁρμόζει τὰ φύλλα.",
+   "english": "For the root at least is a not ineffective mouth-rinse for toothache, and the leaves are suited to the rising stages and the peaks of phymata."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.7.2"
+   ],
+   "unit_id": "Simp.6.7.2",
+   "bead": 1,
+   "greek": "Περὶ ἡδυσάρου.] Ἡδύσαρον ἢ πελεκῖνος.",
+   "english": "On hedysaron.] Hedysaron, or pelekinos."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.55"
+   ],
+   "unit_id": "Simp.6.7.3",
+   "bead": 1,
+   "greek": "Περὶ ἡμεροκάλλους.] Ἡμεροκάλλους ἡ ῥίζα παραπλησία τῇ τοῦ κρίνου κατά τε τὴν ἰδέαν οὖσα καὶ κατὰ τὴν δύναμιν ὠφελεῖ παραπλησίως ἐκείνῃ τὰ πυρίκαυτα.",
+   "english": "On hemerocallis.] The root of hemerocallis, being similar to that of the lily both in form and in power, benefits burns in a similar way to it."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.7.4"
+   ],
+   "unit_id": "Simp.6.7.4-6.7.5",
+   "bead": 1,
+   "greek": "Περὶ ἡμιονίτιδος.] Ἡμιονίτις στύψεως ἅμα σὺν πικρότητι μετέχει, διὸ καὶ σπληνικοὺς ὠφελεῖ σὺν ὄξει πινομένη.",
+   "english": "On hēmionitis.] Hēmionitis partakes of astringency together with bitterness; for this reason it also benefits those suffering in the spleen when drunk with vinegar."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.7.5"
+   ],
+   "unit_id": "Simp.6.7.4-6.7.5",
+   "bead": 3,
+   "greek": "Περὶ ἠριγέροντος.] Ἠριγέρων δύναμιν ἐπίμικτον ἔχει, ψυκτικήν τε ἅμα καὶ μετρίως διαφορητικήν.",
+   "english": "On ērigerōn.] Ērigerōn has a mixed power, at once cooling and moderately dispersing."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "lettuce"
+   ],
+   "unit_id": "Simp.6.8.6",
+   "bead": 5,
+   "greek": "οὕτω καὶ τὸ τῆς ἀγρίας, ἧς καὶ τὸν ὀπὸν ἀθροίζουσιν, ἄργεμά τε καὶ ἀχλῦς ἀποκαθαῖρόν τε καὶ πρὸς τὰ ἐπικαύματα, μετὰ γυναικείου γάλακτος ὑπαλειφόμενον.",
+   "english": "So too does the seed of the wild lettuce, whose juice people also collect; smeared on with woman's milk, it cleans away argema and achlys, and it serves for epicaumata."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "verdigris"
+   ],
+   "unit_id": "Simp.6.9.3",
+   "bead": 1,
+   "greek": "Περὶ ἴου.] Ἴου τὰ φύλλα τὴν ὑδατώδη καὶ ὑπόψυχρον οὐσίαν ἐπικρατοῦσαν κέκτηται, καὶ διὰ τοῦτο καὶ καθ’ ἑαυτὰ καὶ μετὰ ἀλφίτων ἐπιπλαττόμενα, τὰς θερμὰς φλεγμονὰς παρηγορεῖ.",
+   "english": "On ion (violet).] The leaves of ion possess a predominating substance that is watery and somewhat cold, and for this reason, applied as a plaster both by themselves and with barley-groats, they soothe hot inflammations."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.9.4"
+   ],
+   "unit_id": "Simp.6.9.4",
+   "bead": 1,
+   "greek": "Περὶ ἱππούριδος.] Ἵππουρις στυπτικὴν μετὰ πικρότητος ἔχει ποιότητα, καὶ διὰ τοῦτο ξηραντικὴν ἰσχυρῶς τε ἅμα καὶ ἀδήκτως.",
+   "english": "On hippuris.] Hippuris has an astringent quality together with bitterness, and for this reason it is drying, both strongly and at the same time without biting."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "vinegar"
+   ],
+   "unit_id": "Simp.6.9.8",
+   "bead": 5,
+   "greek": "καὶ ὁ φλοιὸς δὲ τοῦ δένδρου παραπλήσιος ὑπάρχει τῇ τε τῶν ἀνθῶν καὶ τῶν φύλλων δυνάμει, πλὴν ὅσα ξηρότερός ἐστι τὴν κρᾶσιν, ὥσπερ ἀμέλει καὶ πάντες οἱ φλοιοί.",
+   "english": "For instance, they remove the so-called nails (corns) and calluses, and also warts, by moistening it with pungent vinegar. Some, incising the bark at the time of flowering, collect a certain sap and use it for things that darken the pupils, as a drug at once cleansing and fine-particled."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.19.4"
+   ],
+   "unit_id": "Simp.6.9.8",
+   "bead": 6,
+   "greek": "ἀλλὰ τοῦτόν γε καίουσιν ἔνιοι καὶ χρῶνται τῇ τέφρᾳ πρὸς ὅσα περ ἂν ἰσχυρῶς δέωνται ξηραίνειν.",
+   "english": "One might also use it for many other things, since it is of such a kind. GALEN, ON THE MIXTURE AND POWER OF SIMPLE DRUGS, BOOK VIII."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "caraway"
+   ],
+   "unit_id": "Simp.7.10.10",
+   "bead": 1,
+   "greek": "Περὶ κάρου.] Κάρου τὸ σπέρμα θερμαίνει καὶ ξηραίνει κατὰ τὴν τρίτην που τάξιν δριμεῖαν μετρίως ἔχον τὴν ποιότητα.",
+   "english": "On caraway.] The seed of caraway heats and dries in about the third order, having a moderately pungent quality."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.14"
+   ],
+   "unit_id": "Simp.7.10.14",
+   "bead": 1,
+   "greek": "Περὶ καρπησίου.] Καρπήσιον ὅμοιον μὲν ὑπάρχει τῷ καλουμένῳ φοῦ κατά τε τὴν γεῦσιν καὶ τὴν δύναμιν, ἐπιπλέον δ’ ἐστὶ λεπτομερὲς, διὸ καὶ μᾶλλον ἐκείνου ῥύπτει τὰς τῶν σπλάγχνων ἐμφράξεις καὶ οὖρα κινεῖ καὶ νεφροὺς ἐκκαθαίρει λιθιῶντας.",
+   "english": "On karpēsion.] Karpēsion is similar to what is called phou both in taste and in power, but it is fine-particled to a greater degree. For this reason it also cleanses the obstructions of the viscera more than that does, promotes urine, and clears out kidneys that are forming stones."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.14"
+   ],
+   "unit_id": "Simp.7.10.14",
+   "bead": 3,
+   "greek": "ἄμεινον μὲν οὖν ἐστι τὸ Ποντικὸν καρπήσιον τοῦ Λαερτικοῦ, οὐ μὴν οὐδ’ αὐτὸ πλησίον κινναμώμου τὴν δύναμιν, ἀλλὰ καὶ τῆς ἀρίστης κασίας οὐκ ὀλίγῳ λειπόμενον.",
+   "english": "The Pontic karpēsion is better than the Laertic; yet even it is not close to cinnamon in power, and it falls short by no small amount even of the best cassia."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "cherry tree"
+   ],
+   "unit_id": "Simp.7.10.19",
+   "bead": 1,
+   "greek": "Περὶ κεράσου.] Κέρασος τὸ δένδρον καρπὸν φέρει, στύψεως οὐκ ἴσης ἐν ἅπασι τοῖς κατὰ μέρος φυτοῖς μετέχον· καὶ γὰρ καὶ τούτων, ὥσπερ καὶ τῶν ῥοιῶν καὶ τῶν μήλων, ἐν τισὶ μὲν ἡ αὐστηρὰ ποιότης, ἐν τισὶ δὲ ἡ γλυκεῖα, ἐν τισὶ δὲ ἡ ὀξεῖα κρατεῖ.",
+   "english": "On the cherry.] The cherry tree bears a fruit that does not have an equal share of astringency in all the individual plants. For in these too, as also in pomegranates and apples, in some the harsh quality prevails, in some the sweet, and in some the sour."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "tongue"
+   ],
+   "unit_id": "Simp.7.10.21",
+   "bead": 1,
+   "greek": "Περὶ κέστρου.] Κέστρον ἢ ψυχότροφον, Ῥωμαϊστὶ δὲ βετονίκη, δύναμιν ἔχει τμητικὴν, ὡς ἡ γεῦσις δηλοῖ.",
+   "english": "On kestron.] Kestron, or psychotrophon, in the Roman tongue betonica, has a cutting power, as the taste shows."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "hypocist"
+   ],
+   "unit_id": "Simp.7.10.27",
+   "bead": 6,
+   "greek": "ἡ δὲ ὑποκιστὶς ὀνομαζομένη πολὺ δή τι καὶ τῶν φύλλων ἐστὶ στυπτικωτέρα, δραστικὸν ἱκανῶς φάρμακον εἰς ἅπαντα τὰ ῥοώδη πάθη, οἷον αἵματος ἀναγωγὰς, ῥοῦς γυναικείους, κοιλιακάς τε καὶ δυσεντερικὰς διαθέσεις.",
+   "english": "The so-called hypokistis is very much more astringent even than the leaves, a quite efficacious drug for all fluxional affections, such as bringings-up of blood, women's fluxes, and coeliac and dysenteric conditions."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.17.9"
+   ],
+   "unit_id": "Simp.7.10.27",
+   "bead": 6,
+   "greek": "ἡ δὲ ὑποκιστὶς ὀνομαζομένη πολὺ δή τι καὶ τῶν φύλλων ἐστὶ στυπτικωτέρα, δραστικὸν ἱκανῶς φάρμακον εἰς ἅπαντα τὰ ῥοώδη πάθη, οἷον αἵματος ἀναγωγὰς, ῥοῦς γυναικείους, κοιλιακάς τε καὶ δυσεντερικὰς διαθέσεις.",
+   "english": "The so-called hypokistis is very much more astringent even than the leaves, a quite efficacious drug for all fluxional affections, such as bringings-up of blood, women's fluxes, and coeliac and dysenteric conditions."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "ivy"
+   ],
+   "unit_id": "Simp.7.10.29",
+   "bead": 3,
+   "greek": "ἀλλ’ ὅ γε χλωρὸς ἑψηθέντων τῶν φύλλων σὺν οἴνῳ καὶ τῶν μεγάλων τραυμάτων ἐστὶ κολλητικὸς καὶ τῶν κακοηθευομένων ἰατικός.",
+   "english": "But the green ivy, when its leaves are boiled with wine, is agglutinating even of large wounds and healing of those that are turning malignant."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.31"
+   ],
+   "unit_id": "Simp.7.10.31",
+   "bead": 1,
+   "greek": "Περὶ κληματίδος.] Κληματίδος τὰ φύλλα δριμείας τε καὶ καυστικῆς ἐστι δυνάμεως, ὥστε καὶ λέπρας ἀποδέρειν.",
+   "english": "On klēmatis.] The leaves of klēmatis are of a pungent and caustic power, so that they even strip off leprai."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.31"
+   ],
+   "unit_id": "Simp.7.10.31",
+   "bead": 3,
+   "greek": "ὀνομάζεται δὲ κληματὶς καὶ τὸ δαφνοειδὲς, ὅπερ ἔνιοι μυρσινοειδὲς, ἔνιοι δὲ πολυγονοεδὲς καλοῦσιν.",
+   "english": "But the daphnoeides ('laurel-like') is also called klēmatis, which some call myrsinoeides ('myrtle-like') and others polygonoeides ('knotgrass-like')."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "mouth"
+   ],
+   "unit_id": "Simp.7.10.35",
+   "bead": 5,
+   "greek": "ἁπλῶς δ’ εἰπεῖν ὧν ἐν τοῖς φύλλοις ἢ τοῖς βλαστοῖς ἐμφαίνεταί τις στύψις σαφὴς, ταῦτα ἀφεψόμενα διάκλυσμα γίγνεται τῶν περὶ γαργαρεῶνα καὶ παρίσθμια φλεγμονῶν.",
+   "english": "To put it simply, those in whose leaves or shoots some clear astringency shows itself, these, when boiled down, make a mouth-rinse for inflammations about the uvula and the paristhmia."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "flour"
+   ],
+   "unit_id": "Simp.7.10.36",
+   "bead": 1,
+   "greek": "Περὶ κόλλας.] Κόλλα, ἣν εἰς τὰ βιβλία σκευάζουσιν ἐκ σεμιδάμεώς τε καὶ γύρεως, ἐμπλαστικῆς τε καὶ πεπτικῆς ἐστι δυνάμεως οἷς ἂν καταπλασθῇ μέρεσιν.",
+   "english": "On glue.] Glue, which they prepare for books from semidalis-flour and fine meal, is of a clogging and concoctive power for whatever parts it is applied to as a poultice."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "lye"
+   ],
+   "unit_id": "Simp.7.10.41",
+   "bead": 3,
+   "greek": "ῥυπτικωτάτη δ’ ἐστὶ καὶ ξηραντικωτάτη πασῶν ἡ ἐκ τῆς συκίνης τέφρας καὶ τῶν τιθυμάλλων καὶ σχεδὸν ἤδη τῆς καλουμένης σηπτικῆς δυνάμεως, ἣν οἵα τίς ἐστιν ἐν τῷ πέμπτῳ λόγῳ διῆλθον.",
+   "english": "Most cleansing and most drying of all is the lye made from fig-wood ash and from the ash of the spurges (tithymalloi); it is already very nearly of the so-called putrefying power, the nature of which I set out in the fifth book."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "lentils"
+   ],
+   "unit_id": "Simp.7.10.48",
+   "bead": 6,
+   "greek": "κατὰ τὴν αὐτὴν δύναμιν ἐφήλιδάς τε καὶ φακοὺς ὅσα τε ἄλλα μετρίας δεῖται ῥύψεως ὀνίνησιν.",
+   "english": "By the same power it benefits ephēlides and phakoi and whatever else requires moderate cleansing."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.52"
+   ],
+   "unit_id": "Simp.7.10.51-7.10.52",
+   "bead": 3,
+   "greek": "Περὶ κρήθμου.] Κρῆθμον ἁλμυρόν πώς ἐστι γευομένοις, ἅμα βραχείᾳ πικρότητι, διὸ καὶ ἡ δύναμις αὐτοῦ ῥυπτική τε ἅμα καὶ ξηραντική.",
+   "english": "On krēthmon.] Krēthmon is somewhat salty to those who taste it, together with a slight bitterness; for this reason its power too is at once cleansing and drying."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "wheat"
+   ],
+   "unit_id": "Simp.7.10.54",
+   "bead": 4,
+   "greek": "καλεῖται δὲ τὸ ἐξ αὐτοῦ ῥόφημα πολτὸς, καὶ ἔστιν ὁ ἀπὸ τῆς ζειᾶς στατικὸς ἠρέμα τῆς κοιλίας καὶ μᾶλλον εἰ φρυχθείη.",
+   "english": "The gruel made from it is called poltos, and the one from zeia is gently binding to the belly, and more so if the krimnon has been parched."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.55"
+   ],
+   "unit_id": "Simp.7.10.55",
+   "bead": 1,
+   "greek": "Περὶ κρίνου.] Κρίνου τὸ μὲν ἄνθος κράσει μικτόν ἐστιν ἐκ λεπτομεροῦς τέ τινος καὶ γεώδους οὐσίας, ἐξ ἧσπερ ἔχει καὶ τὴν ἐν τῇ γεύσει πικρότητα, καί τινος ὑδατώδους εὐκράτου.",
+   "english": "On the lily.] The flower of the lily is, in its mixture, compounded of a certain fine-particled and earthy substance, from which it also has its bitterness in taste, and of a certain well-tempered watery substance."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "caraway"
+   ],
+   "unit_id": "Simp.7.10.61",
+   "bead": 1,
+   "greek": "Περὶ κυμίνου.] Κυμίνου τῷ σπέρματι μάλιστα χρώμεθα, καθάπερ ἀνίσου τε καὶ λιβυστικοῦ καὶ κάρου καὶ πετροσελίνου.",
+   "english": "On cumin.] Of cumin we use chiefly the seed, as we do of anise, lovage, caraway and parsley."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.11.5"
+   ],
+   "unit_id": "Simp.7.11.5",
+   "bead": 1,
+   "greek": "Περὶ λειμωνίου.] Λειμωνίου τὸν καρπὸν αὐστηρὸν ὑπάρχοντα μετ’ οἴνου διδόασι κοιλιακοῖς τε καὶ δυσεντερικοῖς καὶ αἱμοπτυϊκοῖς.",
+   "english": "On leimonion.] The fruit of leimonion, which is harsh, they give with wine to coeliacs, to dysenteric patients and to those who spit blood."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.11.6"
+   ],
+   "unit_id": "Simp.7.11.6",
+   "bead": 1,
+   "greek": "Περὶ λειχῆνος.] Λειχὴν ὁ ἐπὶ τῶν πετρῶν ἔστι μὲν οἷον βρύον τι, τοῦ γένους δ’ ἂν ὀρθῶς ὀνομάζοιτο τῶν φυτῶν.",
+   "english": "On leichen.] The leichen that grows on rocks is like a kind of bryon, but it would rightly be named as belonging to the class of plants."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "head"
+   ],
+   "unit_id": "Simp.7.11.19",
+   "bead": 1,
+   "greek": "Περὶ λογχίτιδος.] Λογχίτιδος τῆς μὲν τὸ σπέρμα τρίγωνον ἐχούσης ἐοικὸς λόγχῃ κατὰ τὸ σχῆμα, παραπλησία μάλιστά πως ἡ ῥίζα τῇ τοῦ δαύκου τετύχηκεν οὖσα, καὶ διὰ τοῦτο καὶ οὐρητικόν ἐστι φάρμακον.",
+   "english": "On lonchitis.] Of lonchitis, the kind that has its seed triangular, resembling a lance-head in shape, happens to have a root very closely similar to that of daukos, and for this reason it is also a diuretic drug."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.19.13"
+   ],
+   "unit_id": "Simp.7.11.23",
+   "bead": 1,
+   "greek": "Περὶ λωτοῦ ἡμέρου.] Λωτὸς ὁ ἥμερος, ὃν ἔνιοι τρίφυλλον ὀνομάζουσι πεπτικῆς μετρίως ἐστὶ δυνάμεως, οὕτως δὲ καὶ ξηραντικῆς.",
+   "english": "On the cultivated lotus.] The cultivated lotus, which some call trifolium, is of a moderately concoctive power, and likewise of a drying one."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.18.37"
+   ],
+   "unit_id": "Simp.7.12.2-7.12.3",
+   "bead": 1,
+   "greek": "Περὶ μαλαβάθρου.] Μαλαβάθρου φύλλον νάρδου στάχυϊ παραπλήσιόν ἐστι τὴν δύναμιν.",
+   "english": "On malabathrum.] The leaf of malabathrum is close in power to the spike of nard."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "fennel"
+   ],
+   "unit_id": "Simp.7.12.5",
+   "bead": 5,
+   "greek": "ἕτερον δ’ ἐστὶν ἱππομάραθρον, οὗ τὸ σπέρμα στρογγύλον ἐστὶ καὶ δριμὺ τῷ τοῦ κοριάνου παραπλήσιον, ὅμοιον μὲν τῇ δυνάμει τῷ τοῦ ἱππομαράθρου, ἀσθενέστερον δέ.",
+   "english": "There is another hippomarathron, whose seed is round and pungent, similar to that of koriannon; it is like the seed of hippomarathron in power, but weaker."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "pomegranate"
+   ],
+   "unit_id": "Simp.7.12.13",
+   "bead": 1,
+   "greek": "Περὶ μήκωνος.] Μήκων ἡ μέν τις ῥοιὰς ὀνομάζεται, διότι ταχέως αὐτῆς ἀποῤῥεῖ τὸ ἄνθος, ἡ δέ τις ἥμερος, ἐπειδὴ κηπεύεται.",
+   "english": "On the poppy.] Of the poppy (mēkōn), one kind is called rhoias, because its flower falls off (aporrhei) quickly; another is called the cultivated, since it is grown in gardens."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "head"
+   ],
+   "unit_id": "Simp.7.12.13",
+   "bead": 2,
+   "greek": "καὶ μὴν καὶ δύο ἐπ’ αὐταῖς εἰσιν ἕτεραι μήκωνες ἄγριαι, ἡ μὲν οἷον ἐγκαθημένην ἔχουσα τὴν κωδύαν, ἡ δὲ ἐπιμηκεστέραν μὲν ταύτης, ὅλη δ’ αὐξανεστέρα καὶ αὐχμηροτέρα.",
+   "english": "And indeed, besides these there are two other, wild poppies: the one having its head (kōdya) as it were seated within, the other having it more elongated than this one, and the plant as a whole more luxuriant [? auxanestera] and more parched."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.48"
+   ],
+   "unit_id": "Simp.7.12.13",
+   "bead": 10,
+   "greek": "ἡ δὲ τετάρτη ῥηθεῖσα φαρμακωδεστάτη πασῶν ἐστι καὶ κατὰ τὸ σπέρμα καὶ κατὰ τὰς κωδείας καὶ κατὰ τὰ φύλλα καὶ κατὰ τὸν ὀπόν· ἰσχυρῶς γὰρ ψύχει μέχρι νάρκης ἄγουσα καὶ νεκρώσεως, ὅθεν ἰατροῦ τὸ χρήσασθαι καλῶς αὐτῇ, μιγνύντα φαρμάκοις ἀμβλύνουσι τὸ τῆς ψύξεως ἰσχυρόν.",
+   "english": "The fourth-named is the most drug-like of all, in its seed, in its heads, in its leaves and in its juice; for it cools strongly, bringing on torpor (narkē) and mortification (nekrōsis). Hence it is the physician's task to use it well, mixing it with drugs that blunt the strength of its cooling."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "heads"
+   ],
+   "unit_id": "Simp.7.12.13",
+   "bead": 10,
+   "greek": "ἡ δὲ τετάρτη ῥηθεῖσα φαρμακωδεστάτη πασῶν ἐστι καὶ κατὰ τὸ σπέρμα καὶ κατὰ τὰς κωδείας καὶ κατὰ τὰ φύλλα καὶ κατὰ τὸν ὀπόν· ἰσχυρῶς γὰρ ψύχει μέχρι νάρκης ἄγουσα καὶ νεκρώσεως, ὅθεν ἰατροῦ τὸ χρήσασθαι καλῶς αὐτῇ, μιγνύντα φαρμάκοις ἀμβλύνουσι τὸ τῆς ψύξεως ἰσχυρόν.",
+   "english": "The fourth-named is the most drug-like of all, in its seed, in its heads, in its leaves and in its juice; for it cools strongly, bringing on torpor (narkē) and mortification (nekrōsis). Hence it is the physician's task to use it well, mixing it with drugs that blunt the strength of its cooling."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.12.17"
+   ],
+   "unit_id": "Simp.7.12.17",
+   "bead": 4,
+   "greek": "ὁ δὲ καρπὸς αὐτοῦ, τοῦτο δὴ ἐδώδιμον περσικὸν, ὑγρότερόν τ’ ἐστὶ καὶ ψυχρότερον τὴν κρᾶσιν.",
+   "english": "Its fruit, which is the edible 'Persian', is moister and colder in its mixture."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.12.20"
+   ],
+   "unit_id": "Simp.7.12.20",
+   "bead": 1,
+   "greek": "Περὶ μήου.] Μῆον.",
+   "english": "On meum.] Meum."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "darnel"
+   ],
+   "unit_id": "Simp.7.12.26",
+   "bead": 1,
+   "greek": "Περὶ μύλης.] Μύλης ἡ ῥίζα μικρῷ βολβῷ παραπλήσιος ὑπάρχουσα συνακτικῆς ἐστι δυνάμεως, ὥστε καὶ μετὰ αἰρίνου ἀλεύρου προστιθεμένην αὐτὴν ἀνεστομωμένην μήτραν ἰᾶσθαί φησι Διοσκορίδης.",
+   "english": "On myle.] The root of myle, being similar to a small bulb, is of a contracting power, so that Dioscorides says that, applied together with darnel flour, it heals a womb whose mouth has been opened."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "chest"
+   ],
+   "unit_id": "Simp.7.12.29-7.12.30",
+   "bead": 3,
+   "greek": "Περὶ μύῤῥιδος.] Μύῤῥις, ἔνιοι δὲ μύῤῥαν ὀνομάζουσιν, εὐώδη καὶ γλυκεῖαν ἔχει τὴν ῥίζαν, ἐπιμηνίων τε κινητικὴ, καὶ τῶν ἐκ θώρα κος καὶ πνεύμονος ἀνακαθαρτικὴ, ὥστ’ εἴη ἂν ἐκ τῆς δευτέρας τῶν θερμαινόντων τάξεως, ἔχουσά τι καὶ λεπτομερές.",
+   "english": "On myrrhis.] Myrrhis, which some call myrrha, has a fragrant and sweet root; it is promotive of the menses and clears out [matter] from the chest and lung, so that it would belong to the second order of heating things, having also something fine-particled."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "sweet root"
+   ],
+   "unit_id": "Simp.7.12.29-7.12.30",
+   "bead": 3,
+   "greek": "Περὶ μύῤῥιδος.] Μύῤῥις, ἔνιοι δὲ μύῤῥαν ὀνομάζουσιν, εὐώδη καὶ γλυκεῖαν ἔχει τὴν ῥίζαν, ἐπιμηνίων τε κινητικὴ, καὶ τῶν ἐκ θώρα κος καὶ πνεύμονος ἀνακαθαρτικὴ, ὥστ’ εἴη ἂν ἐκ τῆς δευτέρας τῶν θερμαινόντων τάξεως, ἔχουσά τι καὶ λεπτομερές.",
+   "english": "On myrrhis.] Myrrhis, which some call myrrha, has a fragrant and sweet root; it is promotive of the menses and clears out [matter] from the chest and lung, so that it would belong to the second order of heating things, having also something fine-particled."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "myrrh"
+   ],
+   "unit_id": "Simp.7.12.31",
+   "bead": 1,
+   "greek": "Περὶ μυῤῥίνης.] Μυῤῥίνη.",
+   "english": "On myrtle.] Myrtle."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "myrtle"
+   ],
+   "unit_id": "Simp.7.12.31",
+   "bead": 1,
+   "greek": "Περὶ μυῤῥίνης.] Μυῤῥίνη.",
+   "english": "On myrtle.] Myrtle."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.18.37"
+   ],
+   "unit_id": "Simp.8.13.1",
+   "bead": 1,
+   "greek": "Περὶ νάρδου στάχυος.] Νάρδου στάχυς θερμαίνει μὲν κατὰ τὴν τρίτην ἀπόστασιν, ξηραίνει δὲ κατὰ τὴν δευτέραν συμπληρουμένην.",
+   "english": "On the spike of nard.] The spike of nard heats in the third degree, and dries in the second degree, at its completion."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.13.8"
+   ],
+   "unit_id": "Simp.8.13.8",
+   "bead": 1,
+   "greek": "Περὶ νηρίου.] Νήριον, ἢ ῥοδοδάφνη, γνώριμος ἅπασι θάμνος.",
+   "english": "On nērion.] Nērion, or rhododaphnē, is a shrub familiar to everyone."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.15.9"
+   ],
+   "unit_id": "Simp.8.15.6-8.15.7",
+   "bead": 4,
+   "greek": "Περὶ ὀνόσματος.] Ὄνοσμα ἢ ὀσμὰς ἢ φλονῖτις ἢ ὄνωνις ἐκ δριμείας καὶ πικρᾶς οὐσίας σύγκειται.",
+   "english": "On onosma.] Onosma, or osmas, or phlonitis, or onōnis, is composed of a pungent and bitter substance."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "mouth"
+   ],
+   "unit_id": "Simp.8.15.9",
+   "bead": 4,
+   "greek": "χρῶνται δ’ αὐτῷ καὶ πρὸς ὀδόντων ἀλγήματα καθέψοντες ἐν ὀξυκράτῳ καὶ διακλύζεσθαι κελεύοντες.",
+   "english": "People also use it for pains of the teeth, boiling it down in oxycrate and bidding the patient rinse the mouth with it."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "wild pear"
+   ],
+   "unit_id": "Simp.8.15.11",
+   "bead": 2,
+   "greek": "τοῦτο γὰρ τὸ δένδρον, ὥσπερ ἀχράδι παραπλήσιόν ἐστι τὴν ἰδέαν, οὕτω καὶ τὴν δύναμιν.",
+   "english": "For this tree is close to the wild pear in its form, and close to it in its power as well."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "wild pear"
+   ],
+   "unit_id": "Simp.8.15.11",
+   "bead": 3,
+   "greek": "καὶ μέν γε καὶ οἱ καρποὶ, ὁ μὲν τῆς ἀχράδος ἁπλῶς στρυφνὸς, ὁ δὲ τῆς ὀξυακάνθης καὶ λεπτομερής ἐστι καὶ τμητικὸν ὀλίγον ἔχει.",
+   "english": "And indeed the fruits too: that of the wild pear is simply acerbic, whereas that of the oxyakantha is both fine-particled and has a little of the cutting [quality]."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "wild pear"
+   ],
+   "unit_id": "Simp.8.15.11",
+   "bead": 4,
+   "greek": "ὁ δὲ καρπὸς τοῦ δένδρου τῷ μὲν τῆς ἀχράδος οὐκ ἔοικεν, ὅμοιος δ’ ἐστὶ τοῖς μύρτοις, ἐρυθρός τε καὶ ἀραιὸς ὑπάρχων.",
+   "english": "Yet the fruit of the tree does not resemble that of the wild pear; it is like myrtle berries, being red and loose-textured."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "testicles"
+   ],
+   "unit_id": "Simp.8.15.17",
+   "bead": 1,
+   "greek": "Περὶ ὄρχεως τοῦ κυνός.] Ὄρχις.",
+   "english": "On dog's orchis.] Orchis."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "testicles"
+   ],
+   "unit_id": "Simp.8.15.17",
+   "bead": 2,
+   "greek": "ὀνομάζεται καὶ κυνὸς ὄρχις ἡ αὐτὴ βοτάνη.",
+   "english": "The same plant is also called dog's orchis (kynos orchis)."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "testicles"
+   ],
+   "unit_id": "Simp.8.15.18",
+   "bead": 1,
+   "greek": "Περὶ ὄρχεως τοῦ σεραπιάδος.] Ὄρχις, ὃν καὶ σεραπιάδα καλοῦσιν, ξηροτέρας δυνάμεώς ἐστιν ἢ κατὰ τὴν προτέραν, ὅθεν εἰς τὰ ἀφροδίσια μὲν οὐχ ὁμοίως ἐπιτήδειός ἐστιν.",
+   "english": "On the orchis [called] serapias.] Orchis, which they also call serapias, is of a drier power than the former, so that it is not equally suitable for sexual matters."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.15.19"
+   ],
+   "unit_id": "Simp.8.15.19",
+   "bead": 1,
+   "greek": "Περὶ ὀσίριδος.] Ὀσίριδος τῆς πόας, ἐξ ἧς καὶ τὰ κορήματα γίνεται, πικρὰ μὲν ἡ ποιότης, ἐκφρακτικὴ δὲ ἡ δύναμις, ὅθεν καὶ τὰς καθ’ ἧπαρ ἐμφράξεις ὠφελεῖ.",
+   "english": "On osyris.] Of the herb osyris, from which brooms are also made, the quality is bitter and the power unblocking; hence it also benefits obstructions in the liver."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "grape"
+   ],
+   "unit_id": "Simp.8.16.11",
+   "bead": 4,
+   "greek": "ὁ δ’ οἷον ὄμφαξ καρπὸς τὸ λευκόν ἐστι πέπερι, δριμύτερον ὑπάρχον τοῦ μέλανος.",
+   "english": "The fruit that is like an unripe grape is white pepper, which is more pungent than the black."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "pitch"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.8.16.22",
+   "bead": 2,
+   "greek": "ὀνομάζεται δ’ οὕτως ὁ καρπὸς τῶν πιτύων.",
+   "english": "This is the name given to the fruit of the pine (pitys); but some, using the term loosely, call that of the pitch-pine (peukē) by the same name as well."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.16.32"
+   ],
+   "unit_id": "Simp.8.16.32-8.16.33",
+   "bead": 1,
+   "greek": "Περὶ πολυκνήμου.] Πολύκνημον ξηραίνει καὶ θερμαίνει κατὰ τὴν δευτέραν ἀπόστασιν, ὥστε καὶ διὰ τοῦτο τραυμάτων ἐστὶ κολλητικόν.",
+   "english": "On polyknēmon.] Polyknēmon dries and heats in the second remove, so that for this reason too it is agglutinating of wounds."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.16.33"
+   ],
+   "unit_id": "Simp.8.16.32-8.16.33",
+   "bead": 3,
+   "greek": "Περὶ ποταμογείτονος.] Ποταμογείτων στύφει καὶ ψύχει παραπλησίως πολυγόνῳ. παχυμερεστέρα δ’ ἐστὶν ἡ οὐσία αὐτοῦ τῆς πολυγόνου.",
+   "english": "On potamogeiton.] Potamogeiton is astringent and cools much as polygonon does; but its substance is more coarse-particled than that of polygonon."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.16.39"
+   ],
+   "unit_id": "Simp.8.16.39",
+   "bead": 1,
+   "greek": "Περὶ πτέριδος καὶ θηλυπτερίδος.] Πτέρις ῥίζαν μάλιστ’ ἔχει χρήσιμον.",
+   "english": "On fern and female fern.] Fern has a root that is especially useful."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "resin"
+   ],
+   "unit_id": "Simp.8.17.4",
+   "bead": 3,
+   "greek": "προκέκριται δ’ εἰκότως ἐξ ἁπασῶν ἡ σχινίνη, μαστίχην δ’ αὐτὴν ὀνομάζουσι.",
+   "english": "Of them all, the resin of the schinos is with good reason given first place; they call it mastic."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.3.3"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.8.17.8",
+   "bead": 5,
+   "greek": "ἔστι δὲ τὰ μὲν γίγαρτα τοῦ χυλοῦ στυπτικώτερα καὶ ξηραντικώτερα. τούτων δ’ ἔτι τὰ λέμματα, καλεῖται δὲ σίδια.",
+   "english": "The seeds are more astringent and more drying than the juice, and the rinds, which are called sidia, are still more so than the seeds."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.17.9"
+   ],
+   "unit_id": "Simp.8.17.9",
+   "bead": 1,
+   "greek": "Περὶ ῥοός.] Ῥοῦς τὸ θαμνῶδες Φυτὸν στύφει καὶ ξηραίνει, ὥσπερ καὶ οἱ βυρσοδέψαι πρὸς τὸ ξηρᾶναι καὶ στῦψαι τὰ δέρματα χρῶνται τῷ φυτῷ, καὶ διὰ τοῦτο ὀνομάζεται βυρσοδεψικὴ τοῖς ἰατροῖς.",
+   "english": "On rhus.] Rhus, the shrubby plant, is astringent and drying, just as tanners also use the plant to dry and astringe hides; and for this reason the physicians call it 'tanners' rhus' (byrsodepsikē)."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.36"
+   ],
+   "unit_id": "Simp.8.17.10",
+   "bead": 6,
+   "greek": "ὁ δ’ ἀπὸ τῶν ἀνδριάντων οὔτε τὴν κόνιν ἔχων καὶ τοῦ χαλκοῦ τινα προσειληφὼς ἰὸν εἰκότως δριμύτερός ἐστιν.",
+   "english": "The rhypos from the statues, since it has no dust and has also taken up some verdigris (ios) from the bronze, is reasonably more pungent."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.12.17"
+   ],
+   "unit_id": "Simp.8.18.4",
+   "bead": 1,
+   "greek": "Περὶ σαρκοκόλλης.] Σαρκοκόλλα δάκρυόν ἐστι δένδρου περσικοῦ, μικτὴν ἔχουσα δύναμιν ἐξ ἐμπλαστικῆς τέ τινος οὐσίας καὶ βραχείας πικρᾶς, ὅθεν ἀδήκτως ξηραίνει καὶ διὰ τοῦτο τραύματα δύναται κολλᾷν.",
+   "english": "On sarcocolla.] Sarcocolla is the tear of a Persian tree. It has a mixed power, made up of a certain clogging substance and a slight bitter one; hence it dries without biting, and for this reason it is able to glue wounds together."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.19.13"
+   ],
+   "unit_id": "Simp.8.18.5",
+   "bead": 1,
+   "greek": "Περὶ σατυρίου.] Σατύριον ἢ τρίφυλλον ὑγρόν ἐστι καὶ θερμὸν τὴν κρᾶσιν, διὸ καὶ γευόμενον φαίνεται γλυκύ.",
+   "english": "On satyrion.] Satyrion, or trifolium, is moist and hot in its mixture, and this is why it also appears sweet when tasted."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.17.9"
+   ],
+   "unit_id": "Simp.8.18.13",
+   "bead": 3,
+   "greek": "διὸ καὶ πρὸς αἱμοῤῥαγίας τε καὶ δυσεντερίας καὶ τοὺς γυναικείους ἁρμόττει ῥοῦς.",
+   "english": "For this reason it is suited also to haemorrhages, dysentery and female fluxes."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.18.18"
+   ],
+   "unit_id": "Simp.8.18.18",
+   "bead": 1,
+   "greek": "Περὶ σίου.] Σίον, εἰς ὅσον ἀρωματίζει πως κατὰ τὴν γεῦσιν, εἰς τοσοῦτον καὶ θερμαινούσης πως μετείληφε δυνάμεως.",
+   "english": "On sion.] Sion, to the extent that it is somewhat aromatic in taste, to that same extent it also partakes of a somewhat heating power."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "cardamom"
+   ],
+   "unit_id": "Simp.8.18.21",
+   "bead": 1,
+   "greek": "Περὶ σισυμβρίου.] Σισύμβριον, ὅπερ ἔνιοι καρδαμίνην ὀνομάζουσιν, ἐπειδὴ καρδαμώμου τι παραπλήσιον ἔχει κατὰ τὴν γεῦσιν, ὅταν μὲν ξηρὸν ᾖ, τῆς τρίτης ἐστὶ τάξεως τῶν ξηραινόντων τε ἅμα καὶ θερμαινόντων, ὅταν δ’ ὑγρόν τε καὶ χλωρὸν, τῆς δευτέρας.",
+   "english": "On sisymbrion.] Sisymbrion, which some call kardaminē, since it has something resembling kardamōmon in taste, when it is dry, belongs to the third order of things that both dry and at the same time heat; but when it is moist and green, to the second."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "garlic"
+   ],
+   "unit_id": "Simp.8.18.27",
+   "bead": 1,
+   "greek": "Περὶ σκορδοπράσου.] Σκορδόπρασον ὥσπερ ἐν τῇ γεύσει τε καὶ τῇ ὀσμῇ μικτὴν σκόρδου τε καὶ πράσου κέκτηται ποιότητα, κατὰ τὸν αὐτὸν τρόπον κᾀν τῇ δυνάμει.",
+   "english": "On skordoprason.] Skordoprason, just as in taste and in smell it possesses a quality mixed of garlic and leek, so in the same manner it does also in its power."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.32"
+   ],
+   "unit_id": "Simp.8.18.34-8.18.35",
+   "bead": 3,
+   "greek": "Περὶ σπάρτης.] Σπάρτη, ᾧ τὰς ἀμπέλους παρ’ ἡμῖν δεσμοῦσιν, ὅ τε καρπὸς καὶ ὁ τῶν ῥάβδων χυλὸς ἑλκτικῆς οὐκ ἀγεννῶς ἐστι δυνάμεως.",
+   "english": "On spartē.] Spartē, with which the vines are bound in our country: both its fruit and the juice of its rods are of a drawing power, and not feebly so."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "hypocistis"
+   ],
+   "unit_id": "Simp.8.18.48",
+   "bead": 6,
+   "greek": "καὶ μὲν δὴ καὶ πρὸς τὰς τοῦ αἵματος πτύσεις καὶ τὰς ἐκ μήτρας αἱμοῤῥαγίας καὶ προπτώσεις ἕδρας τε καὶ ὑστέρας ἐπιτήδειός ἐστιν ἐγγύς τι τῆς ὑποκυστίδος ὑπάρχων.",
+   "english": "And indeed it is also suitable for spittings of blood, haemorrhages from the uterus, and prolapses of the seat and of the womb, being somewhat close to hypocistis."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:7.10.39"
+   ],
+   "unit_id": "Simp.8.19.4",
+   "bead": 8,
+   "greek": "καίτοι γε ἡ συκίνη πάσης ἀπήλλακται τοιαύτης ποιότητος, ὅτι καὶ αὐτὸ τὸ δένδρον οὐχ ὥσπερ δρῦς καὶ πρῖνος καὶ κόμαρος καὶ φηγὸς καὶ σχῖνος καὶ κισσὸς, ὅσα τ’ ἄλλα τοιαῦτα, τὴν στρυφνὴν ἐπιφαίνει ποιότητα κατ’ οὐδὲν ἑαυτοῦ μέρος, ἀλλ’ ἔστιν ὀποῦ πλῆρες ὅλον ἰσχυροῦ καὶ θερμοῦ καὶ δριμέος.",
+   "english": "Yet the ash of fig-wood is free of every such quality, because the tree itself, unlike oak, holm-oak, arbutus, phēgos-oak, mastic and ivy, and all the others of this kind, does not display the acerbic quality in any part of itself, but is wholly full of a strong, hot and pungent juice."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.19.13"
+   ],
+   "unit_id": "Simp.8.19.12-8.19.13",
+   "bead": 4,
+   "greek": "Περὶ τριφύλλου.] Τρίφυλλον, οἱ δὲ ἀσφάλτιον, οἱ δ’ ὀξύφυλλον, ἔνιοι δὲ μινυανθὲς, εἰσὶ δ’ οἳ κνίκιον ὀνομάζουσιν· ἀπὸ μὲν τῶν συμβεβηκότων τῷ θάμνῳ τὰ πρῶτα τρία, τὰ δὲ ὑπόλοιπα δύο οὐκ οἶδ’ ὁπόθεν.",
+   "english": "On trifolium.] Trifolium, which others call asphaltion, others oxyphyllon, some people minyanthes, and there are those who name it knikion. The first three names come from the attributes of the shrub; where the remaining two come from I do not know."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.20.3"
+   ],
+   "unit_id": "Simp.8.20.2-8.20.3",
+   "bead": 3,
+   "greek": "Περὶ ὑδροπεπέρεως.] Ὑδροπέπερι κέκληται μὲν ἀπὸ τῶν χωρίων ἐν οἷς φύεται καὶ τῆς κατὰ τὴν γεῦσιν ὁμοιότητος πρὸς τὸ πέπερι.",
+   "english": "On water-pepper.] Water-pepper is so called from the places in which it grows and from its similarity in taste to pepper."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.20.6"
+   ],
+   "unit_id": "Simp.8.20.6-8.20.7",
+   "bead": 1,
+   "greek": "Περὶ ὑπηκόου.] Ὑπήκοον ψυκτικῆς ἐστι δυνάμεώς, ἐκ τῆς τρίτης που τάξεως τῶν ψυχόντων, ὡς μήκωνος ὀλίγον ἀποδεῖν.",
+   "english": "On hypecoum.] Hypecoum is of a cooling power, somewhere in the third order of cooling things, so that it falls a little short of poppy."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:8.21.4"
+   ],
+   "unit_id": "Simp.8.21.4",
+   "bead": 1,
+   "greek": "Περὶ φαλαγγίτου.] Φαλαγγίτης.",
+   "english": "On phalangitēs.] Phalangitēs."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "mouth"
+   ],
+   "unit_id": "Simp.8.21.5",
+   "bead": 7,
+   "greek": "διακλύζονται δ’ αὐτὴν ἔνιοι καὶ πρὸς ὀδόντων ἀλγήματα.",
+   "english": "Some also rinse the mouth with it for pains of the teeth."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "fir"
+   ],
+   "unit_id": "Simp.8.21.6",
+   "bead": 6,
+   "greek": "ὃ δὲ καλοῦσιν ἐλάτην, τὸ ἁπαλὸν ἐκβλάστημα τοῦ φοίνικος, τὴν αὐτὴν τῷ κατ’ αὐτὴν ἐγκεφάλῳ δύναμιν ἔχει.",
+   "english": "What they call elatē, the tender shoot of the palm, has the same power as the brain within it."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "head"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 10,
+   "greek": "στύφει μὲν γὰρ ἀκακία καὶ βαλαύστιον, ὑπόκυστίς τε καὶ κύτινοι καὶ κηκὶς καὶ ῥῆον καὶ ῥοῦς, ὀμφάκιόν τε καὶ μέσπιλα, καὶ κρανία καὶ ῥοιᾶς λέμματα καὶ μύρτα.",
+   "english": "For acacia and balaustion are astringent, as are hypocistis and kytinoi and oak-gall and rhēon and sumach, omphakion and medlars, and cornels and pomegranate rinds and myrtle-berries."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "hypocistis"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 10,
+   "greek": "στύφει μὲν γὰρ ἀκακία καὶ βαλαύστιον, ὑπόκυστίς τε καὶ κύτινοι καὶ κηκὶς καὶ ῥῆον καὶ ῥοῦς, ὀμφάκιόν τε καὶ μέσπιλα, καὶ κρανία καὶ ῥοιᾶς λέμματα καὶ μύρτα.",
+   "english": "For acacia and balaustion are astringent, as are hypocistis and kytinoi and oak-gall and rhēon and sumach, omphakion and medlars, and cornels and pomegranate rinds and myrtle-berries."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "ginger"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 11,
+   "greek": "δριμέα δ’ ἐστὶν εὐφόρβιον καὶ σκόροδα καὶ κρόμμυα καὶ πράσα καὶ νᾶπυ καὶ πέπερι καὶ γιγγίβερι καὶ σμύρνιον, ὀρίγανόν τε καὶ γλήχων, καὶ καλαμίνθη καὶ θύμος.",
+   "english": "Pungent are euphorbium and garlic and onions and leeks and mustard and pepper and ginger and smyrnion, oregano and pennyroyal, and calamint and thyme."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "garlic"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 17,
+   "greek": "τὰ στύφοντα δ’ ἀποκρουόμενα τὸ περιεχόμενον ἐν αὐτοῖς τῷ ψύχειν τε καὶ συνάγειν καὶ πιλεῖν πέφυκεν.",
+   "english": "How, then, some say that pepper and garlic and all the pungents are astringent, it is not even possible to conceive."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "pepper"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 17,
+   "greek": "τὰ στύφοντα δ’ ἀποκρουόμενα τὸ περιεχόμενον ἐν αὐτοῖς τῷ ψύχειν τε καὶ συνάγειν καὶ πιλεῖν πέφυκεν.",
+   "english": "How, then, some say that pepper and garlic and all the pungents are astringent, it is not even possible to conceive."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "medlar"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 18,
+   "greek": "ἡ δύναμίς τε οὖν ἐναντιωτάτη τοῖς στύφουσίν ἐστι πρὸς τὰ δριμέα, καὶ ἡ κατὰ τὴν γεῦσιν ποιότης οὐδὲν ὅμοιον ἔχουσα.",
+   "english": "Suppose that, just as they call these astringent, they likewise called sumach and balaustion and omphakion and medlar and the other such things pungent, altering the usage of the Greeks in names."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "sumach"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 18,
+   "greek": "ἡ δύναμίς τε οὖν ἐναντιωτάτη τοῖς στύφουσίν ἐστι πρὸς τὰ δριμέα, καὶ ἡ κατὰ τὴν γεῦσιν ποιότης οὐδὲν ὅμοιον ἔχουσα.",
+   "english": "Suppose that, just as they call these astringent, they likewise called sumach and balaustion and omphakion and medlar and the other such things pungent, altering the usage of the Greeks in names."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "pepper"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 19,
+   "greek": "πῶς οὖν ἔνιοι καὶ τὸ πέπερι καὶ τὰ σκόροδα καὶ πάντα τὰ δριμέα στύφειν λέγουσιν οὐδ’ ἐπινοῆσαι δυνατόν.",
+   "english": "In that case we would suppose them ignorant of the words of the Greeks together with what is signified by them, but not insensible in their gustatory or olfactory faculty."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "garlic"
+   ],
+   "unit_id": "Simp.8.24.2",
+   "bead": 19,
+   "greek": "πῶς οὖν ἔνιοι καὶ τὸ πέπερι καὶ τὰ σκόροδα καὶ πάντα τὰ δριμέα στύφειν λέγουσιν οὐδ’ ἐπινοῆσαι δυνατόν.",
+   "english": "In that case we would suppose them ignorant of the words of the Greeks together with what is signified by them, but not insensible in their gustatory or olfactory faculty."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.32"
+   ],
+   "unit_id": "Simp.9.1.1",
+   "bead": 4,
+   "greek": "ὅταν τε γὰρ σπείρουσιν πυροὺς ἢ κριθὰς ἤ τι τῶν ἄλλων σπερμάτων, ἃ δημήτρια καλεῖται, μετρίως ὑγρὰν εἶναι χρῆναί φασι τὴν γῆν. ὅταν τε φυτεύουσιν ἀμπέλους ἢ συκὰς ἢ ἐλαίας ἤ τι τῶν ἄλλων δένδρων, φυλάττεσθαι κελεύουσι τήν τ’ ἄνικμον ἐσχάτως καὶ ξηρὰν τήν θ’ ὑγρὰν καὶ πηλώδη.",
+   "english": "For when they sow wheat or barley or any other of the seeds that are called 'Demetrian', they say that the earth must be moderately moist; and when they plant vines or fig trees or olives or any other trees, they bid one guard against earth that is extremely without moisture and dry, and against earth that is moist and muddy."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "pine cones"
+   ],
+   "unit_id": "Simp.9.1.1",
+   "bead": 17,
+   "greek": "τούτων δὲ προσιόντων καὶ τὰ ξύλα πάντα καὶ καρπῶν μόρια πολλὰ, καθάπερ καὶ ζώων, ὀνομασθήσεται γεώδη τὴν οὐσίαν εἶναι. καρπῶν μὲν μόρια, πυρῆνες ἐλαιῶν καὶ γίγαρτα σταφυλῶν καὶ καρύων λέμματα καὶ κώνων, ἕτερά τε πολλὰ τοιαῦτα, τῶν ζώων δὲ τά τ’ ὀστέα καὶ τὰ κέρατα καὶ οἱ ὀδόντες.",
+   "english": "When these are added, all woods too, and many parts of fruits, as also of animals, will be said to be earthy in substance: parts of fruits, olive stones, grape pips, and the husks of nuts and of pine cones, and many others of this kind; of animals, the bones, the horns and the teeth."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "birdlime"
+   ],
+   "unit_id": "Simp.9.1.4",
+   "bead": 18,
+   "greek": "ἐμπλαστικωτέραν γὰρ ἐργάζεται τὴν οὐσίαν τὸ κολλῶδες, ὡς μὴ ῥύπτειν, ὅταν γε δηλονότι μηδεμία δριμύτης ἄλλη προσῇ τῷ γλίσχρῳ τε καὶ κολλώδει σώματι, καθάπερ ἐν τοῖς ἰξοῖς ἐστιν.",
+   "english": "For the glutinous makes the substance more clogging, so that it does not cleanse, provided, of course, that no other pungency is present in the viscid and glutinous body, as there is in birdlimes (ixoi)."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "lead"
+   ],
+   "unit_id": "Simp.9.1.4",
+   "bead": 35,
+   "greek": "ὡσαύτως δ’ ἐπὶ τῆς κούφης καὶ βαρείας σκοπεῖσθαι.",
+   "english": "It is proper to earth not to melt when it comes near fire, as lead and tin, silver and gold do."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "tin"
+   ],
+   "unit_id": "Simp.9.1.4",
+   "bead": 35,
+   "greek": "ὡσαύτως δ’ ἐπὶ τῆς κούφης καὶ βαρείας σκοπεῖσθαι.",
+   "english": "It is proper to earth not to melt when it comes near fire, as lead and tin, silver and gold do."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.6"
+   ],
+   "unit_id": "Simp.9.2.8",
+   "bead": 1,
+   "greek": "Περὶ ἀγηράτου.] Ἔστι δὲ καὶ ὁ ἀγήρατος καλούμενος λίθος, ᾧ τοὺς σκυτοτόμους ὁρῶμεν χρωμένους, μικτῆς δ’ ἐστὶ δυνάμεως στυπτικῆς τε καὶ διαφορητικῆς, ἀλλὰ περὶ μόνης τῆς στυπτικῆς σκεπτέον.",
+   "english": "On agēratos.] There is also the stone called agēratos, which we see shoemakers using. It is of a mixed power, astringent and dispersing, but we must consider only the astringent one."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.2.8"
+   ],
+   "unit_id": "Simp.9.2.8",
+   "bead": 1,
+   "greek": "Περὶ ἀγηράτου.] Ἔστι δὲ καὶ ὁ ἀγήρατος καλούμενος λίθος, ᾧ τοὺς σκυτοτόμους ὁρῶμεν χρωμένους, μικτῆς δ’ ἐστὶ δυνάμεως στυπτικῆς τε καὶ διαφορητικῆς, ἀλλὰ περὶ μόνης τῆς στυπτικῆς σκεπτέον.",
+   "english": "On agēratos.] There is also the stone called agēratos, which we see shoemakers using. It is of a mixed power, astringent and dispersing, but we must consider only the astringent one."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "anus"
+   ],
+   "unit_id": "Simp.9.2.19",
+   "bead": 2,
+   "greek": "ἐντιθέασί τε καὶ δακτυλίῳ αὐτὸν ἔνιοι καὶ γλύφουσιν ἐν αὐτῷ τὸν τὰς ἀκτῖνας ἔχοντα δράκοντα, καθάπερ καὶ ὁ βασιλεὺς Νεχεψὼς ἔγραψεν ἐν τῇ τεσσαρακαιδεκάτῃ βίβλῳ.",
+   "english": "Some also set it in a ring and engrave on it the serpent that has the rays, just as King Nechepsos also wrote in his fourteenth book."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "white lead"
+   ],
+   "unit_id": "Simp.9.3.1",
+   "bead": 3,
+   "greek": "καὶ τρίτα γε πρὸς αὐτοῖς ἐστιν ὅσα πάλιν ἐκ τούτων αὐτῶν οἱ ἄνθρωποι συσκευάζουσιν καθ’ ὁντιναοῦν τρόπον, οἷον ψιμμύθιον, ψωρικὸν, σάνδικα, φύκον.",
+   "english": "And third, in addition to these, are all those that people in turn prepare from these very things in whatever manner, such as white lead (psimmythion), psorikon, sandyx and phykos."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "bulb"
+   ],
+   "unit_id": "Simp.9.3.10",
+   "bead": 2,
+   "greek": "εἴρηται δ’ ἐν τοῖς ἔμπροσθεν ὡς ἔνιοι πολλὰ τῶν τοιούτων φαρμάκων ἐπουλωτικὰ καλοῦσιν, ἐπειδὴ λειώσαντες αὐτὸν καὶ χνοώδη ποιήσαντες, ἅπτονται τῶν ὑπερσαρκούντων ἑλκῶν διὰ μήλης πυρῆνος.",
+   "english": "It was said in what went before that some people call many drugs of this kind scarring, because, having ground it fine and made it downy, they touch ulcers with overgrown flesh with the bulb of a probe."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "cadmia"
+   ],
+   "unit_id": "Simp.9.3.11",
+   "bead": 10,
+   "greek": "πρὸς δὲ τῇ ξηραντικῇ καὶ τὴν ῥυπτικὴν μετρίως ἔχει.",
+   "english": "Besides the drying power, cadmia also has a moderately cleansing one."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "swallow"
+   ],
+   "unit_id": "Simp.9.3.18",
+   "bead": 3,
+   "greek": "ἀφρόνιτρον δ’ εἰ μὴ μεγάλης ἀνάγκης οὔσης οὐδὲ καταπίνει τις ὡς ἂν κακοστόμαχον ὂν, ἐπεί τοι μᾶλλόν ἐστι νίτρου τμητικόν.",
+   "english": "Aphronitron, on the other hand, no one even swallows unless there is great necessity, since it is bad for the stomach; for it is indeed more cutting than nitron."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "mushroom"
+   ],
+   "unit_id": "Simp.9.3.18",
+   "bead": 4,
+   "greek": "ἐπὶ γοῦν μυκήτων πνιγόντων ἐχρῆτό τις ἀγροῖκος αὐτῷ καὶ διὰ παντὸς εὐδοκίμει.",
+   "english": "At any rate, in cases of choking mushrooms a certain countryman used it and was successful every time."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "purslane"
+   ],
+   "unit_id": "Simp.9.3.23",
+   "bead": 14,
+   "greek": "πολύχρηστον δ’ ἔσται σοι τὸ φάρμακον, εἰ καὶ τῶν ψυκτικῶν χυλῶν ἐμβαλὼν τρίβοις, οἷον ἀειζώου, κοτυληδόνος καὶ σέρεως καὶ θριδακίνης καὶ χονδρίλης καὶ ψυλλίου καὶ ὄμφακος καὶ ἀνδράχνης.",
+   "english": "The drug will be of many uses to you if you also grind it with some of the cooling juices thrown in, such as of houseleek, navelwort, chicory, lettuce, chondrilla, psyllium, unripe grape and purslane."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "purslane"
+   ],
+   "unit_id": "Simp.9.3.23",
+   "bead": 15,
+   "greek": "ὅσα δὲ τούτων οὐ μεθίησι ῥᾳδίως χυλὸν, ὥσπερ καὶ ἡ ἀνδράχνη, μιγνύειν αὐτοῖς τινα τῶν ἄλλων ὑγρῶν, οἷος καὶ ὁ τῆς ὄμφακός ἐστιν, ὃς καὶ αὐτὸς καθ’ ἑαυτὸν ἐμβαλλόμενος τῇ προειρημένῃ θυίᾳ, κάλλιστον ἐμψυκτικὸν ἐργάζεται φάρμακον.",
+   "english": "Those of these that do not readily give off juice, as purslane, mix with some of the other liquids, such as that of the unripe grape, which, put by itself alone into the aforementioned mortar, also produces a most excellent refrigerant drug."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "scale"
+   ],
+   "unit_id": "Simp.9.3.23",
+   "bead": 17,
+   "greek": "καί που λεπὶς ἐκ μολύβδου λεπτὴ γενομένη καλῶς ἐπιδεθεῖσα κατὰ γαγγλίου τελέως ἠφάνισιν αὐτό.",
+   "english": "And on one occasion a thin sheet made of lead, properly bound on over a ganglion, made it disappear completely."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "alum"
+   ],
+   "unit_id": "Simp.9.3.30",
+   "bead": 5,
+   "greek": "παχυμερὴς δ’ ἱκανῶς ἥ θ’ ὑγρὰ καὶ ἡ πλακῖτίς τε καὶ ἡ πλινθῖτις ὀνομαζομένη.",
+   "english": "The liquid alum, and those named plate alum and brick alum, are quite coarse-particled."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "white lead"
+   ],
+   "unit_id": "Simp.9.3.33-9.3.34",
+   "bead": 1,
+   "greek": "Περὶ φύκους.] Φῦκος ὁποίας ἐστὶ δυνάμεως ἐν τῷ περὶ ψιμμυθίου λόγῳ ῥηθήσεται.",
+   "english": "On phykos.] What power phykos has will be stated in the discussion of white lead."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "verdigris"
+   ],
+   "unit_id": "Simp.9.3.38",
+   "bead": 3,
+   "greek": "ἔνιοι μὲν οὖν τὸ μεταλλευόμενον μόνον οὕτως ὀνομάζουσιν, ἔνιοι δὲ τὸ σκευαζόμενον ἐν θυίᾳ χαλκῇ καὶ δοίδυκι χαλκῷ δι’ οὔρου παιδὸς, ὅπερ ἔνιοι κατὰ τὰς διαφορὰς τῶν ἰῶν ἀριθμοῦσιν.",
+   "english": "Now some people give this name only to the mined kind, while others give it to the kind prepared in a copper mortar with a copper pestle by means of a boy's urine, which some count among the varieties of verdigris."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "white lead"
+   ],
+   "unit_id": "Simp.9.3.39",
+   "bead": 1,
+   "greek": "Περὶ ψιμμυθίου.] Ψιμμύθιον.",
+   "english": "On white lead.] White lead (psimmythion)."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "white lead"
+   ],
+   "unit_id": "Simp.9.3.39",
+   "bead": 5,
+   "greek": "καιόμενον δὲ τὸ ψιμμύθιον εἰς τὴν καλουμένην σάνδικα μεταβαλὸν λεπτομερέστερόν γε αὐτοῦ φάρμακον, οὐ μὴν ἤδη γέ πω θερμαῖνον.",
+   "english": "White lead, when burnt, changing into what is called sandyx, becomes a drug more fine-particled than itself, but not yet, at any rate, heating."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "white lead"
+   ],
+   "unit_id": "Simp.9.3.39",
+   "bead": 6,
+   "greek": "τὸ δέ γε φῦκος, τὴν ψύξιν τοῦ ψιμμυθίου φυλάττον, λεπτομέρειαν προσείληφε, ὡς δύνασθαι δι’ αὐτὴν εἰς τὸ βάθος καταδύεσθαι τῶν ὁμιλούντων σωμάτων τὴν δύναμιν αὐτοῦ.",
+   "english": "Phykos, however, preserving the cooling quality of white lead, has taken on fineness of particles, so that through it its power is able to sink down into the depth of the bodies with which it comes into contact."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "wax"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.9.3.40",
+   "bead": 23,
+   "greek": "καὶ μεῖζόν γε ὄνειδός ἐστιν ἀνθρώπῳ σωφρονοῦντι κοπροφάγον ἀκούειν ἢ αἰσχρουργὸν ἢ κίναιδον, ἀλλὰ καὶ τῶν αἰσχρουργῶν μᾶλλον βδελυττόμεθα τοὺς φοινικίζοντας τῶν λεσβιαζόντων, ᾧ φαίνεταί μοι παραπλήσιόν τι πάσχειν ὁ καὶ καταμηνίου πίνων.",
+   "english": "Xenocrates wrote what it can do when smeared on the parts in the mouth and pharynx and when swallowed into the stomach. He has also written about ear-wax when swallowed."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "swallow"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.9.3.40",
+   "bead": 24,
+   "greek": "οὔτ’ οὖν τούτων ὑπομείναι τις ἂν εἰς πεῖραν ἐλθεῖν ἄνθρωπος κατὰ φύσιν ἔχων οὔθ’ ὅσα μετριώτερα μὲν τούτων, ἔτι δ’ ἀσελγῆ, κόπρῳ καταχρίεσθαί τι τοῦ σώματος μέρος, ἕνεκα τοῦ κατ’ αὐτὸ πάθους, ἢ ἀνθρώπου σπέρματος.",
+   "english": "I, for my part, would not have consented to swallow even this, even on condition of never falling ill. And I consider dung far more disgusting than it."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.3.6"
+   ],
+   "unit_id": "Simp.10.2.3",
+   "bead": 14,
+   "greek": "κατὰ δὲ τὸν αὐτὸν τρόπον οὐδὲ γλαυκὸς αἵματος δεηθησόμεθα πρὸς τοὺς δυσπνοοῦντας.",
+   "english": "In the same way we shall not need the blood of an owl for those suffering from dyspnoea either."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.2"
+   ],
+   "unit_id": "Simp.10.2.7",
+   "bead": 9,
+   "greek": "τῷ δὲ λοιπῷ παντὶ παχεῖ ὄντι καὶ λιπαρῷ περιπλάττεται καθ’ ὅνπερ τρόπον καὶ ἡ πιμελὴ καὶ τὸ στέαρ, ὠοῦ τε τὸ λευκὸν ἥ τ’ ἐκ τοῦ πεπλυσμένου κηροῦ καὶ ἐλαίου κηρωτή· καὶ γὰρ καὶ ﻿ ταῦτα τὰς ἀπὸ τῶν δριμέων ἰχώρων πραΰνει δήξεις, ἐκ τοῦ περιπλάττεσθαι τοῖς σώμασιν ἄδηκτον ἔχοντα φύσιν.",
+   "english": "With all the rest of it, which is thick and oily, it is plastered around them in the same manner as lard and suet, the white of egg, and the cerate made from washed wax and oil; for these too soothe the bitings from pungent ichors, through being plastered around the bodies, since they have a non-biting nature."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "whey"
+   ],
+   "unit_id": "Simp.10.2.8",
+   "bead": 3,
+   "greek": "ὅσα τε διαφορητικὰ φάρμακα τῶν ἐκχυμωμάτων τε καὶ μελασμάτων ἐστὶν καὶ ταῦτα δι’ ὀῤῥοῦ περιπλύνειν ἄμεινον, οὐ δι’ ὕδατος.",
+   "english": "And all the drugs that are dispersing of ecchymoses and melasmata are also better washed off with whey, not with water."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.1.32"
+   ],
+   "unit_id": "Simp.10.2.9",
+   "bead": 15,
+   "greek": "δύναιτο δ’ ἂν, εἰ μὴ παρείη ταῦτα, καὶ ἀμπέλου καὶ πλατάνου καὶ τεύτλου καὶ θριδακίνης ἐπιβάλλεσθαι.",
+   "english": "If these are not to hand, leaves of vine, plane tree, beet and lettuce could also be laid on."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:10.2.10"
+   ],
+   "unit_id": "Simp.10.2.10",
+   "bead": 4,
+   "greek": "ἐγὼ γὰρ ἐκ τοῦ βοείου τὸ φάρμακον τοῦτο γιγνόμενον οἶδα, καὶ διὰ τοῦτο νομίζω καὶ βούτυρον καλεῖσθαι, πεπτικῆς τ’ ἐστὶ δυνάμεως, ἔχον ὀλίγον τι τῆς διαφορητικῆς, ἐπί τε τῶν μέσων κατά τε τὴν μαλακότητα καὶ σκληρότητα σώματος.",
+   "english": "For I know this drug as produced from cow's milk, and for this reason I think it is also called boutyron. It is of a concocting power, having a little of the dispersing power, in bodies intermediate in softness and hardness."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "milk"
+   ],
+   "unit_id": "Simp.10.2.10",
+   "bead": 4,
+   "greek": "ἐγὼ γὰρ ἐκ τοῦ βοείου τὸ φάρμακον τοῦτο γιγνόμενον οἶδα, καὶ διὰ τοῦτο νομίζω καὶ βούτυρον καλεῖσθαι, πεπτικῆς τ’ ἐστὶ δυνάμεως, ἔχον ὀλίγον τι τῆς διαφορητικῆς, ἐπί τε τῶν μέσων κατά τε τὴν μαλακότητα καὶ σκληρότητα σώματος.",
+   "english": "For I know this drug as produced from cow's milk, and for this reason I think it is also called boutyron. It is of a concocting power, having a little of the dispersing power, in bodies intermediate in softness and hardness."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "rennet"
+   ],
+   "unit_id": "Simp.10.2.11",
+   "bead": 1,
+   "greek": "Περὶ πιτύας.] Πιτύα πᾶσα δριμείας ἐστὶ καὶ διαφορητικῆς δυνάμεως καὶ δηλονότι ξηραντικῆς· ἕπεται γὰρ τοῖς εἰρημένοις ἐξ ἀνάγκης τοῦτο.",
+   "english": "On rennet.] All rennet is of a pungent and dispersing power, and evidently also of a drying one, for this follows of necessity from what has been said."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "rennet"
+   ],
+   "scope": "passage",
+   "unit_id": "Simp.10.2.11",
+   "bead": 3,
+   "greek": "ἀμείνω δ’ ἁπάντων αὐτῶν ἐστιν ἡ λαγώα.",
+   "english": "We too have tested this, not with hare's rennet alone but also with the rennet of the other animals; better than all of them, however, is that of the hare."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "rennet"
+   ],
+   "unit_id": "Simp.10.2.11",
+   "bead": 4,
+   "greek": "διαλύει δὲ καὶ τὸ θρομβούμενον αἷμα κατὰ κοιλίαν ὁμοίως ποθεῖσα, μᾶλλον μὲν ἴσως τῶν ἄλλων ἡ λαγώα, οὐ μὴν μόνη γε, ὥς τινες ἔγραψαν, ἀλλὰ καὶ τοῦτο κοινὸν ἁπάσης ἐστὶ πιτύας, ἔνιοι δὲ τὰς ἐκ θώρακος πτύσεις αἵματος ἐπέχειν φασὶν πινομένην πιτύαν λαγώαν, ἀλλ’ οὔτ’ ἄλλον χρησάμενον εἶδον οὔτ’ αὐτὸς ἐτόλμησα χρήσασθαι δριμεῖ φαρμάκῳ πρὸς πάθος δεόμενον στύψεως.",
+   "english": "Drunk in the same way, it also dissolves blood clotting in the belly: the hare's perhaps more than the others, but certainly not alone, as some have written; rather, this too is common to all rennet. Some people say that hare's rennet, when drunk, checks spittings of blood from the chest; but I have neither seen anyone else use it, nor have I myself dared to use a pungent drug against an affection that requires astringency."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "rennet"
+   ],
+   "unit_id": "Simp.10.2.11",
+   "bead": 5,
+   "greek": "ἱππείαν δὲ πιτύαν ἐπί τε δυσεντερικῶν καὶ κοιλιακῶν ἔγραψαν ἰδίως ἁρμόττειν.",
+   "english": "Horse rennet, they have written, is especially suited to dysenterics and coeliacs."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "rennet"
+   ],
+   "unit_id": "Simp.10.2.12",
+   "bead": 1,
+   "greek": "Περὶ πιτύας τῆς φώκης.] Τὴν δὲ τῆς φώκης ἁρμόττειν ﻿ ἐξαιρέτως ἐπαινοῦσιν ὡς καστορίου δύναμιν ἔχουσαν.",
+   "english": "On the rennet of the seal.] That of the seal they praise as exceptionally suitable, as having the power of castoreum."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "rennet"
+   ],
+   "unit_id": "Simp.10.2.12",
+   "bead": 2,
+   "greek": "ὅσα δὲ διὰ τὴν ἰδιότητα τῆς ὅλης οὐσίας ἐνεργεῖν ἔγραψαν ἑκάστην τῶν πιτύων, οὐ νῦν λέγειν καιρός.",
+   "english": "But as for the effects which they have written that each of the rennets produces through the specific property of its whole substance, now is not the time to speak of them."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "womb"
+   ],
+   "unit_id": "Simp.10.2.15",
+   "bead": 13,
+   "greek": "ἀλλὰ καὶ τοῖς αἰδοίοις, ὅταν οὕτω πάσχῃ, τὸ οὖρον ἐνίασιν καὶ τοῖς πυοῤῥοοῦσιν ὠσί.",
+   "english": "They also inject urine into the private parts when these are so affected, and into ears that discharge pus."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "spittle"
+   ],
+   "unit_id": "Simp.10.2.16",
+   "bead": 3,
+   "greek": "ὡς γὰρ τὰ οὖρα καὶ αἱ χολαὶ καὶ ὁ ἱδρὼς, οὕτως καὶ τὸ πτύελον ἀσθενὲς μὲν ἐδηδοκότων ἐστὶν, ἰσχυρὸν δὲ καὶ δριμὺ τὸ τῶν ὑπερδιψάντων καὶ ὑπερπεινησάντων.",
+   "english": "For as with urine, the biles and sweat, so too spittle is weak in those who have eaten, but strong and pungent in those who have been excessively thirsty and excessively hungry."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "saliva"
+   ],
+   "unit_id": "Simp.10.2.16",
+   "bead": 5,
+   "greek": "τούτῳ τοιγαροῦν τῷ σιέλῳ καὶ αἱ τροφαὶ τῶν παίδων τοὺς λειχῆνας ἰῶνται, βρέχουσαι τὸν μικρὸν δάκτυλον, εἶτα ἀνατρίβουσαι τὸ πεπονθὸς δέρμα.",
+   "english": "Accordingly, it is with this saliva that children's nurses too cure leichenes: they wet the little finger and then rub the affected skin."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "saliva"
+   ],
+   "unit_id": "Simp.10.2.16",
+   "bead": 6,
+   "greek": "καὶ τοῦτο ποιοῦσι πολλάκις, ὡς διασώζεσθαι κατὰ τὸν μεταξὺ τῶν χρήσεων χρόνον ἐν τῷ λειχῆνι τὴν ἀπὸ τοῦ σιέλου δύναμιν.",
+   "english": "They do this often, so that the power derived from the saliva is preserved in the leichen during the time between applications."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "spittle"
+   ],
+   "unit_id": "Simp.10.2.16",
+   "bead": 12,
+   "greek": "καθ’ ὅλην δὲ τὴν οὐσίαν τὸ πτύελον ἐναντιώτατόν ἐστι τοῖς ἀναιροῦσιν ἀνθρώπους θηρίοις, ὥς που καὶ Νίκανδρος ὁ ποιητὴς λέγει.",
+   "english": "By its whole substance spittle is most contrary to the beasts that kill human beings, as Nicander the poet also says somewhere."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "skin"
+   ],
+   "unit_id": "Simp.10.2.21",
+   "bead": 13,
+   "greek": "εἰ δὲ μὴ παρείη τὸ τοιοῦτον ἔριον, ἐκ δέρματος ἐλαφείου τὸν ἱμάντα τὸν περιελιττόμενον ταῖς λαγόσι καὶ αὐτὸ τὸ περιέξον τὴν κόπρον ἐκέλευσεν εἶναι.",
+   "english": "If such wool were not to hand, he directed that the strap wound round the flanks, and also the very thing that is to enclose the dung, be made of deerskin."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "mushroom"
+   ],
+   "unit_id": "Simp.10.2.26",
+   "bead": 1,
+   "greek": "Περὶ ἀλεκτορίδος κόπρου.] Τῇ δὲ τῶν ἀλεκτορίδων ἑωρακὼς τὸν ἐν τῇ Μυσίᾳ χρώμενον ἐπὶ τῶν ὑπὸ τῆς μυκήτων ἐδωδῆς πνιγομένων ἐχρησάμην καὶ αὐτὸς ἐπί τινων ἐν τῇ πόλει προσενηνεγμένων αὐτὴν, ἐπὶ πάντων λειουμένην κυάθοις τρισὶν ἢ τέτρασιν ὀξυκράτου τε καὶ ὀξυμέλιτος, καὶ προφανῶς ὠφέλησεν διὰ ταχέων.",
+   "english": "On hen's dung.] Having seen the man in Mysia using the dung of hens in the case of those choking from eating mushrooms, I myself also used it in the case of some people in the city, administering it in every case ground smooth in three or four cyathi of oxycrate and oxymel, and it plainly gave benefit, and quickly."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:6.3.6"
+   ],
+   "unit_id": "Simp.10.2.27",
+   "bead": 9,
+   "greek": "τινές γε μὴν τῶν γραψάντων οὐ δυσπνοίας ἁπλῶς, ἀλλ’ ὀρθοπνοίας λέγουσιν ἰάματα εἶναι τὰ τοιαῦτα, κόπρον πελαργοῦ καὶ γλαυκὸς αἷμα καὶ οὖρον ἀνθρώπου καὶ ἄλλα τούτων ἀτοπώτερα μὴ γινώσκοντες, ὅτι φλεγματώδης καὶ γλίσχρος χυμὸς ἐμφράττων τὰ βρογχία τοῦ πνεύμονος αἴτιος γίνεται τοῦ πάθους τούτου καὶ ὡς ἴασις ἐν τῷ κενῶσαι τοῦτό ἐστιν, καὶ ὡς ἡ κένωσις αὐτοῦ καὶ μετὰ βηχὸς ἀναπτυομένου γίγνεται, καὶ ὡς οὐκ ἐνδέχεται τοῦτο γίνεσθαι μὴ πολλάκις ποθέντος δριμυτέρου φαρμάκου.",
+   "english": "Some of those who have written go further and say that such things are remedies not simply for dyspnoeas but for orthopnoeas: stork dung, the blood of an owl, human urine, and other things more absurd than these. They do not know that a phlegmatic and viscous humour obstructing the bronchia of the lung is the cause of this affection; that the cure consists in evacuating it; that its evacuation takes place when it is brought up with coughing; and that this cannot happen unless a more pungent drug is drunk many times."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.29"
+   ],
+   "unit_id": "Simp.10.2.30",
+   "bead": 5,
+   "greek": "ὅ γε μὴν ἐπιτρεφόμενος τοῖς τῶν προβάτων ἐρίοις ῥύπος, ἐξ οὗ τὸν καλούμενον οἴσυπον ποιοῦσιν, πεπτικῆς ἐστι δυνάμεως παραπλησίως τῷ βουτύρῳ; βραχύ τι δὲ καὶ διαφορητικὸν ἔχει.",
+   "english": "The dirt that accumulates on the fleeces of sheep, however, from which they make what is called oesypum, is of a concocting power, similar to butter; and it also has a slight dispersing [power]."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.24"
+   ],
+   "unit_id": "Simp.10.2.30",
+   "bead": 10,
+   "greek": "ἔναιμον μὲν ἄνθρωπός τε καὶ τετράποδα πάντα καὶ ὄρνιθες, ὄφεις τε καὶ σαῦροι καὶ χελῶναι καὶ ἄλλα τοιαῦτα· χωρὶς δ’ αἵματος τά τ’ ὄστρεα πάντα καὶ τῶν ἐνύδρων οὐκ ὀλίγα, καθάπερ καὶ τῶν ἐν αὐτῇ τῇ γῇ.",
+   "english": "It has blood in man, in all quadrupeds and birds, in snakes, lizards, tortoises and other such animals. It is without blood in all the shellfish and in not a few of the aquatic animals, as also in those that live in the earth itself."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.1",
+   "bead": 10,
+   "greek": "ὅσον δ’ ὑπόλοιπον ἦν ἔτι μαλακὸν ἱκανῶς ἐφαίνετο καθάπερ τὸ τῶν καράβων τε καὶ καρκίνων, ὅταν ἀποπέσῃ τὸ πέριξ ὄστρακον.",
+   "english": "Another such case arose from a similar chance occurrence in Asian Mysia, not far from our city."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "spine"
+   ],
+   "unit_id": "Simp.11.1.1",
+   "bead": 36,
+   "greek": "συνεμβάλλομεν δ’ εὐθέως ἐξ ἀρχῆς ἀνήθου τῷ ὕδατι καὶ μετὰ τὴν ἕψησιν ἀπὸ τῶν σαρκῶν διακρίνομεν τὰς ἀκάνθας, εἶτα μίγνυμεν ἄρτῳ λελειωμένῳ τὴν σάρκα.",
+   "english": "We put dill into the water along with them right from the start. After the boiling we separate the spines from the fleshes, and then mix the flesh with ground bread."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.1",
+   "bead": 61,
+   "greek": "ἔγραψαν δὲ καὶ ἄλλων ζώων ἔνιοι σάρκας ὠφελεῖν ἐσθιομένας τε καὶ κατὰ πεπονθότων μερῶν ἐπιτιθεμένας, οἷον τὴν τοῦ χερσαίου ἐχίνου σκελετευθεῖσαν, εἰ ποθείη ἐλεφαντιῶσιν καὶ καχέκταις καὶ σπασμώδεσιν καὶ νεφριτικοῖς, ἔτι τε τοῖς τὸν ἀνασάρκα προσαγορευόμενον ὕδερον ἔχουσιν.",
+   "english": "Some have also written that the fleshes of other animals benefit when eaten and when applied to the affected parts. One example is the flesh of the land hedgehog, dried, if it is drunk by those with elephantiasis, cachectics, those subject to spasms and nephritics, and further by those who have the dropsy called anasarca."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.1",
+   "bead": 62,
+   "greek": "εἰ δὲ ταῦτα ποιεῖν πέφυκεν, εἴη ἂν ἡ δύναμις αὐτῆς ἰσχυρῶς διαφορητική τε καὶ ξηραντικὴ, ὥσπερ καὶ ἡ τῆς σκελετευθείσης γαλῆς, ἥπερ οὖν ὀνίνησι τοὺς ἐπιληπτικοὺς πινομένη.",
+   "english": "If it is of a nature to do these things, its power would be strongly dispersing and drying, as is that of the dried weasel, which indeed benefits epileptics when drunk."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.1",
+   "bead": 68,
+   "greek": "ἔνιοι δὲ καὶ πρὸς σκόλοπας χρῶνται, λειοῦντες ὅλους μετὰ τῶν ὀστράκων, εἰσὶ δ’ οἳ καὶ πρὸς καταμηνίων ἐπίσχεσιν.",
+   "english": "Some also use the snails for splinters, triturating them whole with their shells, and there are some who use them for checking the menses."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "flour"
+   ],
+   "unit_id": "Simp.11.1.1",
+   "bead": 70,
+   "greek": "ἦν δὲ σκληρὸς καὶ ἀγροῖκος ἄνθρωπος, ἔμιξά γε μὴν λειουμέναις αὐταῖς ἄχνην ἀλεύ ρου, λαβὼν ἀπὸ τοῦ πλησιάζοντος τῇ μύλῃ τοίχου.",
+   "english": "The man was tough and rustic; I mixed with the fleshes, as they were being triturated, fine flour-dust, taking it from the wall next to the mill."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "hypocistis"
+   ],
+   "unit_id": "Simp.11.1.2",
+   "bead": 37,
+   "greek": "εἰ δ’ ὄμφακα μὲν καὶ ῥοῦν καὶ κηκῖδα βαλαύστιόν τε καὶ ὑποκυστίδα, συνάγειν τε καὶ σφίγγειν ἡμῶν ὁμολογοῦσι τὴν οὐσίαν, διακρίνειν τε καὶ δάκνειν καὶ διεξέρχεσθαι τὸ πέπερι καὶ νᾶπυ καὶ πύρεθρον, ἀκύρως μὲν ὀνομάζουσι στύφοντα τὰ δάκνοντα καὶ θερμαίνοντα, τῆς γνώσεως μέντοι τῶν φαρμάκων αὐτῶν οὐχ ἡμαρτήκασιν.",
+   "english": "But if they agree that unripe grape, sumach, oak-gall, balaustion and hypocistis draw together and constrict our substance, while pepper, mustard and pyrethron separate, bite and pass through it, then they improperly name the biting and heating things astringent, but they have not erred in their knowledge of the drugs themselves."
+  },
+  {
+   "check": "body parts",
+   "kind": "intruder",
+   "values": [
+    "tongue"
+   ],
+   "unit_id": "Simp.11.1.2",
+   "bead": 38,
+   "greek": "εἰ δὲ δεῖ στοχασάμενον εἰπεῖν πότερον ἐν τοῖς ὀνόμασιν ἢ ἐν τοῖς πράγμασι σφάλλονται, φαίην ἂν ἔγωγε μᾶλλον ἐν τοῖς ὀνόμασιν ἐσφάλθαι τοὺς ἄνδρας, καὶ μάλιστα τοὺς ἀήθεις Ἑλλάδος φωνῆς, οἷός ἐστιν ὁ Ἀναζαρβεὺς Διοσκορίδης, πολλὰ μὲν καλῶς εἴρηκε τῶν περὶ τῆς ἰατρικῆς ὕλης ἱστορουμένων, ἀγνοῶν δὲ τὰ σημαινόμενα τῶν Ἑλληνικῶν ὀνομάτων.",
+   "english": "If one must say by conjecture whether they err in the names or in the things, I for my part would say that these men have erred rather in the names, and especially those unaccustomed to the Greek tongue, such as Dioscorides of Anazarbus, who has said many things well among the matters recorded concerning medical material, but is ignorant of the meanings of Greek words."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "hypocistis"
+   ],
+   "unit_id": "Simp.11.1.2",
+   "bead": 39,
+   "greek": "οὗτος οὖν, ὅταν λέγει στυπτικώτερον στέαρ εἶναι τὸ τῶν αἰγῶν τοῦ τῶν ὑῶν, εἰ μὲν οὖν τὸ δριμύτερον διὰ τοῦ στυπτικωτέρου βούλεται δηλῶσαι, ἐκδεξόμεθα τὸν λόγον ὡς ἀληθῆ· εἰ δὲ τὸ τοιαύτην ἔχον ποιότητά τε καὶ δύναμιν, οἷον ῥοῦς καὶ ῥῆον ὑπόκυστίς τε καὶ βαλαύστιον, οὐκ ἀληθῆ φήσομεν εἶναι τὸν λόγον.",
+   "english": "When this man, then, says that the suet of goats is more astringent than that of pigs, if by 'more astringent' he wishes to indicate 'more pungent', we shall accept the statement as true; but if he means what has the kind of quality and power that sumach and rhēon, hypocistis and balaustion have, we shall say that the statement is not true."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.9",
+   "bead": 2,
+   "greek": "ὁ δὲ τῆς ἀλώπεκος σκελετευθεὶς εἰ πίνοιτο, τοὺς ἀσθματικοὺς ὠφελεῖ.",
+   "english": "That of the fox, if it is dried and drunk, benefits the asthmatic."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.12-11.1.13",
+   "bead": 3,
+   "greek": "Περὶ κοιλίας αἰθυίας.] Κοιλίαν αἰθυίας ἐπαινοῦσί τινες ὡς πεπτικὸν φάρμακον, εἴ τις ἢ παραχρῆμα λαμβάνων ἑφθὴν ἢ σκελετεύων προσφέροιτο.",
+   "english": "On the stomach of the aithyia.] Some praise the stomach of the aithyia as a concoctive drug, if one takes it either boiled immediately or dried and then administers it."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.12-11.1.13",
+   "bead": 4,
+   "greek": "πειραθέντες δ’ ἡμεῖς αὐτοῦ ματαίαν εὕρομεν τὴν ὑπόσχεσιν, ὥσπερ καὶ τοῦ τῶν ἀλεκτορίδων ἔνδον χιτῶνος, ὃν καὶ αὐτὸν ἔνιοι σκελετεύοντες ὠφελεῖν φασιν, εἰ ποθείη τοὺς στομαχικούς.",
+   "english": "But we, having made trial of it, found the promise vain, just as also that of the inner coat of hens, which some people likewise dry and say benefits those with stomach complaints, if it is drunk."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.25",
+   "bead": 1,
+   "greek": "Περὶ κηρύκων καὶ πορφυρῶν.] Κηρύκων καὶ πορφυρῶν τὸ ὄστρακον, ἐπειδὴ σκληρότατόν ἐστιν, οὐδέποτ’ αὐτῷ χωρὶς καύσεως κέχρημαι.",
+   "english": "On trumpet-shells and purple-shells.] The shell of trumpet-shells (kērykes) and purple-shells (porphyrai), since it is extremely hard, I have never used without burning."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.26",
+   "bead": 1,
+   "greek": "Περὶ ὀστρέων.] Ὀστρέων τὸ ὄστρακον καυθὲν ὁμοίας ἐστὶ δυνάμεως τῷ τῶν κηρύκων ὀστράκῳ, καὶ μᾶλλον ἔτι λεπτομερεστέρας, ἀσφαλέστερον δ’ εἰπεῖν, ἧττον παχυμεροῦς.",
+   "english": "On oysters.] The shell of oysters, when burnt, is of a power similar to that of the shell of whelks, and still more fine-particled, or, to put it more safely, less coarse-particled."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.26",
+   "bead": 7,
+   "greek": "τῷ δ’ οὖν ὀστράκῳ τῶν ὀνομαζομένων ἰδίως ὀστρέων κεκαυμένῳ χρῶμαι πρὸς τὰς ἐκ ῥευμάτων χρονίας καὶ δυσσαρκώτους κοιλότητας, ὅσαι συραγγώδεις εἰσὶ καὶ βαθεῖαι, περιτεθεὶς ἔξωθεν αὐτὸ μετὰ παλαιοῦ στέατος ὑείου. καλεῖται δ’ ὑπὸ τῶν πολλῶν ἀξούγγιον τοῦτο.",
+   "english": "I use the burnt shell of those that are properly called oysters for the chronic cavities that arise from fluxes and are hard to fill with flesh, those that are fistulous and deep, applying it on the outside with old pig's fat; this is called axungia by most people."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.26",
+   "bead": 9,
+   "greek": "ὁμοίας δὲ κατὰ γένος ἐστὶ δυνάμεως καὶ τὰ τῶν ἄλλων ὀστρακοδέρμων ὄστρακα καυθέντα, μάλιστα δ’, ὡς ἔφην, τὸ τῶν ὀστρέων, εἶτα τῶν κηρύκων τε καὶ πορφυρῶν.",
+   "english": "The shells of the other testaceans too, when burnt, are of a power similar in kind, but especially, as I said, that of oysters, and next that of whelks and purple-shells."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.27",
+   "bead": 1,
+   "greek": "Περὶ σηπίας.] Ἱκανῶς τὸ σηπίας ὄστρακον χαῦνόν ἐστιν, οὐχ ὥσπερ τὰ τῶν ὀστρείων λιθώδη.",
+   "english": "On the cuttlefish.] The shell of the cuttlefish is quite porous, not stony like those of oysters."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.27",
+   "bead": 2,
+   "greek": "τὸ μὲν οὖν ῥύπτειν, ὥσπερ καὶ τἄλλα τῶν ὀστρακοδέρμων ὄστρακα, κοινὸν αὐτῷ πρὸς ἐκεῖνα, καθάπερ γε καὶ τὸ ξηραίνειν.",
+   "english": "Cleansing, then, it has in common with them, as do the other shells of the testaceans, just as it also has drying."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "mushroom"
+   ],
+   "unit_id": "Simp.11.1.30-11.1.31",
+   "bead": 5,
+   "greek": "φαίνεται δὲ τῶν ἐπιφυομένων τὰ μὲν οἰκεῖα πάντῃ ταῖς φύσεσιν τῶν φυτῶν ἢ ζώων εἶναι, τὰ δ’ οὐ πάντῃ τοιαῦτα, καθάπερ ὁ ἰξὸς ὁ ἐπιφυόμενος ταῖς δρυσὶν, οὐδ’ ἁπλῶς εἴ τι τοῖς δένδροις ἑτερογενὲς ἐπιφύεται δένδρον ἢ θάμνος ἢ καρπὸς ἢ πόα ἢ ὅλως ἐκβλάστημά τι, ﻿ καθάπερ οἱ μύκητες.",
+   "english": "Of outgrowths, some appear to be wholly proper to the natures of the plants or animals, others not wholly such: for example the mistletoe that grows on oaks, or, in general, anything of a different kind that grows on trees, whether tree or shrub or fruit or herb or in general some shoot, as mushrooms do."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "hypocistis"
+   ],
+   "unit_id": "Simp.11.1.30-11.1.31",
+   "bead": 27,
+   "greek": "φαρμακωδέστερα δὲ τούτων βαλαύστιόν τε καὶ ὑποκυστὶς καὶ κύτινοι.",
+   "english": "More drug-like than these are balaustion, hypocistis and cytini."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "gruel"
+   ],
+   "unit_id": "Simp.11.1.30-11.1.31",
+   "bead": 35,
+   "greek": "τοῖς μὲν γὰρ ξηραίνουσι τὰς ὑγρότητας φαρμάκοις ἑψηθέν τε καὶ ὀπτηθὲν καὶ ταγηνισθὲν μίγνυται, τοῖς δὲ τὰ κατὰ θώρακα καὶ πνεύμονα τέμνουσιν τὸ καλούμενον ῥοφητὸν, ὃ μέχρι τοσούτου προσήκει δι’ ὕδατος ἕψειν, ὡς γενέσθαι θερμόν.",
+   "english": "For with drugs that dry up moistures it is mixed boiled, roasted and fried; but with those that cut the matters in the chest and lung, the so-called sippable egg, which should be boiled in water only so long as to become hot."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.33",
+   "bead": 1,
+   "greek": "Περὶ κοχλιῶν.] Κοχλίαι δὲ ὅλοι, μετὰ τῶν ὀστράκων καιόμενοι μιγνυμένης αὐτοῖς κηκίδος ὀμφακίτιδος καὶ πεπέρεως λευκοῦ, μεγάλα ὠφελοῦσι δυσεντερίας, ἐφ’ ὧν οὐδέπω σηπεδονώδη τὰ ἕλκη.",
+   "english": "On snails.] Whole snails, burnt together with their shells, with omphacitis gall and white pepper mixed in with them, are of great benefit in dysenteries, in those cases where the ulcers are not yet putrefying."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:9.3.24"
+   ],
+   "unit_id": "Simp.11.1.33",
+   "bead": 5,
+   "greek": "ἄκαυστοι δ’ οἱ κοχλίαι λειωθέντες ἅμα τοῖς ὀστράκοις ἐπιτίθενται κατά τε τῆς γαστρὸς ὅλης ἐπὶ τῶν ὑδερικῶν, κατά τε τῶν ἐν τοῖς ἄρθροις ὄγκων ἐπὶ τῶν ἀρθριτικῶν.",
+   "english": "Unburnt snails, ground smooth together with their shells, are applied both over the whole belly in the dropsical and over the swellings in the joints in the arthritic."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.35",
+   "bead": 3,
+   "greek": "σκελετεύοντες δὲ αὐτὰς ἄλλοι διδόασι πίνειν δραχμῆς πλῆθος.",
+   "english": "Others, drying them out [σκελετεύοντες, literally 'desiccating', 'mummifying'], give them to drink in the quantity of a drachm."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.36"
+   ],
+   "unit_id": "Simp.11.1.36",
+   "bead": 1,
+   "greek": "Περὶ τεττίγων.] Καὶ τοῖς τέττιξι δὲ ξηροῖς χρῶνταί τινες ἐπὶ τῶν κωλικῶν διαθέσεων, μετὰ πεπέρεως ἴσων τὸν ἀριθμὸν κόκκων, καὶ διδόασιν ἢ τρεῖς ἢ πέντε ἢ ἑπτὰ, κατά τε τὰ διαλείμματα καὶ τοὺς παροξυσμούς.",
+   "english": "On cicadas.] Some also use dried cicadas in colic conditions, together with grains of pepper equal to them in number, and they give either three or five or seven, both during the intermissions and during the paroxysms."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.39",
+   "bead": 1,
+   "greek": "Περὶ γαλῆς.] Γαλῆν δὲ οὐδέποτε ἐκαύσαμεν, ἐφ’ ἧς γεγράφασι τὴν τέφραν καταχριομένην μετ’ ὄξους ὠφελεῖν ποδαγρικούς τε καὶ ἀρθριτικοὺς, ὡς ἱκανῶς διαφορεῖν πεφυκυῖαν, σκελετευθεῖσαν δὲ πινομένην ἐπιλήπτους, κατὰ τὴν αὐτὴν δηλονότι δύναμιν.",
+   "english": "On the weasel.] The weasel we have never burnt. Of it they have written that its ash, smeared on with vinegar, benefits those suffering from podagra and from arthritis, since it is by nature capable of dispersing powerfully; and that, when dried and drunk, it benefits epileptics, evidently by virtue of the same power."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.41"
+   ],
+   "unit_id": "Simp.11.1.40-11.1.41",
+   "bead": 3,
+   "greek": "Περὶ ἱπποκάμπου.] Καὶ τὸν ἱππόκαμπον δὲ τὸ θαλάττιον ζῶον ὅλον καυθὲν ἔγραψάν τινες ἀλωπεκίας ὠφελεῖν, καὶ αὐτὸ δηλονότι ξηραντικῆς τε καὶ λεπτομεροῦς δυνάμεως ὑπάρχειν ἢ τὴν τέφραν αὐτοῦ.",
+   "english": "On the hippocampus.] Some have also written that the hippocampus, the sea animal, burnt whole, benefits alopecias, and that it too, or rather its ash, is evidently of a drying and fine-particled power."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "resin"
+   ],
+   "unit_id": "Simp.11.1.42",
+   "bead": 1,
+   "greek": "Περὶ ταριχηρῶν τελλινῶν.] Καὶ τὰς ταριχηρὰς δὲ τελλίνας καυθείσας καυστικὴν ἐργάζεσθαι τέφραν εἰς τοσοῦτόν φασιν, ὥστε μετὰ κεδρίας μιγνυμένην αὐτὴν, ὅταν ἐκ τῶν ῥιζῶν ἐξέλωμεν τὰς τρίχας τῶν βλεφάρων, ἐνσταζομένην τῷ χωρίῳ κωλύειν αὖθις αὐτὰς ἀναφύεσθαι.",
+   "english": "On salted tellins.] They say also that salted tellins, when burnt, produce an ash so caustic that, mixed with cedar-resin and dropped into the spot when we have pulled the hairs of the eyelids out from their roots, it prevents them from growing again."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "leg"
+   ],
+   "unit_id": "Simp.11.1.49",
+   "bead": 4,
+   "greek": "λέγουσι δὲ κᾀν τοῖς κατ’ Αἴγυπτον χωρίοις σκελετευθέντα τὸν καλούμενον ἀσείρακον τοῖς ὑπὸ σκορπίου πληγεῖσι δίδοσθαι καὶ τὸ καλούμενον κύβιον ἐπὶ κυνὸς δήγματος ὠφελίμως παραλαμβάνεσθαι κατὰ τοῦ τραύματος ἐπιτιθέμενον, ἄλλα τε πολλὰ τοιαῦτα, περὶ ὧν ἐπιπλέον ἐροῦμεν ἐν τοῖς κατὰ ἰδιότητα τῆς ὅλης οὐσίας ἐνεργοῦσιν.",
+   "english": "They say also that in the districts of Egypt the so-called aseirakos, dried, is given to those stung by a scorpion, and that the so-called kybion is usefully employed for the bite of a dog, applied over the wound; and many other such things, about which we shall speak at greater length in the discussion of things that act by a peculiarity of the whole substance."
+  },
+  {
+   "check": "drug names",
+   "kind": "missing",
+   "values": [
+    "sd:11.1.46"
+   ],
+   "unit_id": "Simp.11.1.49",
+   "bead": 6,
+   "greek": "ἔνιοι δὲ τῶν ἔμπροσθεν, ἕνεκα μὲν ψιλώσεως τριχῶν πιτυοκάμπαις τε καὶ ταῖς θαλαττίαις ἀκαλήφαις καὶ λαγωῷ τῷ θαλαττίῳ καὶ σκολοπένδρᾳ τῇ θαλαττίᾳ· πρὸς ὠταλγίαν δὲ σίλφαις ἐνεψηθείσαις τῷ ἐλαίῳ καὶ τοῖς καλουμένοις ὀνίσκοις.",
+   "english": "Some of the earlier ones, for stripping off hairs, used pine-caterpillars, sea nettles, the sea hare and the sea scolopendra; and for earache, silphai boiled in the oil, and the so-called oniskoi."
+  },
+  {
+   "check": "body parts",
+   "kind": "missing",
+   "values": [
+    "bowel"
+   ],
+   "unit_id": "Simp.11.1.49",
+   "bead": 11,
+   "greek": "οὗτος τοίνυν καὶ τὰ τῆς γῆς ἔντερα γέγραφεν ἐν ἐλαίῳ καθεψηθέντα τῶν ὤτων ἀλγήματα πραΰνειν, ἔνιοι δὲ στέατι χηνὸς ἀξιοῦσι μίξαντας οὕτω χρῆσθαι.",
+   "english": "This man, then, has also written that earthworms boiled down in oil soothe pains of the ears; and some think it right to mix them with goose fat and use them thus."
+  },
+  {
+   "check": "drug names",
+   "kind": "intruder",
+   "values": [
+    "seaweed"
+   ],
+   "unit_id": "Simp.11.2.3",
+   "bead": 3,
+   "greek": "δεύτερον δ’ ἄλλο προμηκέστερον τῷ σχήματι κοῦφον καὶ ἀραιὸν, ὀσμὴν φυκίοις ὁμοίαν ἔχον.",
+   "english": "A second is more elongated in shape, light and porous, with a smell like that of seaweeds."
+  }
+ ]
+}

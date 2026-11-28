@@ -1,0 +1,1119 @@
+{
+ "work": "simpl-med-6-11",
+ "rendering": "B",
+ "units": 548,
+ "pairs": 3925,
+ "pairs_skipped_misaligned": 77,
+ "flags": 133,
+ "by_check": {
+  "more/less: greek less, english more": 1,
+  "more/less: greek more, english less": 1,
+  "negation: added": 49,
+  "negation: fewer than the greek": 12,
+  "negation: missing": 38,
+  "negation: more than the greek": 7,
+  "numbers: added": 20,
+  "numbers: missing": 5
+ },
+ "items": [
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    3
+   ],
+   "unit_id": "Simp.6.1.1",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "οὐ μὴν ἀλλὰ καὶ τῇ διωρισμένῃ πείρᾳ, περὶ ἧς ἔμπροσθεν εἴρηται πολλάκις, ἀκριβῶς βασανίσαντες ἐκ τῆς αὐτῆς εὕρομεν τὸ φάρμακον τοῦτο κράσεως.",
+   "unit_id": "Simp.6.1.1",
+   "bead": 8,
+   "english": "Moreover, having tested it accurately also by the qualified experience, about which it has often been said before, we found this drug to be of the same mixture."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "καὶ διὰ τοῦτο μηκέτι ἐπιζήτει ἀκούειν μήθ’ ὅτι σὺν ἑφθῷ μήλῳ κυδονίῳ καταπλασθὲν ἢ ἄρτῳ φλεγμονὰς ὀφθαλμῶν ἰᾶται, μήθ’ ὅτι διαφορεῖ φύματα σὺν ὠμηλύσει λεῖον ἑψηθέν.",
+   "english": "And for this reason do not seek any longer to hear either that, applied as a poultice with boiled quince or with bread, it heals inflammations of the eyes, or that, boiled smooth with ōmēlysis, it disperses phymata.",
+   "unit_id": "Simp.6.1.1",
+   "bead": 18
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Best of all is the one in India, whose juice is this drug brought here and called aloe, which is of very great use because it dries without biting. It is not of a simple nature.",
+   "unit_id": "Simp.6.1.23",
+   "bead": 5,
+   "greek": "ἀρίστη δὲ καὶ ἡ κατὰ τὴν Ἰνδίαν, ἧς ὀπός ἐστιν τὸ κομιζόμενον ἐνταυθοῖ τοῦτο φάρμακον ἡ ἀλόη προσαγορευομένη, χρείαν παμπόλλην παρεχόμενον ἐκ τοῦ ξηραίνειν ἀδήκτως."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἔστι δὲ οὐχ ἁπλῆς φύσεως, ἀλλ’ ὥσπερ καὶ ἡ γεῦσις μαρτυρεῖ, στύφει τε ἅμα καὶ πικράζει.",
+   "unit_id": "Simp.6.1.23",
+   "bead": 6,
+   "english": "As the taste also testifies, it is at once astringent and bitter: it is moderately astringent, but strongly bitter."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Their juice purges through the nostrils for the same reason. To speak generally, they have a drying power that does not bite, and for this reason they also agglutinate wounds and help putrefying parts.",
+   "unit_id": "Simp.6.1.38-6.1.39",
+   "bead": 4,
+   "greek": "ὁ δὲ χυλὸς αὐτῶν ἐκ ῥινῶν καθαίρει διὰ τὴν αὐτὴν αἰτίαν, καὶ καθόλου φάναι ξηραντικὴν ἔχουσι δύναμιν ἄδηκτον, ὅθεν καὶ τραύματα κολλῶσι καὶ τοῖς σηπομένοις βοηθοῦσι."
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    6
+   ],
+   "unit_id": "Simp.6.1.43",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "[6.1.48] [μη΄.",
+   "unit_id": "Simp.6.1.48",
+   "bead": 0,
+   "english": "[6.1.48] [48."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "And for burns and chilblains not only the decoction of these, poured over, but also the shoots are remedies.",
+   "unit_id": "Simp.6.1.58",
+   "bead": 2,
+   "greek": "πυρικαύτων τε καὶ χιμέθλων καὶ τὸ τούτων μὲν ἀφέψημα καταντλώμενον, ἀλλὰ καὶ οἱ κλῶνές εἰσιν ἰάματα."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "καὶ γὰρ ξηρότητος ἀδήκτου μετέχει καὶ ψύξεως μηδέπω ναρκούσης, καὶ ὁ καρπὸς δ’ αὐτοῦ καὶ αἱ ῥίζαι παραπλησίας εἰσὶ δυνάμεως, πλήν γε ὅτι ξηροτέρας τε καὶ ἧττον ψυχρᾶς.",
+   "english": "For it partakes of a dryness that does not bite and of a coldness not yet numbing. Its fruit and its roots are also of a similar power, except that their power is drier and less cold.",
+   "unit_id": "Simp.6.1.60",
+   "bead": 7
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "μέμικται δὲ τι καὶ στύψεως αὐτῷ καὶ διὰ τοῦτο ῥυπτικήν τε ἅμα καὶ τμητικὴν καὶ συνακτικήν τε καὶ πιλητικὴν ἔχει τὴν ἐνέργειαν, ὥστε καὶ πρὸς ἰόνθους καὶ φακοὺς ἔφηλίν τε καὶ κνῆσιν, ἤδη δὲ καὶ πρὸς ψώραν καὶ λέπραν ἁρμόττει, οὐ μὴν ἀλλὰ καὶ σπλῆνας τήκει καὶ ἧπαρ σκιῤῥούμενον.",
+   "unit_id": "Simp.6.2.1",
+   "bead": 3,
+   "english": "But something of astringency is also mixed in it, and for this reason it has an activity that is at once cleansing and cutting, and also contracting and condensing, so that it is suited to ionthoi, phakoi, ephelis and itching, and indeed also to psora and lepra; moreover it also melts spleens and a liver that is becoming scirrhous."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "Simp.6.2.5",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "Simp.6.4.4",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5
+   ],
+   "unit_id": "Simp.6.7.1",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἀναιρεῖ δὲ καὶ ἕλμινθας ἐπιπλαττόμενός τε καὶ μετὰ μέλιτος ἐκλειχόμενος ἢ μετ’ ὀξυκράτου πινόμενος, οὐ μὴν ἀλλὰ καὶ τὸ ἀφέψημα αὐτοῦ τὰς ἕλμινθας ἐκβάλλειν πέφυκε.",
+   "unit_id": "Simp.6.8.3",
+   "bead": 3,
+   "english": "It also kills worms, whether applied as a plaster, licked up with honey, or drunk with oxycrate. Its decoction, too, is by nature able to expel worms."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "Simp.6.9.8",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For nothing is of more varied use than a non-biting and drying drug that is slightly astringent, as will be shown more precisely in the books on the composition of drugs.",
+   "unit_id": "Simp.6.9.8",
+   "bead": 3,
+   "greek": "ἔνιοι δὲ καὶ χυλὸν ἐξ αὐτῶν ποιοῦντες, ἄδηκτον καὶ ξηραῖνον ἴσχουσι φάρμακον εἰς πολλὰ χρήσιμον."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Preface. In writing this seventh treatise on the power of simple drugs, we think it necessary to state at the outset that it will be clear only to those who have studied the preceding books, and not as a side matter.",
+   "unit_id": "Simp.6.9.8",
+   "bead": 7,
+   "greek": "τοὺς γοῦν καλουμένους ἥλους καὶ τύλους, ἔτι τε μυρμηκίας ἐξαίρουσιν αὐτὴν δεύοντες ὄξει δριμεῖ."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ὅσοι μὲν οὖν σώφρονές εἰσιν οἶδ’ ὅτι πεισθήσονται, καὶ εἴπερ ὅλως πεφροντίκασι τῆς προκειμένης θεωρίας, ἀπὸ τῆς ἀρχῆς ἀναλέξονται τὴν ὅλην πραγματείαν· ὅσοι δὲ περίεργοι μᾶλλον ἢ φιλομαθεῖς ὑπάρχουσιν, ἀπειθήσουσι τῇ προσρήσει, καὶ οὐδὲν ἴσως θαυμαστὸν, εἴ γε καὶ μυστηρίων βίβλους ἐτόλμησαν ἔνιοι τῶν ἀμυήτων ἀναγινώσκειν.",
+   "unit_id": "Simp.6.9.8",
+   "bead": 12,
+   "english": "First we recall only this much: that we shall refer everything back to the principles demonstrated earlier. For the differences in the particular activities of each drug arise from its being hot or cold, moist or dry, fine-particled or coarse-particled to such-and-such a degree."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "ἀλλ’ οὔτ’ ἐκείνας ἔγραψαν οἱ γράψαντες τοῖς βεβήλοις οὔτ’ ἐγὼ ταῦτα τοῖς μήπω περὶ τὰ πρῶτα γεγυμνασμένοις.",
+   "english": "But how far it advances in each of the aforementioned qualities cannot be expressed, at least with respect to the most precise truth.",
+   "unit_id": "Simp.6.9.8",
+   "bead": 13
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For when it falls into the ears it sticks fast so that it cannot be dislodged and damages the hearing, so that it often produces deafness.",
+   "unit_id": "Simp.7.10.3",
+   "bead": 6,
+   "greek": "ἐμπίπτουσα γὰρ τοῖς ὠσὶν ἐμπλάττεται ἀναπολύτως καὶ κακοῖ τὴν ἀκοὴν, ὥστε κωφώσεις ἐργάζεσθαι πολλάκις."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "On kankanon.] The root of kankanon is of a power that does not bite and is moderately drying, but of a coarse-particled, clogging substance.",
+   "unit_id": "Simp.7.10.4",
+   "bead": 1,
+   "greek": "Περὶ καγκάνου.] Καγκάνου ἡ ῥίζα δυνάμεως μέν ἐστιν ἀδήκτου τε καὶ μετρίως ξηραντικῆς, οὐσίας δὲ παχυμεροῦς ἐμπλαστικῆς."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Its juice, too, is sight-sharpening and draws out no small quantity of tears, as smoke does, and from this it also has its name.",
+   "unit_id": "Simp.7.10.6",
+   "bead": 2,
+   "greek": "ἐχρῆτο δ’ αὐτῇ τις ἰδιώτης καὶ ὡς στόμαχον ῥωννυούσῃ μετὰ τοῦ καὶ γαστέρα λαπάσσειν."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5
+   ],
+   "unit_id": "Simp.7.10.12",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Let us therefore not think either that what helps it at that time is cooling, as Dioscorides thinks coriander is, because, as he himself says, when applied as a poultice with bread or barley-groats it cures erysipelas. For an exact erysipelas, which is fiery and yellow, coriander with bread would never cure; it cures only one that is already cooling off.",
+   "unit_id": "Simp.7.10.43",
+   "bead": 13,
+   "greek": "διὰ τοῦθ’ ἡμεῖς ἐν τοῖς ἔμπροσθεν λόγοις, ὁπότε τῇ διωρισμένῃ πείρᾳ δοκιμάζειν ἑκάστου τῶν φαρμάκων τὴν δύναμιν ἠξιοῦμεν, ἁπλοῦν ὡς ἔνι μάλιστα τὸ πάθος ἐκλέγεσθαι συνεβουλεύομεν."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "οἱ πολλοὶ δὲ τῶν ἰατρῶν οὐδ’ ὅτι τὰ πλεῖστα τῶν νοσημάτων εὐθὺς ἀπ’ ἀρχῆς εἰσβάλλει σύνθετα γιγνώσκουσιν, οὐδὲ ὡς ἄλλο μέν τι πάθος ἐρυσίπελάς ἐστιν ἀκριβὲς, ἄλλο δ’ ἡ καλουμένη πρὸς ἁπάντων ἡμῶν ἤδη συνήθως, ἢ πρός γε τῶν παλαιῶν, φλεγμονή.",
+   "english": "For this reason, in the earlier books, when we required that the power of each drug be tested by qualified experience, we advised choosing an affection as simple as possible. But most physicians do not know even that most diseases attack as compound right from the beginning.",
+   "unit_id": "Simp.7.10.43",
+   "bead": 14
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Nor do they know that exact erysipelas is one affection, and that which is now customarily called by all of us, or at any rate by the ancients, phlegmone is another.",
+   "unit_id": "Simp.7.10.43",
+   "bead": 15,
+   "greek": "ἄλλα δ’ ἐν τῷ μεταξὺ πάμπολλα τὰ μὲν ὡς ἂν εἴποι τις ἐρυσιπέλατα φλεγμονώδη, τὰ δ’ οἶον φλεγμοναί τινες ἐρυσιπελατώδεις."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "εὕροις δ’ ἄν ποτε καὶ μηδέτερον ἐπικρατοῦν, ἀλλ’ ἀκριβῶς ἰσάζοντα, καίτοι καὶ οἰδηματῶδες ἐνίοτε φαίνεται γιγνόμενον ἐρυσίπελας, ὥσπερ ἕτερον σκιῤῥῶδες, ὥστε καὶ τῶν συνθέτων νοσημάτων οὐκ ὀλίγον ἀθροίζεσθαι πλῆθος.",
+   "english": "In between there are very many others: some one might call phlegmonous cases of erysipelas, others, as it were, certain erysipelatous phlegmonai. You may sometimes also find neither prevailing, but the two exactly balanced.",
+   "unit_id": "Simp.7.10.43",
+   "bead": 16
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "At least this much of them it is necessary to recall: the aforementioned poultice would never cure exact erysipelas.",
+   "unit_id": "Simp.7.10.43",
+   "bead": 18,
+   "greek": "καλῶ δ’ ἀκριβὲς, ἐπειδὰν ὑπὸ χολώδους ῥεύματος ἐμπλησθῇ τὸ μόριον."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "[7.10.48] [μη΄.",
+   "unit_id": "Simp.7.10.48",
+   "bead": 0,
+   "english": "[7.10.48] [48."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τούτου τοῦ θάμνου ὁ μὲν καρπὸς οὐκ ἀγεννῶς στυπτικός ἐστι, τὰ δὲ φύλλα μετρίως, ὥστε καὶ ἡ κατὰ μέρος αὐτῶν χρῆσις πρόδηλος.",
+   "unit_id": "Simp.7.10.62",
+   "bead": 2,
+   "english": "The fruit of this shrub is quite considerably astringent, the leaves moderately so, so that their use in particular cases is also evident."
+  },
+  {
+   "check": "more/less",
+   "kind": "greek less, english more",
+   "unit_id": "Simp.7.11.13",
+   "bead": 4,
+   "greek": "ἔστι δὲ καὶ παχυμερέστερος τοῦ λιβανωτοῦ καὶ ἥκιστα δριμύτητος μετέχων.",
+   "english": "It is also more coarse-particled than the frankincense and partakes of pungency very little."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "Simp.7.12.11",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "The fruit of the tree is quite acerbic and scarcely edible, and it is strongly checking of the belly.",
+   "unit_id": "Simp.7.12.11",
+   "bead": 2,
+   "greek": "στρυφνὸς ἱκανῶς ὁ καρπὸς τοῦ δένδρου καὶ μόγις ἐδώδιμος, ἐφεκτικὸς ἱκανῶς τῆς γαστρός."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It is not, however, cold, but either balanced or a little lower. Its flesh is of thick humours, phlegmatic and cold; for it is eaten, just as the rind is.",
+   "unit_id": "Simp.7.12.19",
+   "bead": 4,
+   "greek": "ἡ δὲ σὰρξ αὐτοῦ παχύχυμός τέ ἐστι καὶ φλεγματικὴ καὶ ψυχρά· αὐτὴ μὲν γὰρ ἐσθίεται καθάπερ καὶ ὁ φλοιός."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4,
+    9
+   ],
+   "unit_id": "Simp.7.12.32",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἀναμνήσαντες οὖν πάλιν κατ’ αὐτὰ τοὺς ἀνεγνωκότας τὰ πρόσθεν, ὡς καθ’ ἑκάστην δύναμιν ἁπλῆν εἰς τάξεις τέτταρας ἐποιησάμεθα τὴν ἐν τῷ μᾶλλόν τε καὶ ἧττον διαίρεσιν, ὅτι τε σαφέσιν ὅροις ἑκάστης τάξεως τὸ πλάτος ἀφωρισάμεθα καὶ αὐτῆς τῶν δυνάμεων εὑρέσεως ἐδιδάξαμέν τινα μέθοδον, ἁπάντων τε τούτων ἀποδείξεις ἐποιησάμεθα καὶ σκοποὺς ἐθέμεθα καὶ κριτήρια καθ’ ἑκάστην δύναμιν ἴδιά τε καὶ κοινὰ, προσθήσομεν οὕτως ἤδη τὰ λείποντα, παρακαλέσαντες, εἴ τις οὐχ ὡμίλησε τοῖς ἔμπροσθεν, ἤτοι καὶ τούτων ἀφίστασθαι παντάπασιν, ἢ εἴπερ ἦν φιλόπονος ἐξ ἀρχῆς πρότερον ἀναλέξασθαι τὴν πραγματείαν.",
+   "unit_id": "Simp.7.12.32",
+   "bead": 7,
+   "english": "So, having once again reminded those who have read the preceding books of these points: that for each simple power we made the division according to the more and the less into four ranks; that we delimited the breadth of each rank by clear boundaries and taught a certain method for the very discovery of the powers; and that we made demonstrations of all these things and laid down aims and criteria, both particular and common, for each power. Having done so, we shall now add what remains."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "On neuras.] Neuras, which some call poterion, is of a drying power that does not bite, so that it is even believed to unite severed nerves.",
+   "unit_id": "Simp.8.13.7",
+   "bead": 1,
+   "greek": "Περὶ νευράδος.] Νευρὰς, ἔνιοι δὲ ποτήριον ὀνομάζουσι, ξηραντικῆς ἀδήκτου δυνάμεώς ἐστιν, ὡς καὶ νεῦρα διακοπέντα πιστεύεσθαι κολλᾷν."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Its root resembles squill both in taste and in power, so that some people even use it when squill is not available.",
+   "unit_id": "Simp.8.16.1",
+   "bead": 2,
+   "greek": "ἡ ῥίζα τούτου σκίλλῃ κατά τε τὴν γεῦσιν ἔοικεν καὶ κατὰ τὴν δύναμιν, ὥστε καὶ χρῶνταί."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τινες αὐτῷ μὴ παρούσης σκίλλης. ἐνεργεῖ γὰρ ἅπαντα κατὰ γένος μὲν ὡσαύτως, ἀσθενεστέρα δὲ μακρῷ.",
+   "unit_id": "Simp.8.16.1",
+   "bead": 3,
+   "english": "For it effects all the same things in the same way as far as kind goes, but is far weaker."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Its power is fine-particled, drying, and does not bite.",
+   "unit_id": "Simp.8.16.6-8.16.7",
+   "bead": 5,
+   "greek": "δύναμις δ’ αὐτοῦ λεπτομερής τ’ ἐστὶ καὶ ξηραντικὴ καὶ ἄδηκτος."
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    7,
+    30
+   ],
+   "unit_id": "Simp.8.16.12-8.16.13",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    37
+   ],
+   "unit_id": "Simp.8.16.12-8.16.13",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It is beneficial not only when taken inside the body, but also when smelled.",
+   "unit_id": "Simp.8.16.17",
+   "bead": 3,
+   "greek": "καὶ εἴσω μὲν τοῦ σώματος λαμβανόμενος, ἀλλὰ καὶ ὀσμώμενος ὠφελεῖ."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τῷ χυλῷ δ’ αὐτοῦ καὶ πρὸς ὀξυδερκίαν μὲν χρῶνται μετὰ μέλιτος, οὐ μὴν ἀλλὰ καὶ διὰ ῥινῶν ἰκτέρους καθαίρουσι, καὶ πρὸς ὤτων ὀδύνας ἤδη κεχρονισμένας αὐτὸ παραλαμβάνουσι, ἐφ’ ὅσον ἐκφράξαι καὶ διακαθῆραι τόν τε πόρον αὐτὸν καὶ τὰς τῶν μηνίγγων ἀποφύσεις ἐστὶ χρεία.",
+   "unit_id": "Simp.8.16.34-8.16.35",
+   "bead": 6,
+   "english": "Its juice they use with honey for sharpness of sight; moreover, they also purge jaundices through the nostrils with it, and they employ it for pains of the ears that have already become chronic, insofar as there is need to clear obstructions from and thoroughly clear out both the passage itself and the offshoots of the meninges."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "οὐ μὴν ἀλλὰ καὶ ὑποχύσεσι καὶ ἀμβλυωπίαις ταῖς διὰ πάχος ὑγρῶν γινομέναις ἀγαθόν ἐστι φάρμακον.",
+   "unit_id": "Simp.8.18.1",
+   "bead": 3,
+   "english": "Moreover, it is also a good drug for suffusions and for amblyopias that arise through thickness of the fluids."
+  },
+  {
+   "check": "more/less",
+   "kind": "greek more, english less",
+   "unit_id": "Simp.8.18.13",
+   "bead": 2,
+   "greek": "καλοῦσι δ’ ἔνιοι καὶ τὴν Ἀχίλλειον σιδηρῖτιν ἐμφερῆ μὲν τῇ προειρημένῃ κατὰ τὴν δύναμιν οὖσαν, εἴς γε τὰ νῦν εἰρημένα, πλεονεκτούσης δ’ αὐτῆς τῇ στύψει.",
+   "english": "Some also call the Achilleios sideritis; it resembles the aforementioned in its power, at least as regards what has now been said, but it exceeds it in astringency."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "On stoibē.] Of stoibē the fruit and the leaves are especially useful, having an astringent power that does not bite.",
+   "unit_id": "Simp.8.18.38",
+   "bead": 1,
+   "greek": "Περὶ στοιβῆς.] Στοιβῆς ὁ καρπὸς καὶ τὰ φύλλα μάλιστ’ ἐστὶ χρήσιμα, στυπτικὴν ἔχοντα δύναμιν ἄδηκτον."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "[8.18.48] [μη΄.",
+   "unit_id": "Simp.8.18.48",
+   "bead": 0,
+   "english": "[8.18.48] [48."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "καίτοι γε ἡ συκίνη πάσης ἀπήλλακται τοιαύτης ποιότητος, ὅτι καὶ αὐτὸ τὸ δένδρον οὐχ ὥσπερ δρῦς καὶ πρῖνος καὶ κόμαρος καὶ φηγὸς καὶ σχῖνος καὶ κισσὸς, ὅσα τ’ ἄλλα τοιαῦτα, τὴν στρυφνὴν ἐπιφαίνει ποιότητα κατ’ οὐδὲν ἑαυτοῦ μέρος, ἀλλ’ ἔστιν ὀποῦ πλῆρες ὅλον ἰσχυροῦ καὶ θερμοῦ καὶ δριμέος.",
+   "english": "Yet the ash of fig-wood is free of every such quality, because the tree itself, unlike oak, holm-oak, arbutus, phēgos-oak, mastic and ivy, and all the others of this kind, does not display the acerbic quality in any part of itself, but is wholly full of a strong, hot and pungent juice.",
+   "unit_id": "Simp.8.19.4",
+   "bead": 8
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5
+   ],
+   "unit_id": "Simp.8.19.7",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Of the other kinds, which are not edible, one is called halicacabum.",
+   "unit_id": "Simp.8.19.14-8.19.15",
+   "bead": 5,
+   "greek": "δύναται γὰρ ἄμφω ταῦτα κατὰ τὴν δευτέραν τάξιν."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "The remaining one of the trychna mentioned is of no use for the treatment of internal parts.",
+   "unit_id": "Simp.8.19.14-8.19.15",
+   "bead": 13,
+   "greek": "τὸ δ’ ὑπόλοιπον τῶν εἰρημένων τρύχνων ἄχρηστόν ἐστιν εἰς τὰς τῶν ἔνδον ἰάσεις."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "So the power of astringents is most contrary to that of pungents, and their quality in taste has nothing similar.",
+   "unit_id": "Simp.8.24.2",
+   "bead": 16,
+   "greek": "ταῦτα μὲν οὖν ἐναργῶς φαίνεται τέμνοντά τε καὶ θερμαίνοντα, καὶ διὰ τοῦθ’ ἕλκοντα πρὸς ἑαυτὰ τὸ ἐκ τῶν πλησιαζόντων μορίων αἷμα."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "How, then, some say that pepper and garlic and all the pungents are astringent, it is not even possible to conceive.",
+   "unit_id": "Simp.8.24.2",
+   "bead": 17,
+   "greek": "τὰ στύφοντα δ’ ἀποκρουόμενα τὸ περιεχόμενον ἐν αὐτοῖς τῷ ψύχειν τε καὶ συνάγειν καὶ πιλεῖν πέφυκεν."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἡ δύναμίς τε οὖν ἐναντιωτάτη τοῖς στύφουσίν ἐστι πρὸς τὰ δριμέα, καὶ ἡ κατὰ τὴν γεῦσιν ποιότης οὐδὲν ὅμοιον ἔχουσα.",
+   "unit_id": "Simp.8.24.2",
+   "bead": 18,
+   "english": "Suppose that, just as they call these astringent, they likewise called sumach and balaustion and omphakion and medlar and the other such things pungent, altering the usage of the Greeks in names."
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    200
+   ],
+   "unit_id": "Simp.9.1.2",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    7,
+    7,
+    20,
+    100,
+    100,
+    100,
+    1000
+   ],
+   "unit_id": "Simp.9.1.2",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἔχει μὲν οὖν τὴν χρόαν τὴν αὐτὴν τῇ μίλτῳ, διαφέρει δ’ αὐτῆς τῷ μὴ μολύνειν ἁπτομένην, καθάπερ ἐκείνην, καὶ κατά γε τὸν λόφον ἐν τῇ Λήμνῳ τὸν ὅλον ὄντα κιῤῥὸν τῇ χρόᾳ, καθ’ ὃν οὔτε δένδρον ἐστὶν οὔτε πέτρα οὔτε φυτὸν, μόνη δ’ ἡ τοιαύτη γῆ.",
+   "unit_id": "Simp.9.1.2",
+   "bead": 9,
+   "english": "Taking small portions of this, she impresses on them the sacred seal of Artemis, and then dries them again in the shade until they are made completely free of moisture. So is produced the drug known to all physicians, the Lemnian seal."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τρεῖς δ’ αὐτῆς εὑρίσκονται διαφοραί· μία μὲν ἡ προειρημένη τῆς ἱερᾶς γῆς, ἧς οὐδεὶς ἄλλος ἅπτεται πλὴν τῆς ἱερείας.",
+   "unit_id": "Simp.9.1.2",
+   "bead": 10,
+   "english": "For, as I said, some call it so because of the seal impressed upon it, just as some, because of its colour, call it Lemnian red ochre."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It has the same colour as red ochre, but differs from it in not staining when touched, as that does.",
+   "unit_id": "Simp.9.1.2",
+   "bead": 11,
+   "greek": "δευτέρα δ’ ἑτέρα τῆς ὄντως μίλτου, χρῶνται δ’ οἱ τέκτονες αὐτῇ μάλιστα."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "And [it is found] on the hill in Lemnos which is entirely tawny in colour, on which there is neither tree nor rock nor plant, but only earth of this sort.",
+   "unit_id": "Simp.9.1.2",
+   "bead": 12,
+   "greek": "τρίτη δ’ ἡ τῆς ῥυπούσης, ᾗ χρῶνται τῶν πλυνόντων ὀθόνας τε καὶ ἐσθῆτας οἱ βουληθέντες."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Three differences of it are found: one is the aforementioned sacred earth, which no one touches except the priestess; the second is another, that of true red ochre, which carpenters use most of all; the third is that of the cleansing earth, which those who wash linens and garments use if they wish.",
+   "unit_id": "Simp.9.1.2",
+   "bead": 13,
+   "greek": "ἀνεγνωκὼς δὲ ἐγὼ παρά τε Διοσκορίδῃ καὶ ἄλλοις τισὶ μίγνυσθαι τράγειον αἷμα τῇ Λημνίᾳ γῇ, κᾀκ τοῦ διὰ μίξεως ταύτης γενομένου πηλοῦ τὴν ἱέρειαν ἀναπλάττειν τε καὶ σφραγίζειν ἃς ὀνομάζουσι Λημνίας σφραγῖδας, ὠρέχθην αὐτὸς ἱστορῆσαι τὴν συμμετρίαν τῆς μίξεως."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἔδοξεν οὖν μοι πυθέσθαι μή τι πρότερόν ποτε τράγειον ἢ αἴγειον αἷμα τῇ γῇ ταύτῃ μιγνύμενον ἐν ἱστορίᾳ παρειλήφασιν.",
+   "unit_id": "Simp.9.1.2",
+   "bead": 26,
+   "english": "It seemed good to me, then, to inquire whether they had received any account of he-goat's or goat's blood having ever formerly been mixed with this earth."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἐπιτηδείως δ’ ἂν χρῶ τηνικαῦτα τῇ τοιαύτῃ γῇ, μετὰ τὸ λειῶσαι δι’ ὕδατος, ἐπιμιγνὺς ῥοδίνου καλοῦ τοσοῦτον, ὅσον τὸ μιχθὲν οὐκ ἐάσει ξηρανθῆναι τὸ φάρμακον.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 8,
+   "english": "In such cases you would suitably use this earth after levigating it with water, mixing in as much good rose oil as will keep the drug from drying out once it is mixed in."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "In this matter, look also at the nature of the body being treated, whether it is soft or hard, knowing always as a universal rule that soft bodies do not bear the power of strong drugs, while hard ones do.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 27,
+   "greek": "ἅπασαι γὰρ ὀνίνασι τὰ πυρίκαυτα παραχρῆμα παραχριόμεναι δι’ ὄξους, ἢ ὀξυκράτου, κωλύουσαι φλυκταινοῦσθαι."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "οὐ μὴν τῆς γ’ ἐνεστώσης πραγματείας ἴδια ταῦτα.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 29,
+   "english": "The present exposition has from the beginning been concerned to find the universal powers of drugs."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It is proper to earth not to melt when it comes near fire, as lead and tin, silver and gold do.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 35,
+   "greek": "ὡσαύτως δ’ ἐπὶ τῆς κούφης καὶ βαρείας σκοπεῖσθαι."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "So when you hear of argyritis or chrysitis or sideritis earth (for some so name the earths taken from mines), do not suppose that the silver or the gold or the iron is blended with the earth throughout. Rather, small particles mixed in lie alongside small particles of the earth: of gold in chrysitis, of silver in argyritis, of iron in sideritis.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 36,
+   "greek": "τῆς μὲν κούφης τοιαύτης γινομένης, ὅταν ἀερώδους οὐσίας μετέχῃ δαψιλοῦς ἐν τῇ δι’ ὅλης ἑαυτῆς κράσει, τῆς δὲ βαρείας, ὅσῳ περ ἂν ᾖ μᾶλλον τοιαύτη, τοσούτῳ μᾶλλον εἰλικρινεστέρας γῆς ὑπαρχούσης."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "And just as nothing sandy is carried in quicklime, so nothing sandy is carried in the Armenian earth either.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 67,
+   "greek": "ὀνομάζω δ’ οὕτω δηλονότι τὴν κεκαυμένην πέτραν."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "μετὰ γὰρ τὸ θραυσθῆναι τῷ δοίδυκι κατὰ τὴν θυίαν, οὕτως ἐστὶ λεία καὶ ἄλιθος ὥσπερ ἡ τίτανος καὶ ὁ Σάμιος ἀστὴρ, οὐ μὴν ὁμοίως γε κούφη τῷ ἀστέρι.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 69,
+   "english": "Hence it is also more condensed than the star and less airy, and for this reason it gives those who look at it carelessly the impression of being a stone."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For present purposes it makes no difference whether we call it stone or earth, so long as we know that it dries to the highest degree.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 70,
+   "greek": "διὸ καὶ πεπύκνωται μᾶλλον αὐτοῦ καὶ ἧττον ἀερώδης ἐστὶν, καὶ διὰ τοῦτο φαντασίαν ἀποφαίνει τοῖς ἀμελέστερον ὁρῶσι λίθος εἶναι."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "διαφέρει δ’ οὐδὲν ὡς πρὸς τὰ παρόντα λίθον ἢ γῆν αὐτὴν ὀνομάζειν, εἰδότας ἄκρως ξηραίνουσαν.",
+   "unit_id": "Simp.9.1.4",
+   "bead": 71,
+   "english": "For it is most fitting for dysenteries and fluxes of the belly, for spitting of blood and catarrh, and in addition for the putrefactive ulcers in the mouth."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "θαυμαστὸν δ’ οὐδὲν τοὺς ἀγνοοῦντας ὅτι τῆς κατὰ φύσιν ἑρμηνείας ἤτοι μίαν μόνην ἀρετὴν θετέον εἶναι τὴν σαφήνειαν, ἢ πρώτην γε τῶν ἄλλων ἁπασῶν καὶ ἀρίστην, εἰς τοσούτους λήρους ἐκτρέπεσθαι.",
+   "english": "It is no wonder that those who do not know that clarity must be set down either as the one and only virtue of natural expression, or at least as the first and best of all the others, are diverted into such nonsense.",
+   "unit_id": "Simp.9.2.1",
+   "bead": 18
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἔστι δ’ ἀποιότερος τῶν εἰρημένων, οὔτε στύψιν οὔτε ῥύψιν οὔτε δῆξιν ἐμφαίνων.",
+   "unit_id": "Simp.9.2.3",
+   "bead": 7,
+   "english": "Now haematites and schistos, galaktites and melitites dissolve into a juice when rubbed, as I said, on whetstones and in mortars."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "There are also other stones that dissolve into a juice, such as the one produced in Egypt, which people use to glaze linen cloths. This stone is more devoid of quality than those already mentioned, displaying neither astringency nor cleansing nor biting.",
+   "unit_id": "Simp.9.2.3",
+   "bead": 8,
+   "greek": "ὅθεν αὐτὸ δὴ τοῦτο μόνον ὑπάρχει τῷ λίθῳ τούτῳ τὸ ξηραίνειν, καὶ διὰ τοῦτο κηρωτῇ μιγνύντες αὐτὸν εἰς ἐπούλωσιν ἑλκῶν ἐπὶ τῶν μαλακῶν σωμάτων χρῶνται."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "Περὶ κισσήρεως.] Κίσσηρις ἐάν τ’ ἐν τοῖς μεταλλευτοῖς τάξῃς αὐτὴν, ἐγκαλέσουσιν οἱ φιλεγκλήμονες, ἄν τ’ ἐν τοῖς λίθοις, οὐ συγχωρήσουσι λίθον εἶναι, πολὺ δὲ μᾶλλον οὐδὲ γῆν, οὐδὲ τῶν ἐκ θαλάττης τι.",
+   "english": "On pumice.] Pumice: if you class it among the mined substances, the fault-finders will find fault; and if among the stones, they will not allow that it is a stone, and much less that it is earth, or any of the things from the sea.",
+   "unit_id": "Simp.9.3.12-9.3.13",
+   "bead": 3
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5
+   ],
+   "unit_id": "Simp.9.3.21",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4,
+    100
+   ],
+   "unit_id": "Simp.9.3.22",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἔνιοι δὲ σπόδιον οὐδετέρως αὐτὴν ὀνομάζουσιν, ᾧ δοκεῖ παραπλησίαν δύναμιν ἔχειν τὸ καλούμενον ἀντισπόδιον.",
+   "unit_id": "Simp.9.3.25",
+   "bead": 5,
+   "english": "Some people call it spodium, in the neuter, and the so-called antispodium seems to have a power similar to it."
+  },
+  {
+   "check": "numbers",
+   "kind": "missing",
+   "values": [
+    4,
+    20
+   ],
+   "unit_id": "Simp.9.3.33-9.3.34",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    24
+   ],
+   "unit_id": "Simp.9.3.33-9.3.34",
+   "bead": null
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    10
+   ],
+   "unit_id": "Simp.9.3.40",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἐδείχθη δὲ καὶ ὡς ἡ καθόλου δύναμις ἐκ πείρας μιᾶς ἐνδεικτικῶς εὑρίσκοιτο, καὶ οὐ τῆς τυχούσης γε πείρας, ἀλλὰ μετὰ τῶν εἰρημένων διορισμῶν γιγνομένης· εὑρεθείσης δ’ ἅπαξ τῆς καθόλου δυνάμεως οὐδεμιᾶς ἔτι πείρας εἶναι χρείαν εἴς γε τὰς κατὰ μέρος ἐνεργείας, ὅτι μὴ πρὸς βεβαίωσιν μόνην ὧν ὁ λόγος εὗρεν.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 8,
+   "english": "Some become cleansing, others repelling, others drawing, others softening, others caustic, others putrefying, others eschar-forming. In addition to these, according to other more specific actions, they become flesh-forming and cicatrizing and agglutinating of fistulas or ulcers, or reducing of overgrowing flesh."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It was also shown that the universal power would be discovered indicatively from a single trial. This is not just any trial, but one carried out with the distinctions that were stated.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 9,
+   "greek": "οὕτως οὖν καὶ νῦν ποιησαίμεθα τὴν κρίσιν τῆς προκειμένης ὕλης, αὕτη δ’ ἐστὶν ἡ ἐκ τῶν ζώων."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "λείπεται δ’ ἡμῖν ἔτι τὴν περὶ τὰ ζῶα διελεῖν ὕλην· εἶτ’ ἔτι τῶν ἐν θαλάττῃ καὶ λίμναις ἢ ὅλως ἐν ὕδατι γεννωμένων ἐστὶν ὑπόλοιπον, ἃ μήτε φυτὰ μήτε γῆ μήτε λίθος ἐστὶ μήτε ζῶον.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 12,
+   "english": "In the book before this one, the ninth of the whole treatise, we went through the material concerning earthy and stony bodies. It remains for us still to go through the material concerning animals."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "After that there still remains what is generated in the sea and lakes, or generally in water, things which are neither plants nor earth nor stone nor animal. Such things are altogether very few, and they will be written of last, after we have gone through what concerns the bodies of animals.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 13,
+   "greek": "ὀλίγιστα δὲ τὰ τοιαῦτα παντάπασίν ἐστι καὶ γεγράψεται τελευταῖα, μετὰ τὸ διελθεῖν ἡμᾶς τὰ κατὰ τὰ σώματα τῶν ζώων."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "ὥσπερ δ’ ἐν τῇ τῶν φυτῶν ὕλῃ καὶ περὶ τῶν ἐξ αὐτῶν γινομένων χυμῶν τὸν λόγον ἐποιησάμην, οὕτως καὶ νῦν οὐ μόνον τῶν στερεῶν μορίων ἐν τοῖς ζώοις ἡ διδασκαλία τῆς δυνάμεως, ἀλλὰ καὶ τῶν ἐν αὐτοῖς περιεχομένων ἔσται, φλέγματος, χολῆς, αἵματος, οὔρου, κόπρου καὶ τῶν ὁμοίων.",
+   "english": "So now too the instruction about power will concern not only the solid parts in animals but also what is contained in them: phlegm, bile, blood, urine, dung and the like. In what was said earlier, not many of the particular items in the materia medica written by the physicians remained unknown to me.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 15
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "πόσις δ’ ἱδρῶτός τε καὶ οὔρου καὶ καταμηνίου γυναικὸς ἀσελγῆ καὶ βδελυρὰ, καὶ τούτων οὐδὲν ἧττον ἡ κόπρος, ἣν διαχριομένην τε τοῖς κατὰ τὸ στόμα καὶ τὴν φάρυγγα μορίοις εἴς τε τὴν γαστέρα καταπινομένην ἔγραψεν ὁ Ξενοκράτης ὅ τί ποτε ποιεῖν δύναται· γέγραφε δὲ καὶ περὶ τοῦ κατὰ τὰ ὦτα ῥύπου καταπινομένου.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 20,
+   "english": "Yet he, at any rate, writes quite credibly, as one who had himself made trial of them. He records which affections the brain or flesh or liver of a human being naturally cures when eaten, and which the bones of the head or shin or fingers cure when drunk, some burnt and others unburnt, and which blood itself cures."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "ἐγὼ μὲν οὖν οὐδὲ τοῦτον ἂν ὑπέμεινα καταπιεῖν, ἐφ’ ᾧ γε μηδέποτε νοσῆσαι.",
+   "english": "These things, then, even if contrary to the laws, are at least not licentious.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 21
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "But the drinking of sweat and urine and a woman's menses is licentious and disgusting. No less so than these is dung.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 22,
+   "greek": "πολὺ δ’ αὐτοῦ βδελυρώτερον ἡγοῦμαι τὴν κόπρον εἶναι."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "The beast called the basilisk I have never even seen, and if what is said about it is true, it is dangerous even to come near this animal.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 30,
+   "greek": "παραπλήσια δὲ τῷ Ξενακράτει καὶ ἄλλοι τινὲς ἔγραψαν περὶ ζώων, ἐξ ὧν καὶ αὐ τὸς ὁ Ξενοκράτης ἐξεγράψατο τὰ πλεῖστα."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "ἐκεῖνα μὲν γὰρ αὐτῶν καὶ γελοῖα, καταδῆσαι τοὺς ἀντιδίκους, ὡς μηδὲν ἐπὶ τοῦ δικανικοῦ δυνηθῆναι φθέγξασθαι, ἢ ἐκτρῶσαι ποιῆσαι τὴν κύουσαν, ἢ μηδέποτε συλλαβεῖν, ὅσα τ’ ἄλλα τοιαῦτα.",
+   "english": "I would not have mentioned these in writing at all, not even if I had sufficient experience of them. In the same way I do not mention the deadly drugs, or those which they themselves call 'affection-producing'.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 35
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Some of these are even ridiculous, such as binding one's legal opponents so that they cannot utter anything in court, or causing a pregnant woman to miscarry, or making her never conceive, and other such things. Most of these are, even by the test of experience, impossible.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 36,
+   "greek": "τὰ μέν γε πλεῖστα εἶναι τούτων ἐστὶ καὶ πρὸς τῆς πείρας ἀδύνατα ὑπάρχειν, ἔνια δὲ εἰ καὶ δυνατὰ, βλαβερὰ γοῦν γ’ ἐστὶ τῷ βίῳ τῶν ἀνθρώπων, ὥστ’ ἐγὼ νὴ τοὺς θεοὺς θαυμάζω κατὰ τίνα τὴν ἔννοιαν ἧκον ἐπὶ τὸ γράφειν αὐτά τινες."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "εἰ μὲν οὖν βασιλεῖς ὄντες ἐν ἀνθρώποις ἐπὶ θανάτῳ κατακεκριμένοις ἐποιήσαντο τὴν πεῖραν αὐτῶν, οὐδὲν ἔπραξαν δεινόν.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 38,
+   "english": "Things that bring disrepute even to the living once they are known, how did they hope these would bring them good repute after death?"
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "So it is one of two things. Either they write, without having made trial themselves, about what they do not know.",
+   "unit_id": "Simp.9.3.40",
+   "bead": 40,
+   "greek": "ἰατροὺς γοῦν τις ἑστῶτας ἐπὶ ῥωποπώλαις θεασάμενος δύο, προσεκόμισεν αὐτοῖς μέλι πιπράσκων δῆθεν."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἀλλὰ καὶ διηγουμένων τινῶν ἤκουσα πιστῶν ἀνθρώπων ἐδηδοκέναι μὲν ἔν τινι πανδοχείῳ ζωμὸν δαψιλῆ μετὰ κρεῶν ἡδίστων, ἤδη δὲ ἐμπεπλησμένων, εὑρεῖν ἐν αὐτῷ δακτύλου μέρος τὸ πρόσω κατ’ αὐτὸν τὸν ὄνυχα, φοβηθέντες δὲ τοὺς ἐν τῷ πανδοχείῳ μὴ καὶ αὐτοὺς φάγωσιν ὡς εἰθισμένοι τοῦ πράγματος, αὐτίκα μὲν ἐξελθεῖν, ἐμέσαντες δὲ τὰ ἐδηδεσμένα τῆς ὁδοιπορίας ἔχεσθαι.",
+   "unit_id": "Simp.10.2.2",
+   "bead": 3,
+   "english": "Moreover, I heard trustworthy people relate that in a certain inn they had eaten abundant broth with most delicious meat, and when they had already eaten their fill, they found in it the front part of a finger, at the nail itself. Fearing that the people in the inn might eat them too, as being accustomed to the practice, they left at once, vomited up what they had eaten, and continued their journey."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    3
+   ],
+   "unit_id": "Simp.10.2.3-10.2.4",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "ἔστι δὲ καὶ τοῦτο ψεῦδος, ὥσπερ γε καὶ τὸ μὴ φύεσθαι τρίχας ἐν ταῖς μασχάλαις, ὃ καλῶς ποιῶν ὁ Ξενοκράτης διέβαλεν ὡς οὐκ ἀληθές.",
+   "english": "This too is a falsehood, as indeed is the claim that hairs do not grow in the armpits, which Xenocrates rightly discredited as untrue.",
+   "unit_id": "Simp.10.2.3-10.2.4",
+   "bead": 2
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "χρὴ δὲ μήπω πεπηγότι ὅσον ἡμικοτυλίῳ παραμῖξαι ὄξους δριμέος ἶσον, ἔπειτ’ ἀναζέσαντα τριχῇ διανέμειν, διδόναι τε καταῤῥοφεῖν ἑκάστης ἡμέρας μέρος ἓν, ὥστ’ ἔξεστί σοι κατ’ ἀγρόν ποτε τῶν ἄλλων ἀποροῦντι καὶ τούτῳ χρήσασθαι τὴν πεῖραν ἀκίνδυνον ἔχοντι.",
+   "english": "One should mix about half a kotylē of it, while not yet congealed, with an equal amount of pungent vinegar, then, having boiled it up, divide it into three and give one portion each day to be gulped down.' So it is open to you, when you are in the country at some time and at a loss for other remedies, to use this too, since the trial of it carries no danger.",
+   "unit_id": "Simp.10.2.3-10.2.4",
+   "bead": 21
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    0.5
+   ],
+   "unit_id": "Simp.10.2.9",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "Περὶ βουτύρου.] Βούτυρος ἢ βούτυρον, ὅπως ἂν ἐθέλῃς ἀῥῥενικῶς τε καὶ οὐδετέρως ὀνομάζειν αὐτόν.",
+   "unit_id": "Simp.10.2.10",
+   "bead": 1,
+   "english": "On butter.] Boutyros or boutyron, whichever you wish to call it, in the masculine or in the neuter."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "Simp.10.2.13",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Some difference also arises from the body that uses the bile, according as it is sensitive or insensitive, readily affected or not readily affected.",
+   "unit_id": "Simp.10.2.13",
+   "bead": 22,
+   "greek": "γίνεται μὲν οὖν καὶ παρὰ τὸ χρώμενον τῇ χολῇ σῶμα διαφορά τις, εὐαίσθητόν τε καὶ δυσαίσθητον ὑπάρχον εὐπαθές τε καὶ δυσπαθές."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It is possible, then, to see clearly how pungent this humour is from its opening haemorrhoids; but it also appears biting to those who use it, and for this reason we take care not to use yellow bile by itself alone for any other disease or symptom.",
+   "unit_id": "Simp.10.2.13",
+   "bead": 25,
+   "greek": "εὔδηλον μὲν οὖν ἔνεστι κᾀκ τοῦ τὰς αἱμοῤῥοΐδας ἀναστομοῦν, ὅπως ἐστὶ δριμὺς ὁ χυμὸς οὗτος, ἀλλὰ καὶ τοῖς χρωμένοις αὐτοῖς φαίνεται δάκνων, καὶ διὰ τοῦτο φυλαττόμεθα πρὸς ἄλλο τι νόσημά τε καὶ σύμπτωμα χρῆσθαι τῇ ξανθῇ χολῇ καθ’ ἑαυτὴν μόνῃ."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "I shall tell you first about the dog's, which one of our teachers used continually. He gave a dog nothing but bones to eat for two days in succession, as a result of which the dung becomes hard and white and least ill-smelling.",
+   "unit_id": "Simp.10.2.19",
+   "bead": 2,
+   "greek": "λέξω δέ σοι περὶ προτέρας τῆς κυνείας, ᾗ συνεχῶς ἐχρῆτό τις τῶν ἡμετέρων διδασκάλων, ὀστᾶ διδοὺς ἐσθίειν κυνὶ μόνα δυεῖν ἐφεξῆς ἡμερῶν, ἐξ ὧν σκληρὰ καὶ λευκὴ καὶ ἥκιστα δυσώδης ἡ κόπρος γίγνεται."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "Simp.10.2.26",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For animals that exercise are always drier than those that do not exercise, and those that use drier and hotter foods are drier than those that use moister and colder ones.",
+   "unit_id": "Simp.10.2.26",
+   "bead": 6,
+   "greek": "ἀεὶ γὰρ τὰ γυμναζόμενα τῶν ἀγυμνάστων ἐστὶ ξηρότερα καὶ τὰ τροφαῖς χρώμενα ξηροτέραις τε καὶ θερμοτέραις τῶν ὑγροτέραις τε καὶ ψυχροτέραις χρωμένων."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Some physicians call the flesh in these parenchyma, because, as they suppose, the blood poured out of the veins congeals around all the vessels, and they give the name flesh only to that in the muscles. Now one ought not to quarrel about names, as we always say, but one must cultivate knowledge of the things themselves.",
+   "unit_id": "Simp.10.2.30",
+   "bead": 13,
+   "greek": "ἔνιοι δὲ τῶν ἰατρῶν τὴν μὲν ἐν τούτοις σάρκα παρέγχυμα καλοῦσιν, διότι τῶν φλεβῶν ἐκχεόμενον τὸ αἷμα περιπήγνυται πᾶσι τοῖς ἀγγείοις, ὡς ἐκεῖνοι νομίζουσιν, τὴν δ’ ἐν τοῖς μυσὶ μόνην ὀνομάζουσι σάρκα."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "περὶ μὲν δὴ τῶν ὀνομάτων, ὡς ἀεί φαμεν, ἐρίζειν οὐ χρὴ, τὴν δὲ τῶν πραγμάτων αὐτῶν ἐπιστήμην ἀσκητέον, ἧς καὶ ἡμεῖς ἀντιποιούμενοι διὰ παντὸς, ὅσα περὶ τῶν καθ’ ἕκαστον ζῶον μορίων ἰδίων καὶ κοινῶν ἐπιστάμεθα, τὰ μὲν ἐκ τῆς πείρας, τὰ δ’ ἐκ τοῦ λόγου διδαχθέντες, ἐφεξῆς ἐροῦμεν ἅπαντα τὴν ἀρχὴν ἀπὸ τῆς ἰδίως ὀνομαζομένης σαρκὸς ποιησάμενοι.",
+   "unit_id": "Simp.10.2.30",
+   "bead": 14,
+   "english": "Laying claim to this knowledge throughout, we shall next set out in order all that we know about the parts, particular and common, in each animal, having learned some things from experience and others from reason. We shall make our beginning from what is properly called flesh."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "δείσαντες οὖν οἱ θερισταὶ μή τι πάθοιεν ἐκ τοῦ πόματος, αὐτοὶ μὲν ὕδατος ἔπιον, ὡς δ’ ἀπηλλάττοντο, χαρίζονται δῆθεν ὑπὸ φιλανθρωπίας τῷ τὸν ἐλέφαντα νοσοῦντι τὸν ὅλον οἶνον, ἄμεινον αὐτῷ κρίναντες εἶναι τεθνάναι μᾶλλον ἢ ζῇν τοιούτῳ.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 7,
+   "english": "The reapers, fearing that they might suffer some harm from the drink, drank water themselves. As they were leaving, they made a present of the whole wine, ostensibly out of humanity, to the man ill with elephas, judging that it was better for him to be dead than to live in such a state."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Another such case arose from a similar chance occurrence in Asian Mysia, not far from our city.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 10,
+   "greek": "ὅσον δ’ ὑπόλοιπον ἦν ἔτι μαλακὸν ἱκανῶς ἐφαίνετο καθάπερ τὸ τῶν καράβων τε καὶ καρκίνων, ὅταν ἀποπέσῃ τὸ πέριξ ὄστρακον."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἕτερον τοιοῦτον ἐξ ὁμοίας περιπτώσεως ἐγένετο κατὰ τὴν ἐν Ἀσίᾳ Μυσίαν, οὐ πόῤῥω τῆς ἡμετέρας πόλεως.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 11,
+   "english": "A man suffering from elephas set out to use naturally hot waters in the hope of benefit."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "Not many days later the affection changed into lepra, and this disease too was cured in its turn with the drugs the god ordered. So great a degree of drying power, then, does the flesh of vipers attain.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 24,
+   "greek": "ἡ μὲν δὴ τῶν ἐχιδνῶν σὰρξ εἰς τοσοῦτον ἥκει τῆς ξηραντικῆς δυνάμεως· ἐπεὶ δ’ ἔνιοι τῶν φαγόντων αὐτὴν ἑάλωσαν δίψει σφοδροτάτῳ καὶ διὰ τοῦτο προσαγορεύουσι τὰς ἐχίδνας διψάδας."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "εἰσὶ δ’ οἳ καὶ τοὺς δηχθέντας ὑπ’ αὐτῶν φασιν οὐκ ἐμπίπλασθαι πίνοντας, ἀλλὰ διαῤῥήγνυσθαι πρότερον ἢ παύσασθαι διψῶντας.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 25,
+   "english": "But some of those who ate it were seized by a most violent thirst, and for this reason they call the vipers dipsades."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "διὰ τοῦτο τῶν ἐν Ῥώμῃ τὰς ἐχίδνας θηρευόντων, οὓς ὀνομάζουσι Μαρσοὺς, ἐπυθόμην εἴ τι σημεῖον ἔχοιέν με διδάξαι διακριτικὸν ἑκατέρου τοῦ γένους τῶν ἐχιδνῶν· οἱ δ’ οὐδὲν ὅλως ἔφασαν εἶναι γένος ἐχιδνῶν διψάδων, ἀλλὰ τὰς παρὰ θαλάττῃ καὶ τόποις ἁλμυρίδα πολλὴν ἔχουσι διαιτωμένας ἁλμυρὰν ἴσχειν τὴν σάρκα, διὸ καὶ κατὰ Λιβύην πολλὰς γίγνεσθαι τοιαύτας, ἐν Ἰταλίᾳ δ’ οὐκ εἶναι διὰ τὴν ὑγρότητα τῆς χώρας.",
+   "english": "There are also some who say that those bitten by them, though they drink, are not filled, but burst before they cease to thirst. For this reason I inquired of those in Rome who hunt vipers, whom they call Marsi, whether they had any sign to teach me that distinguishes the two kinds of vipers.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 26
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "These things, then, I heard the Marsi say, but I cannot state with certainty whether they speak the truth in everything or are also lying in some respect.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 28,
+   "greek": "τὸ μὲν γὰρ ἐν οἷς εἰρήκασι χωρίοις γίνεσθαί τινας ἐχίδνας ἁλυκὴν ἐχούσας τὴν σάρκα πιθανώτατον εἶναί μοι δοκεῖ."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "συμμεταβαλλούσας γὰρ οἶδα ταῖς τροφαῖς τὰς τῶν ζώων σάρκας, οὐ μὴν ὡς οὐδέν ἐστι γένος ἐχιδνῶν διψάδων ἀποφήνασθαι δύναμαι.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 29,
+   "english": "That in the places they named some vipers occur which have salty flesh seems to me most plausible, for I know that the fleshes of animals change along with their foods."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "But I cannot declare that there is no kind of dipsas vipers. The safest course, then, is to take care not to hunt vipers in such places, whether for eating or for the preparation of a drug, such as this celebrated one which nearly all physicians call theriac.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 30,
+   "greek": "τὸ δ’ οὖν ἀσφαλέστατόν ἐστι φυλάττεσθαι τὰς ἐν τοῖς τοιούτοις χωρίοις ἐχίδνας θηρεύειν εἰς ἐδωδὴν ἢ φαρμάκου κατασκευὴν, ὁποῖόν ἐστι καὶ τουτὶ τὸ ἔνδοξον, ὃ καλοῦσιν ἅπαντες σχεδὸν ἰατροὶ θηριακήν."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἴσως γάρ τις ἡμῖν εὐλόγως ἐγκαλέσει καὶ περὶ τῶν ἀρτίσκων τῆς κατασκευῆς ὡς οὐκ ἐν καιρῷ διελθοῦσιν.",
+   "unit_id": "Simp.11.1.1",
+   "bead": 45,
+   "english": "Indeed, someone might perhaps reasonably reproach us even over the preparation of the pastilles, as having gone through it out of place."
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    4
+   ],
+   "unit_id": "Simp.11.1.2",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "ἐπειδὴ δὲ καὶ τὸ τῶν ἐχιδνῶν στέαρ, ὅταν ἐκ ῥιζῶν τις ἀνασπάσας τὰς ἐν ταῖς μασχάλαις τρίχας ἐπαλείφῃ, φασὶ μὴ καὶ ταύτας φύεσθαι, κάλλιον ἔδοξέ μοι καὶ τούτου πειραθῆναι, καὶ πράξας ὡς ἐκέλευσαν εὗρον ψευδομένους αὐτοὺς, ὥσπερ καὶ ὅτι τὰς ἀρχὰς τῶν ὑποχύσεων ἰᾶται.",
+   "unit_id": "Simp.11.1.2",
+   "bead": 40,
+   "english": "Since they also say that the suet of vipers, when someone plucks out the hairs in the armpits by the roots and anoints the place, prevents these from growing again, I thought it better to test this too, and having done as they bade I found them to be lying, as also in the claim that it cures the beginnings of hypochyses."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "τὰ δὲ θερμαίνοντα πάντα διαφοροῦντά τι τῆς πλησιαζούσης οὐσίας εὐθέως αὐτὴν καὶ ξηραίνει, πλὴν εἰ μή τι φύσει ὑγρὸν εἴη, καθάπερ ἔλαιόν τε καὶ ὕδωρ, ἐπίκτητόν τε ποιότητα θερμὴν, οὐ δύναμιν, προσλάβοι, καθάπερ αὐτὰ ταῦτα πυρὶ πλησιάσαντα καὶ ἡλίῳ θερινῷ.",
+   "english": "All things that heat, by dispersing some of the substance that lies near them, at once also dry it. The exception is something moist by nature, such as oil and water, which takes on an acquired hot quality and not a power, as these very things do when brought near fire or the summer sun.",
+   "unit_id": "Simp.11.1.15",
+   "bead": 6
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "In use, however, it appears to do none of the things that such substances do, some of them harming the stomach, others the belly, others the head, others some other part. This drug, by contrast, displays great benefit and inflicts no harm whatever on any part.",
+   "unit_id": "Simp.11.1.15",
+   "bead": 17,
+   "greek": "ὑπονοήσειε μὲν οὖν τις αὐτὸ τῇ τε ὀσμῇ καὶ τῇ γεύσει προσέχων ἀλλοτριωτάτην ἔχειν ἀνθρώπου σώματι τὴν οὐσίαν."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "φαίνεται δὲ τῶν ἐπιφυομένων τὰ μὲν οἰκεῖα πάντῃ ταῖς φύσεσιν τῶν φυτῶν ἢ ζώων εἶναι, τὰ δ’ οὐ πάντῃ τοιαῦτα, καθάπερ ὁ ἰξὸς ὁ ἐπιφυόμενος ταῖς δρυσὶν, οὐδ’ ἁπλῶς εἴ τι τοῖς δένδροις ἑτερογενὲς ἐπιφύεται δένδρον ἢ θάμνος ἢ καρπὸς ἢ πόα ἢ ὅλως ἐκβλάστημά τι, ﻿ καθάπερ οἱ μύκητες.",
+   "english": "Of outgrowths, some appear to be wholly proper to the natures of the plants or animals, others not wholly such: for example the mistletoe that grows on oaks, or, in general, anything of a different kind that grows on trees, whether tree or shrub or fruit or herb or in general some shoot, as mushrooms do.",
+   "unit_id": "Simp.11.1.30-11.1.31",
+   "bead": 5
+  },
+  {
+   "check": "numbers",
+   "kind": "added",
+   "values": [
+    5
+   ],
+   "unit_id": "Simp.11.1.37",
+   "bead": null
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "λέγει δὲ περὶ αὐτοῦ τόνδε τὸν τρόπον· ἀμαθὴς γὰρ ἔφυς καὶ πολυπράγμων, οὐδ’ Αἴσωπον μεμάθηκας, ὃς ἔφασκε λέγων κόρυδον πρώτην πάντων ὀρνίθων γενέσθαι, πρότερον τῆς γῆς, κᾄπειτα νόσῳ τὸν πατέρα αὐτῆς ἀποθνήσκειν, γῆν δ’ οὐκ εἶναι, αὐτὸν δὲ προκεῖσθαι πεμπταῖον, τὴν δ’ ἀποροῦσαν ὑπ’ ἀμηχανίας τὸν πατέρα αὐτῆς ἐν τῇ κεφαλῇ κατορύξαι.",
+   "english": "He speaks of it in this way: 'For you are by nature ignorant and a busybody, and you have not learned your Aesop, who used to say that the crested lark came into being first of all birds, before the earth, and that then her father died of a disease, but there was no earth, and he lay out for five days, and she, at a loss and having no other means, buried her father in her head.' They say that Theocritus too alludes to this when he says, 'Nor are the tomb-crested larks roaming about.' For they say he means those that have the tomb on their head.",
+   "unit_id": "Simp.11.1.37",
+   "bead": 4
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "τοῦτο δέ φασι καὶ τὸν Θεόκριτον αἰνίττεσθαι λέγοντα, Οὐδ’ ἐπιτυμβίδιαι κορυδαλλίδες ἠλαίνοντι. δηλοῦν γὰρ αὐτὸν τὰς τὸν τύμβον ἐπὶ τῆς κεφαλῆς ἐχούσας.",
+   "unit_id": "Simp.11.1.37",
+   "bead": 5,
+   "english": "I have added these things to the account because I wish to show clearly what kind of raising of the hairs on its head the creature, the crested lark, has."
+  },
+  {
+   "check": "negation",
+   "kind": "missing",
+   "greek": "[11.1.48] [μη΄.",
+   "unit_id": "Simp.11.1.48",
+   "bead": 0,
+   "english": "[11.1.48] [48."
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "It has been said many times that drugs of this kind have the property of drawing to the surface what is contained in the depth of the body, and in this way sometimes of stopping pains. For this does not follow from them in every case.",
+   "unit_id": "Simp.11.1.50",
+   "bead": 4,
+   "greek": "εἴρηται δὲ πολλάκις ὡς τοῖς τοιούτοις φαρμάκοις ὑπάρχει τὰ διὰ βάθους ἐν τῷ σώματι περιεχόμενα πρὸς τὴν ἐπιφάνειαν ἕλκειν καὶ κατὰ τοῦτο τὰς ὀδύνας ἐνίοτε παύειν."
+  },
+  {
+   "check": "negation",
+   "kind": "fewer than the greek",
+   "greek": "οὐ γὰρ δὴ διὰ παντός γε τοῦτ’ αὐτοῖς ἕπεται μόνον, ἐκείνων τῶν ὀδυνῶν παυομένων ὑπὸ τῶν τοιούτων φαρμάκων, ἐφ’ ὧν ἐν τῷ βάθει περιέχεται χυμὸς ὀδύνης ποιητικὸς, ἢ διὰ τὸ πάχος τῆς οὐσίας ἢ διὰ ψύξιν ἢ δριμύτητα σφοδρὰν ἢ καὶ πνεῦμα φυσῶδες, οὐκ ἔχον διέξοδον.",
+   "english": "Only those pains are stopped by such drugs in which a humour productive of pain is contained in the depth, whether because of the thickness of its substance, or because of coldness or violent pungency, or else a flatulent pneuma that has no outlet. Those, then, who used the foxes likewise made the oil dispersing.",
+   "unit_id": "Simp.11.1.50",
+   "bead": 5
+  },
+  {
+   "check": "negation",
+   "kind": "added",
+   "english": "For salts consume all the moisture that is in bodies, while the remainder of the solid substance they draw together by their astringency; for this reason they also pickle, and keep unputrefied, the bodies of things that putrefy, which have residual moisture that is undissipated and a substance that is not tightly bound.",
+   "unit_id": "Simp.11.2.4",
+   "bead": 9,
+   "greek": "οὗτοι γὰρ ὅσον μὲν ὑγρόν ἐστιν ἐν τοῖς σώμασι, τοῦτο πᾶν ἐκβόσκονται· τὸ δ’ ὑπόλοιπον τῆς στερεᾶς οὐσίας συνάγουσι τῇ στύψει, διὸ καὶ ταριχεύουσι καὶ ἄσηπτα φυλάσσουσι τὰ σώματα τῶν σηπομένων, ὑγρότητα περιττωματικὴν ἐχόντων ἀδιάλυτόν τε καὶ ἄσφιγκτον τὴν οὐσίαν."
+  },
+  {
+   "check": "negation",
+   "kind": "more than the greek",
+   "greek": "οἷς τοίνυν σώμασι μηδ’ ὅλως ἐστὶν ὑγρότης περιττὴ, καθάπερ τῷ καλλίστῳ μέλιτι, καὶ πεπίληται τὸ στερεὸν σῶμα, καθάπερ τοῖς λίθοις, ἀδύνατον τούτοις σαπῆναι, διόπερ καὶ ἡ τῶν ἁλῶν χρῆσις οὐκ ἐπὶ τούτων εὐδόκιμος, ἀλλ’ ὑφ’ ὧν ὕποπτος ἡ σῆψις.",
+   "english": "Those bodies, then, in which there is no superfluous moisture at all, as in the finest honey, and whose solid body is compacted, as in stones, cannot putrefy; for this reason the use of salts is not esteemed in their case, but in those in which putrefaction is to be suspected.",
+   "unit_id": "Simp.11.2.4",
+   "bead": 10
+  }
+ ]
+}
